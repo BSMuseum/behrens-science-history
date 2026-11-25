@@ -4,7 +4,17 @@ What European students were taught about nature, snapshot by snapshot from 1275 
 
 **Site:** https://history.bsmuseum.org/
 
-A project of the [Behrens Science Museum](https://bsmuseum.org/), compiled by Bruce Behrens with Anthropic's Claude. Corrections are welcome through the museum's [contact page](https://bsmuseum.org/contact-us/) or as an issue here.
+A project of the [Behrens Science Museum](https://bsmuseum.org/), compiled by Bruce Behrens with Anthropic's Claude. Corrections are welcome through the museum's [contact page](https://bsmuseum.org/contact/) or as an issue here.
+
+## Scope and plan
+
+Eighteen snapshot dates from 1275 to 1900 (every fifty years to 1625, then every twenty-five), four regions (France, the Protestant and Catholic German lands, the British Isles), in three phases:
+
+1. **Natural philosophy and natural history.** Under way. The first series, and the first milestone, is natural philosophy at c. 1575, c. 1675 and c. 1775.
+2. **Scientific method and its assumptions.** Planned, to run alongside Phase 1.
+3. **Medicine.** Planned.
+
+Under consideration for later: chemistry and alchemy, sacred chronology, mixed mathematics.
 
 ## What a snapshot is
 
