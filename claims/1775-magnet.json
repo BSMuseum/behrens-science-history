@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text; written before the entry conventions and not yet checked against them. British text: Ferguson's passage 'Magnetism' (Lectures pp. 17-18), with the four kinds of attraction (p. 6), the pores of gold (p. 15), knives magnetized by lightning (p. 177) and the variation of the compass found with the globe (p. 285), all read from the page images; the OCR of the whole book was searched for magnet, loadstone, needle and compass. Martin's Philosophical Grammar (London 1778), 'Wonderful Properties of the Loadstone', pp. 255-257 (ten properties; the cause 'a Secret yet hid from Man'), with Halley's central magnet (p. 238) and iron the only body the loadstone attracts (p. 251), was read from the images the same day and is recorded in texts.json as the second British text for widening; not encoded. Nollet's Lesson XIX only partly read (not his artificial magnets, the law of the force, or what the magnet attracts). Not yet read: Musschenbroek, Euler, Boscovich and Mayer in their own words; Hell's dissertation; Helsham's Lectures. The 'five properties' item is encoded as magnet-poles and magnet-dip (attraction of iron is under magnet-attracts; communication to iron under artificial-magnets). The Britannica's rules for the variation at sea were located from the OCR at vol. 3 pp. 388-389 and are cited read_from 'ocr'. The terms table is not encoded. read_from is 'image' for every Ferguson citation; for the others, 'image' only where the entry quotes the page, otherwise 'unknown'. Biwald's references link to the Munich scans although the reading was done from a Google Books PDF. Erxleben leaf = page + 22 and Nollet t. 6 leaf = page + 29 throughout, as on the site.",
   "revised": {
    "date": "2026-11-21",
@@ -794,7 +798,15 @@
      "entry": "Mechanics"
     }
    ],
-   "note": "Ferguson's wording, reprinted: the four kinds of attraction are Lectures p. 6 at the Britannica's Mechanics p. 33, and the loadstone passage Lectures pp. 17-18 at p. 36"
+   "note": "Ferguson's wording, reprinted: the four kinds of attraction are Lectures p. 6 at the Britannica's Mechanics p. 33, and the loadstone passage Lectures pp. 17-18 at p. 36",
+   "rests_on": [
+    {
+     "claim": "1775-gravity-049",
+     "kind": "instance",
+     "detail": "magnetism one of four kinds of attraction, which seems infused in matter (Mechanics, reprinting Ferguson)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-magnet-031",
@@ -812,6 +824,14 @@
      "page": "361-363",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=371",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-magnet-032",
+     "kind": "premise",
+     "detail": "Boscovich's buried iron does not steer the needle",
+     "basis": "entry"
     }
    ]
   },
@@ -894,6 +914,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n244/mode/1up",
      "read_from": "unknown",
      "vol": "6"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-magnet-026",
+     "kind": "same-agent",
+     "detail": "the magnetic matter that circulates round every magnet, flowing between the earth's poles, steers the needle",
+     "basis": "entry"
     }
    ]
   },
@@ -1213,7 +1241,21 @@
     "orig": "Ich geschweige, daß die ganze Erklärung gekünstelter herauskommen möchte, als die Natur zu handeln pflegt: es bleibt mir wenigstens außerdem auch noch immer in etwas unbegreiflich, wie es zugeht, daß diese magnetische Materie auf so viele Körper gar nicht wirkt, und so ganz ungehindert durch sie durchgehen kann. […] Und warum wird denn ein Eisendrat oder ein Magnet an einem Faden nicht von dem magnetischen Erdwirbel fortgerissen […]? Warum hangen öfters auch die feindlichen Pole zweener Magnete untereinander zusammen, wenn sie dicht an einander gebracht werden?",
     "from_image": true,
     "tr": "I pass over the fact that the whole explanation may come out more contrived than nature's way of acting: it remains to me, besides, still somewhat incomprehensible how it happens that this magnetic matter does not act at all on so many bodies and can pass through them so wholly unhindered. […] And why then is an iron wire or a magnet on a thread not swept along by the earth's magnetic vortex? […] Why do even the hostile poles of two magnets often cling together when they are brought close to one another?"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-magnet-041",
+     "kind": "premise",
+     "detail": "the magnetic matter would act on so few bodies, iron and what contains iron",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-magnet-010",
+     "kind": "premise",
+     "detail": "and pass through all the rest unhindered",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-magnet-047",
@@ -1307,7 +1349,15 @@
     "orig": "Verum fatendum hic est, eam Physicos omnes adhucdum latere, quamvis systemata non pauca procusa fuerint, quae si animo a praeiudiciis libero ad examen vocentur, insolubilibus difficultatibus involuta esse facile apparebit.",
     "from_image": true,
     "tr": "It must be admitted here that it still lies hidden from all natural philosophers, although not a few systems have been forged; examined with a mind free of prejudice, these will easily be seen to be entangled in insoluble difficulties."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-magnet-047",
+     "kind": "premise",
+     "detail": "the failure of Boscovich's account of the needle ends the argument that the cause is unknown",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-magnet-049",
@@ -1440,6 +1490,14 @@
      "page": "353-354",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-magnet-040",
+     "kind": "premise",
+     "detail": "the magnet draws particles from ashes and burnt blood, whence the suspicion of iron in them",
+     "basis": "entry"
     }
    ]
   },
@@ -1637,7 +1695,15 @@
     "lang": "en",
     "orig": "properties peculiar to themselves",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-076",
+     "kind": "instance",
+     "detail": "magnetism the third of four kinds of attraction, which seems infused in matter",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-magnet-063",

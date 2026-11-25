@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text; written before the entry conventions and not yet checked against them. Paris is represented by Sigaud's Traité (a single-topic treatise); under R1 the Paris text is Nollet's Leçons t. 6, with Sigaud supplementary. British text: Ferguson's passage 'Electricity' (Lectures pp. 18-19), with the four kinds of attraction (p. 6) and thunder and lightning in the lecture on pneumatics (pp. 176-177), all read from the page images; the OCR of the whole book was searched for electric, Franklin, Nollet, Leyden, phial, positive, negative, conductor and medical, and none of these occurs in the Lectures' text on electricity (Nollet is named only in the preface, among lecturers on experimental philosophy, leaf 9). Ferguson's separate Introduction to Electricity (1770), whose six sections (the machine, the apparatus, the experiments and the protection of buildings from lightning, medical electricity) are advertised on leaf 1 of the Lectures (image), is a single-topic treatise (R1 clause 2) and was not read. Martin's Philosophical Grammar (London 1778), chapter IX, pp. 105-107 (effluvia excited by rubbing that fly out and return by the body's attraction; lightning from fermenting exhalations, p. 202), was read from the images the same day and is recorded in texts.json as the second British text for widening; not encoded. Not yet read: Nollet's and Franklin's own writings, Beccaria, Priestley 1775, Musschenbroek 1762. The common-ground item on the shock from coated glass is encoded under leyden-discovery (dispute), since its content is the split over attribution. The terms table is not encoded. read_from is 'image' for every Ferguson citation; for the others, 'image' only where the entry quotes the page; other citations are 'unknown', except one 'ocr' (the count of Franklin's name). Biwald's references link to the Munich scans although the reading was done from Google Books PDFs. Siglum B covers both Biwald volumes: one citation, to the preface of the general physics, carries work 'biwald-generalis-1769' (the site gives it no page; canvas 14 is the preface's first). Britannica pages 480 and 485 and their leaves were located from the IA OCR page index; the site cites those passages by section only. Erxleben leaf = page + 22 throughout, as on the site.",
   "revised": {
    "date": "2026-11-21",
@@ -381,6 +385,14 @@
      "page": "423",
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n445/mode/1up",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-electricity-002",
+     "kind": "premise",
+     "detail": "the two classes explained by how bodies take up and hold the electric matter",
+     "basis": "entry"
     }
    ]
   },
@@ -749,7 +761,15 @@
     "from_image": true,
     "tr": "two theories for explaining the phenomena of electricity that have attracted particular attention",
     "note": "German original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-electricity-049",
+     "kind": "premise",
+     "detail": "the conductor between glass and sulphur globes: incomprehensible on Nollet's theory, explained on Franklin's",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-electricity-031",
@@ -906,6 +926,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=338",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-electricity-029",
+     "kind": "premise",
+     "detail": "positive and negative are the excess and defect of each body's natural quantity of the one fluid (Franklin's system)",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -999,7 +1027,15 @@
     "lang": "en",
     "orig": "Dr Watson and Dr Franklin",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-electricity-033",
+     "kind": "premise",
+     "detail": "positive and negative as excess and defect of the one fluid, in Franklin's system",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-electricity-038",
@@ -1426,7 +1462,15 @@
     "orig": "Nach Nollets Theorie ist das unbegreiflich, aber nach der franklinischen kann man es gar wohl erklären. Die eine von beyden Elektricitäten ist positiv, die andere negativ; welche von beyden positiv und welche negativ ist, weiß man nicht; aber die eine hebt die andere auf.",
     "from_image": true,
     "tr": "On Nollet's theory this is incomprehensible, but on the Franklinian it can be explained very well. One of the two electricities is positive, the other negative; which is positive and which negative is not known; but the one cancels the other."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-electricity-035",
+     "kind": "premise",
+     "detail": "on Franklin's theory one of the two electricities is positive, the other negative, and they cancel",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-electricity-050",
@@ -1500,7 +1544,28 @@
     "orig": "Hinc porro elucet, fluidum electricum haud agere impulsu, aut more venti corpora urgentis; tum enim fieri sane deberet, ut corpora levia a positive electricis repellantur, a negative vero electricis attrahantur.",
     "from_image": true,
     "tr": "Hence it is clear that the electric fluid does not act by impulse, or in the manner of a wind pressing on bodies; for then light bodies would have to be repelled by positively electric bodies and attracted by negatively electric ones."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-electricity-034",
+     "kind": "premise",
+     "detail": "light bodies come to positive and negative bodies alike, as the fluid passes one way or the other",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-electricity-052",
+     "kind": "premise",
+     "detail": "the fluid moves light bodies by attractive and repulsive forces, not by impulse",
+     "basis": "entry"
+    },
+    {
+     "question": "action-reaction",
+     "answer": "yes",
+     "kind": "premise",
+     "detail": "action equals reaction (Physica generalis, motion-010)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-electricity-052",
@@ -1728,6 +1793,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=348",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-043",
+     "kind": "premise",
+     "detail": "vapours raised by the summer heat carry the fluid up from the earth",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1804,7 +1877,15 @@
     "lang": "en",
     "orig": "This is called electrical attraction",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-076",
+     "kind": "instance",
+     "detail": "electrical attraction the last of four kinds of attraction, which seems infused in matter",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-electricity-062",
@@ -1868,7 +1949,15 @@
     "lang": "en",
     "orig": "the effluvia of sulphureous and nitrous bodies, and others that may rise into the atmosphere, will ferment with each other, and take fire very often of themselves",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-103",
+     "kind": "premise",
+     "detail": "the atmosphere the receptacle of the sulphureous and nitrous effluvia that ferment and take fire",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-electricity-066",
@@ -1907,6 +1996,14 @@
      "page": "19",
      "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n36/mode/1up",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-076",
+     "kind": "instance",
+     "detail": "electricity a kind of attraction, with cohesion, gravitation and magnetism",
+     "basis": "entry"
     }
    ]
   },
