@@ -1,0 +1,4185 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-globe",
+  "snapshot": "1775",
+  "topic": "globe",
+  "title": "The terraqueous globe",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#globe",
+   "version_encoded": "1795268243-88a6"
+  },
+  "published": "2026-11-17",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the texts, read for this entry; encoded at the same time as the entry was written"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text, on the globe as a whole: its figure, the tides, springs, mountains, the sea, the inside of the earth, volcanoes and earthquakes, the Flood, the theories of the earth and its age. The weather and climates (Erxleben §§737-747), rivers and lakes in detail, and the measurement of mountains are not covered; the bodies dug from the earth are in 1775-earth, the winds in 1775-meteors. For Paris the text is Para du Phanjas, as in the earth entry: Nollet has no lesson on the globe (he treats springs in his lesson on water, t. 4 pp. 9-18, the figure of the earth in his lesson on gravity, t. 2 pp. 148-156, and volcanoes in a paragraph, t. 4 pp. 95-97); those passages are not encoded. Para's fourth treatise, on water (springs, §§667-679, and the sea's saltness, §610), is cited where the first section of his third treatise is silent. Biwald's figure of the earth and tides are in his general physics (cited with work). For Britain the text is Ferguson's Lectures (5th ed., 1776) from 2026-11-21. The Lectures have no lecture on the globe, but the tides (margin heading 'Of the tides', p. 41, and running head 'Of the Tides', p. 42), earthquakes (margin heading 'Earthquakes', p. 178), intermitting springs (margin heading, p. 117) and reciprocating springs (Supplement, Hydrostatics, p. 20) have headed passages; volcanoes close the earthquake passage without a heading (p. 179), and the figure of the earth follows the tides in Lecture II (pp. 46-47). The machine-read text of the whole of Ferguson was searched for shells, fossils, petrifactions, strata, mountains, the Flood, deluge, Noah, creation, central fire, salt and the sea; the disputes on those are not taken up, except that his tables count the years of the world from 4008 before Christ (p. 393). read_from is image where the page image was read, ocr where only the machine-read text was used; every quotation is from an image. Erxleben /page/n = page + 20 for pp. 476-647 (checked from the page images at 477, 580, 593, 606, 613-615, 629-630, 636-637, 641, 644); Para t. 2 /page/n = page + 9 for pp. 5-369 (checked at 5, 8, 9, 18, 22, 23, 24, 32, 33, 43, 44, 62, 72, 73, 356, 369). Ferguson leaf = page + 21 for pp. 41-47, + 35 for p. 117, + 39 for pp. 159-178, + 41 for p. 179, + 55 for p. 247, + 63 for pp. 377 and 393 (read from the images); Supplement p. 20 = leaf 491.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images, as Bruce asked on 2026-11-21 (Ferguson rather than Nicholson, since the tides and earthquakes have headed passages in Ferguson); the Britannica kept as supplementary. Compared by shared five-word sequences in the OCR, the passages of the Britannica's treatises cited here are Ferguson's: Mechanics p. 43 (vol. 3 leaf 58, 48%), Pneumatics p. 491 (vol. 3 leaf 572, 35%) and Hydrostatics p. 808 (vol. 2 leaf 801, 52%) from the Lectures, Astronomy pp. 440 and 473 (vol. 1 leaves 523 and 568, 38% and 49%) from his Astronomy (1764 ed.). Its entries Terraqueous, Earth, Mountain, Sea, Earthquake, Vulcano, Deluge and Petrifaction are its own (0-1%). Claim 029's citation corrected from Hydrostatics p. 847 (leaf 846, the entries Interest and Intermittent) to p. 808 (leaf 801)."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part VI, 'De globo terraqueo', pp. 390-403",
+   "also": {
+    "text": "biwald-generalis-1769",
+    "parts": "Part III, article V, the earth, pp. 341-346; Part III, section II, article VII, the tides, pp. 444-460"
+   }
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Twelfth section §§578-582, pp. 473-478; thirteenth section §§702-763, pp. 580-647"
+  },
+  "P": {
+   "text": "para-theorie-1772",
+   "parts": "t. 2, third treatise, first section, 'Théorie du globe terrestre', §§491-530, pp. 3-100 (read pp. 3-75); fourth treatise, 'Théorie de l'eau', §610 (pp. 255-256) and §§667-679 (pp. 348-369)"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture II, Of central forces, pp. 41-47 (the tides, under the margin heading 'Of the tides', and the figure of the earth); the hydraulic lecture, p. 117 (intermitting springs); the lecture on pneumatics, pp. 174, 178-179 (earthquakes, under the margin heading 'Earthquakes', and volcanoes); Lectures VIII and IX, on the globes, p. 247; Lecture XI and its tables, pp. 377 and 393 (the years of the world); Supplement, Hydrostatics, p. 20 (reciprocating springs)"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "entries Terraqueous (iii 892), Mountain (iii 313), Sea (iii 572-573), Earthquake (ii 464), Vulcano (iii 931), Deluge (ii 414), Petrifaction (iii 474), Fountain (ii 629); treatises Mechanics (iii 43), Astronomy (i 440, 473), Pneumatics (iii 491), Hydrostatics (ii 808)",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. The passages of its treatises cited here are Ferguson's, reprinted: Mechanics p. 43 (Lectures pp. 44-47), Astronomy pp. 440 and 473 (Ferguson's Astronomy, 1764 ed., pp. 14 and 154), Pneumatics p. 491 (Lectures pp. 178-179) and Hydrostatics p. 808 (Lectures p. 117). Its short entries Terraqueous, Earth, Mountain, Sea, Earthquake, Vulcano, Deluge and Petrifaction are its own (0-1% of five-word sequences shared with the Lectures or the Astronomy), and they carry what the Lectures lack: the sea's saltness and the return of its waters under the earth, the uses of the sea, the Flood, and petrifactions."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "The sixth and last part of the particular physics, 'De globo terraqueo', one section in two articles, the outer and the inner structure of the globe; its size and figure are in the general physics, and the tides close the general physics as a corollary of the moon's motions. The animal and vegetable kingdoms on the globe's surface are left to the writers of natural history for want of room.",
+   "cites": [
+    {
+     "page": "390",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=400",
+     "read_from": "ocr"
+    },
+    {
+     "page": "402-403",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=412",
+     "read_from": "image"
+    },
+    {
+     "page": "341",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=363",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    },
+    {
+     "page": "444",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=466",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Within the thirteenth section, on the earth in particular, after the atmosphere and meteors: the unevenness of the surface, the smaller waters, the sea, the inside of the earth, the weather, and 'something more' on the origin of the world and the earth and their changes; the figure of the earth is in the twelfth section, on the world-system and the earth in general.",
+   "cites": [
+    {
+     "page": "580",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n600/mode/1up",
+     "read_from": "image",
+     "section": "§702"
+    },
+    {
+     "page": "629",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n649/mode/1up",
+     "read_from": "image",
+     "section": "§748"
+    },
+    {
+     "page": "476-477",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n496/mode/1up",
+     "read_from": "ocr",
+     "section": "§580"
+    }
+   ]
+  },
+  {
+   "text": "P",
+   "where": "The first section of the third treatise, 'Theory of the earth': the globe taken as isolated, its nature and structure, then its antiquity; as a planet it belongs to astronomy, where the tides are explained. Springs and the sea's saltness are in the fourth treatise, on water.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "3",
+     "url": "https://archive.org/details/b30539584_0002/page/n12/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "8",
+     "url": "https://archive.org/details/b30539584_0002/page/n17/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "72",
+     "url": "https://archive.org/details/b30539584_0002/page/n81/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "348",
+     "url": "https://archive.org/details/b30539584_0002/page/n357/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "No lecture on the globe. Its matter sits in headed passages of other lectures: the tides ('Of the tides') and, after them, the figure of the earth in Lecture II, on central forces, as consequences of the centrifugal force; intermitting springs in the hydraulic lecture, as a natural siphon; earthquakes ('Earthquakes') and, closing that passage, volcanoes in the lecture on pneumatics, after damps and fire-damps in mines, as combustions in the earth. Lectures VIII and IX, on the use of the globes, treat the artificial globe and open with the earth's roundness. The Supplement adds reciprocating springs and ebbing and flowing wells.",
+   "cites": [
+    {
+     "page": "41",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n62/mode/1up",
+     "read_from": "image",
+     "section": "Lecture II"
+    },
+    {
+     "page": "117",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n152/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "178",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n217/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n302/mode/1up",
+     "read_from": "image",
+     "section": "Lectures VIII and IX"
+    },
+    {
+     "page": "Supplement, p. 20",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n491/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "No article on the globe: 'Terraqueous' is a one-line geographical term and 'Earth' sends the reader to Astronomy and Geography. The subject is spread over short entries (Mountain, Sea, Earthquake, Vulcano, Deluge, Petrifaction) and the treatises Mechanics, Astronomy, Pneumatics and Hydrostatics. The passages of the treatises are Ferguson's, reprinted from his Lectures and his Astronomy; the short entries are the Britannica's own.",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "892",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 801
+     },
+     "entry": "Terraqueous"
+    },
+    {
+     "vol": "ii",
+     "page": "464",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 405
+     },
+     "entry": "Earth"
+    },
+    {
+     "vol": "iii",
+     "page": "572",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 659
+     },
+     "entry": "Sea"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-globe-001",
+   "question": "earth-figure",
+   "text": "B",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The degrees of the meridian measured by the Paris Academy's expeditions to the equator and the polar circle grow toward the poles, so the earth stands out at the equator and is pressed in at the poles; the pendulums confirm it, and Newton derived the same figure from mutual attraction and the daily rotation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "degrees measured in Peru, Lapland, France and Italy"
+    },
+    {
+     "kind": "experiment",
+     "detail": "pendulums"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "Newton's theory, with Maclaurin and Clairaut"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean Picard",
+     "dates": "1620-1682",
+     "role": "credited"
+    },
+    {
+     "name": "Pierre-Louis Moreau de Maupertuis",
+     "dates": "1698-1759",
+     "role": "credited"
+    },
+    {
+     "name": "Pierre Bouguer",
+     "dates": "1698-1758",
+     "role": "credited"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "343-344",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=365",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    },
+    {
+     "page": "345-346",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=367",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-002",
+   "question": "earth-figure",
+   "text": "E",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The earth is a compressed spheroid, its equatorial diameter larger than its axis (Maupertuis 178:177, Bouguer 179:178); the difference is small enough that for many purposes it may be taken as a perfect sphere.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the measured degrees"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pierre-Louis Moreau de Maupertuis",
+     "dates": "1698-1759",
+     "role": "reported"
+    },
+    {
+     "name": "Pierre Bouguer",
+     "dates": "1698-1758",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "476-477",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n496/mode/1up",
+     "read_from": "ocr",
+     "section": "§580"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-003",
+   "question": "earth-figure",
+   "text": "P",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Earth and sea together form a spheroid, swollen at the equator and flattened at the poles; the polar radius is shorter by some six or seven leagues, a mean between Maupertuis's polar measure and those taken at the equator, the Cape, in Italy and in France.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pierre-Louis Moreau de Maupertuis",
+     "dates": "1698-1759",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "8",
+     "url": "https://archive.org/details/b30539584_0002/page/n17/mode/1up",
+     "read_from": "image",
+     "section": "§491"
+    },
+    {
+     "vol": "2",
+     "page": "10-11",
+     "url": "https://archive.org/details/b30539584_0002/page/n19/mode/1up",
+     "read_from": "ocr",
+     "section": "§492"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "La Terre & la Mer forment ensemble un sphéroïde, ou une espece de globe, renflé vers son équateur & applati vers ses poles.",
+    "from_image": true,
+    "tr": "Earth and sea together form a spheroid, or a kind of globe, swollen at its equator and flattened at its poles."
+   }
+  },
+  {
+   "id": "1775-globe-004",
+   "question": "earth-figure",
+   "text": "EB",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Globes that turn on their axes are oblate spheroids, higher at the equator than at the poles, and that the earth is of this figure is demonstrable from the actual measurement of degrees, longer in the frigid zones than in the torrid; the treatise on astronomy calls it simply round like a globe.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "measured degrees"
+    },
+    {
+     "kind": "experiment",
+     "detail": "two flexible hoops whirled on an axis"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "43",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 58
+     },
+     "entry": "Mechanics"
+    },
+    {
+     "vol": "i",
+     "page": "440",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 523
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted. The Mechanics passage is Ferguson's Lecture II, pp. 46-47 (48% of the five-word sequences on vol. 3 leaf 58 are shared with the Lectures, OCR); the Astronomy passage is his Astronomy (1764 ed., p. 14; 38% on vol. 1 leaf 523, OCR)."
+  },
+  {
+   "id": "1775-globe-005",
+   "question": "tides-cause",
+   "text": "B",
+   "answer": "moon-attraction",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The tides follow from the action of the sun and moon on the waters, a corollary of the moon's motions and a confirmation of universal gravity; for that reason Biwald treats them at the end of his general physics, though they belong to particular physics.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "universal gravity"
+    },
+    {
+     "kind": "observation",
+     "detail": "the French port observations ordered in 1701"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "444",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=466",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    },
+    {
+     "page": "447-449",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=469",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    },
+    {
+     "page": "460",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=482",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-006",
+   "question": "tides-cause",
+   "text": "E",
+   "answer": "moon-attraction",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The true cause of ebb and flood is the attracting force of the moon, with the sun's help at new and full moon; the earth's turning carries the swelling westward and makes it fall after the moon's passage over the meridian.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "the times and the spring and neap tides"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "605-606",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n625/mode/1up",
+     "read_from": "ocr",
+     "section": "§725"
+    },
+    {
+     "page": "607",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n627/mode/1up",
+     "read_from": "ocr",
+     "section": "§727"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-007",
+   "question": "tides-cause",
+   "text": "P",
+   "answer": "moon-attraction",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The flux and reflux, which raise and lower the sea every six hours by eight to twelve feet, depend on the attraction between the earth, the moon and the sun; the explanation is left to his physical astronomy.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "33",
+     "url": "https://archive.org/details/b30539584_0002/page/n42/mode/1up",
+     "read_from": "image",
+     "section": "§502"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "une dépendance de l’attraction entre la terre, la lune & le soleil",
+    "from_image": true,
+    "tr": "a consequence of the attraction between the earth, the moon and the sun"
+   }
+  },
+  {
+   "id": "1775-globe-008",
+   "question": "tides-cause",
+   "text": "EB",
+   "answer": "moon-attraction",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The cause of the tides was found by Kepler, who made the moon's attracting power draw the waters, and Newton made the theory his own by explaining the tide on the side opposite the moon; the sun's share is small.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "473",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 568
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted: the Britannica's Astronomy here is Ferguson's Astronomy (1764 ed., p. 154; 49% of the five-word sequences on vol. 1 leaf 568, OCR). Its Mechanics (vol. 3 p. 43, leaf 58) also reprints the whirling-table explanation of the tides from his Lectures (pp. 44-45)."
+  },
+  {
+   "id": "1775-globe-009",
+   "question": "figured-stones",
+   "text": "B",
+   "answer": "remains",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Shells and testaceous bodies are dug up in great quantity on the highest mountains and on plains, and whole mountains, some in Styria, are made of shells compacted with time; they came from the sea floor.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "shell mountains in Styria"
+    }
+   ],
+   "cites": [
+    {
+     "page": "395",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=405",
+     "read_from": "ocr"
+    },
+    {
+     "page": "396",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=406",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-010",
+   "question": "figured-stones",
+   "text": "E",
+   "answer": "remains",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Sea animals turned to stone are found everywhere in the earth, lying in orderly layers as they lay beside one another in the sea when they lived.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "640-641",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n660/mode/1up",
+     "read_from": "image",
+     "section": "§758"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-011",
+   "question": "figured-stones",
+   "text": "P",
+   "answer": "remains",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heaps and layers of sea shells and whole petrified fishes, like those now in the sea, are found in every country, far from the sea and on the highest mountains.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "42",
+     "url": "https://archive.org/details/b30539584_0002/page/n51/mode/1up",
+     "read_from": "ocr",
+     "section": "§505"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-012",
+   "question": "figured-stones",
+   "text": "P",
+   "answer": "grown-in-earth",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "Against an anonymous author who holds that fossil shells and fishes were formed in the earth by the laws of vegetation and crystallization and were never sea creatures: one might as well say the urns and furniture of Herculaneum grew in the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the buried city of Herculaneum"
+    },
+    {
+     "kind": "refutation",
+     "detail": "fossils proper to the earth and foreign to it are easily told apart"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "71-72",
+     "url": "https://archive.org/details/b30539584_0002/page/n80/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-013",
+   "question": "figured-stones",
+   "text": "EB",
+   "answer": "remains",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fossil bodies found petrified are chiefly of vegetable or animal origin: sea shells, the teeth, palates and bones of fish, the bones of land animals, more or less changed by stony or mineral matter entering their pores.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "474",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 555
+     },
+     "entry": "Petrifaction"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-014",
+   "question": "strata-order",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Against Woodward: the strata are not always parallel to the horizon, as subsidence from water would require, and their matters do not lie by specific gravity; lighter bodies, such as burnt coals, are often found beneath the hardest rocks and metals.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "inclined strata; coal beneath rock"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Woodward"
+    }
+   ],
+   "persons": [
+    {
+     "name": "John Woodward",
+     "dates": "1665-1728",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=404",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-015",
+   "question": "strata-order",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Digging finds layers of stone and earth lying roughly horizontal; their order does not always follow the specific weight of their matter, which seems to show that they arose from several floods, not one.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "pits and mountains"
+    }
+   ],
+   "cites": [
+    {
+     "page": "611-612",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n631/mode/1up",
+     "read_from": "ocr",
+     "section": "§732"
+    },
+    {
+     "page": "641",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n661/mode/1up",
+     "read_from": "image",
+     "section": "§758"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "die verschiedenen Schichten der Erde, die nicht immer nach dem eigentlichen Gewichte derer Materien liegen, woraus sie bestehen",
+    "from_image": true,
+    "tr": "the different layers of the earth, which do not always lie according to the proper weight of the matters they are made of"
+   }
+  },
+  {
+   "id": "1775-globe-016",
+   "question": "strata-order",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Below the surface the earth is divided into layers, some parallel, some upright or inclined, curved or wavy, with heavy matters often lying on light ones, an image of chaos and of a world in ruin.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "40-41",
+     "url": "https://archive.org/details/b30539584_0002/page/n49/mode/1up",
+     "read_from": "ocr",
+     "section": "§504"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-017",
+   "question": "strata-order",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not found in the entries read."
+  },
+  {
+   "id": "1775-globe-018",
+   "question": "volcano-cause",
+   "text": "B",
+   "answer": "underground-fermentation",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Eruptions are mostly ascribed to a fermentation arising from the mixture of acid and sulphurous matters, which art also imitates; where naphtha, petroleum and resins abound underground the fires last long. The lava of Vesuvius, cooled, proves a mixture of metals and inflammables, which confirms it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "artificial fermentations"
+    },
+    {
+     "kind": "observation",
+     "detail": "the matter of the lava"
+    },
+    {
+     "kind": "authority",
+     "detail": "Kircher's descent into Vesuvius"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Athanasius Kircher SJ",
+     "dates": "1602-1680",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "398-399",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=408",
+     "read_from": "ocr"
+    },
+    {
+     "page": "400",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=410",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-019",
+   "question": "volcano-cause",
+   "text": "E",
+   "answer": "underground-fermentation",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Volcanoes are ascribed to the central fire, perhaps wrongly: what they throw out does not likely come from a great depth, and their fury seems to come from an underground weathering and like causes; their regions are full of sulphur.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the Grotta del Cane and the Solfatara near Naples"
+    }
+   ],
+   "cites": [
+    {
+     "page": "614",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n634/mode/1up",
+     "read_from": "image",
+     "section": "§736"
+    },
+    {
+     "page": "615",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n635/mode/1up",
+     "read_from": "image",
+     "section": "§736"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "das Centralfeuer ist also wohl unschuldig an ihrer Wuth, die von einer unterirdischen Verwitterung und ähnlichen Ursachen herzurühren scheint",
+    "from_image": true,
+    "tr": "the central fire is therefore probably innocent of their fury, which seems to come from an underground weathering and similar causes"
+   }
+  },
+  {
+   "id": "1775-globe-020",
+   "question": "volcano-cause",
+   "text": "P",
+   "answer": "underground-fermentation",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Volcanoes are caused by fires hidden in the mountains, kindled when great masses of combustible matter ferment, and strengthened by the spring of the air and the vapour of water; they are vents of the earth, a provision of Providence against worse disasters.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "volcanoes as vents"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "24-25",
+     "url": "https://archive.org/details/b30539584_0002/page/n33/mode/1up",
+     "read_from": "ocr",
+     "section": "§500"
+    },
+    {
+     "vol": "2",
+     "page": "26",
+     "url": "https://archive.org/details/b30539584_0002/page/n35/mode/1up",
+     "read_from": "ocr",
+     "section": "§500"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-021",
+   "question": "volcano-cause",
+   "text": "EB",
+   "answer": "underground-fermentation",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Some inflammable bodies mixed in due proportion kindle by fermentation alone: Lemery buried fifty pounds of sulphur and iron filings tempered with water, and after eight or nine hours the earth threw up flames; this shows the true cause of Etna and Vesuvius.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Lemery's buried paste of sulphur and iron filings"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Nicolas Lemery",
+     "dates": "1645-1715",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "931",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 842
+     },
+     "entry": "Vulcano"
+    },
+    {
+     "vol": "iii",
+     "page": "491",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 572
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "The entry Vulcano is the Britannica's own (0% of its five-word sequences shared with the Lectures or the Astronomy); it credits Lemery with fifty pounds and eight or nine hours. The Pneumatics passage cited with it is Ferguson's wording, reprinted (Lectures pp. 178-179, unattributed, with 10 or 15 pounds and 8 or 10 hours; 35% on vol. 3 leaf 572). There the Britannica reads 'set on fire' where the 1776 edition misprints 'set or fire' (p. 179, image)."
+  },
+  {
+   "id": "1775-globe-022",
+   "question": "earthquakes-cause",
+   "text": "B",
+   "answer": "underground-fires",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Earthquakes have nearly the same causes as volcanoes: underground vapours set on fire, or the fermentation of sulphurous and bituminous matter mixed with particles of metals, which is why they are commonest where there are volcanoes, metal mines and sulphurous ground.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "where earthquakes are frequent"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Athanasius Kircher SJ",
+     "dates": "1602-1680",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "400",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=410",
+     "read_from": "ocr"
+    },
+    {
+     "page": "402",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=412",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-023",
+   "question": "earthquakes-cause",
+   "text": "E",
+   "answer": "underground-fires",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Earthquakes can hardly come from the central fire, but rather from other fires arisen under the earth, whose heat expands the air shut in caverns and perhaps turns underground water to vapour; strong winds that often break out after earthquakes support the conjecture.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "winds after earthquakes; nearness of volcanoes"
+    }
+   ],
+   "cites": [
+    {
+     "page": "637",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n657/mode/1up",
+     "read_from": "ocr",
+     "section": "§756"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-024",
+   "question": "earthquakes-cause",
+   "text": "P",
+   "answer": "underground-fires",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Underground fires are the only or the principal cause of earthquakes; for shocks felt far away without any eruption he quotes Buffon: air produced by burning pyrites rushes through underground passages as a furious wind.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "25-26",
+     "url": "https://archive.org/details/b30539584_0002/page/n34/mode/1up",
+     "read_from": "ocr",
+     "section": "§500"
+    },
+    {
+     "vol": "2",
+     "page": "29-31",
+     "url": "https://archive.org/details/b30539584_0002/page/n38/mode/1up",
+     "read_from": "ocr",
+     "section": "§500"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-025",
+   "question": "earthquakes-cause",
+   "text": "EB",
+   "answer": "underground-fires",
+   "stance": "holds",
+   "part": "common",
+   "statement": "When combustible matter kindles in the bowels of the earth, where there is little or no vent, it produces earthquakes; an artificial earthquake is made by burying a paste of sulphur and iron filings, which in eight or ten hours bursts out in flames and shakes the ground round about.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the buried paste"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "464",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 405
+     },
+     "entry": "Earthquake"
+    },
+    {
+     "vol": "iii",
+     "page": "491",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 572
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "The entry Earthquake is the Britannica's own (0%) and refers to Pneumatics. The substance of this claim, from Pneumatics p. 491, is Ferguson's wording, reprinted (Lectures p. 178, under the margin heading 'Earthquakes', and p. 179; 35% on vol. 3 leaf 572)."
+  },
+  {
+   "id": "1775-globe-026",
+   "question": "springs-origin",
+   "text": "B",
+   "answer": "rain",
+   "stance": "leans",
+   "part": "common",
+   "statement": "The opinion that springs come from rain and snow gains its greatest strength from the constant observation that springs and rivers rise only in mountainous regions, where snow gathers in winter and rain, fog and vapours are most frequent; the electric fluid may also carry vapours to the ridges.",
+   "confidence": {
+    "level": "probable",
+    "printed": "robur maximum accedit",
+    "translation": "gains its greatest strength"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "springs only in mountainous regions"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Edmond Halley",
+     "dates": "1656-1742",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=402",
+     "read_from": "image"
+    },
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-027",
+   "question": "springs-origin",
+   "text": "E",
+   "answer": "rain",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rain, snow and the other waters falling from the air beyond doubt give a great part of the water of springs; hence springs are rare in the rainless deserts, and Mariotte reckoned that the Seine needs only a sixth of the rain that falls on its basin.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Edme Mariotte",
+     "dates": "c. 1620-1684",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "592",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n612/mode/1up",
+     "read_from": "ocr",
+     "section": "§708"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-028",
+   "question": "springs-origin",
+   "text": "P",
+   "answer": "rain",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All the springs of the world, fresh or salt, have their origin solely in the water of rain and snow, held in basins inside and on the mountains and let out slowly; the rain on France is far more than enough to feed its rivers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "rainfall against the flow of the Seine and the Po"
+    },
+    {
+     "kind": "simplicity",
+     "detail": "the simple, sufficient cause"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Edme Mariotte",
+     "dates": "c. 1620-1684",
+     "role": "credited"
+    },
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "356",
+     "url": "https://archive.org/details/b30539584_0002/page/n365/mode/1up",
+     "read_from": "image",
+     "section": "§671"
+    },
+    {
+     "vol": "2",
+     "page": "357-359",
+     "url": "https://archive.org/details/b30539584_0002/page/n366/mode/1up",
+     "read_from": "ocr",
+     "section": "§672"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Toutes les sources du monde, douces ou salées, ont uniquement pour origine, l’eau des pluies & des neiges.",
+    "from_image": true,
+    "tr": "All the springs of the world, fresh or salt, have their origin solely in the water of rain and snow."
+   }
+  },
+  {
+   "id": "1775-globe-029",
+   "question": "springs-origin",
+   "text": "EB",
+   "answer": "rain",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Intermitting springs are rain sinking through a hill into a cavity and running out as through a siphon; the vapours raised from the sea and falling on the land make a circulation of water.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the siphon model"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "808",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 801
+     },
+     "entry": "Hydrostatics"
+    },
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ],
+   "note": "Citation corrected 2026-11-21: the intermitting springs are in Hydrostatics vol. 2 p. 808 (leaf 801; page number and passage read from the image), not p. 847 (leaf 846, the entries Interest and Intermittent). That passage is Ferguson's wording, reprinted (Lectures p. 117; 52% on leaf 801). The circulation of vapours is from the entry Sea, the Britannica's own."
+  },
+  {
+   "id": "1775-globe-030",
+   "question": "springs-origin",
+   "text": "B",
+   "answer": "sea-underground",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Those who derive springs from the sea, distilled by underground fires and condensed under the mountains, invent things whose existence no argument proves, setting laboratories, alembics and channels wherever springs rise.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "unproved underground stills"
+    }
+   ],
+   "cites": [
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=402",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Verum haec sententia plurima in sinu terrae effingit, quorum existentia nullo argumento evincitur: Chemica nempe laboratoria, alembicos, subterraneos ductus, & canales ad libitum iis in locis collocat, ubi fontium scaturigines occurrunt.",
+    "from_image": true,
+    "tr": "But this opinion invents many things in the bosom of the earth whose existence is proved by no argument: chemical laboratories, alembics, underground ducts and channels, which it places at will wherever the sources of springs occur."
+   }
+  },
+  {
+   "id": "1775-globe-031",
+   "question": "springs-origin",
+   "text": "E",
+   "answer": "sea-underground",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Rain cannot be the only source: Britain gets from rain and snow only half the water its rivers carry off, and there are springs on high mountains and springs that run as much in drought; mountains draw moist vapours; caverns joined to the sea may send up vapours, and near coasts sea water may seep through the earth, though not by capillary rise.",
+   "confidence": {
+    "level": "possible",
+    "printed": "können",
+    "translation": "may"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the rainfall of Britain against its rivers"
+    },
+    {
+     "kind": "observation",
+     "detail": "springs on mountains"
+    }
+   ],
+   "cites": [
+    {
+     "page": "593",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n613/mode/1up",
+     "read_from": "image",
+     "section": "§709"
+    },
+    {
+     "page": "593-594",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n613/mode/1up",
+     "read_from": "ocr",
+     "section": "§710"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-032",
+   "question": "springs-origin",
+   "text": "P",
+   "answer": "sea-underground",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Descartes's distillation needs a chimerical central fire and stills whose vapours would condense before rising; the filtration of sea water would leave in the earth every thirty years a mass of salt equal to all the water the rivers carry in a year, and capillary tubes raise water no higher than thirty-two feet and let none flow out.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "distillation and filtration"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the salt left by filtration"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "349-350",
+     "url": "https://archive.org/details/b30539584_0002/page/n358/mode/1up",
+     "read_from": "ocr",
+     "section": "§668"
+    },
+    {
+     "vol": "2",
+     "page": "351-354",
+     "url": "https://archive.org/details/b30539584_0002/page/n360/mode/1up",
+     "read_from": "ocr",
+     "section": "§669"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-033",
+   "question": "springs-origin",
+   "text": "EB",
+   "answer": "sea-underground",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The first of two reasons why the sea does not grow from the rivers falling into it is that waters return from the sea by subterranean cavities and aqueducts through various parts of the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "waters return from the sea by subterranean cavities and aqueducts, through various parts of the earth",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-034",
+   "question": "mountains-origin",
+   "text": "B",
+   "answer": "created",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Some think the mountains coeval with the earth and made with it, arguing from their great usefulness: they feed the rivers, hold back the sea, check the winds and temper the air.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "the uses of mountains"
+    }
+   ],
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Montes hi quibusdam telluri ipsi coaevi videntur, cum eaque conditi",
+    "from_image": true,
+    "tr": "These mountains seem to some to be coeval with the earth itself, founded with it"
+   }
+  },
+  {
+   "id": "1775-globe-035",
+   "question": "mountains-origin",
+   "text": "B",
+   "answer": "crust-collapse",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Burnet's flat earth before the Flood, whose crust broke and fell into the abyss to make the mountains, disagrees with Moses and with the deserts, where the sun has never cracked the ground so.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Moses, the most ancient historian"
+    },
+    {
+     "kind": "observation",
+     "detail": "no such cracks in the driest deserts"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Burnet",
+     "dates": "c. 1635-1715",
+     "role": "opposed"
+    },
+    {
+     "name": "Moses",
+     "dates": null,
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "393-394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-036",
+   "question": "mountains-origin",
+   "text": "B",
+   "answer": "water-laid",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Woodward's Flood, which dissolved stones and metals and let them settle by weight, needs a universal solvent, cannot explain why shells survived it, and does not fit the strata, which are often missing, inclined and out of the order of weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "no universal solvent; shells unharmed; strata out of order"
+    }
+   ],
+   "persons": [
+    {
+     "name": "John Woodward",
+     "dates": "1665-1728",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=404",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-037",
+   "question": "mountains-origin",
+   "text": "B",
+   "answer": "raised-by-fire",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Many mountains seem to have been raised by underground fires, some while the earth was still covered by water near the time of creation, others later from the shell-filled sea floor, all once volcanic: eruptions that made new islands, fossil coal everywhere, shells on summits and plains, and the jumbled strata and loose boulders of mountains all point to fire rather than floods.",
+   "confidence": {
+    "level": "probable",
+    "printed": "sat probabilis",
+    "translation": "probable enough"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the new island at Santorini, 1707"
+    },
+    {
+     "kind": "observation",
+     "detail": "fossil coal; shells; strata (Vallisneri, Scheuchzer)"
+    }
+   ],
+   "cites": [
+    {
+     "page": "395",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=405",
+     "read_from": "ocr"
+    },
+    {
+     "page": "396",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=406",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Haec porro omnia subterraneorum ignium eruptioni rectius tribui videntur, quam diluviis, aut inundationibus.",
+    "from_image": true,
+    "tr": "All this, moreover, seems more rightly ascribed to the eruption of underground fires than to deluges or floods."
+   }
+  },
+  {
+   "id": "1775-globe-038",
+   "question": "mountains-origin",
+   "text": "E",
+   "answer": "created",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A great many mountains seem original and perhaps as old as the earth, whatever Burnet may dream, since without them from the beginning there could have been no rivers.",
+   "confidence": {
+    "level": "probable",
+    "printed": "scheint",
+    "translation": "seems"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "rivers need mountains to rise from"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Burnet",
+     "dates": "c. 1635-1715",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "642-643",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n662/mode/1up",
+     "read_from": "ocr",
+     "section": "§759"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-039",
+   "question": "mountains-origin",
+   "text": "E",
+   "answer": "water-laid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Others are plainly later: their make-up from layers with petrified animals and plants between them shows that water washed them together from the earthy matter it carried in great changes of the surface.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "layers with petrifactions"
+    }
+   ],
+   "cites": [
+    {
+     "page": "643",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n663/mode/1up",
+     "read_from": "ocr",
+     "section": "§759"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-040",
+   "question": "mountains-origin",
+   "text": "E",
+   "answer": "raised-by-fire",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "If the later mountains had all arisen by earthquakes they would not be built inside so regularly of layers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "regular layers"
+    }
+   ],
+   "cites": [
+    {
+     "page": "643",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n663/mode/1up",
+     "read_from": "ocr",
+     "section": "§759"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-041",
+   "question": "mountains-origin",
+   "text": "P",
+   "answer": "created",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The great primitive chains, higher in the New World and running north to south there but west to east in the Old, admit and ought to admit no physical explanation: they owe their origin simply to the creative act of the Almighty.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "no general cause fits the directions and heights of the chains"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "a created globe must have some configuration"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "credited",
+     "note": "for the directions of the chains"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "20-21",
+     "url": "https://archive.org/details/b30539584_0002/page/n29/mode/1up",
+     "read_from": "ocr",
+     "section": "§499"
+    },
+    {
+     "vol": "2",
+     "page": "22",
+     "url": "https://archive.org/details/b30539584_0002/page/n31/mode/1up",
+     "read_from": "image",
+     "section": "§499"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Il faut donc nécessairement reconnoître que ces montagnes anté-diluviennes doivent purement & simplement leur origine à l’action créatrice du Tout-puissant",
+    "from_image": true,
+    "tr": "We must therefore necessarily acknowledge that these antediluvian mountains owe their origin purely and simply to the creative action of the Almighty"
+   }
+  },
+  {
+   "id": "1775-globe-042",
+   "question": "mountains-origin",
+   "text": "P",
+   "answer": "accumulated",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Small and lower mountains with fossil shells, trees and bones need and allow a physical explanation: the Flood, earthquakes, eruptions, hurricanes and the overflowing of rivers and seas heaped up earth and sand that hardened.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "sand hills raised by African hurricanes"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "22-23",
+     "url": "https://archive.org/details/b30539584_0002/page/n31/mode/1up",
+     "read_from": "image",
+     "section": "§499"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-043",
+   "question": "mountains-origin",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The entry Mountain gives only a definition: a part of the earth rising to a considerable height above its surface.",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "313",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 354
+     },
+     "entry": "Mountain"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-044",
+   "question": "shells-on-mountains",
+   "text": "B",
+   "answer": "raised-by-fire",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Shells reached the summits as the oysters reached the island that rose from the sea at Santorini in 1707: carried up from the sea floor with other bodies by eruptions; had they settled from subsiding water they would lie in strata fitting their specific weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the Santorini island, reported by a Jesuit then on the island, from the Paris Academy's memoirs"
+    }
+   ],
+   "cites": [
+    {
+     "page": "395",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=405",
+     "read_from": "ocr"
+    },
+    {
+     "page": "396",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=406",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-045",
+   "question": "shells-on-mountains",
+   "text": "E",
+   "answer": "land-was-sea",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The orderly layers of petrified sea animals make it probable that the land we now inhabit was once the bottom of the sea; what event made the change we have no record of, and perhaps can have none.",
+   "confidence": {
+    "level": "probable",
+    "printed": "wahrscheinlich",
+    "translation": "probable"
+   },
+   "cites": [
+    {
+     "page": "640-641",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n660/mode/1up",
+     "read_from": "image",
+     "section": "§758"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "macht es insbesondere wahrscheinlich, daß das Land, das wir ietzt bewohnen, vor diesem der Boden des Meeres gewesen sey",
+    "from_image": true,
+    "tr": "makes it particularly probable that the land we now inhabit was formerly the bottom of the sea"
+   }
+  },
+  {
+   "id": "1775-globe-046",
+   "question": "shells-on-mountains",
+   "text": "E",
+   "answer": "deluge",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Because of their orderly position it is not at all credible that they were brought from the sea by floods.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Anton Lazzaro Moro",
+     "dates": "1687-1764",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "641",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n661/mode/1up",
+     "read_from": "image",
+     "section": "§758"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-047",
+   "question": "shells-on-mountains",
+   "text": "E",
+   "answer": "raised-by-fire",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Still less were they raised by earthquakes or other chance causes, as Moro believes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Anton Lazzaro Moro",
+     "dates": "1687-1764",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "641",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n661/mode/1up",
+     "read_from": "image",
+     "section": "§758"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-048",
+   "question": "shells-on-mountains",
+   "text": "P",
+   "answer": "deluge",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The heaps of shells and fishes everywhere, which a celebrated author calls the medals of the Flood, prove nothing but the universal Flood of Scripture; in a year its currents could lay down any number of layers in the hollows of the primitive mountains.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "shells and fishes on every continent"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "42-43",
+     "url": "https://archive.org/details/b30539584_0002/page/n51/mode/1up",
+     "read_from": "ocr",
+     "section": "§505"
+    },
+    {
+     "vol": "2",
+     "page": "68-69",
+     "url": "https://archive.org/details/b30539584_0002/page/n77/mode/1up",
+     "read_from": "ocr",
+     "section": "§517"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-049",
+   "question": "shells-on-mountains",
+   "text": "P",
+   "answer": "shifting-sea",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Shifts of the sea after changes in the earth's centre of gravity may also have left shell-covered shores dry at different times.",
+   "confidence": {
+    "level": "possible",
+    "printed": "peut encore avoir influé",
+    "translation": "may also have played a part"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "69",
+     "url": "https://archive.org/details/b30539584_0002/page/n78/mode/1up",
+     "read_from": "ocr",
+     "section": "§517"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-050",
+   "question": "shells-on-mountains",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The entries Deluge and Petrifaction do not say how the remains came where they lie; the treatise on natural history, to which the entry Fossil refers, was not read."
+  },
+  {
+   "id": "1775-globe-051",
+   "question": "central-fire",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No argument establishes a central fire: if there were one, heat would grow the deeper one goes, which experience denies, and flame cannot last without a constant supply of fresh air, not to be had near the centre.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "heat does not grow with depth"
+    },
+    {
+     "kind": "experiment",
+     "detail": "flame dies without fresh air (Boyle's vacuum)"
+    }
+   ],
+   "cites": [
+    {
+     "page": "397",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=407",
+     "read_from": "image"
+    },
+    {
+     "page": "398",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=408",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Censeo itaque existentiam ignis centralis nullo argumento effici.",
+    "from_image": true,
+    "tr": "I judge, then, that the existence of a central fire is established by no argument."
+   }
+  },
+  {
+   "id": "1775-globe-052",
+   "question": "central-fire",
+   "text": "E",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "There are perhaps not unimportant grounds for an underground or central fire: higher places are always colder than lower, frost never goes deep, sea water never freezes at the bottom, and a little below the surface a nearly constant warmth is felt; Mairan ascribes a great part of the earth's warmth to it.",
+   "confidence": {
+    "level": "possible",
+    "printed": "vielleicht nicht unerhebliche Gründe",
+    "translation": "perhaps not unimportant grounds"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "constant warmth below the surface"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Jacques Dortous de Mairan",
+     "dates": "1678-1771",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "613",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n633/mode/1up",
+     "read_from": "image",
+     "section": "§735"
+    },
+    {
+     "page": "613-614",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n633/mode/1up",
+     "read_from": "ocr",
+     "section": "§735"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Man hat auch vielleicht nicht unerhebliche Gründe, ein unterirdisches Feuer oder ein Centralfeuer anzunehmen.",
+    "from_image": true,
+    "tr": "There are also perhaps not unimportant grounds for assuming an underground fire or a central fire."
+   }
+  },
+  {
+   "id": "1775-globe-053",
+   "question": "central-fire",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The central fire, imagined because of the volcanoes, is as fabulous as the people's hell under the earth; the earth has no fire but what it takes from the sun or from combustible matter near its surface, and a fire shut in the centre could not last without free air and fresh food.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "fire needs air and food"
+    },
+    {
+     "kind": "observation",
+     "detail": "cellars keep about ten degrees above freezing all year"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "31-32",
+     "url": "https://archive.org/details/b30539584_0002/page/n40/mode/1up",
+     "read_from": "ocr",
+     "section": "§501"
+    },
+    {
+     "vol": "2",
+     "page": "33",
+     "url": "https://archive.org/details/b30539584_0002/page/n42/mode/1up",
+     "read_from": "image",
+     "section": "§501"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "un chimérique feu central, dont l’idée anti-philosophique est diamétralement opposée à tout ce que l’expérience & la raison nous apprennent sur la théorie du feu",
+    "from_image": true,
+    "tr": "a chimerical central fire, whose anti-philosophical idea is diametrically opposed to all that experience and reason teach us about the theory of fire"
+   }
+  },
+  {
+   "id": "1775-globe-054",
+   "question": "central-fire",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the entries read."
+  },
+  {
+   "id": "1775-globe-055",
+   "question": "earthquakes-cause",
+   "text": "B",
+   "answer": "electric-fluid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The fermentation opinion seems truest if electricity is added: sulphur, bitumen and other fatty bodies are electrics, and electric vapour generated in great quantity can rush into negatively electric bodies underground, shake and burst them; fires seen on the Schneeberg in the last earthquake, the bellowing and the alternate rocking and jolting all agree with discharges of coated glass.",
+   "confidence": {
+    "level": "probable",
+    "printed": "verissima videtur",
+    "translation": "seems truest"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the discharge of coated glass"
+    },
+    {
+     "kind": "observation",
+     "detail": "fires on the Schneeberg in the latest earthquake"
+    }
+   ],
+   "cites": [
+    {
+     "page": "400",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=410",
+     "read_from": "ocr"
+    },
+    {
+     "page": "402",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=412",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Haecque opinio verissima videtur, si, quod superius diximus, electricitatis quoque ratio habeatur.",
+    "from_image": true,
+    "tr": "And this opinion seems truest if, as we said above, account is also taken of electricity."
+   }
+  },
+  {
+   "id": "1775-globe-056",
+   "question": "earthquakes-cause",
+   "text": "B",
+   "answer": "falling-caverns",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Lucretius's falling caverns are rather effects than causes of earthquakes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Lucretius",
+     "dates": "c. 99-c. 55 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "402",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=412",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-057",
+   "question": "earthquakes-cause",
+   "text": "B",
+   "answer": "enclosed-air",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Air shut in the earth and expanded by heat has great force, but cannot explain shocks that last and return for months, since once it found a way out it would all escape.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "duration and return of shocks"
+    }
+   ],
+   "cites": [
+    {
+     "page": "402",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=412",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-058",
+   "question": "earthquakes-cause",
+   "text": "E",
+   "answer": "electric-fluid",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Some natural philosophers take earthquakes to be, at least in part, effects of the electric force.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "637",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n657/mode/1up",
+     "read_from": "ocr",
+     "section": "§756"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-059",
+   "question": "earthquakes-cause",
+   "text": "E",
+   "answer": "gravity-shift",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Mayer tried to explain earthquakes by a sudden change in the direction of gravity in a region.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Tobias Mayer",
+     "dates": "1723-1762",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "638",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n658/mode/1up",
+     "read_from": "ocr",
+     "section": "§756"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-060",
+   "question": "earthquakes-cause",
+   "text": "P",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Para does not mention electricity among the causes of earthquakes."
+  },
+  {
+   "id": "1775-globe-061",
+   "question": "earthquakes-cause",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The Britannica does not mention electricity among the causes of earthquakes."
+  },
+  {
+   "id": "1775-globe-062",
+   "question": "sea-salt",
+   "text": "B",
+   "answer": "created-salt",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The saltness is ascribed to particles of salt, nitre, sulphur and bitumen mixed with the seas from the very beginning of the world; it persists because evaporation takes off as much fresh water as the rivers bring.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "391",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=401",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-063",
+   "question": "sea-salt",
+   "text": "B",
+   "answer": "salt-beds",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Those who put mountains of salt at the bottom of the sea give no good reason why they are not at length wholly dissolved and the sea made far saltier.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the beds would dissolve"
+    }
+   ],
+   "cites": [
+    {
+     "page": "391",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=401",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-064",
+   "question": "sea-salt",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "salt-beds",
+    "from-rivers",
+    "created-salt",
+    "made-in-sea"
+   ],
+   "part": "dispute",
+   "statement": "If the saltness comes from beds of salt dissolved, why is the sea not saturated (perhaps it is, at depth)? Or does it get all its salt from the rivers, or was it created salt, or is salt perhaps generated in the sea?",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "602-603",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n622/mode/1up",
+     "read_from": "ocr",
+     "section": "§721"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-065",
+   "question": "sea-salt",
+   "text": "P",
+   "answer": "created-salt",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "It is more than likely, as most physicists think, that the sea holds the salt mixed with it from the beginning of time; Providence gave it that degree of saltness to keep it from corrupting and to furnish salt to plants and animals, and the rivers keep the degree constant against evaporation.",
+   "confidence": {
+    "level": "probable",
+    "printed": "plus que vraisemblable",
+    "translation": "more than likely"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "against corruption; salt for living things"
+    },
+    {
+     "kind": "consensus",
+     "detail": "most physicists"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "255-256",
+     "url": "https://archive.org/details/b30539584_0002/page/n264/mode/1up",
+     "read_from": "ocr",
+     "section": "§610"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-066",
+   "question": "sea-salt",
+   "text": "P",
+   "answer": "salt-beds",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "If mountains of salt at the bottom were dissolving, the sea would grow saltier day by day, since it loses none of its salt by evaporation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the sea would grow ever saltier"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "255-256",
+     "url": "https://archive.org/details/b30539584_0002/page/n264/mode/1up",
+     "read_from": "ocr",
+     "section": "§610"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-067",
+   "question": "sea-salt",
+   "text": "EB",
+   "answer": "salt-beds",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The saltness of sea water is very rationally judged to arise from great multitudes of mines and mountains of salt dispersed in the depths of the sea.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "it is very rationally judged to arise from great multitudes both of mines and mountains of salt, dispersed here and there in the depths of the sea",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-068",
+   "question": "sea-salt",
+   "text": "EB",
+   "answer": "from-rivers",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Halley supposes that most of the salt of the sea and of salt lakes comes from the rivers, so that the saltness must increase from time to time.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Edmond Halley",
+     "dates": "1656-1742",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-069",
+   "question": "sea-diminishing",
+   "text": "B",
+   "answer": "exchanges",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Linnaeus seems to hold that the sea is perpetually decreasing, and many report it receding from the shores; but there are weighty difficulties, above all signs that elsewhere the sea has advanced and taken land, as much as it recedes in other places.",
+   "confidence": {
+    "level": "possible",
+    "printed": "difficultates magni momenti",
+    "translation": "difficulties of great weight"
+   },
+   "persons": [
+    {
+     "name": "Carl Linnaeus",
+     "dates": "1707-1778",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "391",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=401",
+     "read_from": "ocr"
+    },
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=402",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-070",
+   "question": "sea-diminishing",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "dispute",
+   "statement": "Linnaeus believes water is turning into earth and the dry land growing; it is certain that the water once stood higher in some places, but just as certain that it now covers land that was dry; the question cannot be decided until longer experience has been gathered from nearly all coasts, and a lower sea would not prove less water.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Carl Linnaeus",
+     "dates": "1707-1778",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "644",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n664/mode/1up",
+     "read_from": "image",
+     "section": "§761"
+    },
+    {
+     "page": "645",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n665/mode/1up",
+     "read_from": "ocr",
+     "section": "§761"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Die Frage scheint wohl noch nicht entschieden werden zu können",
+    "from_image": true,
+    "tr": "The question seems not yet able to be decided"
+   }
+  },
+  {
+   "id": "1775-globe-071",
+   "question": "sea-diminishing",
+   "text": "P",
+   "answer": "exchanges",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The sea has fallen in some places (the old port of Marseilles, Aigues-Mortes, Fréjus, Ravenna, Rosetta and Damietta) and risen in others (Holland, parts of the Indies); it is displaced, not diminished, when a change in the earth's centre of gravity, after a cavern opens in an earthquake, makes it rise in one region and fall in another.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "old ports inland; Holland below the sea"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "hydrostatics of a shifted centre of gravity"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "36-38",
+     "url": "https://archive.org/details/b30539584_0002/page/n45/mode/1up",
+     "read_from": "ocr",
+     "section": "§503"
+    },
+    {
+     "vol": "2",
+     "page": "52-55",
+     "url": "https://archive.org/details/b30539584_0002/page/n61/mode/1up",
+     "read_from": "ocr",
+     "section": "§§510-511"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-072",
+   "question": "sea-diminishing",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The entry Sea explains why the sea does not grow from the rivers, and does not ask whether it is growing less.",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-073",
+   "question": "deluge-universal",
+   "text": "B",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Biwald explains shells and mountains without the Flood and does not say whether it covered the whole earth."
+  },
+  {
+   "id": "1775-globe-074",
+   "question": "deluge-universal",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "dispute",
+   "statement": "Many believe the whole earth was then under water and have difficulty explaining where so much water came from; others hold that the inundation struck only part of the earth's surface.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "639",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n659/mode/1up",
+     "read_from": "ocr",
+     "section": "§757"
+    },
+    {
+     "page": "640",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n660/mode/1up",
+     "read_from": "ocr",
+     "section": "§757"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-075",
+   "question": "deluge-universal",
+   "text": "P",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "All naturalists agree that the globe was once buried under the waters, and the monuments prove the universal Flood of Scripture; to say it struck only the lands of the Tigris and Euphrates is opposed both to sacred history, which raises the waters fifteen cubits above the highest mountains, and to natural history, which finds its monuments on every continent.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Genesis: fifteen cubits above the mountains"
+    },
+    {
+     "kind": "observation",
+     "detail": "marine remains on every continent"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "42",
+     "url": "https://archive.org/details/b30539584_0002/page/n51/mode/1up",
+     "read_from": "ocr",
+     "section": "§505"
+    },
+    {
+     "vol": "2",
+     "page": "44",
+     "url": "https://archive.org/details/b30539584_0002/page/n53/mode/1up",
+     "read_from": "image",
+     "section": "§505"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Prétention diamétralement opposée & à l’histoire sainte & à l’histoire naturelle!",
+    "from_image": true,
+    "tr": "A claim diametrically opposed both to sacred history and to natural history!"
+   }
+  },
+  {
+   "id": "1775-globe-076",
+   "question": "deluge-universal",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Of the deluges recorded in history the most memorable was the universal deluge, or Noah's flood, which overflowed and destroyed the whole earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Noah's flood"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "414",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 343
+     },
+     "entry": "Deluge"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-077",
+   "question": "deluge-natural",
+   "text": "B",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-078",
+   "question": "deluge-natural",
+   "text": "E",
+   "answer": "natural",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Burnet has water shut in the earth break out when the sun dried the crust; Whiston has the comet of 1680 graze the earth with its tail, though it is hard to see how the comet could have got away again; Woodward has God partly suspend the laws of cohesion and gravity.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Thomas Burnet",
+     "dates": "c. 1635-1715",
+     "role": "reported"
+    },
+    {
+     "name": "William Whiston",
+     "dates": "1667-1752",
+     "role": "reported"
+    },
+    {
+     "name": "John Woodward",
+     "dates": "1665-1728",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "639-640",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n659/mode/1up",
+     "read_from": "ocr",
+     "section": "§757"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-079",
+   "question": "deluge-natural",
+   "text": "P",
+   "answer": "miracle",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The universal Flood is plainly impossible in the natural order of things: no physical cause could give the earth or take away such a volume of water, or force the waters against gravity above the mountains; the Almighty, who suspends the laws of nature at will, worked it by miracle. The Cartesian and comet explanations show only that their authors understood neither Scripture nor Descartes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "hydrostatics forbids it"
+    },
+    {
+     "kind": "scripture",
+     "detail": "the Flood of Scripture"
+    }
+   ],
+   "persons": [
+    {
+     "name": "William Whiston",
+     "dates": "1667-1752",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "43",
+     "url": "https://archive.org/details/b30539584_0002/page/n52/mode/1up",
+     "read_from": "image",
+     "section": "§505"
+    },
+    {
+     "vol": "2",
+     "page": "45",
+     "url": "https://archive.org/details/b30539584_0002/page/n54/mode/1up",
+     "read_from": "ocr",
+     "section": "§505"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Ce déluge universel est évidemment impossible dans l’ordre naturel des choses, & selon les loix générales qui animent la nature",
+    "from_image": true,
+    "tr": "This universal flood is plainly impossible in the natural order of things and according to the general laws that animate nature"
+   }
+  },
+  {
+   "id": "1775-globe-080",
+   "question": "deluge-natural",
+   "text": "EB",
+   "answer": "miracle",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Many attempts to account for the deluge by natural causes have only tended to discredit philosophy and render their authors ridiculous.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "414",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 343
+     },
+     "entry": "Deluge"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Many attempts have been made to account for the deluge by means of natural causes: but these attempts have only tended to discredit philosophy, and to render their authors ridiculous.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-081",
+   "question": "earth-theories",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Biwald takes up two of the theories, Burnet's and Woodward's, and refutes both.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "Burnet and Woodward"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Burnet",
+     "dates": "c. 1635-1715",
+     "role": "opposed"
+    },
+    {
+     "name": "John Woodward",
+     "dates": "1665-1728",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "393-394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-082",
+   "question": "earth-theories",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "no",
+    "yes"
+   ],
+   "part": "dispute",
+   "statement": "He sets out the theories of Descartes (a burnt-out sun), Burnet, Whiston (a comet shaped in six years), Leibniz and Maillet (a burnt-out sun), and Buffon (a comet striking the sun), and leaves the choice: whoever can choose none had perhaps best not ask natural philosophers how the earth and the world were made.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "reported"
+    },
+    {
+     "name": "Thomas Burnet",
+     "dates": "c. 1635-1715",
+     "role": "reported"
+    },
+    {
+     "name": "William Whiston",
+     "dates": "1667-1752",
+     "role": "reported"
+    },
+    {
+     "name": "Gottfried Wilhelm Leibniz",
+     "dates": "1646-1716",
+     "role": "reported"
+    },
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "630-636",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n650/mode/1up",
+     "read_from": "ocr",
+     "section": "§§750-754"
+    },
+    {
+     "page": "636",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n656/mode/1up",
+     "read_from": "image",
+     "section": "§754"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Hier sind also Theorien genug: wer noch keine darunter wählen mag, der thut vielleicht am besten, wenn er gar nicht von den Naturforschern zu lernen verlangt, wie die Erde und die Welt geschaffen sind.",
+    "from_image": true,
+    "tr": "Here, then, are theories enough: whoever cares to choose none of them would perhaps do best not to ask the natural philosophers at all how the earth and the world were created."
+   }
+  },
+  {
+   "id": "1775-globe-083",
+   "question": "earth-theories",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whiston, Burnet, Woodward, Leibniz and Buffon have written romances of the earth, before giving its true theory; leave the romances and seek the truth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Whiston twists the history of the creation"
+    },
+    {
+     "kind": "refutation",
+     "detail": "no solid foundations"
+    }
+   ],
+   "persons": [
+    {
+     "name": "William Whiston",
+     "dates": "1667-1752",
+     "role": "opposed"
+    },
+    {
+     "name": "Thomas Burnet",
+     "dates": "c. 1635-1715",
+     "role": "opposed"
+    },
+    {
+     "name": "John Woodward",
+     "dates": "1665-1728",
+     "role": "opposed"
+    },
+    {
+     "name": "Gottfried Wilhelm Leibniz",
+     "dates": "1646-1716",
+     "role": "opposed"
+    },
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "opposed",
+     "note": "his 'sublime jest', not his true principles"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "4-7",
+     "url": "https://archive.org/details/b30539584_0002/page/n13/mode/1up",
+     "read_from": "ocr",
+     "section": "§491"
+    },
+    {
+     "vol": "2",
+     "page": "8",
+     "url": "https://archive.org/details/b30539584_0002/page/n17/mode/1up",
+     "read_from": "image",
+     "section": "§491"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Mais laissons les romans, & cherchons la vérité.",
+    "from_image": true,
+    "tr": "But let us leave the romances, and seek the truth."
+   }
+  },
+  {
+   "id": "1775-globe-084",
+   "question": "earth-theories",
+   "text": "EB",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Natural accounts of the Deluge have only discredited philosophy.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "414",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 343
+     },
+     "entry": "Deluge"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-085",
+   "question": "earth-age",
+   "text": "B",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-086",
+   "question": "earth-age",
+   "text": "E",
+   "stance": "declines",
+   "part": "dispute",
+   "statement": "That the world had a beginning he cannot and may not prove here; that a wise, mighty and good Creator made it, the contemplation of it teaches every reasonable person. He reports Moses's account that the Flood came about 1600 years after the creation, without a reckoning of his own.",
+   "persons": [
+    {
+     "name": "Moses",
+     "dates": null,
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "629",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n649/mode/1up",
+     "read_from": "image",
+     "section": "§748"
+    },
+    {
+     "page": "639",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n659/mode/1up",
+     "read_from": "ocr",
+     "section": "§757"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Daß sie einen Anfang gehabt habe, kann und darf ich hier nicht erweisen",
+    "from_image": true,
+    "tr": "That it had a beginning I cannot and may not prove here"
+   }
+  },
+  {
+   "id": "1775-globe-087",
+   "question": "earth-age",
+   "text": "P",
+   "answer": "scripture-chronology",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "By the sacred books, the oldest and most authentic of historical monuments, the earth's existence goes back from 1771 only about 5808 or 7572 years, the two figures coming from the Hebrew and the Septuagint chronologies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "the chronology of Genesis"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "72",
+     "url": "https://archive.org/details/b30539584_0002/page/n81/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "l’existence de la terre ne remonte au-delà de l’année présente 1771, qu’à environ 5808, ou 7572 ans",
+    "from_image": true,
+    "tr": "the existence of the earth goes back beyond the present year 1771 only about 5808, or 7572, years"
+   }
+  },
+  {
+   "id": "1775-globe-088",
+   "question": "earth-age",
+   "text": "P",
+   "answer": "far-older",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The opinion that gives the earth more antiquity than Scripture rests on no solid proof from physics, history or astronomy: what is seen on and in the earth comes from its first constitution, the Flood and natural causes over a few thousand years; nations, sciences and arts are recent; the Egyptian, Chaldean, Indian and Chinese antiquities are fables.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the recent origin of nations, sciences and arts"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Egyptian, Chaldean and Chinese chronologies"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "73",
+     "url": "https://archive.org/details/b30539584_0002/page/n82/mode/1up",
+     "read_from": "image",
+     "section": "§520"
+    },
+    {
+     "vol": "2",
+     "page": "74-75",
+     "url": "https://archive.org/details/b30539584_0002/page/n83/mode/1up",
+     "read_from": "ocr",
+     "section": "§520"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "L’opinion qui donne à la terre plus d’antiquité que ne lui en donne l’Ecriture sainte, n’est fondée sur aucune preuve solide, tirée de la physique, de l’histoire, de l’astronomie.",
+    "from_image": true,
+    "tr": "The opinion that gives the earth more antiquity than Holy Scripture gives it is founded on no solid proof drawn from physics, history or astronomy."
+   }
+  },
+  {
+   "id": "1775-globe-089",
+   "question": "earth-age",
+   "text": "P",
+   "answer": "eternal",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Aristotle's eternal earth, Epicurus's chance concourse of atoms and Telliamed's eternal changes between opaque and luminous star deserve no attention from a physicist.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Benoît de Maillet",
+     "dates": "1656-1738",
+     "role": "opposed",
+     "note": "Telliamed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "62-63",
+     "url": "https://archive.org/details/b30539584_0002/page/n71/mode/1up",
+     "read_from": "ocr",
+     "section": "§514"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-090",
+   "question": "earth-age",
+   "text": "EB",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "The entry Sea reports Halley's proposal that the age of the world could be found from the growth of the sea's saltness, measured in different ages; it gives no age.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Edmond Halley",
+     "dates": "1656-1742",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "it would be easy from thence, by rules of proportion, to find the age of the world very nearly",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-091",
+   "question": "first-forming-physics",
+   "text": "P",
+   "answer": "no-creation",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The great mountains, like the globe's first form, are the Creator's free work, made before he subjected heaven and earth to physical laws; only later changes ask for physical causes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a free Creator gave the globe its configuration"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "22",
+     "url": "https://archive.org/details/b30539584_0002/page/n31/mode/1up",
+     "read_from": "image",
+     "section": "§499"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-092",
+   "question": "first-forming-physics",
+   "text": "E",
+   "answer": "no-knowledge",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The theories of the earth's making are many and none deserves choosing; he ends the section on the earth's future end by declining a matter that is properly not even a subject of natural philosophy.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "636",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n656/mode/1up",
+     "read_from": "image",
+     "section": "§754"
+    },
+    {
+     "page": "646-647",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n666/mode/1up",
+     "read_from": "ocr",
+     "section": "§763"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-093",
+   "question": "first-forming-physics",
+   "text": "B",
+   "answer": "physical",
+   "stance": "leans",
+   "part": "why",
+   "statement": "Biwald lets underground fires raise mountains while the earth was still under water near the time of creation, and puts no limit of principle on physical explanation.",
+   "confidence": {
+    "level": "probable",
+    "printed": "sat probabilis",
+    "translation": "probable enough"
+   },
+   "cites": [
+    {
+     "page": "396",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=406",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-094",
+   "question": "first-forming-physics",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "The Britannica does not discuss the earth's first forming in the entries read."
+  },
+  {
+   "id": "1775-globe-095",
+   "question": "scripture-nature",
+   "text": "B",
+   "answer": "authority",
+   "stance": "leans",
+   "part": "why",
+   "statement": "Against Burnet the first argument is the authority of Moses, the most ancient historian, with whose account the hypothesis does not agree.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Moses",
+     "dates": null,
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=404",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-096",
+   "question": "scripture-nature",
+   "text": "P",
+   "answer": "authority",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The sacred books are the most ancient, most authentic and irrefutable historical monuments; their chronology is the only one that agrees with history, physics and reason, and the Flood's monuments agree with sacred history.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "72",
+     "url": "https://archive.org/details/b30539584_0002/page/n81/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "44",
+     "url": "https://archive.org/details/b30539584_0002/page/n53/mode/1up",
+     "read_from": "image",
+     "section": "§505"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-097",
+   "question": "scripture-nature",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Erxleben reports Moses on the Flood without using Scripture as a ground.",
+   "cites": [
+    {
+     "page": "639",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n659/mode/1up",
+     "read_from": "ocr",
+     "section": "§757"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-098",
+   "question": "scripture-nature",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "The entry Deluge refers to the Ark and does not argue from Scripture."
+  },
+  {
+   "id": "1775-globe-099",
+   "question": "central-fire",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The constant warmth in deep caves, the small difference between summer and winter heat, and the frost's dependence on the outflow of warm vapours are explained by heat continually generated by friction, fermentation and effervescence near the surface, not by a fire at the centre.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "heat continually generated near the surface"
+    }
+   ],
+   "cites": [
+    {
+     "page": "398",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=408",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-100",
+   "question": "central-fire",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The even temperature of cellars, about ten degrees above freezing in every season, comes from the free elementary fire lodged evenly in bodies that the seasons do not reach; hot springs owe their heat to burning mines or fermenting substances.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the thermometer in deep cellars"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "32-33",
+     "url": "https://archive.org/details/b30539584_0002/page/n41/mode/1up",
+     "read_from": "ocr",
+     "section": "§501"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-101",
+   "question": "central-fire",
+   "text": "E",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "why",
+   "statement": "From the same facts (frost never goes deep, a nearly constant warmth a little below the surface) he draws the opposite conclusion, with Mairan's reckoning that this underlying warmth is 393 times what the sun alone gives at Paris on the shortest day.",
+   "confidence": {
+    "level": "possible"
+   },
+   "persons": [
+    {
+     "name": "Jean-Jacques Dortous de Mairan",
+     "dates": "1678-1771",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "613-614",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n633/mode/1up",
+     "read_from": "ocr",
+     "section": "§735"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-102",
+   "question": "final-causes",
+   "text": "P",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "If it is permitted to seek the Creator's designs, the mountains were chiefly destined to keep up the springs; Providence gave the sea its saltness against corruption; volcanoes are vents provided against worse disasters.",
+   "confidence": {
+    "level": "probable",
+    "printed": "S’il est permis de sonder les desseins du Créateur",
+    "translation": "If it is permitted to sound the Creator's designs"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "19",
+     "url": "https://archive.org/details/b30539584_0002/page/n28/mode/1up",
+     "read_from": "ocr",
+     "section": "§498"
+    },
+    {
+     "vol": "2",
+     "page": "256",
+     "url": "https://archive.org/details/b30539584_0002/page/n265/mode/1up",
+     "read_from": "ocr",
+     "section": "§610"
+    },
+    {
+     "vol": "2",
+     "page": "26",
+     "url": "https://archive.org/details/b30539584_0002/page/n35/mode/1up",
+     "read_from": "ocr",
+     "section": "§500"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-103",
+   "question": "final-causes",
+   "text": "B",
+   "answer": "yes",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Biwald reports the argument of those who make the mountains coeval with the earth from their uses, without adopting it.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-104",
+   "question": "final-causes",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The saltness of the sea keeps its waters pure and sweet, which would otherwise corrupt, and makes it bear larger ships and freeze less soon; the sea's great cavities were necessary to keep the land habitable.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "uses of salt water and of the sea's basins"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "572",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 659
+     },
+     "entry": "Sea"
+    },
+    {
+     "vol": "iii",
+     "page": "573",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 660
+     },
+     "entry": "Sea"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-105",
+   "question": "final-causes",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Erxleben argues that the first mountains were needed for rivers, but not from a purpose."
+  },
+  {
+   "id": "1775-globe-106",
+   "question": "springs-origin",
+   "text": "E",
+   "answer": "several",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Several causes must beyond doubt contribute to the making of springs.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "593",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n613/mode/1up",
+     "read_from": "image",
+     "section": "§709"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "aber es müssen dennoch ohne Zweifel mehrere Ursachen zur Erzeugung der Quellen beytragen",
+    "from_image": true,
+    "tr": "but several causes must nevertheless beyond doubt contribute to the making of springs"
+   }
+  },
+  {
+   "id": "1775-globe-107",
+   "question": "springs-origin",
+   "text": "P",
+   "answer": "several",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Those who reconcile the systems by bringing springs partly from rain and partly from the sea add to a certain and sufficient cause a fabulous one that serves for nothing, like a mechanic who added a fifth, crosswise wheel to a cart that ran well on four.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "a sufficient cause needs no partner"
+    },
+    {
+     "kind": "analogy",
+     "detail": "the fifth wheel"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "369",
+     "url": "https://archive.org/details/b30539584_0002/page/n378/mode/1up",
+     "read_from": "image",
+     "section": "§678"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "à l’influence d’une cause certaine & suffisante, ils associent l’influence d’une cause fabuleuse & chimérique, qui ne sert à rien, & qui embarrasse beaucoup",
+    "from_image": true,
+    "tr": "to the influence of a certain and sufficient cause they join the influence of a fabulous and chimerical cause, which serves for nothing and is a great encumbrance"
+   }
+  },
+  {
+   "id": "1775-globe-108",
+   "question": "earthquake-signs",
+   "text": "B",
+   "answer": "no-certain-signs",
+   "stance": "holds",
+   "part": "open",
+   "statement": "There are no certain and stable signs of earthquakes: the one that frightened Graz a few weeks before came with violent winds and dense clouds at Vienna but with the greatest calm at Graz, the barometer above 27 inches and unmoved during the shock; nor are spring, autumn or night surely the commoner times.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the recent earthquake at Graz and Vienna"
+    }
+   ],
+   "cites": [
+    {
+     "page": "401",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=411",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quaeri solet, an quaedam terrae motuum prognostica habeantur. Respondeo, nulla certa, ac stabilia esse.",
+    "from_image": true,
+    "tr": "It is commonly asked whether there are any signs foretelling earthquakes. I answer that there are none certain and stable."
+   }
+  },
+  {
+   "id": "1775-globe-109",
+   "question": "axis-change",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "open",
+   "statement": "Has the earth perhaps once changed its axis?",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "641",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n661/mode/1up",
+     "read_from": "image",
+     "section": "§758"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Hat auch die Erde vielleicht ein Mahl ihre Axe verändert?",
+    "from_image": true,
+    "tr": "Has the earth also perhaps once changed its axis?"
+   }
+  },
+  {
+   "id": "1775-globe-110",
+   "question": "axis-change",
+   "text": "P",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "open",
+   "statement": "It is very probable, as the author of the Spectacle de la nature remarks, that before the Flood the earth's axis was parallel to the axis of the ecliptic, as the Egyptians and Chaldeans remembered and as the long lives of the patriarchs suggest; the masses heaped up by the Flood in one hemisphere would have tilted it.",
+   "confidence": {
+    "level": "probable",
+    "printed": "très-probable",
+    "translation": "very probable"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "the patriarchs' long lives"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "a heaped mass shifts the axis"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Noël-Antoine Pluche",
+     "dates": "1688-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "45-47",
+     "url": "https://archive.org/details/b30539584_0002/page/n54/mode/1up",
+     "read_from": "ocr",
+     "section": "§506"
+    },
+    {
+     "vol": "2",
+     "page": "47-51",
+     "url": "https://archive.org/details/b30539584_0002/page/n56/mode/1up",
+     "read_from": "ocr",
+     "section": "§§507-509"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-111",
+   "question": "sea-light",
+   "text": "B",
+   "answer": "small-animals",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The bright light of the agitated sea comes from the smallest insects of a phosphoric nature living in sea water, as Linnaeus fully proved in his dissertation on the Noctiluca.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Carl Linnaeus",
+     "dates": "1707-1778",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=402",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-112",
+   "question": "sea-light",
+   "text": "E",
+   "answer": "small-animals",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Sea water shines at night because of the worms in it; perhaps also from other causes not yet well enough known.",
+   "confidence": {
+    "level": "probable",
+    "printed": "vielleicht",
+    "translation": "perhaps"
+   },
+   "cites": [
+    {
+     "page": "603-604",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n623/mode/1up",
+     "read_from": "ocr",
+     "section": "§722"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-113",
+   "question": "earth-hollow",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Since the deepest mines come nowhere near the six-thousandth part of the earth's radius, nothing can be said with certainty of its inner constitution; it can hardly be wholly hollow, or the attraction of dense mountains would be greater than it is found.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the measured attraction of mountains"
+    }
+   ],
+   "cites": [
+    {
+     "page": "613",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n633/mode/1up",
+     "read_from": "image",
+     "section": "§734"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-114",
+   "question": "earth-figure",
+   "text": "B",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The measured degrees do not grow by a fixed law, as they would in a homogeneous earth; observations near great mountains were disturbed by the mountains' attraction (Bouguer and La Condamine at Chimborazo, Boscovich and Maire in Italy).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pierre Bouguer",
+     "dates": "1698-1758",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "345",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=367",
+     "read_from": "ocr",
+     "work": "Physica generalis (1769)"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-115",
+   "question": "earth-figure",
+   "text": "E",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "open",
+   "statement": "It is not yet settled whether all meridians are alike, or whether the southern half of the earth is shaped exactly like the northern.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "477",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n497/mode/1up",
+     "read_from": "ocr",
+     "section": "§580"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-116",
+   "question": "earth-figure",
+   "text": "F",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All globes whose parts can yield and which turn on their axes are oblate spheroids, higher at the equator, because the equatorial parts move quickest and have the greatest centrifugal force; two thin hoops whirled on an axis swell out at the middle. That the earth is of this figure is demonstrable from degrees measured longer in the frigid zones than in the torrid, which make its equatorial diameter 36 miles longer than its axis; the water's centrifugal force keeps the sea from running to the poles. In the lecture on the globes the earth is round like a globe, its highest hills taking no more from its roundness than grains of sand from a common globe.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "the greater centrifugal force of the parts that move quickest"
+    },
+    {
+     "kind": "experiment",
+     "detail": "two flexible hoops whirled on an axis"
+    },
+    {
+     "kind": "observation",
+     "detail": "degrees longer in the frigid zones than in the torrid"
+    }
+   ],
+   "cites": [
+    {
+     "page": "46",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n67/mode/1up",
+     "read_from": "image",
+     "section": "Lecture II"
+    },
+    {
+     "page": "47",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n68/mode/1up",
+     "read_from": "image",
+     "section": "Lecture II"
+    },
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n302/mode/1up",
+     "read_from": "image",
+     "section": "Lectures VIII and IX"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "That our earth is of this figure, is demonstrable from actual measurement of some degrees on its surface, which are found to be longer in the frigid zones than in the torrid",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-117",
+   "question": "tides-cause",
+   "text": "F",
+   "answer": "moon-attraction",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Under the heading 'Of the tides': that the tides rise on the side next the moon everyone understands to be owing to her attraction; why they rise as high at the same time on the opposite side he shows by a new experiment on the whirling table. The moon draws the near side more than the earth's centre, and the centre more than the far side; and the earth goes monthly round the common centre of gravity of earth and moon, 6000 miles from its own centre, so that the far side's centrifugal force, five times the near side's, raises the water there as high. The sun's part is not mentioned.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the whirling table, 'to the best of my knowledge, ... entirely new'"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "centrifugal forces as 2000, 6000 and 10000 miles from the common centre of gravity"
+    }
+   ],
+   "cites": [
+    {
+     "page": "41",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n62/mode/1up",
+     "read_from": "image",
+     "section": "Lecture II"
+    },
+    {
+     "page": "42",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n63/mode/1up",
+     "read_from": "image",
+     "section": "Lecture II"
+    },
+    {
+     "page": "44",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n65/mode/1up",
+     "read_from": "ocr",
+     "section": "Lecture II"
+    },
+    {
+     "page": "45",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n66/mode/1up",
+     "read_from": "image",
+     "section": "Lecture II"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The cause of their rising on the side next the moon every one understands to be owing to the moon's attraction",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-118",
+   "question": "figured-stones",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Lectures do not treat fossil shells or petrifactions (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-globe-119",
+   "question": "strata-order",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Lectures do not treat the layers of the earth (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-globe-120",
+   "question": "volcano-cause",
+   "text": "F",
+   "answer": "underground-fermentation",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The artificial earthquake gives a very natural account of the fires of Etna, Vesuvius and other volcanoes, probably set on fire at first by the mixture of such metalline and sulphureous particles. Volcanoes have no heading or index entry of their own; this sentence closes the earthquake passage, and the only other mention is among the things that disturb the trade winds.",
+   "confidence": {
+    "level": "probable",
+    "printed": "probably",
+    "translation": "probably"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the artificial earthquake of sulphur and iron filings"
+    }
+   ],
+   "cites": [
+    {
+     "page": "179",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n220/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "174",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n213/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "From this experiment we have a very natural account of the fires of mount Ætna, Vesuvius, and other volcanos",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-121",
+   "question": "earthquakes-cause",
+   "text": "F",
+   "answer": "underground-fires",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Under the margin heading 'Earthquakes', in the lecture on pneumatics after fire-damps in mines: when such combustible matter kindles in the bowels of the earth, where there is little or no vent, it produces earthquakes, and violent storms or hurricanes of wind when it breaks forth into the air. An artificial earthquake is made by kneading 10 or 15 pounds of sulphur and as much iron filings with water into a paste and burying it: in 8 or 10 hours it bursts out in flames and makes the earth tremble all round to a considerable distance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the artificial earthquake"
+    },
+    {
+     "kind": "analogy",
+     "detail": "fire-damps exploding in mines"
+    }
+   ],
+   "cites": [
+    {
+     "page": "178",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n217/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "179",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n220/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "When such combustible matter, as is above-mentioned, kindles in the bowels of the earth, where there is little or no vent, it produces earthquakes",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-122",
+   "question": "springs-origin",
+   "text": "F",
+   "answer": "rain",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Under the margin heading 'Intermitting springs': rain falling on the side of a hill sinks through its pores and crannies into a cavity and runs out by a channel as through a siphon until the cavity is empty, then stops until it fills again. The Supplement explains reciprocating springs and ebbing and flowing wells the same way, from a cavern in a hill fed by rains and melted snow. Ferguson does not discuss the origin of springs in general.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the siphon, and the Supplement's model of boxes and pipes"
+    }
+   ],
+   "cites": [
+    {
+     "page": "117",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n152/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "Supplement, p. 20",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n491/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a large cavern A A near the top, filled or fed by rains and melted snow on the top a",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-123",
+   "question": "springs-origin",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Ferguson does not ask whether the sea feeds springs from below."
+  },
+  {
+   "id": "1775-globe-124",
+   "question": "mountains-origin",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Mountains appear only as negligible against the earth's bulk, no known hill being three miles high, and as turning the winds; their origin is not taken up.",
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n302/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "174",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n213/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-125",
+   "question": "shells-on-mountains",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-126",
+   "question": "central-fire",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The Lectures do not mention a central fire; the earthquakes and volcanoes are kindled where combustible matter lies in the earth with little or no vent."
+  },
+  {
+   "id": "1775-globe-127",
+   "question": "earthquakes-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Ferguson does not mention electricity among the causes of earthquakes; in the same lecture thunder and lightning, too, come from fermenting sulphureous and nitrous effluvia (pp. 176-177)."
+  },
+  {
+   "id": "1775-globe-128",
+   "question": "sea-salt",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up; his table gives only the specific gravity of sea water, 1.030 against 1.000 for pump water.",
+   "cites": [
+    {
+     "page": "159",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n198/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-globe-129",
+   "question": "sea-diminishing",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-130",
+   "question": "deluge-universal",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The Lectures do not mention the Flood (machine-read text searched)."
+  },
+  {
+   "id": "1775-globe-131",
+   "question": "deluge-natural",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-132",
+   "question": "earth-theories",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-133",
+   "question": "earth-age",
+   "text": "F",
+   "answer": "scripture-chronology",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Lecture XI shows how to calculate new and full moons and eclipses from the creation of the world to the year of Christ 5800, and his table of the moon's mean motion from the sun has a column 'Years of the World' that begins at 0 in 4008 before Christ (year 706 of the Julian period). The date is taken for granted, with no argument and no mention of the sacred books.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "note": "Encoded as scripture-chronology because a year of the world counted from about 4000 BC is the biblical reckoning; the Lectures do not say where the date comes from.",
+   "cites": [
+    {
+     "page": "377",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n440/mode/1up",
+     "read_from": "ocr",
+     "section": "Lecture XI"
+    },
+    {
+     "page": "393",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n456/mode/1up",
+     "read_from": "image",
+     "section": "Lecture XI"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Years of the World",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-globe-134",
+   "question": "first-forming-physics",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Not taken up."
+  },
+  {
+   "id": "1775-globe-135",
+   "question": "scripture-nature",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Ferguson does not argue from Scripture on the globe; the year of the world in his tables is used without comment."
+  },
+  {
+   "id": "1775-globe-136",
+   "question": "final-causes",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "No purposes are given for the sea, the mountains or volcanoes."
+  }
+ ]
+}

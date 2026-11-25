@@ -1,0 +1,2347 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-water",
+  "snapshot": "1775",
+  "topic": "water",
+  "title": "Water and other fluids",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#water",
+   "version_encoded": "1795212497-d536"
+  },
+  "published": "2026-11-14",
+  "encoded": {
+   "date": "2026-11-16",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: efflux, waves, ice and vapour; springs and the sea belong to the terraqueous globe. Not yet read: Biwald pp. 31-48 and his specific gravities; Erxleben §§158-219 apart from the capillary tubes; Nollet's hydrostatic lessons proper, most of his capillary appendix, and Lesson XII on vapour and ice; Ferguson's Lecture V beyond pp. 101-102, 111 and the table of specific gravities (p. 159), and his hydraulic machines; the Britannica's Hydrostatics beyond its opening. Ferguson was searched in the machine-read text of the whole book for elements, ice and freezing, the qualities and purity of water, its turning into earth, and the internal motion of fluids; none is treated. Siglum B covers both Biwald volumes: citations to Physica generalis carry work 'biwald-generalis-1769' and link bsb10130800; the rest are Physica particularis (bsb10130796). read_from is 'image' for every Ferguson citation; for the others, 'image' only where the entry quotes the page, otherwise 'unknown'. Short quotations whose originals the entry does not reproduce carry orig null with a note. The site's link for Nollet t. 2 pp. 411-412 opened p. 410 (leaf 455); the claims cite leaf 456, read from the page image, and the site link was corrected in version 1794882361-1000.",
+  "revised": {
+   "date": "2026-11-20",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary. Compared by shared five-word sequences in the OCR, the Britannica's Hydrostatics (vol. 2 leaves 797-811: 25-37% per page) and Mechanics p. 33 (leaf 44: 34%) are Ferguson's Lectures V and I; its Chemistry 'Of Water' (leaves 85-86: 0%) and entry Water (leaf 847: 1%) are its own. Claim 017 corrected: the Britannica's page (Ferguson p. 6 reprinted) gives no law of heights, so it does not hold inverse-to-bore."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part I, on water, pp. 1-68",
+   "also": {
+    "text": "biwald-generalis-1769",
+    "parts": "fluids in general, pp. 253-258"
+   }
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "§§150-157; section 6, §§158-219 (capillary tubes pp. 144-145); §461 (p. 368); §761 (pp. 642-643)"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 2 appendix to Lesson VIII on capillary tubes, pp. 401-435, and p. 471; t. 4 Lesson XII, pp. 3-40, and p. 383"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture V, Of hydrostatics, pp. 101-102 and 111, with the table of specific gravities, p. 159; Lecture I, the attraction of cohesion, p. 6; Lecture VI, Of pneumatics, p. 168"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Chemistry 'Of Water' ii 66-67; Hydrostatics ii 804; Mechanics iii 33; entry Water iii 936",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its Hydrostatics (vol. 2 from p. 804) reprints Ferguson's Lecture V, with small differences from the 1776 edition ('so exceedingly small' for 'so small', 'since' for 'seeming', p. 804 read from the image), and its Mechanics p. 33 reprints his Lecture I p. 6 ('all around' for 'all round'). Its Chemistry 'Of Water' and its entry Water are its own (no five-word sequences shared with the Lectures)."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Opens the particular physics: a short section on water itself, then a long statics of fluids (pressure, immersed bodies, specific weights, efflux, waves, capillary tubes); rain, ice, vapour, springs and the sea sent to later parts",
+   "cites": [
+    {
+     "page": "1",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=11"
+    },
+    {
+     "page": "10",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=20"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "No section on water as such: fluids are a kind of body under cohesion, the sixth section treats their equilibrium and capillary rise; freezing comes under warmth, and water into earth under the earth itself",
+   "cites": [
+    {
+     "page": "121",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n147/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "Hydrostatics in vol. 2; water as a body two volumes later, one lesson divided by its three states, liquid, vapour and ice",
+   "cites": [
+    {
+     "page": "3",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n10/mode/1up",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "No lecture on water. Lecture V, Of hydrostatics and hydraulic machines, treats 'the nature, gravity, pressure, and motion of fluids in general; and of weighing solids in them', then pumps, engines and a table of specific gravities; the rise in narrow tubes comes in Lecture I as the first instance of the attraction of cohesion",
+   "cites": [
+    {
+     "page": "101",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n134/mode/1up"
+    },
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "Spread over four places: a one-line entry Water sending the reader to Chemistry (water among the four elements or principles) and to Hydrostatics; capillary rise in Mechanics",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "936",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 847
+     }
+    },
+    {
+     "vol": "ii",
+     "page": "66",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 85
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-water-001",
+   "question": "four-elements",
+   "text": "EB",
+   "answer": "loosely",
+   "stance": "holds",
+   "part": "place",
+   "statement": "The entry Water calls water a simple fluid, reputed the third of the four vulgar elements; the Chemistry counts water, with earth, air and fire, among the principles or elements of bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "936",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 847
+     },
+     "entry": "Water"
+    },
+    {
+     "vol": "ii",
+     "page": "66",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 85
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a simple fluid, and liquid body, reputed the third of the four vulgar elements",
+    "from_image": true
+   },
+   "note": "The Britannica's own: its entry Water and its Chemistry share no five-word sequences with Ferguson's Lectures"
+  },
+  {
+   "id": "1775-water-002",
+   "question": "water-qualities",
+   "text": "B",
+   "answer": "tasteless-clear",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Water is a fluid without taste, smell or colour, clear, rising in vapour with little heat, not burning and mostly putting out fire; its particles are too small for any microscope and nearly spherical.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "1",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=11",
+     "read_from": "unknown"
+    },
+    {
+     "page": "3",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=13",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-003",
+   "question": "water-qualities",
+   "text": "N",
+   "answer": "tasteless-clear",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Water is without taste, smell or colour; when it looks cloudy or coloured, or has a taste or smell, it is mixed with a foreign matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "4-5",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n11/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    },
+    {
+     "page": "5",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n12/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-004",
+   "question": "water-qualities",
+   "text": "EB",
+   "answer": "tasteless-clear",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Water is a clear, transparent fluid; the entry cites the Chemistry for the list of sensible qualities jointly with Biwald and Nollet, without separating which quality each gives.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "note": "The Britannica's own: its Chemistry shares no five-word sequences with Ferguson's Lectures"
+  },
+  {
+   "id": "1775-water-005",
+   "question": "water-qualities",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Erxleben has no section on water as such; its sensible qualities are not described in the parts read."
+  },
+  {
+   "id": "1775-water-006",
+   "question": "water-purity",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Natural water is hardly ever pure: it dissolves salts, soaps and earthy bodies, so springs run salt, mineral, medicinal or poisonous; it is cleaned by straining, precipitation, clarifying, evaporation and repeated distillation, and Musschenbroek's chemical tests show the purest.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "7-9",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=17",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-007",
+   "question": "water-purity",
+   "text": "N",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Waters from the same province, even the same place, differ sensibly in weight, and the lightest is commonly the best.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "weighing waters"
+    }
+   ],
+   "cites": [
+    {
+     "page": "33-34",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n40/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-008",
+   "question": "water-purity",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not found in the parts of Erxleben read."
+  },
+  {
+   "id": "1775-water-009",
+   "question": "water-purity",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not found in the parts of the Britannica read."
+  },
+  {
+   "id": "1775-water-010",
+   "question": "fluid-pressure",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A fluid presses up and sideways as much as down, in proportion to its height and without regard to its quantity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "804",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 797
+     },
+     "entry": "Hydrostatics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 101)"
+  },
+  {
+   "id": "1775-water-011",
+   "question": "fluid-pressure",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The pressure on the bottom of a vessel equals the base multiplied by the height of the fluid, whatever the shape of the vessel; a solid immersed loses as much weight as the fluid of equal volume weighs.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "16",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=26",
+     "read_from": "unknown"
+    },
+    {
+     "page": "22",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=32",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-012",
+   "question": "fluid-pressure",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Erxleben's sixth section on the equilibrium of fluids was not read for this point."
+  },
+  {
+   "id": "1775-water-013",
+   "question": "fluid-pressure",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Nollet's hydrostatic lessons proper were not read."
+  },
+  {
+   "id": "1775-water-014",
+   "question": "capillary-height",
+   "text": "B",
+   "answer": "inverse-to-bore",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heights in capillary tubes are inversely as the diameters; the length of the tube makes no difference; the rise is the same in a vessel emptied of air; mercury stands lower. With Musschenbroek, the height also depends on the kind of glass, which is why reported results disagree. Sap in trees, sponges and sugar draw up liquids the same way.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "capillary tubes of different bores, in air and in vacuo"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "48-49",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=58",
+     "read_from": "unknown"
+    },
+    {
+     "page": "55-56",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=65",
+     "read_from": "unknown"
+    },
+    {
+     "page": "50",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=60",
+     "read_from": "unknown"
+    },
+    {
+     "page": "67-68",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=77",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-015",
+   "question": "capillary-height",
+   "text": "E",
+   "answer": "inverse-to-bore",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heights are inversely as the bores, the length makes no difference, the rise goes on in vacuo, and mercury stands lower.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "144-145",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n170/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-016",
+   "question": "capillary-height",
+   "text": "N",
+   "answer": "inverse-to-bore",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heights are inversely as the bores, the length makes no difference, the rise goes on in vacuo, and mercury stands lower; a heap of sand or an upright log is wet to the top.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment"
+    }
+   ],
+   "cites": [
+    {
+     "page": "409-410",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n454/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    },
+    {
+     "page": "435",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n480/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-017",
+   "question": "capillary-height",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Gives no law of heights: the water rises until the weight of the column balances the attraction of the tube, the same in an exhausted receiver; sugar, sponges and the sap of trees as further instances.",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 6). Corrected 2026-11-20 from the OCR of vol. 3 p. 33 (leaf 44) against Ferguson p. 6 (image): the earlier encoding gave this claim the answer inverse-to-bore, but the page says nothing of bore, length or mercury."
+  },
+  {
+   "id": "1775-water-018",
+   "question": "water-natural-state",
+   "text": "N",
+   "answer": "solid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Speaking exactly, the natural state of water would be a solid body; like fat and wax, water would be ice continually if the matter of fire did not keep its parts mobile.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "fat, wax and other matters that flow only when heated"
+    },
+    {
+     "kind": "authority",
+     "detail": "Mariotte, Mairan, Boerhaave"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Edme Mariotte",
+     "dates": "c. 1620-1684",
+     "role": "followed"
+    },
+    {
+     "name": "Jean-Jacques Dortous de Mairan",
+     "dates": "1678-1771",
+     "role": "followed"
+    },
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "3-4",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n10/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "À parler exactement, l’état naturel de l’eau, celui qu’elle auroit, si rien ne se mêloit à sa matière propre, seroit d’être un corps solide, comme l’ont fort bien remarqué MM. Mariotte, de Mairan, & Boerhaave. Oui, l’eau, comme la graisse, la cire, & toutes les autres matières que nous ne voyons couler, que quand on les chauffe à un certain degré, seroit continuellement glace, si la matière du feu qui la pénètre pour l’ordinaire en suffisante quantité dans les climats tempérés, n’entretenoit la mobilité respective de ses parties, pour la rendre fluide",
+    "from_image": true,
+    "tr": "Speaking exactly, the natural state of water, the one it would have if nothing were mixed with its own matter, would be to be a solid body, as Messrs Mariotte, de Mairan and Boerhaave have very well remarked. Yes, water, like fat, wax, and all the other matters that we see flow only when they are heated to a certain degree, would be ice continually, if the matter of fire, which commonly penetrates it in sufficient quantity in temperate climates, did not keep up the mobility of its parts relative to one another, to make it fluid."
+   }
+  },
+  {
+   "id": "1775-water-019",
+   "question": "water-natural-state",
+   "text": "EB",
+   "answer": "solid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water becomes solid at a certain degree of cold; solidity therefore seems to be its most natural state.",
+   "confidence": {
+    "level": "probable",
+    "printed": "seems to be its most natural state"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "cold makes it solid"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Solidity therefore seems to be its most natural state.",
+    "from_image": true
+   },
+   "note": "The Britannica's own: its Chemistry shares no five-word sequences with Ferguson's Lectures"
+  },
+  {
+   "id": "1775-water-020",
+   "question": "water-natural-state",
+   "text": "B",
+   "answer": "solid",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald reports the question whether water is naturally a solid made fluid by fire, and sides with Musschenbroek: fire alone does not make it fluid; something more is required, by the principles of the general physics.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "fats thin out when heated, yet no distillation resolves water into finer particles"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "the principles of the general physics"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "3",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=13",
+     "read_from": "image"
+    },
+    {
+     "page": "4",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=14",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Cl. vero Musschenbroek […] existimat fluiditatem aquae haud soli ignis actioni tribuendam esse […] Quod si ad principia in generali Physica […] stabilita animum advertamus, facile intelligimus, praeter actionem ignis alia insuper requiri, ut fluida esse aqua possit.",
+    "from_image": true,
+    "tr": "But the celebrated Musschenbroek judges that the fluidity of water is not to be attributed to the action of fire alone. […] If we turn our minds to the principles established in the general physics, we readily understand that besides the action of fire something more is required for water to be able to be fluid."
+   }
+  },
+  {
+   "id": "1775-water-021",
+   "question": "water-natural-state",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Erxleben does not speak of water's natural state; he treats fluidity as heat loosening cohesion (E 121-122, 368)."
+  },
+  {
+   "id": "1775-water-022",
+   "question": "fluidity",
+   "text": "N",
+   "answer": "heat-between-parts",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The matter of fire, penetrating water in sufficient quantity, keeps its parts mobile and makes it fluid.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "3-4",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n10/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-023",
+   "question": "fluidity",
+   "text": "B",
+   "answer": "shape-and-forces",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fluidity in the third kind of fluids arises from particles nearly spherical, or with their points arranged on concentric spherical surfaces; they roll round one another with attractions and repulsions balanced, so that only a few bonds need be overcome at once.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "253",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=275",
+     "read_from": "image",
+     "work": "biwald-generalis-1769"
+    },
+    {
+     "page": "253-254",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=275",
+     "read_from": "unknown",
+     "work": "biwald-generalis-1769"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Fluiditas in tertio praecipue fluidorum genere inde enascitur, quod constent particulis ad figuram sphaericam proxime accedentibus, sive eiusmodi, quarum puncta ita in superficies sphaericas concentricas disponuntur, ut in aequalibus a centro distantiis aequaliter, numeroque pari distributa sint.",
+    "from_image": true,
+    "tr": "Fluidity, chiefly in the third kind of fluids, arises from their consisting of particles that come close to a spherical figure, or of such particles as have their points so arranged on concentric spherical surfaces that they are distributed equally and in equal number at equal distances from the centre."
+   }
+  },
+  {
+   "id": "1775-water-024",
+   "question": "fluidity",
+   "text": "E",
+   "answer": "loosened-cohesion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The cause of fluidity seems to lie not so much in the nature of the parts as in the manner of their composition; heat expands a body until its particles no longer hang together, and when the heat goes they attract again and the body freezes.",
+   "confidence": {
+    "level": "probable",
+    "note": "'seems to him'; German wording not reproduced in the entry"
+   },
+   "cites": [
+    {
+     "page": "121-122",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n147/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "368",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n392/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "not so much in the nature of the parts themselves as in the manner of their composition",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-water-025",
+   "question": "fluidity",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The cause of fluidity was not found in the parts read; the Hydrostatics gives only the shape of the particles (see fluid-particles).",
+   "note": "The Hydrostatics is Ferguson's Lecture V reprinted"
+  },
+  {
+   "id": "1775-water-026",
+   "question": "fluid-internal-motion",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The opinion that a fluid's particles are in perpetual internal motion is rejected with Musschenbroek: fluids pressed in metal spheres stay fluid, powders mixed in sink when the fluid comes to rest, no microscope shows the motion; and fluids mix far too slowly for it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "fluids pressed in metal spheres; powders settling"
+    },
+    {
+     "kind": "observation",
+     "detail": "no microscope shows it"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "256-257",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=278",
+     "read_from": "unknown",
+     "work": "biwald-generalis-1769"
+    },
+    {
+     "page": "257",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=279",
+     "read_from": "unknown",
+     "work": "biwald-generalis-1769"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-027",
+   "question": "fluid-internal-motion",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The opinion does not follow from fluids changing shape, mixing, dissolving solids or needing warmth; not a single observation shows such an internal motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "none shows it"
+    },
+    {
+     "kind": "refutation",
+     "detail": "the arguments for it do not follow"
+    }
+   ],
+   "cites": [
+    {
+     "page": "122",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n148/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "not a single observation shows such an internal motion",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-water-028",
+   "question": "fluid-internal-motion",
+   "text": "N",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up; Nollet lists 'perhaps a certain motion proper to them' among the means nature may use in capillary effects (t. 2 p. 434)."
+  },
+  {
+   "id": "1775-water-029",
+   "question": "fluid-internal-motion",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up in the parts read."
+  },
+  {
+   "id": "1775-water-030",
+   "question": "water-compressible",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water cannot be compressed: in the Florentine experiment it sweated through the pores of the metals like dew, which shows how strongly its particles repel one another at the smallest distances.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the Florentine experiment"
+    }
+   ],
+   "cites": [
+    {
+     "page": "4",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=14",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "sweated through the pores of the metals like dew",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-water-031",
+   "question": "water-compressible",
+   "text": "EB",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No fluid, except air or steam, can be pressed into a less space than it naturally possesses.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "804",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 797
+     },
+     "entry": "Hydrostatics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "no fluid, except air or steam, can be pressed into a less space than it naturally possesses",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 101)"
+  },
+  {
+   "id": "1775-water-032",
+   "question": "water-compressible",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fluids can be compressed, and of water this is at least now proven; the Florentine experiment decides nothing, because no exact measurements take place in it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Canton in the Philosophical Transactions"
+    },
+    {
+     "kind": "refutation",
+     "detail": "the Florentine experiment has no exact measurements"
+    }
+   ],
+   "persons": [
+    {
+     "name": "John Canton",
+     "dates": "1718-1772",
+     "role": "followed"
+    },
+    {
+     "name": "Samuel Christian Hollmann",
+     "dates": "1696-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "124",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n150/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Vom Wasser ist dieses wenigstens ietzo erwiesen; das berühmte Florentiner Experiment, wodurch man das Gegentheil hat darthun wollen, ist wirklich von der Art, daß es nichts entscheiden kann, weil keine genauen Ausmessungen dabey Statt finden.",
+    "from_image": true,
+    "tr": "Of water this is at least now proven; the famous Florentine experiment, by which it was sought to show the contrary, is really of such a kind that it can decide nothing, because no exact measurements take place in it."
+   }
+  },
+  {
+   "id": "1775-water-033",
+   "question": "water-compressible",
+   "text": "N",
+   "answer": "no",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "In passing only: liquids do not let themselves be compressed in the manner of solids.",
+   "confidence": {
+    "level": "asserted",
+    "note": "said in passing in the lesson on fire; not argued"
+   },
+   "cites": [
+    {
+     "page": "383",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n406/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "let themselves be compressed in the manner of solids",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-water-034",
+   "question": "capillary-rise",
+   "text": "B",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fluids rise in capillary tubes when their parts are attracted less by one another than by the walls of the tube; the full theory is Weitbrecht's, as set out by Sigorgne.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Josias Weitbrecht",
+     "dates": "1702-1747",
+     "role": "followed"
+    },
+    {
+     "name": "Pierre Sigorgne",
+     "dates": "1719-1809",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "56",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=66",
+     "read_from": "image"
+    },
+    {
+     "page": "66-67",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=76",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Fluida in tubulos capillares assurgunt, cum partes eorum minus a se invicem, quam a tubuli parietibus attrahuntur.",
+    "from_image": true,
+    "tr": "Fluids rise in capillary tubes when their parts are attracted less by one another than by the walls of the tube."
+   }
+  },
+  {
+   "id": "1775-water-035",
+   "question": "capillary-rise",
+   "text": "E",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The rise of water in capillary tubes is a powerful proof of the attractive force of matter; it cannot possibly be explained from a pressure of the air or of the aether, or from a merely cohering, not attracting, force.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "air, aether and mere cohesion fail"
+    }
+   ],
+   "cites": [
+    {
+     "page": "145",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n171/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Die Erfahrung, daß das Wasser in den Haarröhrchen aufsteigt, ist ein kräftiger Beweis der anziehenden Kraft der Materie; aus einem Drucke der Luft oder des Aethers, oder aus einer bloß zusammenhangenden nicht anziehenden Kraft der Materie läßt sich die Erscheinung durchaus nicht erklären.",
+    "from_image": true,
+    "tr": "The experience that water rises in capillary tubes is a powerful proof of the attractive force of matter; the phenomenon cannot possibly be explained from a pressure of the air or of the aether, or from a merely cohering, not attracting, force of matter."
+   }
+  },
+  {
+   "id": "1775-water-036",
+   "question": "capillary-rise",
+   "text": "E",
+   "answer": "air-pressure",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The rise cannot be explained from the pressure of the air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "145",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n171/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-037",
+   "question": "capillary-rise",
+   "text": "E",
+   "answer": "fluid-pressure",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The rise cannot be explained from the pressure of the aether.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "145",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n171/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-038",
+   "question": "capillary-rise",
+   "text": "E",
+   "answer": "adhesion",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The rise cannot be explained from a merely cohering, not attracting, force.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "145",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n171/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-039",
+   "question": "capillary-rise",
+   "text": "EB",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The rise is the first instance of the attraction of cohesion: the water is drawn up by the attraction of a ring of glass particles just above it, until the weight of the column balances it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the attraction of a ring of particles of the glass all around in the tube, immediately above those to which the water at any instant rises",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 6), where the 1776 edition reads 'all round' for 'all around'"
+  },
+  {
+   "id": "1775-water-040",
+   "question": "capillary-rise",
+   "text": "N",
+   "answer": "unexplained",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The phenomena either are not yet well explained, or the explanations depend on hypotheses not generally received; perhaps because one sole cause was sought.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "433-434",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n478/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "De tout ceci il résulte que ces phénomènes, ou ne sont point encore bien expliqués, ou que les explications qu’on donne, tiennent à des hypothèses qui ne sont pas généralement reçues. Peut-être cela vient-il de ce qu’on s’est obstiné à ne leur donner qu’une seule & unique cause […] La pression inégale de quelque fluide est probablement le point fondamental de l’explication; mais l’adhérence ou la viscosité naturelle des liqueurs, la grandeur & la figure de leurs parties, & peut-être un certain mouvement qui leur est propre, &c. sont autant de moyens que la nature peut employer pour ces sortes d’effets",
+    "from_image": true,
+    "tr": "From all this it follows that these phenomena either are not yet well explained, or that the explanations given depend on hypotheses that are not generally received. Perhaps this comes from people having insisted on giving them one sole and single cause. […] The unequal pressure of some fluid is probably the fundamental point of the explanation; but the adherence or natural viscosity of liquids, the size and shape of their parts, and perhaps a certain motion proper to them, &c., are so many means that nature may employ for effects of this kind."
+   }
+  },
+  {
+   "id": "1775-water-041",
+   "question": "capillary-rise",
+   "text": "N",
+   "answer": "fluid-pressure",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "The unequal pressure of some fluid is probably the fundamental point of the explanation, with adherence, the size and shape of the parts and perhaps a motion of their own as further means.",
+   "confidence": {
+    "level": "probable",
+    "printed": "probablement",
+    "translation": "probably"
+   },
+   "cites": [
+    {
+     "page": "433-434",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n478/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-042",
+   "question": "explanation-standard",
+   "text": "N",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "If attraction had no proof but the fact in question and were made an abstract quality subject to no measure, it would resemble the sympathies and occult qualities of the Peripatetics, banished from reasonable physics.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "415",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n460/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Car si l’on n’en avoit d’autres preuves que le fait en question, & si l’on faisoit de cette cause une qualité abstraite qui ne fut asservie à aucune mesure, cela ressembleroit beaucoup aux sympathies & aux qualités occultes des Péripatéticiens, si justement & si généralement bannies de la Physique moderne, c’est-à-dire, de la Physique raisonnable.",
+    "from_image": true,
+    "tr": "For if there were no other proof of it than the fact in question, and if one made of this cause an abstract quality subject to no measure, it would much resemble the sympathies and occult qualities of the Peripatetics, so justly and so generally banished from modern physics, that is to say, from reasonable physics."
+   }
+  },
+  {
+   "id": "1775-water-043",
+   "question": "action-at-distance",
+   "text": "N",
+   "answer": "name-only",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Attraction is accepted as a fact still awaiting its mechanical cause, as Newton himself treated it, and rejected as an innate force put into bodies by the Creator.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed",
+     "note": "attraction as a fact awaiting its cause"
+    }
+   ],
+   "cites": [
+    {
+     "page": "415-418",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n460/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-044",
+   "question": "action-at-distance",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Attraction between particles is the physics of capillary rise: the walls of the tube attract the fluid's parts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "56",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=66",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-045",
+   "question": "action-at-distance",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Capillary rise is a powerful proof of the attractive force of matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "145",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n171/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-046",
+   "question": "fluidity",
+   "text": "N",
+   "answer": "subtle-matter",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Solidity and fluidity depend on one cause: the subtle air fixes the parts of a matter when its pressure from outside exceeds its reaction within, and keeps the parts mobile by entering between them in sufficient quantity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "471",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n518/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "c’est l’air subtil qui fixe les parties d’une matière, lorsque sa pression extérieure excède la réaction qu’il fait en-dedans; & c’est ce même fluide qui rend & entretient les parties mobiles, en s’introduisant entre elles en suffisante quantité.",
+    "from_image": true,
+    "tr": "It is the subtle air that fixes the parts of a matter, when its pressure from outside exceeds the reaction it makes within; and it is this same fluid that renders and keeps the parts mobile, by introducing itself between them in sufficient quantity."
+   }
+  },
+  {
+   "id": "1775-water-047",
+   "question": "capillary-rise",
+   "text": "N",
+   "answer": "air-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Capillary rise goes on undiminished in a vessel emptied of air, which ends explanations by the pressure of ordinary air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "tubes in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "409",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n454/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-048",
+   "question": "capillary-rise",
+   "text": "EB",
+   "answer": "air-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The rise is the same in vacuo, so it is not the pressure of the air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "in vacuo"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 6), which also argues that the air in the open tube presses as much as the air on the bason"
+  },
+  {
+   "id": "1775-water-049",
+   "question": "capillary-rise",
+   "text": "N",
+   "stance": "undecided",
+   "between": [
+    "fluid-pressure",
+    "adhesion",
+    "attraction"
+   ],
+   "part": "why",
+   "statement": "Nollet reviews three classes of explanation (unequal pressure of a surrounding fluid, adherence to the glass, attraction of the glass) and finds fault with each; a drop running down the outside of a tube is drawn in at the bottom, against the explanations by pressure. Jurin, though committed to attraction, was driven to a finer fluid passing through glass; Clairaut's calculation agreed with experiment but put the effective attraction in the lower part of the tube.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the drop drawn in at the bottom of a tube"
+    }
+   ],
+   "persons": [
+    {
+     "name": "James Jurin",
+     "dates": "1684-1750",
+     "role": "reported"
+    },
+    {
+     "name": "Alexis Clairaut",
+     "dates": "1713-1765",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "411-412",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n456/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    },
+    {
+     "page": "431-433",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n476/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-050",
+   "question": "capillary-rise",
+   "text": "B",
+   "answer": "fluid-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "A subtler aether passing freely through the most solid bodies cannot press harder outside a tube than inside it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "free passage gives equal pressure within and without"
+    }
+   ],
+   "cites": [
+    {
+     "page": "67",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=77",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-051",
+   "question": "capillary-rise",
+   "text": "B",
+   "answer": "air-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Not the air: lighter fluids would then rise higher, and Bilfinger showed that air passes freely through a capillary tube.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "lighter fluids would rise higher"
+    },
+    {
+     "kind": "experiment",
+     "detail": "Bilfinger"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Georg Bernhard Bilfinger",
+     "dates": "1693-1750",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "67",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=77",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-052",
+   "question": "capillary-rise",
+   "text": "B",
+   "answer": "electric-fluid",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Not the electric fluid: Jallabert, Ellicott and Musschenbroek electrified tubes strongly and the water stood no higher.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "electrified tubes"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean Jallabert",
+     "dates": "1712-1768",
+     "role": "credited"
+    },
+    {
+     "name": "John Ellicott",
+     "dates": "1706-1772",
+     "role": "credited"
+    },
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "67",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=77",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-053",
+   "question": "capillary-rise",
+   "text": "B",
+   "answer": "adhesion",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The French once held that snake-shaped particles of fluids fix themselves in the roughnesses of the glass; that might account for the water hanging in the tube but not for its rising, since a drop running down the outside is drawn in at the bottom and rises to the height fitting the bore.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the drop drawn in at the bottom"
+    }
+   ],
+   "cites": [
+    {
+     "page": "67",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=77",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Gallis quondam visum est, suspensionem fluidorum in tubulis capillaribus ab adhaesione ad latera tubulorum provenire; censebant enim particulas fluidorum anguiformes, asperitatibus, & prominentiis vitri infigi.",
+    "from_image": true,
+    "tr": "It once seemed to the French that the suspension of fluids in capillary tubes comes from adhesion to the sides of the tubes; for they held that the snake-shaped particles of fluids fix themselves in the roughnesses and projections of the glass."
+   }
+  },
+  {
+   "id": "1775-water-054",
+   "question": "fluid-particles",
+   "text": "B",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Biwald reports the old French opinion that the particles of fluids are snake-shaped.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "67",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=77",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-055",
+   "question": "water-compressible",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The Florentine experiment is the evidence that water's particles repel one another most strongly at very small distances; at somewhat greater ones they attract, and at greater still they strive apart again.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the Florentine experiment"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "Boscovich's curve of forces"
+    }
+   ],
+   "cites": [
+    {
+     "page": "4",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=14",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Particulae aqueae in distantiis admodum exiguis fortissime se repellunt. In paulo maioribus sese attrahunt, rursumque auctis distantiis a se invicem recedere nituntur.",
+    "from_image": true,
+    "tr": "Water particles repel one another most strongly at very small distances. At somewhat greater ones they attract one another, and at greater distances still they strive to draw apart again."
+   }
+  },
+  {
+   "id": "1775-water-056",
+   "question": "water-compressible",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Citing Hollmann on the fallacies of the Florentine experiment and Canton in the Philosophical Transactions, Erxleben judges the old experiment worthless for want of exact measurement.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Hollmann; Canton"
+    },
+    {
+     "kind": "refutation",
+     "detail": "no exact measurements"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Samuel Christian Hollmann",
+     "dates": "1696-1787",
+     "role": "followed"
+    },
+    {
+     "name": "John Canton",
+     "dates": "1718-1772",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "124",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n150/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-057",
+   "question": "water-into-earth",
+   "text": "N",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Following Boerhaave, the earth left by distilled water is a foreign matter, from the dust of the air in the still or careless handling, and water is not reducible to earth.",
+   "confidence": {
+    "level": "probable",
+    "printed": "j’aimerois mieux croire",
+    "translation": "I would rather believe"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "31-33",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n38/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    },
+    {
+     "page": "32-33",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n39/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "j’aimerois mieux croire, après l’examen qu’en a fait M. Boerhave, que c’est une matière étrangère mêlée à l’eau, que de penser sur une preuve aussi légère & aussi douteuse, que l’eau soit réductible en terre.",
+    "from_image": true,
+    "tr": "I would rather believe, after the examination Mr Boerhaave made of it, that it is a foreign matter mixed with the water, than think, on a proof so slight and so doubtful, that water is reducible to earth."
+   }
+  },
+  {
+   "id": "1775-water-058",
+   "question": "water-into-earth",
+   "text": "B",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "dispute",
+   "statement": "Biwald reports Boerhaave's denial, then gives five grounds for the change, which he calls not light, without a verdict.",
+   "confidence": {
+    "level": "none",
+    "printed": "non levibus fundamentis nixi",
+    "translation": "resting on grounds that are not light"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "9",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=19",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Affirmant alii, non levibus fundamentis nixi",
+    "from_image": true,
+    "tr": "Others affirm it, resting on grounds that are not light."
+   }
+  },
+  {
+   "id": "1775-water-059",
+   "question": "water-into-earth",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "dispute",
+   "statement": "Linnaeus believes it; the transformation of water into earth, which some sought to demonstrate by experiments that seemed evident, still remains doubtful.",
+   "confidence": {
+    "level": "doubtful",
+    "printed": "bleibt noch immer zweifelhaft",
+    "translation": "still remains doubtful"
+   },
+   "persons": [
+    {
+     "name": "Carl Linnaeus",
+     "dates": "1707-1778",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "642-643",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n665/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "643",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n665/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Und die Verwandlung des Wassers in Erde, die einige durch augenscheinliche Versuche haben darthun wollen, bleibt noch immer zweifelhaft.",
+    "from_image": true,
+    "tr": "And the transformation of water into earth, which some have sought to demonstrate by experiments that seemed evident, still remains doubtful."
+   }
+  },
+  {
+   "id": "1775-water-060",
+   "question": "water-into-earth",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts of the Britannica read."
+  },
+  {
+   "id": "1775-water-061",
+   "question": "water-into-earth",
+   "text": "N",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Boyle and Hooke observed the earth left by repeatedly distilled water, and Newton concluded that water changes into a solid earth by repeated distillation; Boerhaave held instead that the parts of water are unalterable elements.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Robert Boyle",
+     "dates": "1627-1691",
+     "role": "reported"
+    },
+    {
+     "name": "Robert Hooke",
+     "dates": "1635-1703",
+     "role": "reported"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    },
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "31",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n38/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-062",
+   "question": "water-into-earth",
+   "text": "B",
+   "stance": "reports",
+   "part": "why",
+   "statement": "The grounds for the change: slaked lime set with sand and water weighs more dry than lime and sand did; burnt gypsum gains weight with water; plants fed on water alone grow solid parts, and Boyle's willow gained 169 pounds in five years while its earth lost scarcely two ounces; Eller found green films and an inflammable oil in sealed distilled water left in the sun; Marggraf distilled the same water forty times and saw it lay down a white, shining, very light earth.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "lime, gypsum, Boyle's willow, Eller, Marggraf"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Robert Boyle",
+     "dates": "1627-1691",
+     "role": "credited"
+    },
+    {
+     "name": "Johann Theodor Eller",
+     "dates": "1689-1760",
+     "role": "credited"
+    },
+    {
+     "name": "Andreas Sigismund Marggraf",
+     "dates": "1709-1782",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "9",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=19",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-063",
+   "question": "sea-diminishing",
+   "text": "E",
+   "answer": "undecided",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Erxleben meets water into earth in the Swedish debate whether the waters of the earth are diminishing; Linnaeus believes they are, and pictures the habitable land growing from a single mountain; Erxleben thinks the question cannot yet be settled.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Carl Linnaeus",
+     "dates": "1707-1778",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "643",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n665/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-064",
+   "question": "heat-fluidity",
+   "text": "N",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Against Boerhaave, who said hot water is no more fluid since Newton's pendulum swung as freely in cold water: the bob swells in hot water, which could hide a real difference; and hot water penetrates bodies, dissolves salts and cooks meat better.",
+   "confidence": {
+    "level": "possible"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the bob swells in hot water"
+    },
+    {
+     "kind": "observation",
+     "detail": "hot water dissolves and cooks better"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "opposed"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported",
+     "note": "the pendulum in hot and cold water"
+    }
+   ],
+   "cites": [
+    {
+     "page": "6-9",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n13/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-065",
+   "question": "heat-fluidity",
+   "text": "B",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Biwald reports the dispute and says Nollet's objections could make anyone wish to see Boerhaave's opinion confirmed by other experiments.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "reported"
+    },
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "4",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=14",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-066",
+   "question": "fluid-particles",
+   "text": "B",
+   "answer": "round",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The particles of water are nearly spherical: water is slippery, does not hurt the eye, has no taste, and its drops are round.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "slipperiness, round drops"
+    }
+   ],
+   "cites": [
+    {
+     "page": "3",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=13",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-067",
+   "question": "fluid-particles",
+   "text": "EB",
+   "answer": "round",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The particles of a fluid are hard, round and smooth, since they are so easily moved among one another.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "804",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 797
+     },
+     "entry": "Hydrostatics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "since they are so easily moved among one another",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 101), where the 1776 edition reads 'seeming' for 'since'"
+  },
+  {
+   "id": "1775-water-068",
+   "question": "fluid-particles",
+   "text": "N",
+   "stance": "declines",
+   "part": "open",
+   "statement": "Nollet will not decide whether the particles of water are little spindles, little cylinders or globules, knowing no observation or experiment that can warrant the decision.",
+   "cites": [
+    {
+     "page": "5",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n12/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "je n’ai garde de décider si ce sont des petits fuseaux, des petits cylindres, ou des globules, parce que je ne connois aucune observation, ni aucune expérience, qui puisse garantir cette décision",
+    "from_image": true,
+    "tr": "I take care not to decide whether they are little spindles, little cylinders, or globules, because I know of no observation or experiment that can warrant the decision."
+   }
+  },
+  {
+   "id": "1775-water-069",
+   "question": "fluidity-degrees",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "No body is perfectly fluid; the same fluid takes different degrees as heat and cold move its particles apart or together, but the degrees are hard to compare or measure.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "123",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n149/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-070",
+   "question": "water-swelling",
+   "text": "B",
+   "answer": "watery-property",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Wetted ropes shrink and lift great weights, and swelling peas burst an iron pipe; Musschenbroek found that water, wine, vinegar and spirit of wine do this and oils do not, so it depends on something other than fluidity, present in watery fluids alone.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Musschenbroek's trials with several liquids"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=16",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-071",
+   "question": "four-elements",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "place",
+   "statement": "The Lectures do not speak of water as an element or of the elements of bodies (search of the machine-read text of the whole book)."
+  },
+  {
+   "id": "1775-water-072",
+   "question": "water-qualities",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Lectures do not describe the sensible qualities of water (search of the machine-read text of the whole book)."
+  },
+  {
+   "id": "1775-water-073",
+   "question": "water-purity",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not taken up. His table of specific gravities, without comment, puts pump water at 1.000, spring water at 0.999, distilled water at 0.993 and sea water at 1.030.",
+   "cites": [
+    {
+     "page": "159",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n198/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-074",
+   "question": "fluid-pressure",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fluids have the wonderful property that their pressure upwards and sidewise equals their pressure downwards, in proportion to their perpendicular height and without regard to their quantity, since each particle moves toward the side where the pressure is least; a small tube plunged into a tall tube of water fills to the level round it. All fluids weigh just as much in their own elements as in open air: an opened phial of shot hung in water needs exactly the weight of the water it takes in to balance it again.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "small tube in a tall tube of water; phial of shot weighed in water"
+    }
+   ],
+   "cites": [
+    {
+     "page": "101",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n134/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "102",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n135/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "111",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n144/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "that their pressure upwards and sidewise is equal to their pressure downwards; and this is always in proportion to their perpendicular height, without any regard to their quantity",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-water-075",
+   "question": "capillary-height",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Gives no law of heights: the water rises in a small glass tube until the weight of the column balances the attraction of the tube, the same in an exhausted receiver (F 6); attraction raises water only where the bore is very small, never in a tube as wide as that of a common barometer (F 102). Nothing on bore and height, the length of the tube, or mercury.",
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "102",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n135/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-076",
+   "question": "capillary-rise",
+   "text": "F",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The first instance of the attraction of cohesion, one of four kinds of attraction, which seems rather infused than inherent in matter: the water rises by the attraction of a ring of glass particles just above it, until the weight of the column balances the attraction of the tube.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the attraction of a ring of particles of the glass all round in the tube, immediately above those to which the water at any instant rises",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-water-077",
+   "question": "capillary-rise",
+   "text": "F",
+   "answer": "air-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Not the pressure of the air: the tube is open at the top and full of air, which presses on the water in it as much as the neighbouring air on any column in the bason; and in an exhausted receiver there is no difference.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the air in the open tube presses equally"
+    },
+    {
+     "kind": "experiment",
+     "detail": "in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "This can be no ways owing to the pressure of the air upon the water in the bason",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-water-078",
+   "question": "water-compressible",
+   "text": "F",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No fluid, except air or steam, can be pressed into a less space than it naturally possesses, which shows that the particles of fluids are hard. The first way air differs from all other fluids is that it can be compressed, which no other fluid can.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "101",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n134/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "168",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n207/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "no fluid, except air or steam, can be pressed into a less space than it naturally possesses",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-water-079",
+   "question": "fluid-particles",
+   "text": "F",
+   "answer": "round",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The particles of a fluid are too small for the best microscopes; hard, since no fluid but air or steam can be compressed; and round and smooth, since they are so easily moved among one another.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "fluids are not compressed and their parts move easily"
+    }
+   ],
+   "cites": [
+    {
+     "page": "101",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n134/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "round and smooth, seeming they are so easily moved among one another",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-water-080",
+   "question": "water-natural-state",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up; a search of the machine-read text finds nothing on ice or freezing water. Of air he says only that, unlike other fluids, it cannot be congealed or fixed (F 168).",
+   "cites": [
+    {
+     "page": "168",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n207/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-081",
+   "question": "fluidity",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Gives no cause of fluidity; a fluid is defined as a body that yields to the least pressure or difference of pressures (F 101).",
+   "cites": [
+    {
+     "page": "101",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n134/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-water-082",
+   "question": "fluid-internal-motion",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up in the Lectures."
+  },
+  {
+   "id": "1775-water-083",
+   "question": "water-into-earth",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not raised (search of the machine-read text of the whole book)."
+  }
+ ]
+}

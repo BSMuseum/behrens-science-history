@@ -1,0 +1,1975 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-electricity",
+  "snapshot": "1775",
+  "topic": "electricity",
+  "title": "Electricity",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#electricity",
+   "version_encoded": "1795380980-7d5f"
+  },
+  "published": "2026-11-13",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text; written before the entry conventions and not yet checked against them. Paris is represented by Sigaud's Traité (a single-topic treatise); under R1 the Paris text is Nollet's Leçons t. 6, with Sigaud supplementary. British text: Ferguson's passage 'Electricity' (Lectures pp. 18-19), with the four kinds of attraction (p. 6) and thunder and lightning in the lecture on pneumatics (pp. 176-177), all read from the page images; the OCR of the whole book was searched for electric, Franklin, Nollet, Leyden, phial, positive, negative, conductor and medical, and none of these occurs in the Lectures' text on electricity (Nollet is named only in the preface, among lecturers on experimental philosophy, leaf 9). Ferguson's separate Introduction to Electricity (1770), whose six sections (the machine, the apparatus, the experiments and the protection of buildings from lightning, medical electricity) are advertised on leaf 1 of the Lectures (image), is a single-topic treatise (R1 clause 2) and was not read. Martin's Philosophical Grammar (London 1778), chapter IX, pp. 105-107 (effluvia excited by rubbing that fly out and return by the body's attraction; lightning from fermenting exhalations, p. 202), was read from the images the same day and is recorded in texts.json as the second British text for widening; not encoded. Not yet read: Nollet's and Franklin's own writings, Beccaria, Priestley 1775, Musschenbroek 1762. The common-ground item on the shock from coated glass is encoded under leyden-discovery (dispute), since its content is the split over attribution. The terms table is not encoded. read_from is 'image' for every Ferguson citation; for the others, 'image' only where the entry quotes the page; other citations are 'unknown', except one 'ocr' (the count of Franklin's name). Biwald's references link to the Munich scans although the reading was done from Google Books PDFs. Siglum B covers both Biwald volumes: one citation, to the preface of the general physics, carries work 'biwald-generalis-1769' (the site gives it no page; canvas 14 is the preface's first). Britannica pages 480 and 485 and their leaves were located from the IA OCR page index; the site cites those passages by section only. Erxleben leaf = page + 22 throughout, as on the site.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images: the margin-headed passage 'Electricity' at the end of Lecture I (pp. 18-19), which under the R1 v4 reading of clause 5 gives him the topic (decided by Bruce 2026-11-21, in place of Martin's Philosophical Grammar, first proposed the same day). The Britannica kept as supplementary. Compared by shared five-word sequences in the OCR, the Britannica's treatise Electricity (vol. 2 leaves 412-428) is its own: 0-1% per page against Ferguson's Lectures (1776), his Introduction to Electricity (1770) and Martin's Grammar (1762, 1769, 1778), as for control pages. Its Mechanics (vol. 3 p. 36, leaf 47) reprints the first sentence of Ferguson's passage and refers the reader to the treatise. electric-cause gains the code 'attraction'."
+  },
+  "conventions_review": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5",
+   "rule": "A common-ground item moves to the disputes when a regional text holds or leans to an answer the item excludes; silence (not taken up, not found) and differences of emphasis do not move it.",
+   "change": "Common-ground item 'Lightning is electricity' moved to the disputes (new subsection 'Is lightning electricity?' and table row; the h2 'The dispute: two systems' renamed 'The disputes'), since Ferguson makes lightning a fermentation and Erxleben and Sigaud were not read on it here. Ferguson's 'electrical attraction' stays under the common-ground item on a subtle fluid: he does not deny a fluid."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part III, Section III, pp. 314-343",
+   "also": {
+    "text": "biwald-generalis-1769",
+    "parts": "preface"
+   }
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Tenth section, Von der Elektricität; theory §§522-533 (pp. 422-431)"
+  },
+  "S": {
+   "text": "sigaud-electricite-1776",
+   "parts": "preface pp. xvii-xxi; pp. 197-198, 228, 248-249, 323-326, 388-389"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture I, the margin-headed passage 'Electricity', pp. 18-19, with the four kinds of attraction, p. 6; the lecture on pneumatics, margin heading 'Thunder and lightning', pp. 176-177"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Electricity, vol. 2 pp. 471-485",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its treatise Electricity is its own: no five-word sequences shared with Ferguson's Lectures (1776), his Introduction to Electricity (1770) or Martin's Philosophical Grammar (1762, 1769, 1778); 0-1% per page, as for control pages (OCR, 2026-11-21). Its Mechanics (vol. 3 p. 36, leaf 47, read from the image) reprints the first sentence of Ferguson's passage 'Electricity' (Lectures p. 18) and then, in place of his seven observations, sends the reader to the treatise."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Particular physics in six parts (water, air, light and fire, earth, meteors, the terraqueous globe); electricity is the third section of light and fire, after fire and light. The magnet goes under earth, lightning under meteors",
+   "cites": [
+    {
+     "page": "conspectus",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796",
+     "note": "the site cites the conspectus without a page"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "A section of its own, the tenth, after fire",
+   "cites": [
+    {
+     "page": "422",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n444/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "S",
+   "where": "A whole volume",
+   "cites": [
+    {
+     "page": "xvii",
+     "url": "https://archive.org/details/b33001674/page/n22/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "No lecture on electricity: a margin-headed passage, 'Electricity', closes Lecture I, on the properties of matter, where electrical attraction is the last of four kinds of attraction (cohesion, gravitation, magnetism, electricity), after the loadstone. Thunder and lightning come in the lecture on pneumatics, as fermenting effluvia. His separate Introduction to Electricity (1770) is a single-topic treatise",
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up"
+    },
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up"
+    },
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "One of the separate treatises into which the Britannica digests each science",
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "471",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 412
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-electricity-001",
+   "question": "electric-cause",
+   "text": "B",
+   "answer": "subtle-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Electricity is the action of a very subtle fluid; its presence is proved from the senses: felt like fine wool, smelled like spirit of vitriol or phosphorus, tasted sour, seen as a flame at points and corners, heard in the spark.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the fluid perceived by all five senses"
+    }
+   ],
+   "cites": [
+    {
+     "page": "318-319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=328",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-002",
+   "question": "electric-cause",
+   "text": "E",
+   "answer": "subtle-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The cause is a much finer, fluid and elastic matter pervading the interstices of all bodies; a body is electrified when this matter gathers in and around it as an electric atmosphere.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "422-423",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n444/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-003",
+   "question": "electric-cause",
+   "text": "S",
+   "answer": "subtle-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Sigaud calls the electric matter 'electric fire', which like any other fire tends toward equilibrium in all bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "228",
+     "url": "https://archive.org/details/b33001674/page/n263/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-004",
+   "question": "electric-cause",
+   "text": "EB",
+   "answer": "subtle-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Electricity signifies the effects of a very subtle fluid matter, different in its properties from every other fluid known.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "471",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 412
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "signifies, in general, the effects of a very subtile fluid matter, different in its properties from every other fluid we are acquainted with",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-005",
+   "question": "electric-matter-known",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Natural philosophers almost unanimously have recourse to some most subtle fluid; how it acts and what its nature is, all agree is not easy to say.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "almost all natural philosophers"
+    }
+   ],
+   "cites": [
+    {
+     "page": "318",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=328",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ut phaenomenorum electricorum rationem redderent Physici, omnes fere unanimi sensu ad fluidi cuiuspiam subtilissimi actionem recurrerunt, qua porro ratione id fluidum agat, & quae sit eiusdem indoles, id quidem non adeo pronum dictu esse, unanimi omnes sensu profitentur.",
+    "from_image": true,
+    "tr": "To account for electrical phenomena, natural philosophers have almost unanimously had recourse to the action of some most subtle fluid; how that fluid acts, and what its nature is, all agree is not so easy to say."
+   }
+  },
+  {
+   "id": "1775-electricity-006",
+   "question": "electric-matter-known",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The nature of the electric matter is not yet known.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "xvii",
+     "url": "https://archive.org/details/b33001674/page/n22/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-007",
+   "question": "electric-matter-known",
+   "text": "EB",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "We are entirely ignorant of the nature of the electrical fluid, which can be defined only by its principal properties.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "471",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 412
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "As we are entirely ignorant of the nature of the electrical fluid, it is impossible to define it but by its principal properties.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-008",
+   "question": "electric-matter-known",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry says all four texts call the fluid's nature unknown but cites no page of Erxleben for it."
+  },
+  {
+   "id": "1775-electricity-009",
+   "question": "electric-classes",
+   "text": "B",
+   "answer": "two-classes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Some bodies (glass, gems, hard resins, sulphur, wax, silk, dry wood, hair, feathers) become electric by rubbing, striking or heating: idioelectrica. Others (metals, water, everything moist, animal bodies) show electricity only when it is communicated to them: symperielectrica.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "315-316",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=325",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-010",
+   "question": "electric-classes",
+   "text": "EB",
+   "answer": "two-classes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Bodies are divided into electrics, or non-conductors, and conductors.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "471",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 412
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "electrics, or non conductors",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-011",
+   "question": "electric-classes",
+   "text": "E",
+   "answer": "two-classes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Electric bodies combine with the electric matter only with difficulty but then hold it fast; unelectric bodies take it up easily and do not hold it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "explains the two classes"
+    }
+   ],
+   "cites": [
+    {
+     "page": "423",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n445/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-012",
+   "question": "electric-classes",
+   "text": "S",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites no page of Sigaud for the two classes."
+  },
+  {
+   "id": "1775-electricity-013",
+   "question": "electric-machine",
+   "text": "B",
+   "answer": "globe-and-conductor",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A glass globe or cylinder turned fast against a leather cushion; a metal rod or chain near it, hung on silk or set on glass or pitch, collects the electricity and draws and repels light bodies, glows bluish in the dark and gives a stinging spark.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "314-317",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=324",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-014",
+   "question": "electric-machine",
+   "text": "EB",
+   "answer": "globe-and-conductor",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Britannica describes the same machine, globe and conductor.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "477",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 418
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-015",
+   "question": "electric-machine",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites no page of Erxleben for the machine."
+  },
+  {
+   "id": "1775-electricity-016",
+   "question": "electric-machine",
+   "text": "S",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites no page of Sigaud for the machine."
+  },
+  {
+   "id": "1775-electricity-017",
+   "question": "lightning",
+   "text": "B",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "An insulated pointed iron rod set up high shows every sign of electricity when storms are near and sometimes at other times; the atmosphere itself is electric, now positively, now negatively, and this natural electricity far exceeds what a machine can raise.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "insulated pointed iron rod"
+    }
+   ],
+   "cites": [
+    {
+     "page": "336-338",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=346",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-018",
+   "question": "lightning",
+   "text": "EB",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Lightning and electricity alike take a crooked path, strike the highest and most pointed objects, follow the best conductors, burn, and sometimes dissolve metals.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "point-by-point likenesses"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "480",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 421
+     },
+     "entry": "Electricity",
+     "section": "Of the Similarity between Lightning and Electricity",
+     "note": "The site gives the section without a page; page and leaf located from the IA OCR page index"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-019",
+   "question": "lightning",
+   "text": "E",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The entry cites no page of Erxleben on lightning."
+  },
+  {
+   "id": "1775-electricity-020",
+   "question": "lightning",
+   "text": "S",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The entry cites no page of Sigaud on lightning as electricity."
+  },
+  {
+   "id": "1775-electricity-021",
+   "question": "electricity-living",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The discharge shakes the limbs, injures the small nerves and often kills small birds; it can sometimes help the sick, where the nervous fluid needs moving, stagnant humours dispersing or the fibres rousing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "effects on animals and the sick"
+    }
+   ],
+   "cites": [
+    {
+     "page": "334-335",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=344",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-022",
+   "question": "electricity-living",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The treatise ends by proposing a room where a patient could sit, read or sleep while gently electrified.",
+   "confidence": {
+    "level": "probable",
+    "printed": "good effects are at least possible, if not highly probable"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "485",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 428
+     },
+     "entry": "Electricity",
+     "section": "final paragraph",
+     "note": "The site gives no page; page and leaf located from the IA OCR page index"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "good effects are at least possible, if not highly probable.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-023",
+   "question": "electricity-living",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites no page of Erxleben on electricity and living bodies."
+  },
+  {
+   "id": "1775-electricity-024",
+   "question": "electricity-living",
+   "text": "S",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites Sigaud only on Nollet's test of medicated tubes."
+  },
+  {
+   "id": "1775-electricity-025",
+   "question": "medicated-tubes",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "It had been said that drugs sealed in the glass pass out with the electric matter and purge the patient; Nollet went to Turin and Venice to see it and found nothing that answered his expectation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Nollet's journey to Turin and Venice"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "335",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=345",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-026",
+   "question": "medicated-tubes",
+   "text": "S",
+   "stance": "reports",
+   "part": "common",
+   "statement": "Sigaud remarks that Nollet had every interest in the claim being true, since it would have lent weight to his own system.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "388-389",
+     "url": "https://archive.org/details/b33001674/page/n423/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-027",
+   "question": "medicated-tubes",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not cited for Erxleben."
+  },
+  {
+   "id": "1775-electricity-028",
+   "question": "medicated-tubes",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not cited for the Britannica."
+  },
+  {
+   "id": "1775-electricity-029",
+   "question": "electric-cause",
+   "text": "B",
+   "answer": "one-fluid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Franklin's system, as developed by Beccaria: its difficulties are not to be despised, but it is to be preferred to the rest.",
+   "confidence": {
+    "level": "probable",
+    "translation": "to be preferred; difficulties not to be despised",
+    "note": "Latin original not reproduced in the entry"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    },
+    {
+     "name": "Giambatista Beccaria",
+     "dates": "1716-1781",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "318",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=328",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-030",
+   "question": "electric-cause",
+   "text": "E",
+   "answer": "one-fluid",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Erxleben sets out Franklin's and Nollet's theories, the two that have attracted particular attention, and weighs them; Franklin seems to be right, though perhaps no theory explains everything.",
+   "confidence": {
+    "level": "probable",
+    "translation": "seems to be right",
+    "note": "German original not reproduced in the entry"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "reported"
+    },
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "425-430",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n447/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "429",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n451/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "two theories for explaining the phenomena of electricity that have attracted particular attention",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-electricity-031",
+   "question": "electric-cause",
+   "text": "E",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Nollet supposes that electric matter goes out of the electrified body on all sides while electric matter from the air and neighbouring bodies presses into it; the one stream causes repulsion, the other attraction. On this view the shock is two opposed streams meeting, the electricity of resin is that of glass but weaker, and the electric matter is elementary fire and the matter of light.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "425",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n447/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "427",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n449/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "429",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n451/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "423",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n445/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Nollet nimmt an, es gehe aus dem elektrisirten Körper nach allen Seiten elektrische Materie heraus und verbreite sich in der Luft und den benachbarten Körpern; und wiederum dringe aus der Luft und den benachbarten Körpern elektrische Materie nach allen Seiten in den elektrisirten Körper hinein; der eine Strom verursache das Zurückstossen, der andere das Anziehen.",
+    "from_image": true,
+    "tr": "Nollet supposes that electric matter goes out of the electrified body on all sides and spreads into the air and the neighbouring bodies; and that electric matter in turn presses from the air and the neighbouring bodies on all sides into the electrified body; the one stream causes the repulsion, the other the attraction."
+   }
+  },
+  {
+   "id": "1775-electricity-032",
+   "question": "electric-cause",
+   "text": "S",
+   "answer": "two-currents",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Sigaud takes Franklin's side on the bottle and on glass, but as a general system knows none simpler than Nollet's, his 'system of affluences', and would choose it if it were time to choose.",
+   "confidence": {
+    "level": "possible",
+    "translation": "if it were time to take a side"
+   },
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "followed"
+    },
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "xxi",
+     "url": "https://archive.org/details/b33001674/page/n26/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "228",
+     "url": "https://archive.org/details/b33001674/page/n263/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "389",
+     "url": "https://archive.org/details/b33001674/page/n424/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-033",
+   "question": "electric-cause",
+   "text": "EB",
+   "answer": "one-fluid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Franklin's system only; he is named thirteen times in the machine-read text of the treatise and Nollet not at all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "477",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 418
+     },
+     "entry": "Electricity",
+     "note": "The count is from the OCR of the whole treatise, pp. 471-485"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-034",
+   "question": "electric-states",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Every body has its natural quantity of the electric fluid; with more it is electric positively, by excess, with less negatively, by defect; five combinations of the two states and the natural state explain the variety of phenomena. In the charged bottle the inner surface gains exactly what the outer loses, and the shock is the fluid passing by the shortest road between them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "320",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=330",
+     "read_from": "unknown"
+    },
+    {
+     "page": "322",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=332",
+     "read_from": "unknown"
+    },
+    {
+     "page": "328-334",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=338",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-035",
+   "question": "electric-states",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The two electricities are positive and negative, but which of the two is the positive one is not known.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "429",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n451/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-036",
+   "question": "electric-states",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The two surfaces of the bottle are in opposite states, a fact now recognized by the greater part of electrifying physicists.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "the greater part of electrifying physicists"
+    }
+   ],
+   "cites": [
+    {
+     "page": "228",
+     "url": "https://archive.org/details/b33001674/page/n263/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "now recognized by the greater part of electrifying physicists",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-electricity-037",
+   "question": "electric-states",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Positive and negative electricity, credited to Dr Watson and Dr Franklin.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "William Watson",
+     "dates": "1715-1787",
+     "role": "credited"
+    },
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "477",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 418
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Dr Watson and Dr Franklin",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-038",
+   "question": "electric-fire",
+   "text": "B",
+   "answer": "no",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Biwald reasons about the electric fluid by analogy with fire and light, as a further fluid alongside them.",
+   "confidence": {
+    "level": "possible"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "fire and light"
+    }
+   ],
+   "cites": [
+    {
+     "page": "319-320",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=329",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-039",
+   "question": "electric-fire",
+   "text": "E",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "To call the electric matter elementary fire and light is very hasty: it produces light and warmth, but is it therefore light or fire?",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "423",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n445/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "very hasty",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-electricity-040",
+   "question": "electric-fire",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Electric fire, like any other fire, tends toward equilibrium in all bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "228",
+     "url": "https://archive.org/details/b33001674/page/n263/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-041",
+   "question": "electric-fire",
+   "text": "EB",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The electric fluid is different in its properties from every other fluid, yet the treatise also calls it the electrical fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "471",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 412
+     },
+     "entry": "Electricity"
+    },
+    {
+     "vol": "ii",
+     "page": "477",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 418
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the electrical fire",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-042",
+   "question": "leyden-discovery",
+   "text": "B",
+   "answer": "musschenbroek",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A glass coated inside and out, or filled with water, can be charged to give a violent blow through arms and chest; Biwald credits Musschenbroek at Leiden and calls it the Leiden experiment.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "330-331",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=340",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-043",
+   "question": "leyden-discovery",
+   "text": "E",
+   "answer": "kleist",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Erxleben calls it the Kleistian experiment.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Ewald Georg von Kleist",
+     "dates": "1700-1748",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "427",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n449/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "the Kleistian experiment",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-electricity-044",
+   "question": "leyden-discovery",
+   "text": "S",
+   "answer": "musschenbroek",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Sigaud credits Musschenbroek on the evidence of his letter to Réaumur, noting that some gave the honour to Cuneus, a citizen of Leiden.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Musschenbroek's letter to Réaumur"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "credited"
+    },
+    {
+     "name": "René-Antoine Ferchault de Réaumur",
+     "dates": "1683-1757",
+     "role": "reported"
+    },
+    {
+     "name": "Andreas Cunaeus",
+     "dates": "1712-1788",
+     "role": "reported",
+     "note": "life dates not confirmed online (charter)"
+    }
+   ],
+   "cites": [
+    {
+     "page": "197-198",
+     "url": "https://archive.org/details/b33001674/page/n232/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "M. Cuneus, Bourgeois de Leyde",
+    "from_image": true,
+    "tr": "M. Cuneus, citizen of Leiden"
+   }
+  },
+  {
+   "id": "1775-electricity-045",
+   "question": "leyden-discovery",
+   "text": "EB",
+   "answer": "cunaeus",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The experiment was first discovered by Mr Cunaeus, a native of Leyden.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Andreas Cunaeus",
+     "dates": "1712-1788",
+     "role": "credited",
+     "note": "life dates not confirmed online (charter)"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "477",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 418
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "was first discovered by Mr Cunæus, a native of Leyden",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-046",
+   "question": "electric-states",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Nollet reported that a metal leaf near the outside of a charged bottle is steadily repelled, which would deny that surface the negative state; Sigaud, taking it on Nollet's word, racked his mind to reconcile it, then repeated the experiment: the leaf first flies to the bottle, touches it, and only then is repelled, which is one more proof for Franklin.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the metal leaf near the charged bottle, repeated"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Nollet attended only to the repulsion"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "248",
+     "url": "https://archive.org/details/b33001674/page/n283/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "248-249",
+     "url": "https://archive.org/details/b33001674/page/n283/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Je n'osois soupçonner son intelligence ni sa bonne foi, & persuadé sur sa parole, de la vérité du fait qu'il annonce, je me mis l'esprit à la torture, pour le concilier avec les phénomènes précédents, que je regardois comme aussi certains.",
+    "from_image": true,
+    "tr": "I did not dare suspect his understanding or his good faith, and persuaded on his word of the truth of the fact he announces, I racked my mind to reconcile it with the preceding phenomena, which I regarded as equally certain."
+   }
+  },
+  {
+   "id": "1775-electricity-047",
+   "question": "electric-flow-direction",
+   "text": "B",
+   "answer": "not-safely",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Beccaria read the fluid's direction from the light, a diverging brush where it leaves a point and a small star where it enters; Biwald concedes the shapes are not certain or distinct enough to infer the direction safely.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Giambatista Beccaria",
+     "dates": "1716-1781",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "325",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=335",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Verum fatendum omnino est, directionem radiorum lucis, quae in illis sive floccis, sive stellulis observatur, haud adeo certam, ac distinctam esse, ut directio fluidi electrici tuto inde erui queat.",
+    "from_image": true,
+    "tr": "It must be frankly admitted, however, that the direction of the rays of light observed in those brushes or little stars is not so certain and distinct that the direction of the electric fluid can safely be inferred from it."
+   }
+  },
+  {
+   "id": "1775-electricity-048",
+   "question": "electric-cause",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "one-fluid",
+    "two-currents"
+   ],
+   "part": "why",
+   "statement": "For Franklin: an insulated man rubbing the globe becomes electrified when the conductor is not insulated. Against him: the brushes of fire seem to come out of the unelectrified point held toward the conductor. Franklin himself does not venture to decide whether the conductor is electrified positively or negatively.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "insulated man at the globe"
+    },
+    {
+     "kind": "observation",
+     "detail": "brushes from an unelectrified point"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "426",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n448/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "427",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n449/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-049",
+   "question": "electric-cause",
+   "text": "E",
+   "answer": "two-currents",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "A conductor insulated between a glass globe and a sulphur globe rubbed together is never electrified: incomprehensible on Nollet's theory, well explained on Franklin's. Of the two streams: how incomprehensible, how forced; can they coexist at all?",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "conductor between glass and sulphur globes"
+    },
+    {
+     "kind": "refutation",
+     "detail": "the two streams cannot coexist"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "429",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n451/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "425",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n447/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Nach Nollets Theorie ist das unbegreiflich, aber nach der franklinischen kann man es gar wohl erklären. Die eine von beyden Elektricitäten ist positiv, die andere negativ; welche von beyden positiv und welche negativ ist, weiß man nicht; aber die eine hebt die andere auf.",
+    "from_image": true,
+    "tr": "On Nollet's theory this is incomprehensible, but on the Franklinian it can be explained very well. One of the two electricities is positive, the other negative; which is positive and which negative is not known; but the one cancels the other."
+   }
+  },
+  {
+   "id": "1775-electricity-050",
+   "question": "electric-cause",
+   "text": "S",
+   "answer": "two-currents",
+   "stance": "leans",
+   "part": "why",
+   "statement": "Sigaud defends Franklin on the bottle and still judges Nollet's the simplest and most satisfying general account; if it were time to take a side he would embrace it.",
+   "confidence": {
+    "level": "possible",
+    "printed": "S'il étoit tems de prendre un parti",
+    "translation": "if it were time to take a side"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "accounts most conveniently for electrical phenomena"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "xxi",
+     "url": "https://archive.org/details/b33001674/page/n26/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "je conviens de bonne foi, que je n'en connois aucun qui soit plus simple, plus satisfaisant, & qui rende plus commodément raison des phénomènes électriques, que celui qu'il a proposé. S'il étoit tems de prendre un parti à cet égard, je croirois devoir embrasser celui de l'Abbé Nollet.",
+    "from_image": true,
+    "tr": "I admit in good faith that I know of none that is simpler, more satisfying, or that accounts more conveniently for electrical phenomena than the one he proposed. If it were time to take a side in this matter, I believe I should embrace that of the Abbé Nollet."
+   }
+  },
+  {
+   "id": "1775-electricity-051",
+   "question": "electric-cause",
+   "text": "B",
+   "answer": "two-currents",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Light bodies approach an electrified body whether it is positive or negative, as the fluid passes one way or the other and action equals reaction; hence the electric fluid does not act by impulse, like a wind pressing on bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "light bodies are drawn by positive and negative bodies alike"
+    }
+   ],
+   "cites": [
+    {
+     "page": "341",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=351",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hinc porro elucet, fluidum electricum haud agere impulsu, aut more venti corpora urgentis; tum enim fieri sane deberet, ut corpora levia a positive electricis repellantur, a negative vero electricis attrahantur.",
+    "from_image": true,
+    "tr": "Hence it is clear that the electric fluid does not act by impulse, or in the manner of a wind pressing on bodies; for then light bodies would have to be repelled by positively electric bodies and attracted by negatively electric ones."
+   }
+  },
+  {
+   "id": "1775-electricity-052",
+   "question": "action-at-distance",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Following Newton and, after him, Boscovich in theory, Biwald gives the electric fluid attractive and repulsive forces: its larger molecules repel one another, its smaller portions attract, and different bodies attract or repel it in different degrees.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    },
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "preface",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=14",
+     "read_from": "unknown",
+     "work": "biwald-generalis-1769",
+     "note": "Preface to the general physics (canvases 14-16); the site gives no page. Canvas of the passage not checked."
+    },
+    {
+     "page": "340",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=350",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-053",
+   "question": "electric-cause",
+   "text": "S",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Nollet, one of the most celebrated physicists France has had, prejudiced against Franklin's opinion and seduced by a few experiments, never ceased to refute it despite the more luminous experiments set against him; readers should examine for themselves the experiments that seem most decisive for their own opinion, since the greatest men often err by holding too confidently to their first ideas.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "first commitments of the author"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "opposed"
+    },
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "xx",
+     "url": "https://archive.org/details/b33001674/page/n25/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "xx-xxi",
+     "url": "https://archive.org/details/b33001674/page/n25/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Prévenu contre la singularité de l'opinion de Franklin, & séduit par quelques expériences qui sembloient démontrer le contraire, l'Abbé Nollet fut le plus grand antagoniste du Franklinisme, & il ne cessa de le réfuter, malgré la multitude d'expériences plus lumineuses les unes que les autres, que plusieurs célèbres Physiciens lui opposèrent en différents temps.",
+    "from_image": true,
+    "tr": "Prejudiced against the singularity of Franklin's opinion, and seduced by a few experiments that seemed to demonstrate the contrary, the Abbé Nollet was the greatest antagonist of Franklinism, and he never ceased to refute it, despite the multitude of experiments, each more luminous than the last, that several celebrated physicists set against him at various times."
+   }
+  },
+  {
+   "id": "1775-electricity-054",
+   "question": "electric-cause",
+   "text": "E",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Against Franklin, Erxleben asks why the electric matter of a positively electrified body drives back the electric matter in a body approaching it.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "427",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n449/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "why does the electric matter of the positively electrified body drive back the electric matter in the body approaching it?",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-electricity-055",
+   "question": "electric-matter-known",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Very much concerning the nature of the electric fluid is still unknown; later experiments are expected to bring it to light.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=349",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "Here we ought to confess openly that very much concerning the nature of this fluid is still unknown to us",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-electricity-056",
+   "question": "electric-magnetic-kin",
+   "text": "S",
+   "stance": "undecided",
+   "between": [
+    "different",
+    "akin"
+   ],
+   "part": "open",
+   "statement": "Electric and magnetic matter are almost generally held to be wholly different, following Musschenbroek, but Dalibard's experiments point to a marked analogy; Sigaud repeated both sets, both succeeded, and he declines to choose. Lightning has reversed ships' compass needles and magnetized knives.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "both sets repeated"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    },
+    {
+     "name": "Thomas-François Dalibard",
+     "dates": "1709-1778",
+     "role": "reported",
+     "note": "life dates vary by authority (DSB 1703-1779)"
+    }
+   ],
+   "cites": [
+    {
+     "page": "323-326",
+     "url": "https://archive.org/details/b33001674/page/n358/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-057",
+   "question": "atmosphere-electricity-source",
+   "text": "B",
+   "answer": "air-friction",
+   "stance": "rejects",
+   "part": "open",
+   "statement": "Some derive the atmosphere's electricity from the rubbing of masses of air driven by winds; Biwald doubts it, since that rubbing happens in every season and no atmospheric electricity is seen in hard winter cold.",
+   "confidence": {
+    "level": "doubtful"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "no atmospheric electricity in hard frost"
+    }
+   ],
+   "cites": [
+    {
+     "page": "338-339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=348",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-058",
+   "question": "atmosphere-electricity-source",
+   "text": "B",
+   "answer": "earth-vapours",
+   "stance": "leans",
+   "part": "open",
+   "statement": "More likely the atmosphere draws the fluid from the earth, carried up with vapours in summer heat.",
+   "confidence": {
+    "level": "probable"
+   },
+   "cites": [
+    {
+     "page": "338-339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=348",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-059",
+   "question": "electric-classes",
+   "text": "E",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Tourmaline becomes electric merely by being heated, and its two sides seem to have opposite electricities.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "430-431",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n452/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-060",
+   "question": "electric-classes",
+   "text": "B",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Recent writers on natural history say the fish gymnotus is electric at all times while living in water.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "316",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=326",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-061",
+   "question": "electric-cause",
+   "text": "F",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Amber, glass, jet, sealing-wax, agate and almost all precious stones have a peculiar property of attracting and repelling light bodies when heated by rubbing; this is called electrical attraction, the last of the four kinds of attraction, which seems rather infused than inherent in matter. No mechanism is offered; effluvia appear only as what snaps against a finger brought near the rubbed tube.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the rubbed glass tube"
+    }
+   ],
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "19",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n36/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "This is called electrical attraction",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-062",
+   "question": "electric-matter-known",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Ferguson speaks of no electric fluid or matter and does not say whether its nature is known; the passage lists what is observed (search of the machine-read text of the whole book: 'electric' occurs only on pp. 6, 18-19, in the index and in the advertisement of his Introduction to Electricity)."
+  },
+  {
+   "id": "1775-electricity-063",
+   "question": "electric-classes",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Names the bodies that attract when rubbed but no class of bodies that only receive electricity and pass it on. Two of his observations bear on it without naming it: a tube rubbed by a moist hand loses its electricity, and any body but air, interposed, stops it (p. 19)."
+  },
+  {
+   "id": "1775-electricity-064",
+   "question": "electric-machine",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "No machine: the experiments are made with a glass tube about an inch and a half in diameter and two or three feet long, rubbed (p. 19). The machine and its apparatus are the subject of his separate Introduction to Electricity (1770), advertised on leaf 1 of the Lectures (image), a single-topic treatise not read."
+  },
+  {
+   "id": "1775-electricity-065",
+   "question": "lightning",
+   "text": "F",
+   "answer": "burning-exhalation",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Thunder and lightning come from the effluvia of sulphureous and nitrous bodies risen into the atmosphere, which ferment and take fire, often of themselves; whoever considers fermentation cannot be at a loss to account for them. Spirit of nitre mixed with oil of cloves gives a sudden ferment and flame. Electricity is not mentioned.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "spirit of nitre and oil of cloves"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "the effects of fermentation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image",
+     "section": "margin heading 'Thunder and lightning'"
+    },
+    {
+     "page": "177",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n216/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the effluvia of sulphureous and nitrous bodies, and others that may rise into the atmosphere, will ferment with each other, and take fire very often of themselves",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-066",
+   "question": "electricity-living",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Lectures say nothing of electricity acting on living bodies. Medical electricity is the sixth section of his separate Introduction to Electricity, as advertised on leaf 1 (image); not read."
+  },
+  {
+   "id": "1775-electricity-067",
+   "question": "medicated-tubes",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the Lectures (search of the machine-read text of the whole book)."
+  },
+  {
+   "id": "1775-electricity-068",
+   "question": "electric-cause",
+   "text": "F",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Neither Franklin's system nor Nollet's: Franklin is not named in the Lectures, and Nollet only in the preface, among the lecturers on experimental philosophy (leaf 9, OCR). Electricity is a kind of attraction, described by its effects on light bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "19",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n36/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-electricity-069",
+   "question": "electric-states",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "No positive and negative, excess and defect, or two electricities (search of the machine-read text of the whole book)."
+  },
+  {
+   "id": "1775-electricity-070",
+   "question": "electric-fire",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Does not say whether the electric effluvia are fire; in the dark the snap gives 'a little flash of light' (p. 19). The heat of lightning 'appears to be quite different from that of other fires' (p. 177), but lightning is not electricity for him."
+  },
+  {
+   "id": "1775-electricity-071",
+   "question": "leyden-discovery",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "No charged bottle (search of the machine-read text of the whole book for Leyden, phial, Kleist and Cunaeus)."
+  },
+  {
+   "id": "1775-electricity-072",
+   "question": "action-at-distance",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Electrical attraction is one of four kinds of attraction, which 'seems rather to be infused than inherent' in matter; stated without a mechanism or a defence.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "seems rather to be infused than inherent",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-electricity-073",
+   "question": "electric-magnetic-kin",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Sets magnetism and electricity side by side as kinds of attraction (p. 6, pp. 17-19), and reports that knives and forks struck by lightning keep a very strong magnetic virtue and that lightning can reverse a compass (p. 177); since he does not make lightning electrical, he draws no connexion between electricity and the magnet."
+  }
+ ]
+}

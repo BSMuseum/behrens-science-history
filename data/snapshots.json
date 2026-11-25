@@ -1,0 +1,525 @@
+{
+ "schema": "hos-snapshots/1",
+ "updated": "2026-11-22",
+ "grid": [
+  "1275",
+  "1325",
+  "1375",
+  "1425",
+  "1475",
+  "1525",
+  "1575",
+  "1625",
+  "1675",
+  "1700",
+  "1725",
+  "1750",
+  "1775",
+  "1800",
+  "1825",
+  "1850",
+  "1875",
+  "1900"
+ ],
+ "regions": [
+  "France",
+  "Italy",
+  "Iberia",
+  "Catholic German lands",
+  "Protestant German lands",
+  "Low Countries",
+  "British Isles"
+ ],
+ "mvp_regions": [
+  "France",
+  "Protestant German lands",
+  "Catholic German lands",
+  "British Isles"
+ ],
+ "snapshots": [
+  {
+   "id": "1775",
+   "window": "1760-1790",
+   "status": "pilot; 13 of 13 topics published; British text changed from the Britannica to the R1 courses, complete 2026-11-22 (Ferguson for eleven topics, Martin for fire and the earth)",
+   "texts": {
+    "France": "nollet-lecons-1759",
+    "Protestant German lands": "erxleben-anfangsgruende-1772",
+    "Catholic German lands": [
+     "biwald-generalis-1769",
+     "biwald-particularis-1768"
+    ],
+    "British Isles": "ferguson-lectures-1776"
+   },
+   "british_transition": {
+    "decided": "2026-11-18, Bruce: replace the Britannica (fails R1 clause 2) with the R1 courses entry by entry, starting with Ferguson; keep the Britannica as a supplementary text",
+    "done": [
+     "motion",
+     "body",
+     "gravity",
+     "world",
+     "water",
+     "air",
+     "light",
+     "globe",
+     "electricity",
+     "magnet",
+     "fire",
+     "earth",
+     "meteors"
+    ],
+    "still_britannica": [],
+    "plan": "Ferguson, Lectures on Select Subjects (5th ed., London 1776), for motion, body, gravity, water, air, light, the system of the world, the terraqueous globe, electricity, the magnet and meteors (all done; meteors on 2026-11-22, by margin headings on the winds, pp. 173-174, and thunder and lightning, p. 176, with Martin and Rowning as the British texts to add on widening; the globe by Bruce's decision of 2026-11-21, in place of the Nicholson proposed under R1 v4, since Ferguson gives the tides and earthquakes headed passages; electricity and the magnet by his decision of the same day, since Lecture I gives both margin-headed passages, pp. 17-19). Nicholson, Introduction to Natural Philosophy, is out under R1 clause 12 (first edition 1782). Martin, The Philosophical Grammar (London 1778), for fire (done 2026-11-21; Ferguson's headings touch heat only at the expansion of metals and the thermometer), the earth (done 2026-11-21; Ferguson's index has metals only as they expand by heat, p. 15, and in their specific gravities, p. 158); Martin is also the second British text for electricity and the magnet. Ferguson's margin headings were checked for each before it was redone. Transition complete 2026-11-22.",
+    "finding": "The Britannica's treatises Mechanics and Hydrostatics, and much of Pneumatics and Optics, reprint Ferguson's lectures nearly word for word; its Electricity and Chemistry do not (OCR comparison, 2026-11-18). Its Astronomy reprints Ferguson's separate Astronomy explained upon Sir Isaac Newton's Principles (OCR comparison with the 1764 edition, 2026-11-18), so every Britannica claim in the system-of-the-world entry was Ferguson's wording. In the water entry (2026-11-20) the Britannica claims from Hydrostatics and Mechanics were Ferguson's; those from its Chemistry 'Of Water' and its entry Water (water as an element, its qualities, solidity as its natural state) are its own. In the air entry (2026-11-21) the Britannica claims from Pneumatics and Mechanics were Ferguson's, from an edition before the fifth, and those from Chemistry its own; the Pneumatics leaves out Ferguson's paragraph on fixed air, and the pilot had read its 'cannot be congealed or fixed' as denying that air is fixed in bodies (corrected). In the light entry the Britannica's claims on the nature of light and its straight path were Ferguson's; its section on colours is its own. See texts.json, britannica-1771. In the globe entry (2026-11-21) the Britannica claims from its treatises (Mechanics, Astronomy, Pneumatics, Hydrostatics) were Ferguson's, and those from its short entries (Sea, Deluge, Petrifaction, Vulcano, Earthquake, Mountain) its own; the own entries carry everything on the sea's saltness, the Flood and petrifactions, none of which is in the Lectures. In the electricity entry (2026-11-21) the Britannica's treatise is its own (no shared wording with Ferguson's Lectures, his Introduction to Electricity or Martin's Grammar), and its Franklinian teaching now stands as the supplementary text's beside Ferguson's pre-Franklinian 'electrical attraction'. In the magnet entry its claims on the loadstone's properties and the law of its force were Ferguson's Lecture I, reprinted in its Mechanics p. 36; its entry Magnet is its own. In the fire entry (2026-11-21) the Britannica's entries Fire and Heat and its Chemistry 'Of Fire' are its own (0-1% shared with Martin's Grammar, 1762-1778, and with Ferguson), so its matter of fire and phlogiston stand as the supplementary text's; Martin makes heat a motion of the hot body's parts and fire a substance of the particles of light. In the earth entry (2026-11-21) the Britannica's Chemistry and Alchemy are its own (0.1-0.5% shared with Martin's Grammar), so its phlogiston chemistry stands as the supplementary text's; Martin has no phlogiston, makes metals of mercury and sulphur, lets minerals and metals grow from seeds, and says quicksilver cannot be frozen. In the meteors entry (2026-11-22) the Britannica's meteor entries, its section on winds and its rainbow are its own, but its Pneumatics p. 490 reprints Ferguson's thunder and lightning as fermenting effluvia and inserts '(see Electricity:)', pointing to its treatise that makes lightning electrical; Ferguson's Lectures keep the fermentation account unchanged from 1760 to 1776, though his own Introduction to Electricity (1770) describes Franklin's rods."
+   },
+   "supplementary": [
+    "britannica-1771"
+   ],
+   "topic_texts": {
+    "earth": {
+     "France": "para-theorie-1772",
+     "Protestant German lands": "erxleben-naturgeschichte-1773",
+     "British Isles": "martin-grammar-1778",
+     "note": "R1 clause 5: Nollet has no lesson on mineral bodies; Erxleben treats them in his natural history, which his Naturlehre preface makes part of the same handbook. British text Martin's Grammar from 2026-11-21 (Part IV ch. II, pp. 236-258), after a check of Ferguson (index: metals only as they expand by heat, p. 15, and in their specific gravities, p. 158; nothing on earths, salts or minerals); the Britannica supplementary."
+    },
+    "globe": {
+     "France": "para-theorie-1772",
+     "British Isles": "ferguson-lectures-1776",
+     "note": "R1 clause 5: Nollet has no lesson or heading on the globe; Para's third treatise opens with a section on the terrestrial globe, and his treatise on water supplies springs and the saltness of the sea. Ferguson has no lecture on the globe but headed passages on the tides, earthquakes and intermitting and reciprocating springs; British text Ferguson from 2026-11-21, the Britannica supplementary."
+    },
+    "fire": {
+     "British Isles": "martin-grammar-1778",
+     "note": "R1 clause 5: Ferguson, the most-reprinted British course, gives fire and heat no passage of their own (his margin headings touch heat only at 'The expansion of metals', p. 15, and 'The thermometer', p. 161); the Grammar's 'Of Heat, Cold, &c.' (pp. 114-116) makes Martin the British text from 2026-11-21, the Britannica supplementary."
+    },
+    "electricity": {
+     "British Isles": "ferguson-lectures-1776",
+     "note": "Ferguson's margin-headed passage 'Electricity' (Lecture I, pp. 18-19) under the R1 v4 reading of clause 5; British text from 2026-11-21, the Britannica supplementary. Martin's Grammar second on widening."
+    },
+    "magnet": {
+     "British Isles": "ferguson-lectures-1776",
+     "note": "Ferguson's margin-headed passage 'Magnetism' (Lecture I, pp. 17-18) under the R1 v4 reading of clause 5; British text from 2026-11-21, the Britannica supplementary. Martin's Grammar second on widening."
+    },
+    "meteors": {
+     "British Isles": "ferguson-lectures-1776",
+     "note": "R1 clause 5 (v4 reading): Ferguson has no lecture on meteors but margin-headed passages on the winds (pp. 173-174) and on thunder and lightning (pp. 176-177), and the rainbow at pp. 246-247; British text from 2026-11-22 (in place of the Martin planned on 2026-11-21), the Britannica supplementary. Martin's Grammar and Rowning's Compendious System are the British texts to add on widening. Nollet's applications in Lessons XI, XIII, XVII and XX are the Paris text."
+    }
+   },
+   "topic_source": "Biwald, Physica generalis (1769) and particularis (1768); Erxleben (1772), sections 1-13",
+   "topics": [
+    {
+     "id": "body",
+     "title": "Body in general and its properties",
+     "status": "published; British text Ferguson from 2026-11-18"
+    },
+    {
+     "id": "motion",
+     "title": "Motion and the balance of forces",
+     "status": "published; British text Ferguson from 2026-11-18"
+    },
+    {
+     "id": "gravity",
+     "title": "Gravity",
+     "status": "published; British text Ferguson from 2026-11-18"
+    },
+    {
+     "id": "world",
+     "title": "The system of the world",
+     "status": "published; British text Ferguson from 2026-11-18"
+    },
+    {
+     "id": "water",
+     "title": "Water and other fluids",
+     "status": "published; British text Ferguson from 2026-11-20"
+    },
+    {
+     "id": "air",
+     "title": "Air",
+     "status": "published; British text Ferguson from 2026-11-21"
+    },
+    {
+     "id": "fire",
+     "title": "Fire, warmth and cold",
+     "status": "published; British text Martin from 2026-11-21"
+    },
+    {
+     "id": "light",
+     "title": "Light and colours",
+     "status": "published; British text Ferguson from 2026-11-21"
+    },
+    {
+     "id": "electricity",
+     "title": "Electricity",
+     "status": "published; British text Ferguson from 2026-11-21"
+    },
+    {
+     "id": "magnet",
+     "title": "The magnet",
+     "status": "published; British text Ferguson from 2026-11-21"
+    },
+    {
+     "id": "earth",
+     "title": "Earth and the bodies drawn from it",
+     "status": "published; British text Martin from 2026-11-21"
+    },
+    {
+     "id": "meteors",
+     "title": "Meteors",
+     "status": "published; British text Ferguson from 2026-11-22"
+    },
+    {
+     "id": "globe",
+     "title": "The terraqueous globe",
+     "status": "published; British text Ferguson from 2026-11-21"
+    }
+   ],
+   "outside_natural_philosophy": [
+    "medicine",
+    "chemistry",
+    "natural history",
+    "mixed mathematics",
+    "pneumatology and empirical psychology",
+    "sacred history and chronology"
+   ],
+   "boundary_notes": [
+    "Earths, salts, inflammables and metals: inside physics at Graz (Biwald, particular physics part IV) and Paris (Para, theory of the earth); in natural history at Göttingen (Erxleben); inside natural philosophy in London (Martin's Grammar, Part IV 'Geology', ch. II, with the strata and the loadstone); in chemistry in the Britannica (supplementary); absent from Nollet's Leçons and Ferguson's Lectures.",
+    "Meteors: a part of its own in Biwald's particular physics (winds left with the air); inside 'the earth in particular' in Erxleben, winds first; no lesson in Nollet, who treats them as applications in his lessons on air, fire, light and electricity; a dictionary entry in the Britannica with the old definition from the heavenly bodies, the substance spread over Pneumatics, Electricity and Optics; no lecture in Ferguson, who treats the winds and then thunder and lightning in his lecture on pneumatics, as consequences of the air's swelling with heat and of the fermentation of the effluvia it receives, and the rainbow at the end of his lecture on optics.",
+    "The terraqueous globe: the last part of particular physics at Graz (Biwald, with the figure of the earth and the tides in the general physics); the second half of 'the earth in particular' at Göttingen (Erxleben, figure of the earth with the system of the world), which closes on the origin and end of the earth as 'properly not even a subject of natural philosophy'; the first section of Para's theory of the earth, the earth as a planet left to astronomy; no lecture in Ferguson, whose globe is spread over headed passages of other lectures (the tides and the earth's figure under central forces, intermitting springs under hydraulics, earthquakes and volcanoes under pneumatics) and whose globe lectures teach the use of the artificial globe; no article in the Britannica, whose 'Terraqueous' is a term of geography and whose matter is spread over short entries and the treatises. Sacred history and chronology enter physics here: Para dates the earth from Scripture, Ferguson's tables count the years of the world from 4008 before Christ without comment, the Britannica and Para call a natural account of the Flood impossible or ridiculous, and Erxleben declines the question.",
+    "Motion: Ferguson spreads it over his first three lectures (matter and its properties, central forces, the mechanical powers), the arrangement the Britannica reprints as its treatise Mechanics.",
+    "Body and gravity: Ferguson treats both in his first lecture, on matter and its properties; gravitation is the second of four kinds of attraction, and attraction ('rather infused than inherent') the fifth property of matter. Its reach to the planets returns in his second lecture, on central forces. The Britannica reprints the lecture as the head of its treatise Mechanics.",
+    "The system of the world: Ferguson has no lecture of his own on it. Its doctrine sits in Lecture II, on central forces, under marginal headings among the whirling-table experiments (the laws of the planetary motions, Kepler's rule, the Cartesian vortices, the earth's motion demonstrated), and the heavens as they appear open Lectures VIII-IX, on the globes; for astronomy proper he sends the reader to his separate Astronomy, a single-topic treatise, which the Britannica reprints as its treatise Astronomy.",
+    "Water: Ferguson has no lecture on water as a body. His fifth lecture, on hydrostatics and hydraulic machines, treats fluids in general, and the rise in narrow tubes comes in his first lecture as an instance of the attraction of cohesion; water's qualities, purity, natural state and turning into earth are not in the Lectures. The Britannica reprints both lectures, and its own chemistry treats water as one of the four elements or principles.",
+    "Air: Ferguson's sixth lecture, on pneumatics, takes in winds, the vivifying spirit, damps, thunder and lightning, and earthquakes as consequences of the properties of air, then the air pump; the cause of its spring sits in his first lecture, among the properties of matter. The Britannica reprints the lecture, adds instruments and winds of its own, and in its chemistry counts air among the four principles of bodies.",
+    "Light: Ferguson's lecture on optics runs from the nature of light through refraction, the eye, glasses and mirrors to colours and the rainbow; the speed of light comes in his first lecture, as an instance of how small its particles must be. The Britannica reprints the lecture as far as the magic lantern and adds its own section on colours.",
+    "Electricity and the magnet: Ferguson gives neither a lecture. Each has a margin-headed passage at the end of his first lecture, on the properties of matter, where magnetism and electricity are the third and fourth kinds of attraction after cohesion and gravitation; lightning sits in his lecture on pneumatics, as fermenting effluvia, and the electrical machine and medical electricity in his separate Introduction to Electricity. The Britannica gives electricity a treatise of its own and the magnet a short natural-history entry, with Ferguson's paragraph reprinted in its Mechanics."
+   ]
+  },
+  {
+   "id": "1675",
+   "window": "1660-1690",
+   "status": "texts chosen under R1; 1 of 25 topics published (light and colours, 2026-11-22)",
+   "texts": {
+    "France": "rohault-traite-1675",
+    "Protestant German lands": "sperling-institutiones-1664",
+    "Catholic German lands": "goudin-philosophia-1681",
+    "British Isles": "legrand-institutio-1675"
+   },
+   "topic_source": "The four courses' own divisions, from the printed tables of contents (OCR); Bruce, 2026-11-22: 25 topics, no merging. Roman numerals give the part or book, arabic numerals the chapter (Rohault, Sperling) or article (Le Grand); Goudin's references give the part of the physics, the question and the article. 'blank' = no section of its own; under R1 clause 13 the region's cell is then left blank, and the blank is a finding. Sections are confirmed on the images as each entry is written.",
+   "topics": [
+    {
+     "id": "matter-form",
+     "title": "Matter and form",
+     "sections": {
+      "France": "I.6-8, I.18",
+      "Protestant German lands": "I.2-3",
+      "Catholic German lands": "t. 2 disp. I",
+      "British Isles": "IV"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "causes",
+     "title": "Causes, nature, chance and fate (with monsters)",
+     "sections": {
+      "France": "blank",
+      "Protestant German lands": "I.1, 4-10",
+      "Catholic German lands": "t. 2 disp. II",
+      "British Isles": "IV a. 15 (no final causes in physics)"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "place-void-time",
+     "title": "Divisibility, place, void and time",
+     "sections": {
+      "France": "I.9, I.12",
+      "Protestant German lands": "II.2, 5, 6",
+      "Catholic German lands": "t. 2 disp. III",
+      "British Isles": "IV"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "motion",
+     "title": "Motion and its communication (with reflection and refraction)",
+     "sections": {
+      "France": "I.10-15",
+      "Protestant German lands": "II.7",
+      "Catholic German lands": "t. 2 disp. III",
+      "British Isles": "IV a. 16 ff., V a. 6"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "world",
+     "title": "The world as a whole (one or many; created or eternal)",
+     "sections": {
+      "France": "II.1-5 (cosmography; check)",
+      "Protestant German lands": "Anacephalaeosis 'De Mundo'",
+      "Catholic German lands": "II q. 1",
+      "British Isles": "V a. 1-5"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "heavens",
+     "title": "The heavens, stars and comets (with the waters above the heavens)",
+     "sections": {
+      "France": "II.25-26",
+      "Protestant German lands": "III.1-4",
+      "Catholic German lands": "II q. 2 a. 1-3",
+      "British Isles": "V a. 9-13, 15, 20-21"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "system",
+     "title": "The system of the world and the earth's motion",
+     "sections": {
+      "France": "II.6-24",
+      "Protestant German lands": "in III or IV.4 (Copernicus at canvases 481, 626-629; check)",
+      "Catholic German lands": "II q. 4",
+      "British Isles": "V a. 7-8, 16-19; VI a. 2-4"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "astrology",
+     "title": "The influence of the stars and judicial astrology",
+     "sections": {
+      "France": "II.27",
+      "Protestant German lands": "in III.4 (check)",
+      "Catholic German lands": "II q. 2 a. 5",
+      "British Isles": "V a. 22"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "light",
+     "title": "Light and colours",
+     "sections": {
+      "France": "I.27, pp. 291-342",
+      "Protestant German lands": "III.5, pp. 495-526",
+      "Catholic German lands": "II q. 2 a. 4, pp. 95-104",
+      "British Isles": "V a. 14, pp. 282-285; VIII a. 17, pp. 511-513"
+     },
+     "status": "published 2026-11-22 (site c. 1675, #light)"
+    },
+    {
+     "id": "elements",
+     "title": "The elements and the chemists' principles",
+     "sections": {
+      "France": "I.19-21",
+      "Protestant German lands": "IV.1, 6; V.4-5",
+      "Catholic German lands": "II q. 3; III q. 3 a. 1",
+      "British Isles": "VI (title)"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "generation",
+     "title": "Generation, corruption, mixture and alteration",
+     "sections": {
+      "France": "I.17",
+      "Protestant German lands": "VI.1-3",
+      "Catholic German lands": "III q. 1-2",
+      "British Isles": "no section found (check)"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "fire",
+     "title": "Fire, heat and cold",
+     "sections": {
+      "France": "I.23",
+      "Protestant German lands": "IV.5",
+      "Catholic German lands": "III q. 2 a. 1; q. 3 a. 1 (check)",
+      "British Isles": "VI a. 17-19"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "air",
+     "title": "Air and its spring",
+     "sections": {
+      "France": "I.12 (motions ascribed to fear of the void)",
+      "Protestant German lands": "IV.2",
+      "Catholic German lands": "element only (check)",
+      "British Isles": "VI a. 13, 15"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "water",
+     "title": "Water, the sea and springs",
+     "sections": {
+      "France": "III.3, III.10, II last ch. (tides), III.4 (salt)",
+      "Protestant German lands": "IV.3",
+      "Catholic German lands": "II q. 3; III q. 3 a. 3 § 4",
+      "British Isles": "VI a. 7, 11, 12"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "earth",
+     "title": "The earth and earthquakes",
+     "sections": {
+      "France": "III.1-2, III.9",
+      "Protestant German lands": "IV.4",
+      "Catholic German lands": "element only (check)",
+      "British Isles": "VI a. 1, 5-6"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "meteors",
+     "title": "Meteors",
+     "sections": {
+      "France": "III.11-16, last ch. (rainbow)",
+      "Protestant German lands": "V.1-3, 6-10",
+      "Catholic German lands": "III q. 3 a. 3",
+      "British Isles": "VI a. 14, 16, 20"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "minerals",
+     "title": "Minerals, metals and stones",
+     "sections": {
+      "France": "III.4-7",
+      "Protestant German lands": "VI.4-8",
+      "Catholic German lands": "III q. 3 a. 4 (with Prince Rupert's drops)",
+      "British Isles": "VI a. 8-9"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "magnet",
+     "title": "The magnet",
+     "sections": {
+      "France": "III.8",
+      "Protestant German lands": "inside II.3, on qualities (canvases 308-339; a headed passage? check)",
+      "Catholic German lands": "blank",
+      "British Isles": "VI a. 10"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "soul",
+     "title": "Life and the soul in general",
+     "sections": {
+      "France": "IV.1? (check)",
+      "Protestant German lands": "VII.1-2",
+      "Catholic German lands": "IV q. 1",
+      "British Isles": "VII prol., a. 1-7"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "plants",
+     "title": "Plants",
+     "sections": {
+      "France": "blank",
+      "Protestant German lands": "VII.3-7",
+      "Catholic German lands": "IV q. 2, appendix",
+      "British Isles": "VII a. 8-16"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "animals",
+     "title": "Animals and the souls of brutes",
+     "sections": {
+      "France": "blank",
+      "Protestant German lands": "VIII",
+      "Catholic German lands": "IV q. 3, appendix",
+      "British Isles": "VII a. 17-22"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "body",
+     "title": "The human body (blood, nutrition, breathing, health and disease)",
+     "sections": {
+      "France": "IV",
+      "Protestant German lands": "IX.3",
+      "Catholic German lands": "IV q. 3 appendix, a. 3-5",
+      "British Isles": "VIII"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "senses",
+     "title": "The senses and sensible qualities",
+     "sections": {
+      "France": "I.24-26, 28-35",
+      "Protestant German lands": "II.3 (check)",
+      "Catholic German lands": "IV q. 3 a. 1-3",
+      "British Isles": "VIII a. 10-23"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "rational-soul",
+     "title": "The rational soul",
+     "sections": {
+      "France": "blank",
+      "Protestant German lands": "IX.1-2",
+      "Catholic German lands": "IV q. 4",
+      "British Isles": "IX"
+     },
+     "status": "planned"
+    },
+    {
+     "id": "magic",
+     "title": "Magic",
+     "sections": {
+      "France": "blank",
+      "Protestant German lands": "II.4",
+      "Catholic German lands": "blank",
+      "British Isles": "blank"
+     },
+     "status": "planned"
+    }
+   ],
+   "sigla": {
+    "R": "rohault-traite-1675",
+    "S": "sperling-institutiones-1664",
+    "G": "goudin-philosophia-1681",
+    "L": "legrand-institutio-1675"
+   },
+   "site": {
+    "artifact": "c85e9cc6-ead9-45b3-9246-11977d12dc3b",
+    "title": "Natural Philosophy c. 1675",
+    "folder": "Behrens Science History"
+   },
+   "blank_cells": {
+    "France": "Rohault has no section on causes (I.6 has the principles only), plants, animals, the rational soul or magic; the next French courses in the count are Goudin (3, takes the Catholic German slot), Gautruche (1) and Du Hamel (1), none qualifying under clause 13. Rohault's Cartesian physics stops at the human body.",
+    "Catholic German lands": "Goudin has no section on the magnet or magic; the next courses (Heinlein 1, Gautruche 1) do not qualify.",
+    "British Isles": "Le Grand has no section on magic (generation to be checked); Sennert's Epitome (3) is next in line.",
+    "Protestant German lands": "none found"
+   },
+   "boundary_notes": [
+    "Light: among the sensible qualities in Rohault's general physics (after sound, before vision); with the heavens in Sperling (Book III, after the heavens and stars) and Goudin (the chief property of the heavenly bodies, physics part 2); divided in Le Grand, the nature of light with the world and the sun (Part V), colours with man, as the object of sight (Part VIII)."
+   ]
+  },
+  {
+   "id": "1575",
+   "window": "1560-1590",
+   "status": "texts proposed under R1",
+   "texts": {
+    "France": "titelmans-compendium-1574",
+    "Protestant German lands": "melanchthon-initia-1575",
+    "Catholic German lands": "toledo-physica-1579",
+    "British Isles": null,
+    "Iberia (fallback, clause 8)": "soto-physicorum-1582"
+   },
+   "topic_source": "to be taken from the tables of contents of the four texts (Titelmans's twelve books, from the 1574 table of contents, read from OCR: principles; causes; motion; the infinite, place, void and time; generation and corruption; meteors; heavens and world; soul in general and the vegetative powers; the outer senses; the inner senses, sleep and waking; the intellect; sensitive appetite and will. A Paris epitome of 1577 adds a booklet on minerals, plants and animals.)",
+   "topics": [],
+   "empty_regions": {
+    "British Isles": "no natural philosophy course printed there twice in 1560-1590 (R1 v3 clause 7)"
+   },
+   "supplementary": [
+    "daneau-woorkmanship-1578"
+   ]
+  }
+ ]
+}

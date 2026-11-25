@@ -1,0 +1,46 @@
+{
+  "1775": {
+    "page_title": "Natural Philosophy c. 1775",
+    "order": [
+      "gravity",
+      "world",
+      "motion",
+      "body",
+      "earth",
+      "meteors",
+      "globe",
+      "electricity",
+      "magnet",
+      "light",
+      "fire",
+      "air",
+      "water"
+    ],
+    "titles": {
+      "electricity": "Electricity c. 1775",
+      "magnet": "The Magnet c. 1775",
+      "light": "Light c. 1775",
+      "fire": "Fire, Warmth and Cold c. 1775",
+      "air": "Air c. 1775",
+      "water": "Water and Other Fluids c. 1775",
+      "gravity": "Gravity c. 1775",
+      "world": "The System of the World c. 1775",
+      "motion": "Motion and the Balance of Forces c. 1775",
+      "body": "Body in General c. 1775",
+      "earth": "Earth and the Bodies Drawn from It c. 1775",
+      "meteors": "Meteors c. 1775",
+      "globe": "The Terraqueous Globe c. 1775' "
+    }
+  },
+  "1675": {
+    "page_title": "Natural Philosophy c. 1675",
+    "order": [
+      "water",
+      "light"
+    ],
+    "titles": {
+      "light": "Light and Colours c. 1675",
+      "water": "Water, the Sea and Springs c. 1675' "
+    }
+  }
+}

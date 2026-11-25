@@ -1,0 +1,1513 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-fire",
+  "snapshot": "1775",
+  "topic": "fire",
+  "title": "Fire, warmth and cold",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#fire",
+   "version_encoded": "1795380980-7d5f"
+  },
+  "published": "2026-11-13",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, on the nature of fire and heat. Not covered: cold and ice, flame, thermometers and the measurement of heat; Biwald's replies to objections; the rest of Nollet's two lessons on fire; Boerhaave's treatise. The terms table is not encoded. read_from is 'image' only where the entry quotes the page; other citations are 'unknown'. The entry was written before the conventions review and has not been checked against it. The Britannica's Chemistry is cited by page; the scan leaf is given for pp. 66-67 only (from the charter); p. 68 and the entries Fire and Heat have none. The common-ground item 'The nature of fire is not settled' rests on Nollet alone in the entry; it is encoded under the local question fire-nature-known, with Erxleben's open question coded 'no' and Biwald's conclusion coded 'yes', from the entry's own summary that he teaches it as demonstrated. British text from 2026-11-21: Martin's Grammar, 'Of Heat, Cold, &c.' (pp. 114-116) with pp. 35, 111, 113 and the note on p. 197, all read from the page images except p. 36 and p. 57 (OCR); the OCR of the whole 1778 book was searched for phlogiston, pabulum, calx, weight, inflammable and food of fire. The passage already stands in the 1762 printing (OCR). The Britannica is supplementary; its claims are unchanged.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Martin, The Philosophical Grammar, London 1778, read from the page images (Bruce's decision of 2026-11-21, after a check of Ferguson's margin headings: his Lectures touch heat only under 'The expansion of metals', p. 15, and 'The thermometer', p. 161, and give fire and heat no passage of their own). The Britannica kept as supplementary; its fire passages are its own (0-1% shared with Martin 1762, 1769, 1778). New answer code flame-nature moving-fluid. Martin's note on vapours (p. 197) contradicts his chapter on heat; encoded as a 'why' claim (1775-fire-054)."
+  },
+  "conventions_review": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5",
+   "rule": "A common-ground item moves to the disputes when a regional text holds or leans to an answer the item excludes; silence (not taken up, not found) and differences of emphasis do not move it.",
+   "change": "Common-ground item 'The nature of fire is not settled' moved to the disputes (new subsection 'Is the nature of fire settled?' and table row): Nollet and Erxleben say no, Biwald and Martin teach theirs as settled."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part III, sect. I, 'De igne'; nature of fire art. IV, pp. 138-151; also pp. 127, 155, 226"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 9, 'Von der Wärme und Kälte'; nature of fire §§449-451, pp. 358-360; p. 386"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 4 (1765), Lesson XIII, pp. 155-168"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Entries Fire and Heat; Chemistry, 'Of Fire', vol. 2 pp. 67-68",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its entries Fire (vol. 2 leaves 548-550) and Heat (leaves 769-770) and its Chemistry, 'Of Fire' (leaves 85-87), are its own: 0-1% of five-word sequences shared with the OCR of Martin's Grammar (1762, 1769, 1778), as with Ferguson's Lectures (0%)."
+  },
+  "M": {
+   "text": "martin-grammar-1778",
+   "parts": "Part I, the chapter on consistence and fluidity, heat and cold: 'Of Heat, Cold, &c.' pp. 114-116, fluidity p. 113; rarefaction p. 111; the elements p. 35; the note on vapours p. 197 (Part III)"
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "In the same part of the particular physics as light, and before it",
+   "cites": [
+    {
+     "page": "138",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=148"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Ninth section, 'Of warmth and cold', between light and electricity",
+   "cites": [
+    {
+     "page": "358",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n382/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "t. 4, Lesson XIII",
+   "cites": [
+    {
+     "page": "155",
+     "vol": "4",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n168/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "Three places: the entry Fire (celestial, subterraneous and culinary fire); the entry Heat (a quality of bodies produced by fire, and in us a sensation); the chemistry, which counts fire among the elements",
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "Fire; Heat",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS"
+    },
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     }
+    }
+   ]
+  },
+  {
+   "text": "M",
+   "where": "Among the fourteen qualities of bodies (XI, 'Heat and Cold', after consistence and fluidity), treated in one chapter with fluidity, moisture and elasticity; no element of fire, since the only elements are the first particles of matter",
+   "cites": [
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n46/mode/1up"
+    },
+    {
+     "page": "113",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n138/mode/1up"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-fire-001",
+   "question": "heat-sources",
+   "text": "B",
+   "answer": "many-ways",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heat is raised by rubbing and striking, by fermentation and putrefaction, by mixing certain liquors, by the access of air, and by gathering the sun's rays into a small space.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "144",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=154",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-002",
+   "question": "heat-sources",
+   "text": "E",
+   "answer": "many-ways",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Erxleben lists the same ways of raising heat.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "358",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n382/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-003",
+   "question": "heat-sources",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson XIII read."
+  },
+  {
+   "id": "1775-fire-004",
+   "question": "heat-sources",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the entries and the chapter of Chemistry read."
+  },
+  {
+   "id": "1775-fire-005",
+   "question": "heat-expands",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heat expands bodies, though not in proportion to their weight, firmness or hardness.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "127",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=137",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-006",
+   "question": "heat-expands",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "How warmth expands bodies can be explained on either hypothesis of its nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n383/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-007",
+   "question": "heat-expands",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson XIII read."
+  },
+  {
+   "id": "1775-fire-008",
+   "question": "heat-expands",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-fire-009",
+   "question": "flame-nature",
+   "text": "B",
+   "answer": "burning-body-parts",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Smoke and flame are the parts of the burning body itself in very rapid motion; chimney soot yields water, oils, spirits, salts and earth on analysis.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "analysis of chimney soot"
+    }
+   ],
+   "cites": [
+    {
+     "page": "145",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=155",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-010",
+   "question": "flame-nature",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-fire-011",
+   "question": "flame-nature",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Flame was not read in Nollet for this entry."
+  },
+  {
+   "id": "1775-fire-012",
+   "question": "flame-nature",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-fire-013",
+   "question": "fire-nature-known",
+   "text": "N",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "After two or three thousand years of study the most enlightened physics can still offer only probabilities on the nature of fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "155",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n168/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-014",
+   "question": "fire-nature-known",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Erxleben puts both accounts of warmth as questions and does not choose.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n383/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-015",
+   "question": "fire-nature-known",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Biwald draws his account of fire as the conclusion of eight propositions and teaches it as demonstrated.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "146",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=156",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-016",
+   "question": "fire-nature-known",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The Britannica states its doctrine of fire without raising whether it is settled."
+  },
+  {
+   "id": "1775-fire-017",
+   "question": "fire-nature",
+   "text": "N",
+   "stance": "reports",
+   "between": [
+    "matter-of-fire",
+    "motion-of-parts"
+   ],
+   "part": "dispute",
+   "statement": "The question is whether fire is a simple, unalterable matter destined to produce heat, burning and the dissolution of bodies, or whether its essence consists in motion alone, or in the fermentation of the parts called inflammable.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "155",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n168/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "is a simple, unalterable matter, destined to produce by its presence or its action heat, burning and the dissolution of bodies; or whether its essence consists in motion alone, or in the fermentation of the parts called inflammable",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-fire-018",
+   "question": "fire-nature",
+   "text": "N",
+   "answer": "matter-of-fire",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "With most natural philosophers: there is in nature a fluid made for this purpose from the beginning, which needs only to be excited to act; the same matter burns and gives light.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "most natural philosophers"
+    },
+    {
+     "kind": "refutation",
+     "detail": "motion dies away as it spreads; fire grows"
+    }
+   ],
+   "cites": [
+    {
+     "page": "156",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n169/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    },
+    {
+     "page": "159",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n172/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-019",
+   "question": "fire-nature",
+   "text": "EB",
+   "answer": "matter-of-fire",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Free fire is a substance of infinitely small particles in very rapid motion, flowing without cease from the sun through all bodies; it is the one body fluid of itself and makes other bodies fluid. Stated without argument.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67-68",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    },
+    {
+     "vol": "ii",
+     "page": "68",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "entry": "Chemistry"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-020",
+   "question": "fire-nature",
+   "text": "B",
+   "answer": "motion-of-parts",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fire in its origin is a most vehement fermentation of the internal parts, by which the larger molecules are made finer and, carried into the ranges of repulsion, are thrown out of the whole mass.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "every way of raising heat stirs the inner parts; every hot body gives off effluvia"
+    }
+   ],
+   "cites": [
+    {
+     "page": "146",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=156",
+     "read_from": "image"
+    },
+    {
+     "page": "144-145",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=154",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ignis itaque in sua origine consideratus consistit in vehementissima quadam fermentatione partium internarum, qua maiores moleculae attenuantur, atque ad areas repulsivas delatae a massa totali eiiciuntur. Calor vero est moderatior partium intestinarum motus, quo minor effluviorum copia ex corporibus expellitur.",
+    "from_image": true,
+    "tr": "Fire, then, considered in its origin, consists in a most vehement fermentation of the internal parts, by which the larger molecules are made finer and, carried into the ranges of repulsion, are thrown out from the whole mass. Heat is a more moderate motion of the internal parts, by which a smaller quantity of effluvia is driven out of bodies."
+   }
+  },
+  {
+   "id": "1775-fire-021",
+   "question": "fire-nature",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "motion-of-parts",
+    "matter-of-fire"
+   ],
+   "part": "dispute",
+   "statement": "Is warmth a very rapid trembling of a body's finest parts, or is there a matter of fire of its own, an elementary fire spread evenly through the interstices of all bodies, in whose trembling warmth consists? Erxleben does not choose; the phenomena, expansion among them, fit either.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "expansion is explained on either hypothesis"
+    }
+   ],
+   "cites": [
+    {
+     "page": "358-359",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n382/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "359",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n383/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Giebt es also etwa vielmehr eine eigne Materie des Feuers, ein Elementarfeuer, ein höchst feines flüßiges Wesen, das durch die Zwischenräume aller Körper gleichförmig ausgebreitet ist, und in dessen Zittern die Wärme besteht?",
+    "from_image": true,
+    "tr": "Or is there perhaps a matter of fire of its own, an elementary fire, a most fine fluid being that is spread evenly through the interstices of all bodies, and in whose trembling warmth consists?"
+   }
+  },
+  {
+   "id": "1775-fire-022",
+   "question": "heat-nature",
+   "text": "B",
+   "answer": "motion-of-parts",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Heat is a more moderate motion of the internal parts, by which fewer effluvia are driven out.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "146",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=156",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Calor vero est moderatior partium intestinarum motus, quo minor effluviorum copia ex corporibus expellitur.",
+    "from_image": true,
+    "tr": "Heat is a more moderate motion of the internal parts, by which a smaller quantity of effluvia is driven out of bodies."
+   }
+  },
+  {
+   "id": "1775-fire-023",
+   "question": "heat-nature",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "motion-of-parts",
+    "motion-of-fire-matter"
+   ],
+   "part": "dispute",
+   "statement": "Warmth is either a trembling of the body's finest parts or a trembling of an elementary fire; if there is such a fire it is present everywhere, so warmth needs its motion and not its mere presence.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n383/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-024",
+   "question": "fire-light-same",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fire and light are the same in nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "226",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=236",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-025",
+   "question": "fire-light-same",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "dispute",
+   "statement": "That fire and light are one is not yet so certainly proven as many naturalists believe.",
+   "confidence": {
+    "level": "doubtful"
+   },
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n383/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "Not yet so certainly proven as many naturalists believe.",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-fire-026",
+   "question": "fire-light-same",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fire and light are one substance, differently modified.",
+   "confidence": {
+    "level": "probable"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "nature makes few kinds of being and gives each many properties"
+    }
+   ],
+   "cites": [
+    {
+     "page": "156",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n169/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-027",
+   "question": "fire-light-same",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The matter of the sun, or of light, is one of the names of the element fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the matter of the sun, or of light",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-028",
+   "question": "fire-food",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No body is known that deserves the name of food of fire above the rest; the authorities disagree.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "the disagreement of the authorities"
+    }
+   ],
+   "cites": [
+    {
+     "page": "138",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=148",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-029",
+   "question": "fire-food",
+   "text": "E",
+   "answer": "combustible-essence",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Burning needs a matter specially fitted for heating, the combustible essence or phlogiston, not to be confused with elementary fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "386",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n410/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-030",
+   "question": "fire-food",
+   "text": "N",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not in the part of the lesson read for this entry."
+  },
+  {
+   "id": "1775-fire-031",
+   "question": "fire-food",
+   "text": "EB",
+   "answer": "fixed-fire",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Phlogiston is fire itself fixed in a body as one of its principles.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "68",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "entry": "Chemistry"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-032",
+   "question": "fire-nature",
+   "text": "N",
+   "answer": "motion-of-parts",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Fire in its principle must be something other than the internal motion of heated parts: every motion slows as it is shared with more matter, while fire is communicated with increase, and a spark becomes a conflagration.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a spark becomes a conflagration"
+    },
+    {
+     "kind": "refutation",
+     "detail": "motion slows as it is shared"
+    }
+   ],
+   "cites": [
+    {
+     "page": "159",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n172/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Le Feu considéré dans son principe doit être autre chose que le mouvement intestin des parties échauffées, ou la dissipation actuelle des corps embrasés : car dans l’état naturel, tout mouvement une fois imprimé se ralentit, & cesse enfin d’être sensible, en se distribuant à une plus grande quantité de matière […]; le feu au contraire se communique avec accroissement : nous voyons tous les jours qu’une étincelle devient un incendie.",
+    "from_image": true,
+    "tr": "Fire considered in its principle must be something other than the internal motion of the heated parts, or the actual dissipation of burning bodies: for in the natural state every motion once impressed slows, and at last ceases to be sensible, as it is distributed to a greater quantity of matter […]; fire on the contrary is communicated with increase: we see every day that a spark becomes a conflagration."
+   }
+  },
+  {
+   "id": "1775-fire-033",
+   "question": "fire-nature",
+   "text": "B",
+   "answer": "motion-of-parts",
+   "stance": "holds",
+   "part": "why",
+   "statement": "To the objection that other motions grow faint as they are shared: these internal motions are carried on by the internal forces of bodies, and need only that the equilibrium of those forces be disturbed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the objection from the slowing of shared motion"
+    }
+   ],
+   "cites": [
+    {
+     "page": "155",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=165",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quaeres, cur motus in corpore accenso excitatus, haud extinguatur, quamdiu corpus alterum ad similem motum concipiendum idoneum praesto est; cum tamen constet, motus omnes alios languescere, cum massa maiori communicantur. Respondeo, causam esse, quod motus hi intestini, internis corporum viribus peragantur, ad quod aliud haud requiritur, quam, ut internarum virium aequilibrium turbetur",
+    "from_image": true,
+    "tr": "You will ask why the motion excited in a kindled body is not extinguished so long as another body fit to take up a like motion is at hand, when it is agreed that all other motions grow faint as they are communicated to a greater mass. I answer that the cause is that these internal motions are carried on by the internal forces of bodies, for which nothing more is required than that the equilibrium of the internal forces be disturbed."
+   }
+  },
+  {
+   "id": "1775-fire-034",
+   "question": "fire-light-same",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Nature makes few kinds of being and gives each many properties, so Nollet is inclined to believe that one matter both burns and lights.",
+   "confidence": {
+    "level": "probable"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "few kinds of being"
+    }
+   ],
+   "cites": [
+    {
+     "page": "156",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n169/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-035",
+   "question": "fire-nature",
+   "text": "B",
+   "answer": "matter-of-fire",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Once forces that depend on distance are admitted between particles, the source of internal motions lies open and no separate matter of fire is called for.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "forces between particles suffice"
+    }
+   ],
+   "cites": [
+    {
+     "page": "140",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=150",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-036",
+   "question": "fire-food",
+   "text": "EB",
+   "answer": "fixed-fire",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Fire fixed in a body differs from free fire in that, united to a body, it communicates neither heat nor light, and it can be conveyed from that body into another.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "68",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "when united to a body, it communicates to it neither heat nor light",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-037",
+   "question": "fire-food",
+   "text": "E",
+   "answer": "combustible-essence",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Erxleben warns his readers not to confuse the combustible essence with elementary fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "386",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n410/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-038",
+   "question": "fire-nature",
+   "text": "N",
+   "answer": "motion-of-parts",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The motion opinion has hardly any partisans left, and those who hold it commonly ascribe the first motion to the aether or subtle matter, which brings the two opinions close together.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "hardly any partisans left"
+    }
+   ],
+   "cites": [
+    {
+     "page": "155-156",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n168/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "has hardly any partisans left",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-fire-039",
+   "question": "calx-weight",
+   "text": "B",
+   "stance": "reports",
+   "between": [
+    "fire-fixed",
+    "vessel-particles",
+    "air-particles"
+   ],
+   "part": "open",
+   "statement": "Musschenbroek found that a hundred pounds of lead calcined give a hundred and ten of minium, tin calcined in a sealed glass retort gains four and a half grains, and metals calcined by burning mirrors gain weight while smoking; others object that the gain comes from particles of the vessels or tools, or from particles of the surrounding air attracted as the bodies are reduced to calx.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "calcination of lead and tin"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "155",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=165",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "or from particles coming from the surrounding air and attracted by those bodies as they are reduced to calx",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-fire-040",
+   "question": "calx-weight",
+   "text": "N",
+   "stance": "reports",
+   "between": [
+    "fire-fixed",
+    "vessel-particles",
+    "air-particles"
+   ],
+   "part": "open",
+   "statement": "Nollet sets Boerhaave's experiments against Homberg's and offers the same list of possible sources of the gain.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    },
+    {
+     "name": "Wilhelm Homberg",
+     "dates": "1652-1715",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "165-168",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n178/mode/1up",
+     "read_from": "unknown",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-041",
+   "question": "fire-weight",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "open",
+   "statement": "Even if elementary fire exists, a hot body need not be found heavier than a cold one.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n384/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-042",
+   "question": "fire-food",
+   "text": "B",
+   "stance": "reports",
+   "between": [
+    "oil",
+    "acid-spirit",
+    "inflammable-earth"
+   ],
+   "part": "open",
+   "statement": "Boerhaave made the food of fire oil or alcohol, Pott an acid spirit, others an inflammable earth; from their disagreement Biwald concludes that nothing yet known deserves the name.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    },
+    {
+     "name": "Johann Heinrich Pott",
+     "dates": "1692-1777",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "138",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=148",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-043",
+   "question": "fluidity",
+   "text": "EB",
+   "answer": "heat-between-parts",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Air itself might become solid if it could be entirely deprived of the fire it contains.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "68",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "air itself might become solid, if it could be entirely deprived of the fire it contains",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-044",
+   "question": "four-elements",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "place",
+   "statement": "The treatise on chemistry counts fire among the elements of which bodies are composed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-045",
+   "question": "heat-nature",
+   "text": "EB",
+   "answer": "effect-of-fire",
+   "stance": "holds",
+   "part": "place",
+   "statement": "The entry Heat makes heat a quality of bodies produced by fire, and in us a sensation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "Heat",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "entry": "Heat"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-046",
+   "question": "heat-sources",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Martin gives no list of ways to raise heat; he names only fire heating water (p. 115) and, in a note, the sun's rays gathered by a convex lens or concave mirror, 'sixteen hundred Times greater than the common Heat of the Sun's Rays' at the focus (p. 115).",
+   "cites": [
+    {
+     "page": "115",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n140/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-047",
+   "question": "heat-expands",
+   "text": "M",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Heat rarefies bodies by dividing, extending and expanding their particles; cold condenses them by uniting and contracting them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "stated as the chief means by which density and rarity change"
+    }
+   ],
+   "cites": [
+    {
+     "page": "111",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n136/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Heat, by dividing, extending, and expanding the Particles of Bodies, doth attenuate and rarefy them",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-048",
+   "question": "flame-nature",
+   "text": "M",
+   "answer": "moving-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Flame is a fluid whose parts are always in an insensible and inconceivably great motion; it seems to depend on the air in its natural state, since a candle will not burn in adust or burnt air. What the moving parts are, he does not say.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "a candle will not burn in burnt air"
+    }
+   ],
+   "cites": [
+    {
+     "page": "115-116",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n140/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "116",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n141/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "As a Fluid, whose Parts are ever in Motion, insensible, and inconceivably great",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-049",
+   "question": "fire-nature-known",
+   "text": "M",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Martin teaches his account as settled: the pupil's summary that heat and cold are a greater or lesser agitation of the particles than in the hand is 'the true Nature of the Case'. Said of heat and cold; of fire he says only what its particles are.",
+   "confidence": {
+    "level": "certain",
+    "printed": "that is the true Nature of the Case, according to modern Philosophy and manifold Experiments"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "modern philosophy"
+    },
+    {
+     "kind": "experiment",
+     "detail": "'manifold Experiments', none described"
+    }
+   ],
+   "cites": [
+    {
+     "page": "115",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n140/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-050",
+   "question": "fire-nature",
+   "text": "M",
+   "answer": "matter-of-fire",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Fire is a fluid substance, made like water of particles small, round, smooth and alike (p. 113), and its particles are those of light (p. 116). Unlike Nollet he does not say that this matter is spread through all bodies or exists from the beginning, and he keeps it apart from heat, which in the hot body is the motion of its own parts (p. 114).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the particles of fire agree with those of light in smallness, luminosity, activity and burning"
+    }
+   ],
+   "cites": [
+    {
+     "page": "113",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n138/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "116",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n141/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a fluid Body, or Substance, as Water, Fire, &c.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-051",
+   "question": "heat-nature",
+   "text": "M",
+   "answer": "motion-of-parts",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Heat is a sensation excited in the mind by a great agitation of the particles of the hot body: in us only an idea, in the hot body activity or motion and nothing else. Cold is the sensation when the parts of a body move less than those of the organ of feeling; the motion meant is the intestine motion among the particles (note).",
+   "confidence": {
+    "level": "certain",
+    "printed": "that is the true Nature of the Case, according to modern Philosophy and manifold Experiments"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "modern philosophy"
+    },
+    {
+     "kind": "experiment",
+     "detail": "'manifold Experiments'"
+    }
+   ],
+   "cites": [
+    {
+     "page": "114",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n139/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "115",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n140/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Heat in us is only the Idea thereof; and in the hot Body, Activity or Motion, and nothing else",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-052",
+   "question": "fire-light-same",
+   "text": "M",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The particles of light and fire agree in smallness, luminosity, exceeding activity and burning; the sun's rays gathered by a burning glass burn more violently than any common fire, melting silver and gold in half a minute; so the particles of light and fire are the same.",
+   "confidence": {
+    "level": "certain",
+    "printed": "from whence we must infer"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "four properties shared by the particles of light and fire"
+    },
+    {
+     "kind": "experiment",
+     "detail": "the burning glass kindles wood, melts metals, vitrifies stones"
+    }
+   ],
+   "cites": [
+    {
+     "page": "116",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n141/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "from whence we must infer, the Particles of Light and Fire are the same",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-053",
+   "question": "fire-food",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "No food of fire, phlogiston or combustible principle (OCR of the whole book searched for phlogiston, pabulum, food and inflammable). Flame only 'seems to depend on the Air, in its natural State' (p. 116). Sulphur is the most inflammable of substances (meteors, p. 202) and one of the two principles of metals (p. 251), but is not said to feed fire.",
+   "cites": [
+    {
+     "page": "116",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n141/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-054",
+   "question": "heat-nature",
+   "text": "M",
+   "answer": "motion-of-fire-matter",
+   "stance": "leans",
+   "part": "why",
+   "statement": "In a note on vapours Martin asks whether 'the received Philosophy' does not teach that heat is fire, its particles in constant and violent agitation, and that these igneous particles, stronger than cohesion, drive the particles of a fluid apart and upward. Here heat is the agitation of particles of fire, not of the body's own parts as in the chapter on heat (p. 114); the Grammar does not reconcile the two.",
+   "confidence": {
+    "level": "probable",
+    "printed": "Does not the received Philosophy teach",
+    "note": "put as a query 'in Behalf' of the Newtonian philosophy"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "to account for the rise of vapours"
+    }
+   ],
+   "persons": [
+    {
+     "name": "John Rowning",
+     "dates": "c. 1701-1771",
+     "role": "reported",
+     "note": "his Compendious System, Part II diss. 6, gives the hypotheses and declines an account"
+    }
+   ],
+   "cites": [
+    {
+     "page": "197",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n244/mode/1up",
+     "read_from": "image",
+     "section": "note"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "That Heat is Fire, and that the Particles of Fire are in a constant and violent Agitation and State of Motion among themselves",
+    "from_image": true
+   },
+   "note": "Bears on the meteors entry (vapour-rise) too."
+  },
+  {
+   "id": "1775-fire-055",
+   "question": "calx-weight",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Not raised. Calces appear only in the descriptions of minerals and metals (pp. 245-255); nothing on their weight (OCR of the whole book)."
+  },
+  {
+   "id": "1775-fire-056",
+   "question": "fire-weight",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Not raised in the text. A reading list on light cites Boyle's 'Experiments to make Fire and Flame ponderable' without comment (p. 57, note).",
+   "cites": [
+    {
+     "page": "57",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n68/mode/1up",
+     "read_from": "ocr",
+     "section": "note"
+    }
+   ]
+  },
+  {
+   "id": "1775-fire-057",
+   "question": "fluidity",
+   "text": "M",
+   "answer": "shape-and-forces",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Fluidity comes from the exceeding smallness, roundness, smoothness and likeness of the first particles of matter; particles so made always produce a fluid, as water and fire. Consistence, its opposite, comes from the figure, size and attraction of the particles. Fire is one of the fluids so made, not the cause of fluidity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "113",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n138/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "For Particles thus modified must always produce a fluid Body, or Substance, as Water, Fire, &c.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-fire-058",
+   "question": "four-elements",
+   "text": "M",
+   "answer": "no",
+   "stance": "holds",
+   "part": "place",
+   "statement": "The ancients counted seven elements (fire, air, water, earth, salt, sulphur, mercury), the chemists five or three; in reality there are no elements of natural bodies but the first particles of matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n46/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "36",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n47/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "there are no other Elements of natural Bodies than the primogenial Particles of Matter",
+    "from_image": true
+   }
+  }
+ ]
+}

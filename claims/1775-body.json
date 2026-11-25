@@ -1,0 +1,2552 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-body",
+  "snapshot": "1775",
+  "topic": "body",
+  "title": "Body in general and its properties",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#body",
+   "version_encoded": "1795046650-4d8e"
+  },
+  "published": "2026-11-15",
+  "encoded": {
+   "date": "2026-11-16",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, on body in general, with the Britannica as a supplementary text. Not covered: figure, hardness, elasticity, compressibility. Not yet read: Biwald pp. 177-224 and his articles on hard, soft, elastic and fluid bodies; Erxleben's fifth section on cohesion; most of Nollet's Lessons I-II; the Britannica's Chemistry on the elements. Ferguson's Lecture I read whole from the page images. read_from is 'image' only where the page image was read (for every Ferguson claim) or the entry quotes the page; other citations are 'unknown'. Short quotations whose originals the entry does not reproduce carry orig null with a note.",
+  "revised": {
+   "date": "2026-11-18",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary"
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-generalis-1769",
+   "parts": "Part I sect. I pp. 81-94; Part II sect. I pp. 162-177; sect. II arts. I-IV pp. 224-240"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 2, §§19-27, pp. 29-35"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 1 Lessons I-II (pp. 12-15, 78, 81, 109); t. 2 p. 471"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture I, Of matter and its properties, pp. 1-8 and 15 (definition, solidity, inactivity, divisibility, attraction and cohesion; density and pores)"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Mechanics, 'Of Matter, and its Properties', vol. 3 pp. 32-35; entries Atom (i 502), Body (i 577), Vacuum and Plenum (iii)",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its treatise Mechanics reprints Ferguson's Lectures I-III nearly word for word (see texts.json), so claims from Mechanics are Ferguson's words; where it differs from Ferguson the claim's note says so. The entries Atom, Body, Vacuum and Plenum are its own. Mechanics leaves out Ferguson's examples of how far matter divides (F 3-5) and his sentence on the mountain (F 3), both in his editions from 1760 on."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Twice: Part I opens with what the senses show (a definition and four attributes, leaving out inertia and attraction 'since they are called in doubt by some'); Part II asks what bodies are made of and derives the attributes from a law of forces",
+   "cites": [
+    {
+     "page": "84",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=106"
+    },
+    {
+     "page": "162",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=184"
+    },
+    {
+     "page": "224",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=246"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Second section, nine short paragraphs straight after the introduction",
+   "cites": [
+    {
+     "page": "29-35",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n55/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "Opens the course: Lesson I extension, divisibility, figure, solidity; Lesson II porosity, compressibility, elasticity",
+   "cites": [
+    {
+     "page": "78",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n201/mode/1up"
+    },
+    {
+     "page": "81",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n206/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "Opens the course: Lecture I, Of matter and its properties, gives the definition of matter and five properties (solidity, inactivity, mobility, divisibility, attraction), then gravity, the centre of gravity, density, pores, expansion by heat, the loadstone and electricity",
+   "cites": [
+    {
+     "page": "1",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n14/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "15",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n30/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "At the head of the treatise Mechanics, which reprints Ferguson's Lecture I; the entries Body and Matter send the reader there",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     }
+    },
+    {
+     "vol": "i",
+     "page": "577",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 686
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-body-001",
+   "question": "body-nature",
+   "text": "B",
+   "answer": "extended-impenetrable",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Body is a solid, extended, divisible, movable substance; attributes such as inertia and attraction are left out of the definition because some call them in doubt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "84",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=106",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "We shall therefore call body a solid, extended, divisible, movable substance.",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-002",
+   "question": "body-nature",
+   "text": "E",
+   "answer": "extended-impenetrable",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Besides extension, the essence of body needs something more, matter, which makes the body impenetrable.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "29",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n55/mode/1up",
+     "read_from": "image",
+     "section": "§19"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "which we call matter and which makes the body impenetrable",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-003",
+   "question": "body-nature",
+   "text": "N",
+   "answer": "extended-impenetrable",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Solidity, also called impenetrability, is a property of every body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "78",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n201/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-004",
+   "question": "body-nature",
+   "text": "EB",
+   "answer": "extended-impenetrable",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Matter is every thing that has length, breadth and thickness and resists the touch.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "every thing that has length, breadth, and thickness, and resists the touch",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 1)"
+  },
+  {
+   "id": "1775-body-005",
+   "question": "penetration",
+   "text": "N",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Apparent penetration is entry into pores: a sponge takes in water without growing, and spirit of wine and water fill less room mixed than apart; apparent size must be told from real solidity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "sponge and water; spirit of wine mixed with water"
+    }
+   ],
+   "cites": [
+    {
+     "page": "78",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n201/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-006",
+   "question": "penetration",
+   "text": "B",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Quicksilver enters gold and silver only by their pores.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "quicksilver entering gold and silver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "85",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=107",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-007",
+   "question": "penetration",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Erxleben makes matter the cause of impenetrability (§19); apparent penetration was not found in the parts read."
+  },
+  {
+   "id": "1775-body-008",
+   "question": "penetration",
+   "text": "EB",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Mechanics says that each body hinders all others from occupying the same part of space, water and air included; it does not discuss apparent penetration.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Corrected 2026-11-18 (was not_found); Ferguson's wording, reprinted (F 1-2)"
+  },
+  {
+   "id": "1775-body-009",
+   "question": "pores",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Every body has pores, proved by induction: thin leaves of every body pass light, the microscope shows pores in metal foil, fire pervades the hardest bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "light through thin leaves; microscope; fire pervading bodies"
+    }
+   ],
+   "cites": [
+    {
+     "page": "86",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=108",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-010",
+   "question": "pores",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gold, the densest body known, still holds a considerable quantity of interstices; no perfectly dense body exists.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "31",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n57/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-011",
+   "question": "pores",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gold is porous, since quicksilver enters it in a moment.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "quicksilver entering gold"
+    }
+   ],
+   "cites": [
+    {
+     "page": "109",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n236/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-012",
+   "question": "pores",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All bodies are full of pores, or spaces void of matter; gold perhaps holds more space than matter, since heat, magnetism and even water pass through it, and light passes through glass in every direction.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "heat, magnetism and water through gold; light through glass"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "35",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 46
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "All bodies are full of pores, or spaces void of matter",
+    "from_image": true
+   },
+   "note": "Corrected 2026-11-18 from the page image (was not_taken_up: the passage is on p. 35, beyond the pages the entry first read); Ferguson's wording, reprinted (F 15)"
+  },
+  {
+   "id": "1775-body-013",
+   "question": "division-reach",
+   "text": "B",
+   "answer": "beyond-senses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Bodies divide far beyond the senses: gold leaf, dyes, scents, and Leeuwenhoek's animalcules in pepper-water, the smallest a thousand million times less than a grain of sand (examples from Musschenbroek).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "gold leaf, dyes, scents, animalcules"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    },
+    {
+     "name": "Antoni van Leeuwenhoek",
+     "dates": "1632-1723",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "90-91",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=112",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-014",
+   "question": "division-reach",
+   "text": "E",
+   "answer": "beyond-senses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gold, colours and odorous things show how very far division goes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "gold, colours, odours"
+    }
+   ],
+   "cites": [
+    {
+     "page": "32",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n58/mode/1up",
+     "read_from": "unknown",
+     "section": "§23"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-015",
+   "question": "division-reach",
+   "text": "N",
+   "answer": "beyond-senses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Experiments show parts so small that their number and tenuity far surpass common ideas, beginning with a coin split by burning sulphur.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "a coin split with burning sulphur"
+    }
+   ],
+   "cites": [
+    {
+     "page": "14-15",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n131/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "so small that their number and their tenuity far surpass common ideas",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-016",
+   "question": "division-reach",
+   "text": "EB",
+   "answer": "beyond-senses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Mechanics proves divisibility by a geometrical figure and gives no examples from experience.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "a geometrical proof"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's proof, reprinted (F 5-6). The Britannica leaves out the examples Ferguson gives on pp. 3-5 (gold in silver, gold leaf, Leeuwenhoek's animalcules, the particles of light)."
+  },
+  {
+   "id": "1775-body-017",
+   "question": "density",
+   "text": "B",
+   "answer": "more-matter-in-place",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Mass is the quantity of matter under a given volume; dense and rare are said only by comparison.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "88-89",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=110",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-018",
+   "question": "density",
+   "text": "E",
+   "answer": "more-matter-in-place",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Density is the quantity of matter in a given volume, and is comparative.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "30-31",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n56/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-019",
+   "question": "density",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Nollet was not read on this point."
+  },
+  {
+   "id": "1775-body-020",
+   "question": "density",
+   "text": "EB",
+   "answer": "more-matter-in-place",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The quantity of matter in all bodies is in exact proportion to their weights, bulk for bulk, so heavy bodies are as much denser than light ones of the same bulk as they exceed them in weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "35",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 46
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Corrected 2026-11-18 from the page image (was not_found); Ferguson's wording, reprinted (F 15)"
+  },
+  {
+   "id": "1775-body-021",
+   "question": "divisibility",
+   "text": "EB",
+   "answer": "without-end",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The Mechanics makes divisibility the fourth property of matter, without end, and infinite in the mathematical sense.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "a figure"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The fourth property of matter is divisibility, of which there can be no end.",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 3, 5-6), without Ferguson's sentence on the mountain"
+  },
+  {
+   "id": "1775-body-022",
+   "question": "divisibility",
+   "text": "EB",
+   "answer": "ends-in-atoms",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The entry Atom defines an atom as a particle too small to admit of division, and calls atoms the first principles of physical magnitude; the treatise and the entry disagree.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "i",
+     "page": "502",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 609
+     },
+     "entry": "Atom"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a particle of matter, so minute as to admit of no division",
+    "from_image": true
+   },
+   "note": "The Britannica's own entry"
+  },
+  {
+   "id": "1775-body-023",
+   "question": "divisibility",
+   "text": "E",
+   "answer": "not-for-physics",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Experience teaches only that division goes very far, not that it goes on without end; whether bodies are divisible to infinity belongs before the tribunal of metaphysics more than of natural philosophy.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "32",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n58/mode/1up",
+     "read_from": "image",
+     "section": "§23"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Die Erfahrung kann uns hier weiter nichts lehren, als daß sie sehr weit geht; noch nicht, daß sie ohne Aufhören fortgeht: überhaupt aber gehört die Beantwortung der Frage: Ob die Körper bis ins Unendliche theilbar sind, mehr vor den Richterstuhl der Metaphysik, als der Naturlehre.",
+    "from_image": true,
+    "tr": "Experience can teach us nothing more here than that it goes very far; not yet that it goes on without ceasing. In general the answer to the question whether bodies are divisible to infinity belongs more before the tribunal of metaphysics than of natural philosophy."
+   }
+  },
+  {
+   "id": "1775-body-024",
+   "question": "divisibility",
+   "text": "N",
+   "answer": "not-for-physics",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Division by the mind has no bounds; whether nature's division goes on to infinity is only a matter of system, with probabilities for and against.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "14",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n131/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "is only a matter of system, in which probabilities are found for and against",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-025",
+   "question": "divisibility",
+   "text": "N",
+   "answer": "ends-in-atoms",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Nollet is more inclined to atoms than to matter physically divisible to infinity, but grants that the argument from the constancy of species, specious as it is, does not decide the question.",
+   "confidence": {
+    "level": "possible",
+    "printed": "plus de penchant",
+    "translation": "more inclined"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the argument from the constancy of species (an oak is always an oak) can be validly answered"
+    },
+    {
+     "kind": "design",
+     "detail": "even if the first particles could be cut, the Author of nature would have left in the world only means too weak to disturb his works"
+    }
+   ],
+   "cites": [
+    {
+     "page": "12",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n129/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Quoique j'aie plus de penchant pour admettre les Atomes ou Corpuscules insécables, que pour supposer la matiére physiquement divisible à l'infini; je ne puis dissimuler cependant que l'argument que je viens de citer, tout spécieux qu'il est, n'a point assez de force pour décider la question, & qu'on y peut répondre validement.",
+    "from_image": true,
+    "tr": "Although I am more inclined to admit atoms, or uncuttable corpuscles, than to suppose matter physically divisible to infinity, I cannot hide that the argument I have just cited, specious as it is, has not force enough to decide the question, and that it can be validly answered."
+   }
+  },
+  {
+   "id": "1775-body-026",
+   "question": "divisibility",
+   "text": "B",
+   "answer": "ends-in-unextended",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "From the phenomena it seems probable that division does not go on to infinity but ends at its own limits; nature's constant regeneration of the same kinds shows bodies are not resolved into infinitely small parts.",
+   "confidence": {
+    "level": "probable",
+    "printed": "probabile effici videtur",
+    "translation": "seems to be made probable"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the same bodies regenerated with the same properties"
+    },
+    {
+     "kind": "authority",
+     "detail": "Musschenbroek"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "92",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=114",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ex phaenomenorum accuratiore consideratione probabile effici videtur, corporum divisionem in infinitum haud procedere, verum suis tandem terminis definiri.",
+    "from_image": true,
+    "tr": "From a more accurate consideration of the phenomena it seems to be made probable that the division of bodies does not go on to infinity, but is at length bounded by its own limits."
+   }
+  },
+  {
+   "id": "1775-body-027",
+   "question": "divisibility",
+   "text": "B",
+   "answer": "ends-in-unextended",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "On his view the first elements are simple and unextended and cannot be divided at all; a mass divides into no more parts than the points that make it up.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "the elements are simple substances"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "227",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=249",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Primorum quidem materiae elementorum in hac sententia divisibilitas nulla est, cum ea simplicia, & inextensa sint; at vero massae quaelibet, quae nobis aliud non sunt, quam dictorum punctorum congeries, dividi in partes possunt, non tamen plures, quam sit ipse punctorum massam constituentium numerus.",
+    "from_image": true,
+    "tr": "On this view the first elements of matter have no divisibility at all, since they are simple and unextended; but any masses, which for us are nothing other than collections of the said points, can be divided into parts, though not into more than the number of the points that make up the mass."
+   }
+  },
+  {
+   "id": "1775-body-028",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "cartesian-elements",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Descartes's three elements, ground from cubes of a first matter, deserve no praise but that of an ingenious fiction, like the opening of Ovid's Metamorphoses.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "a fiction, comparable to the poets"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "164",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=186",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Systema hoc non aliam, quam ingeniosae fictionis laudem meretur, neque alia ei fides tribuenda, quam quae solet amoenis Poetarum commentis tribui.",
+    "from_image": true,
+    "tr": "This system deserves no praise but that of an ingenious fiction, and no more belief than is commonly given to the pleasant inventions of the poets."
+   }
+  },
+  {
+   "id": "1775-body-029",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "atoms",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Atoms, which Newton seems largely to have adopted, are supposed to differ in size, so an atom as big as a mountain could not be cut; but a thing with really distinct parts cannot be wholly indivisible into them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "an atom as large as a mountain"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "opposed"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported",
+     "note": "seems to have adopted atoms with active powers"
+    }
+   ],
+   "cites": [
+    {
+     "page": "166-167",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=188",
+     "read_from": "unknown"
+    },
+    {
+     "page": "167",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=189",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-030",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "monads",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Leibniz's monads give material substances a power of perception and so take away the difference between spirit and matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "blurs spirit and matter"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Gottfried Wilhelm Leibniz",
+     "dates": "1646-1716",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "168",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=190",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-031",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "four-elements",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The four common elements and the five of the chemists are themselves kinds of body, whose principles have still to be sought.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "169-170",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=191",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-032",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "matter-and-form",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The matter and form of the Peripatetics may be borne as an abstract notion but are of no use for knowing nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "useless for knowing nature"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169-170",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=191",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-033",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "points-with-forces",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The principles of bodies are simple substances endowed with motive force, Boscovich's indivisible and unextended points; this agrees with Leibniz on simplicity and with Newton on active forces. A body stands to its points as an army to its soldiers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "propositions on substance and activity"
+    },
+    {
+     "kind": "analogy",
+     "detail": "an army and its soldiers"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    },
+    {
+     "name": "Gottfried Wilhelm Leibniz",
+     "dates": "1646-1716",
+     "role": "followed",
+     "note": "on simplicity"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed",
+     "note": "on active forces"
+    }
+   ],
+   "cites": [
+    {
+     "page": "176",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=198",
+     "read_from": "image"
+    },
+    {
+     "page": "177",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=199",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Principia corporum sunt substantiae simplices vi motrice praeditae.",
+    "from_image": true,
+    "tr": "The principles of bodies are simple substances endowed with motive force."
+   }
+  },
+  {
+   "id": "1775-body-034",
+   "question": "matter-principles",
+   "text": "N",
+   "answer": "atoms",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Nollet leans to atoms; the hardness of the parts we take for indivisible may only exceed our means of cutting them.",
+   "confidence": {
+    "level": "possible",
+    "printed": "plus de penchant",
+    "translation": "more inclined"
+   },
+   "cites": [
+    {
+     "page": "12",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n129/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "471",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n518/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "because we know no agent that can cut into them",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-035",
+   "question": "matter-principles",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Erxleben speaks of smaller corporeal particles and does not say what they are (§26, p. 34)."
+  },
+  {
+   "id": "1775-body-036",
+   "question": "matter-principles",
+   "text": "EB",
+   "answer": "atoms",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The entry Atom calls atoms the first principles or component parts of all physical magnitude; the entry on the atomical philosophy describes the system of Epicurus.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "502",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 609
+     },
+     "entry": "Atom"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "are conceived as the first principles or component parts of all physical magnitude",
+    "from_image": true
+   },
+   "note": "The Britannica's own entry"
+  },
+  {
+   "id": "1775-body-037",
+   "question": "four-elements",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The four common elements, and the five of the chemists, are not the principles of bodies but themselves kinds of body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "169-170",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=191",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-038",
+   "question": "void",
+   "text": "N",
+   "answer": "none",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "The porosity of bodies is the void between their solid parts, but void here does not mean space empty of all matter: most interstices certainly lodge fluids. Nollet does not say whether any are wholly empty.",
+   "confidence": {
+    "level": "certain",
+    "printed": "il est indubitable",
+    "translation": "it is beyond doubt",
+    "note": "of the fluids in most pores"
+   },
+   "cites": [
+    {
+     "page": "81",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n206/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "La Porosité des corps n'est autre chose que le vuide qui se trouve entre leurs parties solides; & par ce mot de vuide nous ne prétendons pas faire entendre des espaces privés de toute matiére: il est indubitable que la plus grande partie de ces interstices loge des fluides dont la présence se manifeste par mille preuves.",
+    "from_image": true,
+    "tr": "The porosity of bodies is nothing other than the void that is found between their solid parts; and by this word void we do not mean spaces deprived of all matter: it is beyond doubt that the greater part of these interstices lodges fluids whose presence shows itself by a thousand proofs."
+   }
+  },
+  {
+   "id": "1775-body-039",
+   "question": "void",
+   "text": "E",
+   "answer": "scattered",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The larger interstices certainly hold foreign matter; for the finest, a real scattered empty space can be defended on strong physical grounds, whatever metaphysics objects.",
+   "confidence": {
+    "level": "probable",
+    "printed": "durch starke physische Gründe vertheidigen lasse",
+    "translation": "can be defended on strong physical grounds"
+   },
+   "cites": [
+    {
+     "page": "31",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n57/mode/1up",
+     "read_from": "image",
+     "section": "§22"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Was man auch aus metaphysischen Gründen dem Daseyn eines solchen leeren Raumes entgegen setzen möchte, so ist doch nicht zu läugnen, daß es sich durch starke physische Gründe vertheidigen lasse.",
+    "from_image": true,
+    "tr": "Whatever may be urged on metaphysical grounds against the existence of such an empty space, it cannot be denied that it can be defended on strong physical grounds."
+   }
+  },
+  {
+   "id": "1775-body-040",
+   "question": "void",
+   "text": "B",
+   "stance": "reports",
+   "between": [
+    "none",
+    "scattered"
+   ],
+   "part": "dispute",
+   "statement": "Biwald reports that Descartes, making three dimensions the essence of body, held empty space impossible, and that Gassendi put a scattered vacuum between his atoms.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "reported"
+    },
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "163",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=185",
+     "read_from": "unknown"
+    },
+    {
+     "page": "166",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=188",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-041",
+   "question": "void",
+   "text": "B",
+   "answer": "points-apart",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A body is a number of points at distances too small for the senses; physical extension is that, and mathematical extension, strictly so called, has been removed from nature. The senses cannot be appealed to against this, since the smallest things escape them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "the elements are unextended points"
+    },
+    {
+     "kind": "refutation",
+     "detail": "the senses do not reach the smallest things"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "226",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=248",
+     "read_from": "image"
+    },
+    {
+     "page": "218",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=240",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "mathematical extension, or extension strictly so called, we have already removed from nature",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-042",
+   "question": "void",
+   "text": "EB",
+   "stance": "reports",
+   "between": [
+    "none",
+    "scattered"
+   ],
+   "part": "dispute",
+   "statement": "The Britannica defines a vacuum as space empty of all matter and a plenum as the Cartesians' wholly full space, and affirms neither.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "Vacuum; Plenum",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "entry": "Vacuum; Plenum"
+    }
+   ],
+   "note": "The Britannica's own entries. Its Mechanics, reprinting Ferguson, calls pores 'spaces void of matter' (claim 082)."
+  },
+  {
+   "id": "1775-body-043",
+   "question": "cohesion",
+   "text": "N",
+   "answer": "outside-pressure",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Solidity and fluidity have one cause: the subtle air fixes the parts of a matter when its pressure from outside exceeds the reaction within.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "471",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n518/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "it is the subtle air that fixes the parts of a matter, when its pressure from outside exceeds the reaction it makes within",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-044",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "outside-pressure",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Pourchot, Nollet and several Cartesians, most recently Bertier, derive cohesion from contact along plane surfaces and the pressure of a very thin fluid; Biwald rejects this.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Edmond Pourchot",
+     "dates": "1651-1734",
+     "role": "opposed"
+    },
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "opposed"
+    },
+    {
+     "name": "Joseph-Étienne Bertier",
+     "dates": "1702-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "237",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=259",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Purchotius, Noletus, pluresque Cartesiani, quos inter recentissime Cl. Bertier Presbyter Oratorii, cohaesionem corporum a mutuo partium contactu secundum planas superficies, & tenuissimi cuiusdam fluidi pressu repetunt.",
+    "from_image": true,
+    "tr": "Pourchot, Nollet, and several Cartesians, among them most recently the celebrated Bertier, priest of the Oratory, derive the cohesion of bodies from the mutual contact of the parts along plane surfaces, and from the pressure of some very thin fluid."
+   }
+  },
+  {
+   "id": "1775-body-045",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "rest-of-parts",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald rejects Descartes's rest of the parts beside one another.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "235-239",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=257",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-046",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "conspiring-motions",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald rejects the conspiring motions of Johann Bernoulli and Leibniz.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johann Bernoulli",
+     "dates": "1667-1748",
+     "role": "opposed"
+    },
+    {
+     "name": "Gottfried Wilhelm Leibniz",
+     "dates": "1646-1716",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "235-239",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=257",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-047",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "hooks-and-shapes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald rejects the hooks of Epicurus and Gassendi.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "235-239",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=257",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-048",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "point-forces",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Cohesion arises from points of matter placed at the limits of cohesion in the curve of forces, or at distances where equal and opposite forces cancel.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "239",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=261",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Cohaesio corporum oritur ex collocatione punctorum materiae in limitibus cohaesionis, vel etiam extra eosdem limites, in iis tamen distantiis, in quibus vires utrinque aequales, & oppositae se elidunt.",
+    "from_image": true,
+    "tr": "The cohesion of bodies arises from the placing of the points of matter at the limits of cohesion, or even outside those limits, yet at those distances at which forces equal and opposite on either side cancel one another."
+   }
+  },
+  {
+   "id": "1775-body-049",
+   "question": "cohesion",
+   "text": "E",
+   "answer": "glue",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Erxleben rules out a glue between the particles.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "33-34",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n59/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-050",
+   "question": "cohesion",
+   "text": "E",
+   "answer": "hooks-and-shapes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Erxleben rules out little hooks on the particles.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "33-34",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n59/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-051",
+   "question": "cohesion",
+   "text": "E",
+   "answer": "inner-force",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "It is almost more probable that the smaller corporeal particles have a real inner force of holding together, which then belongs to the larger parts and to bodies.",
+   "confidence": {
+    "level": "probable",
+    "printed": "fast für wahrscheinlicher halten",
+    "translation": "almost think it more probable"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "glue, hooks and outer pressure fail"
+    }
+   ],
+   "cites": [
+    {
+     "page": "34",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n60/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Man sollte es also fast für wahrscheinlicher halten, daß die kleinern körperlichen Theilchen selbst eine wirkliche innere Kraft besitzen untereinander zusammenzuhangen, die folglich auch den aus ihnen zusammengesetzten grössern Theilen, und den Körpern selbst zukommen muß.",
+    "from_image": true,
+    "tr": "One should therefore almost think it more probable that the smaller corporeal particles themselves possess a real inner force of holding together, which must consequently belong also to the larger parts composed of them, and to bodies themselves."
+   }
+  },
+  {
+   "id": "1775-body-052",
+   "question": "cohesion",
+   "text": "EB",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Cohesion is the first of four kinds of attraction, by which the small parts of matter stick together.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 6)"
+  },
+  {
+   "id": "1775-body-053",
+   "question": "cohesion",
+   "text": "EB",
+   "answer": "outside-pressure",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Cohesion is not the pressure of the air: lead pieces and polished plates cohere in an exhausted receiver.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "lead and polished plates in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 6-7)"
+  },
+  {
+   "id": "1775-body-054",
+   "question": "physics-and-metaphysics",
+   "text": "B",
+   "answer": "essences-to-metaphysics",
+   "stance": "holds",
+   "part": "why",
+   "statement": "We are wholly ignorant of the inmost essences of things; questions on the metaphysical essence of body and its first attribute are dismissed as vain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "84",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=106",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Essentias rerum intimas penitus ignoramus: qui proinde iis investigandis immorantur, operam ludunt. Quamobrem quaestiones olim hic agitari solitas, de essentia metaphysica corporis, de primo attributo, ex quo caetera omnia dimanant, tanquam vanas, inutilesque missas facimus.",
+    "from_image": true,
+    "tr": "We are wholly ignorant of the inmost essences of things; those who linger over investigating them therefore waste their labour. For which reason we dismiss as vain and useless the questions once commonly debated here, on the metaphysical essence of body, and on the first attribute from which all the others flow."
+   }
+  },
+  {
+   "id": "1775-body-055",
+   "question": "physics-and-metaphysics",
+   "text": "B",
+   "answer": "metaphysics-in-physics",
+   "stance": "holds",
+   "part": "why",
+   "statement": "In his second part Biwald argues to the elements of bodies from propositions that he grants belong to metaphysics, so that the whole doctrine of the principles of bodies may be seen together.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "170",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=192",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-056",
+   "question": "physics-and-metaphysics",
+   "text": "N",
+   "answer": "essences-to-metaphysics",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Of his three conclusions on divisibility only the last admits the kind of proof his book is limited to, and for it he appeals to experience.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment"
+    }
+   ],
+   "cites": [
+    {
+     "page": "14-15",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n131/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "I appeal to experience.",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-057",
+   "question": "physics-and-metaphysics",
+   "text": "E",
+   "answer": "essences-to-metaphysics",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Erxleben sends the question of infinite division to metaphysics and goes on.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "32",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n58/mode/1up",
+     "read_from": "image",
+     "section": "§23"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-058",
+   "question": "body-nature",
+   "text": "B",
+   "answer": "points-with-forces",
+   "stance": "holds",
+   "part": "why",
+   "statement": "In his second part a body is an aggregate of simple substances, called a substance only in the common way of speaking; it stands to its points as an army to its soldiers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "an army and its soldiers"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "176",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=198",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Corpora videntur se habere ad substantias illas simplices, ex quibus coalescunt, eo modo, quo se habet exercitus ad milites singulos, ex quibus componitur.",
+    "from_image": true,
+    "tr": "Bodies seem to stand to those simple substances of which they are composed as an army stands to the single soldiers of which it is made up."
+   }
+  },
+  {
+   "id": "1775-body-059",
+   "question": "matter-activity",
+   "text": "B",
+   "answer": "active",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Every substance is endowed with active force, and so are bodies: they resist being moved, keep their motion and set others moving. A composite has no activity of its own, so it belongs to the simple things that compose it. Against the Cartesians, who make bodies only occasions.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "every substance is active"
+    },
+    {
+     "kind": "refutation",
+     "detail": "occasionalism"
+    }
+   ],
+   "cites": [
+    {
+     "page": "170-172",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=192",
+     "read_from": "unknown"
+    },
+    {
+     "page": "176",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=198",
+     "read_from": "unknown"
+    },
+    {
+     "page": "172",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=194",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-060",
+   "question": "matter-activity",
+   "text": "EB",
+   "answer": "passive",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Body is an extended solid substance, of itself utterly passive and inactive, indifferent to motion or rest.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "i",
+     "page": "577",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 686
+     },
+     "entry": "Body"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "an extended solid substance, of itself utterly passive and inactive, indifferent either to motion or rest",
+    "from_image": true
+   },
+   "note": "The Britannica's own entry; Ferguson's Lecture I has 'inactivity, or passiveness' (claim 081)"
+  },
+  {
+   "id": "1775-body-061",
+   "question": "cohesion",
+   "text": "E",
+   "answer": "outside-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "If a surrounding matter pressed the particles together, one could ask again what holds its parts together.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "regress: what holds the pressing matter together"
+    }
+   ],
+   "cites": [
+    {
+     "page": "33",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n59/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "one could then ask again what holds its parts together",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-062",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "outside-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The pressure of common air is far too small (Musschenbroek's cylinders); a subtler fluid is assumed without proof; and a fluid passing freely through every pore would press as much from within as from without.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Musschenbroek's trials with cylinders"
+    },
+    {
+     "kind": "refutation",
+     "detail": "an unproved fluid; equal pressure within and without"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "237-238",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=259",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-063",
+   "question": "cohesion",
+   "text": "B",
+   "answer": "attraction",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The Newtonians put cohesion in the attraction of parts in immediate contact, but there is no contact strictly so called.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "no mathematical contact"
+    }
+   ],
+   "cites": [
+    {
+     "page": "239",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=261",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-064",
+   "question": "pores",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Musschenbroek regrets that not one wholly solid mass is known, since otherwise the solid and porous parts of every body could be found by weighing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "89",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=111",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-065",
+   "question": "pores",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "A wholly solid body will never be more than a supposition; Newton conjectured that gold may hold as much void as full.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "109",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n236/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "will never be more than a supposition",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-066",
+   "question": "density",
+   "text": "B",
+   "answer": "more-matter-in-place",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Mass is the number of points under a given volume, but the idea is very vague and indeterminate: which matter belongs to a body is hard to say, and the common estimate must serve.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "227",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=249",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "very vague and indeterminate",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-067",
+   "question": "penetration",
+   "text": "B",
+   "answer": "never",
+   "stance": "holds",
+   "part": "open",
+   "statement": "After Boscovich: with great enough speed we could pass through doors and walls without true penetration, and if bodies always moved so fast we should have no idea of solidity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "226",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=248",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-068",
+   "question": "element-change",
+   "text": "N",
+   "answer": "no",
+   "stance": "leans",
+   "part": "open",
+   "statement": "The constancy of nature should make us slow to promise the change of one matter into another; chemistry is giving up such claims.",
+   "confidence": {
+    "level": "doubtful",
+    "note": "French wording to be copied from the page"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the constancy of kinds"
+    }
+   ],
+   "cites": [
+    {
+     "page": "13-14",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n130/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "ought we to flatter ourselves that we shall work miracles in our laboratories?",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-body-069",
+   "question": "matter-principles",
+   "text": "B",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Eller of the Berlin Academy made water and fire the principles of all things; his trials deserve confirmation by more frequent repetition.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Johann Theodor Eller",
+     "dates": "1689-1760",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=191",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-070",
+   "question": "matter-principles",
+   "text": "B",
+   "answer": "points-with-forces",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Biwald answers at length Justi's prize dissertation (Berlin Academy, 1747), which denied that composites are made of simples.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "Justi's objections"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Johann Heinrich Gottlob von Justi",
+     "dates": "1717-1771",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "177",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=199",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-body-071",
+   "question": "body-nature",
+   "text": "F",
+   "answer": "extended-impenetrable",
+   "stance": "holds",
+   "part": "common",
+   "statement": "By matter is meant every thing that has length, breadth and thickness and resists the touch; its solidity makes each body hinder all others from occupying the same part of space.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "1",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n14/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "2",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n15/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "By the word matter is here meant every thing that has length, breadth, and thickness, and resists the touch.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-072",
+   "question": "penetration",
+   "text": "F",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Each particular body hinders all others from occupying the part of space it possesses; even water or air fixed between two bodies keeps them from touching. Apparent penetration is not discussed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "wood or metal squeezed between plates; water or air between bodies"
+    }
+   ],
+   "cites": [
+    {
+     "page": "1",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n14/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "2",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n15/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "each particular body hinders all others from occupying the same part of space which it possesseth",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-073",
+   "question": "pores",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All bodies are full of pores; in gold, the heaviest body known, there is perhaps more space than matter, since the particles of heat and magnetism pass easily through it and water has been forced through it; light passing through glass in every direction shows bodies far more porous than is generally imagined.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "heat, magnetism and water through gold; light through glass"
+    }
+   ],
+   "cites": [
+    {
+     "page": "15",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n30/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "in gold, which is the heaviest of all known bodies, there is perhaps a greater quantity of space than of matter.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-074",
+   "question": "division-reach",
+   "text": "F",
+   "answer": "beyond-senses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Art divides matter surprisingly far: a grain of gold melted with a pound of silver is found in any grain of the mass, and a gold leaf can be cut into parts of which the fifty-millionth of a grain is visible under a microscope. Nature goes much further: Leeuwenhoek found more animals in the milt of a cod than men on the earth, a grain of sand bigger than four millions of them, and the particles of their blood are to particles of light as mountains to grains of sand.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "gold in silver; gold leaf; Leeuwenhoek's animalcules"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the force of light's particles, from their velocity"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Antoni van Leeuwenhoek",
+     "dates": "1632-1723",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "3",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n16/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "4",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n17/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "5",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n20/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Yet all this is nothing in comparison of the lengths that nature goes in the division of matter.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-075",
+   "question": "density",
+   "text": "F",
+   "answer": "more-matter-in-place",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The quantity of matter in all bodies is in exact proportion to their weights, bulk for bulk; so heavy bodies are as much more dense than light bodies of the same bulk as they exceed them in weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "15",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n30/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The quantity of matter in all bodies is in exact proportion to their weights, bulk for bulk.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-076",
+   "question": "divisibility",
+   "text": "F",
+   "answer": "without-end",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Divisibility, the fourth property of matter, has no end: matter cannot be annihilated by cutting, any particle laid on a table has its upper side farther from the table than its under side, and it would be absurd to say the greatest mountain has more halves or tenth parts than the smallest particle. That matter is infinitely divisible in a mathematical sense is proved by a figure.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "a figure: lines from a point cut off parts of a particle without end"
+    },
+    {
+     "kind": "other",
+     "detail": "a particle has an upper and an under side; a mountain has no more halves than a particle"
+    }
+   ],
+   "cites": [
+    {
+     "page": "3",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n16/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "5",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n20/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The fourth property of matter is divisibility, of which there can be no end.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-077",
+   "question": "matter-principles",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Lecture I gives the properties of matter and does not say what bodies are ultimately made of; it speaks of particles without saying whether any are indivisible."
+  },
+  {
+   "id": "1775-body-078",
+   "question": "void",
+   "text": "F",
+   "answer": "scattered",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Pores are spaces void of matter, and gold may hold more space than matter; stated without argument against those who deny a void.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "15",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n30/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "All bodies are full of pores, or spaces void of matter",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-079",
+   "question": "cohesion",
+   "text": "F",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Attraction, the fifth property of matter, seems rather infused than inherent; cohesion is the first of its four kinds, by which the small parts of matter stick together, shown by water rising in narrow tubes, sugar and sponges drawing up fluids, drops of quicksilver running together, scraped lead, polished plates and floating corks. It reaches only a very small distance, beyond which a repulsive force begins.",
+   "confidence": {
+    "level": "probable",
+    "printed": "seems rather to be infused than inherent"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "capillary tubes, lead, polished plates, corks"
+    }
+   ],
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "7",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n22/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The attraction of cohesion is that by which the small parts of matter are made to stick and cohere together.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-080",
+   "question": "cohesion",
+   "text": "F",
+   "answer": "outside-pressure",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Cohesion is not the pressure of the air: water rises in a tube open at the top, and the lead pieces and oiled plates cohere as strongly in an exhausted receiver.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "capillary tube, lead and plates in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "7",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n22/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "And this cannot be owing to the pressure of the air, for the same thing will hold in an exhausted receiver.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-081",
+   "question": "matter-activity",
+   "text": "F",
+   "answer": "passive",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Inactivity or passiveness is the second property of matter; matter can never put itself into motion, as all men allow, and the moon goes round the earth although as inactive and dead as any stone upon it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a stone never moves itself"
+    }
+   ],
+   "cites": [
+    {
+     "page": "2",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n15/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "3",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n16/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "although she be as unactive and dead as any stone upon it.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-body-082",
+   "question": "void",
+   "text": "EB",
+   "answer": "scattered",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The Mechanics calls pores spaces void of matter, and gold perhaps more space than matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "35",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 46
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "All bodies are full of pores, or spaces void of matter",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 15). The Britannica's own entries Vacuum and Plenum affirm neither (claim 042)."
+  }
+ ]
+}

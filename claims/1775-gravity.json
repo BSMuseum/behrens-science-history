@@ -1,0 +1,2387 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-gravity",
+  "snapshot": "1775",
+  "topic": "gravity",
+  "title": "Gravity",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#gravity",
+   "version_encoded": "1795046650-4d8e"
+  },
+  "published": "2026-11-14",
+  "encoded": {
+   "date": "2026-11-16",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: pendulum, inclined plane, projectiles, centre of gravity; the planets are in 1775-world. Not yet read: Biwald's proofs for the moon and his answers after p. 320; Erxleben on the pendulum and his twelfth section; most of Nollet's Lesson VI; the Britannica's Astronomy and Pneumatics; Ferguson's lectures on the globes and eclipses. read_from is 'image' for every Ferguson claim; for the others, 'image' only where the entry quotes the page. Biwald's printed p. 319 is misnumbered 819 in the Munich copy.",
+  "revised": {
+   "date": "2026-11-18",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary"
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-generalis-1769",
+   "parts": "Part II, arts. IX-XIV, pp. 286-324"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 4 from §81 (cause of gravity §§97-102, pp. 81-86); §582, p. 478"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 2, Lesson VI from p. 99; Lesson V pp. 75-78"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Preface, p. ix; Lecture I, Of matter and its properties, pp. 6, 8-12; Lecture II, Of central forces, pp. 35-38, 46-47; the air-pump experiments in the lecture on pneumatics, p. 183"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Mechanics, vol. 3 pp. 33-34, 40-41; entry Æther, vol. 1 pp. 31-32",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its treatise Mechanics reprints Ferguson's Lectures I-III nearly word for word (see texts.json), so claims from Mechanics are Ferguson's words; where it differs from Ferguson the claim's note says so. The entry Æther is its own, and is the only place in either British text where the cause of gravity is discussed."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Part II, after cohesion and inertia: what remains of the curve of forces, its last asymptotic arm",
+   "cites": [
+    {
+     "page": "286",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=308"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Fourth of thirteen sections, between motion and cohesion",
+   "cites": [
+    {
+     "page": "81",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n107/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "Lesson VI, straight after central forces and the whirled-globe trials of vortices",
+   "cites": [
+    {
+     "page": "102-103",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n121/mode/1up",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "Inside Lecture I, on the properties of matter: gravitation is the second of four kinds of attraction, attraction being the fifth property of matter; weight, fall and the centre of gravity follow. Its reach to the moon and planets returns in Lecture II, on central forces",
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "8",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n23/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n56/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "No article: 'Gravity' and 'Gravitation' send the reader to Mechanics, which reprints Ferguson's Lecture I, where gravitation is one of four kinds of attraction, the fifth property of matter",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-gravity-001",
+   "question": "levity",
+   "text": "B",
+   "answer": "all-heavy",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The gravity of every kind of body, solid or fluid, is beyond controversy among recent physicists, though some ancients gave air and fire a positive lightness.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "recent physicists"
+    }
+   ],
+   "cites": [
+    {
+     "page": "293",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=315",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-002",
+   "question": "levity",
+   "text": "N",
+   "answer": "all-heavy",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Long and continual experience shows no body in our power exempt from weight; in an exhausted receiver the smoke of a snuffed candle falls to the plate.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "smoke falling in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "105-107",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n124/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "a long and continual experience does not allow us to believe that, of all the bodies in our power, there is any exempt from this affection",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-003",
+   "question": "levity",
+   "text": "EB",
+   "answer": "all-heavy",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gravitation acts on all bodies in proportion to their quantities of matter and constitutes their weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 8-9); the same page prints Ferguson's air-pump proof that there is no positive levity (F 9)"
+  },
+  {
+   "id": "1775-gravity-004",
+   "question": "levity",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not located in the parts of Erxleben's fourth section read."
+  },
+  {
+   "id": "1775-gravity-005",
+   "question": "weight-matter",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Weight is as the quantity of matter: pendulums of equal length vibrate in equal times whatever their weights, so a double weight is moved by a double power of gravity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "pendulums of equal length"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 10)"
+  },
+  {
+   "id": "1775-gravity-006",
+   "question": "weight-matter",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Weight is as the quantity of matter, whatever the bulk or figure.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "294",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=316",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-007",
+   "question": "weight-matter",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Weight is as the quantity of matter, whatever the bulk or figure.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "83",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n109/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-008",
+   "question": "weight-matter",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not located in the parts of Nollet's Lesson VI read."
+  },
+  {
+   "id": "1775-gravity-009",
+   "question": "fall-acceleration",
+   "text": "B",
+   "answer": "uniformly-with-time",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Bodies fall with uniformly accelerated motion, 15 Paris feet 1 inch in the first second.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "297",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=319",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-010",
+   "question": "fall-acceleration",
+   "text": "E",
+   "answer": "uniformly-with-time",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Bodies fall with uniformly accelerated motion, 15 Paris feet 1 inch in the first second; Galileo discovered the laws.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Galileo Galilei",
+     "dates": "1564-1642",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "77",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n105/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "81",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n107/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-011",
+   "question": "fall-acceleration",
+   "text": "EB",
+   "answer": "uniformly-with-time",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The spaces fallen through in successive equal times are as the odd numbers 1, 3, 5, 7.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 12)"
+  },
+  {
+   "id": "1775-gravity-012",
+   "question": "fall-acceleration",
+   "text": "N",
+   "answer": "uniformly-with-time",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nollet gives the laws of falling bodies and names Galileo as their discoverer.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Galileo Galilei",
+     "dates": "1564-1642",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "102",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n121/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-013",
+   "question": "fall-speed-weight",
+   "text": "N",
+   "answer": "not-in-vacuum",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Lead and a feather, copper and paper, wood and iron, released in pairs in an exhausted tube, fall in the same time; with air let back in the heavier of each pair arrives first.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "pairs released in an exhausted glass tube"
+    }
+   ],
+   "cites": [
+    {
+     "page": "128-129",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n147/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-014",
+   "question": "fall-speed-weight",
+   "text": "B",
+   "answer": "not-in-vacuum",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Without air all bodies fall equally fast.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "297",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=319",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-015",
+   "question": "fall-speed-weight",
+   "text": "E",
+   "answer": "not-in-vacuum",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Without air all bodies fall equally fast.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "77",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n105/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-016",
+   "question": "fall-speed-weight",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the parts of the Mechanics read.",
+   "note": "Ferguson's guinea and feather are in his lecture on pneumatics (F 183); the Britannica's Pneumatics has not been checked for them."
+  },
+  {
+   "id": "1775-gravity-017",
+   "question": "gravity-reach",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Two propositions show that the force urging bodies toward the earth is the one that keeps the moon in its orbit.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "comparison of the moon's fall with terrestrial fall"
+    }
+   ],
+   "cites": [
+    {
+     "page": "306-307",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=328",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-018",
+   "question": "gravity-reach",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gravity decreases as the square of the distance increases, confirmed by comparing the moon's fall from the tangent of her orbit in a minute with the fall of bodies near the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the moon's fall in a minute"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 10)"
+  },
+  {
+   "id": "1775-gravity-019",
+   "question": "gravity-reach",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nollet gives the decrease of gravity with distance on Newton's word, adding that Newton deserves a hearing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Newton"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "142",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n161/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-020",
+   "question": "gravity-reach",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Erxleben's twelfth section, where the question would arise, was not read for this entry."
+  },
+  {
+   "id": "1775-gravity-021",
+   "question": "weight-latitude",
+   "text": "B",
+   "answer": "less-at-equator",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Richer found at Cayenne in 1672 that a seconds pendulum from Paris went too slowly and had to be shortened.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Richer's pendulum at Cayenne"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean Richer",
+     "dates": "1630-1696",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "299",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=321",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-022",
+   "question": "weight-latitude",
+   "text": "N",
+   "answer": "less-at-equator",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Richer's pendulum went too slowly near the equator.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Richer's pendulum at Cayenne"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean Richer",
+     "dates": "1630-1696",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "149-150",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n168/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-023",
+   "question": "weight-latitude",
+   "text": "E",
+   "answer": "less-at-equator",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Richer's pendulum went too slowly near the equator.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Richer's pendulum at Cayenne"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean Richer",
+     "dates": "1630-1696",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "478",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n498/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-024",
+   "question": "weight-latitude",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-gravity-025",
+   "question": "fall-cause",
+   "text": "N",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Philosophers do not agree on the cause of weight; those who want explanations both satisfying and intelligible will find them in no work yet known, so let us keep to the phenomena.",
+   "confidence": {
+    "level": "probable",
+    "printed": "il semble",
+    "translation": "it seems"
+   },
+   "cites": [
+    {
+     "page": "99-100",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n118/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    },
+    {
+     "page": "101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n120/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "tout bien considéré, il semble que ceux qui voudront n'entendre, sur la cause physique de la pesanteur, que des explications qui soient en même tems satisfaisantes & intelligibles, ne doivent point les chercher dans aucun ouvrage, qui soit connu jusqu'à présent. Tenons-nous-en donc aux phénoménes",
+    "from_image": true,
+    "tr": "All things considered, it seems that those who wish to hear, on the physical cause of weight, only explanations that are at once satisfying and intelligible should not look for them in any work known up to the present. Let us keep, then, to the phenomena."
+   }
+  },
+  {
+   "id": "1775-gravity-026",
+   "question": "fall-cause",
+   "text": "N",
+   "answer": "natural-place",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "To say with Aristotle that falling bodies obey a principle that makes them fall is to say nothing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "100-101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n119/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-027",
+   "question": "fall-cause",
+   "text": "N",
+   "answer": "attraction",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "To take weight with Newton as the consequence of a general gravitation is to abandon the cause for the effect; to make it, with most Newtonians, a reciprocal attraction given by God's will brings into physics a novelty Newton did not want imputed to him; to make it an inherent quality with no cause but the Creator's will cuts short all difficulties.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "abandons the cause for the effect; a novelty Newton disowned"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "99-100",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n118/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    },
+    {
+     "page": "100-101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n119/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "is to abandon the cause and attach oneself to the effect",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-028",
+   "question": "fall-cause",
+   "text": "N",
+   "answer": "effluvia",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Gassendi's magnet-like effluvia are an obscure, vague cause resting on nothing certain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "100-101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n119/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-029",
+   "question": "fall-cause",
+   "text": "N",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Descartes's vortex is defective.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "100-101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n119/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-030",
+   "question": "fall-cause",
+   "text": "E",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The vortices of Descartes, Huygens and Bilfinger would not bring a body to the centre of the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "a vortex drives bodies to the axis"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    },
+    {
+     "name": "Christiaan Huygens",
+     "dates": "1629-1695",
+     "role": "opposed"
+    },
+    {
+     "name": "Georg Bernhard Bilfinger",
+     "dates": "1693-1750",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "81-82",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n107/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-031",
+   "question": "fall-cause",
+   "text": "E",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "All matter may have a power of attracting other matter even at a distance, and the earth's attractive force may be the cause of gravity; Erxleben is not afraid to grant this hypothesis some probability.",
+   "confidence": {
+    "level": "probable",
+    "printed": "einige Wahrscheinlichkeit",
+    "translation": "some probability"
+   },
+   "cites": [
+    {
+     "page": "84",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n110/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "84-85",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n110/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Ich scheue mich nicht, dieser Hypothese, daß die Materie eine anziehende Kraft gegen einander besitzt, einige Wahrscheinlichkeit beyzulegen, ob es gleich Leute giebt, welche dieienigen gerade zu für unvernünftig erklären, welche so thun.",
+    "from_image": true,
+    "tr": "I am not afraid to grant some probability to this hypothesis, that matter possesses an attractive force toward other matter, although there are people who declare flatly unreasonable those who do so."
+   }
+  },
+  {
+   "id": "1775-gravity-032",
+   "question": "fall-cause",
+   "text": "B",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Universal gravity is the affection by which all bodies of the universe, or at least of the planetary system, perpetually strive to approach one another at greater distances; it is the last asymptotic arm of the curve of forces, very nearly as the inverse square, and the weight of terrestrial bodies is a case of it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "one curve of forces"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "286",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=308",
+     "read_from": "image"
+    },
+    {
+     "page": "319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=341",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "that affection of all the bodies making up this universe, or at least our planetary system, by which, placed at greater distances from one another, they perpetually strive to approach one another",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-033",
+   "question": "fall-cause",
+   "text": "B",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The Cartesians take refuge in subtle matter as in a sacred anchor; their systems, now almost antiquated, fall into three classes (straight streams or pressure, an elastic oscillating matter, vortices), and each is refuted, with Newton's elastic medium of Query 21 and Bertier's revived vortices.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "three classes refuted"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "opposed",
+     "note": "Opticks, Query 21"
+    },
+    {
+     "name": "Joseph-Étienne Bertier",
+     "dates": "1702-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "313",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=335",
+     "read_from": "image"
+    },
+    {
+     "page": "313-314",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=335",
+     "read_from": "image"
+    },
+    {
+     "page": "318-319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=340",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Cartesiani, ut causam gravitatis corporum terrestrium redderent, ad materiam subtilem, velut ad sacram anchoram confugiunt. Huic directiones quaslibet, motuum item species diversissimas largiuntur, quales nempe phaenomenis gravitatis explicandis prae aliis inservire existimant.",
+    "from_image": true,
+    "tr": "The Cartesians, to give the cause of the gravity of terrestrial bodies, take refuge in subtle matter as in a sacred anchor. To it they grant whatever directions, and the most diverse kinds of motion, they judge fittest to explain the phenomena of gravity."
+   }
+  },
+  {
+   "id": "1775-gravity-034",
+   "question": "fall-cause",
+   "text": "B",
+   "answer": "spirits",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald refutes Kepler's spirits.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "318-319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=340",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-035",
+   "question": "fall-cause",
+   "text": "B",
+   "answer": "effluvia",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald refutes Gassendi's hooked particles.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "318-319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=340",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-036",
+   "question": "fall-cause",
+   "text": "B",
+   "answer": "natural-place",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Biwald refutes the inborn striving of the Peripatetics.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "318-319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=340",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-037",
+   "question": "fall-cause",
+   "text": "EB",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Attraction of gravitation is the power by which distant bodies tend toward one another; it acts in proportion to quantity of matter and constitutes weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Attraction of gravitation is that power by which distant bodies tend towards one another",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 8-9)"
+  },
+  {
+   "id": "1775-gravity-038",
+   "question": "fall-cause",
+   "text": "EB",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "An experiment on the whirling table demonstrates the absurdity of the Cartesian vortices; the entry Æther calls the æther an imaginary fluid.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the whirling table"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "40",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 53
+     },
+     "entry": "Mechanics"
+    },
+    {
+     "vol": "i",
+     "page": "31",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 48
+     },
+     "entry": "Æther"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the name of an imaginary fluid",
+    "from_image": true
+   },
+   "note": "The whirling table is Ferguson's wording, reprinted (F 35-36); the entry Æther is the Britannica's own"
+  },
+  {
+   "id": "1775-gravity-039",
+   "question": "weight-latitude-cause",
+   "text": "N",
+   "answer": "rotation",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The earth's daily rotation gives its parts centrifugal forces, greatest at the equator, which there oppose weight most; tied to the doubts then raised about the earth's spherical figure.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "148-151",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n167/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-040",
+   "question": "weight-latitude-cause",
+   "text": "E",
+   "answer": "rotation",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Richer's observation is a new proof that the earth does in fact turn on its axis.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Richer at Cayenne"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean Richer",
+     "dates": "1630-1696",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "478",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n498/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "a new proof that the earth does in fact turn on its axis",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-041",
+   "question": "weight-latitude-cause",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The cause of the increase of gravity toward the poles is not yet sufficiently known.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "303-305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=325",
+     "read_from": "unknown"
+    },
+    {
+     "page": "305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=327",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-042",
+   "question": "weight-latitude-cause",
+   "text": "B",
+   "answer": "figure-of-earth",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "The flattened figure of the earth is the likeliest cause, but not beyond doubt until the figure is better determined.",
+   "confidence": {
+    "level": "probable"
+   },
+   "cites": [
+    {
+     "page": "303-305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=325",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-043",
+   "question": "weight-latitude-cause",
+   "text": "B",
+   "answer": "rotation",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Bouguer computed the centrifugal force for each latitude, and the shortening of pendulums it requires does not at all agree with the most exact observations.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "Bouguer's table"
+    },
+    {
+     "kind": "observation",
+     "detail": "measured pendulum lengths"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pierre Bouguer",
+     "dates": "1698-1758",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "303-305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=325",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "does not at all agree",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-044",
+   "question": "weight-latitude-cause",
+   "text": "B",
+   "answer": "less-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "That there is less attracting matter under the equator is hardly probable.",
+   "confidence": {
+    "level": "doubtful"
+   },
+   "cites": [
+    {
+     "page": "303-305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=325",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-045",
+   "question": "weight-latitude-cause",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-gravity-046",
+   "question": "action-at-distance",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Gravity is an attraction acting at the greatest distances.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "286",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=308",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-047",
+   "question": "action-at-distance",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Matter probably has a power of attracting other matter even at a distance.",
+   "confidence": {
+    "level": "probable",
+    "printed": "einige Wahrscheinlichkeit",
+    "translation": "some probability"
+   },
+   "cites": [
+    {
+     "page": "84-85",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n110/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-048",
+   "question": "action-at-distance",
+   "text": "N",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "A reciprocal attraction of all material beings by the will of God is a novelty in physics that Newton himself did not wish imputed to him.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "100-101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n119/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-049",
+   "question": "action-at-distance",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Distant bodies tend toward one another by attraction, which seems rather infused than inherent; stated without defence.",
+   "confidence": {
+    "level": "probable",
+    "printed": "seems rather to be infused than inherent"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    },
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 6, 8-9)"
+  },
+  {
+   "id": "1775-gravity-050",
+   "question": "explanation-standard",
+   "text": "N",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Nollet asks for a cause both satisfying and intelligible, counts attraction by God's will as abandoning the search, and, finding none, keeps to the phenomena.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "99-101",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n118/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-051",
+   "question": "explanation-standard",
+   "text": "B",
+   "answer": "law-from-phenomena",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Quoting Cotes: of the simplest causes no mechanical explanation can be given, else they would not be simplest; they are not therefore occult.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Cotes's preface to Newton"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Cotes",
+     "dates": "1682-1716",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "313",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=335",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Causae igitur simplicissimae nulla dari potest mechanica explicatio: si daretur enim, causa nondum esset simplicissima. Has tu proinde causas simplicissimas appellabis occultas, & exulare iubebis?",
+    "from_image": true,
+    "tr": "Of the simplest causes, therefore, no mechanical explanation can be given; for if one were given, the cause would not yet be the simplest. Will you then call these simplest causes occult, and order them into exile?"
+   }
+  },
+  {
+   "id": "1775-gravity-052",
+   "question": "explanation-standard",
+   "text": "E",
+   "answer": "law-from-phenomena",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Attraction explains as much as impact or inertia do; all such words express only phenomena, as does the word body. Metaphysical objections weigh little, since our notion of moving force is dark and may be borrowed from the soul.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "impact and inertia are words for phenomena too"
+    }
+   ],
+   "cites": [
+    {
+     "page": "85-86",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n111/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "85",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n111/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Ich habe nichts darauf zu antworten, als daß es dann auch nichts erklärt, wenn man die durch einen Stoß hervorgebrachte Bewegung von dem Stosse herleitet. Warum es also nicht erlaubt seyn sollte, das Wort: anziehende Kraft zu gebrauchen, das sehe ich nicht ein, so lange es noch erlaubt ist, sich der Wörter: Kraft des Stosses und: Trägheit zu bedienen. Alle diese Wörter drücken nur Phänomena aus, aber drückt denn das Wort: Körper mehr, als ein Phänomenon aus?",
+    "from_image": true,
+    "tr": "I have nothing to answer to this, except that it also explains nothing when one derives the motion produced by an impact from the impact. Why, then, it should not be permitted to use the words attractive force I do not see, so long as it is still permitted to use the words force of impact and inertia. All these words express only phenomena; but does the word body express more than a phenomenon?"
+   }
+  },
+  {
+   "id": "1775-gravity-053",
+   "question": "explanation-standard",
+   "text": "EB",
+   "answer": "law-from-phenomena",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Since Bacon all knowledge must come from experiment and observation; Newton's attempt to assign the cause of gravity went by conjecture, which never leads to truth, and is thought the foible of a great man.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Francis Bacon"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Francis Bacon, Lord Verulam",
+     "dates": "1561-1626",
+     "role": "followed"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "opposed",
+     "note": "his attempt to assign the cause of gravity"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "31-32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 48
+     },
+     "entry": "Æther"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Even Sir Isaac Newton himself was not proof against this temptation. It was not enough that he had discovered the nature of light and colours, the application of gravity to the motions of the heavenly bodies, &c. he must go further, and attempt to assign the cause of gravity itself.",
+    "from_image": true
+   },
+   "note": "The Britannica's own entry"
+  },
+  {
+   "id": "1775-gravity-054",
+   "question": "fall-cause",
+   "text": "N",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "A whirled glass globe of water drives oil or wax to the axis, not the centre, so Descartes's thought on weight is less just than ingenious; Bilfinger's two-axis arrangement, tried repeatedly before witnesses, fails because the water does not take the two motions.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "whirled glass globes"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    },
+    {
+     "name": "Georg Bernhard Bilfinger",
+     "dates": "1693-1750",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "75-76",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n88/mode/1up",
+     "read_from": "image",
+     "vol": "2"
+    },
+    {
+     "page": "77-78",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n90/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "less just than ingenious",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-055",
+   "question": "fall-cause",
+   "text": "B",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Against all fluids: a fluid acts according to volume or surface, weight according to mass; and, with Boscovich, a vortex swift enough to cause weight would carry everything off, while one that slips through bodies like a sieve could not press them down. Biwald cites Nollet's own admission about Bilfinger's machine.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "weight goes by mass, not surface"
+    },
+    {
+     "kind": "experiment",
+     "detail": "Nollet's trial of Bilfinger's machine"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    },
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "316-317",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=338",
+     "read_from": "unknown"
+    },
+    {
+     "page": "317",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=339",
+     "read_from": "unknown"
+    },
+    {
+     "page": "317-318",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=339",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-056",
+   "question": "fall-cause",
+   "text": "E",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Against all fluids: weight goes by mass, not surface; gravity acts on bodies at rest as on bodies in motion; and to Wolff's reply that gravific matter passes through bodies, if it passes freely how can it move them?",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "weight goes by mass; acts on resting bodies; free passage cannot move"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Christian Wolff",
+     "dates": "1679-1754",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "83",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n109/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-057",
+   "question": "attraction-observed",
+   "text": "B",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "why",
+   "statement": "Objection: if all bodies drew one another, light bodies near mountains or spheres on a polished surface would approach, which experience does not show. Answer: the earth's mass so exceeds theirs that the effects hardly reach the senses; Bertier's strips hung inside glass bells (reported by Musschenbroek) move toward bodies outside.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Bertier's hanging strips"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the earth's mass overwhelms"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Joseph-Étienne Bertier",
+     "dates": "1702-1783",
+     "role": "credited"
+    },
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "319-320",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=341",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-058",
+   "question": "attraction-observed",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Experience has taught that in very mountainous regions the mountains somewhat alter the direction of gravity, and two flat glass plates seem to attract each other even with a silk hair between.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "mountains deflect the plumb line"
+    },
+    {
+     "kind": "experiment",
+     "detail": "glass plates"
+    }
+   ],
+   "cites": [
+    {
+     "page": "84",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n110/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-059",
+   "question": "fall-cause",
+   "text": "EB",
+   "stance": "declines",
+   "part": "open",
+   "statement": "The cause of gravity is among the things that must and ever will elude our researches.",
+   "cites": [
+    {
+     "vol": "i",
+     "page": "31",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 48
+     },
+     "entry": "Æther"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "must, and ever will, elude our researches",
+    "from_image": true
+   },
+   "note": "The Britannica's own entry"
+  },
+  {
+   "id": "1775-gravity-060",
+   "question": "fall-cause",
+   "text": "E",
+   "stance": "reports",
+   "part": "open",
+   "statement": "No explanation of gravity is more mysterious than Colden's, translated with notes by Kästner in 1748.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Cadwallader Colden",
+     "dates": "1688-1776",
+     "role": "reported"
+    },
+    {
+     "name": "Abraham Gotthelf Kästner",
+     "dates": "1719-1800",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "84",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n110/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "No explanation of gravity is more mysterious",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-gravity-061",
+   "question": "fall-cause",
+   "text": "B",
+   "stance": "declines",
+   "part": "open",
+   "statement": "Biwald puts off examining Bertier's new vortices until he treats the motions of the heavens.",
+   "persons": [
+    {
+     "name": "Joseph-Étienne Bertier",
+     "dates": "1702-1783",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "319",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=341",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-062",
+   "question": "gravity-essential",
+   "text": "N",
+   "answer": "not-essential",
+   "stance": "holds",
+   "part": "open",
+   "statement": "One cannot say gravity is essential to matter, since matter can be conceived without it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "105",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n124/mode/1up",
+     "read_from": "unknown",
+     "vol": "2"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-063",
+   "question": "gravity-essential",
+   "text": "EB",
+   "answer": "not-essential",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Attraction seems rather infused than inherent.",
+   "confidence": {
+    "level": "probable",
+    "printed": "seems rather to be infused than inherent"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "33",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 44
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "seems rather to be infused than inherent",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 6)"
+  },
+  {
+   "id": "1775-gravity-064",
+   "question": "gravity-essential",
+   "text": "B",
+   "stance": "reports",
+   "between": [
+    "primary-quality",
+    "not-essential"
+   ],
+   "part": "open",
+   "statement": "Biwald quotes Cotes: gravity must have a place among the primary qualities of all bodies, or extension, mobility and impenetrability have none.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Roger Cotes",
+     "dates": "1682-1716",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "312",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=334",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-065",
+   "question": "weight-latitude-cause",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Nothing certain can be affirmed about why gravity grows toward the poles.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=327",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-066",
+   "question": "attraction-observed",
+   "text": "B",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Bertier's experiment is most worthy of being repeated more often by physicists.",
+   "confidence": {
+    "level": "possible"
+   },
+   "persons": [
+    {
+     "name": "Joseph-Étienne Bertier",
+     "dates": "1702-1783",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "320",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=342",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-gravity-067",
+   "question": "levity",
+   "text": "F",
+   "answer": "all-heavy",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All bodies known have gravity or weight. That there is no positive levity, even in smoke, vapours and fumes, the air-pump shows: the smoke of a candle that rises in a receiver full of air falls to the bottom when the air is drawn out; wood rises in water only because it weighs less than its bulk of water, and falls when the jar is emptied.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "smoke in an exhausted receiver; wood in an emptied jar"
+    }
+   ],
+   "cites": [
+    {
+     "page": "9",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n24/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "there is no such thing as positive levity, even in smoke, vapours, and fumes",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-068",
+   "question": "weight-matter",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Every particle has its own gravity, so the whole is as the quantity of matter; pendulums of equal length vibrate in equal times whatever their weights, so a double weight needs a double power of gravity to move with the same speed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "pendulums of equal length"
+    }
+   ],
+   "cites": [
+    {
+     "page": "8",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n23/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "10",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n25/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the power or force of gravity is always proportional to the quantity of matter in bodies, whatever their bulks or figures are.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-069",
+   "question": "fall-acceleration",
+   "text": "F",
+   "answer": "uniformly-with-time",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gravity acts constantly and uniformly, so the velocity of a falling body is as the time of its descent; the spaces fallen in successive equal times are as the odd numbers 1, 3, 5, 7, and the whole spaces as the squares of the times.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "a body falling one mile the first minute"
+    }
+   ],
+   "cites": [
+    {
+     "page": "10",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n25/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "11",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n26/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "12",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n27/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the spaces described in successive equal parts of time, by an uniformly accelerated motion, are always as the odd numbers 1, 3, 5, 7, 9, &c.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-070",
+   "question": "fall-speed-weight",
+   "text": "F",
+   "answer": "not-in-vacuum",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A guinea and a feather released together in an exhausted receiver descend with equal velocities and strike the pump-plate at the same instant.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the guinea and feather in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "183",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n224/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the guinea and feather will descend with equal velocities in the receiver",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-071",
+   "question": "gravity-reach",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gravity, like all other virtues or emanations from a centre, decreases as the square of the distance increases, confirmed by the moon's fall in a minute from the tangent of her orbit and by Jupiter's moons; on the whirling table, Kepler's law shows the sun's attraction inversely as the square of the distance to the remotest part of the system, and the sun and planets are connected by their mutual attraction.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "like all other virtues or emanations from a centre"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the moon's fall in a minute; Jupiter's moons"
+    },
+    {
+     "kind": "experiment",
+     "detail": "the whirling table and Kepler's law"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "10",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n25/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n56/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "38",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n59/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Gravity also, like all other virtues or emanations which proceed or issue from a center, decreases as the distance multiplied by itself increases",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-072",
+   "question": "weight-latitude",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Ferguson does not say that weight differs over the earth; a search of the machine-read text of the whole book finds pendulums only on pp. 10 and 13. In Lecture II the earth is an oblate spheroid from the centrifugal force of its turning (F 46-47), with no word on weight."
+  },
+  {
+   "id": "1775-gravity-073",
+   "question": "fall-cause",
+   "text": "F",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Attraction of gravitation is the power by which distant bodies tend towards one another; by it bodies on every side of the earth fall toward its centre and are kept to its surface, and as it acts on all bodies in proportion to their quantities of matter it constitutes their weight. Two bodies alone in free space would fall toward each other and meet nearer the place of the heavier.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "8",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n23/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "9",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n24/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Attraction of gravitation is that power by which distant bodies tend towards one another.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-074",
+   "question": "fall-cause",
+   "text": "F",
+   "answer": "subtle-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "On the whirling table quicksilver flies to the outer end of a tube of water and a cork is driven to the inner end, which demonstrates the absurdity of the Cartesian vortices of the planets: a planet denser than its vortex would fly off, a rarer one sink to the sun, and the vortex itself would need a wall. While gravity exists there is no occasion for vortices. Said of the heavens; the vortex as a cause of weight is not discussed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "quicksilver and cork in tubes on the whirling table"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n56/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "36",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n57/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "This demonstrates the absurdity of the Cartesian doctrine of the planets moving round the sun in vortexes",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-075",
+   "question": "weight-latitude-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up; Ferguson puts the earth's oblate figure down to the centrifugal force of its equatorial parts (F 46-47) but says nothing of weight."
+  },
+  {
+   "id": "1775-gravity-076",
+   "question": "action-at-distance",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Distant bodies tend towards one another by attraction, which seems rather infused than inherent; stated without defence.",
+   "confidence": {
+    "level": "probable",
+    "printed": "seems rather to be infused than inherent"
+   },
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "8",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n23/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "seems rather to be infused than inherent",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-077",
+   "question": "explanation-standard",
+   "text": "F",
+   "answer": "law-from-phenomena",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Newton insisted that it was high time to banish vague conjectures and hypotheses from natural philosophy and to bring it under entire subjection to experiments and geometry; Ferguson assigns gravitation no cause.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Newton; Bacon and Boyle earlier in the preface"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    },
+    {
+     "name": "Francis Bacon, Lord Verulam",
+     "dates": "1561-1626",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "ix",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n8/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "it was high time to banish vague conjectures and hypotheses from natural philosophy, and to bring that science under an entire subjection to experiments and geometry.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-078",
+   "question": "gravity-essential",
+   "text": "F",
+   "answer": "not-essential",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Attraction seems rather infused than inherent, and a body alone in free space, with no other body to attract it, could have no weight or gravity of itself.",
+   "confidence": {
+    "level": "probable",
+    "printed": "seems rather to be infused than inherent"
+   },
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "38",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n59/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "if there were no other body to attract it, it could have no weight or gravity of itself",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-gravity-079",
+   "question": "fall-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Ferguson does not ask what causes gravitation."
+  }
+ ]
+}

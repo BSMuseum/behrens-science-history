@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Behrens Science History: what Europe was taught about nature, 1275–1900</title>
+<meta name="description" content="Snapshots of what the most widely used European textbooks taught about nature, from 1275 to 1900, in the period's own terms, with every claim cited to a page scan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+/*
+  Behrens Science History — front page
+  Links to the year pages are the hrefs marked data-year-link; change them to wherever the year pages live.
+*/
+:root{
+  --paper:#EDF0EF;      /* cool laid paper, so the warm scans read as objects */
+  --paper-2:#E1E6E6;
+  --ink:#172031;        /* iron-gall blue-black */
+  --prussian:#1D3D63;   /* Prussian blue, links and published marks */
+  --muted:#566173;
+  --rule:#C3CBCE;
+  --rubric:#A3322A;     /* red of a two-colour title page: the first series */
+  --display:"IM Fell English", "Iowan Old Style", Georgia, serif;
+  --text:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --measure:38rem;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.125rem/1.62 var(--text);font-optical-sizing:auto}
+img{max-width:100%;display:block}
+a{color:var(--prussian);text-decoration-thickness:1px;text-underline-offset:.18em}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--prussian);outline-offset:3px;border-radius:2px}
+.wrap{max-width:72rem;margin:0 auto;padding:0 1.5rem}
+p{margin:0 0 1em}
+h1,h2,h3{font-family:var(--display);font-weight:400;letter-spacing:0;margin:0}
+h2{font-size:clamp(1.9rem,3.6vw,2.6rem);line-height:1.1;margin-bottom:.6rem}
+h3{font-size:1.45rem;line-height:1.2;margin-bottom:.35rem}
+.lede{font-size:1.22rem;line-height:1.55;max-width:var(--measure)}
+.prose{max-width:var(--measure)}
+.small{font-size:.94rem;line-height:1.5;color:var(--muted)}
+
+/* masthead */
+.mast{border-bottom:1px solid var(--rule)}
+.mast .wrap{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding-top:.9rem;padding-bottom:.9rem;font-size:.95rem}
+.mast a{color:var(--ink);text-decoration:none}
+.mast a:hover{text-decoration:underline}
+.mast .name{font-family:var(--display);font-size:1.2rem}
+
+/* hero */
+.hero{padding:3.5rem 0 3rem}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:3.5rem;align-items:start}
+.hero h1{font-size:clamp(2.8rem,6.4vw,5.1rem);line-height:.98;margin:0 0 1.4rem}
+.hero h1 span{display:block;font-style:italic;font-size:.5em;line-height:1.2;margin-top:.5rem;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;align-items:center;margin-top:1.8rem}
+.btn{display:inline-block;background:var(--prussian);color:#fff;text-decoration:none;padding:.7rem 1.15rem;border-radius:3px;font-weight:600;font-size:1rem}
+.btn:hover{background:var(--ink)}
+.plate{margin:0}
+.plate a{display:block;border:1px solid var(--ink);padding:6px;background:#fff}
+.plate img{width:100%;height:auto;filter:sepia(.15)}
+figcaption{font-size:.88rem;line-height:1.45;color:var(--muted);margin-top:.6rem}
+figcaption i{color:var(--ink)}
+
+/* timeline */
+.grid-sec{padding:3rem 0 3.5rem;border-top:1px solid var(--rule);background:var(--paper-2)}
+.tl{position:relative;margin:2.5rem 0 1.2rem}
+.timeline{position:relative;height:13.5rem;margin:0;list-style:none;padding:0}
+.timeline::before{content:"";position:absolute;left:0;right:0;top:6rem;border-top:1px solid var(--ink)}
+.timeline li{position:absolute;top:6rem;left:var(--x);transform:translateX(-50%);width:0}
+.timeline .mark{position:absolute;left:50%;top:0;width:9px;height:9px;transform:translate(-50%,-50%);border-radius:50%;border:1px solid var(--muted);background:var(--paper-2)}
+.timeline .chosen .mark{width:15px;height:15px;border:2px solid var(--prussian);background:var(--paper-2)}
+.timeline .published .mark{width:17px;height:17px;border:0;background:var(--prussian)}
+.timeline .yr{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;text-align:center;font-family:var(--display);font-size:1.12rem;line-height:1;color:var(--muted);text-decoration:none}
+.timeline .up .yr{bottom:1.05rem}
+.timeline .down .yr{top:1.05rem}
+.timeline .first .yr{color:var(--rubric);font-size:1.75rem}
+.timeline .first.up .yr{bottom:1.3rem}
+.timeline .first.down .yr{top:1.3rem}
+.timeline a.yr:hover{text-decoration:underline}
+.timeline .yr small{display:block;font-family:var(--text);font-size:.74rem;color:var(--muted);margin-top:.3rem}
+.timeline .up .yr small{margin:0 0 .3rem}
+.steps{position:absolute;top:11.2rem;left:0;right:0;height:2rem}
+.steps span{position:absolute;left:var(--a);width:calc(var(--b) - var(--a));border-top:1px solid var(--rule);text-align:center;font-size:.82rem;color:var(--muted);padding-top:.3rem}
+.steps span::before,.steps span::after{content:"";position:absolute;top:-5px;height:9px;border-left:1px solid var(--rule)}
+.steps span::before{left:0}.steps span::after{right:0}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem 1.8rem;margin:0;padding:0;list-style:none;font-size:.92rem;color:var(--muted)}
+.legend li{display:flex;align-items:center;gap:.5rem}
+.legend i{display:inline-block;border-radius:50%}
+.legend .l-pub{width:14px;height:14px;background:var(--prussian)}
+.legend .l-cho{width:13px;height:13px;border:2px solid var(--prussian)}
+.legend .l-pla{width:9px;height:9px;border:1px solid var(--muted)}
+.legend .l-first{font-style:normal;font-family:var(--display);color:var(--rubric);font-size:1.15rem;border-radius:0}
+
+/* first series */
+.series{padding:4rem 0 1rem}
+.series-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:3rem;margin-bottom:1.5rem}
+.year{display:grid;grid-template-columns:15rem minmax(0,1fr);gap:2.5rem;padding:2.8rem 0;border-top:1px solid var(--rule)}
+.year-num{font-family:var(--display);font-size:4.2rem;line-height:.9;color:var(--rubric);margin:0 0 .6rem}
+.year-num em{font-size:.42em;font-style:italic;color:var(--muted);margin-right:.15em;vertical-align:.55em}
+.status{font-size:.95rem;line-height:1.45;margin:.9rem 0 1.1rem}
+.status b{font-weight:600}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:.45rem;vertical-align:.05em}
+.dot.pub{background:var(--prussian)}
+.dot.cho{border:2px solid var(--prussian)}
+.texts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.4rem;margin:0;padding:0;list-style:none}
+.texts figure{margin:0}
+.texts .scan{display:block;aspect-ratio:5/8;overflow:hidden;background:#fff;border:1px solid var(--rule)}
+.texts .scan img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.texts .scan:hover{border-color:var(--ink)}
+.texts .noscan{aspect-ratio:5/8;display:flex;align-items:center;justify-content:center;padding:1rem;text-align:center;border:1px dashed var(--rule);font-size:.85rem;color:var(--muted);font-style:italic}
+.texts figcaption{margin-top:.7rem;font-size:.9rem;line-height:1.4;color:var(--ink)}
+.texts figcaption b{display:block;font-weight:600;font-size:.82rem;color:var(--muted);margin-bottom:.15rem}
+.year-body p{max-width:var(--measure)}
+.topics{columns:2;column-gap:2.5rem;margin:1.6rem 0 0;padding:0;list-style:none;font-size:1rem;max-width:44rem}
+.topics li{break-inside:avoid;padding:.18rem 0}
+.topics-1575{font-size:1rem;color:var(--muted)}
+
+/* one question */
+.question{padding:4rem 0;border-top:1px solid var(--rule);margin-top:2rem}
+.answers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:2rem 0 1.5rem;border-top:2px solid var(--ink)}
+.answers div{padding:1.1rem 1.2rem 1.2rem 0;border-right:1px solid var(--rule)}
+.answers div+div{padding-left:1.2rem}
+.answers div:last-child{border-right:0}
+.answers h3{font-size:1.35rem;margin-bottom:.1rem}
+.answers .who{font-size:.86rem;color:var(--muted);margin-bottom:.6rem}
+.answers p{font-size:1rem;line-height:1.5;margin:0}
+
+/* method */
+.method{padding:4rem 0;background:var(--paper-2);border-top:1px solid var(--rule)}
+.method-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.4rem 3.5rem;margin-top:2rem}
+.method-grid p{font-size:1.04rem}
+
+/* about */
+.about{padding:4rem 0 3rem}
+.about .wrap{display:grid;grid-template-columns:minmax(0,1fr) 15rem;gap:3.5rem;align-items:start}
+.about figure{margin:0}
+.about figure img{width:100%;height:auto}
+.about figure a{display:block;border:1px solid var(--rule);background:#fff;padding:4px}
+footer{border-top:1px solid var(--rule);padding:1.6rem 0 2.5rem;font-size:.86rem;line-height:1.5;color:var(--muted)}
+footer p{max-width:52rem}
+
+/* narrower screens */
+@media (max-width:900px){
+  .hero .wrap,.series-head,.about .wrap{grid-template-columns:1fr;gap:2rem}
+  .hero{padding-top:2.2rem}
+  .plate{max-width:26rem}
+  .year{grid-template-columns:1fr;gap:1.4rem}
+  .answers{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .answers div:nth-child(2){border-right:0}
+  .answers div:nth-child(3){padding-left:0}
+  .answers div:nth-child(n+3){border-top:1px solid var(--rule)}
+  .about figure{max-width:15rem}
+}
+@media (max-width:760px){
+  /* the timeline becomes a list of years */
+  .tl{margin:1.8rem 0 1.4rem}
+  .timeline{height:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem 1rem}
+  .timeline::before,.steps{display:none}
+  .timeline li{position:static;transform:none;width:auto;display:flex;align-items:center;gap:.55rem;padding:.35rem 0;border-bottom:1px solid var(--rule)}
+  .timeline .mark{position:static;transform:none;flex:none}
+  .timeline .yr,.timeline .up .yr,.timeline .down .yr,.timeline .first .yr{position:static;transform:none;text-align:left;font-size:1.15rem}
+  .timeline .yr small{display:none}
+  .texts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .topics{columns:1}
+  .method-grid{grid-template-columns:1fr}
+}
+@media (max-width:460px){
+  .wrap{padding:0 1.1rem}
+  .timeline{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .answers{grid-template-columns:1fr}
+  .answers div,.answers div+div{padding:1rem 0;border-right:0;border-top:1px solid var(--rule)}
+  .answers div:first-child{border-top:0}
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <a class="name" href="https://bsmuseum.org/">Behrens Science Museum</a>
+    <span>Science History</span>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>What Europe was taught about nature<span>Snapshots from the textbooks, 1275–1900</span></h1>
+      <p class="lede">Behrens Science History reconstructs what students were taught about the natural world at intervals across six centuries. Each snapshot reads the courses most often printed in its day, takes its topics from their tables of contents, and reports their doctrine in their own terms, with the evidence they gave for it.</p>
+      <p class="prose">Where schools disagreed, each side is set out with the reasons it gave. Every claim cites the page, and every page links to a public scan.</p>
+      <div class="actions">
+        <a class="btn" href="c-1775/" data-year-link="1775">Read the c. 1775 snapshot</a>
+        <a href="#method">How the snapshots are made</a>
+      </div>
+    </div>
+    <figure class="plate">
+      <a href="https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n5/mode/1up"><img src="img/nollet-front.jpg" width="1000" height="1672" alt="Engraving of an eighteenth-century physics lecture: a teacher at a table demonstrates an instrument to seated men and women, before tall cabinets of glass vessels, air pumps and other apparatus."></a>
+      <figcaption>Jean-Antoine Nollet’s lecture room, the frontispiece to his <i>Leçons de physique expérimentale</i> (Paris, 5th ed. 1759), the Paris text of the c. 1775 snapshot.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="grid-sec" aria-labelledby="grid-h">
+  <div class="wrap">
+    <h2 id="grid-h">Eighteen snapshots</h2>
+    <p class="prose">One every fifty years from 1275 to 1625, then one every twenty-five years to 1900. The first series, in red, covers natural philosophy at c. 1575, c. 1675 and c. 1775.</p>
+
+    <div class="tl">
+    <ol class="timeline">
+      <li class="planned up"    style="--x:3.85%"><span class="mark"></span><span class="yr">1275</span></li>
+      <li class="planned down"  style="--x:11.54%"><span class="mark"></span><span class="yr">1325</span></li>
+      <li class="planned up"    style="--x:19.23%"><span class="mark"></span><span class="yr">1375</span></li>
+      <li class="planned down"  style="--x:26.92%"><span class="mark"></span><span class="yr">1425</span></li>
+      <li class="planned up"    style="--x:34.62%"><span class="mark"></span><span class="yr">1475</span></li>
+      <li class="planned down"  style="--x:42.31%"><span class="mark"></span><span class="yr">1525</span></li>
+      <li class="chosen first up" style="--x:50%"><span class="mark"></span><a class="yr" href="#c1575">1575<small>Texts chosen</small></a></li>
+      <li class="planned down"  style="--x:57.69%"><span class="mark"></span><span class="yr">1625</span></li>
+      <li class="chosen first up" style="--x:65.38%"><span class="mark"></span><a class="yr" href="c-1675/" data-year-link="1675">1675<small>In progress</small></a></li>
+      <li class="planned down"  style="--x:69.23%"><span class="mark"></span><span class="yr">1700</span></li>
+      <li class="planned up"    style="--x:73.08%"><span class="mark"></span><span class="yr">1725</span></li>
+      <li class="planned down"  style="--x:76.92%"><span class="mark"></span><span class="yr">1750</span></li>
+      <li class="published first up" style="--x:80.77%"><span class="mark"></span><a class="yr" href="c-1775/" data-year-link="1775">1775<small>13 topics published</small></a></li>
+      <li class="planned down"  style="--x:84.62%"><span class="mark"></span><span class="yr">1800</span></li>
+      <li class="planned up"    style="--x:88.46%"><span class="mark"></span><span class="yr">1825</span></li>
+      <li class="planned down"  style="--x:92.31%"><span class="mark"></span><span class="yr">1850</span></li>
+      <li class="planned up"    style="--x:96.15%"><span class="mark"></span><span class="yr">1875</span></li>
+      <li class="planned down"  style="--x:100%"><span class="mark"></span><span class="yr">1900</span></li>
+    </ol>
+    <div class="steps" aria-hidden="true">
+      <span style="--a:3.85%;--b:57.69%">every fifty years</span>
+      <span style="--a:65.38%;--b:100%">every twenty-five years</span>
+    </div>
+    </div>
+
+    <ul class="legend">
+      <li><i class="l-pub"></i>Published</li>
+      <li><i class="l-cho"></i>Texts chosen, reading under way or to come</li>
+      <li><i class="l-pla"></i>Planned</li>
+      <li><i class="l-first">1775</i>First series</li>
+    </ul>
+  </div>
+</section>
+
+<section class="series" aria-labelledby="series-h">
+  <div class="wrap">
+    <div class="series-head">
+      <h2 id="series-h">The first series: natural philosophy</h2>
+      <div>
+        <p>Natural philosophy changed shape across these two centuries. In 1575 it still took in the soul, plants and animals, the weather, and the heavens as a fifth element. By 1775 it was the physics of inanimate nature, and minerals had gone to natural history or chemistry.</p>
+        <p>So each snapshot takes its topics from its own textbooks, not from a modern list, and the same subject can turn up under different headings, or under none.</p>
+      </div>
+    </div>
+
+    <!-- c. 1575 -->
+    <article class="year" id="c1575">
+      <div>
+        <p class="year-num"><em>c.</em>1575</p>
+        <p class="small">Courses printed 1560–1590</p>
+        <p class="status"><span class="dot cho"></span><b>Texts chosen.</b> Reading has not begun.</p>
+      </div>
+      <div class="year-body">
+        <p>Natural philosophy is still Aristotle’s, taught as commentary and compendium. The topics will come from the books themselves; François Titelmans’s twelve books run from principles, causes and motion through generation, meteors and the heavens to the soul, the senses, the intellect and the will.</p>
+        <ul class="texts">
+          <li><figure>
+            <a class="scan" href="https://archive.org/details/bub_gb_zXe9TG_l4iIC/page/n0/mode/1up"><img src="img/titelmans.jpg" alt="Title page of Titelmans, Compendium philosophiae naturalis, Lyon 1574" loading="lazy"></a>
+            <figcaption><b>France</b>François Titelmans, <i>Compendium philosophiae naturalis</i>, Lyon 1574</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://www.digitale-sammlungen.de/en/view/bsb11273497?page=5"><img src="img/melanchthon.jpg" alt="Title page of Melanchthon, Initia doctrinae physicae, Wittenberg 1575" loading="lazy"></a>
+            <figcaption><b>Protestant German lands</b>Philipp Melanchthon, <i>Initia doctrinae physicae</i>, Wittenberg 1575</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://www.digitale-sammlungen.de/en/view/bsb00014718?page=5"><img src="img/toledo.jpg" alt="Title page of Toledo, commentary on Aristotle's Physics, Cologne 1579" loading="lazy"></a>
+            <figcaption><b>Catholic German lands</b>Francisco de Toledo SJ, <i>Commentaria in octo libros Aristotelis de physica</i>, Cologne 1579</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://archive.org/details/ARes312111/page/n4/mode/1up"><img src="img/soto.jpg" alt="Title page of Domingo de Soto, commentary on Aristotle's Physics, Salamanca 1582" loading="lazy"></a>
+            <figcaption><b>In place of the British Isles</b>Domingo de Soto OP, <i>Super octo libros Physicorum</i>, Salamanca 1582. No natural philosophy course was printed twice in Britain in these years.</figcaption>
+          </figure></li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- c. 1675 -->
+    <article class="year" id="c1675">
+      <div>
+        <p class="year-num"><em>c.</em>1675</p>
+        <p class="small">Courses printed 1660–1690</p>
+        <p class="status"><span class="dot cho"></span><b>In progress.</b> One of 25 topics written: light and colours.</p>
+        <a class="btn" href="c-1675/" data-year-link="1675">Read c. 1675</a>
+      </div>
+      <div class="year-body">
+        <p>Descartes’s physics against the schools. Two of the four most-printed courses are Cartesian, one in Paris and one, by a Franciscan, printed in London for use at Cambridge; the others are a Lutheran course from Wittenberg and a Dominican course that follows Thomas Aquinas.</p>
+        <ul class="texts">
+          <li><figure>
+            <a class="scan" href="https://www.digitale-sammlungen.de/en/view/bsb10131888?page=7"><img src="img/rohault.jpg" alt="Title page of Rohault, Traité de physique, Paris 1675" loading="lazy"></a>
+            <figcaption><b>France</b>Jacques Rohault, <i>Traité de physique</i>, Paris 1675</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://www.digitale-sammlungen.de/en/view/bsb11273836?page=7"><img src="img/sperling.jpg" alt="Title page of Sperling, Institutiones physicae, printed in red and black, Wittenberg 1664" loading="lazy"></a>
+            <figcaption><b>Protestant German lands</b>Johann Sperling, <i>Institutiones physicae</i>, Wittenberg 1664</figcaption>
+          </figure></li>
+          <li><figure>
+            <div class="noscan">The scanned volume has no title page</div>
+            <figcaption><b>Catholic German lands</b>Antoine Goudin OP, <i>Philosophia iuxta Divi Thomae dogmata</i>, Cologne 1681</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n6/mode/1up"><img src="img/legrand.jpg" alt="Title page of Le Grand, Institutio philosophiae secundum principia Renati Descartes, London 1675" loading="lazy"></a>
+            <figcaption><b>British Isles</b>Antoine Le Grand, <i>Institutio philosophiae secundum principia Renati Descartes</i>, London 1675</figcaption>
+          </figure></li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- c. 1775 -->
+    <article class="year" id="c1775">
+      <div>
+        <p class="year-num"><em>c.</em>1775</p>
+        <p class="small">Courses printed 1760–1790</p>
+        <p class="status"><span class="dot pub"></span><b>Published.</b> All thirteen topics, each on one text per region.</p>
+        <a class="btn" href="c-1775/" data-year-link="1775">Read c. 1775</a>
+      </div>
+      <div class="year-body">
+        <p>Newton everywhere, on different terms. A Jesuit in Graz teaches attraction without reserve; the Paris lecturer keeps a subtle matter and calls attraction a name for an unexplained fact; the Göttingen professor weighs the systems and often declines to choose.</p>
+        <ul class="texts">
+          <li><figure>
+            <a class="scan" href="https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n6/mode/1up"><img src="img/nollet.jpg" alt="Title page of Nollet, Leçons de physique expérimentale, volume 1, Paris 1759" loading="lazy"></a>
+            <figcaption><b>France</b>Jean-Antoine Nollet, <i>Leçons de physique expérimentale</i>, Paris 1759–1766</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://archive.org/details/anfangsgrndeder00lautgoog/page/n5/mode/1up"><img src="img/erxleben.jpg" alt="Title page of Erxleben, Anfangsgründe der Naturlehre, Göttingen 1772, in Fraktur" loading="lazy"></a>
+            <figcaption><b>Protestant German lands</b>Johann Christian Polykarp Erxleben, <i>Anfangsgründe der Naturlehre</i>, Göttingen 1772</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://www.digitale-sammlungen.de/en/view/bsb10130800?page=7"><img src="img/biwald.jpg" alt="Title page of Biwald, Physica generalis, Graz 1769" loading="lazy"></a>
+            <figcaption><b>Catholic German lands</b>Leopold Biwald SJ, <i>Physica generalis</i> and <i>particularis</i>, Graz 1768–1769</figcaption>
+          </figure></li>
+          <li><figure>
+            <a class="scan" href="https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n2/mode/1up"><img src="img/ferguson.jpg" alt="Title page of Ferguson, Lectures on Select Subjects, fifth edition, London 1776" loading="lazy"></a>
+            <figcaption><b>British Isles</b>James Ferguson, <i>Lectures on Select Subjects</i>, London 1776</figcaption>
+          </figure></li>
+        </ul>
+        <ul class="topics">
+          <li><a href="c-1775/#body">Body in general and its properties</a></li>
+          <li><a href="c-1775/#motion">Motion and the balance of forces</a></li>
+          <li><a href="c-1775/#gravity">Gravity</a></li>
+          <li><a href="c-1775/#world">The system of the world</a></li>
+          <li><a href="c-1775/#water">Water and other fluids</a></li>
+          <li><a href="c-1775/#air">Air</a></li>
+          <li><a href="c-1775/#fire">Fire, warmth and cold</a></li>
+          <li><a href="c-1775/#light">Light and colours</a></li>
+          <li><a href="c-1775/#electricity">Electricity</a></li>
+          <li><a href="c-1775/#magnet">The magnet</a></li>
+          <li><a href="c-1775/#earth">Earth and the bodies drawn from it</a></li>
+          <li><a href="c-1775/#meteors">Meteors</a></li>
+          <li><a href="c-1775/#globe">The terraqueous globe</a></li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="question" aria-labelledby="q-h">
+  <div class="wrap">
+    <h2 id="q-h">One question, four answers</h2>
+    <p class="prose">What is light? In 1775 the answer depended on where you studied.</p>
+    <div class="answers">
+      <div>
+        <h3>Graz</h3>
+        <p class="who">Biwald, Jesuit course</p>
+        <p>Particles thrown off by shining bodies, as Newton taught.</p>
+      </div>
+      <div>
+        <h3>Edinburgh</h3>
+        <p class="who">Encyclopaedia Britannica</p>
+        <p>The same: Newton’s emission of particles.</p>
+      </div>
+      <div>
+        <h3>Göttingen</h3>
+        <p class="who">Erxleben, Lutheran university</p>
+        <p>Vibrations of an aether, after Leonhard Euler.</p>
+      </div>
+      <div>
+        <h3>Paris</h3>
+        <p class="who">Nollet, public lectures</p>
+        <p>Motion in a subtle matter filling space, in the manner of Descartes; the same matter as fire.</p>
+      </div>
+    </div>
+    <p class="prose">The same question will be put to the texts of 1675 and 1575. It is one of 183 questions so far, each worded so that it can be asked of any period without a later period’s concepts: what light is, why heavy bodies fall, whether the earth moves, whether water can become earth.</p>
+  </div>
+</section>
+
+<section class="method" id="method" aria-labelledby="m-h">
+  <div class="wrap">
+    <h2 id="m-h">How the snapshots are made</h2>
+    <div class="method-grid">
+      <div>
+        <h3>Textbooks, not discoveries</h3>
+        <p>The subject is what was taught, which is often decades behind what was discovered. Journals are used only to date when an idea entered or left the textbooks.</p>
+      </div>
+      <div>
+        <h3>The most-printed courses</h3>
+        <p>For each region the snapshot reads the course printed most often in the decades around its year, chosen by a written rule applied the same way every time, so that later comparisons mean something. The regions are France, the Protestant and Catholic German lands, and the British Isles.</p>
+      </div>
+      <div>
+        <h3>The period’s own terms</h3>
+        <p>Entries give the period’s ideas and the evidence offered for them, without modern verdicts. Modern terms appear only in a short glossary at the end of each entry, so that a reader can tell that dephlogisticated air is oxygen.</p>
+      </div>
+      <div>
+        <h3>Every claim to the page</h3>
+        <p>Each claim cites edition, section and page, linked to a public scan. Quotations are read and translated from the page images. Every claim is also recorded in a machine-readable file, with the question it answers, the reasons the text gave and the confidence it was stated with.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" aria-labelledby="a-h">
+  <div class="wrap">
+    <div class="prose">
+      <h2 id="a-h">About the project</h2>
+      <p>Behrens Science History is a project of the <a href="https://bsmuseum.org/">Behrens Science Museum</a>, compiled by Bruce Behrens, a physicist with a doctorate in high-energy physics and a historian of eighteenth-century natural philosophy.</p>
+      <p>The readings and translations are prepared with Anthropic’s Claude and checked against the page images. Every quotation links to its scan, so any reader can check it too. Corrections are welcome through the museum’s <a href="https://bsmuseum.org/contact-us/">contact page</a>.</p>
+    </div>
+    <figure>
+      <a href="https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n4/mode/1up"><img src="img/legrand-front.jpg" width="560" height="903" alt="Engraved frontispiece: a robed figure holding a book titled Institutio philosophiae, under a radiant sun." loading="lazy"></a>
+      <figcaption>Frontispiece to Antoine Le Grand’s <i>Institutio philosophiae</i> (London, 1675), the British text of c. 1675.</figcaption>
+    </figure>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Title pages and frontispieces are reproduced from public scans at the Internet Archive and at the Bayerische Staatsbibliothek, Munich (digitale-sammlungen.de). Each image links to its scan.</p>
+  </div>
+</footer>
+
+</body>
+</html>

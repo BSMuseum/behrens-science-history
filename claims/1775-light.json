@@ -1,0 +1,1225 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-light",
+  "snapshot": "1775",
+  "topic": "light",
+  "title": "Light",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#light",
+   "version_encoded": "1795252956-b98b"
+  },
+  "published": "2026-11-13",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text, on the nature of light; colours touched on. Not covered: vision, instruments, the chapters on colours beyond the prism, Biwald's replies to objections and his account of emission, refraction and reflection. read_from is 'image' for the Ferguson citations marked so and 'ocr' where only the machine-read text was used; for the other texts, 'image' only where the entry quotes the page, otherwise 'unknown'. The references to the Britannica's entry 'Light' and to Biwald's conspectus carry no page. Ferguson's lecture on optics is headed 'LECT. VIII.' on p. 201 (image); where his Lecture VII begins was not checked.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary. Compared by shared five-word sequences in the OCR, the Britannica's Optics from p. 416 to its account of the magic lantern (vol. 3 leaves 481-492: 19-45% per page) is Ferguson's lecture on optics; its section 'Different refrangibility of light' and what follows (from p. 427, leaves 493-504: 0-2%) is not Ferguson's. Claim 012 corrected from the OCR of that section (the entry had not read it). Ferguson's speed of light (F 5) is in a passage of his first lecture that the Britannica's Mechanics leaves out."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part III, sect. II, 'De luce', pp. 172-313; nature of light pp. 217-245"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 8, 'Vom Lichte'; nature of light §§303-308, pp. 245-248; colours pp. 292-294"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 5 (1765), Lesson XV, pp. 9-15"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "The lecture on optics (headed Lecture VIII), pp. 201-202 and 242-244; Lecture I, the velocity of light, p. 5"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Optics, vol. 3 pp. 416-427 and from p. 427 'Different refrangibility of light'; entry Light",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its Optics reprints Ferguson's lecture on optics as far as the magic lantern (vol. 3 pp. 416-427); its section on the different refrangibility of light and the colours that follows is not Ferguson's."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Together with fire in one part of the particular physics, some 140 pages: propagation, refraction, reflection, the nature of light, colours, vision, optical instruments",
+   "cites": [
+    {
+     "page": "172",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=182"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Eighth section, after air and before warmth and cold",
+   "cites": [
+    {
+     "page": "245",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n269/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "t. 5, Lesson XV",
+   "cites": [
+    {
+     "page": "9",
+     "vol": "5",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n20/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "The lecture on optics opens with what light is, then refraction, the eye, glasses, telescopes, the camera obscura, mirrors, and last the different refrangibility of rays, colours and the rainbow",
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n244/mode/1up"
+    },
+    {
+     "page": "242",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n297/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "The treatise Optics; the short entry Light only points there; Optics reprints Ferguson's lecture as far as the magic lantern, then adds a section of its own on colours",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "Light",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS"
+    },
+    {
+     "vol": "iii",
+     "page": "416-417",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-light-001",
+   "question": "light-straight",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The rectilinear propagation of light is the fact that recent natural philosophers weigh most heavily.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "218-219",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=228",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-002",
+   "question": "light-straight",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The straight path is built into the definition of a ray: a continued stream of particles flowing from a visible body in a straight line.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "417",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 482
+     },
+     "entry": "Optics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a ray of light is a continued stream of these particles, flowing from any visible body in a straight line",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 201)"
+  },
+  {
+   "id": "1775-light-003",
+   "question": "light-straight",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not stated as such in the passages read; Erxleben discusses the straight path only as an objection to the medium (p. 246)."
+  },
+  {
+   "id": "1775-light-004",
+   "question": "light-straight",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson XV read."
+  },
+  {
+   "id": "1775-light-005",
+   "question": "light-time",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Light needs a certain time, though a small one, to cross space.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n271/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-006",
+   "question": "light-time",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Light takes time to travel, and the light of the sun and of the fixed stars travels at the same speed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "220",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=230",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-007",
+   "question": "light-time",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson XV read."
+  },
+  {
+   "id": "1775-light-008",
+   "question": "light-time",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the parts read. Its Mechanics, which reprints Ferguson's first lecture, leaves out his passage on the velocity of light (F 5)."
+  },
+  {
+   "id": "1775-light-009",
+   "question": "colours",
+   "text": "E",
+   "answer": "parts-of-light",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A prism splits a ray into seven simple lights refracted in different degrees; white light is their mixture.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the prism"
+    }
+   ],
+   "cites": [
+    {
+     "page": "292",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n316/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-010",
+   "question": "colours",
+   "text": "B",
+   "answer": "parts-of-light",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Ordinary light is compound, made of unlike kinds of rays that are refracted differently.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "220",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=230",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-011",
+   "question": "colours",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Nollet's chapters on colours were not read for this entry."
+  },
+  {
+   "id": "1775-light-012",
+   "question": "colours",
+   "text": "EB",
+   "answer": "parts-of-light",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Under 'Different refrangibility of light': what was called a particle of light is properly a bundle of rays that can be separated, some more refrangible than others; light is heterogeneous when its rays are refracted unequally.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "427",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 492
+     },
+     "entry": "Optics"
+    }
+   ],
+   "note": "The Britannica's own: this section shares 0-2% of its five-word sequences with Ferguson's Lectures. Corrected 2026-11-21 from the OCR of vol. 3 leaves 492-493; the entry had said it was not read."
+  },
+  {
+   "id": "1775-light-013",
+   "question": "light-sound",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Biwald gladly grants the Cartesians that the analogy between light and sound is great, though he denies the conclusion Euler draws from it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "225",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=235",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-014",
+   "question": "light-sound",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "With Euler, luminous bodies strike the parts of the aether as sounding bodies strike the air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n271/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "eben so schlagen, wie die schallenden Körper bey ihrem gröbern Zittern auf die gröbere Luft schlagen",
+    "from_image": true,
+    "tr": "strike just as sounding bodies in their coarser trembling strike the coarser air"
+   }
+  },
+  {
+   "id": "1775-light-015",
+   "question": "light-sound",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson XV read."
+  },
+  {
+   "id": "1775-light-016",
+   "question": "light-sound",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Britannica names no view of light but emission.",
+   "note": "The Britannica's Optics on the nature of light is Ferguson's wording, reprinted (F 201)"
+  },
+  {
+   "id": "1775-light-017",
+   "question": "light-nature",
+   "text": "B",
+   "stance": "reports",
+   "between": [
+    "medium-pressure",
+    "emission"
+   ],
+   "part": "dispute",
+   "statement": "In this age only two opinions on the nature of light are worth remembering, that of the Cartesians and that of Newton.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    },
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "217-218",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=227",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-018",
+   "question": "light-nature",
+   "text": "B",
+   "answer": "emission",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light is a substantial effluvium of luminous bodies, a real outflow of their substance in every direction to any distance, affecting the eye as the effluvia of a scented body affect the nose.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "light keeps to straight lines, which no motion in a fluid does"
+    },
+    {
+     "kind": "observation",
+     "detail": "the same speed from sun and stars"
+    },
+    {
+     "kind": "experiment",
+     "detail": "light is made of unlike kinds"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "218",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=228",
+     "read_from": "unknown"
+    },
+    {
+     "page": "225",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=235",
+     "read_from": "image"
+    },
+    {
+     "page": "218-220",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=228",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "a substantial effluvium of luminous bodies",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-light-019",
+   "question": "light-nature",
+   "text": "B",
+   "answer": "medium-pressure",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The Cartesians, Euler included, pass over the alternate fits of easy reflection and transmission in silence; Euler defends the Cartesian opinion with the greatest ardour.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "the medium does not explain refraction, reflection or the alternate fits"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    },
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "220",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=230",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "who defends the Cartesian opinion with the greatest ardour",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-light-020",
+   "question": "light-nature",
+   "text": "E",
+   "stance": "reports",
+   "between": [
+    "emission",
+    "medium-pressure"
+   ],
+   "part": "dispute",
+   "statement": "On the system of emanation the luminous body sends out the matter of light; on Descartes's view hard globules lie against one another, so that a blow at one end is felt at the other.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "245",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n269/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "246",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n270/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-021",
+   "question": "light-nature",
+   "text": "E",
+   "answer": "aether-vibration",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "The difficulties of emission can be removed by conceiving, with Euler, a most fine, fluid and elastic matter spread everywhere, the aether, on whose parts the trembling luminous bodies strike as sounding bodies strike the air.",
+   "confidence": {
+    "level": "possible",
+    "printed": "fast geneigter werden",
+    "translation": "almost become more inclined"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "sound in air"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n271/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Aber diese Schwierigkeiten lassen sich heben, wenn man sich mit Euler eine höchst feine, flüßige und dabey elastische Materie gedenkt, die allerwärts ausgebreitet ist, und auf deren Theile die leuchtenden Körper, indem sie zittern, eben so schlagen, wie die schallenden Körper bey ihrem gröbern Zittern auf die gröbere Luft schlagen. Diese feine Materie nennt man auch Aether.",
+    "from_image": true,
+    "tr": "But these difficulties can be removed if, with Euler, one conceives a most fine, fluid and also elastic matter that is spread everywhere, and on whose parts the luminous bodies, as they tremble, strike just as sounding bodies in their coarser trembling strike the coarser air. This fine matter is also called aether."
+   }
+  },
+  {
+   "id": "1775-light-022",
+   "question": "light-straight",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "That rays could not then be straight is perhaps the strongest objection to the medium, and it can be answered well enough.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "246",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n270/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-023",
+   "question": "light-nature",
+   "text": "N",
+   "answer": "medium-pressure",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light is the motion of a fluid that fills space, after Descartes, corrected by later discoveries; probability decides Nollet for it, though it has difficulties he will not hide.",
+   "confidence": {
+    "level": "probable",
+    "printed": "la vraisemblance me détermine",
+    "translation": "probability decides me"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "9-12",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n20/mode/1up",
+     "read_from": "unknown",
+     "vol": "5"
+    },
+    {
+     "page": "11",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n22/mode/1up",
+     "read_from": "image",
+     "vol": "5"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "S’il faut prendre un parti entre ces deux opinions, j’avoue franchement que la vraisemblance me détermine pour la première. Elle a pourtant ses difficultés que je ne dissimulerai pas",
+    "from_image": true,
+    "tr": "If a side must be taken between these two opinions, I admit frankly that probability decides me for the first. It has its difficulties, though, which I will not hide."
+   }
+  },
+  {
+   "id": "1775-light-024",
+   "question": "light-nature",
+   "text": "N",
+   "answer": "emission",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Emission needs strange devices to keep the stars from exhaustion, to let opposed streams pass, and to empty the heavens; Newton might have adopted Descartes's opinion himself had it suited his system of attractions.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "exhaustion of the stars; crossing streams; empty heavens"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "11-12",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n22/mode/1up",
+     "read_from": "unknown",
+     "vol": "5"
+    },
+    {
+     "page": "9",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n20/mode/1up",
+     "read_from": "unknown",
+     "vol": "5"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-025",
+   "question": "light-nature",
+   "text": "EB",
+   "answer": "emission",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light consists of an inconceivably great number of particles flowing from a luminous body; the Britannica names no other view and argues against none.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "many candles shining through one pinhole show the smallness of the particles"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "416-417",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "entry": "Optics"
+    },
+    {
+     "vol": "iii",
+     "page": "417",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 482
+     },
+     "entry": "Optics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a ray of light is a continued stream of these particles, flowing from any visible body in a straight line",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 201)"
+  },
+  {
+   "id": "1775-light-026",
+   "question": "light-nature",
+   "text": "B",
+   "answer": "medium-pressure",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "After Musschenbroek: were light a pressure in a fluid filling the world, the pressure would spread equally every way, there would be no shadows, and night would be as bright as day.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "no shadows, night as bright as day"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "219",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=229",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-027",
+   "question": "light-nature",
+   "text": "B",
+   "answer": "aether-vibration",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Light goes in a line straight to the senses, while all motions raised in fluids flow off to the sides, as circles on water and sound through chinks show; so light cannot be the pressure of any medium, and Euler's analogy of nature is no analogy at all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "waves on water and sound bend round openings"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Euler's analogy"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "225",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=235",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quod si ergo observationes nos doceant, lumen propagari linea ad sensum recta, motus vero omnes, in fluidis excitatos, ad latera diffluere, uti patet in circulis, quae in superficie aquae oriuntur, & per angustam quamlibet aperturam propagantur, item in sono per rimas quaslibet, aut foramella subeunte, dicendum erit, lumen in pressu medii cuiusvis reponi non posse, nullam adeo esse eam, quam Eulerus adstruit, naturae analogiam.",
+    "from_image": true,
+    "tr": "If then observations teach us that light is propagated in a line that is straight to the senses, while all motions excited in fluids flow off to the sides, as is plain in the circles that arise on the surface of water and spread through any narrow opening, and likewise in sound entering through any chinks or little holes, it will have to be said that light cannot be placed in the pressure of any medium, and that the analogy of nature which Euler builds upon is therefore no analogy at all."
+   }
+  },
+  {
+   "id": "1775-light-028",
+   "question": "light-nature",
+   "text": "E",
+   "answer": "emission",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The sun would have to send out an enormous quantity of rays without visibly losing size, the rays would have to cross without disturbing one another, and transparent bodies would have to be bored through in every direction; one should almost rather assume that the matter of light is present everywhere.",
+   "confidence": {
+    "level": "possible",
+    "printed": "fast geneigter werden",
+    "translation": "almost become more inclined"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the sun would shrink; crossing rays; bored-through transparent bodies"
+    }
+   ],
+   "cites": [
+    {
+     "page": "245",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n269/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Allein wenn man bedenkt, daß die Sonne alsdann unaufhörlich eine ungeheure Menge Lichtstrahlen ausschicken müßte, da man doch nicht wahrnimmt, daß sie von ihrer Größe verliert, noch etwas wahrscheinliches davon sagen kann, wo diese Lichtstrahlen hernach bleiben; daß diese ungeheure Menge von Lichtstrahlen einander durchkreutzen müßten, ohne sich doch dabey in ihrer Bewegung aufzuhalten oder ihre Richtungen abzuändern; daß die durchsichtigen Körper nach allen Richtungen in geraden Linien durchbohrt seyn müßten, wenn diese Hypothese Statt finden sollte, welches doch ganz unmöglich scheint: so sollte man fast geneigter werden anzunehmen, daß die Materie des Lichtes vielmehr allerwärts vorhanden sey",
+    "from_image": true,
+    "tr": "But when one considers that the sun would then have to send out an enormous quantity of rays of light without ceasing, although one does not perceive that it loses anything of its size, nor can say anything probable about where these rays remain afterwards; that this enormous quantity of rays would have to cross one another without checking one another’s motion or altering their directions; that transparent bodies would have to be bored through in straight lines in every direction if this hypothesis were to hold, which seems quite impossible: one should almost become more inclined to assume that the matter of light is present everywhere."
+   }
+  },
+  {
+   "id": "1775-light-029",
+   "question": "light-nature",
+   "text": "N",
+   "answer": "emission",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Emission obliges one to imagine the oddest accidents to prevent or repair the exhaustion of the stars.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "exhaustion of the stars"
+    }
+   ],
+   "cites": [
+    {
+     "page": "11",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n22/mode/1up",
+     "read_from": "unknown",
+     "vol": "5"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-030",
+   "question": "heavens-medium",
+   "text": "N",
+   "answer": "fluid-heaven",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The medium would have been everyone's opinion but for particular interests; Newton himself might have adopted it had a resisting medium in the heavens seemed to him compatible with the system of attractions.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "9",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n20/mode/1up",
+     "read_from": "image",
+     "vol": "5"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "elle eût été l’opinion de tout le monde, si des intérêts particuliers n’y eussent mis empêchement. Newton lui-même l’auroit peut-être adoptée, si un milieu résistant dans la vaste étendue des cieux lui eût paru compatible avec le systême des attractions",
+    "from_image": true,
+    "tr": "It would have been everyone’s opinion, had particular interests not stood in the way. Newton himself would perhaps have adopted it, if a resisting medium in the vast extent of the heavens had seemed to him compatible with the system of attractions."
+   }
+  },
+  {
+   "id": "1775-light-031",
+   "question": "heavens-medium",
+   "text": "E",
+   "answer": "rare-aether",
+   "stance": "holds",
+   "part": "why",
+   "statement": "To the objection that a medium would slow the planets: the same can be said with more right against streams of emitted light.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the objection turned against emission"
+    }
+   ],
+   "cites": [
+    {
+     "page": "246",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n270/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-032",
+   "question": "heavens-medium",
+   "text": "B",
+   "answer": "rare-aether",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Light arrives at the same speed from sun and stars, so an aether would need the same density and elasticity through all those spaces, which could only be if an immovable barrier at the edge of the world held it in, as glass holds compressed air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "an immovable barrier at the edge of the world"
+    },
+    {
+     "kind": "analogy",
+     "detail": "air compressed in glass"
+    }
+   ],
+   "cites": [
+    {
+     "page": "220",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=230",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-033",
+   "question": "colours",
+   "text": "E",
+   "stance": "reports",
+   "between": [
+    "parts-of-light",
+    "vibration-rates"
+   ],
+   "part": "open",
+   "statement": "For Newton the simple lights differ in kind, perhaps in the size of their particles; for Euler a ray is a row of beats on the aether following at unequal rates, so that colours are to the eye what tones are to the ear. Erxleben cannot conceive Euler's octaves of colour, and a colour-music invented on this idea has not found favour.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    },
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "292-294",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n316/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-034",
+   "question": "heavens-medium",
+   "text": "E",
+   "answer": "rare-aether",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Euler doubts that the aether has weight, holds it the cause of the weight of other bodies, and takes it as probable that it is nearly four hundred million times rarer than air and at least a thousand times more elastic.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "247-248",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n271/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-035",
+   "question": "fire-light-same",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Light and fire are the same in nature, since light gathered by a burning mirror does what the fiercest fire does.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the burning mirror"
+    }
+   ],
+   "cites": [
+    {
+     "page": "226",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=236",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-036",
+   "question": "fire-light-same",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "It is very probable that light and heat have one principle; here Nollet departs from Descartes, who gave them two.",
+   "confidence": {
+    "level": "probable"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "15",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n26/mode/1up",
+     "read_from": "unknown",
+     "vol": "5"
+    }
+   ]
+  },
+  {
+   "id": "1775-light-037",
+   "question": "light-straight",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A ray of light is a continued stream of particles flowing from a visible body in a straight line; since no object can be seen through the bore of a bent pipe, rays move in straight lines while nothing refracts them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "nothing is seen through a bent pipe"
+    }
+   ],
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n244/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "202",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n245/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "As no object can be seen through the bore of a bended pipe, it is evident that the rays of light move in straight lines",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-light-038",
+   "question": "light-time",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "In the lecture on matter: the velocity of the particles of light is demonstrated to be at least a million times that of a cannon-ball, so a million of them as big as a grain of sand would blind us like sand shot from a cannon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "5",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n20/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the velocity of the particles of light is demonstrated to be at least a million times greater than the velocity of a cannon-ball",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-light-039",
+   "question": "colours",
+   "text": "F",
+   "answer": "parts-of-light",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Some rays are more refrangible than others, and as they are differently refracted they excite the ideas of different colours: a prism spreads a beam of sunlight into red, orange, yellow, green, blue, indigo and violet, and a convex glass gathering them again makes a strong white. White is a composition of all colours and black the privation of them all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the prism and the convex glass"
+    }
+   ],
+   "cites": [
+    {
+     "page": "242-243",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n297/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "244",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n299/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "As white is a composition of all colours, so black is a privation of them all, and, therefore, properly no colour.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-light-040",
+   "question": "light-sound",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Ferguson does not compare light with sound; he names no view of light but emission."
+  },
+  {
+   "id": "1775-light-041",
+   "question": "light-nature",
+   "text": "F",
+   "answer": "emission",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light consists of an inconceivably great number of particles flowing from a luminous body in every direction, so small as to pass all comprehension; Ferguson names no other view and argues against none.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a candle fills two miles round with light before losing any sensible part of its substance"
+    },
+    {
+     "kind": "experiment",
+     "detail": "many candles shining through one pinhole"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Bernard Nieuwentyt",
+     "dates": "1654-1718",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n244/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "202",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n245/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "LIGHT consists of an inconceivably great number of particles flowing from a luminous body in all manner of directions; and these particles are so small, as to surpass all human comprehension.",
+    "from_image": true
+   }
+  }
+ ]
+}

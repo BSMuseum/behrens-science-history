@@ -1,0 +1,2699 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1675-water",
+  "snapshot": "1675",
+  "topic": "water",
+  "title": "Water, the sea and springs",
+  "site": {
+   "artifact": "c85e9cc6-ead9-45b3-9246-11977d12dc3b",
+   "view": "#water",
+   "version_encoded": "1795488936-02cc"
+  },
+  "published": "2026-11-22",
+  "encoded": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5, from drafts by free OpenRouter models",
+   "from": "new reading, with the entry"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "built_with": "Arm B of the 1675 test: page transcriptions and translations by particle-ai/particle-1:free; claim drafts by nvidia/nemotron-3-ultra-550b-a55b:free and baidu/ernie-5.5-flash-preview:free; disagreements resolved and claims written by Claude (report claude/tests/1675-water-openrouter.md).",
+  "quote_check": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5 (same session that resolved the drafts; not independent of the resolution, independent of the transcription)",
+   "quotations": 34,
+   "pages": 32,
+   "result": "Every quotation compared with its page image. 28 matched the free model's transcription. 6 were corrected: one conflated across a page break (Le Grand pp. 341-342: the transcription of p. 341 ran on with the last word of the sentence on p. 342 and dropped the ten words between); five misread (Sperling p. 577 'cōmixta' for the printed 'cōmista'; p. 568 'Quæ' for 'Qua' after the drop capital A, and 'terra' for 'terrà'; p. 587 'ferrum' for 'ferrùm'; Goudin p. 122 a printed full stop after 'constat' left out; Le Grand p. 359 'Adeò' for 'Adeo'). See data/qc_log.md in the report."
+  },
+  "claim_check": {
+   "date": "2026-11-23",
+   "by": "Claude Opus 5.5 (a later session; independent of the drafts and of the free model's transcription, not of the questions or the entry's framing)",
+   "claims": [
+    "1675-water-005",
+    "1675-water-006",
+    "1675-water-007",
+    "1675-water-008",
+    "1675-water-009",
+    "1675-water-012",
+    "1675-water-016",
+    "1675-water-019",
+    "1675-water-020",
+    "1675-water-025",
+    "1675-water-038",
+    "1675-water-039",
+    "1675-water-041",
+    "1675-water-043",
+    "1675-water-044",
+    "1675-water-045",
+    "1675-water-047",
+    "1675-water-048",
+    "1675-water-049",
+    "1675-water-054",
+    "1675-water-061",
+    "1675-water-063"
+   ],
+   "result": "22 unquoted claims that rested on the free model's transcription and translation, read again from the library OCR of the cited pages (MDZ page OCR; IA hOCR search text), with three page images where the point turned on a word. 12 confirmed as written; 8 corrected (006, 044 and 045 mistranslated; 049 lacked p. 342; 005 had a reason not on the page; 016 'holds' for what the page only implies; 019 'asserted' for a hedged statement; 020 named Descartes and called water's particles long, neither on the page; 045 also lacked Basil); 2 set to not_taken_up (009 and 012: neither text says whether natural water is pure, and Le Grand calls distilled sea water 'aqua pura, fontanæ, aut fluviali omnino similis'). See the section 'Check of the unquoted claims' in the report."
+  },
+  "coverage": "One text per region on water as an element, its qualities and fluidity, the sea's saltness, the tides and springs. read_from records what was read: 'image' where Claude read the page image (every quoted page, in the quotation check); 'ocr' where the claim rests on the free vision model's transcription and translation of the page image (not on MDZ or IA OCR). Exception: in the 22 claims listed under claim_check, every citation was read again on 2026-11-23, and there 'ocr' means the library OCR (MDZ page OCR, IA hOCR search text) read by Claude, and 'image' the page image. Every quotation was checked against its page image by Claude before publication. Not covered: Rohault's salt chapter between pp. 176 and 189 (the forming of salt grains); Sperling's wonders of waters (pp. 578-582, 588-590) beyond what is cited; Goudin's article on the divisions of the elements (II q. 3 a. 2, pp. 128-132) beyond what is cited, and his earthquakes (III q. 3 a. 3 § 4, pp. 281-285); Le Grand's article on the magnet and the rest of Part VI."
+ },
+ "texts": {
+  "R": {
+   "text": "rohault-traite-1675",
+   "parts": "vol. 2: Part II, last chapter, 'Du Flux & du Reflux de la Mer', pp. 140-152; Part III ch. III 'De l'Eau', pp. 169-175; ch. IV 'Du Sel', pp. 175-176, 181-182, 189-191; ch. X 'Des Fontaines', pp. 275-282 (MDZ bsb10131889, canvas = page + 4)"
+  },
+  "S": {
+   "text": "sperling-institutiones-1664",
+   "parts": "Book IV ch. III, on water, pp. 568-598 (MDZ canvas = page + 18; p. 583 has the running head 'LIBER TERTIVS')"
+  },
+  "G": {
+   "text": "goudin-philosophia-1681",
+   "parts": "t. 3, physics part 2 q. III, 'De Mundo Elementari', pp. 122-132 (MDZ canvas = page + 24); physics part 3 q. III a. III § IV, on the meteors formed in water and earth and the origin of springs and rivers, pp. 273-285 (canvas = page + 26)"
+  },
+  "L": {
+   "text": "legrand-institutio-1675",
+   "parts": "Part VI a. VII, on springs, pp. 340-344; a. XI, on water, pp. 359-361; a. XII, on the tide of the sea, pp. 361-365 (IA /page/n = page + 60)"
+  }
+ },
+ "placement": [
+  {
+   "text": "R",
+   "where": "Split: the tides close Part II, on the world, as an effect of its structure (the vortex round the earth); water, salt and springs come in Part III, on terrestrial beings, among the bodies formed in and on the earth.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "152",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=156",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "169",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=173",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "text": "S",
+   "where": "Book IV, on the elements: water as an element, with the sea, its saltness, the tides, springs, rivers and the wonders of waters in one chapter.",
+   "cites": [
+    {
+     "page": "568",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=586",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "G",
+   "where": "Split: water as an element, its place and the sea's height in the physics of the world (part 2, the elementary world); the tides, the sea's saltness, the qualities of waters and the origin of springs among the meteors formed in water and earth (part 3).",
+   "cites": [
+    {
+     "page": "122",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=146",
+     "read_from": "image"
+    },
+    {
+     "page": "273",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=299",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "text": "L",
+   "where": "Part VI, on the earth and the bodies in it: springs first among the things generated in the earth (a. 7, after the climates), water and the tide after the magnet (a. 11-12), before air.",
+   "cites": [
+    {
+     "page": "340",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n400/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "359",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n419/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1675-water-001",
+   "question": "springs-origin",
+   "text": "R",
+   "answer": "sea-underground",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since most springs never dry up and the rivers they make run into the sea without swelling it, it is the sea that supplies water to all springs, through the many fissures of the outer earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "springs do not dry up; the sea is not swollen by the rivers"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "275",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=279",
+     "read_from": "image",
+     "section": "III.10 art. I-II"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "c'est la Mer qui fournit d'eau à toutes les fontaines",
+    "from_image": true,
+    "tr": "it is the sea that supplies water to all the springs"
+   }
+  },
+  {
+   "id": "1675-water-002",
+   "question": "springs-origin",
+   "text": "S",
+   "answer": "sea-underground",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The sea is the origin, head and lodging of rivers, streams and springs, which run through the veins of the earth like the blood of animals; all rivers enter the sea and the sea does not overflow.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Ecclesiastes 1:7"
+    },
+    {
+     "kind": "authority",
+     "detail": "Seneca"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Lucius Annaeus Seneca",
+     "dates": "c. 4 BC-AD 65",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "573",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=591",
+     "read_from": "image",
+     "section": "IV.3 q. I"
+    },
+    {
+     "page": "575",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=593",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Mare autem origo, caput, & hospitium fluminum, rivorum, ac fontium est.",
+    "from_image": true,
+    "tr": "But the sea is the origin, head and lodging of rivers, streams and springs."
+   }
+  },
+  {
+   "id": "1675-water-003",
+   "question": "springs-origin",
+   "text": "G",
+   "answer": "sea-underground",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Of the three causes he assigns to reconcile the opinions, the third and more universal is the sea, whose water works into the veins of the earth and, cleansed, bursts out in very abundant springs and sometimes the greatest rivers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the earth full of veins as an animal body"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=304",
+     "read_from": "image",
+     "section": "III q. 3 a. 3 § 4"
+    },
+    {
+     "page": "279",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=305",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Tertia & universalior causa est aqua maris, quæ terræ venis sese insinuat",
+    "from_image": true,
+    "tr": "The third and more universal cause is the water of the sea, which works its way into the veins of the earth"
+   }
+  },
+  {
+   "id": "1675-water-004",
+   "question": "springs-origin",
+   "text": "L",
+   "answer": "sea-underground",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The origin of springs seems to be nothing but the sea itself, since rivers run ceaselessly into it without swelling it; its water, driven by weight and fluidity into the caverns of the earth, rises from them as vapour.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the sea is not swollen by the rivers"
+    },
+    {
+     "kind": "scripture",
+     "detail": "the Wise Man, Ecclesiastes 1"
+    }
+   ],
+   "cites": [
+    {
+     "page": "340",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n400/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 7"
+    },
+    {
+     "page": "341",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n401/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "342",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n402/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Censendum est igitur, aquam in specubus, & cavernis, ad quas gravitate, & fluiditate sua, adacta est, in Vapores vi caloris subterranei resolvi, & per meatus, quos ubique reperit, ascendere.",
+    "from_image": true,
+    "tr": "It must therefore be held that the water, in the hollows and caverns into which it has been driven by its weight and fluidity, is resolved into vapours by the force of subterranean heat, and rises through the passages it finds everywhere.",
+    "note": "The sentence runs over the page: p. 341 ends at vi, with caloris as catchword."
+   }
+  },
+  {
+   "id": "1675-water-005",
+   "question": "tides-follow-moon",
+   "text": "R",
+   "answer": "with-moon",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The sea rises and falls twice a day, about fifty minutes later each day, as the moon is about fifty minutes later at the meridian; it rises as often as the moon passes the meridian and falls as often as she meets the horizon, and the tides are greatest near new and full moon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the delay reckoned from the experience of several days"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "141",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=145",
+     "read_from": "ocr",
+     "section": "II last ch. arts. IV-VI"
+    },
+    {
+     "vol": "2",
+     "page": "142",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=146",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-006",
+   "question": "tides-follow-moon",
+   "text": "S",
+   "answer": "with-moon",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since the sea was seen to follow the moon's course, the moon was judged its author: at the quarters the sea is calm, at full moon it swells, and as the moon's body is carried west by its daily motion the ocean follows.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "calm at the quarters, swelling at full moon"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "585",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=603",
+     "read_from": "image",
+     "section": "IV.3 q. V"
+    },
+    {
+     "page": "587",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=605",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-007",
+   "question": "tides-follow-moon",
+   "text": "G",
+   "answer": "with-moon",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The tide follows not only the moon's daily course, coming later each day as she does, but feels her waxing and waning, being stronger at new and full moon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "daily delay; spring tides at new and full moon"
+    }
+   ],
+   "cites": [
+    {
+     "page": "274",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=300",
+     "read_from": "ocr",
+     "section": "III q. 3 a. 3 § 4"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-008",
+   "question": "tides-follow-moon",
+   "text": "L",
+   "answer": "with-moon",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The tide is a reciprocal coming and going of the sea observed twice in twenty-four hours and fifty minutes, the sea swelling when the moon is on the meridian above or below the horizon and falling when she is on the horizon; greatest at new and full moon and at the equinoxes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "361",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n421/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 12"
+    },
+    {
+     "page": "364",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n424/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-009",
+   "question": "water-purity",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Rohault does not say whether natural water is pure. Spring and well water must be fresh, since salt does not rise in vapour (art. VIII); some springs, as in Burgundy and Lorraine, dissolve salt met in the ground, and veins of fresh water that meet metallic or mineral matter carry off its finest parts, which gives medicinal waters their properties (arts. IX-X).",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=282",
+     "read_from": "ocr",
+     "section": "III.10 arts. VIII-X"
+    },
+    {
+     "vol": "2",
+     "page": "279",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=283",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "280",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=284",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-010",
+   "question": "water-purity",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "However clear it looks, water is no purer than urine or lye; one water is thicker and heavier than another because it is less pure, and mineral waters arise when some mineral joins the water as exhalation, vapour or tincture.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "580",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=598",
+     "read_from": "image",
+     "section": "IV.3 q. III"
+    },
+    {
+     "page": "590",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=608",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Et quamvis videatur limpida, non magis tamen pura est, quàm urina aut lixivium.",
+    "from_image": true,
+    "tr": "And however clear it may look, it is no purer than urine or lye."
+   }
+  },
+  {
+   "id": "1675-water-011",
+   "question": "water-purity",
+   "text": "G",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Besides saltness, waters show other tastes, smells and qualities, oily, bituminous, sulphurous, warm or turning things to stone, and the greatest part of these comes from the places underground through which they pass.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=303",
+     "read_from": "image",
+     "section": "III q. 3 a. 3 § 4"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Horum omnium maxima pars provenit ex subterraneis locis, per quæ transeunt ejusmodi aquæ.",
+    "from_image": true,
+    "tr": "The greatest part of all these comes from the underground places through which such waters pass."
+   }
+  },
+  {
+   "id": "1675-water-012",
+   "question": "water-purity",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Le Grand does not say whether natural water is pure. Sea water drawn off in an alembic over a gentle fire gives pure water, wholly like spring or river water, the salt staying at the bottom of the vessel (p. 360); salt found in wells far from the sea is sea water that has reached them unfiltered through cracks in the earth (p. 343).",
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n420/mode/1up",
+     "read_from": "image",
+     "section": "VI a. 11"
+    },
+    {
+     "page": "343",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n403/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 7"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-013",
+   "question": "water-into-air",
+   "text": "R",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Water that evaporates is not changed into air: its parts only separate and agitate one another and join again into the same water when they meet cold bodies. A sealed flask of air kept three years in a cask of water in a cellar showed no change of the air into water.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "a hermetically sealed matras of air kept three years under water"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "172",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=176",
+     "read_from": "image",
+     "section": "III.3 arts. VIII-IX"
+    },
+    {
+     "vol": "2",
+     "page": "173",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=177",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "l'air ne se change point en eau",
+    "from_image": true,
+    "tr": "air is not changed into water"
+   }
+  },
+  {
+   "id": "1675-water-014",
+   "question": "water-into-air",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Vapour is nothing but water mixed with fire; vapours rise from rivers and other waters, clouds from vapours, and rain and snow from clouds.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "577",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=595",
+     "read_from": "image",
+     "section": "IV.3"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Vapor quid nisi aqua igni cōmista est?",
+    "from_image": true,
+    "tr": "What is vapour but water mixed with fire?"
+   }
+  },
+  {
+   "id": "1675-water-015",
+   "question": "water-into-air",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the sections read."
+  },
+  {
+   "id": "1675-water-016",
+   "question": "water-into-air",
+   "text": "L",
+   "answer": "no",
+   "stance": "leans",
+   "part": "common",
+   "statement": "Not said in so many words. Heat resolves water into vapours, which condense again into drops at the cold surface of the earth; air is made of the subtler parts of exhalations, particles of terrestrial bodies, which differ from the vapours torn from waters only in their more irregular motions.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "342",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n402/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 7"
+    },
+    {
+     "page": "365",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n425/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 13"
+    },
+    {
+     "page": "366",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n426/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-017",
+   "question": "four-elements",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water is a thick and heavy element, the coldest and moistest, making one globe with the earth; proper to fire is to heat, to water to cool.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "568",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=586",
+     "read_from": "image",
+     "section": "IV.3 Praecepta"
+    },
+    {
+     "page": "591",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=609",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Aqua est Elementum crassum & grave, frigidissimum, ac humidissimum, unum cum terrà globum constituens.",
+    "from_image": true,
+    "tr": "Water is a thick and heavy element, the coldest and moistest, making up one globe with the earth."
+   }
+  },
+  {
+   "id": "1675-water-018",
+   "question": "four-elements",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There are four elements, the greater bodies of which the world below the moon consists, earth, water, air and fire; whatever is below the moon is an element or a compound of elements.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "the common conclusion"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "the combinations of the elementary qualities"
+    }
+   ],
+   "cites": [
+    {
+     "page": "122",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=146",
+     "read_from": "image",
+     "section": "II q. 3 a. 1"
+    },
+    {
+     "page": "123",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=147",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quatuor sunt elementa, seu corpora majora ex quibus constat. Mundus sublunaris, scilicet Terra, Aqua, Aër, & Ignis.",
+    "from_image": true,
+    "tr": "There are four elements, or greater bodies, of which the sublunary world consists, namely earth, water, air and fire.",
+    "note": "The full stop after constat is as printed."
+   }
+  },
+  {
+   "id": "1675-water-019",
+   "question": "matter-principles",
+   "text": "R",
+   "answer": "cartesian-elements",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There is reason to believe that water is a heap of an infinity of little bodies that had wavy pores for moulds and so are like little cords, flexible and pliant: matter of the first element congealed in the long, narrow pores of the earth. Salt is long straight parts of the matter of the first element congealed in the straight pores of the inner earth.",
+   "confidence": {
+    "level": "probable",
+    "printed": "il y a lieu de croire",
+    "translation": "there is reason to believe",
+    "note": "Said of water (p. 169); salt is introduced with 'il suffit de concevoir' (p. 175)."
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "169",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=173",
+     "read_from": "image",
+     "section": "III.3 art. I"
+    },
+    {
+     "vol": "2",
+     "page": "175",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=179",
+     "read_from": "ocr",
+     "section": "III.4 art. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-020",
+   "question": "matter-principles",
+   "text": "L",
+   "answer": "cartesian-elements",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water and the other terrestrial bodies are made of particles of the third element; water's parts are smooth and slippery, so that the subtle matter easily parts them and keeps them moving. Its particles are of two kinds: the flexible make fresh water, the inflexible, like fragments of stones, make salt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n419/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 11"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-021",
+   "question": "four-elements",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The sections read do not speak of the four elements; water and salt are built from Descartes's elements."
+  },
+  {
+   "id": "1675-water-022",
+   "question": "four-elements",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The articles read do not speak of the four elements; water is made of particles of the third element."
+  },
+  {
+   "id": "1675-water-023",
+   "question": "water-qualities",
+   "text": "S",
+   "answer": "cold-and-moist",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water's coldness and moisture are both absolute, so that water is the first subject of coldness and of moisture; wherever any moisture or liquidity occurs, water is present.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "570",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=588",
+     "read_from": "image",
+     "section": "IV.3"
+    },
+    {
+     "page": "568",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=586",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Humiditas aquæ itidem Absoluta est, adeò ut aqua primum & frigiditatis & humiditatis subiectum sit.",
+    "from_image": true,
+    "tr": "The moisture of water is likewise absolute, so that water is the first subject both of coldness and of moisture."
+   }
+  },
+  {
+   "id": "1675-water-024",
+   "question": "water-qualities",
+   "text": "R",
+   "answer": "cold-and-moist",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Water has no particular inclination to coldness: liquid water is indifferent to heat and cold, and ice is cold only because its parts are at rest.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "171",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=175",
+     "read_from": "image",
+     "section": "III.3 arts. IV-V"
+    },
+    {
+     "vol": "2",
+     "page": "170",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=174",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "ce n'est pas qu'elle ait aucune inclination particuliere à la froideur",
+    "from_image": true,
+    "tr": "it is not that it has any particular inclination to coldness"
+   }
+  },
+  {
+   "id": "1675-water-025",
+   "question": "water-qualities",
+   "text": "R",
+   "answer": "tasteless-clear",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water is insipid and almost without smell, because its pliant parts only glide over the tongue without shaking it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "173",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=177",
+     "read_from": "ocr",
+     "section": "III.3 art. X"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-026",
+   "question": "water-qualities",
+   "text": "L",
+   "answer": "cold-and-moist",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Water is not, as some recent philosophers think, cold by its nature: when liquid it is indifferent to heat and cold, and ice is cold only from the rest of its parts, in which the nature of cold consists.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n420/mode/1up",
+     "read_from": "image",
+     "section": "VI a. 11"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non cum quibusdam recentioribus Philosophis existimandum est, Aquam natura sua frigidam esse",
+    "from_image": true,
+    "tr": "It is not to be thought, with some more recent philosophers, that water is cold by its own nature"
+   }
+  },
+  {
+   "id": "1675-water-027",
+   "question": "water-qualities",
+   "text": "G",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Water's own qualities are not described in the sections read; the moon rules moist bodies, and so the sea, 'the chief kingdom of moisture' (p. 274)."
+  },
+  {
+   "id": "1675-water-028",
+   "question": "fluidity",
+   "text": "S",
+   "answer": "moist-quality",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Liquidity follows moisture, of which water is the first subject; the heat of warm water belongs not to the water but to atoms of fire dispersed through it, which the water drives out again as it cools.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "570",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=588",
+     "read_from": "image"
+    },
+    {
+     "page": "591",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=609",
+     "read_from": "ocr"
+    },
+    {
+     "page": "594",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=612",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-029",
+   "question": "fluidity",
+   "text": "R",
+   "answer": "subtle-matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water must be liquid, because its very delicate parts are easily mixed and moved by the matter of the second element that surrounds them; where that matter lacks force to move them apart, they rest and the water freezes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "170",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=174",
+     "read_from": "image",
+     "section": "III.3 art. III"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "il est certain qu'elle doit estre liquide",
+    "from_image": true,
+    "tr": "it is certain that it must be liquid"
+   }
+  },
+  {
+   "id": "1675-water-030",
+   "question": "fluidity",
+   "text": "L",
+   "answer": "subtle-matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The subtlest matter, always in motion, moves each particle of water separately and bends one into another, so that it is no wonder it makes water liquid; where its force is hindered, by the sun's distance in winter or toward the poles, the parts lie in disorder and make ice.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n419/mode/1up",
+     "read_from": "image",
+     "section": "VI a. 11"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Adeo ut mirum non sit, si aquam liquidam efficiat, cum singulas ejus particulas seorsim moveat, atque unam in alteram inflectat.",
+    "from_image": true,
+    "tr": "So that it is no wonder if it makes water liquid, since it moves each of its particles separately and bends one into another."
+   }
+  },
+  {
+   "id": "1675-water-031",
+   "question": "fluidity",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the sections read."
+  },
+  {
+   "id": "1675-water-032",
+   "question": "tides-cause",
+   "text": "R",
+   "answer": "pressure-of-vortex",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "All the fluid matter that whirls about the earth up to beyond the moon must press the earth hardest at the place under the moon, and this pressure drives the waters from the equator toward the poles; as the earth turns, each part of the ocean comes under the moon twice a day.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "the daily delay, the spring tides and the currents follow from one foundation"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "144",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=148",
+     "read_from": "ocr",
+     "section": "II last ch."
+    },
+    {
+     "vol": "2",
+     "page": "145",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=149",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "147",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=151",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "toute la matiere qui se meut autour de la terre, la doit plus presser à l'endroit qui correspond sous la Lune",
+    "from_image": true,
+    "tr": "all the matter that moves about the earth must press it more at the place that lies under the moon"
+   }
+  },
+  {
+   "id": "1675-water-033",
+   "question": "tides-cause",
+   "text": "L",
+   "answer": "pressure-of-vortex",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The moon, a huge body, narrows the space between itself and the earth, so that the celestial matter whirling round the earth flows faster through that strait and the opposite one, presses the air and the water of the sea there and drives them toward the shores.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "362",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n422/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 12"
+    },
+    {
+     "page": "363",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n423/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Cœlestis materia, quæ circa Terram circumvolvitur, celerius per illas angustias",
+    "from_image": true,
+    "tr": "the celestial matter that whirls about the earth [flowing] faster through those straits",
+    "note": "Opening of a longer sentence; the full period runs to 'fluxumque Maris procreat'."
+   }
+  },
+  {
+   "id": "1675-water-034",
+   "question": "tides-cause",
+   "text": "L",
+   "answer": "moon-influence",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Against the recent philosophers who refer the tide to an occult quality: that is only to lay bare their ignorance, for what is occult is hidden, and an effect is unknown so long as it is not shown from its proper cause. He also rejects the ancients' world-animal breathing through nostrils in the sea floor.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "an occult quality explains nothing"
+    }
+   ],
+   "cites": [
+    {
+     "page": "361",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n421/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "362",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n422/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quod enim occultum est, latet ; & tamdiu effectus aliquis ignorari dicitur, quamdiu per propriam causam non demonstratur.",
+    "from_image": true,
+    "tr": "For what is occult lies hidden; and an effect is said to be unknown for as long as it is not demonstrated through its proper cause."
+   }
+  },
+  {
+   "id": "1675-water-035",
+   "question": "tides-cause",
+   "text": "S",
+   "answer": "moon-influence",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The tide admits external causes: the moon is mistress of the humours, and as iron follows the magnet, so water goes with the moon's motion, the sun and planets increasing or lessening her power.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the magnet acts on iron without contact"
+    },
+    {
+     "kind": "authority",
+     "detail": "Scaliger"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "586",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=604",
+     "read_from": "ocr",
+     "section": "IV.3 q. V"
+    },
+    {
+     "page": "587",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=605",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ut ergò ferrùm magnetem sequitur, sic aqua motum Lunæ comitatur.",
+    "from_image": true,
+    "tr": "So as iron follows the magnet, water accompanies the motion of the moon.",
+    "note": "ferrùm with the accent as printed."
+   }
+  },
+  {
+   "id": "1675-water-036",
+   "question": "tides-cause",
+   "text": "S",
+   "answer": "sea-spirits",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Internal causes must be added to the external: if the motion is natural it comes chiefly from an internal principle, spirits in the sea that kindle and spend themselves as in a fever or in wine boiling in a cask, which explains the fixed times of the tide. Basso's view, against Scaliger.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "intermittent fevers; wine working in the cask"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Sebastian Basso",
+     "dates": "fl. 1621",
+     "role": "reported",
+     "note": "author of Philosophiae naturalis adversus Aristotelem libri XII (Geneva 1621); dates not found"
+    },
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "585",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=603",
+     "read_from": "ocr"
+    },
+    {
+     "page": "586",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=604",
+     "read_from": "ocr"
+    },
+    {
+     "page": "587",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=605",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Causis externis addendæ veniunt internæ.",
+    "from_image": true,
+    "tr": "To the external causes internal ones must be added."
+   }
+  },
+  {
+   "id": "1675-water-037",
+   "question": "tides-cause",
+   "text": "G",
+   "answer": "moon-influence",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The commoner opinion refers the tide to the influx of the moon, which rules moist bodies and so the sea, the chief kingdom of moisture; the tide follows her daily course and her waxing and waning.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "the commoner opinion"
+    },
+    {
+     "kind": "observation",
+     "detail": "the tide follows the moon"
+    }
+   ],
+   "cites": [
+    {
+     "page": "274",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=300",
+     "read_from": "image",
+     "section": "III q. 3 a. 3 § 4"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Causam hujus motus communior sententia refert in influxum Lunæ.",
+    "from_image": true,
+    "tr": "The commoner opinion refers the cause of this motion to the influx of the moon."
+   }
+  },
+  {
+   "id": "1675-water-038",
+   "question": "tides-cause",
+   "text": "G",
+   "answer": "lunar-effluvia",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The moon does not cause the tide by rarefying the sea so that it ferments and overflows, as water boils over in a pot, but only by local motion, since flood on one shore and ebb on the opposite shore are contraries at the same time.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "flood and ebb at once on opposite shores"
+    }
+   ],
+   "cites": [
+    {
+     "page": "275",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=301",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-039",
+   "question": "tides-cause",
+   "text": "G",
+   "answer": "whirlpools",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Setting aside the ancients who made the earth a great animal breathing out the tides, and Plato's almost poetic fiction of Tartarus, a whirlpool under the earth swallowing and vomiting the sea.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Plato",
+     "dates": "c. 428-348 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "273",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=299",
+     "read_from": "ocr"
+    },
+    {
+     "page": "274",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=300",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-040",
+   "question": "springs-rise",
+   "text": "R",
+   "answer": "vapour-heat",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Water from the sea cannot rise by its own weight above the sea's level, yet the springs of the Seine stand above it; so the heat in the bowels of the earth, greater the deeper one goes, turns it to vapour, which is forced upward into the hollows of the mountains and condenses on the cold parts near the surface.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "liquids in large vessels find their level"
+    },
+    {
+     "kind": "observation",
+     "detail": "heat grows with depth"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "275",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=279",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=280",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=281",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=282",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "elle est reduite en vapeurs par la chaleur qui se rencontre dans les entrailles de la Terre",
+    "from_image": true,
+    "tr": "it is reduced to vapours by the heat that is found in the bowels of the earth"
+   }
+  },
+  {
+   "id": "1675-water-041",
+   "question": "springs-rise",
+   "text": "R",
+   "answer": "earth-suction",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Not by a power of sucking in the earth: suction presupposes a sensible motion in the body that sucks, which the earth does not have; a sponge lifts water only a little; and the springs would then be salt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "suction needs motion in the sucker; springs would be salt"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=280",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-042",
+   "question": "springs-rise",
+   "text": "L",
+   "answer": "vapour-heat",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Subterranean heat, known from Hecla, Vesuvius and Etna, turns the water in the caverns to vapour, which climbs through continuous pores to the ridges of the mountains, condenses into drops against the cold surface, and runs together into streams, as in a chemist's alembic.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "distillation in an alembic"
+    },
+    {
+     "kind": "observation",
+     "detail": "burning mountains"
+    }
+   ],
+   "cites": [
+    {
+     "page": "341",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n401/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "342",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n402/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-043",
+   "question": "springs-rise",
+   "text": "L",
+   "answer": "earth-suction",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The explanation by suction is wholly foreign to reason, since sucking presupposes a sensible motion in the body of the sucker.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "341",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n401/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-044",
+   "question": "springs-rise",
+   "text": "S",
+   "answer": "veins",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "From the sea the rivers rush through the veins of the earth like the blood of animals, now here, now there; with Seneca, the sea has its own veins by which it is driven and surges, and the earth is ruled on the pattern of our bodies, with veins for water as for blood. How the water climbs above the sea is not explained.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Lucius Annaeus Seneca",
+     "dates": "c. 4 BC-AD 65",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "575",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=593",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-045",
+   "question": "springs-rise",
+   "text": "G",
+   "answer": "several",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Rivers that rise on mountains are fed by several causes together: many are rivers swallowed by chasms in one place and given back after long courses underground, up to thirty leagues; then, with Thomas, a motion the heavens give the elements, by which water goes under the earth and returns by its natural motion; spirits shut in the caverns of the earth that rarefy the water and drive it up, as Basil says; and the earth itself, which sucks water from below like a sponge, as the arteries of an animal draw blood.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Basil of Caesarea",
+     "dates": "c. 330-379",
+     "role": "followed",
+     "note": "Homily 4 on the Hexaemeron"
+    },
+    {
+     "name": "Lucius Annaeus Seneca",
+     "dates": "c. 4 BC-AD 65",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "280",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=306",
+     "read_from": "ocr"
+    },
+    {
+     "page": "281",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=307",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-046",
+   "question": "springs-origin",
+   "text": "S",
+   "answer": "rain",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Rain cannot suffice: rain often fails for long, and none is so great as to wet the earth more than ten feet deep, yet wells dug two or three hundred feet in the driest places find rich veins, and rivers burst from bare rocks.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "deep wells; rivers from rocks"
+    },
+    {
+     "kind": "authority",
+     "detail": "Seneca, the vine-digger"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Lucius Annaeus Seneca",
+     "dates": "c. 4 BC-AD 65",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "573",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=591",
+     "read_from": "image"
+    },
+    {
+     "page": "574",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=592",
+     "read_from": "ocr"
+    },
+    {
+     "page": "575",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=593",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "nullam pluviam esse tam magnam, quæ terram ultra decem pedes in altum madefaciat",
+    "from_image": true,
+    "tr": "no rain is so great that it wets the earth more than ten feet deep",
+    "note": "Quoted from Seneca."
+   }
+  },
+  {
+   "id": "1675-water-047",
+   "question": "springs-origin",
+   "text": "S",
+   "answer": "condensed-vapour",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Rivers do not spring from vapours shut in the earth and condensed by cold: so many vapours would be needed, and a perpetual flow needs perpetual causes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "573",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=591",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-048",
+   "question": "springs-origin",
+   "text": "G",
+   "answer": "several",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "To reconcile the various opinions three causes are assigned: rain water gathered in the caves of the earth, air that distils into drops in the cold, damp caverns, and the sea.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=304",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-049",
+   "question": "springs-origin",
+   "text": "L",
+   "answer": "several",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Besides the springs fed from the sea, those that run after long rains and fail in summer come for the most part from rain and melted snow, filtered through the earth into caverns and let out again as vapour.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "342",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n402/mode/1up",
+     "read_from": "ocr",
+     "section": "VI a. 7"
+    },
+    {
+     "page": "343",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n403/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-050",
+   "question": "springs-origin",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Rohault gives no part to rain: it is the sea that supplies all springs (p. 275)."
+  },
+  {
+   "id": "1675-water-051",
+   "question": "springs-fresh",
+   "text": "R",
+   "answer": "salt-stays",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since salt does not rise in vapour with the parts of fresh water, the waters of springs and wells must be fresh.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=282",
+     "read_from": "image",
+     "section": "III.10 art. VIII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "le sel ne s'éleve point en vapeurs avec les parties de l'eau douce, il est aisé à juger que les eaux des fontaines & des puys doivent estre douces",
+    "from_image": true,
+    "tr": "salt does not rise in vapours with the parts of fresh water, it is easy to judge that the waters of springs and wells must be fresh"
+   }
+  },
+  {
+   "id": "1675-water-052",
+   "question": "springs-fresh",
+   "text": "L",
+   "answer": "salt-stays",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Only the sweet particles are lifted as vapour; the salt ones are rigid and inflexible and cannot be turned into vapours, so they stay behind, and great masses of salt are found in some mountains where sea water rose.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "343",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n403/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "344",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n404/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Salsæ enim rigidæ sunt, & inflexiles, quæ in vapores mutari nequeunt",
+    "from_image": true,
+    "tr": "For the salt ones are rigid and inflexible, and cannot be changed into vapours"
+   }
+  },
+  {
+   "id": "1675-water-053",
+   "question": "springs-fresh",
+   "text": "L",
+   "answer": "filtered",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Springs and wells are sweetened because sea water percolated through much sand or earth puts off its rigid particles, and only the soft, flexible ones rise into springs or wells.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "343",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n403/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-054",
+   "question": "springs-fresh",
+   "text": "G",
+   "answer": "filtered",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Springs that rise from the sea by long winding passages are sweet because their waters are filtered through the earth and cleansed of the burnt dry earthy matter that causes saltness; where the moisture is not separated enough, the spring is salt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=303",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-055",
+   "question": "springs-fresh",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the chapter read, though hollow wax balls let down into the sea are said to fill with fresh water, the finer water passing the narrow pores of the wax and the salt staying out (p. 583)."
+  },
+  {
+   "id": "1675-water-056",
+   "question": "sea-salt",
+   "text": "R",
+   "answer": "earth-salt-carried",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Salt forms in great quantity in the bowels of the earth, even far from the sea, and veins of water that communicate with the sea dissolve it and carry it in, which is why salt is chiefly found in the sea.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "189",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=193",
+     "read_from": "image",
+     "section": "III.4 art. XXXIII"
+    },
+    {
+     "vol": "2",
+     "page": "190",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=194",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Au reste, c'est dans la Mer que le Sel se doit principalement rencontrer",
+    "from_image": true,
+    "tr": "Moreover, it is in the sea that salt must chiefly be found"
+   }
+  },
+  {
+   "id": "1675-water-057",
+   "question": "sea-salt",
+   "text": "R",
+   "answer": "sun-heat",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "It is an error to hold with Aristotle that the sea is salt because its waters are burnt by the sun's rays: no one has ever found that the heat of the sun, or of a flame, turns fresh water into salt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "no heat turns fresh water salt"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "190",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=194",
+     "read_from": "image",
+     "section": "III.4 art. XXXIV"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "c'est une erreur d'assurer avec Aristote, que la salure de la Mer dépend de ce que ses eaux sont brûlées par les rayons du Soleil",
+    "from_image": true,
+    "tr": "it is an error to assert with Aristotle that the saltness of the sea depends on its waters being burnt by the rays of the sun"
+   }
+  },
+  {
+   "id": "1675-water-058",
+   "question": "sea-salt",
+   "text": "S",
+   "answer": "created-salt",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The efficient cause of the sea's saltness is God, who made the sea salt in the first creation, so that it should be a fit home for fish and serve swimming and sailing; the saltness is nothing but the substance of salt in the sea water.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "a home for fish; swimming and sailing"
+    }
+   ],
+   "cites": [
+    {
+     "page": "582",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=600",
+     "read_from": "image",
+     "section": "IV.3 q. IV"
+    },
+    {
+     "page": "583",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=601",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Efficiens causa salsedinis maris DEVS est. Hic in prima creatione mare creavit salsum.",
+    "from_image": true,
+    "tr": "The efficient cause of the saltness of the sea is God. He made the sea salt in the first creation."
+   }
+  },
+  {
+   "id": "1675-water-059",
+   "question": "sea-salt",
+   "text": "S",
+   "answer": "sun-heat",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The sun's heat does not give the sea its saltness: if salt were so easily had, salt-works would not be rare and dear, and water boiled again and again over a kitchen fire would grow salt; no accident generates the substance of salt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "salt-works; kitchen fire"
+    }
+   ],
+   "cites": [
+    {
+     "page": "583",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=601",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Solis ardor salsedinem mari non infert.",
+    "from_image": true,
+    "tr": "The heat of the sun does not bring saltness to the sea."
+   }
+  },
+  {
+   "id": "1675-water-060",
+   "question": "sea-salt",
+   "text": "G",
+   "answer": "created-salt",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The remote cause is the condition the element received from God at its creation, that the greatest fish might be nourished in it and ships the better borne; the nearer cause is a dry, burnt earthy exhalation mixed with it, for burnt matter mixed with moisture makes saltness.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "fish and ships"
+    },
+    {
+     "kind": "analogy",
+     "detail": "lye from ashes"
+    }
+   ],
+   "cites": [
+    {
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=302",
+     "read_from": "image",
+     "section": "III q. 3 a. 3 § 4"
+    },
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=303",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Duplex hujus saporis causa assignari potest, una remotior, altera proxima.",
+    "from_image": true,
+    "tr": "A twofold cause of this taste can be assigned, one more remote, the other nearest."
+   }
+  },
+  {
+   "id": "1675-water-061",
+   "question": "sea-salt",
+   "text": "G",
+   "answer": "burnt-exhalation",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The nearer cause of the saltness is the mixture of a dry and burnt earthly exhalation; when the subtle moisture evaporates, the dregs of sea water turn into salt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=302",
+     "read_from": "ocr"
+    },
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=303",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-062",
+   "question": "sea-salt",
+   "text": "L",
+   "answer": "made-in-sea",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Salt is generated in the sea by the force of heat; so the sea does not grow saltier with the ages, fresh water flowing in and salt water out through the earth's cavities.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n420/mode/1up",
+     "read_from": "image",
+     "section": "VI a. 11"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Dicendum est igitur, salem in mari, vi caloris generari.",
+    "from_image": true,
+    "tr": "It must therefore be said that salt is generated in the sea by the force of heat."
+   }
+  },
+  {
+   "id": "1675-water-063",
+   "question": "sea-salt",
+   "text": "L",
+   "answer": "salt-beds",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "That the sea borrows its salt from certain veins does not seem probable: veins the water touches would long ago have been dissolved, and veins it does not touch could give it nothing.",
+   "confidence": {
+    "level": "probable",
+    "printed": "non videtur probabile",
+    "translation": "does not seem probable"
+   },
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n420/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-064",
+   "question": "sea-diminishing",
+   "text": "R",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The rivers enter the sea continually and do not swell it, which shows that the sea supplies the springs.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "275",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=279",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-065",
+   "question": "sea-diminishing",
+   "text": "L",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The rivers run into the sea without swelling it beyond its wont, and its state stays the same because fresh water enters as salt water leaves through the earth's cavities.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "340",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n400/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "360",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n420/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-066",
+   "question": "sea-diminishing",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "All rivers enter the sea, and the sea does not overflow; to the place whence the rivers go out they return.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Ecclesiastes 1:7"
+    }
+   ],
+   "cites": [
+    {
+     "page": "573",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=591",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-067",
+   "question": "sea-higher",
+   "text": "G",
+   "answer": "not-higher",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The sea is higher than the low parts of the earth, as Basil says of the Red Sea and Egypt, but even at its highest it does not stand above its shores: it is innate to water to level itself and flow down slopes, not to rise in swellings, so a sea heaped above the land would be in a state of violence; rivers run down to it, and ships leaving the shore do not climb.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "water is naturally level"
+    },
+    {
+     "kind": "observation",
+     "detail": "rivers run to the sea; ships do not climb"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Basil of Caesarea",
+     "dates": "c. 330-379",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "126",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=150",
+     "read_from": "ocr",
+     "section": "II q. 3 a. 1"
+    },
+    {
+     "page": "127",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=151",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-068",
+   "question": "tides-in-springs",
+   "text": "G",
+   "stance": "undecided",
+   "between": [
+    "sea-channels",
+    "periodic-rarefaction",
+    "stellar-disposition"
+   ],
+   "part": "open",
+   "statement": "The tide is felt in some springs, wells and lakes, either because they communicate with the sea by secret channels, as Pliny's coastal wells, or because they undergo periodic boilings and rarefactions for unexplored causes, or because they are disposed to receive the stars' impression as the sea is.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Pliny the Elder",
+     "dates": "23/24-79",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "275",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=301",
+     "read_from": "ocr"
+    },
+    {
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=302",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-069",
+   "question": "tides-in-springs",
+   "text": "L",
+   "answer": "sea-channels",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Springs at Cadiz and Bordeaux rise and fall with the sea, and one in Spain the other way about; the cause can be nothing but the sea's own flood, forcing itself into channels under the earth and raising the water with it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "344",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n404/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Causa talis æstus in Fontibus, non in aliud, quam in ipsum maris fluxum refundi potest",
+    "from_image": true,
+    "tr": "The cause of such a tide in springs can be referred to nothing other than the flood of the sea itself"
+   }
+  },
+  {
+   "id": "1675-water-070",
+   "question": "tides-in-springs",
+   "text": "S",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Seneca asks why certain springs are full for six hours and dry for six; the chapter reports such springs among the wonders of waters.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Lucius Annaeus Seneca",
+     "dates": "c. 4 BC-AD 65",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "588",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=606",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-071",
+   "question": "sea-current",
+   "text": "L",
+   "answer": "east-to-west",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The waters of the sea always flow from east to west, as the voyage from Spain to the New World takes thirty days and the return three months.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "sailing times to and from the New World"
+    }
+   ],
+   "cites": [
+    {
+     "page": "364",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n424/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "365",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n425/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Aquæ enim semper ab Oriente in Occidentem fluunt",
+    "from_image": true,
+    "tr": "For the waters always flow from east to west"
+   }
+  },
+  {
+   "id": "1675-water-072",
+   "question": "sea-current",
+   "text": "R",
+   "answer": "local-causes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Currents seen in one sea, now toward the south and now toward the north, come from the great rivers it receives and from strong south winds that hold the waters back.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "152",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=156",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-073",
+   "question": "sea-light",
+   "text": "R",
+   "answer": "salt-sparks",
+   "stance": "holds",
+   "part": "open",
+   "statement": "When the sea is much agitated in hot weather its waves throw out countless sparks at night: some of the most massive and agitated parts of salt break free of the water and dart point-first into the air, carried by the matter of the first element, and push the second element, which makes light; old sea water and brine, whose parts are fouled, give none.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "181",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=185",
+     "read_from": "image",
+     "section": "III.4 arts. XIV-XVII"
+    },
+    {
+     "vol": "2",
+     "page": "182",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=186",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "ses vagues produisent la nuit une infinité d'étincelles dans l'air",
+    "from_image": true,
+    "tr": "its waves produce at night an infinity of sparks in the air"
+   }
+  },
+  {
+   "id": "1675-water-074",
+   "question": "element-change",
+   "text": "R",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "open",
+   "statement": "Against those who think evaporating water changes into air and air into water: a sealed flask of air kept three years under water showed no sensible change, as it would if the transmutation of the elements happened as certain philosophers claim.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the sealed matras"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "172",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=176",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "173",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=177",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-075",
+   "question": "explanation-standard",
+   "text": "R",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Once the true cause of the tide has been found, the same foundation must of necessity satisfy all the other circumstances; the tide is deduced from the pressure of the matter about the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "143",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=147",
+     "read_from": "ocr"
+    },
+    {
+     "vol": "2",
+     "page": "152",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=156",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-076",
+   "question": "explanation-standard",
+   "text": "L",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "To refer the tide to an occult quality is only to confess ignorance; an effect is unknown until shown from its proper cause, which he gives as a pressure of the celestial matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "362",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n422/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-077",
+   "question": "explanation-standard",
+   "text": "S",
+   "answer": "forms-and-qualities",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Whatever is such by another must be reduced to something such of itself: the heat of hot water is traced to fire, saltness to the substance of salt, and the powers of waters to the atoms and minerals they hold.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "583",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=601",
+     "read_from": "ocr"
+    },
+    {
+     "page": "591",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=609",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-078",
+   "question": "explanation-standard",
+   "text": "G",
+   "answer": "forms-and-qualities",
+   "stance": "leans",
+   "part": "why",
+   "statement": "The tide is caused by local motion, the moon acting by her influx; what disposition, place or aspect is needed for such an impression seems to pass human skill.",
+   "confidence": {
+    "level": "possible",
+    "printed": "videtur superare humanam solertiam",
+    "translation": "seems to pass human skill"
+   },
+   "cites": [
+    {
+     "page": "274",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=300",
+     "read_from": "ocr"
+    },
+    {
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=302",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-079",
+   "question": "final-causes",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "God made the sea salt for fish and for sailing, and provided that the lands should stay dry for habitation, giving the sea six hours of flood and six of ebb.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design"
+    }
+   ],
+   "cites": [
+    {
+     "page": "582",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=600",
+     "read_from": "image"
+    },
+    {
+     "page": "587",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=605",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-080",
+   "question": "final-causes",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The sea's saltness was given at creation so that the greatest fish might be nourished and ships borne; the Author of nature made the middle air cold so that vapours might turn to rain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design"
+    }
+   ],
+   "cites": [
+    {
+     "page": "276",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=302",
+     "read_from": "image"
+    },
+    {
+     "page": "129",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=153",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-081",
+   "question": "final-causes",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "No purposes are given in the sections read."
+  },
+  {
+   "id": "1675-water-082",
+   "question": "final-causes",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "No purposes are given in the articles read."
+  },
+  {
+   "id": "1675-water-083",
+   "question": "scripture-nature",
+   "text": "S",
+   "answer": "authority",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The true origin of all waters is the voice of the Lord: God said, let the waters under the heaven be gathered into one place, and called the gathering of the waters seas.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Genesis 1:9-10; Ecclesiastes 1:7"
+    }
+   ],
+   "cites": [
+    {
+     "page": "572",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=590",
+     "read_from": "ocr"
+    },
+    {
+     "page": "573",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=591",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-084",
+   "question": "scripture-nature",
+   "text": "G",
+   "answer": "authority",
+   "stance": "leans",
+   "part": "why",
+   "statement": "Scripture confirms the physical conclusions: the Psalmist on the earth founded on its stability and on the deeps laid up in treasuries, Ecclesiastes on the rivers' return.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "124",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=148",
+     "read_from": "ocr"
+    },
+    {
+     "page": "279",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=305",
+     "read_from": "ocr"
+    },
+    {
+     "page": "280",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=306",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-085",
+   "question": "scripture-nature",
+   "text": "L",
+   "answer": "authority",
+   "stance": "leans",
+   "part": "why",
+   "statement": "The saying of the Wise Man, that all rivers enter the sea and the sea does not overflow, is brought in to support the argument that springs come from the sea.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "340",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n400/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-086",
+   "question": "scripture-nature",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Rohault makes the same argument from the rivers and the sea without citing Scripture (p. 275)."
+  },
+  {
+   "id": "1675-water-087",
+   "question": "earth-motion",
+   "text": "R",
+   "answer": "turns-daily",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The earth's turning brings each part of the ocean under the moon once in about twenty-four hours, which with the opposite point makes two tides a day.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "147",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=151",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-088",
+   "question": "earth-motion",
+   "text": "L",
+   "answer": "turns-daily",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The earth is carried round its own centre in twenty-four hours, so the moon's place over the sea changes every six hours.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "363",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n423/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-089",
+   "question": "earth-motion",
+   "text": "G",
+   "answer": "at-rest",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The whole globe stays unmoved in the centre of the world; the opinion that the earth trembles at a flea's leap is false and ridiculous.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "124",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=148",
+     "read_from": "ocr"
+    },
+    {
+     "page": "125",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=149",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-090",
+   "question": "earth-motion",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Not in the chapter read; the tide follows the moon's daily motion westward (p. 587)."
+  },
+  {
+   "id": "1675-water-091",
+   "question": "heavens-medium",
+   "text": "R",
+   "answer": "fluid-heaven",
+   "stance": "holds",
+   "part": "why",
+   "statement": "A fluid matter surrounds the earth from its surface to beyond the moon and whirls about it, carrying the moon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "144",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=148",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-water-092",
+   "question": "heavens-medium",
+   "text": "L",
+   "answer": "fluid-heaven",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The earth sits in the middle of an elliptical vortex of celestial matter, which carries the moon round it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "362",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n422/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  }
+ ]
+}

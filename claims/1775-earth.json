@@ -1,0 +1,2401 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-earth",
+  "snapshot": "1775",
+  "topic": "earth",
+  "title": "Earth and the bodies drawn from it",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#earth",
+   "version_encoded": "1795380980-7d5f"
+  },
+  "published": "2026-11-17",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the texts, read for this entry; encoded at the same time as the entry was written"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, on earths, stones, salts, inflammables, metals and semimetals. For Paris and Göttingen the texts differ from the other entries under R1 clause 5: Nollet has no lesson on these bodies, so the Paris text is Para du Phanjas; Erxleben's Naturlehre leaves them to his Anfangsgründe der Naturgeschichte, read here. Petrifactions, mountains, strata, earthquakes, volcanoes and the history of the earth are left to the entry on the terraqueous globe; the magnet has its own entry. Not covered: salts and inflammables in detail, each metal in detail, gems, ores and assaying. read_from is 'image' where the page image was read, 'ocr' where only the machine-read text was used. British text from 2026-11-21: Martin's Grammar, Part IV ch. II (pp. 236-258), read from the page images of pp. 236, 239-242, 245-248, 251-253 and 257 and the OCR of pp. 249-250; the OCR of the whole 1778 book searched for phlogiston, platina, transmutation, reduce and revive. The chapter already stands in the 1762 printing (OCR). Martin's strata, interior of the globe and extraneous bodies (pp. 236-239, 257-258) are left to the terraqueous globe entry, and the loadstone (pp. 255-257) to the magnet. The Britannica is supplementary; its claims are unchanged.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Martin, The Philosophical Grammar, London 1778, read from the page images (Bruce's decision of 2026-11-21, after a check of Ferguson: his index has metals only under 'expand by heat' (p. 15) and 'their specific gravities' (p. 158), and nothing on earths, salts or minerals). The Britannica kept as supplementary; its Chemistry and Alchemy are its own (0.1-0.5% shared with Martin 1762 and 1778). New answer codes metals-fire graded and metals-origin seeds. Martin dissents from three common-ground items (quicksilver-solid no; metals-fire graded; calx-reduction and stones-earths not taken up); left for the conventions review."
+  },
+  "conventions_review": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5",
+   "rule": "A common-ground item moves to the disputes when a regional text holds or leans to an answer the item excludes; silence (not taken up, not found) and differences of emphasis do not move it.",
+   "change": "Common-ground item on freezing quicksilver moved to the disputes (new subsection 'Can quicksilver be frozen?' and table row), since Martin holds that it cannot be frozen. Martin's graded fixity of metals and his silence on phlogiston and on stones and earths leave those items in common ground."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part IV, section I, articles I-II, pp. 343-352; article III, p. 353 (platina)"
+  },
+  "E": {
+   "text": "erxleben-naturgeschichte-1773",
+   "parts": "Eleventh section, 'Von dem Mineralreiche', §§664-745, pp. 540-586; condensed preface of the first edition (canvas 16)",
+   "also": {
+    "text": "erxleben-anfangsgruende-1772",
+    "parts": "preface, leaf 15"
+   }
+  },
+  "P": {
+   "text": "para-theorie-1772",
+   "parts": "t. 2, third treatise, fourth section, 'Théorie du règne minéral', §§569-599, pp. 190-233; t. 1, §§128-130 and 146-147, pp. 143-146 and 166-167"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Chemistry (vol. 2, pp. 66-67, 77-78); entry Alchemy (vol. 1, p. 77)",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2 (an encyclopedia). Its Chemistry (vol. 2 leaves 85-86, 96-98) and its entry Alchemy (vol. 1 leaf 108) are its own: 0.1-0.5% of five-word sequences shared with the OCR of Martin's Grammar (1762 and 1778), and the Chemistry 0% with Ferguson's Lectures. Its claims are unchanged."
+  },
+  "M": {
+   "text": "martin-grammar-1778",
+   "parts": "Part IV ('Geology'), ch. II, headed 'Geography, or the Philosophy of the Constitution, Texture, and constituent Parts of the Earth, describing the various Strata's of Earths, Fossils, Minerals, Metals, Stones, and other subterraneous Substances', pp. 236-258; the elements, p. 35"
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Part IV of the particular physics, 'De terra', one section on earth in general and the bodies arising from its combinations, between electricity and meteors; the magnet is its third article, as an ore of iron.",
+   "cites": [
+    {
+     "page": "343",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=353",
+     "read_from": "image"
+    },
+    {
+     "page": "353",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Not in the Naturlehre. The mineral kingdom is the last section of his natural history, which he calls what others name the particular physics of the three kingdoms; he could not think of mineralogy without chemistry.",
+   "cites": [
+    {
+     "page": "pref.",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n15/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "pref.",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=16",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)"
+    },
+    {
+     "page": "540",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=584",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§664"
+    }
+   ]
+  },
+  {
+   "text": "P",
+   "where": "Inside physics: the third treatise, 'Theory of the earth', takes the globe and then its animal, vegetable and mineral kingdoms; the metals also appear in the first volume under chemical affinities. Nollet's Leçons, the Paris text of the other entries, have no lesson on these bodies.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "190",
+     "url": "https://archive.org/details/b30539584_0002/page/n199/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "1",
+     "page": "143",
+     "url": "https://archive.org/details/b30539584_0001/page/n228/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "In the treatise Chemistry, among the principles of bodies (earth) and the saline and metallic substances; the entry Alchemy sends the reader there.",
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    },
+    {
+     "vol": "i",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 108
+     },
+     "entry": "Alchemy"
+    }
+   ]
+  },
+  {
+   "text": "M",
+   "where": "Inside natural philosophy: Part IV of the Grammar, 'Geology', ch. II, on the inside of the globe, its strata and the earthy bodies under seven heads; the loadstone closes the chapter as 'this most wonderful of all Fossils', and extraneous bodies (shells) the last head.",
+   "cites": [
+    {
+     "page": "236",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n293/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "239",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n296/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "255",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n312/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-earth-001",
+   "question": "mineral-classes",
+   "text": "B",
+   "answer": "by-fire-water-acids",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Earth is a hard, friable body that resists fire and dissolves in neither air, water, spirit of wine nor oil; stones are made of it; the other bodies found in the earth fall into four classes: salts, sulphurs, metals and semimetals.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "343",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=353",
+     "read_from": "image"
+    },
+    {
+     "page": "347",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=357",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Corpora haec in 4 classes dispescimus, ad primam classem pertinent salia, ad secundam sulphura, ad tertiam metalla, ad quartam semimetalla.",
+    "from_image": true,
+    "tr": "We divide these bodies into four classes: to the first belong salts, to the second sulphurs, to the third metals, to the fourth semimetals."
+   }
+  },
+  {
+   "id": "1775-earth-002",
+   "question": "mineral-classes",
+   "text": "E",
+   "answer": "by-fire-water-acids",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Careful examination of the minerals shows four principal classes, essentially different: earths, salts, inflammable minerals and metals; most mineral bodies contain particles of several classes at once.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "541-542",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=585",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§668"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-003",
+   "question": "mineral-classes",
+   "text": "P",
+   "answer": "by-fire-water-acids",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The fossils proper to the earth, born in it by juxtaposition and without growth, are metals, stones, salts, sulphurs and bitumens; fossils foreign to the earth once belonged to the animal or vegetable kingdom.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "190",
+     "url": "https://archive.org/details/b30539584_0002/page/n199/mode/1up",
+     "read_from": "image",
+     "section": "§569"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-004",
+   "question": "mineral-classes",
+   "text": "EB",
+   "answer": "by-fire-water-acids",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Chemistry takes earth among the principles of bodies, defined by its fixity in the fire, and then treats saline and metallic substances; inflammability is the sign of phlogiston.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    },
+    {
+     "vol": "ii",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 96
+     },
+     "entry": "Chemistry"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-005",
+   "question": "stones-earths",
+   "text": "B",
+   "answer": "firmness-only",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Bodies that grow together out of earth are called stones; they differ from earth only in density and a firmer binding of the parts, and fall into the same four kinds.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "345",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=355",
+     "read_from": "image",
+     "section": "§252"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Haec enim ab ipsa terra nonnisi densitate, & firmiori plexu partium distinguuntur.",
+    "from_image": true,
+    "tr": "For these are distinguished from earth itself only by density and a firmer binding of the parts."
+   }
+  },
+  {
+   "id": "1775-earth-006",
+   "question": "stones-earths",
+   "text": "E",
+   "answer": "firmness-only",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Where the particles hang together loosely the mineral is called an earth, where firmly a stone; the boundary cannot be given exactly, and the two differ only in a very accidental circumstance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "561",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=605",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§708"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-007",
+   "question": "stones-earths",
+   "text": "P",
+   "answer": "firmness-only",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Stones differ from earths only in the hardness and binding of their parts, so there are as many kinds of stone as of earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "221",
+     "url": "https://archive.org/details/b30539584_0002/page/n230/mode/1up",
+     "read_from": "image",
+     "section": "§589"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "En général, les pierres ne different des terres, que par la dureté & la liaison de leurs parties",
+    "from_image": true,
+    "tr": "In general, stones differ from earths only in the hardness and the binding of their parts"
+   }
+  },
+  {
+   "id": "1775-earth-008",
+   "question": "stones-earths",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The pages of the Chemistry read do not compare stones with earths; the entry Stones was not read."
+  },
+  {
+   "id": "1775-earth-009",
+   "question": "metals-fire",
+   "text": "B",
+   "answer": "perfect-imperfect",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Gold resists fire most of all metals and silver as much; the four other metals, which resist it less, are called imperfect by some.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "350",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=360",
+     "read_from": "image"
+    },
+    {
+     "page": "351",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=361",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Metalla posteriora quatuor, cum actioni ignis haud eadem vi resistant, ac aurum, argentumque metalla imperfecta a nonnullis dicuntur.",
+    "from_image": true,
+    "tr": "The four latter metals, since they do not resist the action of fire with the same force as gold and silver, are called imperfect metals by some."
+   }
+  },
+  {
+   "id": "1775-earth-010",
+   "question": "metals-fire",
+   "text": "E",
+   "answer": "perfect-imperfect",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The noble metals, gold and silver, stay unchanged in the melting fire; the base metals are destroyed by it sooner or later and turned to a calx; the semimetals cannot be hammered and, platina excepted, fly off in the fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "550-551",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=594",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§687"
+    },
+    {
+     "page": "552",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=596",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§690"
+    },
+    {
+     "page": "555",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=599",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§696"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-011",
+   "question": "metals-fire",
+   "text": "P",
+   "answer": "perfect-imperfect",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The perfect metals stay fixed in the longest and most violent fire without loss of weight; the imperfect metals, pushed too far, decompose into calx or glass; the semimetals lack both fixity and malleability.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "1",
+     "page": "143",
+     "url": "https://archive.org/details/b30539584_0001/page/n228/mode/1up",
+     "read_from": "image",
+     "section": "§128"
+    },
+    {
+     "vol": "1",
+     "page": "144",
+     "url": "https://archive.org/details/b30539584_0001/page/n229/mode/1up",
+     "read_from": "image",
+     "section": "§128"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-012",
+   "question": "metals-fire",
+   "text": "EB",
+   "answer": "perfect-imperfect",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Metals are perfect or imperfect: the perfect suffer no damage from the most violent and lasting fire, the imperfect can be deprived by fire of their phlogiston and so of their metalline form.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 96
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The perfect metals are those which suffer no damage or change whatever by the most violent and most lasting action of fire.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-013",
+   "question": "calx-reduction",
+   "text": "B",
+   "answer": "restore-phlogiston",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The friable powder left when a metal is resolved is not taken for pure earth, because with phlogiston, an inflammable body, mixed in it easily returns to metallic form.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "345",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=355",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quod admixto phlogisto, seu corpore inflammabili facile iterum in formam metallicam reducatur",
+    "from_image": true,
+    "tr": "because, when phlogiston or an inflammable body is mixed with it, it is easily brought back again into metallic form"
+   }
+  },
+  {
+   "id": "1775-earth-014",
+   "question": "calx-reduction",
+   "text": "E",
+   "answer": "restore-phlogiston",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Malleability comes from the phlogiston in a metal; take it away and the metal is a calx, give it back and the calx can be hammered again.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "548",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=592",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§682"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-015",
+   "question": "calx-reduction",
+   "text": "P",
+   "answer": "restore-phlogiston",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Chemical fires and solvents take away the metallic properties of the imperfect metals and semimetals by removing their phlogiston, and give them back by bringing back principles like those removed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "232",
+     "url": "https://archive.org/details/b30539584_0002/page/n241/mode/1up",
+     "read_from": "image",
+     "section": "§599"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-016",
+   "question": "calx-reduction",
+   "text": "EB",
+   "answer": "restore-phlogiston",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The calx or glass of a metal recovers all its metalline properties when fused in contact with an inflammable substance that restores its phlogiston; this is called reducing or revivifying the metal.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 96
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "recovers all its metalline properties by being fused in immediate contact with an inflammable substance, capable of restoring the phlogiston of which calcination had deprived it",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-017",
+   "question": "quicksilver-solid",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Purified quicksilver can be made solid and firm only by the greatest cold, which art can increase by pouring acid liquors on crushed ice.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "351",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=361",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "in corpus solidum, firmumque nonnisi gradu frigoris maximo, qui arte quoque, sive affusione liquorum acidorum ad glaciem contritam augetur, converti potest",
+    "from_image": true,
+    "tr": "it can be turned into a solid and firm body only by the greatest degree of cold, which is also increased by art, by pouring acid liquors on crushed ice"
+   }
+  },
+  {
+   "id": "1775-earth-018",
+   "question": "quicksilver-solid",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Quicksilver takes on its hardness only in a very great cold, and so is usually described only in its fluid form.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "552",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=596",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§691"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "nur in einer sehr grossen Kälte seine Härte annimmt",
+    "from_image": true,
+    "tr": "takes on its hardness only in a very great cold"
+   }
+  },
+  {
+   "id": "1775-earth-019",
+   "question": "quicksilver-solid",
+   "text": "P",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Mercury becomes solid, ductile and malleable at an excessive cold made by art with salts mixed with snow, as the experiments at Petersburg in the cold of 25 December 1759 showed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "1",
+     "page": "144-145",
+     "url": "https://archive.org/details/b30539584_0001/page/n229/mode/1up",
+     "read_from": "image",
+     "section": "§128"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-020",
+   "question": "quicksilver-solid",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts of the Chemistry read."
+  },
+  {
+   "id": "1775-earth-021",
+   "question": "earth-kinds",
+   "text": "B",
+   "answer": "several",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Following Pott there are four kinds of earth: calcareous, which effervesces with acids and burns to lime; gypseous, which effervesces with no acid and does not burn to true lime; argillaceous, which resists acids, swells with water and hardens in the fire; and vitrescible, used for glass.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johann Heinrich Pott",
+     "dates": "1692-1777",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "343-344",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=353",
+     "read_from": "image",
+     "section": "§251"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Terrarum quatuor genera statuit celeberrimus Pott",
+    "from_image": true,
+    "tr": "The most celebrated Pott sets four kinds of earth"
+   }
+  },
+  {
+   "id": "1775-earth-022",
+   "question": "earth-kinds",
+   "text": "B",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Gellert thinks earth should be divided into two kinds only: argillaceous, hardened in the fire and not dissolved by acids, and alkaline or calcareous, which burns to lime and dissolves in acids.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Christlieb Ehregott Gellert",
+     "dates": "1713-1795",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "344",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=354",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-023",
+   "question": "earth-kinds",
+   "text": "E",
+   "answer": "several",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Probably the simple earths are four: siliceous, clay, calcareous and alum earth. Gypsum is not among them: vitriolic acid turns calcareous earth into gypsum.",
+   "confidence": {
+    "level": "probable",
+    "printed": "Vermuthlich",
+    "translation": "presumably"
+   },
+   "cites": [
+    {
+     "page": "542",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=586",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§670"
+    },
+    {
+     "page": "542-544",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=586",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§§671-674"
+    },
+    {
+     "page": "545",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=589",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§676"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-024",
+   "question": "earth-kinds",
+   "text": "P",
+   "answer": "several",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There are as many kinds of stone as kinds of earth, in five classes: clayey, calcareous, gypseous, fiery (striking sparks, chiefly the vitrifiable stones) and fusible; the vitrifiable earth is the purest and most elementary.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "221",
+     "url": "https://archive.org/details/b30539584_0002/page/n230/mode/1up",
+     "read_from": "image",
+     "section": "§§589-590"
+    },
+    {
+     "vol": "2",
+     "page": "222-223",
+     "url": "https://archive.org/details/b30539584_0002/page/n231/mode/1up",
+     "read_from": "ocr",
+     "section": "§590"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-025",
+   "question": "earth-kinds",
+   "text": "EB",
+   "stance": "undecided",
+   "between": [
+    "one",
+    "several"
+   ],
+   "part": "dispute",
+   "statement": "Earth is the fixed principle, very hard if not impossible to get pure: the earths drawn from different bodies differ, so either they are impure or they are essentially different. For use it divides earths into vitrifiable and unvitrifiable (absorbent), and allows there may be an earth that no fire can vitrify.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "or else, if those earths be pure, we must allow them to be essentially different, seeing they have different properties",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-026",
+   "question": "quicksilver-metal",
+   "text": "B",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Most count quicksilver among the metals, though it is a fluid, and its specific weight seems to place it there; Biwald's own list of the six metals leaves it out.",
+   "confidence": {
+    "level": "possible",
+    "printed": "metallis adnumerandum videtur",
+    "translation": "it seems it should be counted among the metals"
+   },
+   "cites": [
+    {
+     "page": "350",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=360",
+     "read_from": "image",
+     "section": "§256"
+    },
+    {
+     "page": "351",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=361",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hydrargirum, sive mercurius metallis quoque accenseri a plerisque solet, quamvis corpus fluidum sit. Gravitate specifica ea gaudet, ob quam metallis adnumerandum videtur.",
+    "from_image": true,
+    "tr": "Hydrargyrum, or mercury, is commonly reckoned among the metals too by most, although it is a fluid body. It has a specific weight on account of which it seems it should be counted among the metals."
+   }
+  },
+  {
+   "id": "1775-earth-027",
+   "question": "quicksilver-metal",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Quicksilver is one of the five base metals, with lead, copper, iron and tin.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "552",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=596",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§690"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Es gehören folgende fünf, das Quecksilber, Bley, Kupfer, Eisen und Zinn dahin.",
+    "from_image": true,
+    "tr": "To these belong the following five: quicksilver, lead, copper, iron and tin."
+   }
+  },
+  {
+   "id": "1775-earth-028",
+   "question": "quicksilver-metal",
+   "text": "P",
+   "answer": "class-apart",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Mercury has the two general properties of metallic substances, weight and opacity, but seems to make a class apart: like the perfect metals in purity and weight, like the imperfect in volatility, unlike both in fusibility.",
+   "confidence": {
+    "level": "probable",
+    "printed": "semble",
+    "translation": "seems"
+   },
+   "cites": [
+    {
+     "vol": "1",
+     "page": "144",
+     "url": "https://archive.org/details/b30539584_0001/page/n229/mode/1up",
+     "read_from": "image",
+     "section": "§128"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Le mercure, qui a les deux propriétés générales & fondamentales des substances métalliques, semble faire seul une classe à part.",
+    "from_image": true,
+    "tr": "Mercury, which has the two general and fundamental properties of metallic substances, seems to make a class apart by itself."
+   }
+  },
+  {
+   "id": "1775-earth-029",
+   "question": "quicksilver-metal",
+   "text": "EB",
+   "answer": "class-apart",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There are six metals; some chemists admit quicksilver as a seventh, but as it is not malleable it is generally considered a metallic body of a particular kind.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "78",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 97
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Some chemists admit a seventh metal, viz. quick-silver; but, as it is not malleable, it has been generally considered as a metallic body of a particular kind.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-030",
+   "question": "platina",
+   "text": "B",
+   "answer": "new-metal",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Platina, among the bodies the magnet acts on, is a new kind of metal not yet sufficiently known.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "353",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "platina (novum metalli genus non satis adhuc cognitum.)",
+    "from_image": true,
+    "tr": "platina (a new kind of metal, not yet sufficiently known)"
+   }
+  },
+  {
+   "id": "1775-earth-031",
+   "question": "platina",
+   "text": "E",
+   "answer": "semimetal",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Platina del Pinto is a white, brittle, very hard-to-melt semimetal, not yet sufficiently known, much like gold; whether it is really a semimetal of its own is not yet quite settled. The titles he cites call it white gold, the seventh and the eighth metal.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "555-556",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=599",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§697"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Es ist indessen noch nicht ganz gewiß ausgemacht, ob sie wirklich ein eignes Halbmetall ist.",
+    "from_image": true,
+    "tr": "It is, however, not yet quite certainly settled whether it is really a semimetal of its own."
+   }
+  },
+  {
+   "id": "1775-earth-032",
+   "question": "platina",
+   "text": "P",
+   "answer": "perfect-metal",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Gold, silver and platina are the three perfect metals.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "1",
+     "page": "143",
+     "url": "https://archive.org/details/b30539584_0001/page/n228/mode/1up",
+     "read_from": "image",
+     "section": "§128"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "L'or, l'argent, la platine, sont les trois métaux parfaits.",
+    "from_image": true,
+    "tr": "Gold, silver and platina are the three perfect metals."
+   }
+  },
+  {
+   "id": "1775-earth-033",
+   "question": "platina",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Platina was not found in the parts of the Britannica read."
+  },
+  {
+   "id": "1775-earth-034",
+   "question": "metal-composition",
+   "text": "B",
+   "answer": "earth-phlogiston-mercurial",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "The chemists set three further kinds of earth, mercurial, inflammable and vitrescent, and think them the principles of all metals; but Boerhaave contends at length that these earths are not found in metals however they are divided or dissolved. Biwald does not decide.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "344-345",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=354",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Has omnium metallorum principia esse existimant. Verum multis contendit Doctissimus Boerhaave, in metallis qualibet ratione divisis, aut solutis has terrarum species haud reperiri.",
+    "from_image": true,
+    "tr": "They think these the principles of all metals. But the most learned Boerhaave contends at length that these kinds of earth are not found in metals, however divided or dissolved."
+   }
+  },
+  {
+   "id": "1775-earth-035",
+   "question": "metal-composition",
+   "text": "E",
+   "answer": "earth-phlogiston-mercurial",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Metals are already mixed bodies: chemistry shows they consist of an earth, phlogiston, and in all probability a so-called mercurial principle, which may be what first makes them metals.",
+   "confidence": {
+    "level": "probable",
+    "printed": "aller Wahrscheinlichkeit nach",
+    "translation": "in all probability"
+   },
+   "cites": [
+    {
+     "page": "547",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=591",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§681"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Die Chemie belehrt uns in Ansehung ihrer weiter, und zeigt, daß sie aus einer Erde, brennbarem Wesen, und ausserdem aller Wahrscheinlichkeit nach noch aus einem sogenannten mercurialischen Wesen (principium mercuriale, arsenicale) bestehen, welches letztere sie eigentlich wohl erst zu Metallen machen möchte.",
+    "from_image": true,
+    "tr": "Chemistry teaches us further about them, and shows that they consist of an earth, the inflammable essence, and besides that, in all probability, of a so-called mercurial essence (principium mercuriale, arsenicale), which last may be what properly first makes them metals."
+   }
+  },
+  {
+   "id": "1775-earth-036",
+   "question": "metal-composition",
+   "text": "P",
+   "answer": "earth-phlogiston",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The imperfect metals and the semimetals are mixts that fire decomposes; their constituent parts are chiefly phlogiston and elementary earth, which stripped of phlogiston is reduced to sand fit to become calx and glass.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "1",
+     "page": "145-146",
+     "url": "https://archive.org/details/b30539584_0001/page/n230/mode/1up",
+     "read_from": "image",
+     "section": "§130"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Ces parties constituantes sont principalement & le phlogistique & la terre élémentaire.",
+    "from_image": true,
+    "tr": "These constituent parts are chiefly both phlogiston and elementary earth."
+   }
+  },
+  {
+   "id": "1775-earth-037",
+   "question": "metal-composition",
+   "text": "P",
+   "answer": "earth-phlogiston",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "It is not improbable that the perfect metals too have chiefly phlogiston and elementary earth for their constituent parts, which the hottest furnaces cannot separate; their integrant parts seem indestructible.",
+   "confidence": {
+    "level": "possible",
+    "printed": "Il n'est pas improbable",
+    "translation": "It is not improbable"
+   },
+   "cites": [
+    {
+     "vol": "1",
+     "page": "145",
+     "url": "https://archive.org/details/b30539584_0001/page/n230/mode/1up",
+     "read_from": "image",
+     "section": "§129"
+    },
+    {
+     "vol": "1",
+     "page": "146",
+     "url": "https://archive.org/details/b30539584_0001/page/n231/mode/1up",
+     "read_from": "image",
+     "section": "§130"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Il n'est pas improbable que les métaux parfaits aient aussi principalement pour parties constituantes, le phlogistique & la terre élémentaire, que l'action des fourneaux les plus ardens ne peut désunir & décomposer.",
+    "from_image": true,
+    "tr": "It is not improbable that the perfect metals too have chiefly for constituent parts phlogiston and elementary earth, which the action of the hottest furnaces cannot disunite and decompose."
+   }
+  },
+  {
+   "id": "1775-earth-038",
+   "question": "metal-composition",
+   "text": "EB",
+   "answer": "earth-phlogiston-mercurial",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Metallic substances consist chiefly of a vitrifiable earth united with phlogiston; several chemists, after Becher and Stahl, add a third principle, a mercurial earth, not yet demonstrated by any decisive experiment, but with pretty strong reasons for admitting it.",
+   "confidence": {
+    "level": "probable",
+    "printed": "pretty strong reasons for admitting it"
+   },
+   "persons": [
+    {
+     "name": "Johann Joachim Becher",
+     "dates": "1635-1682",
+     "role": "reported"
+    },
+    {
+     "name": "Georg Ernst Stahl",
+     "dates": "1659-1734",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 96
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The existence of this principle hath not yet been demonstrated by any decisive experiment; but we shall shew that there are pretty strong reasons for admitting it.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-039",
+   "question": "minerals-forming",
+   "text": "B",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Stones can be produced from earthy particles joined by a petrifying juice; stalactites grow in caves as water laden with calcareous earth evaporates. Biwald sets aside the origin of stones at length for brevity and says nothing of how metals form.",
+   "confidence": {
+    "level": "possible",
+    "printed": "progigni posse",
+    "translation": "can be produced"
+   },
+   "cites": [
+    {
+     "page": "345-346",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=355",
+     "read_from": "ocr"
+    },
+    {
+     "page": "347",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=357",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-040",
+   "question": "metals-origin",
+   "text": "B",
+   "answer": "petrifying-juice",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Stones may be produced from earthy particles firmly joined by the help of a fluid commonly called the petrifying juice, or sometimes without it, by a change in the shape, size and distances of the particles.",
+   "confidence": {
+    "level": "possible",
+    "printed": "progigni posse",
+    "translation": "can be produced"
+   },
+   "cites": [
+    {
+     "page": "347",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=357",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "ex particulis terreis concrescentibus, & fluidi cuiuspiam, quod vulgo succum lapidificum vocant, ope firmiter coniunctis lapides progigni posse",
+    "from_image": true,
+    "tr": "stones can be produced from earthy particles growing together and firmly joined by the help of some fluid, which is commonly called the petrifying juice"
+   }
+  },
+  {
+   "id": "1775-earth-041",
+   "question": "minerals-grow",
+   "text": "B",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Whether stones and metals grow like plants was not found in the parts read."
+  },
+  {
+   "id": "1775-earth-042",
+   "question": "minerals-grow",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Minerals are not organized, so there is no generation proper among them, still less a seed or anything like one.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "567",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=611",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§722"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-043",
+   "question": "minerals-forming",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Daily experience shows that new minerals are always arising and perishing: water dissolves, carries and deposits them, air weathers them, and underground fire changes them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "daily experience"
+    }
+   ],
+   "cites": [
+    {
+     "page": "567-568",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=611",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§722"
+    },
+    {
+     "page": "569-572",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=613",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§§725-731"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "so kann doch das nicht in Zweifel gezogen werden, was die tägliche Erfahrung lehrt, daß neue Mineralien wirklich beständig entstehen und untergehen",
+    "from_image": true,
+    "tr": "yet what daily experience teaches cannot be doubted, that new minerals really are always arising and perishing"
+   }
+  },
+  {
+   "id": "1775-earth-044",
+   "question": "metals-origin",
+   "text": "E",
+   "answer": "mineral-vapours",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "The mineral vapours (Schwaden) perhaps do most to generate the metals, mixing and joining their constituent parts, and settling the metal in softer stones and earths, which become its matrices, or on the surface of harder ones.",
+   "confidence": {
+    "level": "possible",
+    "printed": "vielleicht",
+    "translation": "perhaps"
+   },
+   "cites": [
+    {
+     "page": "572",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=616",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§730"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Insbesondere tragen diese Schwaden zur Erzeugung der Metalle vielleicht das Mehreste bey",
+    "from_image": true,
+    "tr": "In particular these vapours perhaps contribute most to the generation of the metals"
+   }
+  },
+  {
+   "id": "1775-earth-045",
+   "question": "minerals-grow",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A mineral has nothing in common with the organization of animals and plants; it is formed by coagulation and juxtaposition, without any growth from within.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "190",
+     "url": "https://archive.org/details/b30539584_0002/page/n199/mode/1up",
+     "read_from": "image",
+     "section": "§569"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "qui se forme par coagulation & par juxta-position, sans aucune végétation intrinseque",
+    "from_image": true,
+    "tr": "which is formed by coagulation and by juxtaposition, without any intrinsic growth"
+   }
+  },
+  {
+   "id": "1775-earth-046",
+   "question": "metals-origin",
+   "text": "P",
+   "answer": "juxtaposition",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Gold, silver and platina seem to form only by the simple juxtaposition of integrant parts that have existed from the beginning, carried and heaped up by fluids, with no new integrant parts formed.",
+   "confidence": {
+    "level": "probable",
+    "printed": "semblent",
+    "translation": "seem"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "230",
+     "url": "https://archive.org/details/b30539584_0002/page/n239/mode/1up",
+     "read_from": "image",
+     "section": "§598"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-047",
+   "question": "minerals-forming",
+   "text": "P",
+   "answer": "base-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since the fires and solvents under the earth are no stronger than the chemist's, which have never composed or decomposed gold, silver or platina, it is likely that every part of these that exists today has existed since the beginning of time. Para calls the question curious but hard to solve, since experience alone could decide it.",
+   "confidence": {
+    "level": "probable",
+    "printed": "il est vraisemblable",
+    "translation": "it is likely"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "underground fires and solvents compared with the chemist's furnaces"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "230",
+     "url": "https://archive.org/details/b30539584_0002/page/n239/mode/1up",
+     "read_from": "image",
+     "section": "§597-598"
+    },
+    {
+     "vol": "2",
+     "page": "231",
+     "url": "https://archive.org/details/b30539584_0002/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "§598"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Donc il est vraisemblable que toutes les parties de ces minéraux, qui existent aujourd'hui, ont existé dès le commencement des tems.",
+    "from_image": true,
+    "tr": "Therefore it is likely that all the parts of these minerals that exist today have existed since the beginning of time."
+   }
+  },
+  {
+   "id": "1775-earth-048",
+   "question": "metals-origin",
+   "text": "P",
+   "answer": "fire-and-solvents",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Among the destructible minerals, imperfect metals, semimetals, stones and inflammable fossils, the underground fires and solvents form new combinations that continually destroy and renew some of them, as the lavas of volcanoes show.",
+   "confidence": {
+    "level": "probable",
+    "printed": "Il est vraisemblable",
+    "translation": "It is likely"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "232-233",
+     "url": "https://archive.org/details/b30539584_0002/page/n241/mode/1up",
+     "read_from": "image",
+     "section": "§599"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Il est vraisemblable que parmi les minéraux destructibles & altérables, tels que les métaux imparfaits, les demi-métaux, les pierres de toute espece, les divers fossiles bitumineux & inflammables, il se forme dans la nature, de nouvelles combinaisons, qui détruisent & renouvellent sans cesse une partie de ces substances minérales dans leurs parties intégrantes & constituantes.",
+    "from_image": true,
+    "tr": "It is likely that among the destructible and alterable minerals, such as the imperfect metals, the semimetals, stones of every kind, and the various bituminous and inflammable fossils, new combinations form in nature, which continually destroy and renew a part of these mineral substances in their integrant and constituent parts."
+   }
+  },
+  {
+   "id": "1775-earth-049",
+   "question": "minerals-forming",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts of the Britannica read."
+  },
+  {
+   "id": "1775-earth-050",
+   "question": "metals-origin",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts of the Britannica read."
+  },
+  {
+   "id": "1775-earth-051",
+   "question": "minerals-grow",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts of the Britannica read."
+  },
+  {
+   "id": "1775-earth-052",
+   "question": "metal-transmutation",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There is little light or reason in the alchemists who spend their time and fortune seeking the philosopher's stone: the experience of so many centuries shows it is not given to men, and the stability of nature, decreed by the Creator, makes such a change absolutely impossible to any created agent, since the elements of bodies are indestructible.",
+   "confidence": {
+    "level": "certain",
+    "printed": "absolument impossible",
+    "translation": "absolutely impossible"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the experience of so many centuries of failed attempts"
+    },
+    {
+     "kind": "design",
+     "detail": "the stability of nature decreed by the Creator"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "the first elements of matter are indestructible"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "1",
+     "page": "166",
+     "url": "https://archive.org/details/b30539584_0001/page/n251/mode/1up",
+     "read_from": "image",
+     "section": "§147"
+    },
+    {
+     "vol": "1",
+     "page": "167",
+     "url": "https://archive.org/details/b30539584_0001/page/n252/mode/1up",
+     "read_from": "image",
+     "section": "§147"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "la stabilité de la nature, stabilité décernée par le Créateur, exige nécessairement qu'une telle métamorphose soit absolument impossible à tous les efforts des agens créés",
+    "from_image": true,
+    "tr": "the stability of nature, a stability decreed by the Creator, necessarily requires that such a metamorphosis be absolutely impossible to all the efforts of created agents"
+   }
+  },
+  {
+   "id": "1775-earth-053",
+   "question": "metal-transmutation",
+   "text": "EB",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Alchemy is the branch of chemistry whose chief objects were the transmutation of metals into gold, the panacea, the universal solvent and the universal ferment, and many other things equally ridiculous.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "i",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 108
+     },
+     "entry": "Alchemy"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "ALCHEMY, that branch of chemistry which had for its principal objects the transmutation of metals into gold; the panacea, or universal remedy; an alkahest, or universal menstruum; an universal ferment; and many other things equally ridiculous.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-054",
+   "question": "metal-transmutation",
+   "text": "B",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts read."
+  },
+  {
+   "id": "1775-earth-055",
+   "question": "metal-transmutation",
+   "text": "E",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts read."
+  },
+  {
+   "id": "1775-earth-056",
+   "question": "mineral-classes",
+   "text": "E",
+   "answer": "by-fire-water-acids",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Only the examination of the mixture of minerals gives knowledge of them worth the name, and chemistry is its only key; outer shape, arrangement of particles and colour are often accidental. He could not think of mineralogy without chemistry, and so had to treat the mineral kingdom on a plan wholly different from the animal and vegetable kingdoms.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "541",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=585",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§667"
+    },
+    {
+     "page": "pref.",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=16",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Nur die Untersuchung der Mischung der Mineralien (§. 665) führt zu der pragmatischen nützlichen Mineralkenntniß, die man eigentlich nur allein Kenntniß der Mineralien nennen darf, zu welcher folglich die Chemie den einzigen Schlüssel abgiebt.",
+    "from_image": true,
+    "tr": "Only the examination of the mixture of the minerals (§665) leads to the practical, useful knowledge of minerals that alone deserves the name, to which chemistry consequently gives the only key."
+   }
+  },
+  {
+   "id": "1775-earth-057",
+   "question": "four-elements",
+   "text": "EB",
+   "answer": "loosely",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Chemical analysis is finite and stops at substances it cannot change; earth, water, air and fire are the principal of these, and though they are perhaps not the simplest elements, it is more reasonable to take them as the principles than to spend the mind on conjectures about their parts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "66",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 85
+     },
+     "entry": "Chemistry"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-058",
+   "question": "metal-composition",
+   "text": "EB",
+   "answer": "earth-phlogiston-mercurial",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The reason for a third principle: phlogiston gives metallic form only to earths that were once part of a metal, and phlogiston with sand makes nothing like a metal; long calcination leaves a calx that phlogiston can no longer revive.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "phlogiston with sand gives no metal; over-calcined calxes cannot be revived"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "77",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 96
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a compound cannot be made with the phlogiston and sand that shall have the least resemblance of a metal",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-059",
+   "question": "earth-kinds",
+   "text": "B",
+   "answer": "several",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Justi claims that gypseous earth effervesces with acids, but the specimens of gypsum in the physics museum of the Graz college, tried with acids of every kind, showed no trace of effervescence.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "gypsum specimens in the Graz college museum tried with acids"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Justi"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Johann Heinrich Gottlob von Justi",
+     "dates": "1717-1771",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "344",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=354",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Contendit quidem Cl. Iusti, terram gypseam cum acidis effervescere, verum specimina gypsi varia, quae in Musaeo physico Graecensis Collegii asservantur, omnis generis liquoribus acidis explorata, nullum effervescentiae vestigium praebuere.",
+    "from_image": true,
+    "tr": "The celebrated Justi does claim that gypseous earth effervesces with acids; but various specimens of gypsum kept in the physics museum of the College of Graz, tried with acid liquors of every kind, showed no trace of effervescence."
+   }
+  },
+  {
+   "id": "1775-earth-060",
+   "question": "metals-origin",
+   "text": "E",
+   "answer": "alkaline-salt",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Justi's new mineralizing agent, the alkaline salt, is a nonsense; gold, silver, quicksilver and platina are never truly mineralized.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johann Heinrich Gottlob von Justi",
+     "dates": "1717-1771",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "565",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=609",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§717"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Des Hrn. von Justi neues Vererzungsmittel, das kalische Salz, ist ein Unding.",
+    "from_image": true,
+    "tr": "Herr von Justi's new mineralizing agent, the alkaline salt, is a nonsense."
+   }
+  },
+  {
+   "id": "1775-earth-061",
+   "question": "minerals-forming",
+   "text": "P",
+   "answer": "base-only",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Some physicists have made vain systems to form the globe mechanically; that abuses physics, which should no more seek a mechanism in the first forming of the globe than in that of air, water or light: from the start the globe had all the kinds of earths, metals, stones, plants and animals it has now, and physics asks only what changes the physical laws have since worked on them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "the first forming of the globe is the work of an uncreated, creating Being"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "229",
+     "url": "https://archive.org/details/b30539584_0002/page/n238/mode/1up",
+     "read_from": "image",
+     "section": "§597"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "C'est, ce me semble, abuser de la physique, laquelle ne doit pas plus chercher de méchanisme dans la formation primitive du globe terrestre, que dans la formation primitive de l'air, de l'eau, de la lumiere, des globes célestes",
+    "from_image": true,
+    "tr": "That is, it seems to me, to abuse physics, which ought no more to seek a mechanism in the first forming of the terrestrial globe than in the first forming of air, water, light, or the heavenly globes"
+   }
+  },
+  {
+   "id": "1775-earth-062",
+   "question": "earths-origin",
+   "text": "E",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Calcareous earth perhaps owes its origin to shellfish and corals alone; clay arises, after Buffon, from the destruction of siliceous earth, after others from plants dissolved by putrefaction; alum earth perhaps also from destroyed plants.",
+   "confidence": {
+    "level": "possible",
+    "printed": "vielleicht",
+    "translation": "perhaps"
+   },
+   "persons": [
+    {
+     "name": "Georges-Louis Leclerc, comte de Buffon",
+     "dates": "1707-1788",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "543",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=587",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§§672-673"
+    },
+    {
+     "page": "544",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=588",
+     "read_from": "ocr",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§674"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Sie hat ihren Ursprung vielleicht allein den Schaalthieren und Korallen zu danken.",
+    "from_image": true,
+    "tr": "It perhaps owes its origin to shellfish and corals alone."
+   }
+  },
+  {
+   "id": "1775-earth-063",
+   "question": "earths-origin",
+   "text": "P",
+   "answer": "reverse",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Some naturalists derive the whole class of calcareous stones from heaps of petrified shells; it would perhaps be more natural to say that the shells are themselves made of a substance like that which forms calcareous stones in the earth.",
+   "confidence": {
+    "level": "possible"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "222",
+     "url": "https://archive.org/details/b30539584_0002/page/n231/mode/1up",
+     "read_from": "ocr",
+     "section": "§590"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-064",
+   "question": "divining-rod",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Charlatans and the ignorant look for mines with the divining rod, a chimerical means no fitter for finding mines and springs than for finding thieves; physicists suspect a mine from spar or quartz and sickly plants on the ground, and only digging decides.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "192",
+     "url": "https://archive.org/details/b30539584_0002/page/n201/mode/1up",
+     "read_from": "image",
+     "section": "§570"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Les charlatans & les ignorans cherchent les mines par le moyen de la baguette divinatoire: moyen chimérique, qui n'est pas plus propre à découvrir les mines & les sources, qu'à faire connoître les voleurs & les receleurs.",
+    "from_image": true,
+    "tr": "Charlatans and the ignorant look for mines by means of the divining rod: a chimerical means, no fitter for discovering mines and springs than for making known thieves and receivers of stolen goods."
+   }
+  },
+  {
+   "id": "1775-earth-065",
+   "question": "potable-gold",
+   "text": "P",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "No medical virtue has yet been found in gold: potable gold cannot relieve the patient who swallows it, since nothing in the human body can dissolve it, and gold dissolved in acids is a corrosive.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "196",
+     "url": "https://archive.org/details/b30539584_0002/page/n205/mode/1up",
+     "read_from": "image",
+     "section": "§571"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "L'or potable peut embellir une couleur; mais il ne peut procurer aucun soulagement au malade qui l'avale",
+    "from_image": true,
+    "tr": "Potable gold may brighten a colour, but it can bring no relief to the sick man who swallows it"
+   }
+  },
+  {
+   "id": "1775-earth-066",
+   "question": "borax-origin",
+   "text": "B",
+   "answer": "made",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Whether borax, brought chiefly from Egypt and refined in Holland, is a work of nature or of art is still uncertain to physicists; recent reports say it is made by art.",
+   "confidence": {
+    "level": "possible"
+   },
+   "cites": [
+    {
+     "page": "349",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=359",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-067",
+   "question": "chalk-flint",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "chalk-from-flint",
+    "flint-from-chalk"
+   ],
+   "part": "open",
+   "statement": "Does chalk perhaps arise from flint by weathering, or does chalk turn into flint with time?",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "572",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page=616",
+     "read_from": "image",
+     "work": "Anfangsgründe der Naturgeschichte (1773)",
+     "section": "§730"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Entsteht vielleicht auch aus dem Feuersteine durch eine Verwitterung die Kreide? oder geht diese mit der Zeit in ienen über?",
+    "from_image": true,
+    "tr": "Does chalk perhaps also arise from flint by weathering? Or does chalk pass with time into flint?"
+   }
+  },
+  {
+   "id": "1775-earth-068",
+   "question": "mineral-classes",
+   "text": "M",
+   "answer": "by-fire-water-acids",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The master reduces earthy bodies to seven heads: earths, ores, fossils (salts and sulphurs), minerals, metals, stones and extraneous bodies. Minerals are fossils that neither burn, stretch nor melt and that fire turns to a calx; a metal melts in the fire and spreads under the hammer. A note gives Boerhaave's division into simple fossils (metals, salts, stones, earths) and compound ones (sulphurs, semimetals or minerals).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    },
+    {
+     "name": "Nicolas Lemery",
+     "dates": "1645-1715",
+     "role": "followed",
+     "note": "his definition of salt, p. 241"
+    }
+   ],
+   "cites": [
+    {
+     "page": "239",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n296/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "240",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n297/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "241",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n298/mode/1up",
+     "read_from": "image",
+     "section": "note"
+    },
+    {
+     "page": "245",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n302/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "246",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n303/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "They may be reduced to those general Heads: 1. Earths. 2. Ores. 3. Fossils. 4. Minerals. 5. Metals. 6. Stones. 7. Extraneous Bodies or Substances.",
+    "from_image": true
+   },
+   "note": "The code fits the classes he shares with the other texts (earths and stones, salts, sulphurs, metals and minerals); he adds ores and extraneous bodies, and his minerals take in chalk and coal with bismuth, antimony and cinnabar."
+  },
+  {
+   "id": "1775-earth-069",
+   "question": "stones-earths",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Martin does not compare stones with earths. Of the stones he describes, marble arises from an earthy juice concocted in the great laboratory of the earth, flint from the pellucid particles of sand compacted and hardened; crystal, after Cardan, is of an aqueous substance.",
+   "cites": [
+    {
+     "page": "252",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n309/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "253",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n310/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-070",
+   "question": "metals-fire",
+   "text": "M",
+   "answer": "graded",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The metals stand in a scale of fixity: gold is the most fixed and loses the least in the fire, silver comes next, copper is more fixed than lead or tin, iron very fixed in its metalline part, and tin least fixed of all, so that it loses most of its weight. He does not divide them into perfect and imperfect, though he speaks once of 'the most perfect of Metals' (p. 252).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n304/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "249",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n306/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "250",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n307/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "251",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n308/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "It is the most fixed and pure, or loses the least in the Fire, of any Bodies.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-071",
+   "question": "calx-reduction",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "No phlogiston and no bringing of a calx back to metal (OCR of the whole book searched for phlogiston, reduce and revive). A calx is only what fire makes of the minerals, of coal and of the loadstone.",
+   "cites": [
+    {
+     "page": "245",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n302/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "246",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n303/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-earth-072",
+   "question": "quicksilver-solid",
+   "text": "M",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Seventh of the characters of mercury: by reason of its great fluidity it cannot be congealed or frozen, though of all fluids it bears the greatest cold and heat. The list stands unchanged in the 1762 printing (OCR).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "248",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n305/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "It is yet, by Reason of its great Fluidity, incapable of congealing or freezing.",
+    "from_image": true
+   },
+   "note": "The opposite of the other three texts, which cite the Petersburg experiments of December 1759 (Para) or teach the congelation without date."
+  },
+  {
+   "id": "1775-earth-073",
+   "question": "earth-kinds",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Martin names no simple earths and no elementary earth. His first head takes in the softer earthy substances, clay, loam, marl, sand and medicinal earths such as Terra Japonica, Lemnia and Armenia; they differ because their first particles have the universal and specific properties in different degrees, 'and this is the most that can be known of this Matter'. His only elements are the first particles of matter (p. 35).",
+   "cites": [
+    {
+     "page": "240",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n297/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n46/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "and this is the most that can be known of this Matter",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-074",
+   "question": "quicksilver-metal",
+   "text": "M",
+   "answer": "class-apart",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The bodies that fit the definition of a metal in every part are but six; the chemists add quicksilver, though it seems to be a peculiar species of simple fossil. He then gives its characters second, after gold's, among the metals.",
+   "confidence": {
+    "level": "probable",
+    "printed": "it seems to be"
+   },
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n304/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "248",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n305/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "to which the Chymists add Mercury or Quicksilver, tho' it seems to be of itself a peculiar Species of Simple Fossils.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-075",
+   "question": "platina",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Platina is not mentioned (OCR of the whole book searched for platina, platinum and white gold)."
+  },
+  {
+   "id": "1775-earth-076",
+   "question": "metal-composition",
+   "text": "M",
+   "answer": "sulphur-mercury",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The principles of metals are reckoned two, mercury as the matter of the metal and sulphur as the binder that fixes it and makes it malleable. The mercury is common quicksilver at its purest; the sulphur is not common sulphur but the 'sulphur of metal', supposed to be the matter of light or fire, and the degree of its union with the mercury makes the different metals. A burning glass will separate a vitrifiable earth from the most perfect metals. A note gives Boerhaave's principles of all fossils: mercury, a subtle sulphur, salt and earth.",
+   "confidence": {
+    "level": "asserted",
+    "printed": "are reckoned two",
+    "note": "the sulphur of metal 'is supposed to be' the matter of light or fire"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "251",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n308/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "252",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n309/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "246",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n303/mode/1up",
+     "read_from": "image",
+     "section": "note"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The Elementary or Component Principles of Metals are reckoned two, viz. Mercury and Sulphur",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-077",
+   "question": "minerals-forming",
+   "text": "M",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Minerals, metals and stones grow in the earth: mines emptied of stone and metal have after a while recruited again, and stony icicles are daily seen engendered from petrifying juices in great caves, as the master has seen at Okey Hole in Somerset.",
+   "confidence": {
+    "level": "certain",
+    "printed": "Undoubtedly"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "mines that recruit again; stalactites at Okey Hole, seen by the master himself"
+    }
+   ],
+   "cites": [
+    {
+     "page": "257",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n314/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "it is well known that divers Mines, when emptied of Stone, Metal, &c. have, after a while, recruited again",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-078",
+   "question": "minerals-grow",
+   "text": "M",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Asked whether minerals, metals and stones grow in the earth, the master answers 'Undoubtedly'. The earth was enriched with 'the Seeds' of the metals by the Creator, and mountains seem designed as matrices for the generation and maturation of minerals and metals.",
+   "confidence": {
+    "level": "certain",
+    "printed": "Undoubtedly"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "mines that recruit again"
+    },
+    {
+     "kind": "design",
+     "detail": "mountains as matrices; seeds put in the earth for the uses of mankind"
+    }
+   ],
+   "cites": [
+    {
+     "page": "257",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n314/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "240",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n297/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "A. Do Minerals, Metals, Stones, &c. grow in the Earth? B. Undoubtedly",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-079",
+   "question": "metals-origin",
+   "text": "M",
+   "answer": "seeds",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The earth was enriched with the seeds of the metallic substances 'No doubt by the all-wise Creator, for the manifold Uses of Mankind'; mountains are the matrices in which minerals and metals are generated and matured.",
+   "confidence": {
+    "level": "certain",
+    "printed": "No doubt"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "for the manifold uses of mankind"
+    }
+   ],
+   "cites": [
+    {
+     "page": "240",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n297/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "257",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n314/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "No doubt by the all-wise Creator, for the manifold Uses of Mankind.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-080",
+   "question": "metals-origin",
+   "text": "M",
+   "answer": "petrifying-juice",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Stones form from juices: marble from an earthy juice well purged, concocted and digested in the great laboratory of the earth; stalactites from the exudations of petrifying juices; flint from particles of sand compacted and hardened.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "252",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n309/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "253",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n310/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "257",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n314/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "arising from an earthy Juice, well purged, concocted, and digested in the great Laboratory of the Earth",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-earth-081",
+   "question": "metal-transmutation",
+   "text": "M",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not raised: no transmutation of metals, alchemy or philosopher's stone (OCR of the whole book searched; 'Transmutation' occurs only of insects)."
+  },
+  {
+   "id": "1775-earth-082",
+   "question": "borax-origin",
+   "text": "M",
+   "answer": "natural",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Borax is 'a green-coloured mineral Salt, found in the Veins of Brass, Silver, or Gold Ore', without Biwald's doubt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "242",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n299/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Borax, a green-coloured mineral Salt, found in the Veins of Brass, Silver, or Gold Ore.",
+    "from_image": true
+   }
+  }
+ ]
+}

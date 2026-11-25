@@ -1,0 +1,1611 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-motion",
+  "snapshot": "1775",
+  "topic": "motion",
+  "title": "Motion and the balance of forces",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#motion",
+   "version_encoded": "1795043801-d74b"
+  },
+  "published": "2026-11-14",
+  "repaired": "2026-11-15",
+  "encoded": {
+   "date": "2026-11-16",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, on the principles of motion. Not yet read: pendulum, inclined plane, projectiles, central forces, the machines; Biwald pp. 95-162 in detail; Erxleben §§49-78; Nollet on collision and the machines; the rest of Ferguson's Lectures II and III.",
+  "revised": {
+   "date": "2026-11-18",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary"
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-generalis-1769",
+   "parts": "Part I sections II-III, pp. 95-162; Part II art. IV from p. 185 and art. VIII pp. 271-286; preface to the 2nd ed."
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 3, Von der Bewegung, §§28-80, pp. 35-68"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 1, Lesson III from p. 177; Lesson IV from p. 259"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture I, Of matter and its properties, pp. 1-18; Lecture II, Of central forces, from p. 19; Lecture III, Of the mechanical powers, from p. 47; one passage of the lecture on hydrostatics, p. 106"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Mechanics, vol. 3 from p. 32; entry Inertia, vol. 2 p. 840",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its treatise Mechanics reprints Ferguson's Lectures I-III nearly word for word (see texts.json), so claims from Mechanics are Ferguson's words. The entry Inertia is the Britannica's own."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Twice: in Part I with the plain rules of motion, balance, collision and machines; in Part II, on forces between points, for contact and inertia",
+   "cites": [
+    {
+     "page": "95-162",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=117"
+    },
+    {
+     "page": "273",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=295"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Third section, after bodies in general and before gravity",
+   "cites": [
+    {
+     "page": "35",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n61/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "Lessons III and IV, with experiments on hanging balls",
+   "cites": [
+    {
+     "page": "179",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n312/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "Inactivity among the properties of matter in Lecture I; the laws of motion at the head of Lecture II, on central forces; the quantity of motion as 'the foundation of all mechanics' at the head of Lecture III, on the mechanical powers",
+   "cites": [
+    {
+     "page": "2",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n15/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "19",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n36/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "47",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n68/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "Inside the treatise Mechanics, with the properties of matter and central forces (Ferguson's Lectures I-III, reprinted)",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-motion-001",
+   "question": "motion-quantity",
+   "text": "E",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Motions are as the products of masses into velocities, and forces compare the same way, being proportional to their effects.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "forces are proportional to their effects"
+    }
+   ],
+   "cites": [
+    {
+     "page": "42",
+     "section": "§40",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n68/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-002",
+   "question": "motion-quantity",
+   "text": "B",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "From the beginning of the world the quantity of motion was reckoned as mass times velocity; the momentum of balanced forces is the absolute force times the initial velocity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "reckoned so from the beginning of the world"
+    }
+   ],
+   "cites": [
+    {
+     "page": "112-113",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=134",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-003",
+   "question": "motion-quantity",
+   "text": "EB",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The momentum of a moving body is its quantity of matter multiplied by its velocity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "43",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 58
+     },
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the whole momentum or quantity of force of a moving body is the result of its quantity of matter multiplied by the velocity with which it is moved.",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 2, 47-48)"
+  },
+  {
+   "id": "1775-motion-004",
+   "question": "motion-quantity",
+   "text": "N",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nollet says the force of a moving body had always been thought to be its mass times its velocity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "always thought so"
+    }
+   ],
+   "cites": [
+    {
+     "page": "198-199",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n333/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-005",
+   "question": "balance",
+   "text": "B",
+   "answer": "equal-motions",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Two bodies on a rigid rod over a fulcrum balance when, if they moved, their quantities of motion would be equal.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics"
+    }
+   ],
+   "cites": [
+    {
+     "page": "113",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=135",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-006",
+   "question": "balance",
+   "text": "EB",
+   "answer": "equal-motions",
+   "stance": "holds",
+   "part": "common",
+   "statement": "In any machine the excess of weight in one body is made up by the excess of velocity in the other; on this the whole of mechanics depends.",
+   "confidence": {
+    "level": "certain",
+    "printed": "Upon this easy principle depends the whole of mechanics"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "43-44",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 58
+     },
+     "read_from": "image"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 2, 47-48)"
+  },
+  {
+   "id": "1775-motion-007",
+   "question": "balance",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Erxleben's treatment of the machines has not been read."
+  },
+  {
+   "id": "1775-motion-008",
+   "question": "balance",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Nollet's lessons on the machines have not been read."
+  },
+  {
+   "id": "1775-motion-009",
+   "question": "action-reaction",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Reaction is always equal to the action that occasioned it; to doubt it is to misconceive it.",
+   "confidence": {
+    "level": "certain",
+    "printed": null,
+    "translation": "must necessarily form a most incorrect idea of it",
+    "note": "German wording to be copied from the page"
+   },
+   "cites": [
+    {
+     "page": "45",
+     "section": "§44",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n71/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "tr": "Whoever can doubt that this reaction is always equal to the action that occasioned it must necessarily form a most incorrect idea of it.",
+    "from_image": true,
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-motion-010",
+   "question": "action-reaction",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Biwald deduces the equality of action and reaction from the mutual action of the points of matter, and notes that Boscovich derives the laws of collision from it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "mutual action of points of matter"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "272",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=294",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-011",
+   "question": "action-reaction",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "In the hanging-ball experiments the ball at rest takes part of the striker's motion, and the striker loses what the other gains.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "hanging balls of ivory and lead"
+    }
+   ],
+   "cites": [
+    {
+     "page": "180",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n313/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-012",
+   "question": "action-reaction",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The entry Inertia has bodies resist as much as they are resisted.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "840",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 839
+     },
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-013",
+   "question": "collision",
+   "text": "B",
+   "answer": "hard-together-elastic-apart",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Hard or soft bodies move on together after the blow; elastic bodies spring apart.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics"
+    }
+   ],
+   "cites": [
+    {
+     "page": "120-138",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=142",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-014",
+   "question": "collision",
+   "text": "E",
+   "answer": "hard-together-elastic-apart",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Same rules of collision for hard, soft and elastic bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "58-60",
+     "section": "§§62-67",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n84/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-015",
+   "question": "collision",
+   "text": "N",
+   "answer": "hard-together-elastic-apart",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Same rules of collision, shown on hanging balls.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment"
+    }
+   ],
+   "cites": [
+    {
+     "page": "289ff",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n434/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-016",
+   "question": "collision",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry Collision refers to Mechanics, where the parts read do not treat it."
+  },
+  {
+   "id": "1775-motion-017",
+   "question": "hard-bodies",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nature has no perfectly hard bodies, so experiment can only approach the rules; but whether the law of continuity rightly proves this is still a question.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "experience teaches it"
+    }
+   ],
+   "cites": [
+    {
+     "page": "66-67",
+     "section": "§78",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n92/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "60",
+     "section": "§66",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n86/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Bey harten Körpern hingegen geschieht der Uebergang der Bewegung in Ruhe plötzlich: deswegen haben einige aus dem Gesetze der Stetigkeit gefolgert, es könne keine völlig harten Körper geben. Dies lehrt nun zwar die Erfahrung, aber es ist noch die Frage, ob das Gesetz der Stetigkeit hier recht angebracht wird?",
+    "tr": "In hard bodies, on the other hand, the passage of motion into rest happens suddenly: for this reason some have concluded from the law of continuity that there can be no perfectly hard bodies. Experience indeed teaches this, but it is still the question whether the law of continuity is rightly applied here.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-018",
+   "question": "hard-bodies",
+   "text": "N",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "There is no perfectly hard matter: every blow leaves a dent at the place of contact.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a dent at every blow"
+    }
+   ],
+   "cites": [
+    {
+     "page": "289",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n434/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-045",
+   "question": "hard-bodies",
+   "text": "B",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "No statement of Biwald's on perfectly hard bodies was located in the parts read; his denial of contact (pp. 196-197) bears on it."
+  },
+  {
+   "id": "1775-motion-046",
+   "question": "hard-bodies",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not found in the parts of the Mechanics read."
+  },
+  {
+   "id": "1775-motion-019",
+   "question": "inertia-force",
+   "text": "N",
+   "answer": "real-resistance",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A body at rest makes a real resistance to being moved, proportional to its quantity of matter; it is neither the air nor weight, since it acts in a vacuum and in every direction.",
+   "confidence": {
+    "level": "asserted",
+    "printed": "donc",
+    "translation": "therefore"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "a struck hanging ball; a heavier ball carried less far"
+    },
+    {
+     "kind": "refutation",
+     "detail": "not the air, not weight"
+    }
+   ],
+   "cites": [
+    {
+     "page": "180-181",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n313/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "179-183",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n312/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Un corps en repos fait donc une résistance réelle à l'effort qui tend à le mouvoir. […] Il y a donc quelque chose de plus à vaincre, qu'une seule privation de mouvement.",
+    "tr": "A body at rest therefore makes a real resistance to the effort that tends to move it. […] There is therefore something more to overcome than a mere privation of motion.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-020",
+   "question": "inertia-force",
+   "text": "EB",
+   "answer": "passive-property",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Inactivity or passiveness is the second property of matter, by which it endeavours to continue in its state of rest or motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     },
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "inactivity, or passiveness … by which it always endeavours to continue in the state that it is in, whether of rest or motion",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 2, 47-48)"
+  },
+  {
+   "id": "1775-motion-021",
+   "question": "inertia-force",
+   "text": "EB",
+   "stance": "reports",
+   "between": [
+    "passive-property",
+    "real-resistance"
+   ],
+   "part": "dispute",
+   "statement": "The entry Inertia gives Newton's two definitions side by side without remark: a passive principle, and a power implanted in all matter that resists change.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Newton"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "840",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 839
+     },
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "a passive principle by which bodies persist in their motion or rest … a power implanted in all matter, whereby it resists any change endeavoured to be made in its state.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-022",
+   "question": "inertia-force",
+   "text": "E",
+   "answer": "sufficient-reason",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Inertia is not a force of its own: it says only that something must set a body moving and something must stop it, which is the principle of sufficient reason applied to bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "sufficient-reason"
+    }
+   ],
+   "cites": [
+    {
+     "page": "46",
+     "section": "§45",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n72/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "tr": "So inertia is in fact nothing other than the principle of sufficient reason applied to the changes of state of bodies.",
+    "from_image": true,
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-motion-023",
+   "question": "inertia-force",
+   "text": "E",
+   "answer": "real-resistance",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Erxleben reports that inertia has been taken for a force peculiar to bodies and questions whether a force that only resists, and has no size of its own, can be conceived.",
+   "confidence": {
+    "level": "doubtful",
+    "printed": "Läßt sich wohl eine Kraft gedenken",
+    "translation": "Can one well conceive a force"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a force that never acts of itself is inconceivable"
+    }
+   ],
+   "cites": [
+    {
+     "page": "45",
+     "section": "§45",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n71/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Aber braucht denn ein Ding eine eigne Kraft um das zu bleiben, was es ein Mahl ist? Läßt sich wohl eine Kraft gedenken, die niemahls von selbst wirkt sondern nur widersteht? die gar keine Grösse für sich hat, sondern nur groß oder klein ist, nachdem das ist, dem sie sich widersetzt?",
+    "tr": "But does a thing then need a force of its own to remain what it once is? Can one well conceive a force that never acts of itself but only resists? That has no size of its own, but is great or small according to what it resists?",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-024",
+   "question": "inertia-force",
+   "text": "B",
+   "answer": "no-resistance",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Bodies do not positively resist a change of state: they have a motive force, a continual striving to change place, and an opposite striving to keep place cannot be in the same substance. What mechanics calls resistance is the mutual action of bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "two opposed strivings cannot be in one substance; the motive force is taught by the metaphysicians"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "opposed",
+     "note": "Boscovich gave inertia to his points"
+    }
+   ],
+   "cites": [
+    {
+     "page": "279",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=301",
+     "read_from": "image"
+    },
+    {
+     "page": "pref.",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=14",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Datur enim in corporibus vis motrix, quae, veluti metaphysici docent, consistit in continuo nisu, sive conatu mutandi locum. Quod si vero corpora mutationi status positive resisterent, daretur in iis quoque nisus, sive conatus conservandi loci; qui conatus tanquam sibi omnino oppositi eidem substantiae inesse non possunt.",
+    "tr": "For there is in bodies a motive force, which, as the metaphysicians teach, consists in a continual striving or endeavour to change place. But if bodies positively resisted a change of state, there would also be in them a striving or endeavour to keep their place; and these endeavours, being wholly opposed to each other, cannot be in the same substance.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-025",
+   "question": "inertia-force",
+   "text": "B",
+   "answer": "real-resistance",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "In the preface to the second edition Biwald keeps his view against critics who had sworn by Boscovich's words, and says the quarrel concerns the essence of body, not a word.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "the essence of body"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "pref.",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=16",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Illud enim illico adverti, Authores hos, cum Boscovichii theoriam exponendam sibi sumpsissent, ita in Authoris huius verba iurasse, ut ne latum quidem unguem ab eo recedendum esse existimarent. […] Neque de verbo ea lis versatur, sed eam, quam de corporis essentia tenemus, sententiam plane ingreditur.",
+    "tr": "For I noticed at once that these authors, having undertaken to expound Boscovich's theory, had so sworn by the words of this author that they thought they should not depart from him by a nail's breadth. […] Nor is this a quarrel about a word; it goes straight to the heart of the opinion we hold about the essence of body.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-026",
+   "question": "motion-persistence",
+   "text": "EB",
+   "answer": "persists-of-itself",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Matter always endeavours to continue in the state it is in, whether of rest or motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     },
+     "read_from": "image"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 2, 47-48)"
+  },
+  {
+   "id": "1775-motion-027",
+   "question": "motion-persistence",
+   "text": "E",
+   "answer": "persists-of-itself",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Something must set a body moving and something must stop it; without a cause its state does not change.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "sufficient-reason"
+    }
+   ],
+   "cites": [
+    {
+     "page": "46",
+     "section": "§45",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n72/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-028",
+   "question": "first-law-grounds",
+   "text": "E",
+   "answer": "sufficient-reason",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Erxleben grounds inertia on the principle of sufficient reason.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "sufficient-reason"
+    }
+   ],
+   "cites": [
+    {
+     "page": "46",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n72/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-029",
+   "question": "first-law-grounds",
+   "text": "B",
+   "answer": "cannot-be-proved",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The first law can be proved neither from the nature of bodies nor from the phenomena, since nothing in nature is ever absolutely at rest or moves uniformly in a straight line.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "no absolute rest or uniform straight motion in nature"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Euler's a priori proof"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "275-278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=297",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-030",
+   "question": "first-law-grounds",
+   "text": "B",
+   "answer": "sufficient-reason",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Against Euler: we do not know the inner natures of things; by the same reasoning a lone body could circle any point; and a priori, accelerated motion on some curve is infinitely more probable than rest or uniform straight motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the argument proves too much; infinitely more curved states than straight ones"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "275-277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=297",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-031",
+   "question": "motion-transfer",
+   "text": "N",
+   "answer": "by-contact",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Collision is a matter of contact; since no matter is perfectly hard, a dent is always made at the place of contact.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a dent at every blow"
+    }
+   ],
+   "cites": [
+    {
+     "page": "289",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n434/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "tr": "a dent is always made at the place of contact",
+    "from_image": true,
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-motion-032",
+   "question": "motion-transfer",
+   "text": "E",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "How motion is communicated remains an unsearchable mystery for us, who do not know bodies' inner constitution; the expression is justified only in that one body acts on the other with a force depending on its motion.",
+   "confidence": {
+    "level": "asserted",
+    "printed": "ein unerforschliches Geheimniß",
+    "translation": "an unsearchable mystery"
+   },
+   "cites": [
+    {
+     "page": "44",
+     "section": "§43",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n70/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Aber wie eigentlich diese Mittheilung der Bewegung (communicatio motus) geschieht, das bleibt wohl im Grunde für uns, die wir die Körper ihrer innern Beschaffenheit nach nicht kennen, ein unerforschliches Geheimniß; denn was geht bey der Mittheilung der Bewegung aus dem bewegten Körper in den durch ihn in Bewegung gesetzten über?",
+    "tr": "But how this communication of motion properly comes about remains at bottom, for us who do not know bodies in their inner constitution, an unsearchable mystery; for what passes, in the communication of motion, out of the moving body into the one set in motion by it?",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-033",
+   "question": "motion-transfer",
+   "text": "B",
+   "answer": "repulsion-without-contact",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There is no mathematical contact of bodies, only apparent contact; a repulsive force growing without limit as distance shrinks stops bodies short and changes their speeds by degrees.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "Boscovich's law of continuity: speed cannot jump from six degrees to three"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "196",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=218",
+     "read_from": "image"
+    },
+    {
+     "page": "196-197",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=218",
+     "read_from": "unknown"
+    },
+    {
+     "page": "197",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=219",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nullus igitur est corporum contactus mathematicus, seu stricte talis, qui tum habetur, cum duo corpora ita contigua sunt, ut inter ea non modo nihil interponatur, sed ne quidem interponi possit. Erit tamen contactus physicus, sive apparens, consistens in eo, quod duo corpora ita sint propinqua, ut inter ea nihil interponi posse videatur, quamvis reipsa intercedere quidpiam possit.",
+    "tr": "There is therefore no mathematical contact of bodies, or contact strictly so called, which there would be when two bodies are so adjacent that nothing not only is placed between them, but nothing could be. There will, however, be physical or apparent contact, consisting in two bodies being so near that it seems nothing could be placed between them, though in fact something may come between.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-034",
+   "question": "motion-transfer",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The parts of the Mechanics read do not take the question up."
+  },
+  {
+   "id": "1775-motion-035",
+   "question": "action-at-distance",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since bodies never touch, all their action on one another, collision included, is by forces across small distances.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "196-197",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=218",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-036",
+   "question": "force-measure",
+   "text": "B",
+   "answer": "question-of-name",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Biwald sets out the quarrel (Leibniz and some Dutch, Italians and Germans for mass times velocity squared in actual motion; the English and French for the old measure) and sides with those who reduce it to a question of a name, given the number of demonstrations on each side.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "many demonstrations on both sides"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Gottfried Wilhelm Leibniz",
+     "dates": "1646-1716",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "112-113",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=134",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "complures rem ad quaestionem de nomine reducere conabantur, quibus ut assentiamur, facit demonstrationum numerus bene magnus, quas utraque pars pro sententiae suae veritate asserenda producit.",
+    "tr": "Several tried to reduce the matter to a question of a name; and what makes us agree with them is the very great number of demonstrations that each side produces for the truth of its own opinion.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-037",
+   "question": "force-measure",
+   "text": "N",
+   "stance": "undecided",
+   "between": [
+    "mass-velocity",
+    "mass-velocity-squared"
+   ],
+   "part": "dispute",
+   "statement": "Most were revolted by the new doctrine; both sides agree on the effects and differ only on why, so the affair, if not a question of a name, matters less to mechanics than it seemed; in practice force may be estimated by mass and simple velocity.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "the greater number against Leibniz"
+    },
+    {
+     "kind": "other",
+     "detail": "agreement on the effects once time is considered"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Émilie du Châtelet",
+     "dates": "1706-1749",
+     "role": "reported",
+     "note": "best case for living forces"
+    },
+    {
+     "name": "Jean-Jacques Dortous de Mairan",
+     "dates": "1678-1771",
+     "role": "reported",
+     "note": "against, 'by very strong reasons'"
+    }
+   ],
+   "cites": [
+    {
+     "page": "201-202",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n336/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "203",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n338/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "203-204",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n339/mode/1up",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Et il faut avouer que si l'on fait entrer la considération du tems dans l'examen des faits qu'on apporte en preuves des forces vives, on se retrouve alors dans la route ordinaire […] Il suit de cet aveu & de sa restriction, que si l'affaire des forces vives n'est point une question de nom, au moins on peut dire qu'elle n'est pas d'une aussi grande conséquence qu'elle paroissoit devoir l'être pour la méchanique",
+    "tr": "And it must be admitted that if one brings the consideration of time into the examination of the facts offered as proofs of living forces, one finds oneself back on the ordinary road. […] It follows from this admission and its restriction that if the affair of living forces is not a question of a name, at least one can say it is not of so great consequence as it seemed it must be for mechanics.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-038",
+   "question": "force-measure",
+   "text": "E",
+   "stance": "declines",
+   "part": "dispute",
+   "statement": "Erxleben passes over the Leibnizian distinction of living and dead forces and the dispute over the measure of forces as too long for an elementary course.",
+   "cites": [
+    {
+     "page": "67-68",
+     "section": "§79",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n93/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-039",
+   "question": "force-measure",
+   "text": "EB",
+   "answer": "mass-velocity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The Britannica gives mass times velocity as the foundation of mechanics and does not mention the dispute.",
+   "confidence": {
+    "level": "certain",
+    "printed": "Upon this easy principle depends the whole of mechanics"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "43",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 58
+     },
+     "read_from": "image"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 2, 47-48)"
+  },
+  {
+   "id": "1775-motion-040",
+   "question": "absolute-rest",
+   "text": "N",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "If the earth turns and goes round the sun, as is very probable, no body on it is at rest except relative to other earthly things.",
+   "confidence": {
+    "level": "probable",
+    "printed": null,
+    "translation": "very probable",
+    "note": "French wording to be copied from the page"
+   },
+   "cites": [
+    {
+     "page": "204-205",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n339/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-041",
+   "question": "absolute-rest",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Absolute rest exists nowhere in nature: forces depending on distance, internal motions, effluvia and heat keep every part of every body moving.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "277-278",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=299",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-042",
+   "question": "inertia-weight",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Erxleben rejects the view of Andreas Gordon that inertia and weight are the same, and also Euler's, who seems to him to make inertia the same as impenetrability.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Andreas Gordon OSB",
+     "dates": "1712-1751",
+     "role": "opposed"
+    },
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "47",
+     "section": "§47",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n73/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-043",
+   "question": "inertia-weight",
+   "text": "N",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The objection is specious: weight acts only downward, the resistance in every direction, and a long thread takes away a hanging ball's weight but not its resistance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "ball on a long thread"
+    }
+   ],
+   "cites": [
+    {
+     "page": "179, 182-183",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n312/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-044",
+   "question": "inertia-moves",
+   "text": "E",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Some natural philosophers say inertia can itself give a body motion and offer experiments; Erxleben promises to show in his lectures that the experiments prove nothing of the kind.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "promised in lectures"
+    }
+   ],
+   "cites": [
+    {
+     "page": "47-48",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n73/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-047",
+   "question": "motion-quantity",
+   "text": "F",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The whole momentum or quantity of force of a moving body is its quantity of matter multiplied by its velocity; a body of 40 pounds at two miles a minute and one of 4 pounds at twenty would strike any obstacle with equal forces.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "a worked example: 40 x 2 = 4 x 20 = 80"
+    }
+   ],
+   "cites": [
+    {
+     "page": "47",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n68/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "48",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n69/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the whole momentum or quantity of force of a moving body is the result of its quantity of matter multiplied by the velocity with which it is moved.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-048",
+   "question": "balance",
+   "text": "F",
+   "answer": "equal-motions",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Two bodies on any machine balance when the ascent of one multiplied into its weight equals the descent of the other multiplied into its weight; the excess of weight in one is made up by the excess of velocity in the other.",
+   "confidence": {
+    "level": "certain",
+    "printed": "Upon this easy principle depends the whole of mechanics: and it holds universally true"
+   },
+   "cites": [
+    {
+     "page": "48",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n69/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Upon this easy principle depends the whole of mechanics",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-049",
+   "question": "action-reaction",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Ferguson does not state the law among the laws of motion in the parts read, but uses it as a known principle in hydrostatics: action and reaction are equal and contrary to each other.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "106",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n139/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "since action and reaction are equal and contrary to each other",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-050",
+   "question": "collision",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Ferguson's course has no section on the collision of bodies (Lectures I-III read; a search of the machine-read text of the whole book finds none)."
+  },
+  {
+   "id": "1775-motion-051",
+   "question": "hard-bodies",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not taken up; a 'perfectly hard' bowl appears only in a thought experiment on friction."
+  },
+  {
+   "id": "1775-motion-052",
+   "question": "inertia-force",
+   "text": "F",
+   "answer": "passive-property",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Inactivity or passiveness is the second property of matter, by which it always endeavours to continue in its state of rest or motion; twice the matter has twice the inactivity and needs twice the force to move or stop it. Force must be applied to overcome its 'inactivity or resistance', but no force of inertia is named.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a stone never moves itself, as all men allow"
+    }
+   ],
+   "cites": [
+    {
+     "page": "2",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n15/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "3",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n16/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "inactivity, or passiveness; by which it always endeavours to continue in the state that it is in, whether of rest or motion.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-053",
+   "question": "motion-persistence",
+   "text": "F",
+   "answer": "persists-of-itself",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A body once impelled goes on in that direction for ever with the same velocity, for of itself it could never swerve from a right line nor stop its course; when a body falls from motion to rest, some other body or cause stopped it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "19",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n36/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "20",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n37/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "for, of itself, it could never swerve from a right line, nor stop its course.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-motion-054",
+   "question": "first-law-grounds",
+   "text": "F",
+   "answer": "experience",
+   "stance": "holds",
+   "part": "why",
+   "statement": "That matter cannot move itself is allowed by all men; that it does not tend to rest is shown by taking away what stops it: a bowl on a green stops by friction and the air, would go farther on polished glass, and with no air would go round the earth for ever.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "a stone never moves itself"
+    },
+    {
+     "kind": "analogy",
+     "detail": "the bowl on a green made ever smoother, then without air"
+    }
+   ],
+   "cites": [
+    {
+     "page": "2",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n15/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "3",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n16/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-motion-055",
+   "question": "motion-transfer",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up in the parts read."
+  },
+  {
+   "id": "1775-motion-056",
+   "question": "force-measure",
+   "text": "F",
+   "answer": "mass-velocity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Ferguson measures the force with which a body strikes an obstacle by its quantity of matter times its velocity, makes this the principle on which the whole of mechanics depends, and does not mention the dispute.",
+   "confidence": {
+    "level": "certain",
+    "printed": "Upon this easy principle depends the whole of mechanics"
+   },
+   "cites": [
+    {
+     "page": "47",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n68/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "48",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n69/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ]
+}

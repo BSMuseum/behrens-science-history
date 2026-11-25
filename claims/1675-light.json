@@ -1,0 +1,1457 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1675-light",
+  "snapshot": "1675",
+  "topic": "light",
+  "title": "Light and colours",
+  "site": {
+   "artifact": "c85e9cc6-ead9-45b3-9246-11977d12dc3b",
+   "view": "#light",
+   "version_encoded": "1795388731-0359"
+  },
+  "published": "2026-11-22",
+  "encoded": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5",
+   "from": "new reading, with the entry"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, on the nature of light, its speed, and colours. read_from records what was read: 'image' where the page image was read, 'ocr' where only the machine-read text was used. Every quotation is from an image and was checked against it a second time before publication (see claude/tests/1675-light-claude.md). Not covered: Rohault on reflection, refraction and glasses (I.27 arts. XXXI-LII, pp. 305-321) beyond the machine-read text; Goudin on light and colour as sensible qualities (physics part 4, and t. 2); Le Grand's article on the sun and flame (V a. 13) and on vision; Sperling's chapter on qualities (II.3).",
+  "built_with": "Claude only (arm A of the Claude-vs-OpenRouter test, 2026-11-22)",
+  "quote_check": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5 (same session; not independent)",
+   "quotations": 27,
+   "pages": 23,
+   "result": "Every quotation re-read against its page image. Three transcriptions corrected before publication: Sperling p. 514 'omnesque' to the printed 'omnesq;'; Sperling p. 520 'alias' to the printed 'aliàs'; Goudin p. 98 'reflexa: Unde' to the printed 'reflexa :Vnde'. No change of sense; no misattributed or misplaced quotation. Sperling pp. 518-519: the word division of 'foris am-/bulantium' at the line end is not clear in the scan."
+  }
+ },
+ "texts": {
+  "R": {
+   "text": "rohault-traite-1675",
+   "parts": "Part I, ch. XXVII, 'De la Lumiere, & des Couleurs; du Transparent, & de l'Opaque', pp. 291-342 (vol. 1, MDZ canvas = page + 40)"
+  },
+  "S": {
+   "text": "sperling-institutiones-1664",
+   "parts": "Book III, ch. V, 'De Luce', pp. 495-526 (MDZ canvas = page + 18; p. 518 misprinted 418)"
+  },
+  "G": {
+   "text": "goudin-philosophia-1681",
+   "parts": "t. 3, physics part 2 (de mundo), q. II, a. IV, 'De affectionibus corporum caelestium, et praecipue de luce', pp. 95-104 (MDZ canvas = page + 20)"
+  },
+  "L": {
+   "text": "legrand-institutio-1675",
+   "parts": "Part V, a. XIV, 'De Lucis Natura', pp. 282-285; Part VIII, a. XVII, 'De Coloribus', pp. 511-513 (IA /page/n = page + 59 in Part V, + 60 in Part VIII)"
+  }
+ },
+ "placement": [
+  {
+   "text": "R",
+   "where": "General physics (Part I), among the sensible qualities: after the chapter on sound and before the chapter on vision; light, colours, transparency and opacity in one chapter",
+   "cites": [
+    {
+     "page": "291",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=331",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "S",
+   "where": "Book III, after the chapters on the heavens and the stars (the book's contents from the machine-read table of contents)",
+   "cites": [
+    {
+     "page": "495",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=513",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "G",
+   "where": "Physics part 2, on the world: in the question on the heavens, as the chief property of the heavenly bodies",
+   "cites": [
+    {
+     "page": "95",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=115",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "L",
+   "where": "Light in Part V, on the world and the heavens, after the sun; colours in Part VIII, on man, as the object of sight before vision",
+   "cites": [
+    {
+     "page": "282",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n341/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "511",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n571/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1675-light-001",
+   "question": "light-straight",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The tendency of the subtle matter that makes secondary light is a tendency to go away in a straight line from the centre of the luminous body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "298-299",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=338",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "la tendance qu'a cette matiere à s'éloigner en ligne droite du centre du corps lumineux",
+    "from_image": true,
+    "tr": "the tendency that this matter has to go away in a straight line from the centre of the luminous body"
+   }
+  },
+  {
+   "id": "1675-light-002",
+   "question": "light-straight",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The ray is a quality that leaps out from light straight and sharp; light in the medium (lumen) spreads sideways from light and the ray.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "495",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=513",
+     "read_from": "image",
+     "section": "III.5, Praecepta III-IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Radius est qualitas à luce exiliens in rectum & acutum.",
+    "from_image": true,
+    "tr": "The ray is a quality leaping out from light, straight and sharp."
+   }
+  },
+  {
+   "id": "1675-light-003",
+   "question": "light-straight",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The article read, on the light of the heavenly bodies, does not say how light travels."
+  },
+  {
+   "id": "1675-light-004",
+   "question": "light-straight",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Luminous bodies push the subtle matter away from themselves in every direction along straight lines.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "282",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n341/mode/1up",
+     "read_from": "image",
+     "section": "V a. 14"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-005",
+   "question": "cold-light",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rotting wood, glow-worms and some flies shine in the dark; the stone of Bologna, found by an Italian chemist, after six hours in the fire and a while in the light, glows in the dark like a coal under ash.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "301-304",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=341",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-006",
+   "question": "cold-light",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A king of Scotland dressed men in shining fish scales with rotten wood for staves, and his nobles, taking them for spirits, fought and won.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "506",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=524",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-007",
+   "question": "cold-light",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The article read treats only the light of the heavenly bodies."
+  },
+  {
+   "id": "1675-light-008",
+   "question": "cold-light",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Many things give light without heat, as worms and rotten wood show; so light need not be joined with heat.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "283",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-009",
+   "question": "light-nature",
+   "text": "R",
+   "answer": "medium-pressure",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Primitive light is a certain motion of the parts of the luminous body, which pushes on every side the subtle matter in the pores of transparent bodies; secondary or derived light is that matter's tendency to move away in a straight line.",
+   "confidence": {
+    "level": "possible",
+    "printed": "une simple conjecture",
+    "translation": "a simple conjecture",
+    "note": "Received for now as a conjecture, which he expects to become 'une verité tres-certaine' once all the properties of light are deduced from it (p. 299)."
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "a pin causes pain by its figure and hardness, with nothing in it like the pain"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "the properties of light to be deduced from it"
+    }
+   ],
+   "cites": [
+    {
+     "page": "298-299",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=338",
+     "read_from": "image",
+     "section": "I.27 art. XV-XVI"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Ainsi, la lumiere primitive consistera dans un certain mouvement des parties du corps lumineux, qui les rend capables de pousser à la ronde la matiere subtile qui remplit les pores des corps transparent ; & l'inclination à se mouvoir, ou la tendance qu'a cette matiere à s'éloigner en ligne droite du centre du corps lumineux, constituëra l'essence de la lumiere seconde, ou dérivée.",
+    "from_image": true,
+    "tr": "Thus primitive light will consist in a certain motion of the parts of the luminous body, which makes them able to push on every side the subtle matter that fills the pores of transparent bodies; and the inclination to move, or the tendency that this matter has to go away in a straight line from the centre of the luminous body, will constitute the essence of secondary, or derived, light."
+   }
+  },
+  {
+   "id": "1675-light-010",
+   "question": "light-nature",
+   "text": "R",
+   "answer": "quality",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Aristotle, in the seventh chapter of the second book On the Soul, concludes that light is the act of the transparent as transparent, and that it is not fire nor a body passing from the luminous body.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "294-295",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=334",
+     "read_from": "image",
+     "section": "I.27 art. VII-IX"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "la Lumiere est l'acte du transparent, entant que transparent",
+    "from_image": true,
+    "tr": "light is the act of the transparent, in so far as it is transparent"
+   }
+  },
+  {
+   "id": "1675-light-011",
+   "question": "light-nature",
+   "text": "S",
+   "answer": "quality-of-luminous",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light (lux) is the quality of a luminous body by which it is luminous and lights other things; the ray and the light spread through the medium (lumen) are qualities that come from it, and lumen is an accident, a spiritual or intentional being, nothing but an image of lux.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Scaliger: light is a species, a representation of lux"
+    },
+    {
+     "kind": "other",
+     "detail": "lumen passes through glass, which no body could do"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    },
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "followed",
+     "note": "on what 'intention' means"
+    }
+   ],
+   "cites": [
+    {
+     "page": "495",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=513",
+     "read_from": "image",
+     "section": "III.5, Praecepta I-IV"
+    },
+    {
+     "page": "506",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=524",
+     "read_from": "ocr",
+     "section": "q. II"
+    },
+    {
+     "page": "512",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=530",
+     "read_from": "ocr",
+     "section": "q. V"
+    },
+    {
+     "page": "513-515",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=531",
+     "read_from": "image",
+     "section": "q. VI"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Lux est qualitas corporis lucidi, quâ ipsum lucidum est, & alia illuminat.",
+    "from_image": true,
+    "tr": "Light is the quality of a luminous body by which it is itself luminous and lights up other things."
+   }
+  },
+  {
+   "id": "1675-light-012",
+   "question": "light-nature",
+   "text": "S",
+   "answer": "emission",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Those who make lumen a body because it is reflected, wears the air and kindles fire, and because the first light was a body, are answered: sound, an accident, is reflected too, and the first light does not show that lumen is a substance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "sound is reflected in the echo, and is an accident"
+    }
+   ],
+   "cites": [
+    {
+     "page": "512",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=530",
+     "read_from": "ocr",
+     "section": "q. V"
+    },
+    {
+     "page": "513",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=531",
+     "read_from": "image",
+     "section": "q. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-013",
+   "question": "light-nature",
+   "text": "G",
+   "answer": "quality-of-luminous",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The heavens have none of the elementary qualities; the sun heats because it has a higher quality, light, in which heat is eminently contained.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "incorruptible bodies cannot have qualities that tend to corruption and generation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "96",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=116",
+     "read_from": "image",
+     "section": "II q. 2 a. 4"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nec refert quod Sol calefaciat; ad id enim sufficit illum esse præditum qualitate quadam sublimiori, in qua eminenter contineatur calor, nempe luce.",
+    "from_image": true,
+    "tr": "Nor does it matter that the sun heats; for that it suffices that it be endowed with a certain higher quality in which heat is eminently contained, namely light."
+   }
+  },
+  {
+   "id": "1675-light-014",
+   "question": "light-nature",
+   "text": "L",
+   "answer": "medium-pressure",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light is nothing but a certain motion or action by which luminous bodies push the subtle matter away from themselves in every direction along straight lines; in the sun the matter of the first element strives to leave the centre and presses the globules of the second element around it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "no one explains it better than the Author he follows"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed",
+     "note": "named in the title; on p. 283 'the Author whom I follow'"
+    }
+   ],
+   "cites": [
+    {
+     "page": "282",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n341/mode/1up",
+     "read_from": "image",
+     "section": "V a. 14"
+    },
+    {
+     "page": "283",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Dico, Lucem nihil aliud esse, quam motum quendam, vel actionem, qua corpora luminosa, materiam subtilem quaquaversum, secundum lineas rectas, à se propellunt.",
+    "from_image": true,
+    "tr": "I say that light is nothing other than a certain motion, or action, by which luminous bodies push subtle matter away from themselves in every direction along straight lines."
+   }
+  },
+  {
+   "id": "1675-light-015",
+   "question": "light-nature",
+   "text": "L",
+   "answer": "emission",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Those who say light is fire have weighty reasons but meet difficulties: two bodies would be in one place, many things give light without heat, so great a body could not perish in a moment when the sun sets, and the winds would block it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "penetration of bodies; light without heat; where it goes at sunset; winds"
+    }
+   ],
+   "cites": [
+    {
+     "page": "283",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-016",
+   "question": "light-act-transparent",
+   "text": "R",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "He does not find Aristotle's doctrine fully satisfying: it leaves to be sought what the transparent body and the luminous body are, and what the presence of the second does in the first; on his own view the form of the transparent is the straightness of its pores.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "295",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=335",
+     "read_from": "image",
+     "section": "I.27 art. IX"
+    },
+    {
+     "page": "299",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=339",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "je ne trouve pas qu'il y ait dequoy estre pleinement satisfait",
+    "from_image": true,
+    "tr": "I do not find that there is enough to be fully satisfied"
+   }
+  },
+  {
+   "id": "1675-light-017",
+   "question": "light-act-transparent",
+   "text": "S",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The transparent is transparent even without light, as fire is seen far off on a dark night; a man shut in a dark room sees the images of passers-by on the white wall; so light is in no way the act of the transparent. Rhodius is quoted to the same effect.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the dark room: images through a chink"
+    },
+    {
+     "kind": "observation",
+     "detail": "fire and stars seen through unlit air"
+    },
+    {
+     "kind": "authority",
+     "detail": "Rhodius, Optics, book 1 ch. 8"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Ambrosius Rhodius",
+     "dates": "1577-1633",
+     "role": "followed"
+    },
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "518-519",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=536",
+     "read_from": "image",
+     "section": "q. VII"
+    },
+    {
+     "page": "520",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=538",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Et notum est, hominem camera tenebrosa conclusum, per rimulam incidentes hominum foris ambulantium imagines in oppsito pariete albo videre posse depictas. Lumen ergò perspicui actum nullo modo esse censemus.",
+    "from_image": true,
+    "tr": "And it is well known that a man shut in a dark room can see the images of people walking outside, coming in through a small chink, painted on the white wall opposite. We therefore hold that light is in no way the act of the transparent.",
+    "note": "'oppsito' as printed. Page 518 is misnumbered 418 in this copy."
+   }
+  },
+  {
+   "id": "1675-light-018",
+   "question": "light-act-transparent",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the article read."
+  },
+  {
+   "id": "1675-light-019",
+   "question": "light-act-transparent",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-light-020",
+   "question": "light-time",
+   "text": "R",
+   "answer": "instantaneous",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since secondary light is not an actual motion but a tendency, and the matter pushed is continuous, the luminous body, however far, acts in an instant, like a very long stick.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "a very long stick"
+    }
+   ],
+   "cites": [
+    {
+     "page": "305",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=345",
+     "read_from": "image",
+     "section": "I.27 art. XXX"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "il suit delà necessairement que le corps lumineux, pour éloigné qu'il soit, doit transmettre son action & se faire sentir en un instant ; à cause que cette matiere qu'il pousse est continuëment étenduë ; & que semblable en cela à un baston qui seroit fort long, le corps lumineux ne sçauroit pousser la plus proche, que celle qui est la plus éloignée ne se trouve en mesme-temps disposée à se mouvoir, & à avancer.",
+    "from_image": true,
+    "tr": "it follows necessarily that the luminous body, however far off it is, must transmit its action and make itself felt in an instant, because the matter it pushes is continuously extended; and that, like a very long stick in this, the luminous body cannot push the nearest part without the farthest being at the same time disposed to move and to advance."
+   }
+  },
+  {
+   "id": "1675-light-021",
+   "question": "light-time",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Against the common opinion that the motion of light is momentary: every motion has tendency, progress and succession; Toletus's arguments against motion in an instant conclude for light too; the nearer place is reached sooner; and twilight, with its lessened light, shows that light moves in time.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "every motion has progress and succession"
+    },
+    {
+     "kind": "authority",
+     "detail": "Toletus, Physics book 4 ch. 8 q. 9"
+    },
+    {
+     "kind": "observation",
+     "detail": "twilight"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Francisco de Toledo SJ (Toletus)",
+     "dates": "1532-1596",
+     "role": "followed"
+    },
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "520-521",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=538",
+     "read_from": "image",
+     "section": "q. VIII"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Certè terminum propiorem citiùs attingere lumen, quàm remotiorem, nullus unquam ibit inficias. In tempore ergò movetur, morasque patitur.",
+    "from_image": true,
+    "tr": "Certainly no one will ever deny that light reaches a nearer end sooner than a more distant one. It therefore moves in time, and suffers delay."
+   }
+  },
+  {
+   "id": "1675-light-022",
+   "question": "light-time",
+   "text": "S",
+   "answer": "instantaneous",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "He reports the opinion that light moves not in time but in a moment, because it meets no positive contrary and because of its supreme excellence, and rejects it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "520",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=538",
+     "read_from": "image",
+     "section": "q. VIII"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Omnem motum in tempore fieri, communis aliàs assertio est. Et tamen luminis motum, non in tempore, non successivum sed momentaneum esse, censent.",
+    "from_image": true,
+    "tr": "That every motion takes place in time is otherwise a common assertion. And yet they hold that the motion of light is not in time, not successive, but momentary."
+   }
+  },
+  {
+   "id": "1675-light-023",
+   "question": "light-time",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the article read."
+  },
+  {
+   "id": "1675-light-024",
+   "question": "light-time",
+   "text": "L",
+   "answer": "instantaneous",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light spreads to any distance in the least moment of time, since it consists not in the duration of a motion but in a sudden action or pressure, as a stick presses at both ends at once.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "a stick, by which at night we find water, stones and mud"
+    }
+   ],
+   "cites": [
+    {
+     "page": "282",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n341/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "283",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "284",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n343/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ita ut minimo temporis momento, Lux ad quamcunque distantiam diffundatur.",
+    "from_image": true,
+    "tr": "So that light is spread to any distance in the least moment of time."
+   }
+  },
+  {
+   "id": "1675-light-025",
+   "question": "colours",
+   "text": "R",
+   "answer": "modified-light",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since light is a motion of the little balls of the second element, colours are the modifications this motion can take from the surfaces of bodies: white from a rough surface that sends back the light it receives; black from a surface that sends back little; red, yellow and blue from balls that have less tendency to go straight and turn about their own centres.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the prism"
+    },
+    {
+     "kind": "observation",
+     "detail": "goldsmiths whiten silver by roughening it and take the whiteness off by polishing"
+    }
+   ],
+   "cites": [
+    {
+     "page": "322",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=362",
+     "read_from": "ocr",
+     "section": "I.27 art. LIII"
+    },
+    {
+     "page": "323-325",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=363",
+     "read_from": "ocr"
+    },
+    {
+     "page": "328",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=368",
+     "read_from": "ocr",
+     "section": "art. LXV"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-026",
+   "question": "colours",
+   "text": "S",
+   "answer": "qualities-of-bodies",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Light is not colour, as sense shows and reason declares: in darkness we see light but not colours; light illuminates and colour cannot; light makes a subject luminous, colour makes it coloured. Zabarella's view that light is a colour is rejected.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "opposed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "510",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=528",
+     "read_from": "image",
+     "section": "q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Lucem colorem non esse, monstrat Sensus, dictitat Ratio.",
+    "from_image": true,
+    "tr": "That light is not colour, sense shows and reason declares."
+   }
+  },
+  {
+   "id": "1675-light-027",
+   "question": "colours",
+   "text": "G",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The colours of earthly bodies are not in the article read; for the colours of the stars see colours-apparent."
+  },
+  {
+   "id": "1675-light-028",
+   "question": "colours",
+   "text": "L",
+   "answer": "modified-light",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Colours in general are nothing but the various ways bodies receive the rays and send them back to the eyes; rays reflected may take a circular motion, as a ball does; white and black suffice to compose all others.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the colours of the rainbow, peacocks' tails and doves' necks"
+    }
+   ],
+   "cites": [
+    {
+     "page": "511",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n571/mode/1up",
+     "read_from": "image",
+     "section": "VIII a. 17"
+    },
+    {
+     "page": "512",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n572/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Dico, Colores in genere, nihil aliud sunt, quam varii modi, quibus corpora radios à corpore luminoso emissos, recipiunt, & ad oculos remittunt.",
+    "from_image": true,
+    "tr": "I say that colours in general are nothing other than the various ways in which bodies receive the rays sent out from a luminous body, and send them back to the eyes."
+   }
+  },
+  {
+   "id": "1675-light-029",
+   "question": "colours-apparent",
+   "text": "R",
+   "answer": "all-true",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There is no foundation for dividing colours into true or real and false or apparent, nor into fixed and passing: the prism is as real as the tapestry and the same light makes us sense both; any falsity is in the judgment that follows vision.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "the same light acts in both cases"
+    }
+   ],
+   "cites": [
+    {
+     "page": "338-339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=378",
+     "read_from": "image",
+     "section": "I.27 art. LXXX-LXXXII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Mais je n'estime pas qu'il y ait aucun fondement en cette division, puis qu'il n'y a ny plus ny moins de realité aux unes qu'aux autres ; Car si le sentiment de couleur qu'on experimente en regardant une tapisserie est réel, celuy que l'on a en regardant au trauers d'un prisme ne l'est pas moins ; le prisme n'est pas moins réel que la tapisserie ; Et enfin, c'est la mesme lumiere qui intervient, pour nous faire sentir les couleurs du prisme, que pour nous faire sentir les autres.",
+    "from_image": true,
+    "tr": "But I do not think there is any foundation for this division, since there is neither more nor less reality in the one than in the others. For if the sensation of colour one has in looking at a tapestry is real, the one had in looking through a prism is no less so; the prism is no less real than the tapestry; and finally, it is the same light that comes in to make us sense the colours of the prism as to make us sense the others."
+   }
+  },
+  {
+   "id": "1675-light-030",
+   "question": "colours-apparent",
+   "text": "S",
+   "answer": "apparent-differ",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Lumen is not a real (material) being but a spiritual one, like the image in a mirror and all apparent colours.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "514",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=532",
+     "read_from": "image",
+     "section": "q. VI"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Atque sic lumen ens reale non est, sed spiritale. Non secus ac imago in speculo, omnesq; colores apparentes.",
+    "from_image": true,
+    "tr": "And in this sense light is not a real being but a spiritual one, just like the image in a mirror and all apparent colours."
+   }
+  },
+  {
+   "id": "1675-light-031",
+   "question": "colours-apparent",
+   "text": "G",
+   "answer": "apparent-differ",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The heavens are tinged with no colour, being perfectly transparent; what appears as colour in the heavenly bodies is not true colour but a modification of the light they give out or reflect.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "95",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=115",
+     "read_from": "ocr"
+    },
+    {
+     "page": "97",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=117",
+     "read_from": "image"
+    },
+    {
+     "page": "98",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=118",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Sideribus verò pro colore lux inesse videtur, vel propria vel reflexa :Vnde hæc diversitas colori non est nisi diversa modificatio lucis",
+    "from_image": true,
+    "tr": "In the stars light seems to be present in place of colour, either their own or reflected; so this diversity of colour is nothing but a different modification of light",
+    "note": "'Vnde' and the spacing of the colon as printed."
+   }
+  },
+  {
+   "id": "1675-light-032",
+   "question": "colours-apparent",
+   "text": "L",
+   "answer": "all-true",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "All colours are true and none merely apparent: the nature of colour consists only in appearing and being seen, and it is a contradiction that something should appear and be false.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "to appear and be false is a contradiction"
+    }
+   ],
+   "cites": [
+    {
+     "page": "512",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n572/mode/1up",
+     "read_from": "image",
+     "section": "VIII a. 17"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Repugnat enim, ut aliquid appareat, & falsum sit",
+    "from_image": true,
+    "tr": "For it is a contradiction that something should appear and be false"
+   }
+  },
+  {
+   "id": "1675-light-033",
+   "question": "explanation-standard",
+   "text": "R",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Light in bodies need be nothing like our sensation, as a pin's figure and hardness are nothing like pain; what is offered is a conjecture about matter and motion, to be confirmed by deducing all the properties of light from it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the pin and pain"
+    }
+   ],
+   "cites": [
+    {
+     "page": "296-298",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=336",
+     "read_from": "ocr"
+    },
+    {
+     "page": "299",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=339",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Je ne pretens pas maintenant que tout cela soit autrement receu que comme une simple conjecture",
+    "from_image": true,
+    "tr": "I do not claim for now that all this should be received otherwise than as a simple conjecture"
+   }
+  },
+  {
+   "id": "1675-light-034",
+   "question": "explanation-standard",
+   "text": "S",
+   "answer": "forms-and-qualities",
+   "stance": "leans",
+   "part": "why",
+   "statement": "The questions are put in the categories of the schools: whether light is substance or accident, quality, real or intentional; answers are drawn from the senses, from reason and from authorities, Aristotle, Zabarella, Scaliger and Toletus among them.",
+   "confidence": {
+    "level": "possible"
+   },
+   "persons": [
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "reported"
+    },
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    },
+    {
+     "name": "Francisco de Toledo SJ (Toletus)",
+     "dates": "1532-1596",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "506",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=524",
+     "read_from": "ocr"
+    },
+    {
+     "page": "512-515",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=530",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-035",
+   "question": "explanation-standard",
+   "text": "L",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "No one, so far as he knows, explains the nature of light better than the Author he follows; placing the force of light in a pressure of the subtle matter frees him from the penetration of bodies and from joining light to heat.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "283",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "A nullo quod sciam, melius quam ab Authore quem sequor, Lucis Natura explicatur.",
+    "from_image": true,
+    "tr": "By no one, so far as I know, is the nature of light better explained than by the Author whom I follow."
+   }
+  },
+  {
+   "id": "1675-light-036",
+   "question": "heavens-matter",
+   "text": "G",
+   "answer": "different",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The phenomena of the moon confirm that the lunar body is incorruptible and different from the elements here; the heavens may not have elementary qualities, which tend to corruption and generation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "95",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=115",
+     "read_from": "ocr"
+    },
+    {
+     "page": "96",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=116",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-037",
+   "question": "scripture-nature",
+   "text": "S",
+   "answer": "authority",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Where light comes from the Spirit of the Lord revealed: God said, let there be light; God's question to Job is not meant to forbid the inquiry but to show the abyss of his wisdom.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "508-509",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=526",
+     "read_from": "ocr",
+     "section": "q. III"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-038",
+   "question": "first-day-light",
+   "text": "S",
+   "answer": "body",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The light made on the first day was neither an accident nor a spirit but a body, placed about the abyss of the waters as the stars are about the air, which by its motion made the first three days; those who make it a quality are answered.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Genesis 1:3"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "the term of creation is a substance"
+    }
+   ],
+   "cites": [
+    {
+     "page": "513",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=531",
+     "read_from": "image",
+     "section": "q. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-039",
+   "question": "first-day-light",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Not in the chapter read."
+  },
+  {
+   "id": "1675-light-040",
+   "question": "first-day-light",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Not in the article read."
+  },
+  {
+   "id": "1675-light-041",
+   "question": "first-day-light",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-light-042",
+   "question": "star-light",
+   "text": "G",
+   "answer": "stars-own-planets-borrowed",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Not only the sun but the fixed stars shine by their own light: so distant from the sun they could borrow little or none, and yet they are most radiant.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the stars' brightness at their distance"
+    }
+   ],
+   "cites": [
+    {
+     "page": "98",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=118",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non modò Sol sed etiam Stellæ fixæ fulgent propriâ luce.",
+    "from_image": true,
+    "tr": "Not only the sun but also the fixed stars shine with their own light."
+   }
+  },
+  {
+   "id": "1675-light-043",
+   "question": "star-light",
+   "text": "G",
+   "answer": "stars-own-planets-borrowed",
+   "stance": "holds",
+   "part": "open",
+   "statement": "All the planets borrow from the sun the light that strikes our eyes, as their phases and shadows show; yet all, the moon included, seem to have some light of their own, too faint to reach us.",
+   "confidence": {
+    "level": "possible",
+    "printed": "videtur",
+    "translation": "seems"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the moon; the phases of Venus in the telescope; Mars; Jupiter's satellites in its shadow; the shadow of Saturn's ring"
+    },
+    {
+     "kind": "analogy",
+     "detail": "light is the property most akin to the heavenly bodies"
+    }
+   ],
+   "cites": [
+    {
+     "page": "99-100",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=119",
+     "read_from": "ocr"
+    },
+    {
+     "page": "101",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=121",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-044",
+   "question": "moon-ashen-light",
+   "text": "G",
+   "answer": "from-earth",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The faint secondary light seen on the crescent moon is not its own, for it vanishes at the quadratures and in a central eclipse; the commoner and truer opinion is that it comes from the earth, against Tycho, who made it come from Venus. A sunlit spot on a wall lights a room forty feet across, so the sunlit half of the earth can light the moon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "it vanishes at the quadratures and in a central eclipse"
+    },
+    {
+     "kind": "analogy",
+     "detail": "a sunlit spot lights a dark hall"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Tycho Brahe",
+     "dates": "1546-1601",
+     "role": "opposed"
+    },
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "100",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=120",
+     "read_from": "image"
+    },
+    {
+     "page": "101",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=121",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Lux illa secundaria, quæ apparet in Luna crescente ante priorem quadraturam; item in ea decrescente post alteram quadraturam; & demum in ea eclipsim patiente non videtur illi propria.",
+    "from_image": true,
+    "tr": "That secondary light which appears in the moon when waxing before the first quarter, and likewise when waning after the second quarter, and finally when it suffers an eclipse, does not seem to be its own."
+   }
+  },
+  {
+   "id": "1675-light-045",
+   "question": "sky-blue",
+   "text": "G",
+   "answer": "deep-transparent",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The blue of the sky is not in the heavens, which are perfectly transparent, but is caused by the excessive depth of the transparent, in which the light, above all the sun's, is absorbed and degenerates into that colour; for the same cause the sea and the air round distant mountains look blue.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "97",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=117",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Cæruleus ergo ille color insitus illis non est, sed causatus ex nimia diaphani profunditate in qua lux præcipuè Solaris, quæ nunquam cœlis occidit, absorpta degenerat in ejusmodi colorem",
+    "from_image": true,
+    "tr": "That blue colour is therefore not inherent in them, but caused by the excessive depth of the transparent, in which light, above all the sun's, which never sets in the heavens, is absorbed and degenerates into a colour of this kind",
+    "note": "The scan's 'Cæruleus' has a damaged initial; the 'C' is not legible."
+   }
+  },
+  {
+   "id": "1675-light-046",
+   "question": "sky-blue",
+   "text": "L",
+   "answer": "deep-transparent",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Blue, nearest to black, belongs to what reflects few rays; deep, clear sea water looks blue because few rays are sent back from its surface and none of those that enter it return.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "512",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n572/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-047",
+   "question": "fire-light-same",
+   "text": "L",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "open",
+   "statement": "Light cannot be fire (margin heading): many things shine without heat, and two bodies would be in one place.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "283",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-light-048",
+   "question": "fire-light-same",
+   "text": "G",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "open",
+   "statement": "The sun heats not by heat, which the heavens lack, but by light, a higher quality in which heat is eminently contained.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "96",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=116",
+     "read_from": "image"
+    }
+   ]
+  }
+ ]
+}

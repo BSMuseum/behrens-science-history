@@ -1,0 +1,803 @@
+{
+ "schema": "hos-texts/1",
+ "updated": "2026-11-22 (1675 texts read for the light entry; scans, offsets and clause 12 dates from the 1675 plan)",
+ "conventions": {
+  "id": "author-shortwork-year of the edition read; stable once cited.",
+  "status": "read = cited in a published entry; candidate = chosen under rule R1, not yet read; supplementary = read or available but fills no slot.",
+  "selection.rule": "R1 = the selection rule in claude/claims/README.md; pilot = chosen before R1 existed.",
+  "counts": "Distinct editions (year and place of printing) within the window, from the source named, on the date given. Counts from keyword searches are lower bounds."
+ },
+ "texts": [
+  {
+   "id": "biwald-generalis-1769",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "B",
+   "author": {
+    "name": "Leopold Biwald SJ",
+    "dates": "1731-1805"
+   },
+   "title": "Physica generalis",
+   "edition": "editio secunda",
+   "year": 1769,
+   "place": "Graz",
+   "language": "la",
+   "region": "Catholic German lands",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Jesuit, University of Graz"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "pilot",
+    "note": "Not yet counted under R1; Horváth (Trnava) is the obvious rival.",
+    "r1_check": {
+     "rule": "R1 check 2026-11-16",
+     "window": "1760-1790",
+     "source": "K10plus (GVK) SRU, 2026-11-16",
+     "editions_in_window": 6,
+     "note": "Passes under the revised rule: Physica generalis 1767-68 and 1769, then the same text as Institutiones physicae (Graz 1774, Vienna 1779, Graz 1780, 1786) = 6, against Horváth 3 (Trnava 1770, Augsburg 1772, 1775) and Makó 3 (Vienna 1762, 1763, 1766). K10plus is thin on Hungarian printing. Edition to read when widening: Graz 1774, MDZ bsb11274609.",
+     "same_work_test": {
+      "date": "2026-11-16",
+      "compared": "Physica generalis 1769 (bsb10130800) with Institutiones physicae, Graz 1774 (bsb11274609), MDZ page OCR",
+      "result": "77-79% of the 1769 words found in order on four sample pages (pp. 113, 196, 197, 279 of 1769); same work under clause 3. One more passage needed to reach the five the rule asks for."
+     }
+    }
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb10130800",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800",
+     "link": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page={canvas}",
+     "offset": "canvas = page + 22 (pp. 84-392); preface canvases 14-16"
+    }
+   ]
+  },
+  {
+   "id": "biwald-particularis-1768",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "B",
+   "author": {
+    "name": "Leopold Biwald SJ",
+    "dates": "1731-1805"
+   },
+   "title": "Physica particularis",
+   "year": 1768,
+   "place": "Graz",
+   "language": "la",
+   "region": "Catholic German lands",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Jesuit, University of Graz"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "pilot"
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb10130796",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796",
+     "link": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page={canvas}",
+     "offset": "canvas = page + 10 (checked again at pp. 341-353, 2026-11-17, and at pp. 390-403 for the globe)"
+    }
+   ]
+  },
+  {
+   "id": "erxleben-anfangsgruende-1772",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "E",
+   "author": {
+    "name": "Johann Christian Polykarp Erxleben",
+    "dates": "1744-1777"
+   },
+   "title": "Anfangsgründe der Naturlehre",
+   "year": 1772,
+   "place": "Göttingen and Gotha",
+   "language": "de",
+   "region": "Protestant German lands",
+   "tradition": {
+    "confession": "Lutheran",
+    "institution": "University of Göttingen"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "pilot",
+    "note": "Editions 1772, 1777, 1784, 1787 fall in the R1 window 1760-1790; rivals not yet counted. The preface (leaf 15) says this book and the Anfangsgründe der Naturgeschichte (1768) are meant to make one handbook of the physical sciences, natural history being 'what is otherwise called the particular physics of the three kingdoms of nature'.",
+    "r1_check": {
+     "rule": "R1 check 2026-11-16",
+     "window": "1760-1790",
+     "source": "K10plus (GVK) SRU, 2026-11-16",
+     "editions_in_window": 5,
+     "note": "Passes: 1772, 1773, 1777 (and a Frankfurt and Leipzig reprint), 1784, 1787. Rivals: Eberhard, Erste Gründe der Naturlehre, 3 (1767, 1774, 1787); Segner, Einleitung in die Naturlehre, 1 (1770); Karsten, 1 (1783). R1 clause 5 would read the 1777 edition (MDZ bsb10130976) rather than 1772."
+    }
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "anfangsgrndeder00lautgoog",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog",
+     "link": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n{leaf}/mode/1up",
+     "offset": "drifts; see charter (leaf = page + 26 for pp. 29-69; /page/n = page + 20 for pp. 476-647, checked from the images 2026-11-17); preface page on natural history at leaf 15"
+    }
+   ]
+  },
+  {
+   "id": "erxleben-naturgeschichte-1773",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "E",
+   "author": {
+    "name": "Johann Christian Polykarp Erxleben",
+    "dates": "1744-1777"
+   },
+   "title": "Anfangsgründe der Naturgeschichte",
+   "edition": "Zwote, vermehrte und verbesserte Auflage, mit Kupfern (title page, canvas 5)",
+   "year": 1773,
+   "place": "Göttingen and Gotha",
+   "printer": "Dieterich",
+   "language": "de",
+   "region": "Protestant German lands",
+   "tradition": {
+    "confession": "Lutheran",
+    "institution": "University of Göttingen"
+   },
+   "genre": "course (natural history)",
+   "selection": {
+    "rule": "R1 v3, clause 5",
+    "note": "Read for the earth entry (2026-11-17): Erxleben's Naturlehre does not treat earths, salts, inflammables or metals, and its preface makes this book the 'particular physics of the three kingdoms' and, with the Naturlehre, one handbook. Treated as the second volume of the same course, as Biwald's two volumes are. Editions in the window from the MDZ and Europeana records: 1768 (2 vols), 1773, 1782, 1786, 1787 (Gmelin's), 1791; not yet counted in K10plus. Edition read is the one nearest 1775 with a public scan."
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb10075646",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10075646",
+     "link": "https://www.digitale-sammlungen.de/en/view/bsb10075646?page={canvas}",
+     "offset": "canvas = page + 44 (checked at pp. 541-572); condensed preface of the first edition, canvases 7-18 (dated December 1767)"
+    }
+   ]
+  },
+  {
+   "id": "nollet-lecons-1759",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "N",
+   "author": {
+    "name": "Jean-Antoine Nollet",
+    "dates": "1700-1770"
+   },
+   "title": "Leçons de physique expérimentale",
+   "edition": "t. 1-2 5th ed. 1759; t. 3 1766; t. 4 1765; t. 5; t. 6 1765",
+   "year": 1759,
+   "place": "Paris",
+   "language": "fr",
+   "region": "France",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Collège de Navarre; public courses"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "pilot",
+    "note": "Under R1 the edition nearest 1775 with a scan should replace the 1759 volumes when the entry widens. Has no lesson on earths, salts, inflammables or metals (checked 2026-11-17), so under clause 5 Para du Phanjas is the Paris text for the earth entry. Nor a lesson or heading on the terraqueous globe (springs t. 4 pp. 9-18, figure of the earth t. 2 pp. 148-156, volcanoes t. 4 pp. 95-97, all inside other lessons), so Para du Phanjas is also the Paris text for the globe entry (2026-11-17).",
+    "r1_check": {
+     "rule": "R1 check 2026-11-16",
+     "window": "1760-1790",
+     "source": "K10plus (GVK) SRU, 2026-11-16",
+     "editions_in_window": "volumes printed in 17 different years at Paris, plus Amsterdam reprints",
+     "note": "Passes easily. Rivals: Sigaud de la Fond, Élémens de physique, 2 (1777, 1787); Para du Phanjas, Théorie des êtres sensibles, 2 (1772, 1786); Brisson, Traité élémentaire, 1 (1789). Volumes were reprinted separately, so a count of editions proper needs the edition statements. R1 clause 5 would read the volumes printed in 1775 (t. 1, 2 and 6 carry that date), not the 1759 ones."
+    }
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "CHEPFL_LIPR_AXA5_01",
+     "vol": "1",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01",
+     "link": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n{leaf}/mode/1up",
+     "offset": "leaf = page + 133 for pp. 177-183; leaf = page + 135 for pp. 198-205 (checked 2026-11-16 at pp. 198, 201, 203, 204); see charter for the rest"
+    },
+    {
+     "repo": "IA",
+     "id": "CHEPFL_LIPR_AXA5_02 ... _06",
+     "vol": "2-6",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02"
+    }
+   ]
+  },
+  {
+   "id": "para-theorie-1772",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "P",
+   "author": {
+    "name": "François Para du Phanjas",
+    "dates": "1724-1797"
+   },
+   "title": "Théorie des êtres sensibles, ou Cours complet de physique, spéculative, expérimentale, systématique et géométrique",
+   "year": 1772,
+   "place": "Paris",
+   "printer": "Charles-Antoine Jombert",
+   "language": "fr",
+   "region": "France",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Former Jesuit (entered 1740); taught physics and philosophy at Besançon"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3, clause 5",
+    "window": "1760-1790",
+    "editions_in_window": 2,
+    "source": "K10plus (GVK) SRU, 2026-11-16 (count recorded under Nollet)",
+    "note": "Paris text for the earth entry (2026-11-17). Nollet's Leçons have no lesson on mineral bodies; Para (2 editions, 1772 and 1786) ties with Sigaud's Élémens (2), which do not treat them either, so Para is the next French course in the count that treats the topic. His third treatise, 'Théorie de la terre', takes in the earth's animal, vegetable and mineral kingdoms. Also the Paris text for the terraqueous globe (2026-11-17): Nollet treats springs, the figure of the earth and volcanoes only inside lessons on water and gravity, under no heading of the globe, while Para's third treatise opens with a section of its own on the terrestrial globe (§§491-520); his fourth treatise, on water, supplies springs (§§667-679) and the saltness of the sea (§610)."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "b30539584_0001",
+     "vol": "1",
+     "url": "https://archive.org/details/b30539584_0001",
+     "link": "https://archive.org/details/b30539584_0001/page/n{leaf}/mode/1up",
+     "offset": "/page/n = page + 85 (checked at pp. 143-146, 166-167)"
+    },
+    {
+     "repo": "IA",
+     "id": "b30539584_0002",
+     "vol": "2",
+     "url": "https://archive.org/details/b30539584_0002",
+     "link": "https://archive.org/details/b30539584_0002/page/n{leaf}/mode/1up",
+     "offset": "/page/n = page + 9 (checked at pp. 190, 192, 196, 221, 229-232; for the globe at pp. 3-75, 255-256 and 348-369, 2026-11-17)"
+    }
+   ]
+  },
+  {
+   "id": "ferguson-lectures-1776",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "F",
+   "author": {
+    "name": "James Ferguson",
+    "dates": "1710-1776"
+   },
+   "title": "Lectures on select subjects in mechanics, hydrostatics, hydraulics, pneumatics, and optics, with the use of the globes, the art of dialing, and the calculation of the mean times of new and full moons and eclipses",
+   "edition": "The fifth edition (title page, leaf 3)",
+   "year": 1776,
+   "place": "London",
+   "printer": "W. Strahan, J. and F. Rivington, and others",
+   "language": "en",
+   "region": "British Isles",
+   "tradition": {
+    "confession": "Church of Scotland (author); printed in London",
+    "institution": "public lecture courses, London and the provinces; not a university"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3, clauses 2 and 5; v4 reading of clause 5 for meteors",
+    "window": "1760-1790",
+    "editions_in_window": 8,
+    "source": "Internet Archive copies of ECCO scans as a stand-in for the ESTC, 2026-11-16 (count recorded under the Britannica)",
+    "note": "British text for motion, body, gravity and the system of the world from 2026-11-18, for water from 2026-11-20, for air and light from 2026-11-21, for the terraqueous globe from 2026-11-21, for electricity and the magnet from 2026-11-21, and for meteors from 2026-11-22, replacing the Britannica, which fails clause 2. Most-reprinted British course in the window (8 editions, against Nicholson 4, Rowning 3, Martin 3). Under clause 5 it is the British text for the topics it treats in a section of its own: matter, central forces (with headed passages on the laws of the planetary motions, Kepler's rule, the Cartesian vortices and 'the earth's motion demonstrated', which make him the text for the system of the world), the mechanical powers, hydrostatics, pneumatics and optics; the rest go to the next course in the count (Martin's Philosophical Grammar since 2026-11-21; Nicholson fails clause 12). Edition read: the 5th, London 1776, the one printed nearest 1775 with a public scan (the 1772 edition, IA b30501106, is the other candidate). Ferguson's text was also the Britannica's: see the note there. His separate Astronomy explained upon Sir Isaac Newton's Principles (1756; 1764 and later editions) is a single-topic treatise and fills no slot under clause 2; the Lectures send the reader to it for the astronomy proper (p. 26). The Britannica's Astronomy reprints it (see the note there). For water: Lecture V (hydrostatics, from p. 101) treats fluids in general and has nothing on water as a body (its qualities, purity, natural state, turning into earth) beyond a table of specific gravities (p. 159); the rise in narrow tubes is in Lecture I (p. 6), with no law of heights. For air (2026-11-21): Lecture VI, on pneumatics (pp. 168-178), and the air-pump experiments (pp. 179-200); the cause of the spring of air is in Lecture I (p. 8, the repulsive force of its particles); most of the air in bodies is 'fixed', released only by distillation, fermentation or putrefaction (p. 199, with Hales). For light: the lecture on optics, headed 'LECT. VIII.' on p. 201 (image), not VII as the contents worked out from the OCR had it; where Lecture VII begins was not checked. Light is particles flowing from the luminous body (p. 201), straight lines (p. 202), colours from different refrangibility (pp. 242-244); its velocity, 'at least a million times greater than the velocity of a cannon-ball', is in Lecture I (p. 5). For the terraqueous globe (2026-11-21, at Bruce's request, in place of the Nicholson proposed under R1 v4): no lecture on the globe, but headed passages on the tides (margin 'Of the tides', p. 41; running head p. 42, Lecture II), earthquakes (margin 'Earthquakes', p. 178, lecture on pneumatics), intermitting springs (margin, p. 117) and reciprocating springs and ebbing and flowing wells (Supplement, Hydrostatics, p. 20, its own heading); volcanoes close the earthquake passage without a heading (p. 179), and the figure of the earth follows the tides (pp. 46-47). His table of the moon's mean motion (p. 393, image) counts 'Years of the World' from 0 at 4008 before Christ, and Lecture XI calculates new and full moons 'from the creation of the world' (p. 377). The Lectures say nothing of fossil shells, strata, the origin of mountains, a central fire, the sea's saltness, the Flood or the theories of the earth (OCR of the whole book searched). The globe lectures are headed 'LECT. VIII. AND IX.' on p. 247 (image), so the number VIII is printed twice, for optics (p. 201) and for the globes. In the same lecture on pneumatics thunder and lightning come from fermenting sulphureous and nitrous effluvia (pp. 176-177, OCR), not from electricity; read for the meteors entry 2026-11-22 (see below). For electricity and the magnet (2026-11-21, images): Lecture I closes with two margin-headed passages, 'Magnetism' (pp. 17-18: the loadstone's three most remarkable properties, attracting iron and steel only, turning north and south, communicating its properties to steel; Helsham's inverse square at a balance, then 'some later experiments, made with the greatest accuracy', between the inverse square and the inverse cube) and 'Electricity' (pp. 18-19: amber, glass, jet, sealing-wax, agate and precious stones attract and repel light bodies when rubbed, 'electrical attraction', with seven observations on a rubbed glass tube; the effluvia snap against a finger). Magnetism and electricity are two of the four kinds of attraction (p. 6). Also: magnetism through the pores of gold (p. 15); knives struck by lightning magnetic for years, compasses reversed (p. 177); the variation of the compass found with the globe (p. 285). Thunder and lightning, under that margin heading (p. 176), are fermenting sulphureous and nitrous effluvia, not electricity. No Franklin, jar, machine, conductors, or positive and negative; Nollet only in the preface (leaf 9). Both passages are in the 1760 edition (OCR; 'late experiments' for 'later'). His separate Introduction to Electricity (1770; IA bim_eighteenth-century_an-introduction-to-elect_ferguson-james_1770), advertised on leaf 1 with sections on the machine, the protection of buildings from lightning and medical electricity, is a single-topic treatise (clause 2). These headed passages were overlooked when the globe was done ('every topic Ferguson treats is done'); the Lectures' margin headings were then checked for fire, the earth and meteors: fire and the earth went to Martin, meteors to Ferguson. Fire, checked 2026-11-21 (OCR of the whole book and the index; images of pp. 8, 15, 161): heat comes up only under the margin headings 'The expansion of metals' (p. 15, leading into the pyrometer) and 'The thermometer' (p. 161, with the expansion of fluids proportionable to the degree of heat); no passage on what fire or heat is, so fire goes to Martin. For meteors (2026-11-22, images of pp. 168, 173, 174, 176, 177, 189, 245-247): margin headings 'The cause of winds', 'The trade-winds' (p. 173), 'The monsoons' (p. 174), 'Fermentations', 'Thunder and lightning' (p. 176), 'Fire-damps' (p. 177); the rainbow without a heading at pp. 246-247 (index 'Rain-bow'); rain by the air growing too light to bear the vapours (p. 189). Thunder and lightning are fermenting sulphureous and nitrous effluvia; electricity is not invoked. The passages stand in the 1760 edition (OCR). His separate Introduction to Electricity (1770; IA bim_eighteenth-century_an-introduction-to-elect_ferguson-james_1770) describes Lind's apparatus for testing Franklin's lightning rods and treats lightning as electrical (OCR only); it is a single-topic treatise and fills no slot."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776",
+     "link": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n{leaf}/mode/1up",
+     "offset": "plates interleaved: preface p. ix = leaf 8; leaf = page + 13 for pp. 1-4; page + 15 for pp. 5-18; page + 17 for pp. 19-24; page + 19 for pp. 25-26; page + 21 for pp. 27-48; leaf 1 = the advertisement 'Published by the same Author'; leaf 34 is a blank plate verso; page + 33 for pp. 101-111; page + 35 for pp. 116-117; page + 39 for pp. 159-178; page + 41 for pp. 179-200 (p. 189 = leaf 230, p. 199 = leaf 240); page + 43 for pp. 201-202; page + 55 for pp. 242-254 and p. 285 (p. 246 = leaf 301); page + 63 for pp. 377 and 393; Supplement p. 20 = leaf 491 (read from the images, 2026-11-18, 2026-11-20 and 2026-11-21). Index at leaves 459-465. The page_numbers.json is unreliable from about leaf 250 (it gives leaf 302 as p. 257; the image reads 247)."
+    }
+   ]
+  },
+  {
+   "id": "britannica-1771",
+   "status": "supplementary",
+   "snapshot": "1775",
+   "siglum": "EB",
+   "author": {
+    "name": "Encyclopaedia Britannica (unsigned)",
+    "dates": null
+   },
+   "title": "Encyclopaedia Britannica",
+   "edition": "1st ed.",
+   "year": 1771,
+   "place": "Edinburgh",
+   "language": "en",
+   "region": "British Isles",
+   "tradition": {
+    "confession": "Presbyterian (Church of Scotland)",
+    "institution": "none; a society of gentlemen"
+   },
+   "genre": "encyclopedia",
+   "selection": {
+    "rule": "pilot",
+    "note": "Fails R1 clause 2 (encyclopedias do not qualify); supplementary since 2026-11-18. It was the British text of all thirteen pilot entries; the motion, body, gravity and system-of-the-world entries were redone with Ferguson on 2026-11-18, water on 2026-11-20, air, light, the terraqueous globe, electricity and the magnet on 2026-11-21, fire and the earth (with Martin) on 2026-11-21, and meteors (with Ferguson) on 2026-11-22, so no entry uses it as the British text any more. Its Pneumatics p. 490 (vol. 3 leaf 571, image) reprints Ferguson's thunder and lightning (Lectures 1776 pp. 176-177) and inserts '(see Electricity:)'; p. 493 (leaf 574) reprints his barometer before rain (p. 189). Its treatises Mechanics (vol. 3 from p. 32), Hydrostatics (vol. 2 from p. 804), and much of Pneumatics and Optics reproduce Ferguson's Lectures on Select Subjects nearly word for word (shared five-word sequences in the OCR, 2026-11-18: 25-40% of each page of Mechanics and Hydrostatics, 0% for control pages of Medicine and Money and for the Britannica's Astronomy, Electricity and Chemistry against the Lectures); short entries such as Inertia are its own. Its Mechanics leaves out Ferguson's examples of how far matter can be divided (Ferguson 1776 pp. 3-5: gold in silver, gold leaf, Leeuwenhoek's animalcules, the particles of light) and his sentence on the mountain (p. 3), all present in his editions of 1760 and 1770 (OCR, 2026-11-18). It follows an earlier edition than the fifth: after 'no weight or gravity of itself' (vol. 3 pp. 40-41) it has a sentence on Archimedes that the 1760 and 1770 editions have and the 1776 edition (p. 38) drops. Its Astronomy (vol. 1 from p. 434) is not its own either: it reprints Ferguson's separate Astronomy explained upon Sir Isaac Newton's Principles. Compared 2026-11-18 with the OCR of the 1764 edition (IA bim_eighteenth-century_astronomy-explained-upon_ferguson-james-f-r-s_1764; the 1770 scan's OCR is unusable): 32-71% of the five-word sequences on each page of vol. 1 pp. 434-449 (leaves 517-535) are Ferguson's, against 0% for control pages. The reprint is cut in places: in Ferguson's §§95-96 (pp. 28-29, read from the images) the Britannica's p. 445 (read from the image) drops 'everlasting' from Newton's 'everlasting foundation', 'and none who understand him can hesitate about it', and 'notwithstanding the opposition and violence of blind and zealous bigots' after Ptolemy's system was rejected. So Ferguson is the source of the Britannica's astronomy as of its mechanics; the Astronomy's tides (vol. 1 p. 473, leaf 568) are his too (49% of five-word sequences shared with his Astronomy, 1764 ed. p. 154; checked 2026-11-21). Its Mechanics also reprints the rest of Ferguson's Lecture II: the common centre of gravity and the regulating hand (vol. 3 pp. 41-42) and 'the earth's motion demonstrated' (pp. 42-43; vol. 3 leaf 54 = p. 41, 55 = p. 42, 58 = p. 43, from the images). For water (2026-11-20): its Chemistry 'Of Water' (vol. 2 pp. 66-67, leaves 85-86) and the entry Water (vol. 3 p. 936, leaf 847) are its own (0-1% of five-word sequences shared with the Lectures); its Hydrostatics (vol. 2 leaves 797-811, 25-37%) reprints Ferguson's Lecture V, and its text differs in small words from the 1776 edition ('so exceedingly small' for 'so small', 'since' for 'seeming', vol. 2 p. 804 against Ferguson p. 101, both read from the images), as an earlier edition would. For air (2026-11-21): its Pneumatics (vol. 3 from p. 484, leaf 565) reprints Ferguson's Lecture VI and his air-pump experiments up to no. 26 (leaves 565-566 and 571-575, 18-49%; beer and wood at p. 495, leaf 578), from an edition before the fifth: 17 grains for a quart of air, 14625 grains for a quart of water and 'three following particulars' (p. 484, read from the image), as in the 1760 and 1770 editions (OCR), against 16, 14621 and 'four' in 1776 (p. 169, p. 168, images). Its pp. 486-489 (leaves 567-570, 0-1%, on instruments) and its section 'Of winds' (leaf 579, 1%) are not Ferguson's. It leaves out Ferguson's miscellaneous experiments 27-32, his paragraph on fixed air and Hales's apples (Ferguson 1776 pp. 196-200; the fixed-air paragraph is also in the 1760 and 1770 editions, OCR). Its Mechanics (vol. 3 p. 34, leaf 45) reprints Ferguson's sentence on the repulsive force of the particles of air (p. 8). For light: its Optics from p. 416 (leaf 481) to the magic lantern (p. 427, leaf 492) reprints Ferguson's lecture on optics (19-45% per page); its section 'Different refrangibility of light' (from p. 427) and what follows (leaves 493-504, 0-2%) is not Ferguson's. Ferguson's velocity of light (p. 5) is in the passage its Mechanics leaves out. For the terraqueous globe (2026-11-21): the passages of its treatises cited there are Ferguson's, Mechanics p. 43 (leaf 58, 48%: the whirling-table tides and the figure of the earth, Lectures pp. 44-47), Pneumatics p. 491 (leaf 572, 35%: the earthquakes and volcanoes of Lectures pp. 178-179, reading 'set on fire' where the 1776 edition misprints 'set or fire') and Hydrostatics p. 808 (vol. 2 leaf 801, 52%: the intermitting springs of Lectures p. 117), and Astronomy p. 440 (leaf 523, 38%: the earth round like a globe, Ferguson's Astronomy p. 14). Its entries Terraqueous, Earth, Mountain, Sea, Earthquake, Vulcano, Deluge and Petrifaction are its own (0-1%); its Vulcano credits Lemery with the buried paste (fifty pounds, eight or nine hours) that Ferguson gives unattributed (10 or 15 pounds, 8 or 10 hours). The globe entry had cited the intermitting springs as Hydrostatics p. 847 (leaf 846); that leaf is p. 847, the entries Interest and Intermittent, and the passage is on p. 808 (image). For electricity and the magnet (2026-11-21): its treatise Electricity (vol. 2 leaves 412-428) is its own, sharing 0-1% of five-word sequences per page with Ferguson's Lectures (1776), his Introduction to Electricity (1770) and Martin's Philosophical Grammar (1762, 1769, 1778). Its Mechanics p. 36 (vol. 3 leaf 47, 45%, read from the image) reprints Ferguson's passage 'Magnetism' (Lectures pp. 17-18) word for word, with the first sentence of his 'Electricity', after which it sends the reader to the treatise; p. 35 (leaf 46) has his pores of gold (p. 15). Its entry Magnet (vol. 3 p. 3, leaf 14) is its own (0%). So in the magnet entry its claims on the three properties, the law of the force and 'iron and steel only' were Ferguson's; claims 003, 008, 012, 021 and 039 were corrected from these pages. For fire (2026-11-21): its entries Fire (vol. 2 leaves 548-550) and Heat (leaves 769-770) and its Chemistry 'Of Fire' (leaves 85-87) are its own, 0-1% of five-word sequences shared with Martin's Grammar (1762, 1769, 1778). For the earth (2026-11-21): its Chemistry (vol. 2 leaves 85-86, 96-98) and entry Alchemy (vol. 1 leaf 108) are its own, 0.1-0.5% of five-word sequences shared with Martin's Grammar (1762, 1778).",
+    "r1_check": {
+     "rule": "R1 check 2026-11-16",
+     "window": "1760-1790",
+     "source": "Internet Archive copies of ECCO scans as a stand-in for the ESTC (the ESTC site refused automated requests), 2026-11-16",
+     "note": "Fails clause 2: an encyclopedia does not fill a slot. Under clause 5 (topic by topic): Ferguson, Lectures on Select Subjects, 8 editions 1760-1790 (1760, 1764, 1767, 1770, 1772, 1776, 1784, 1790), for matter, central forces, mechanics, hydrostatics, pneumatics and optics, the system of the world, the terraqueous globe (2026-11-21), electricity and the magnet (2026-11-21, by his margin-headed passages in Lecture I), and meteors (2026-11-22). Nicholson, Introduction to Natural Philosophy, first proposed for the remaining topics, fails clause 12 (first edition 1782). Martin, The Philosophical Grammar (3 editions in the window), for fire (done 2026-11-21: Ferguson's headings touch heat only at the expansion of metals and the thermometer), and the earth (done 2026-11-21: Ferguson's index has metals only under expansion by heat and specific gravity). Meteors went to Ferguson (2026-11-22) by his margin headings on the winds and on thunder and lightning; Martin and Rowning (3 each) are the British texts to add on widening."
+    }
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "1771EncyclopediaBritannicaNLS",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "link": "https://archive.org/download/1771EncyclopediaBritannicaNLS/{file}_jp2.zip/{file}_jp2%2F{file}_{leaf4}.jp2&ext=jpg&reduce=1",
+     "offset": "multi-file item; see charter"
+    }
+   ]
+  },
+  {
+   "id": "martin-grammar-1778",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "M",
+   "author": {
+    "name": "Benjamin Martin",
+    "dates": "1705-1782",
+    "note": "Baptized at Worplesdon, Surrey, on 1 March 1704 Old Style, that is 1705 (parish register, as cited in the British Journal for the History of Science); died in London on 9 February 1782. Some sources give 1704. Lecturer and instrument maker; kept a school at Chichester before moving to London."
+   },
+   "title": "The philosophical grammar; being a view of the present state of experimented physiology, or natural philosophy. In four parts",
+   "edition": "'THE EIGHTEENTH EDITION, With Alterations, Corrections and very large Additions, by Way of Notes' (title page, leaf 0, image); the 1769 printing calls itself the seventh",
+   "year": 1778,
+   "place": "London",
+   "printer": "J. Rivington and Sons, and others",
+   "language": "en",
+   "region": "British Isles",
+   "tradition": {
+    "confession": "not recorded",
+    "institution": "none; written for 'the Youth of both Sexes' (preface, leaf 3, image) by a private teacher and public lecturer"
+   },
+   "genre": "course (dialogue between A, the pupil, and B, the master, with long notes)",
+   "selection": {
+    "rule": "R1 v5, clauses 5 and 12",
+    "window": "1760-1790",
+    "editions_in_window": 3,
+    "source": "Internet Archive holdings (ECCO scans), 2026-11-21: 1762, 1769, 1778. Lower bound; the ESTC was not consulted.",
+    "note": "First printed 1735, so clause 12 is met. Chosen 2026-11-21 (Bruce) as the British text for fire, the earth and meteors, after Nicholson (Introduction to Natural Philosophy, first edition 1782) failed clause 12; Rowning (A Compendious System of Natural Philosophy, 7th ed. 1772) has 3 editions too and is the second British text for meteors when that entry widens. Martin was also chosen that morning for electricity and the magnet, but the same day the reading of those entries showed that Ferguson's Lectures give both topics margin-headed passages (Lecture I pp. 17-19), which under the R1 v4 reading of clause 5 makes Ferguson (8 editions) their text; Bruce decided Ferguson for both, with Martin as the second British text when they widen. Before the Grammar is used for fire, the earth or meteors, check whether Ferguson has headed passages on them: he has 'Thunder and lightning' in the lecture on pneumatics (p. 176, image), which bears on meteors. Title-page problem: the 1778 printing calls itself the eighteenth edition and the 1769 the seventh; either the bookseller's numbering is inflated or the IA lacks many printings. An ESTC count by hand is needed; with more than 8 editions in the window the Grammar would outrank Ferguson for the topics both treat. Read for electricity and the magnet, 2026-11-21 (images): electricity is pp. 105-107, at the end of Part I ch. IX, 'Of Gravity and Levity: Of Attraction and Electricity' (from p. 94): electricity is 'a certain Kind of attractive Faculty, peculiar to some Bodies, as Amber, Jet, Sealing-Wax, Glass', whose particles, rarefied by the heat of rubbing, fly off and are drawn back by the body's attraction, 'as understood at present'; a note of sixteen properties of the rubbed tube (effluvia 'supposed to be of an unctuous and oily Nature') ends by sending the reader to Priestley's History. No Franklin, Nollet, jar, machine, conductors, or positive and negative (OCR of the whole book searched). Lightning is fermenting sulphureous and nitrous exhalations (p. 202). The note is already in the 1762 and 1769 printings (OCR); 1778 adds only the pointer to Priestley. The magnet: 'Wonderful Properties of the Loadstone', pp. 255-257, set apart from the catalogue of fossils in Part IV ch. II as 'this most wonderful of all Fossils': ten properties (no dip); the cause 'a Secret yet hid from Man, though he be blest with a Discovery of its Use' (p. 256); a note of authorities ending with Desaguliers, Whiston, Harris and Chambers (p. 257). Elsewhere: Halley's central magnet as the cause of the variation, 'very probable' (p. 238); iron 'of all Bodies… the only one attracted by the Loadstone' (p. 251); the electric fluid stopped by linen or paper while 'the magnetic Virtue pervades all Objects' (p. 106, note); Boerhaave via Shaw on the ashes of plants (p. 291, note). The book's index gives 'Magnet 225, 226, n.', a misprint for 255-256. Compared by shared five-word sequences, the Britannica's Electricity (vol. 2 leaves 412-428), its entry Magnet (vol. 3 leaf 14) and its Mechanics pp. 32-36 (leaves 43-47) share nothing with the Grammar (0-1% per page against the 1778, 1769 and 1762 OCR); the 1769 and 1762 texts of the same pages share 33-81% with 1778. Fire (2026-11-21): Ferguson's margin headings touch heat only under 'The expansion of metals' (p. 15) and 'The thermometer' (p. 161), and he gives fire and heat no passage of their own, so the Grammar is the British text for fire. Read from the images: the elements, p. 35; rarefaction, p. 111; fluidity, p. 113; 'Of Heat, Cold, &c.', pp. 114-116 (heat 'in the hot Body, Activity or Motion, and nothing else'; flame a fluid in motion that needs air; 'the Particles of Light and Fire are the same'); the note on vapours, p. 197 ('That Heat is Fire, and that the Particles of Fire are in a constant and violent Agitation'), which contradicts p. 114. The passage on heat is already in the 1762 printing (OCR). The Britannica's Fire, Heat and Chemistry 'Of Fire' (vol. 2 leaves 548-550, 769-770, 85-87) share 0-1% with the Grammar (1762, 1769, 1778). Read for the earth, 2026-11-21 (images of pp. 236, 239-242, 245-248, 251-253, 255 note, 257; OCR of pp. 249-250): Part IV ch. II, pp. 236-258, seven heads of earthy bodies (earths, ores, fossils = salts and sulphurs, minerals, metals, stones, extraneous bodies); metals of mercury and sulphur, the 'Sulphur of Metal' supposed the matter of light or fire (pp. 251-252); quicksilver 'incapable of congealing or freezing' (p. 248); minerals, metals and stones grow 'Undoubtedly', mines recruit, seeds of metals from the Creator, mountains as matrices (pp. 240, 257); no phlogiston, platina, transmutation or reduction of calces (OCR of the whole book). The chapter, these passages included, already stands in the 1762 printing (OCR). The Britannica's Chemistry (vol. 2 leaves 85-86, 96-98) and Alchemy (vol. 1 leaf 108) share 0.1-0.5% of five-word sequences with Martin 1762 and 1778. 2026-11-22: meteors went to Ferguson, not Martin, by the same reading (margin headings on the winds, pp. 173-174, and on thunder and lightning, p. 176); Martin and Rowning are the British texts to add when the meteors entry widens. The Grammar is the British text for fire and the earth only."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778",
+     "url": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778",
+     "link": "https://archive.org/details/bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1778/page/n{leaf}/mode/1up",
+     "offset": "plates interleaved: title page = leaf 0, preface = leaves 2-3; leaf = page + 11 for pp. 35-58; page + 21 for p. 94; page + 25 for pp. 103-116; page + 47 for pp. 197-202; page + 57 for pp. 238-257; page + 65 for p. 291 (read from the images, 2026-11-21). The page_numbers.json agrees at these points. Index at leaves 436-439. Earlier printings in the window: 1762 bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1762, 1769 bim_eighteenth-century_the-philosophical-gramma_martin-benjamin_1769."
+    }
+   ]
+  },
+  {
+   "id": "sigaud-electricite-1776",
+   "status": "read",
+   "snapshot": "1775",
+   "siglum": "S",
+   "author": {
+    "name": "Joseph-Aignan Sigaud de la Fond",
+    "dates": "1730-1810"
+   },
+   "title": "Traité de l'électricité",
+   "year": 1776,
+   "place": "Paris",
+   "language": "fr",
+   "region": "France",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Paris, public courses"
+   },
+   "genre": "treatise",
+   "selection": {
+    "rule": "pilot",
+    "note": "Single-topic treatise, used for the electricity entry. Under R1 the Paris text for electricity is Nollet's Leçons t. 6; Sigaud becomes supplementary when the entry is redone."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "b33001674",
+     "url": "https://archive.org/details/b33001674",
+     "offset": "leaf = page + 35"
+    }
+   ]
+  },
+  {
+   "id": "titelmans-compendium-1574",
+   "status": "candidate",
+   "snapshot": "1575",
+   "author": {
+    "name": "François Titelmans OFM",
+    "dates": "1502-1537",
+    "dates_checked": false
+   },
+   "title": "Compendium philosophiae naturalis, seu de consideratione rerum naturalium",
+   "year": 1574,
+   "place": "Lyon",
+   "printer": "Guillaume Rouillé",
+   "language": "la",
+   "region": "France",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Franciscan, Louvain; printed mainly at Lyon and Paris"
+   },
+   "genre": "compendium",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1560-1590",
+    "editions_in_window": 14,
+    "editions_in_region": 9,
+    "source": "USTC, 2026-11-16",
+    "rivals": "France: Toledo 5. Titelmans also leads 1550-1580 (22 editions, 19 of them French).",
+    "note": "Twelve books cover the whole Aristotelian natural philosophy, soul, animals and plants included, so it also gives the 1575 topic list."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "bub_gb_zXe9TG_l4iIC",
+     "url": "https://archive.org/details/bub_gb_zXe9TG_l4iIC",
+     "note": "223 images; OCR shows all twelve books"
+    },
+    {
+     "repo": "IA",
+     "id": "bub_gb_xANNK0YDhNkC",
+     "url": "https://archive.org/details/bub_gb_xANNK0YDhNkC",
+     "note": "Venice 1572, backup"
+    }
+   ]
+  },
+  {
+   "id": "melanchthon-initia-1575",
+   "status": "candidate",
+   "snapshot": "1575",
+   "author": {
+    "name": "Philipp Melanchthon",
+    "dates": "1497-1560",
+    "dates_checked": false
+   },
+   "title": "Initia doctrinae physicae, dictata in Academia Witebergensi",
+   "year": 1575,
+   "place": "Wittenberg",
+   "printer": "Hans Lufft",
+   "language": "la",
+   "region": "Protestant German lands",
+   "tradition": {
+    "confession": "Lutheran",
+    "institution": "University of Wittenberg"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1560-1590",
+    "editions_in_window": 11,
+    "editions_in_region": 11,
+    "source": "USTC, 2026-11-16",
+    "rivals": "Liebler, Epitome philosophiae naturalis (Tübingen; Basel printings) 7."
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb11273497",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273497",
+     "note": "424 canvases"
+    }
+   ]
+  },
+  {
+   "id": "toledo-physica-1579",
+   "status": "candidate",
+   "snapshot": "1575",
+   "author": {
+    "name": "Francisco de Toledo SJ",
+    "dates": "1532-1596",
+    "dates_checked": false
+   },
+   "title": "Commentaria una cum quaestionibus in octo libros Aristotelis de physica auscultatione",
+   "year": 1579,
+   "place": "Cologne",
+   "printer": "Birckmann",
+   "language": "la",
+   "region": "Catholic German lands",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Jesuit, Collegio Romano"
+   },
+   "genre": "commentary",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1560-1590",
+    "editions_in_window": 18,
+    "editions_in_region": 4,
+    "source": "USTC, 2026-11-16",
+    "rivals": "Catholic German lands: no other course with more than one edition found. Toledo is also the most-printed course anywhere in the window (Italy 6, France 5, Cologne 4, Iberia 3). Pereira, De communibus, has 3 (Rome, Venice).",
+    "note": "Covers Aristotle's Physics only; De generatione, De anima and the rest are separate Toledo commentaries."
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb00014718",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb00014718",
+     "note": "708 canvases"
+    },
+    {
+     "repo": "IA",
+     "id": "bub_gb_G_jbZ5sGxMIC",
+     "url": "https://archive.org/details/bub_gb_G_jbZ5sGxMIC",
+     "note": "Venice 1573, first edition"
+    }
+   ]
+  },
+  {
+   "id": "daneau-woorkmanship-1578",
+   "status": "supplementary",
+   "snapshot": "1575",
+   "author": {
+    "name": "Lambert Daneau",
+    "dates": "c. 1530-1595",
+    "dates_checked": false
+   },
+   "title": "The wonderfull woorkmanship of the world (Physica christiana, translated by Thomas Twyne)",
+   "year": 1578,
+   "place": "London",
+   "language": "en",
+   "region": "British Isles",
+   "tradition": {
+    "confession": "Reformed",
+    "institution": "Academy of Geneva"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1560-1590",
+    "editions_in_window": 1,
+    "editions_in_region": 1,
+    "source": "USTC, 2026-11-16",
+    "rivals": "No other natural philosophy course printed in the British Isles found in the window (John Jones's 1574 discourse is medical).",
+    "note": "Fails R1 v3 clause 7: one edition in Britain (London 1578; the 1580 book is its second part). Britain c. 1575 is empty. Kept as a supplementary text for the Scripture question."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "bim_early-english-books-1475-1640_wonderfull-woorkmanship-_daneus-l_1578",
+     "url": "https://archive.org/details/bim_early-english-books-1475-1640_wonderfull-woorkmanship-_daneus-l_1578",
+     "note": "185 images"
+    }
+   ]
+  },
+  {
+   "id": "soto-physicorum-1582",
+   "status": "candidate",
+   "snapshot": "1575",
+   "role": "fallback for the empty British slot (clause 8)",
+   "author": {
+    "name": "Domingo de Soto OP",
+    "dates": "1494-1560",
+    "dates_checked": false
+   },
+   "title": "Super octo libros Physicorum Aristotelis commentaria; quaestiones",
+   "edition": "3rd, revised",
+   "year": 1582,
+   "place": "Salamanca",
+   "language": "la",
+   "region": "Iberia",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Dominican, University of Salamanca"
+   },
+   "genre": "commentary",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1560-1590",
+    "editions_in_window": 8,
+    "editions_in_region": 7,
+    "source": "USTC, 2026-11-16",
+    "note": "Fills the empty British slot under clause 8: tie with Valerius (Low Countries, 8) broken by clause 5 (adds the Dominican order). Soto's questions on fall are the source usually cited for uniformly accelerated free fall."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "ARes312111",
+     "url": "https://archive.org/details/ARes312111",
+     "note": "commentaria"
+    },
+    {
+     "repo": "IA",
+     "id": "ARes312112",
+     "url": "https://archive.org/details/ARes312112",
+     "note": "quaestiones"
+    }
+   ]
+  },
+  {
+   "id": "rohault-traite-1675",
+   "status": "read",
+   "snapshot": "1675",
+   "author": {
+    "name": "Jacques Rohault",
+    "dates": "1618-1672",
+    "dates_checked": false
+   },
+   "title": "Traité de physique",
+   "year": 1675,
+   "place": "Paris",
+   "printer": "Desprez",
+   "language": "fr",
+   "region": "France",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Paris, public lectures (Cartesian)"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1660-1690",
+    "editions_in_window": 13,
+    "editions_in_region": 8,
+    "source": "USTC, 2026-11-16",
+    "rivals": "France: Goudin 3, Gautruche 1, Du Hamel 1.",
+    "note": "Clause 12: first printed 1671; the 1675 printing is the third edition. Under clause 13 (README): Rohault has no section on causes, plants, animals, the rational soul or magic, and no other French course in the count qualifies, so France is blank on those topics. Read for the light entry (2026-11-22). Light is Part I ch. XXVII, pp. 291-342."
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb10131888",
+     "vol": "1",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888",
+     "link": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page={canvas}",
+     "offset": "canvas = page + 40 (pp. 291-342, read from the images 2026-11-22; pp. 285-345 from the OCR running heads)"
+    },
+    {
+     "repo": "MDZ",
+     "id": "bsb10131889",
+     "vol": "2",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889",
+     "offset": "canvas = page + 4 (pp. 135-204, 270-285, from the OCR running heads; not yet checked on the images)"
+    }
+   ],
+   "siglum": "R",
+   "edition": "Troisième Édition (title page, vol. 1 canvas 7)",
+   "first_edition": 1671
+  },
+  {
+   "id": "sperling-institutiones-1664",
+   "status": "read",
+   "snapshot": "1675",
+   "author": {
+    "name": "Johann Sperling",
+    "dates": "1603-1658",
+    "dates_checked": false
+   },
+   "title": "Institutiones physicae",
+   "year": 1664,
+   "place": "Frankfurt and Wittenberg",
+   "printer": "Berger",
+   "language": "la",
+   "region": "Protestant German lands",
+   "tradition": {
+    "confession": "Lutheran",
+    "institution": "University of Wittenberg"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1660-1690",
+    "editions_in_window": 3,
+    "editions_in_region": 3,
+    "source": "USTC, 2026-11-16",
+    "rivals": "Tie with Le Grand (3 here; he takes the British slot, where he has more) and Rohault (2-3 Swiss printings; he takes France). Decided by prescribed use: the Wittenberg professor's own course.",
+    "note": "Weakest pick of the 1675 set; Zeisold and Bechmann (Jena) not counted in the centred window. Read for the light entry (2026-11-22). Light is Book III ch. V, 'De Luce', pp. 495-526 (the 1675 plan's pp. 594-600 are Book IV, on water and the earth)."
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb11273836",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836",
+     "note": "1226 canvases",
+     "link": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page={canvas}",
+     "offset": "canvas = page + 18 (pp. 495-526, read from the images 2026-11-22; pp. 588-604 and 596-684 from the OCR running heads). p. 518 is misprinted 418."
+    }
+   ],
+   "siglum": "S",
+   "first_edition": "c. 1638 (his 1649 dedication speaks of an offering made 'eleven years ago')"
+  },
+  {
+   "id": "goudin-philosophia-1681",
+   "status": "read",
+   "snapshot": "1675",
+   "author": {
+    "name": "Antoine Goudin OP",
+    "dates": "1639-1695",
+    "dates_checked": false
+   },
+   "title": "Philosophia iuxta inconcussa tutissimaque Divi Thomae dogmata",
+   "year": 1681,
+   "place": "Cologne",
+   "printer": "Egmont",
+   "language": "la",
+   "region": "Catholic German lands",
+   "tradition": {
+    "confession": "Catholic",
+    "institution": "Dominican, Thomist"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1660-1690",
+    "editions_in_window": 13,
+    "editions_in_region": 3,
+    "source": "USTC, 2026-11-16",
+    "rivals": "Catholic German lands: Heinlein (Salzburg, Benedictine) 1, Gautruche (Vienna) 1; most other print there is theses. Jesuit courses in the German colleges were dictated, so print counts understate them.",
+    "note": "Under clause 13 (README) the magnet and magic are blank for the Catholic German lands: Goudin has no section on them and the next courses in the count (Heinlein 1, Gautruche 1) fall below clause 7's minimum. Read for the light entry (2026-11-22). Light is t. 3, physics part 2, q. II a. IV, pp. 95-104, on the properties of the heavenly bodies and chiefly their light; his account of light and colour as objects of sight (physics part 4, or t. 2) has not been read."
+   },
+   "scans": [
+    {
+     "repo": "MDZ",
+     "id": "bsb11110404",
+     "vol": "3 (physics parts 2-4)",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404",
+     "link": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page={canvas}",
+     "offset": "canvas = page + 20 (pp. 91-104; 95, 100, 104 read from the images 2026-11-22); plates at canvases 125-128, then page + 24 (pp. 105-134); page + 26 (pp. 270-290, from the OCR running heads). Drifts: check each page."
+    },
+    {
+     "repo": "IA",
+     "id": "bub_gb_D2e2JGtx1rwC",
+     "vol": "2 (physics part 1, 'de ente mobili in communi')",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC",
+     "note": "Bologna 1686 (Longi), t. 2: the scan for physics part 1 under clause 6, the nearest printing with a public scan (none printed in the region). Other scans on the IA: Paris 1674 t. 3 (Couterot, bub_gb_OwifXrlirScC), Milan 1674 t. 1 (Vigoni, logic), Bologna 1686 t. 3 and t. 4, Venice 1689 t. 2 and t. 4."
+    },
+    {
+     "repo": "IA",
+     "id": "bub_gb_SX9rFI59MDcC",
+     "note": "Bologna 1686, one volume; checked for the missing first part of the physics not yet done"
+    }
+   ],
+   "open": "Cologne 1681 t. 2 (physics part 1) not found; Bologna 1686 t. 2 is read in its place (clause 6).",
+   "siglum": "G",
+   "first_edition": "by 1674 (Paris and Milan printings of that year)"
+  },
+  {
+   "id": "legrand-institutio-1675",
+   "status": "read",
+   "snapshot": "1675",
+   "author": {
+    "name": "Antoine Le Grand",
+    "dates": "1629-1699",
+    "dates_checked": false
+   },
+   "title": "Institutio philosophiae, secundum principia D. Renati Descartes",
+   "year": 1675,
+   "place": "London",
+   "printer": "J. Martyn",
+   "language": "la",
+   "region": "British Isles",
+   "tradition": {
+    "confession": "Catholic author (Franciscan) printed for Protestant England",
+    "institution": "Used at Cambridge"
+   },
+   "genre": "course",
+   "selection": {
+    "rule": "R1 v3",
+    "window": "1660-1690",
+    "editions_in_window": 7,
+    "editions_in_region": 4,
+    "source": "USTC, 2026-11-16",
+    "rivals": "British Isles: Sennert, Epitome naturalis scientiae (Oxford 1664; English London 1660, 1661) 3 - below the tie line.",
+    "note": "Read for the light entry (2026-11-22). Light is Part V a. XIV, 'De Lucis Natura', pp. 282-285; colours Part VIII a. XVII, 'De Coloribus', pp. 511-513 (the 1675 plan's 'about p. 519' was the index's)."
+   },
+   "scans": [
+    {
+     "repo": "IA",
+     "id": "bub_gb_hXF3IYaUJc4C",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C",
+     "note": "774 images",
+     "link": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n{leaf}/mode/1up",
+     "offset": "/page/n = page + 59 in Part V (pp. 281-285) and page + 60 in Part VIII (pp. 510-512), read from the images 2026-11-22; the IA page_numbers.json gives + 59 throughout. The djvu.txt has no page breaks: use the hOCR page index with the search text, whose position equals /page/n."
+    }
+   ],
+   "siglum": "L",
+   "first_edition": "London 1672 (standard bibliographies; not checked in the USTC)"
+  }
+ ]
+}

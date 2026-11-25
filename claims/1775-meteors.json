@@ -1,0 +1,3444 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-meteors",
+  "snapshot": "1775",
+  "topic": "meteors",
+  "title": "Meteors",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#meteors",
+   "version_encoded": "1795380980-7d5f"
+  },
+  "published": "2026-11-17",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the texts, read for this entry; encoded at the same time as the entry was written"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region. Watery, luminous and fiery meteors, the winds, and lightning in so far as the meteor texts treat it; lightning as electricity is also in 1775-electricity. Nollet has no lesson on meteors; his applications in Lessons XI, XIII, XVII and XX are the Paris text (R1 clause 5 read as satisfied by passages of their own). Springs, the sea and earthquakes are left to the terraqueous globe. read_from is image where the page image was read, ocr where only the machine-read text was used. Nollet t. 3 /page/n = page + 37 for pp. 369-403 and page + 43 for pp. 490-496; t. 4 page + 15 for pp. 296-316; t. 5 page + 45 near p. 410; t. 6 page + 31 near p. 234. Erxleben n = page + 20 for pp. 545-580. British text from 2026-11-22: Ferguson's Lectures (1776), read from the page images of pp. 168, 173, 174, 176, 177, 189, 245-247; p. 199 from the OCR; the OCR of the whole book searched for meteor, dew, hail, snow, cloud, aurora, northern, halo, spout, whirlwind, frost. Ferguson n = leaf: p. 168 = 207, 173 = 212, 174 = 213, 176 = 215, 177 = 216, 189 = 230, 199 = 240, 246 = 301, 247 = 302. The Britannica is supplementary.",
+  "revised": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images, under the R1 v4 reading of clause 5: margin-headed passages on the winds (pp. 173-174) and on thunder and lightning (pp. 176-177), as for electricity, the magnet and the globe; Martin's Philosophical Grammar (proposed 2026-11-21) and Rowning become the British texts to add on widening. The Britannica kept as supplementary; its claims are unchanged, and claim 123 adds its Pneumatics p. 490, a reprint of Ferguson's thunder with a cross-reference to its Electricity. Ferguson dissents from the common ground on lightning (burning-exhalation) and gives rain by the air growing too light (new code rain-cause air-too-light; vapour-rise gains specific-gravity)."
+  },
+  "conventions_review": {
+   "date": "2026-11-22",
+   "by": "Claude Opus 5.5",
+   "rule": "A common-ground item moves to the disputes when a regional text holds or leans to an answer the item excludes; silence (not taken up, not found) and differences of emphasis do not move it.",
+   "change": "Common-ground item on lightning moved to the disputes (new subsection 'What is lightning?' and table row), since Ferguson makes lightning a fermentation of effluvia. The dek now lists it among the differences. Ferguson's rain (air-too-light) and vapours (specific-gravity) stay in common ground: different emphasis, no contradiction."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part V, De meteoris, pp. 363-390; Part II, section II, article I (winds), pp. 95-97; Part III on atmospheric electricity, pp. 338-339"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Thirteenth section, Vom Luftkreise und den Lufterscheinungen oder Meteoren, §§664-701, pp. 545-580"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 3 (1766) Lesson XI pp. 369-396, 490-496; t. 4 (1765) Lesson XIII pp. 296-316; t. 5 Lesson XVII pp. 409-417; t. 6 (1765) Lesson XX pp. 234-236"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture on pneumatics: margin headings 'The cause of winds', 'The trade-winds', 'The monsoons' (pp. 173-174), 'Fermentations' and 'Thunder and lightning' (pp. 176-177), fire-damps (p. 177), the barometer before rain (p. 189), with the atmosphere p. 168; lecture on optics, the rainbow (pp. 246-247); Lecture I, electricity (pp. 18-19)"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "entries Meteor (iii 203), Rain (iii 525-526), Dew (ii 420), Hail and Halo (ii 769), Spout (iii 623), Aurora Borealis (i 509), Vapour (iii); Pneumatics iii 490 (thunder, reprinting Ferguson) and 494-495 (winds, its own); Electricity ii 480-484; Optics iii 435",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its entries on meteors, its section 'Of winds' (Pneumatics iii 494-495; 0-1% shared five-word sequences with Ferguson) and its rainbow (Optics iii 435, in the section on refrangibility, 0-2%) are its own. Its Pneumatics p. 490 (leaf 571) reprints Ferguson's atmosphere, fermentations, thunder and lightning and fire-damps (pp. 176-177) nearly word for word, adding '(see Electricity:)'; p. 493 (leaf 574) reprints his barometer before rain (p. 189). Claims 001-102 unchanged."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Part V of the particular physics, \"De meteoris\", between earth and the terraqueous globe, in three classes; winds are with the air in Part II, and Part V is cut short for want of room.",
+   "cites": [
+    {
+     "page": "363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=373",
+     "read_from": "image"
+    },
+    {
+     "page": "95",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=105",
+     "read_from": "image"
+    },
+    {
+     "page": "374",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=384",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Within the thirteenth section, on the earth in particular: the atmosphere and its meteors, winds first, between the earth’s surface and its mountains.",
+   "cites": [
+    {
+     "page": "545-551",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n565/mode/1up",
+     "read_from": "ocr",
+     "section": "§§664-670"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "No lesson of its own: watery meteors and winds as applications in Lesson XI on air (a digression), fiery meteors in Lesson XIII on fire, the rainbow in Lesson XVII on light, thunder again in Lesson XX on electricity.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n407/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    },
+    {
+     "page": "296",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n311/mode/1up",
+     "read_from": "ocr",
+     "vol": "4"
+    },
+    {
+     "page": "409",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n454/mode/1up",
+     "read_from": "ocr",
+     "vol": "5"
+    },
+    {
+     "page": "234",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n265/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "A dictionary entry with an old definition (action of the heavenly bodies on the common elements) and three kinds; the substance spread over short entries and the treatises Pneumatics, Electricity and Optics.",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "203",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 234
+     },
+     "entry": "Meteor"
+    },
+    {
+     "vol": "iii",
+     "page": "494-495",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 577
+     },
+     "entry": "Pneumatics"
+    },
+    {
+     "vol": "ii",
+     "page": "480-484",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 421
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "No lecture on meteors. The winds and then thunder and lightning sit in the lecture on pneumatics, under margin headings, as consequences of the air's swelling with heat and of the fermentation of effluvia it receives; the rainbow closes the lecture on optics.",
+   "cites": [
+    {
+     "page": "173",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n212/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "246",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n301/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-meteors-001",
+   "question": "meteor-matter",
+   "text": "B",
+   "answer": "earth-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The atmosphere holds particles of every kind raised from the vegetable, animal and mineral kingdoms; from their mixture and mutual action arise the bodies floating in the air or falling from it, which physicists call meteors.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "363-365",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=373",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-002",
+   "question": "meteor-matter",
+   "text": "E",
+   "answer": "earth-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The air is never pure but full of foreign particles; vapours of many kinds gather in it, driven up by warmth, putrefaction, fermentation and wind.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "551-553",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n571/mode/1up",
+     "read_from": "ocr",
+     "section": "§§671-672"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-003",
+   "question": "meteor-matter",
+   "text": "N",
+   "answer": "earth-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "What rises from the earth is vapours, which are watery, and exhalations, saline, sulphurous, fatty and spirituous; mixed and modified they produce the effects known as meteors.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n407/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-004",
+   "question": "meteor-matter",
+   "text": "EB",
+   "answer": "earth-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fiery meteors are a fat sulphurous smoke set on fire, airy meteors flatulent and spirituous exhalations, watery meteors vapours modified by heat and cold.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "203",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 234
+     },
+     "entry": "Meteor"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-005",
+   "question": "meteor-matter",
+   "text": "EB",
+   "answer": "heavens-and-elements",
+   "stance": "holds",
+   "part": "place",
+   "statement": "A meteor is an imperfect, changeable and mixed body, or the resemblance of a body, appearing in the atmosphere and formed by the action of the heavenly bodies out of the common elements.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "203",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 234
+     },
+     "entry": "Meteor"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-006",
+   "question": "meteor-classes",
+   "text": "B",
+   "answer": "watery-luminous-fiery",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Physicists divide meteors into three classes: watery, emphatic (which strike the eye by light and colour without heat) and fiery.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "367",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=377",
+     "read_from": "ocr"
+    },
+    {
+     "page": "376",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=386",
+     "read_from": "image"
+    },
+    {
+     "page": "382",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=392",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-007",
+   "question": "meteor-classes",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Erxleben does not sort the meteors into classes."
+  },
+  {
+   "id": "1775-meteors-008",
+   "question": "meteor-classes",
+   "text": "N",
+   "answer": "watery-luminous-fiery",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Meteors are of three sorts: watery, made by vapours alone; inflamed, made by exhalations that take fire; and luminous, from vapours and exhalations combined with light.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n407/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-009",
+   "question": "meteor-classes",
+   "text": "EB",
+   "answer": "fiery-airy-watery",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Meteors are of three kinds: fiery, airy and watery.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "203",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 234
+     },
+     "entry": "Meteor"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Meteors are of three kinds; fiery, airy, and watery.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-010",
+   "question": "cloud-nature",
+   "text": "B",
+   "answer": "raised-fog",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Clouds are nothing but fogs raised higher and suspended in the air; this is beyond all doubt, and Biwald found on the mountains of Upper Styria that what looked from below like the densest clouds was only fog at the summit.",
+   "confidence": {
+    "level": "certain",
+    "printed": "extra omnem dubitationem posita est",
+    "translation": "is placed beyond all doubt"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "clouds on the mountains of Upper Styria found to be fog at the summit"
+    }
+   ],
+   "cites": [
+    {
+     "page": "368",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=378",
+     "read_from": "ocr"
+    },
+    {
+     "page": "369",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=379",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quas enim in pede montium haerens densissimas nubes esse existimabam, easdem ad vertices montium elatus nebulam duntaxat esse deprehendi",
+    "from_image": true,
+    "tr": "those which, standing at the foot of the mountains, I took for the densest clouds, I found, when I had climbed to the summits, to be only fog"
+   }
+  },
+  {
+   "id": "1775-meteors-011",
+   "question": "cloud-nature",
+   "text": "E",
+   "answer": "raised-fog",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A fog standing higher in the air is called a cloud; whoever climbs a high mountain covered with clouds finds himself in a fog.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "climbing a clouded mountain"
+    }
+   ],
+   "cites": [
+    {
+     "page": "558",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n578/mode/1up",
+     "read_from": "ocr",
+     "section": "§677"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-012",
+   "question": "cloud-nature",
+   "text": "N",
+   "answer": "raised-fog",
+   "stance": "holds",
+   "part": "common",
+   "statement": "When fogs, or the vapours fit to form them, rise high enough they gather into clouds floating in the atmosphere; travellers in the Alps and Pyrenees pass through them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "381-382",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n418/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-013",
+   "question": "cloud-nature",
+   "text": "EB",
+   "answer": "raised-fog",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A cloud is a collection of vapours suspended in the atmosphere; the same ascending vapour makes a dew, a mist or fog, or rain according as it is checked lower or higher.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "525-526",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 612
+     },
+     "entry": "Rain"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-014",
+   "question": "rain-cause",
+   "text": "B",
+   "answer": "drops-join",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rain is the vapours of the clouds growing into larger drops and falling; its causes are warm vapours rarefying the air, winds pressing or condensing the clouds, heterogeneous vapours fermenting in them, and the electric fluid passing from cloud to cloud.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370-371",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=380",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-015",
+   "question": "rain-cause",
+   "text": "E",
+   "answer": "drops-join",
+   "stance": "holds",
+   "part": "common",
+   "statement": "When the vapours of the clouds unite into still larger drops which their weight no longer lets float, rain arises, from drizzle to cloudburst.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "559",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n579/mode/1up",
+     "read_from": "ocr",
+     "section": "§678"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-016",
+   "question": "rain-cause",
+   "text": "N",
+   "answer": "drops-join",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Clouds thicken, by winds driving them together or by the condensation of the air that carries them, and their parts, gathered into drops, become too heavy and fall.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "383",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n420/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-017",
+   "question": "rain-cause",
+   "text": "EB",
+   "answer": "drops-join",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rain is the precipitated vapour of watery clouds, gathered by winds driving clouds together and by cold; the entry reports further opinions of Derham, Rohault and Clarke.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "William Derham",
+     "dates": "1657-1735",
+     "role": "reported"
+    },
+    {
+     "name": "Jacques Rohault",
+     "dates": "1618-1672",
+     "role": "reported"
+    },
+    {
+     "name": "Samuel Clarke",
+     "dates": "1675-1729",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "525-526",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 612
+     },
+     "entry": "Rain"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-018",
+   "question": "snow-nature",
+   "text": "B",
+   "answer": "frozen-vapour",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Snow is frozen vapour gathered into flakes; the rays of a flake usually join at 60 degrees, and the snows of the year he wrote were exact hexagonal stars.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "snowflakes observed over several years"
+    }
+   ],
+   "cites": [
+    {
+     "page": "374",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=384",
+     "read_from": "image"
+    },
+    {
+     "page": "375",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=385",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-019",
+   "question": "snow-nature",
+   "text": "E",
+   "answer": "frozen-vapour",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Snow arises, presumably, when the smallest drops turn to ice as they draw together; in still weather it falls as little stars of ice rays meeting mostly at 60, sometimes at 30 and 120 degrees; Kepler is said to have observed them first.",
+   "confidence": {
+    "level": "probable",
+    "printed": "vermuthlich",
+    "translation": "presumably"
+   },
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "561",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n581/mode/1up",
+     "read_from": "image",
+     "section": "§681"
+    },
+    {
+     "page": "562",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n582/mode/1up",
+     "read_from": "ocr",
+     "section": "§681"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-020",
+   "question": "snow-nature",
+   "text": "N",
+   "answer": "frozen-vapour",
+   "stance": "holds",
+   "part": "common",
+   "statement": "When the cold in the region of the clouds seizes the vapours before they have joined into large drops, they fall as snow, in very light flakes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "384",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n421/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-021",
+   "question": "snow-nature",
+   "text": "EB",
+   "answer": "frozen-vapour",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Snow is among the watery meteors, vapours modified by heat and cold; the Britannica has no entry Snow.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "203",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 234
+     },
+     "entry": "Meteor"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-022",
+   "question": "prodigious-rains",
+   "text": "B",
+   "answer": "natural",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rains the ancients thought prodigious are natural: stones and ash from volcanoes, sulphur from pollen carried by the wind, blood from small insects and their excrement; it does not rain frogs or toads, which a warm rain hatches or draws out.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "383",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=393",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-023",
+   "question": "prodigious-rains",
+   "text": "E",
+   "answer": "natural",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The common man takes falls of earth, sand, pollen, seeds or volcanic ash for extraordinary rains; the so-called rain of blood comes from various insects.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "552",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n572/mode/1up",
+     "read_from": "ocr",
+     "section": "§671"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-024",
+   "question": "prodigious-rains",
+   "text": "N",
+   "answer": "natural",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rains of sulphur were pine pollen (Scheuchzer), spots of blood are red drops left by butterflies leaving the chrysalis, toads come out after rain and do not fall, and rains of grain are the bulbs of the lesser celandine; such wonders should be examined before they are believed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johann Jakob Scheuchzer",
+     "dates": "1672-1733",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "385-390",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n422/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-025",
+   "question": "prodigious-rains",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not found in the entries read."
+  },
+  {
+   "id": "1775-meteors-026",
+   "question": "rainbow",
+   "text": "B",
+   "answer": "refraction-reflection-drops",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The rainbow is made in the drops of a dewy cloud as in a hollow glass globe of water: the primary bow by one reflection and two refractions, the secondary by two of each, with colours reversed; red at about 42 and violet at about 40 degrees from the sun’s rays. De Dominis first explained it, Descartes illustrated it, and Newton applied the different refrangibility of the rays.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "hollow glass globe of water in a sunlit room, after Nollet"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "angles of the bows"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Marcantonio de Dominis",
+     "dates": "1560-1624",
+     "role": "credited"
+    },
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "credited"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "followed"
+    },
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "377-379",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=387",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-027",
+   "question": "rainbow",
+   "text": "E",
+   "answer": "refraction-reflection-drops",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Sunlight entering a raindrop is refracted, reflected and refracted again and split into its colours; the drops that send red light make an angle of 42°2′ with the sun’s rays, violet 40°16′; the secondary bow comes from two reflections.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "angles of the bows"
+    }
+   ],
+   "cites": [
+    {
+     "page": "564-567",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n584/mode/1up",
+     "read_from": "ocr",
+     "section": "§§683-687"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-028",
+   "question": "rainbow",
+   "text": "N",
+   "answer": "refraction-reflection-drops",
+   "stance": "holds",
+   "part": "common",
+   "statement": "De Dominis first attributed the bow to sunlight refracted and reflected by raindrops, Descartes improved the account, and Newton completed it with the decomposition of light; it is imitated with a hollow glass ball of water.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "hollow glass ball of water hung in a sunlit room"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Marcantonio de Dominis",
+     "dates": "1560-1624",
+     "role": "credited"
+    },
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "credited"
+    },
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "409-417",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n454/mode/1up",
+     "read_from": "ocr",
+     "vol": "5"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-029",
+   "question": "rainbow",
+   "text": "EB",
+   "answer": "refraction-reflection-drops",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rays of the sun that come to the eye from falling drops after one reflection and two refractions produce the primary rainbow.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "435",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "entry": "Optics"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-030",
+   "question": "lightning",
+   "text": "B",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since the electricity of the atmosphere became known by most certain experiments, the agreement between electrical phenomena and lightning is so great that it is no longer permitted to doubt that lightning and the thunderbolt are effects of natural electricity.",
+   "confidence": {
+    "level": "certain",
+    "printed": "ut dubitare iam non liceat",
+    "translation": "that it is no longer permitted to doubt"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "speed, crooked path, melting of metals, magnetizing of iron, as with artificial electricity"
+    }
+   ],
+   "cites": [
+    {
+     "page": "382",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=392",
+     "read_from": "image"
+    },
+    {
+     "page": "383-385",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=393",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "ut dubitare iam non liceat, fulgur, fulmenque electricitatis naturalis effectus esse",
+    "from_image": true,
+    "tr": "that it is no longer permitted to doubt that lightning and the thunderbolt are effects of natural electricity"
+   }
+  },
+  {
+   "id": "1775-meteors-031",
+   "question": "lightning",
+   "text": "E",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "After Franklin’s conjecture of 1747 and the experiments with insulated rods and kites, it can no longer be doubted that lightning and thunder are only effects of a strong electricity, especially since Richmann was killed by a spark from such a rod.",
+   "confidence": {
+    "level": "certain",
+    "printed": "daß heutiges Tages nicht mehr daran gezweifelt werden kann",
+    "translation": "that today it can no longer be doubted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "insulated iron rods and kites in storms"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "credited"
+    },
+    {
+     "name": "Georg Wilhelm Richmann",
+     "dates": "1711-1753",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "570",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n590/mode/1up",
+     "read_from": "image",
+     "section": "§690"
+    },
+    {
+     "page": "571",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n591/mode/1up",
+     "read_from": "image",
+     "section": "§691"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "daß heutiges Tages nicht mehr daran gezweifelt werden kann, daß Blitz und Donner nur Wirkungen einer starken Elektricität sind",
+    "from_image": true,
+    "tr": "that today it can no longer be doubted that lightning and thunder are only effects of a strong electricity"
+   }
+  },
+  {
+   "id": "1775-meteors-032",
+   "question": "lightning",
+   "text": "N",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "In 1749 Nollet said that thunder and lightning were only a great electricity, like in essence to that excited in the laboratory; decisive experiments three years later showed the identity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the experiments of 1752"
+    }
+   ],
+   "cites": [
+    {
+     "page": "234",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n265/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    },
+    {
+     "page": "235",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n266/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "j’osai dire que le tonnerre & les éclairs qui font partie de ce formidable météore, n’étoient qu’une grande Électricité, semblable par son essence à celle que nous excitons dans nos laboratoires en frottant certaines substances",
+    "from_image": true,
+    "tr": "I ventured to say that thunder and lightning, which are part of that formidable meteor, were only a great electricity, like in its essence to the one we excite in our laboratories by rubbing certain substances"
+   }
+  },
+  {
+   "id": "1775-meteors-033",
+   "question": "lightning",
+   "text": "EB",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The treatise Electricity sets out Franklin’s comparison of lightning with the electric spark point by point; the entry Thunder refers there.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "Franklin’s list of likenesses"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "480-481",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 421
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-034",
+   "question": "fiery-meteors",
+   "text": "B",
+   "answer": "inflammable-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fiery globes are dense inflammable vapours from the earth gathered in the air; falling stars are small burning globules; will-o’-the-wisps are exhalations from rotting and fat bodies, wood, corpses and marshes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "386",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=396",
+     "read_from": "image"
+    },
+    {
+     "page": "387-388",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=397",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-035",
+   "question": "fiery-meteors",
+   "text": "E",
+   "answer": "inflammable-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Oily and fatty vapours rising from the earth cause will-o’-the-wisps, falling stars, flying dragons and fireballs, which perhaps take fire or only shine, and in which electricity perhaps sometimes plays a part.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "577",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n597/mode/1up",
+     "read_from": "ocr",
+     "section": "§699"
+    },
+    {
+     "page": "578",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n598/mode/1up",
+     "read_from": "image",
+     "section": "§§699-700"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-036",
+   "question": "fiery-meteors",
+   "text": "N",
+   "answer": "inflammable-exhalations",
+   "stance": "leans",
+   "part": "common",
+   "statement": "It is natural to think that nature chooses the matter of these fires among the exhalations of the earth, since they are commoner where and when such exhalations abound; but on inflamed meteors there are only conjectures.",
+   "confidence": {
+    "level": "possible",
+    "printed": "incertitude par-tout",
+    "translation": "uncertainty everywhere"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "more frequent in hot countries, in summer and on sulphurous or bituminous ground"
+    }
+   ],
+   "cites": [
+    {
+     "page": "297",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n312/mode/1up",
+     "read_from": "ocr",
+     "vol": "4"
+    },
+    {
+     "page": "298",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n313/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "conjectures sur la cause de leur inflammation; conjectures sur la maniére dont ils opérent les effets qu’on est comme forcé de leur attribuer; incertitude par-tout",
+    "from_image": true,
+    "tr": "conjectures on the cause of their inflammation; conjectures on the manner in which they work the effects we are as it were forced to attribute to them; uncertainty everywhere"
+   }
+  },
+  {
+   "id": "1775-meteors-037",
+   "question": "fiery-meteors",
+   "text": "EB",
+   "answer": "inflammable-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fiery meteors, such as falling stars, the draco volans and the ignis fatuus, consist of a fat sulphurous smoke set on fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "203",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 234
+     },
+     "entry": "Meteor"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-038",
+   "question": "winds-cause",
+   "text": "B",
+   "answer": "sun-heat",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The causes of the winds are in general whatever disturbs the equilibrium of the air, among them the action of sun and moon, heat and cold, and effervescences excited by the mixing of vapours.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "95",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=105",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-039",
+   "question": "winds-cause",
+   "text": "E",
+   "answer": "sun-heat",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The air is highest where the sun warms the earth beneath it and flows off, so that a constant east wind blows in the hot zone; unequal warming of land and sea makes land and sea breezes; the monsoons and variable winds come from changes of heat and cold and like causes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "547-549",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n567/mode/1up",
+     "read_from": "ocr",
+     "section": "§§667-669"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-040",
+   "question": "winds-cause",
+   "text": "N",
+   "answer": "sun-heat",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Winds come immediately from a defect of equilibrium in the air; heat and cold change its density; the east winds of the torrid zone are, with likelihood, from the daily turning of the earth presenting each part to the sun.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "493",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n536/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    },
+    {
+     "page": "494",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n537/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-041",
+   "question": "winds-cause",
+   "text": "N",
+   "answer": "fermenting-exhalations",
+   "stance": "leans",
+   "part": "common",
+   "statement": "Exhalations gathering and fermenting in the middle region of the air may also cause winds, as Homberg thought, which would explain their gusts.",
+   "confidence": {
+    "level": "probable",
+    "printed": "comme il est probable",
+    "translation": "as is probable"
+   },
+   "persons": [
+    {
+     "name": "Wilhelm Homberg",
+     "dates": "1652-1715",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "494",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n537/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    },
+    {
+     "page": "495",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n538/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-042",
+   "question": "winds-cause",
+   "text": "EB",
+   "answer": "sun-heat",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Winds are currents restoring the equilibrium of the air; their principal and most universal cause is the sun, whose heat, with the earth’s daily motion, produces the general trade winds.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "494-495",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 577
+     },
+     "entry": "Pneumatics"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-043",
+   "question": "vapour-rise",
+   "text": "B",
+   "answer": "heat-and-motion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Internal motions at or under the surface of the earth, from fires, heat and fermentation, break bodies into very small particles forming a fluid lighter than the air, which drives it up.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "366",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=376",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-044",
+   "question": "vapour-rise",
+   "text": "B",
+   "answer": "electric-fluid",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The electric fluid, poured round the vapours in greater quantity, can increase them and carry them higher, making the particles electric so that they recede from one another and from the earth; it also shapes the clouds and their layers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "366",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=376",
+     "read_from": "image"
+    },
+    {
+     "page": "367",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=377",
+     "read_from": "ocr"
+    },
+    {
+     "page": "369",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=379",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Secundo, copiam vaporum augere, eosque ad maiorem altitudinem evehere quoque potest fluidum electricum, quod maiore copia iisdem circumfunditur.",
+    "from_image": true,
+    "tr": "Secondly, the electric fluid, which is poured round them in greater quantity, can also increase the quantity of vapours and carry them to a greater height."
+   }
+  },
+  {
+   "id": "1775-meteors-045",
+   "question": "vapour-rise",
+   "text": "E",
+   "answer": "heat-and-motion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Vapours are driven up by warmth, putrefaction and fermentation, and by the wind; he goes no further into the mechanism.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "552-553",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n572/mode/1up",
+     "read_from": "ocr",
+     "section": "§672"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-046",
+   "question": "vapour-rise",
+   "text": "N",
+   "answer": "fire-matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "At night the earth is warmer than the air, and the matter of fire passing from it carries the subtlest parts of terrestrial bodies with it; clouds float where they are in equilibrium with the air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "371",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n408/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    },
+    {
+     "page": "382",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n419/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-047",
+   "question": "vapour-rise",
+   "text": "EB",
+   "answer": "heat-and-motion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Vapour is the moist and volatile particles of bodies separated by heat and raised into the atmosphere.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "920",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 829
+     },
+     "entry": "Vapour"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-048",
+   "question": "vapour-rise",
+   "text": "EB",
+   "answer": "vesicles",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "The entry Rain reports Derham’s view that vapours are vesicles full of air.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "William Derham",
+     "dates": "1657-1735",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "525",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 612
+     },
+     "entry": "Rain"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-049",
+   "question": "vapour-rise",
+   "text": "EB",
+   "answer": "electric-fluid",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "The treatise Electricity reports Beccaria: electric matter issuing from the earth carries the watery particles up to form thunder-clouds.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Giambattista Beccaria",
+     "dates": "1716-1781",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "482",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 425
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-050",
+   "question": "dew-falls",
+   "text": "B",
+   "answer": "several-sources",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Dew is a thin vapour gathered into drops by the night’s cold and clinging to bodies; Musschenbroek sets three kinds, one flowing up from the earth, one falling from the atmosphere, one exuded from plants.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "374",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=384",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-051",
+   "question": "dew-falls",
+   "text": "E",
+   "answer": "forms-in-place",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Dew arises in the evening from vapours of plants and other bodies thickening on the leaves as the air cools, with vapours already in the air brought together by the cold; his reading list opens with Gersten against the old error that dew falls.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Christian Ludwig Gersten",
+     "dates": "1701-1762",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "555",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n575/mode/1up",
+     "read_from": "image",
+     "section": "§674"
+    },
+    {
+     "page": "556",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n576/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Aus einem Theile derer wässerichten Dünste, welche die Pflanzen und andere Körper von sich geben, entsteht am Abend der Thau (ros).",
+    "from_image": true,
+    "tr": "From a part of the watery vapours which plants and other bodies give off, the dew (ros) arises in the evening."
+   }
+  },
+  {
+   "id": "1775-meteors-052",
+   "question": "dew-falls",
+   "text": "N",
+   "answer": "falls",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The serein falls in the evening, and the vapours raised in the night with the fire fall back at sunrise as dews; the drops on plants are their transpiration, as a covered cabbage shows.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "a cabbage or lettuce covered for the night"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Christian Ludwig Gersten",
+     "dates": "1701-1762",
+     "role": "reported"
+    },
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    },
+    {
+     "name": "Charles François de Cisternay du Fay",
+     "dates": "1698-1739",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "372",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n409/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    },
+    {
+     "page": "373",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n410/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    },
+    {
+     "page": "378-379",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n415/mode/1up",
+     "read_from": "ocr",
+     "vol": "3"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Il ne faut pas confondre cependant cette rosée qui tombe de l’air, avec celle qu’on remarque le matin sur les plantes.",
+    "from_image": true,
+    "tr": "One must not, however, confuse this dew that falls from the air with that which is seen in the morning on plants."
+   }
+  },
+  {
+   "id": "1775-meteors-053",
+   "question": "dew-falls",
+   "text": "EB",
+   "answer": "falls",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Dew is a dense moist vapour falling on the earth like a fine rain while the sun is below the horizon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "420",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 351
+     },
+     "entry": "Dew"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-054",
+   "question": "hail-cause",
+   "text": "B",
+   "answer": "iced-snow",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Hail is born of watery vapours that first turn to snow, then grow and partly melt as they fall and become ice; a nucleus like snow is sometimes found inside.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "snow-like nucleus in hailstones"
+    }
+   ],
+   "cites": [
+    {
+     "page": "375",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=385",
+     "read_from": "ocr"
+    },
+    {
+     "page": "376",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=386",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-055",
+   "question": "hail-cause",
+   "text": "B",
+   "answer": "electric",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "After Beccaria, so sudden a condensation needs a vehement and swift agent such as the electric fluid; hail is rare in winter and common in the warm seasons when the atmosphere holds more electric fluid, and thunder often comes with it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "seasons of hail and its company with thunder"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Giambattista Beccaria",
+     "dates": "1716-1781",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "376",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=386",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Grandinem vero fluidi electrici repentinae diffusioni tribuendam esse vel inde patet, quod hyeme perquam raro, vere autem exeunte, aestate, autumnoque inchoante frequenter grandinet, quibus anni tempestatibus fluidi electrici maior copia atmosphaerae inest.",
+    "from_image": true,
+    "tr": "That hail must be ascribed to the sudden diffusion of the electric fluid appears from this, that it hails very rarely in winter, but often at the end of spring, in summer and at the start of autumn, the seasons in which the atmosphere holds a greater quantity of electric fluid."
+   }
+  },
+  {
+   "id": "1775-meteors-056",
+   "question": "hail-cause",
+   "text": "E",
+   "answer": "frozen-drops",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Raindrops that reach especially cold regions of the air fall as lumps of ice; in winter it seldom hails because the air is too cold for water to run into drops.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "560",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n580/mode/1up",
+     "read_from": "image",
+     "section": "§680"
+    },
+    {
+     "page": "561",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n581/mode/1up",
+     "read_from": "image",
+     "section": "§680"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Im Winter hagelt es nicht leicht, weil der Lustkreis zu kalt ist, als daß das Wasser in der Luft sollte in Tropfen zusammenfliessen können.",
+    "from_image": true,
+    "tr": "In winter it does not easily hail, because the atmosphere is too cold for the water in the air to be able to run together into drops."
+   }
+  },
+  {
+   "id": "1775-meteors-057",
+   "question": "hail-cause",
+   "text": "N",
+   "answer": "frozen-drops",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Cold in the region of the clouds freezes the vapours: before they join into drops they fall as snow, after as hail; large hail is grains joined in falling or coated with new layers of ice.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "384",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n421/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-058",
+   "question": "hail-cause",
+   "text": "EB",
+   "answer": "nitre",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Hail is raindrops congealed when they meet nitrous particles in the lower air; it is frequent in summer because more nitre is then exhaled from the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "769",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 762
+     },
+     "entry": "Hail"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "they meet with nitrous particles, which are known to contribute greatly to freezing",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-059",
+   "question": "waterspout-cause",
+   "text": "B",
+   "answer": "electricity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The waterspout is explained from Franklin’s theory of electricity, after Beccaria, in Scherffer’s words: a cloud with too much or too little electric fluid draws vapours into a canal for its surplus fluid, and the vapours rushing in raise a wind that turns the column.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Karl Scherffer",
+     "dates": "1716-1783",
+     "role": "followed"
+    },
+    {
+     "name": "Giambattista Beccaria",
+     "dates": "1716-1781",
+     "role": "followed"
+    },
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "371",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=381",
+     "read_from": "image"
+    },
+    {
+     "page": "372-373",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=382",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-060",
+   "question": "waterspout-cause",
+   "text": "E",
+   "answer": "whirlwind",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A whirlwind sometimes drives the parts of a cloud so close that it turns quickly to water, which comes down at once and is whirled round; sailors destroy waterspouts by firing into them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "560",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n580/mode/1up",
+     "read_from": "image",
+     "section": "§679"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-061",
+   "question": "waterspout-cause",
+   "text": "N",
+   "answer": "contrary-winds",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "Few have examined waterspouts closely and their manner of arising is not yet well known; it is believed with fair likelihood that the cloud is set turning by two contrary winds with parallel directions.",
+   "confidence": {
+    "level": "probable",
+    "printed": "avec assez de vraisemblance",
+    "translation": "with fair likelihood"
+   },
+   "cites": [
+    {
+     "page": "394-395",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n431/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Peu d’observateurs ont eu le loisir d’examiner de près ces sortes d’accidens, & par cette raison, l’on n’est pas encore bien instruit de la maniere dont ils naissent.",
+    "from_image": true,
+    "tr": "Few observers have had leisure to examine these accidents closely, and for this reason we are not yet well informed of the manner in which they arise."
+   }
+  },
+  {
+   "id": "1775-meteors-062",
+   "question": "waterspout-cause",
+   "text": "EB",
+   "answer": "contrary-winds",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "The entry Spout reports de la Pryme: a waterspout is a gyration of clouds by contrary winds meeting in a point.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Abraham de la Pryme",
+     "dates": "1671-1704",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "623",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 728
+     },
+     "entry": "Spout"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-063",
+   "question": "waterspout-cause",
+   "text": "EB",
+   "answer": "electricity",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "The treatise Electricity, after Beccaria, makes waterspouts and hurricanes come from parts of the clouds drawn down toward places of the earth lacking electric fluid.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Giambattista Beccaria",
+     "dates": "1716-1781",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "482",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 425
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-064",
+   "question": "lightning-upward",
+   "text": "B",
+   "answer": "both-ways",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since electric matter can rush from a cloud into the earth or from the earth into a cloud, thunderbolts can fall from the clouds and also be struck from the earth into the clouds, as Maffei and others observed.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Scipione Maffei",
+     "dates": "1675-1755",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "385",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=395",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "patet, fulmina non modo e nubibus in tellurem delabi posse, verum etiam ex ipsa tellure in nubes excuti, id, quod a compluribus, praecipue a Marchione Maffeio in Italia observatum, literisque proditum est",
+    "from_image": true,
+    "tr": "it is plain that thunderbolts can not only fall from the clouds to the earth, but also be struck out of the earth itself into the clouds, which has been observed and put in writing by several, chiefly by the Marchese Maffei in Italy"
+   }
+  },
+  {
+   "id": "1775-meteors-065",
+   "question": "lightning-upward",
+   "text": "E",
+   "answer": "from-earth",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Flashes near the ground without storm clouds may be inflamed vapours from cellars or coal pits, but one may not therefore believe with Maffei that all lightning arises so; lightning is a spark between clouds, or between clouds and bodies on the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Scipione Maffei",
+     "dates": "1675-1755",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "573",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n593/mode/1up",
+     "read_from": "ocr",
+     "section": "§694"
+    },
+    {
+     "page": "576",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n596/mode/1up",
+     "read_from": "image",
+     "section": "§698"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Aber man darf deswegen nicht mit Maffei glauben, daß alle Blitze auf diese Weise entstehen.",
+    "from_image": true,
+    "tr": "But one may not on that account believe with Maffei that all lightning arises in this way."
+   }
+  },
+  {
+   "id": "1775-meteors-066",
+   "question": "lightning-upward",
+   "text": "N",
+   "answer": "from-earth",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "A footnote reports Maffei’s firm opinion that the thunderbolt comes from the earth and not from above; Nollet does not adopt it strictly.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Scipione Maffei",
+     "dates": "1675-1755",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "310",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n325/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    },
+    {
+     "page": "311",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n326/mode/1up",
+     "read_from": "ocr",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-067",
+   "question": "lightning-upward",
+   "text": "EB",
+   "answer": "both-ways",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "After Beccaria, electric matter darts from the clouds in one place while it is discharged from the earth in another, the clouds carrying it between places of the earth that have too much and too little.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Giambattista Beccaria",
+     "dates": "1716-1781",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "481-482",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 424
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-068",
+   "question": "lightning-protection",
+   "text": "B",
+   "answer": "pointed-rods",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Franklin held that pointed iron rods would protect houses and ships; Nollet objected that they draw off only a little fluid; against him, Richmann’s death and the fright of three physicists at Bologna show that much passes, so it can hardly be doubted that such rods lead lightning into harmless places.",
+   "confidence": {
+    "level": "probable",
+    "printed": "dubitandum vix est",
+    "translation": "it can hardly be doubted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Richmann killed at Petersburg; three physicists at Bologna struck back by a flash"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    },
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "opposed"
+    },
+    {
+     "name": "Georg Wilhelm Richmann",
+     "dates": "1711-1753",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "386",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=396",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quamobrem dubitandum vix est, perticis eiusmodi ferreis fulmen in loca innoxia derivari posse.",
+    "from_image": true,
+    "tr": "Wherefore it can hardly be doubted that by such iron rods the thunderbolt can be led off into harmless places."
+   }
+  },
+  {
+   "id": "1775-meteors-069",
+   "question": "lightning-protection",
+   "text": "E",
+   "answer": "pointed-rods",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Leading the electricity of the clouds away with iron rods and wire has been much recommended; his own advice is to stay in a low building, away from high bodies and metals.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "575",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n595/mode/1up",
+     "read_from": "image",
+     "section": "§697"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Man hat auch sehr empfohlen, die Elektricität der Gewitterwolken durch eiserne Stangen und Drath abzuleiten",
+    "from_image": true,
+    "tr": "It has also been much recommended to lead off the electricity of the storm clouds by iron rods and wire"
+   }
+  },
+  {
+   "id": "1775-meteors-070",
+   "question": "lightning-protection",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "bells-disperse",
+    "bells-draw"
+   ],
+   "part": "dispute",
+   "statement": "Ringing bells or firing guns may perhaps disperse the storm clouds, perhaps draw them nearer, like any draught of air.",
+   "confidence": {
+    "level": "none",
+    "printed": "vielleicht",
+    "translation": "perhaps"
+   },
+   "cites": [
+    {
+     "page": "575",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n595/mode/1up",
+     "read_from": "image",
+     "section": "§697"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-071",
+   "question": "lightning-protection",
+   "text": "N",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The lessons read do not take up lightning rods; Nollet’s objections, reported by Biwald, are in his other writings."
+  },
+  {
+   "id": "1775-meteors-072",
+   "question": "lightning-protection",
+   "text": "EB",
+   "answer": "pointed-rods",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "An iron rod from the highest part of a building down into the moist earth receives the lightning and conveys it safely; it should rise six or eight feet and end in a fine gilt point, which may draw off the fluid silently; ships and magazines can be protected likewise.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "484",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 427
+     },
+     "entry": "Electricity"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "An iron rod being placed on the outside of a building, from the highest part continued down into the moist earth, in any direction strait or crooked, following the form of the roof or other parts of the building, will receive the lightning at its upper end, attracting it so as to prevent its striking any other part",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-073",
+   "question": "aurora-cause",
+   "text": "B",
+   "answer": "electricity",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "With many physicists after Franklin, the northern light is ascribed not without reason to the electric fluid, condensed into a dark cloud from which it bursts into other vapours as columns of fire; no thunder because, high in very rare air, it is little condensed.",
+   "confidence": {
+    "level": "probable",
+    "printed": "non immerito",
+    "translation": "not without reason"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "389",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=399",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-074",
+   "question": "aurora-cause",
+   "text": "B",
+   "answer": "solar-atmosphere",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Mairan derives the aurora from a fermentation of the sun’s atmosphere mixing with the earth’s; Biwald can hardly believe the solar atmosphere comes so near the earth, and its matter is known by no experiment.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "some aurorae very near the earth"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Mairan"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Jacques Dortous de Mairan",
+     "dates": "1678-1771",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "389",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=399",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Verum vix in animum inducere possum, ut existimem, atmosphaeram solarem tam prope ad terram accedere",
+    "from_image": true,
+    "tr": "But I can hardly bring myself to think that the solar atmosphere comes so near the earth"
+   }
+  },
+  {
+   "id": "1775-meteors-075",
+   "question": "aurora-cause",
+   "text": "E",
+   "answer": "solar-atmosphere",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Mairan explains the northern light uncommonly well from vapours of the sun’s atmosphere drawn by the earth, which make its time, place and all circumstances comprehensible.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "time, place and all circumstances"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Jacques Dortous de Mairan",
+     "dates": "1678-1771",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "579",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n599/mode/1up",
+     "read_from": "image",
+     "section": "§701"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Mairan erklärt die Entstehung des Nordlichtes ungemein glücklich aus Dünsten der Sonnenatmosphäre (§. 609) die von der Erde angezogen werden: Zeit, Ort und alle Umstände bey dem Nordlichte werden daraus begreiflich.",
+    "from_image": true,
+    "tr": "Mairan explains the origin of the northern light uncommonly well from vapours of the sun’s atmosphere (§609) which are drawn by the earth: time, place and all the circumstances of the northern light become comprehensible from it."
+   }
+  },
+  {
+   "id": "1775-meteors-076",
+   "question": "aurora-cause",
+   "text": "E",
+   "answer": "fatty-vapours",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Some have explained the northern light from fatty vapours.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "578",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n598/mode/1up",
+     "read_from": "image",
+     "section": "§701"
+    },
+    {
+     "page": "579",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n599/mode/1up",
+     "read_from": "image",
+     "section": "§701"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-077",
+   "question": "aurora-cause",
+   "text": "N",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The lessons read do not mention the northern light."
+  },
+  {
+   "id": "1775-meteors-078",
+   "question": "aurora-cause",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The entry calls the aurora borealis an extraordinary meteor in the northern heavens and refers to “Pneumatics, Of Meteors”, which the machine-read Pneumatics does not contain; no cause is given.",
+   "cites": [
+    {
+     "vol": "i",
+     "page": "509",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 616
+     },
+     "entry": "Aurora Borealis"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-079",
+   "question": "meteors-electric",
+   "text": "B",
+   "answer": "widely",
+   "stance": "holds",
+   "part": "why",
+   "statement": "That meteors in general and rains in particular depend in great part on the motions of the electric fluid can hardly be doubted, as cloudbursts near mountains show, like smoke gathering round an electrified chain and scattering at a spark.",
+   "confidence": {
+    "level": "certain",
+    "printed": "in dubium vocari vix potest",
+    "translation": "can hardly be called in doubt"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "smoke round an electrified chain"
+    }
+   ],
+   "cites": [
+    {
+     "page": "371",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=381",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "A fluidi electrici variis motibus cum meteora universim, tum pluvias in specie magna ex parte pendere, in dubium vocari vix potest; praecipue, si ad particularia quaedam pluviarum phaenomena attendamus.",
+    "from_image": true,
+    "tr": "That meteors in general, and rains in particular, depend in great part on the various motions of the electric fluid can hardly be called in doubt, especially if we attend to certain particular phenomena of rains."
+   }
+  },
+  {
+   "id": "1775-meteors-080",
+   "question": "meteors-electric",
+   "text": "EB",
+   "answer": "widely",
+   "stance": "reports",
+   "part": "why",
+   "statement": "The treatise Electricity, after Beccaria, has the electric matter raise vapours into thunder-clouds and cause waterspouts and hurricanes, arguing from the quantity of electric matter in a storm, more than any cloud could hold.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Beccaria’s apparatus during storms"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Giambattista Beccaria",
+     "dates": "1716-1781",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "481-482",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 424
+     },
+     "entry": "Electricity"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-081",
+   "question": "meteors-electric",
+   "text": "E",
+   "answer": "thunderstorms",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Electricity is treated in the thunderstorm; in the fiery meteors it perhaps plays a part at times; elsewhere it is not invoked.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "571-572",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n591/mode/1up",
+     "read_from": "image",
+     "section": "§§691-692"
+    },
+    {
+     "page": "578",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n598/mode/1up",
+     "read_from": "image",
+     "section": "§700"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-082",
+   "question": "meteors-electric",
+   "text": "N",
+   "answer": "thunderstorms",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Natural electricity is excited in the atmosphere by causes hitherto unknown and is treated only as thunder and lightning.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "235",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n266/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-083",
+   "question": "lightning",
+   "text": "N",
+   "answer": "burning-exhalation",
+   "stance": "reports",
+   "part": "why",
+   "statement": "The lesson on fire gives as the most likely and most received opinion that the matter of thunder is a mixture of exhalations that ferment or are struck together by the clouds and explode, and lists its difficulties: the brightness and duration of the light, the cold rain, the percussive force.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "304",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n319/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    },
+    {
+     "page": "305",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n320/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    },
+    {
+     "page": "306-312",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n321/mode/1up",
+     "read_from": "ocr",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-084",
+   "question": "lightning",
+   "text": "N",
+   "answer": "electricity",
+   "stance": "leans",
+   "part": "why",
+   "statement": "He closes the lesson on fire with the idea that thunder is in nature’s hands what electricity is in ours, which would please him greatly if well supported; a note added later says these conjectures have since become almost certainties.",
+   "confidence": {
+    "level": "probable",
+    "printed": "presque des certitudes",
+    "translation": "almost certainties"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "universality, speed, inflammability and penetration of the electric matter; the Leyden experiment"
+    }
+   ],
+   "cites": [
+    {
+     "page": "315",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n330/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    },
+    {
+     "page": "316",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n331/mode/1up",
+     "read_from": "image",
+     "vol": "4"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Depuis la première édition de ce volume, ces conjectures sont devenues presque des certitudes.",
+    "from_image": true,
+    "tr": "Since the first edition of this volume, these conjectures have become almost certainties."
+   }
+  },
+  {
+   "id": "1775-meteors-085",
+   "question": "aurora-cause",
+   "text": "B",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Musschenbroek would not oppose the electrical view if aurorae were seen more often, but they were not seen in the Low Countries from 1629 to 1716 and seldom in France or Italy, where the air is no less electric; better to suspend judgement.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "absence of aurorae 1629-1716"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "389",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=399",
+     "read_from": "image"
+    },
+    {
+     "page": "390",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=400",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-086",
+   "question": "halo-cause",
+   "text": "B",
+   "answer": "refraction-in-drops",
+   "stance": "holds",
+   "part": "open",
+   "statement": "A halo is made by refraction and reflection of light in drops or watery vapours, as a candle seen through fog shows.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "candle flame seen through fog"
+    }
+   ],
+   "cites": [
+    {
+     "page": "380-381",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=390",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-087",
+   "question": "halo-cause",
+   "text": "B",
+   "answer": "ice-globules",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Huygens thinks halos are made by globules of ice containing flakes of snow; hail after halos might confirm it, but Musschenbroek holds nothing can be concluded from them about the weather.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Christiaan Huygens",
+     "dates": "1629-1695",
+     "role": "reported"
+    },
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "381",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=391",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-088",
+   "question": "halo-cause",
+   "text": "E",
+   "answer": "refraction-in-drops",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Halos arise when the rays of the sun, moon or stars are strongly refracted in the particles of vapour before them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "569",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n589/mode/1up",
+     "read_from": "ocr",
+     "section": "§688"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-089",
+   "question": "halo-cause",
+   "text": "N",
+   "stance": "not_found",
+   "part": "open",
+   "statement": "Not found in the lessons read."
+  },
+  {
+   "id": "1775-meteors-090",
+   "question": "halo-cause",
+   "text": "EB",
+   "answer": "two-refractions",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Newton intimates that halos are formed by light coming through drops of rain with two refractions and no reflection; how, the entry finds not easy to conceive.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1643-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "769",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 762
+     },
+     "entry": "Halo"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-091",
+   "question": "parhelia-cause",
+   "text": "B",
+   "answer": "ice",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Mock suns and moons arise from refraction and reflection in frozen vapours: cylindrical spicules of ice have often fallen after they were seen, and images of the sun appear on mountains of ice near the poles.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "ice spicules falling after parhelia"
+    }
+   ],
+   "cites": [
+    {
+     "page": "381",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=391",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-092",
+   "question": "parhelia-cause",
+   "text": "E",
+   "answer": "ice",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Mock suns and moons can be explained by refraction in needles of ice hanging upright in the air, and such needles have been seen to fall soon after.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "ice needles falling after parhelia"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Christiaan Huygens",
+     "dates": "1629-1695",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "569",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n589/mode/1up",
+     "read_from": "ocr",
+     "section": "§689"
+    },
+    {
+     "page": "570",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n590/mode/1up",
+     "read_from": "image",
+     "section": "§689"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-093",
+   "question": "parhelia-cause",
+   "text": "N",
+   "stance": "not_found",
+   "part": "open",
+   "statement": "Named among the luminous meteors but not found treated in the lessons read."
+  },
+  {
+   "id": "1775-meteors-094",
+   "question": "parhelia-cause",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "open",
+   "statement": "Not found in the parts read."
+  },
+  {
+   "id": "1775-meteors-095",
+   "question": "meteor-slime",
+   "text": "B",
+   "answer": "yes",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Musschenbroek notes that where falling stars come down a tenacious, glutinous matter has often been found, its inflammable part already burnt away.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "387",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=397",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-096",
+   "question": "meteor-slime",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "open",
+   "statement": "Do will-o’-the-wisps really consist of a slimy matter, as some tell who tried to catch them? A clump of shining insects can imitate them.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "578",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n598/mode/1up",
+     "read_from": "image",
+     "section": "§699"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-097",
+   "question": "meteor-slime",
+   "text": "N",
+   "answer": "no",
+   "stance": "leans",
+   "part": "open",
+   "statement": "He finds it hard to believe Robert Fludd that a glairy matter is found where will-o’-the-wisps settle; if it were so, they would be flying phosphori rather than fires.",
+   "confidence": {
+    "level": "doubtful",
+    "printed": "J’ai peine à croire",
+    "translation": "I find it hard to believe"
+   },
+   "persons": [
+    {
+     "name": "Robert Fludd",
+     "dates": "1574-1637",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "299-300",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n314/mode/1up",
+     "read_from": "ocr",
+     "vol": "4"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-098",
+   "question": "atmosphere-electricity-source",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "air-friction",
+    "cloud-friction",
+    "warming"
+   ],
+   "part": "open",
+   "statement": "How the storm clouds become electric is not easy to explain: does the air rub on them by the winds, do electric and unelectric clouds rub together, are sea clouds electric as Franklin will have it, or are clouds electrified by mere warming, like the tourmaline?",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Benjamin Franklin",
+     "dates": "1706-1790",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "571",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n591/mode/1up",
+     "read_from": "image",
+     "section": "§692"
+    },
+    {
+     "page": "572",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n592/mode/1up",
+     "read_from": "image",
+     "section": "§692"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-099",
+   "question": "atmosphere-electricity-source",
+   "text": "N",
+   "answer": "air-friction",
+   "stance": "leans",
+   "part": "open",
+   "statement": "He imagines, as a conjecture he risks in passing, that electricity is excited in the atmosphere by the rubbing of two currents of air sliding past each other in opposite directions, as in stormy weather.",
+   "confidence": {
+    "level": "possible"
+   },
+   "cites": [
+    {
+     "page": "235",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n266/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    },
+    {
+     "page": "236",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n267/mode/1up",
+     "read_from": "ocr",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-100",
+   "question": "atmosphere-electricity-source",
+   "text": "B",
+   "answer": "earth-vapours",
+   "stance": "leans",
+   "part": "open",
+   "statement": "In his part on electricity the atmosphere more likely draws the fluid from the earth, carried up with vapours.",
+   "confidence": {
+    "level": "probable"
+   },
+   "cites": [
+    {
+     "page": "338-339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=348",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-101",
+   "question": "winds-cause",
+   "text": "N",
+   "stance": "undecided",
+   "between": [
+    "sun-heat",
+    "fermenting-exhalations"
+   ],
+   "part": "open",
+   "statement": "It is known in general that winds come from a defect of equilibrium, but who has thrown the stone when we see the atmosphere stir is known only very imperfectly.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "493",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n536/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "mais qui est-ce qui a jetté la pierre, quand nous voyons l’atmosphere s’agiter? Voilà ce qu’on ne sait que fort imparfaitement.",
+    "from_image": true,
+    "tr": "but who has thrown the stone, when we see the atmosphere stir? That is what we know only very imperfectly."
+   }
+  },
+  {
+   "id": "1775-meteors-102",
+   "question": "winds-cause",
+   "text": "E",
+   "answer": "sun-heat",
+   "stance": "leans",
+   "part": "open",
+   "statement": "The causes of the monsoons are perhaps not yet fully worked out, but no doubt lie in the change of heat and cold, the position of the sun and the nature of the ground.",
+   "confidence": {
+    "level": "probable",
+    "printed": "es ist kein Zweifel",
+    "translation": "there is no doubt"
+   },
+   "cites": [
+    {
+     "page": "549",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n569/mode/1up",
+     "read_from": "ocr",
+     "section": "§669"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-103",
+   "question": "meteor-matter",
+   "text": "F",
+   "answer": "earth-exhalations",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The atmosphere is the common receptacle of all the effluvia or vapours arising from different bodies: steams and smoke of things burnt or melted, fogs from damp watery places, effluvia of sulphureous, nitrous, acid and alkaline bodies; whatever is volatile rises in it to greater or less heights according to its specific gravity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image",
+     "section": "Of Pneumatics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The atmosphere is the common receptacle of all the effluvia or vapours arising from different bodies",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-104",
+   "question": "meteor-classes",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "No classes of meteors; the word meteor does not occur in the Lectures (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-meteors-105",
+   "question": "cloud-nature",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Clouds are named only as part of the atmosphere, with the vapours that float in it; nothing on what a cloud is.",
+   "cites": [
+    {
+     "page": "168",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n207/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-106",
+   "question": "rain-cause",
+   "text": "F",
+   "answer": "air-too-light",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rain and snow fall when the air grows too thin and light to bear up the vapours, which is why the barometer falls before rain or snow; when the air is dense and heavy it keeps them up. Nothing on drops forming in the cloud.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the barometer falls before rain or snow and rises before fair weather"
+    },
+    {
+     "kind": "experiment",
+     "detail": "the barometer under the air-pump receiver falls as air is drawn out"
+    }
+   ],
+   "cites": [
+    {
+     "page": "189",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n230/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "in the former case, the air is too thin and light to bear up the vapours",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-107",
+   "question": "snow-nature",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Snow is named only with rain, at the barometer; nothing on what it is.",
+   "cites": [
+    {
+     "page": "189",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n230/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-108",
+   "question": "prodigious-rains",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Rains of blood, sulphur or frogs are not mentioned (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-meteors-109",
+   "question": "rainbow",
+   "text": "F",
+   "answer": "refraction-reflection-drops",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Rays refracted in passing into drops of falling rain, reflected from the far side of the drops and refracted again as they come out, make all the colours appear in a fine arch in the heavens; the interior bow by two refractions and one reflection, the exterior, less vivid and with its colours inverted, by two refractions and two reflections.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "as rays are separated into the seven colours by a prism or a convex glass"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "paths of rays through a drop, figs. 7 and 8"
+    }
+   ],
+   "cites": [
+    {
+     "page": "246",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n301/mode/1up",
+     "read_from": "image",
+     "section": "Of Optics"
+    },
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n302/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "in the form of a fine arch in the heavens, which is called the rain-bow",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-110",
+   "question": "lightning",
+   "text": "F",
+   "answer": "burning-exhalation",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Thunder and lightning are effluvia of sulphureous and nitrous bodies risen into the atmosphere, which ferment with each other and take fire, very often of themselves, sometimes with the help of the sun's heat; thin matter flashes harmlessly high up, dense matter near the ground explodes, kills men and cattle and splits trees, with claps of thunder. Electricity is not mentioned. Dissents from the common ground of the other three texts.",
+   "confidence": {
+    "level": "certain",
+    "printed": "cannot be at a loss to account for"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "spirit of nitre mixed with oil of cloves ferments with a flame and, if pure and strong, a sudden explosion"
+    },
+    {
+     "kind": "analogy",
+     "detail": "fermentation of acid and alkaline effluvia meeting in the air"
+    },
+    {
+     "kind": "observation",
+     "detail": "lightning melts swords without hurting the scabbard; knives and forks struck keep a magnetic virtue"
+    }
+   ],
+   "cites": [
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "177",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n216/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Whoever considers the effects of fermentation, cannot be at a loss to account for the dreadful effects of thunder and lightning",
+    "from_image": true
+   },
+   "note": "Same claim as 1775-electricity-065. The passage stands in the 1760 edition (OCR); Ferguson's separate Introduction to Electricity (1770) describes Lind's apparatus for testing Franklin's lightning rods (OCR only; not a slot text)."
+  },
+  {
+   "id": "1775-meteors-111",
+   "question": "fiery-meteors",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Falling stars, fireballs and will-o'-the-wisps are not mentioned (machine-read text of the whole book searched). The nearest passages: thin inflammable matter flashes without harm in the upper atmosphere, and fire-damps in mines are much of the same kind with lightning.",
+   "cites": [
+    {
+     "page": "177",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n216/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-112",
+   "question": "winds-cause",
+   "text": "F",
+   "answer": "sun-heat",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The air swells with heat, and wind is a necessary consequence: heated air rises and the adjacent air rushes in; the air presses after the sun from east to west, giving a continual east wind at the equator, inclining a little north and south on either side. The course is changed by exhalations in earthquakes and from volcanoes, heavy rain condensing the air, burning sands, high mountains and the sun's declination; hence the irregular winds of Europe, the monsoons, the winds of Guinea, sea and land breezes, storms, hurricanes and whirlwinds.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "air rushes into a glass-house, up a chimney, in at a key-hole when there is a fire"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "trade winds, monsoons, breezes"
+    }
+   ],
+   "cites": [
+    {
+     "page": "173",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n212/mode/1up",
+     "read_from": "image",
+     "section": "margin headings 'The cause of winds', 'The trade-winds'"
+    },
+    {
+     "page": "174",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n213/mode/1up",
+     "read_from": "image",
+     "section": "margin heading 'The monsoons'"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "and of this property, wind is a necessary consequence",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-meteors-113",
+   "question": "aurora-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The northern light is not mentioned (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-meteors-114",
+   "question": "dew-falls",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Dew is not treated (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-meteors-115",
+   "question": "hail-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Hail is not treated (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-meteors-116",
+   "question": "lightning-protection",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "No lightning rods or conductors in the Lectures (machine-read text of the whole book searched); his separate Introduction to Electricity (1770) describes them."
+  },
+  {
+   "id": "1775-meteors-117",
+   "question": "lightning-upward",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Does not ask whether lightning strikes upward; lightning is fermenting effluvia that take fire in the air.",
+   "cites": [
+    {
+     "page": "176–177",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-118",
+   "question": "vapour-rise",
+   "text": "F",
+   "answer": "specific-gravity",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whatever is volatile rises in the air to greater or less heights according to its specific gravity, and the weight of the air bears the vapours up until it grows too thin and light; no other cause of their rising is given.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "189",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n230/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-119",
+   "question": "waterspout-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Waterspouts are not mentioned; whirlwinds are named only among the irregular winds.",
+   "cites": [
+    {
+     "page": "174",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n213/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-120",
+   "question": "halo-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Halos are not treated. In air-pump experiment 32 a candle seen through the vapours in an exhausting receiver shows circles of various colours faintly like the rainbow's, without a link to halos.",
+   "cites": [
+    {
+     "page": "199",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n240/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-121",
+   "question": "parhelia-cause",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Mock suns are not mentioned (machine-read text of the whole book searched)."
+  },
+  {
+   "id": "1775-meteors-122",
+   "question": "meteors-electric",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "why",
+   "statement": "Electricity has no part in any meteor in the Lectures, not even thunder; electricity is a kind of attraction shown by a rubbed glass tube.",
+   "cites": [
+    {
+     "page": "18–19",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "176–177",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-meteors-123",
+   "question": "lightning",
+   "text": "EB",
+   "answer": "burning-exhalation",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The treatise Pneumatics makes thunder and lightning fermenting sulphureous and nitrous effluvia that take fire, inserting '(see Electricity:)' after 'thunder and lightening', where the treatise Electricity sets out Franklin's identity of lightning and the electric spark.",
+   "confidence": {
+    "level": "certain",
+    "printed": "cannot be at a loss to account for"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "490",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 571
+     }
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "(see Electricity:)",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (Lectures 1776 pp. 176-177; already in the 1760 edition), with the cross-reference added. New in this revision: the pilot had not read Pneumatics p. 490 for meteors."
+  }
+ ]
+}

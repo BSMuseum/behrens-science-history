@@ -1,0 +1,5087 @@
+{
+ "schema": "hos-questions/1",
+ "updated": "2026-11-22 (1675 water entry: six new questions; new codes for sea-salt, tides-cause and sea-light; water-purity now persistent)",
+ "status": "approved by Bruce 2026-11-16; extended as entries are encoded",
+ "conventions": {
+  "id": "Lowercase kebab slug. Never renamed or reused once a claims file cites it; a retired question gets replaced_by.",
+  "wording": "Neutral: askable in the same words of a text from any snapshot, without a later period's concepts. The period's own terms go in names.",
+  "status": "persistent = can be asked of any snapshot in the MVP; local = belongs to one snapshot's debates (kept so every claim has a question); anticipated = expected in 1575, 1675 or the three 1775 topics still to come, not yet drawn from a published entry.",
+  "names": "Terms the texts read so far use, as 'lang: term'. expected_names are terms the period is known to use but not yet seen in our texts.",
+  "answers": "Positions as codes. Add codes as texts are read; never change a code's meaning. A text that weighs answers without choosing gets stance 'undecided' with the codes in 'between'.",
+  "drawn_from": "entry:part, where part is common, dispute, open, why, or place (a claim made where the text places the topic)."
+ },
+ "questions": [
+  {
+   "id": "body-nature",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "What is a body?",
+   "names": [
+    "la: corpus",
+    "de: Körper",
+    "fr: corps",
+    "en: body"
+   ],
+   "expected_names": [
+    "la: corpus naturale",
+    "la: substantia composita ex materia et forma",
+    "la: res extensa"
+   ],
+   "answers": [
+    {
+     "code": "extended-impenetrable",
+     "label": "An extended thing that keeps other bodies out of its place"
+    },
+    {
+     "code": "matter-and-form",
+     "label": "A substance composed of matter and form"
+    },
+    {
+     "code": "extension-alone",
+     "label": "Extension in length, breadth and depth, and nothing else"
+    },
+    {
+     "code": "points-with-forces",
+     "label": "A collection of unextended points endowed with forces"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:common",
+    "1775-body:why"
+   ]
+  },
+  {
+   "id": "penetration",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Can two bodies be in the same place at once?",
+   "names": [
+    "la: impenetrabilitas",
+    "de: Undurchdringlichkeit",
+    "fr: impénétrabilité",
+    "en: solidity"
+   ],
+   "answers": [
+    {
+     "code": "never",
+     "label": "No; apparent penetration is entry into pores"
+    },
+    {
+     "code": "not-naturally",
+     "label": "Not by nature, though possible by divine power"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:common"
+   ]
+  },
+  {
+   "id": "pores",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Do all bodies contain pores?",
+   "names": [
+    "la: pori",
+    "de: Zwischenräume",
+    "fr: pores"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, the densest included"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:common"
+   ]
+  },
+  {
+   "id": "density",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "What makes one body denser than another?",
+   "names": [
+    "la: densitas",
+    "de: Dichtigkeit",
+    "fr: densité"
+   ],
+   "expected_names": [
+    "la: rarefactio",
+    "la: condensatio"
+   ],
+   "answers": [
+    {
+     "code": "more-matter-in-place",
+     "label": "More matter in the same space; fewer or smaller pores"
+    },
+    {
+     "code": "same-matter-more-quantity",
+     "label": "The same matter takes on more or less quantity, without empty space"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:common"
+   ]
+  },
+  {
+   "id": "divisibility",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Can matter be divided without end?",
+   "names": [
+    "la: divisibilitas",
+    "de: Theilbarkeit",
+    "fr: divisibilité",
+    "en: atom"
+   ],
+   "expected_names": [
+    "la: minima naturalia",
+    "la: divisibile in infinitum"
+   ],
+   "answers": [
+    {
+     "code": "without-end",
+     "label": "Yes, without end"
+    },
+    {
+     "code": "ends-in-atoms",
+     "label": "No; division ends in atoms that cannot be cut"
+    },
+    {
+     "code": "ends-in-minima",
+     "label": "Not as a natural substance; each kind has a least part"
+    },
+    {
+     "code": "ends-in-unextended",
+     "label": "No; it ends in simple, unextended elements"
+    },
+    {
+     "code": "not-for-physics",
+     "label": "Experience cannot decide; a question for metaphysics or system"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:dispute",
+    "1775-body:common"
+   ]
+  },
+  {
+   "id": "division-reach",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "divisibility",
+   "wording": "How far can bodies actually be divided?",
+   "answers": [
+    {
+     "code": "beyond-senses",
+     "label": "Far beyond what the senses can follow"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:common"
+   ]
+  },
+  {
+   "id": "matter-principles",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "What are bodies ultimately made of?",
+   "names": [
+    "la: principia corporum",
+    "la: elementa",
+    "fr: élémens",
+    "en: first principles"
+   ],
+   "answers": [
+    {
+     "code": "matter-and-form",
+     "label": "Prime matter and substantial form"
+    },
+    {
+     "code": "four-elements",
+     "label": "Earth, water, air and fire"
+    },
+    {
+     "code": "chemical-principles",
+     "label": "Chemical principles such as salt, sulphur and mercury"
+    },
+    {
+     "code": "cartesian-elements",
+     "label": "Descartes's three elements"
+    },
+    {
+     "code": "atoms",
+     "label": "Atoms"
+    },
+    {
+     "code": "monads",
+     "label": "Leibniz's monads"
+    },
+    {
+     "code": "points-with-forces",
+     "label": "Simple unextended substances with motive force (Boscovich's points)"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:dispute",
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "matter-activity",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Is matter of itself active, or wholly passive?",
+   "names": [
+    "la: vis activa",
+    "la: vis motrix",
+    "en: passive and inactive"
+   ],
+   "expected_names": [
+    "la: materia prima pura potentia"
+   ],
+   "answers": [
+    {
+     "code": "active",
+     "label": "Active: bodies or their elements have forces of their own"
+    },
+    {
+     "code": "passive",
+     "label": "Passive and inactive of itself"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:why"
+   ]
+  },
+  {
+   "id": "four-elements",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Are earth, water, air and fire the elements of all mixed bodies?",
+   "names": [
+    "la: elementa",
+    "de: Elemente",
+    "fr: élémens"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "loosely",
+     "label": "Only in a loose or chemical sense"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:dispute",
+    "1775-water:place",
+    "1775-fire:dispute",
+    "1775-air:dispute",
+    "1775-fire:place",
+    "1775-air:place",
+    "1775-earth:why",
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "element-change",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Can one element be changed into another?",
+   "expected_names": [
+    "la: transmutatio elementorum",
+    "la: generatio elementorum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute",
+    "1775-body:open",
+    "1675-water:open"
+   ]
+  },
+  {
+   "id": "water-into-earth",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "element-change",
+   "wording": "Can water be turned into earth?",
+   "names": [
+    "de: Verwandlung des Wassers in Erde",
+    "fr: changement de l'eau en terre"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No; the earth comes from elsewhere"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute"
+   ]
+  },
+  {
+   "id": "water-into-air",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "element-change",
+   "wording": "Can water be turned into air?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No; vapour is not air"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:open",
+    "1675-water:common"
+   ]
+  },
+  {
+   "id": "void",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Is there empty space in nature?",
+   "names": [
+    "la: vacuum",
+    "la: vacuum disseminatum",
+    "la: plenum",
+    "de: das Leere",
+    "fr: vide"
+   ],
+   "expected_names": [
+    "la: spatia imaginaria"
+   ],
+   "answers": [
+    {
+     "code": "none",
+     "label": "No; nature is full"
+    },
+    {
+     "code": "scattered",
+     "label": "Yes, scattered among the parts of bodies"
+    },
+    {
+     "code": "collected",
+     "label": "Yes, in larger spaces as well"
+    },
+    {
+     "code": "beyond-world-only",
+     "label": "Only beyond the world, if anywhere"
+    },
+    {
+     "code": "not-for-physics",
+     "label": "A question for metaphysics"
+    },
+    {
+     "code": "points-apart",
+     "label": "Bodies are unextended points at distances; no continuous matter fills the space of a body"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:dispute"
+   ]
+  },
+  {
+   "id": "cohesion",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "What holds the parts of a body together?",
+   "names": [
+    "la: cohaesio",
+    "de: Zusammenhang",
+    "fr: cohésion",
+    "en: attraction of cohesion"
+   ],
+   "answers": [
+    {
+     "code": "rest-of-parts",
+     "label": "The parts' rest beside one another"
+    },
+    {
+     "code": "hooks-and-shapes",
+     "label": "Hooks and interlocking shapes"
+    },
+    {
+     "code": "outside-pressure",
+     "label": "The pressure of a surrounding fluid or subtle air"
+    },
+    {
+     "code": "attraction",
+     "label": "Attraction between the parts"
+    },
+    {
+     "code": "inner-force",
+     "label": "A real force within the particles, nature unknown"
+    },
+    {
+     "code": "point-forces",
+     "label": "Points resting at limits of cohesion in a curve of forces"
+    },
+    {
+     "code": "form-or-qualities",
+     "label": "The form, or moisture binding dryness"
+    },
+    {
+     "code": "conspiring-motions",
+     "label": "Conspiring motions of the parts"
+    },
+    {
+     "code": "glue",
+     "label": "A glue or cement between the particles"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:dispute",
+    "1775-body:why"
+   ]
+  },
+  {
+   "id": "motion-quantity",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "How is a quantity of motion reckoned?",
+   "names": [
+    "la: quantitas motus",
+    "de: Grösse der Bewegung",
+    "fr: quantité de mouvement",
+    "en: momentum"
+   ],
+   "expected_names": [
+    "la: impetus"
+   ],
+   "answers": [
+    {
+     "code": "mass-times-velocity",
+     "label": "Quantity of matter multiplied by velocity"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:common"
+   ]
+  },
+  {
+   "id": "force-measure",
+   "theme": "motion",
+   "status": "persistent",
+   "note": "Can arise only after 1686.",
+   "wording": "Is the force of a moving body as its velocity, or as the square of its velocity?",
+   "names": [
+    "la: vis viva",
+    "la: vis mortua",
+    "de: lebendige Kraft",
+    "fr: force vive",
+    "en: entire force"
+   ],
+   "answers": [
+    {
+     "code": "mass-velocity",
+     "label": "As mass times velocity"
+    },
+    {
+     "code": "mass-velocity-squared",
+     "label": "As mass times the square of velocity, for actual motion"
+    },
+    {
+     "code": "question-of-name",
+     "label": "A dispute about a name"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:dispute",
+    "1775-motion:why"
+   ]
+  },
+  {
+   "id": "balance",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "When do weights or forces balance?",
+   "names": [
+    "la: aequilibrium",
+    "de: Gleichgewicht",
+    "fr: équilibre",
+    "en: mechanical powers"
+   ],
+   "answers": [
+    {
+     "code": "equal-motions",
+     "label": "When the quantities of motion they would have are equal"
+    },
+    {
+     "code": "equal-moments",
+     "label": "When weight times distance is equal on each side"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:common"
+   ]
+  },
+  {
+   "id": "action-reaction",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Is every action of one body on another met by an equal action in return?",
+   "names": [
+    "la: reactio",
+    "de: Gegenwirkung",
+    "fr: réaction"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, always equal"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:common"
+   ]
+  },
+  {
+   "id": "collision",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "What happens when two bodies strike each other?",
+   "names": [
+    "la: collisio",
+    "la: percussio",
+    "de: Stoß",
+    "fr: choc",
+    "en: collision"
+   ],
+   "answers": [
+    {
+     "code": "hard-together-elastic-apart",
+     "label": "Hard and soft bodies move on together; elastic bodies spring apart"
+    },
+    {
+     "code": "cartesian-rules",
+     "label": "Descartes's seven rules"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:common"
+   ]
+  },
+  {
+   "id": "hard-bodies",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Are there perfectly hard bodies in nature?",
+   "names": [
+    "la: corpora perfecte dura",
+    "de: völlig harte Körper",
+    "fr: corps parfaitement durs"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:common",
+    "1775-motion:why"
+   ]
+  },
+  {
+   "id": "motion-transfer",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "How does one body pass motion to another?",
+   "names": [
+    "la: communicatio motus",
+    "de: Mittheilung der Bewegung",
+    "fr: communication du mouvement"
+   ],
+   "answers": [
+    {
+     "code": "by-contact",
+     "label": "By contact and impact"
+    },
+    {
+     "code": "unknown",
+     "label": "Unknown, perhaps unknowable"
+    },
+    {
+     "code": "repulsion-without-contact",
+     "label": "By repulsive forces; bodies never touch"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:dispute"
+   ]
+  },
+  {
+   "id": "motion-persistence",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Why does a body keep moving after whatever set it moving has stopped acting on it?",
+   "names": [
+    "la: vis inertiae",
+    "en: inactivity"
+   ],
+   "expected_names": [
+    "la: impetus impressus",
+    "la: antiperistasis",
+    "la: motus violentus"
+   ],
+   "answers": [
+    {
+     "code": "impressed-impetus",
+     "label": "A force impressed by the mover, which wears away"
+    },
+    {
+     "code": "pushed-by-medium",
+     "label": "The air or medium drives it on"
+    },
+    {
+     "code": "persists-of-itself",
+     "label": "A body keeps its state of rest or motion until something changes it"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:dispute"
+   ]
+  },
+  {
+   "id": "inertia-force",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Do bodies resist a change of their state by a force of their own?",
+   "names": [
+    "la: vis inertiae",
+    "de: Trägheit",
+    "fr: force d'inertie",
+    "en: inactivity",
+    "en: passiveness"
+   ],
+   "answers": [
+    {
+     "code": "real-resistance",
+     "label": "Yes, a real resistance proportional to the quantity of matter"
+    },
+    {
+     "code": "passive-property",
+     "label": "Matter is inactive and passive; no force is named"
+    },
+    {
+     "code": "sufficient-reason",
+     "label": "No force of its own; only the principle of sufficient reason applied to bodies"
+    },
+    {
+     "code": "no-resistance",
+     "label": "No; bodies do not positively resist at all"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:dispute",
+    "1775-motion:why"
+   ]
+  },
+  {
+   "id": "first-law-grounds",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "How is it known that a body left to itself keeps its rest or its uniform straight motion?",
+   "answers": [
+    {
+     "code": "sufficient-reason",
+     "label": "From the principle of sufficient reason"
+    },
+    {
+     "code": "experience",
+     "label": "From experience and the phenomena"
+    },
+    {
+     "code": "divine-constancy",
+     "label": "From God's constancy in conserving motion"
+    },
+    {
+     "code": "cannot-be-proved",
+     "label": "It can be proved neither a priori nor from the phenomena"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:why"
+   ]
+  },
+  {
+   "id": "absolute-rest",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Is anything in nature absolutely at rest?",
+   "names": [
+    "la: quies",
+    "fr: repos"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No; rest is only relative"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:open"
+   ]
+  },
+  {
+   "id": "inertia-weight",
+   "theme": "motion",
+   "status": "local",
+   "wording": "Is the resistance of bodies to motion the same thing as their weight?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:open"
+   ]
+  },
+  {
+   "id": "inertia-moves",
+   "theme": "motion",
+   "status": "local",
+   "wording": "Can a body's inertia itself set it in motion?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-motion:open"
+   ]
+  },
+  {
+   "id": "fall-cause",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Why do heavy bodies fall?",
+   "names": [
+    "la: gravitas",
+    "de: Schwere",
+    "fr: pesanteur",
+    "en: gravity",
+    "en: gravitation"
+   ],
+   "expected_names": [
+    "la: locus naturalis",
+    "la: motus naturalis"
+   ],
+   "answers": [
+    {
+     "code": "natural-place",
+     "label": "They seek their natural place at the centre"
+    },
+    {
+     "code": "subtle-matter",
+     "label": "A subtle matter or vortex drives them down"
+    },
+    {
+     "code": "attraction",
+     "label": "A universal mutual attraction of matter"
+    },
+    {
+     "code": "unknown",
+     "label": "The cause is unknown; keep to the phenomena"
+    },
+    {
+     "code": "spirits",
+     "label": "Spirits or souls draw heavy bodies down"
+    },
+    {
+     "code": "effluvia",
+     "label": "Effluvia or hooked particles from the earth draw bodies down, as a magnet draws iron"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:dispute",
+    "1775-gravity:why"
+   ]
+  },
+  {
+   "id": "gravity-essential",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Does heaviness belong to matter as such?",
+   "answers": [
+    {
+     "code": "primary-quality",
+     "label": "Yes; it is among the primary qualities of all bodies"
+    },
+    {
+     "code": "not-essential",
+     "label": "No; matter can be conceived without it, or it is given to matter"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:open"
+   ]
+  },
+  {
+   "id": "attraction-observed",
+   "theme": "heaviness",
+   "status": "local",
+   "wording": "Can bodies at hand be seen to draw one another?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, by delicate experiments or by mountains"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:why",
+    "1775-gravity:open"
+   ]
+  },
+  {
+   "id": "levity",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Are some bodies light of themselves, or are all bodies heavy?",
+   "names": [
+    "la: levitas",
+    "fr: légèreté"
+   ],
+   "expected_names": [
+    "la: levitas absoluta"
+   ],
+   "answers": [
+    {
+     "code": "all-heavy",
+     "label": "All bodies are heavy; lightness is only less weight"
+    },
+    {
+     "code": "some-light",
+     "label": "Some bodies, such as fire, are light by nature"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:common"
+   ]
+  },
+  {
+   "id": "weight-matter",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Is a body's weight as its quantity of matter?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, whatever its bulk or figure"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:common"
+   ]
+  },
+  {
+   "id": "fall-speed-weight",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Do heavier bodies fall faster than lighter ones?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "not-in-vacuum",
+     "label": "No; without air all fall equally fast"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:common"
+   ]
+  },
+  {
+   "id": "fall-acceleration",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "How does the speed of a falling body grow?",
+   "answers": [
+    {
+     "code": "uniformly-with-time",
+     "label": "Uniformly with the time of fall"
+    },
+    {
+     "code": "with-distance",
+     "label": "In proportion to the distance fallen"
+    },
+    {
+     "code": "nearing-its-place",
+     "label": "Faster as it nears its natural place"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:common"
+   ]
+  },
+  {
+   "id": "gravity-reach",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Does heaviness act beyond the earth, as far as the moon and the planets?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, weakening with distance"
+    },
+    {
+     "code": "no",
+     "label": "No; it belongs to the region below the moon"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:common",
+    "1775-world:dispute"
+   ]
+  },
+  {
+   "id": "weight-latitude",
+   "theme": "heaviness",
+   "status": "persistent",
+   "wording": "Is a body's weight the same everywhere on the earth?",
+   "answers": [
+    {
+     "code": "same",
+     "label": "Yes"
+    },
+    {
+     "code": "less-at-equator",
+     "label": "No; less near the equator"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:common",
+    "1775-gravity:dispute"
+   ]
+  },
+  {
+   "id": "weight-latitude-cause",
+   "theme": "heaviness",
+   "status": "local",
+   "parent": "weight-latitude",
+   "wording": "Why do bodies weigh less near the equator?",
+   "answers": [
+    {
+     "code": "rotation",
+     "label": "The centrifugal force of the earth's daily turning"
+    },
+    {
+     "code": "figure-of-earth",
+     "label": "The earth's figure"
+    },
+    {
+     "code": "unknown",
+     "label": "Not yet known"
+    },
+    {
+     "code": "less-matter",
+     "label": "Less attracting matter under the equator"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:dispute"
+   ]
+  },
+  {
+   "id": "earth-motion",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Does the earth move?",
+   "names": [
+    "la: motus telluris",
+    "de: Bewegung der Erde",
+    "fr: mouvement de la terre"
+   ],
+   "answers": [
+    {
+     "code": "at-rest",
+     "label": "No; it rests at the centre"
+    },
+    {
+     "code": "turns-daily",
+     "label": "It turns daily on its axis but does not circle the sun"
+    },
+    {
+     "code": "turns-and-circles-sun",
+     "label": "It turns daily and circles the sun yearly"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:dispute",
+    "1775-world:common",
+    "1775-gravity:dispute",
+    "1675-water:why"
+   ]
+  },
+  {
+   "id": "world-arrangement",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "How are the sun, the earth and the planets arranged?",
+   "names": [
+    "la: systema mundi",
+    "de: Weltbau",
+    "fr: système du monde"
+   ],
+   "answers": [
+    {
+     "code": "ptolemaic",
+     "label": "Earth at the centre, everything circling it"
+    },
+    {
+     "code": "tychonic",
+     "label": "Planets circle the sun, which circles the resting earth"
+    },
+    {
+     "code": "copernican",
+     "label": "Sun at the centre; the earth is one of the planets"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:common"
+   ]
+  },
+  {
+   "id": "scripture-nature",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Can Scripture settle questions about nature?",
+   "names": [
+    "en: Joshua's command to the sun"
+   ],
+   "expected_names": [
+    "la: physica Mosaica",
+    "la: physica Christiana"
+   ],
+   "answers": [
+    {
+     "code": "accommodated",
+     "label": "No; Scripture speaks to common understanding"
+    },
+    {
+     "code": "authority",
+     "label": "Yes; Scripture is an authority in natural philosophy"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:dispute",
+    "1775-globe:why",
+    "1675-light:why",
+    "1675-water:why"
+   ]
+  },
+  {
+   "id": "planet-mover",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "What moves the planets?",
+   "names": [
+    "la: causa motuum coelestium",
+    "fr: cause des mouvemens célestes"
+   ],
+   "expected_names": [
+    "la: intelligentiae",
+    "la: motores orbium"
+   ],
+   "answers": [
+    {
+     "code": "intelligences",
+     "label": "Intelligences or movers turning the spheres"
+    },
+    {
+     "code": "vortex",
+     "label": "A whirling fluid heaven"
+    },
+    {
+     "code": "gravity-and-projection",
+     "label": "Mutual gravity together with a projectile or centrifugal force"
+    },
+    {
+     "code": "unknown",
+     "label": "Unknown"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:dispute",
+    "1775-world:why"
+   ]
+  },
+  {
+   "id": "heavens-medium",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "What fills the space between the heavenly bodies?",
+   "names": [
+    "la: aether",
+    "la: materia subtilis",
+    "la: vortices",
+    "fr: tourbillons"
+   ],
+   "expected_names": [
+    "la: orbes",
+    "la: quinta essentia"
+   ],
+   "answers": [
+    {
+     "code": "solid-spheres",
+     "label": "Solid spheres of a fifth element"
+    },
+    {
+     "code": "fluid-heaven",
+     "label": "A fluid subtle matter that may whirl"
+    },
+    {
+     "code": "rare-aether",
+     "label": "A very rare aether that hardly resists"
+    },
+    {
+     "code": "empty",
+     "label": "Nothing, or next to nothing"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:dispute",
+    "1775-light:why",
+    "1775-gravity:dispute",
+    "1775-light:open",
+    "1675-water:why"
+   ]
+  },
+  {
+   "id": "fixed-stars",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "What are the fixed stars?",
+   "answers": [
+    {
+     "code": "suns",
+     "label": "Suns at immense distances"
+    },
+    {
+     "code": "lights-in-a-sphere",
+     "label": "Lights fixed in the outermost sphere"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:common"
+   ]
+  },
+  {
+   "id": "orbit-shape",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "In what paths do the planets move?",
+   "answers": [
+    {
+     "code": "ellipses",
+     "label": "Ellipses with the sun in one focus"
+    },
+    {
+     "code": "circles-and-epicycles",
+     "label": "Circles, with epicycles and eccentrics"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:common"
+   ]
+  },
+  {
+   "id": "retrogradation",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Are the planets' halts and backward motions real or only apparent?",
+   "answers": [
+    {
+     "code": "apparent",
+     "label": "Apparent, from the earth's own motion"
+    },
+    {
+     "code": "real",
+     "label": "Real motions on epicycles"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:common"
+   ]
+  },
+  {
+   "id": "planet-inhabitants",
+   "theme": "heavens",
+   "status": "persistent",
+   "parent": "plurality-of-worlds",
+   "wording": "Are the other planets inhabited?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:dispute",
+    "1775-world:why"
+   ]
+  },
+  {
+   "id": "stellar-parallax",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Do the fixed stars show a yearly shift in their places?",
+   "names": [
+    "la: parallaxis annua"
+   ],
+   "answers": [
+    {
+     "code": "not-observed",
+     "label": "None has been observed; the stars are too far off"
+    },
+    {
+     "code": "observed",
+     "label": "Yes, it has been observed"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:open",
+    "1775-world:why"
+   ]
+  },
+  {
+   "id": "projectile-origin",
+   "theme": "heavens",
+   "status": "local",
+   "parent": "planet-mover",
+   "wording": "Where does the planets' motion along the tangent of their orbits come from?",
+   "answers": [
+    {
+     "code": "creation",
+     "label": "God impressed it at the creation"
+    },
+    {
+     "code": "unknown",
+     "label": "Unknown"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:open"
+   ]
+  },
+  {
+   "id": "system-stability",
+   "theme": "heavens",
+   "status": "persistent",
+   "note": "As a question about the planets' mutual disturbances, can arise only after Newton (1687).",
+   "wording": "Do the heavenly motions keep their order by the laws given at first, or do they need God's continued correction?",
+   "names": [
+    "en: regulating hand"
+   ],
+   "answers": [
+    {
+     "code": "keeps-order",
+     "label": "The laws given at first keep the system in order"
+    },
+    {
+     "code": "needs-correction",
+     "label": "The planets disturb one another, and God's hand must correct them"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:dispute"
+   ]
+  },
+  {
+   "id": "planets-same-direction",
+   "theme": "heavens",
+   "status": "local",
+   "wording": "Why do all the planets go round the same way?",
+   "answers": [
+    {
+     "code": "common-stream",
+     "label": "A common stream of subtle matter carries them"
+    },
+    {
+     "code": "unknown",
+     "label": "No prior cause appears"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:open"
+   ]
+  },
+  {
+   "id": "obliquity-change",
+   "theme": "heavens",
+   "status": "local",
+   "wording": "Is the angle between the ecliptic and the equator growing less?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:open"
+   ]
+  },
+  {
+   "id": "venus-satellite",
+   "theme": "heavens",
+   "status": "local",
+   "wording": "Does Venus have a moon?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:open"
+   ]
+  },
+  {
+   "id": "plurality-of-worlds",
+   "theme": "heavens",
+   "status": "anticipated",
+   "wording": "Is there more than one world?",
+   "expected_names": [
+    "la: pluralitas mundorum"
+   ],
+   "answers": [
+    {
+     "code": "one",
+     "label": "One world only"
+    },
+    {
+     "code": "many",
+     "label": "Many worlds"
+    }
+   ]
+  },
+  {
+   "id": "heavens-matter",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Are the heavens made of the same kind of matter as the earth?",
+   "expected_names": [
+    "la: quinta essentia",
+    "la: corpus coeleste"
+   ],
+   "answers": [
+    {
+     "code": "different",
+     "label": "No; a fifth element"
+    },
+    {
+     "code": "same",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:why"
+   ]
+  },
+  {
+   "id": "heavens-change",
+   "theme": "heavens",
+   "status": "anticipated",
+   "wording": "Can anything come to be or pass away in the heavens?",
+   "expected_names": [
+    "la: incorruptibilitas coeli",
+    "la: nova stella"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No; the heavens are unchangeable"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ]
+  },
+  {
+   "id": "comets-place",
+   "theme": "heavens",
+   "status": "anticipated",
+   "parent": "heavens-change",
+   "wording": "Are comets above or below the moon?",
+   "answers": [
+    {
+     "code": "below-moon",
+     "label": "Below the moon, in the air"
+    },
+    {
+     "code": "above-moon",
+     "label": "Above the moon, among the planets"
+    }
+   ]
+  },
+  {
+   "id": "tides-cause",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "What causes the tides?",
+   "answers": [
+    {
+     "code": "moon-attraction",
+     "label": "The attraction of the moon and sun"
+    },
+    {
+     "code": "moon-influence",
+     "label": "An influence of the moon"
+    },
+    {
+     "code": "earth-motion",
+     "label": "The earth's motion"
+    },
+    {
+     "code": "pressure-of-vortex",
+     "label": "The moon's pressure on the fluid heaven"
+    },
+    {
+     "code": "lunar-effluvia",
+     "label": "Effluvia from the moon fermenting with matter in the sea"
+    },
+    {
+     "code": "whirlpools",
+     "label": "Whirlpools that swallow and give back the sea"
+    },
+    {
+     "code": "sea-spirits",
+     "label": "Spirits or vapours in the sea itself that kindle and spend themselves at fixed times, as in a fever or in wine working in the cask"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:common",
+    "1675-water:dispute"
+   ],
+   "names": [
+    "la: aestus maris",
+    "la: fluxus et refluxus",
+    "de: Ebbe und Fluth",
+    "fr: flux et reflux",
+    "en: tides"
+   ]
+  },
+  {
+   "id": "earth-figure",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "What is the shape of the earth?",
+   "answers": [
+    {
+     "code": "sphere",
+     "label": "A sphere"
+    },
+    {
+     "code": "flattened-at-poles",
+     "label": "Flattened at the poles"
+    },
+    {
+     "code": "lengthened-at-poles",
+     "label": "Lengthened at the poles"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:open",
+    "1775-globe:common",
+    "1775-globe:open"
+   ],
+   "names": [
+    "la: figura telluris",
+    "de: zusammengedrücktes Sphäroid",
+    "fr: sphéroïde",
+    "en: oblate spheroid"
+   ]
+  },
+  {
+   "id": "light-nature",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What is light?",
+   "names": [
+    "la: lux",
+    "la: lumen",
+    "de: Licht",
+    "fr: lumière",
+    "la: radius",
+    "fr: lumiere primitive",
+    "fr: lumiere seconde ou dérivée"
+   ],
+   "answers": [
+    {
+     "code": "quality",
+     "label": "A quality: the act of the transparent"
+    },
+    {
+     "code": "emission",
+     "label": "Particles sent out by the luminous body"
+    },
+    {
+     "code": "medium-pressure",
+     "label": "A pressure or motion passed through a medium (Descartes)"
+    },
+    {
+     "code": "aether-vibration",
+     "label": "Vibrations of an aether (Euler)"
+    },
+    {
+     "code": "quality-of-luminous",
+     "label": "A quality of the luminous body, which it spreads through the medium as an accident (not the act of the transparent)"
+    }
+   ],
+   "drawn_from": [
+    "1775-light:dispute",
+    "1775-light:why",
+    "1675-light:dispute"
+   ]
+  },
+  {
+   "id": "light-time",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Does light take time to travel?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "instantaneous",
+     "label": "No; it is instantaneous"
+    }
+   ],
+   "drawn_from": [
+    "1775-light:common",
+    "1675-light:dispute"
+   ],
+   "names": [
+    "la: in instanti",
+    "fr: en un instant"
+   ]
+  },
+  {
+   "id": "light-straight",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Does light travel in straight lines?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-light:common",
+    "1775-light:dispute",
+    "1675-light:common"
+   ]
+  },
+  {
+   "id": "colours",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What are colours?",
+   "answers": [
+    {
+     "code": "qualities-of-bodies",
+     "label": "Qualities of bodies"
+    },
+    {
+     "code": "modified-light",
+     "label": "Light modified by bodies"
+    },
+    {
+     "code": "parts-of-light",
+     "label": "Different kinds of rays that make up ordinary light"
+    },
+    {
+     "code": "vibration-rates",
+     "label": "Beats of the aether following one another at different rates, as tones are to the ear (Euler)"
+    }
+   ],
+   "drawn_from": [
+    "1775-light:common",
+    "1775-light:open",
+    "1675-light:dispute"
+   ]
+  },
+  {
+   "id": "light-sound",
+   "theme": "light-and-fire",
+   "status": "local",
+   "wording": "Is light like sound?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, in important respects"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-light:common"
+   ]
+  },
+  {
+   "id": "fire-nature",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What is fire?",
+   "names": [
+    "la: ignis",
+    "de: Feuer",
+    "fr: feu",
+    "en: matter of fire",
+    "en: phlogiston"
+   ],
+   "answers": [
+    {
+     "code": "element",
+     "label": "One of the four elements"
+    },
+    {
+     "code": "matter-of-fire",
+     "label": "A distinct matter of fire"
+    },
+    {
+     "code": "motion-of-parts",
+     "label": "A vehement internal motion of a body's own parts"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:dispute",
+    "1775-fire:why"
+   ]
+  },
+  {
+   "id": "fire-nature-known",
+   "theme": "light-and-fire",
+   "status": "local",
+   "parent": "fire-nature",
+   "wording": "Is the nature of fire settled?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "No; only probabilities can be offered"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:dispute"
+   ]
+  },
+  {
+   "id": "heat-nature",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What is heat?",
+   "names": [
+    "la: calor",
+    "de: Wärme",
+    "fr: chaleur"
+   ],
+   "answers": [
+    {
+     "code": "quality",
+     "label": "A primary quality"
+    },
+    {
+     "code": "matter-of-fire",
+     "label": "The presence of a matter of fire"
+    },
+    {
+     "code": "motion-of-parts",
+     "label": "A motion of the parts"
+    },
+    {
+     "code": "motion-of-fire-matter",
+     "label": "A trembling of a matter of fire spread through all bodies, not its mere presence"
+    },
+    {
+     "code": "effect-of-fire",
+     "label": "A quality of bodies produced by fire, and in us a sensation"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:dispute",
+    "1775-fire:place"
+   ]
+  },
+  {
+   "id": "heat-sources",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "By what means can heat be raised?",
+   "answers": [
+    {
+     "code": "many-ways",
+     "label": "By rubbing and striking, fermentation and putrefaction, mixing liquors, the access of air, and gathered sunlight"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:common"
+   ]
+  },
+  {
+   "id": "flame-nature",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What are flame and smoke?",
+   "answers": [
+    {
+     "code": "burning-body-parts",
+     "label": "Parts of the burning body itself, in very rapid motion"
+    },
+    {
+     "code": "moving-fluid",
+     "label": "A fluid whose parts are always in very rapid motion, the parts not said"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:common"
+   ]
+  },
+  {
+   "id": "fire-light-same",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Are fire and light the same thing?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, one matter"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:dispute",
+    "1775-fire:why",
+    "1775-light:open",
+    "1675-light:open"
+   ]
+  },
+  {
+   "id": "fire-food",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What does fire feed on in a burning body?",
+   "names": [
+    "la: pabulum ignis",
+    "de: brennbares Wesen",
+    "en: phlogiston"
+   ],
+   "answers": [
+    {
+     "code": "unknown",
+     "label": "Nothing yet known deserves the name"
+    },
+    {
+     "code": "combustible-essence",
+     "label": "A combustible essence (phlogiston), distinct from elementary fire"
+    },
+    {
+     "code": "fixed-fire",
+     "label": "Phlogiston, which is fire itself fixed in the body as one of its principles"
+    },
+    {
+     "code": "oil",
+     "label": "Oil or alcohol"
+    },
+    {
+     "code": "acid-spirit",
+     "label": "An acid spirit"
+    },
+    {
+     "code": "inflammable-earth",
+     "label": "An inflammable earth"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:dispute",
+    "1775-fire:why",
+    "1775-fire:open"
+   ]
+  },
+  {
+   "id": "flame-air",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Why does a flame need air?",
+   "names": [
+    "la: pabulum ignis"
+   ],
+   "expected_names": [
+    "la: spiritus nitro-aereus"
+   ],
+   "answers": [
+    {
+     "code": "air-feeds",
+     "label": "Something in the air feeds it"
+    },
+    {
+     "code": "air-carries-off",
+     "label": "The air presses on it or carries off what would choke it"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:dispute",
+    "1775-air:dispute"
+   ]
+  },
+  {
+   "id": "fire-weight",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Does fire have weight?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:open"
+   ]
+  },
+  {
+   "id": "calx-weight",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "parent": "fire-weight",
+   "note": "Can arise only after Rey (1630).",
+   "wording": "Why does a metal gain weight when it is burned to a calx?",
+   "answers": [
+    {
+     "code": "fire-fixed",
+     "label": "Fire is fixed in it"
+    },
+    {
+     "code": "air-particles",
+     "label": "Particles from the air join it"
+    },
+    {
+     "code": "vessel-particles",
+     "label": "Particles from the vessels or tools join it"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:open"
+   ]
+  },
+  {
+   "id": "heat-expands",
+   "theme": "light-and-fire",
+   "status": "local",
+   "wording": "Does heat expand all bodies?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-fire:common"
+   ]
+  },
+  {
+   "id": "air-nature",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "What is air?",
+   "names": [
+    "la: aer",
+    "de: Luft",
+    "fr: air"
+   ],
+   "answers": [
+    {
+     "code": "heavy-elastic-fluid",
+     "label": "A heavy, elastic fluid surrounding the globe"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:common"
+   ]
+  },
+  {
+   "id": "air-weight",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Does air have weight?",
+   "names": [
+    "la: gravitas aeris",
+    "fr: pesanteur de l'air"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, and it can be measured"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "vapours-only",
+     "label": "Only through the watery vapours in it"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:common",
+    "1775-air:open"
+   ]
+  },
+  {
+   "id": "air-spring",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "note": "Can arise only after c. 1660.",
+   "wording": "Why does air spring back when it is pressed together?",
+   "names": [
+    "la: elater",
+    "de: Federkraft",
+    "fr: ressort"
+   ],
+   "answers": [
+    {
+     "code": "springy-particles",
+     "label": "Its particles are springy filaments or coils"
+    },
+    {
+     "code": "repulsion",
+     "label": "A repulsion between its particles"
+    },
+    {
+     "code": "heat",
+     "label": "Heat expands it"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:dispute",
+    "1775-air:why"
+   ]
+  },
+  {
+   "id": "air-heat",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "note": "Can arise only after c. 1660.",
+   "wording": "Does heat strengthen the spring of air?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:common"
+   ]
+  },
+  {
+   "id": "air-pressure-volume",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "How does the space air fills change with the weight pressing on it?",
+   "answers": [
+    {
+     "code": "inversely",
+     "label": "Inversely as the weight"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:common"
+   ]
+  },
+  {
+   "id": "air-in-bodies",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Do bodies contain air?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:common"
+   ]
+  },
+  {
+   "id": "air-from-bodies",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Is the air drawn out of bodies true air?",
+   "names": [
+    "en: factitious air",
+    "en: fixed air"
+   ],
+   "answers": [
+    {
+     "code": "true-air",
+     "label": "Yes, true air that was fixed in the body"
+    },
+    {
+     "code": "air",
+     "label": "It is air, without saying more"
+    },
+    {
+     "code": "not-air",
+     "label": "No; a different, foul fluid"
+    },
+    {
+     "code": "cannot-be-fixed",
+     "label": "Air cannot be fixed in bodies, as other fluids can"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:dispute",
+    "1775-air:why"
+   ]
+  },
+  {
+   "id": "air-breathing",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Why do animals need air, and what spoils it for breathing?",
+   "names": [
+    "en: vivifying spirit"
+   ],
+   "expected_names": [
+    "la: refrigeratio cordis"
+   ],
+   "answers": [
+    {
+     "code": "cools",
+     "label": "It cools the heart"
+    },
+    {
+     "code": "vital-part",
+     "label": "Something in it sustains life and is used up"
+    },
+    {
+     "code": "spring-lost",
+     "label": "Breathing spoils its spring"
+    },
+    {
+     "code": "right-condition",
+     "label": "A due degree of heat and density, and freedom from harmful vapours"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:common",
+    "1775-air:dispute",
+    "1775-air:why"
+   ]
+  },
+  {
+   "id": "air-vapours",
+   "theme": "air-and-water",
+   "status": "local",
+   "wording": "Do vapours mixed with air strengthen or weaken its spring?",
+   "answers": [
+    {
+     "code": "strengthen",
+     "label": "Strengthen"
+    },
+    {
+     "code": "weaken",
+     "label": "Weaken"
+    }
+   ],
+   "drawn_from": [
+    "1775-air:open"
+   ]
+  },
+  {
+   "id": "air-rarefaction",
+   "theme": "air-and-water",
+   "status": "local",
+   "wording": "How far can heat rarefy air?",
+   "answers": [],
+   "drawn_from": [
+    "1775-air:open"
+   ]
+  },
+  {
+   "id": "water-natural-state",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Is water by nature fluid or solid?",
+   "answers": [
+    {
+     "code": "solid",
+     "label": "Solid; it is melted ice"
+    },
+    {
+     "code": "fluid",
+     "label": "Fluid"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute"
+   ]
+  },
+  {
+   "id": "fluidity",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "What makes a body fluid?",
+   "names": [
+    "la: fluiditas",
+    "de: Flüssigkeit",
+    "fr: fluidité"
+   ],
+   "expected_names": [
+    "la: humidum"
+   ],
+   "answers": [
+    {
+     "code": "moist-quality",
+     "label": "The quality of moisture"
+    },
+    {
+     "code": "heat-between-parts",
+     "label": "Fire or heat between its parts"
+    },
+    {
+     "code": "shape-and-forces",
+     "label": "The shape of its particles and the forces between them"
+    },
+    {
+     "code": "loosened-cohesion",
+     "label": "Heat loosens the cohesion of its parts"
+    },
+    {
+     "code": "subtle-matter",
+     "label": "A subtle matter keeps its parts apart"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute",
+    "1775-fire:open",
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "fluid-internal-motion",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Are the parts of a fluid always in motion among themselves?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute"
+   ]
+  },
+  {
+   "id": "water-compressible",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Can water be squeezed into less space?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute",
+    "1775-water:why"
+   ]
+  },
+  {
+   "id": "capillary-rise",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "note": "Can arise only after c. 1660.",
+   "wording": "Why does water rise in a narrow tube?",
+   "names": [
+    "la: tubuli capillares",
+    "de: Haarröhrchen",
+    "fr: tuyaux capillaires"
+   ],
+   "answers": [
+    {
+     "code": "attraction",
+     "label": "Attraction between the glass and the water"
+    },
+    {
+     "code": "fluid-pressure",
+     "label": "Unequal pressure of some subtle fluid"
+    },
+    {
+     "code": "unexplained",
+     "label": "Not yet explained"
+    },
+    {
+     "code": "air-pressure",
+     "label": "The pressure of the common air"
+    },
+    {
+     "code": "adhesion",
+     "label": "The fluid adheres to the glass, its particles catching in the roughness of the walls"
+    },
+    {
+     "code": "electric-fluid",
+     "label": "The electric fluid"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:dispute",
+    "1775-water:why"
+   ]
+  },
+  {
+   "id": "fluid-pressure",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Does a fluid press upward and sideways as much as downward, and does it weigh within itself?",
+   "expected_names": [
+    "la: an elementa gravitent in loco proprio"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:common"
+   ]
+  },
+  {
+   "id": "water-purity",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "Is natural water pure?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "Hardly ever"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:common",
+    "1675-water:common"
+   ]
+  },
+  {
+   "id": "water-qualities",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "What are the qualities of water?",
+   "expected_names": [
+    "la: frigidum et humidum"
+   ],
+   "answers": [
+    {
+     "code": "cold-and-moist",
+     "label": "Cold and moist, the qualities of the element"
+    },
+    {
+     "code": "tasteless-clear",
+     "label": "Without taste, smell or colour; clear; does not burn and puts out fire"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:common",
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "capillary-height",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "parent": "capillary-rise",
+   "note": "Can arise only after c. 1660.",
+   "wording": "How high does a liquid stand in a narrow tube, and what does the height depend on?",
+   "answers": [
+    {
+     "code": "inverse-to-bore",
+     "label": "Inversely as the bore, whatever the length, in vacuo as in air; mercury stands lower"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:common"
+   ]
+  },
+  {
+   "id": "fluid-particles",
+   "theme": "air-and-water",
+   "status": "persistent",
+   "wording": "What shape are the smallest parts of water and other fluids?",
+   "answers": [
+    {
+     "code": "round",
+     "label": "Round or nearly spherical, smooth and hard"
+    },
+    {
+     "code": "eel-shaped",
+     "label": "Long, flexible and snake-shaped"
+    },
+    {
+     "code": "unknown",
+     "label": "No observation can decide"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:open",
+    "1775-water:why"
+   ]
+  },
+  {
+   "id": "heat-fluidity",
+   "theme": "air-and-water",
+   "status": "local",
+   "wording": "Is hot water more fluid than cold?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:open"
+   ]
+  },
+  {
+   "id": "fluidity-degrees",
+   "theme": "air-and-water",
+   "status": "local",
+   "parent": "fluidity",
+   "wording": "Is any body perfectly fluid?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "No; fluids differ in degree, as heat and cold change them"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:open"
+   ]
+  },
+  {
+   "id": "water-swelling",
+   "theme": "air-and-water",
+   "status": "local",
+   "wording": "Why does water swell ropes, wood and seeds?",
+   "answers": [
+    {
+     "code": "watery-property",
+     "label": "Something present in watery fluids alone, not their fluidity"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:open"
+   ]
+  },
+  {
+   "id": "electric-cause",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Why does rubbed amber or glass draw light bodies to it?",
+   "names": [
+    "la: electricitas",
+    "la: vis electrica",
+    "de: Elektricität",
+    "fr: électricité"
+   ],
+   "expected_names": [
+    "la: succinum",
+    "la: sympathia",
+    "la: effluvia"
+   ],
+   "answers": [
+    {
+     "code": "sympathy",
+     "label": "A sympathy or hidden quality"
+    },
+    {
+     "code": "effluvia",
+     "label": "Effluvia sent out by the rubbed body"
+    },
+    {
+     "code": "one-fluid",
+     "label": "One electric fluid, in excess or lack (Franklin)"
+    },
+    {
+     "code": "two-currents",
+     "label": "Simultaneous outflowing and inflowing currents of electric matter (Nollet)"
+    },
+    {
+     "code": "subtle-fluid",
+     "label": "The action of a very subtle fluid, without saying how it acts"
+    },
+    {
+     "code": "attraction",
+     "label": "One of the kinds of attraction, like gravity and cohesion, with no mechanism offered"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:common",
+    "1775-electricity:dispute",
+    "1775-electricity:why",
+    "1775-electricity:open"
+   ]
+  },
+  {
+   "id": "electric-states",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "Are the two kinds of electrification an excess and a lack of one fluid?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:dispute",
+    "1775-electricity:why"
+   ]
+  },
+  {
+   "id": "electric-fire",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "Is the electric matter fire?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:dispute"
+   ]
+  },
+  {
+   "id": "leyden-discovery",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "Whose experiment was the charged bottle?",
+   "names": [
+    "en: Leyden phial",
+    "la: experimentum Leidense",
+    "de: Kleistischer Versuch",
+    "fr: bouteille de Leyde"
+   ],
+   "answers": [
+    {
+     "code": "musschenbroek",
+     "label": "Musschenbroek's, at Leiden"
+    },
+    {
+     "code": "cunaeus",
+     "label": "Cunaeus's, a citizen of Leiden"
+    },
+    {
+     "code": "kleist",
+     "label": "Kleist's"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:dispute"
+   ]
+  },
+  {
+   "id": "lightning",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "What is lightning?",
+   "names": [
+    "en: lightning",
+    "fr: foudre",
+    "de: Blitz"
+   ],
+   "expected_names": [
+    "la: fulmen",
+    "la: exhalatio"
+   ],
+   "answers": [
+    {
+     "code": "burning-exhalation",
+     "label": "A burning exhalation driven out of a cloud"
+    },
+    {
+     "code": "electricity",
+     "label": "Electricity"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:dispute",
+    "1775-meteors:dispute",
+    "1775-meteors:why"
+   ]
+  },
+  {
+   "id": "electricity-living",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "Does electricity act on living bodies?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:common"
+   ]
+  },
+  {
+   "id": "magnet-cause",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Why does a magnet draw iron?",
+   "names": [
+    "la: magnes",
+    "de: Magnet",
+    "fr: aimant"
+   ],
+   "expected_names": [
+    "la: sympathia",
+    "la: qualitas occulta"
+   ],
+   "answers": [
+    {
+     "code": "sympathy",
+     "label": "A sympathy or hidden quality"
+    },
+    {
+     "code": "circulating-matter",
+     "label": "A magnetic matter that circulates through it"
+    },
+    {
+     "code": "attraction",
+     "label": "A kind of attraction, cause unknown"
+    },
+    {
+     "code": "unknown",
+     "label": "Unknown"
+    },
+    {
+     "code": "particle-forces",
+     "label": "Attractive and repulsive forces of the particles of iron along aligned axes (Boscovich)"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:dispute",
+    "1775-magnet:why"
+   ]
+  },
+  {
+   "id": "magnet-direction",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Why does a magnet turn toward the north, and why does it stray from true north?",
+   "names": [
+    "en: variation",
+    "fr: déclinaison",
+    "de: Abweichung"
+   ],
+   "expected_names": [
+    "la: declinatio"
+   ],
+   "answers": [
+    {
+     "code": "heavens",
+     "label": "The heavens or the pole draw it"
+    },
+    {
+     "code": "magnetic-rocks",
+     "label": "Magnetic rocks or mountains draw it"
+    },
+    {
+     "code": "earth-a-magnet",
+     "label": "The earth itself is a magnet"
+    },
+    {
+     "code": "unknown",
+     "label": "Unknown"
+    },
+    {
+     "code": "magnetic-current",
+     "label": "A current of magnetic matter flowing between the earth's poles"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:dispute",
+    "1775-magnet:why"
+   ]
+  },
+  {
+   "id": "magnet-law",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "How does the magnet's force fall off with distance?",
+   "answers": [
+    {
+     "code": "none-found",
+     "label": "No law has been found"
+    },
+    {
+     "code": "inverse-square",
+     "label": "Inversely as the square of the distance"
+    },
+    {
+     "code": "between-square-and-cube",
+     "label": "Between the inverse square and the inverse cube, varying with the size of the bodies"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:dispute"
+   ]
+  },
+  {
+   "id": "magnet-attracts",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "What does the magnet attract?",
+   "answers": [
+    {
+     "code": "iron-only",
+     "label": "Iron and steel only"
+    },
+    {
+     "code": "iron-and-ferrous",
+     "label": "Iron, and bodies that contain iron"
+    },
+    {
+     "code": "many-bodies",
+     "label": "Many bodies besides iron, such as the ashes of plants and burnt blood"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:dispute"
+   ]
+  },
+  {
+   "id": "magnet-uses",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "What uses does the magnet have?",
+   "names": [
+    "en: weapon-salve"
+   ],
+   "answers": [
+    {
+     "code": "weapon-salve",
+     "label": "Powdered magnet in an ointment draws iron out of wounds"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:common"
+   ]
+  },
+  {
+   "id": "electric-matter-known",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "parent": "electric-cause",
+   "wording": "Is the nature of the electric matter known?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "No; it is known only by its effects"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:common",
+    "1775-electricity:open"
+   ]
+  },
+  {
+   "id": "electric-classes",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "note": "Can arise only after Gilbert (1600).",
+   "wording": "Can every body be made electric by rubbing, or only some?",
+   "names": [
+    "la: idioelectrica",
+    "la: symperielectrica",
+    "de: elektrische Körper",
+    "de: unelektrische Körper",
+    "en: electrics",
+    "en: non-conductors",
+    "en: conductors"
+   ],
+   "answers": [
+    {
+     "code": "two-classes",
+     "label": "Only some (glass, resins, silk), which do not pass it on; the rest (metals, water, animals) only receive it from others and pass it on"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:common",
+    "1775-electricity:open"
+   ]
+  },
+  {
+   "id": "electric-machine",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "wording": "How is electricity raised and collected for experiments?",
+   "answers": [
+    {
+     "code": "globe-and-conductor",
+     "label": "A glass globe or cylinder turned against a cushion, with an insulated metal conductor beside it"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:common"
+   ]
+  },
+  {
+   "id": "electric-flow-direction",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "parent": "electric-cause",
+   "wording": "Can the way the electric matter flows be read from the shape of its light?",
+   "names": [
+    "la: floccus",
+    "la: stellula",
+    "de: Feuerpinsel"
+   ],
+   "answers": [
+    {
+     "code": "shape-of-light",
+     "label": "Yes: a spreading brush where it leaves a point, a small star where it enters"
+    },
+    {
+     "code": "not-safely",
+     "label": "Not safely; the shapes are not certain or distinct enough"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:why"
+   ]
+  },
+  {
+   "id": "atmosphere-electricity-source",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "parent": "lightning",
+   "wording": "Where does the air get its electricity?",
+   "answers": [
+    {
+     "code": "air-friction",
+     "label": "From the rubbing of masses of air driven by winds"
+    },
+    {
+     "code": "earth-vapours",
+     "label": "From the earth, carried up with vapours"
+    },
+    {
+     "code": "cloud-friction",
+     "label": "From electric and unelectric clouds rubbing together"
+    },
+    {
+     "code": "warming",
+     "label": "From mere warming, as in the tourmaline"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:open",
+    "1775-meteors:open"
+   ]
+  },
+  {
+   "id": "medicated-tubes",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "parent": "electricity-living",
+   "wording": "Do the virtues of drugs sealed inside a glass pass out with the electric matter into the patient?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No; the claim failed when tested"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:common"
+   ]
+  },
+  {
+   "id": "electric-magnetic-kin",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Are the drawing of rubbed amber and the drawing of the magnet of one kind?",
+   "expected_names": [
+    "la: sympathia"
+   ],
+   "answers": [
+    {
+     "code": "different",
+     "label": "No; wholly different"
+    },
+    {
+     "code": "akin",
+     "label": "Yes, or closely analogous"
+    }
+   ],
+   "drawn_from": [
+    "1775-electricity:open",
+    "1775-magnet:open"
+   ]
+  },
+  {
+   "id": "magnet-poles",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "How do two magnets act on each other?",
+   "names": [
+    "de: freundschaftliche und feindliche Pole"
+   ],
+   "answers": [
+    {
+     "code": "like-repel-unlike-attract",
+     "label": "Like poles repel, unlike poles attract"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:common"
+   ]
+  },
+  {
+   "id": "magnet-dip",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "note": "Can arise only after c. 1580 (Norman).",
+   "wording": "Does a needle touched by a magnet dip toward the earth as well as turn north?",
+   "names": [
+    "en: inclination"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:common"
+   ]
+  },
+  {
+   "id": "magnet-through-bodies",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Does the magnet act through other bodies placed between?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, through bodies of every kind"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:common"
+   ]
+  },
+  {
+   "id": "magnet-variation",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Does the needle point to true north, and is its error always the same?",
+   "names": [
+    "en: declination",
+    "en: variation of the compass"
+   ],
+   "expected_names": [
+    "la: declinatio"
+   ],
+   "answers": [
+    {
+     "code": "varies",
+     "label": "No; it strays by an amount that differs by place and changes with time"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:common"
+   ]
+  },
+  {
+   "id": "artificial-magnets",
+   "theme": "electricity-and-magnet",
+   "status": "persistent",
+   "wording": "Can iron or steel be made magnetic, and how?",
+   "names": [
+    "la: magnes artificialis",
+    "en: artificial magnet"
+   ],
+   "answers": [
+    {
+     "code": "by-touch",
+     "label": "By stroking it with a magnet"
+    },
+    {
+     "code": "without-magnet",
+     "label": "By art, without any magnet"
+    },
+    {
+     "code": "of-itself",
+     "label": "Of itself, by standing upright long or by lightning"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:common"
+   ]
+  },
+  {
+   "id": "iron-in-ashes",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "parent": "magnet-attracts",
+   "wording": "Do the ashes of plants and the burnt blood of animals contain iron?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:open"
+   ]
+  },
+  {
+   "id": "magnet-entry-pole",
+   "theme": "electricity-and-magnet",
+   "status": "local",
+   "parent": "magnet-cause",
+   "wording": "At which pole does the magnetic matter enter a magnet?",
+   "answers": [
+    {
+     "code": "north",
+     "label": "The north pole"
+    }
+   ],
+   "drawn_from": [
+    "1775-magnet:open"
+   ]
+  },
+  {
+   "id": "action-at-distance",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Can a body act on another across a space, where it is not?",
+   "names": [
+    "la: attractio",
+    "la: actio in distans",
+    "de: Anziehung",
+    "fr: attraction",
+    "fr: qualité occulte"
+   ],
+   "expected_names": [
+    "la: sympathia"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes; attraction or repulsion is real"
+    },
+    {
+     "code": "only-through-medium",
+     "label": "Only through an intervening medium"
+    },
+    {
+     "code": "name-only",
+     "label": "'Attraction' names an effect whose cause is unknown"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:dispute",
+    "1775-world:dispute",
+    "1775-water:dispute",
+    "1775-body:dispute",
+    "1775-magnet:dispute",
+    "1775-motion:dispute",
+    "1775-electricity:why"
+   ]
+  },
+  {
+   "id": "explanation-standard",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What must an explanation in natural philosophy supply?",
+   "answers": [
+    {
+     "code": "mechanism",
+     "label": "A mechanism of matter and motion acting by contact"
+    },
+    {
+     "code": "law-from-phenomena",
+     "label": "A law drawn from the phenomena; the cause may stay unknown"
+    },
+    {
+     "code": "forms-and-qualities",
+     "label": "Forms, qualities and sympathies may serve as causes"
+    }
+   ],
+   "drawn_from": [
+    "1775-gravity:why",
+    "1775-magnet:why",
+    "1775-water:why",
+    "1775-world:why",
+    "1675-light:why",
+    "1675-water:why"
+   ]
+  },
+  {
+   "id": "physics-and-metaphysics",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Which questions about bodies can natural philosophy decide, and which belong to metaphysics?",
+   "answers": [
+    {
+     "code": "essences-to-metaphysics",
+     "label": "Physics decides what experience shows; essences and infinite division belong to metaphysics"
+    },
+    {
+     "code": "metaphysics-in-physics",
+     "label": "Metaphysical propositions may ground the doctrine of the principles of bodies"
+    }
+   ],
+   "drawn_from": [
+    "1775-body:why",
+    "1775-motion:why"
+   ]
+  },
+  {
+   "id": "final-causes",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "May God's purposes be given as reasons in natural philosophy?",
+   "expected_names": [
+    "la: causae finales"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-world:why",
+    "1775-globe:why",
+    "1675-water:why"
+   ]
+  },
+  {
+   "id": "springs-origin",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Where do springs and rivers come from?",
+   "answers": [
+    {
+     "code": "rain",
+     "label": "Rain and snow"
+    },
+    {
+     "code": "sea-underground",
+     "label": "The sea, through passages under the earth"
+    },
+    {
+     "code": "condensed-vapour",
+     "label": "Vapours condensed inside the earth"
+    },
+    {
+     "code": "several",
+     "label": "Several causes together: rain and snow, vapours caught by mountains, and water from the sea"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:common",
+    "1775-globe:dispute",
+    "1775-globe:why",
+    "1675-water:common",
+    "1675-water:dispute"
+   ],
+   "names": [
+    "la: origo fontium",
+    "de: Ursprung der Quellen",
+    "fr: origine des fontaines",
+    "en: origin of fountains"
+   ]
+  },
+  {
+   "id": "sea-diminishing",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Is the sea growing less?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "exchanges",
+     "label": "Sea and land exchange places over time"
+    },
+    {
+     "code": "undecided",
+     "label": "Cannot yet be settled"
+    }
+   ],
+   "drawn_from": [
+    "1775-water:why",
+    "1775-globe:dispute",
+    "1675-water:open"
+   ],
+   "names": [
+    "de: Verminderung des Wassers",
+    "fr: abaissement de la mer"
+   ]
+  },
+  {
+   "id": "earthquakes-cause",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "What causes earthquakes?",
+   "answers": [
+    {
+     "code": "underground-fires",
+     "label": "Underground fires, from fermenting or kindled matter, and the air and vapours they expand"
+    },
+    {
+     "code": "electric-fluid",
+     "label": "The electric fluid rushing between bodies under the earth"
+    },
+    {
+     "code": "falling-caverns",
+     "label": "The falling in of caverns and vaults under the earth"
+    },
+    {
+     "code": "enclosed-air",
+     "label": "Air shut in the earth and striving to expand"
+    },
+    {
+     "code": "gravity-shift",
+     "label": "A sudden change in the direction of gravity in a region"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:common",
+    "1775-globe:dispute"
+   ],
+   "names": [
+    "la: terrae motus",
+    "de: Erdbeben",
+    "fr: tremblement de terre",
+    "en: earthquake"
+   ]
+  },
+  {
+   "id": "mineral-classes",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Into what kinds do the bodies dug from the earth fall?",
+   "names": [
+    "la: fossilia",
+    "de: Mineralien",
+    "fr: minéraux",
+    "fr: fossiles",
+    "en: fossils"
+   ],
+   "expected_names": [
+    "la: metallica",
+    "la: lapides",
+    "la: exhalatio sicca",
+    "la: exhalatio humida"
+   ],
+   "answers": [
+    {
+     "code": "by-fire-water-acids",
+     "label": "Earths and stones, salts, inflammables, and metals with semimetals, told apart by how they behave in fire, water and acids"
+    },
+    {
+     "code": "exhalations",
+     "label": "Things dug up and things that melt, born of the dry and the moist exhalation"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:common",
+    "1775-earth:why"
+   ]
+  },
+  {
+   "id": "stones-earths",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "How do stones differ from earths?",
+   "names": [
+    "la: lapides",
+    "la: saxa",
+    "de: Steine",
+    "fr: pierres"
+   ],
+   "answers": [
+    {
+     "code": "firmness-only",
+     "label": "Only in the firmness with which their parts hold together"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:common"
+   ]
+  },
+  {
+   "id": "earth-kinds",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Is earth one simple body, or are there several kinds of earth?",
+   "names": [
+    "la: terra calcaria",
+    "la: terra gypsea",
+    "la: terra argillacea",
+    "la: terra vitrescibilis",
+    "de: Kieselerde",
+    "de: Thonerde",
+    "de: Kalkerde",
+    "de: Alaunerde",
+    "fr: terre vitrifiable",
+    "en: vitrifiable earth",
+    "en: absorbent earth"
+   ],
+   "expected_names": [
+    "la: terra elementaris"
+   ],
+   "answers": [
+    {
+     "code": "one",
+     "label": "One earth, the element; earths that differ are not pure"
+    },
+    {
+     "code": "several",
+     "label": "Several simple kinds of earth"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute",
+    "1775-earth:why"
+   ]
+  },
+  {
+   "id": "earths-origin",
+   "theme": "earth",
+   "status": "local",
+   "parent": "earth-kinds",
+   "wording": "Do the calcareous and clay earths come from the remains of living things?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, perhaps: lime from shells and corals, clay or alum earth from rotted plants"
+    },
+    {
+     "code": "reverse",
+     "label": "No; shells are made of the same matter that forms calcareous stones in the earth"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:open"
+   ]
+  },
+  {
+   "id": "metals-fire",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Do all metals withstand the fire alike?",
+   "names": [
+    "la: metalla imperfecta",
+    "de: edle und unedle Metalle",
+    "fr: métaux parfaits et imparfaits",
+    "en: perfect and imperfect metals"
+   ],
+   "answers": [
+    {
+     "code": "perfect-imperfect",
+     "label": "No: gold and silver are unharmed by fire; the others are turned to a calx"
+    },
+    {
+     "code": "graded",
+     "label": "No: each metal has its own degree of fixity in the fire, gold the most and tin the least, with no division into two classes"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:common"
+   ]
+  },
+  {
+   "id": "calx-reduction",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "How is a metal that fire has turned to powder made metal again?",
+   "names": [
+    "la: calx",
+    "de: Kalk",
+    "fr: chaux",
+    "en: calx",
+    "en: reduce, revivify"
+   ],
+   "answers": [
+    {
+     "code": "restore-phlogiston",
+     "label": "By giving back, from an inflammable body, the phlogiston the fire took away"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:common"
+   ]
+  },
+  {
+   "id": "quicksilver-metal",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Is quicksilver a metal?",
+   "names": [
+    "la: hydrargyrum",
+    "la: mercurius",
+    "de: Quecksilber",
+    "fr: mercure",
+    "en: quick-silver"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "class-apart",
+     "label": "A metallic body of its own kind, not one of the metals"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute"
+   ]
+  },
+  {
+   "id": "quicksilver-solid",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Can quicksilver be made solid?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, by the greatest cold, made by art"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute"
+   ]
+  },
+  {
+   "id": "platina",
+   "theme": "earth",
+   "status": "local",
+   "wording": "What kind of body is platina?",
+   "names": [
+    "la: platina",
+    "de: Platiña del Pinto",
+    "fr: platine",
+    "en: white gold"
+   ],
+   "answers": [
+    {
+     "code": "new-metal",
+     "label": "A new kind of metal, not yet well known"
+    },
+    {
+     "code": "semimetal",
+     "label": "A semimetal"
+    },
+    {
+     "code": "perfect-metal",
+     "label": "A third perfect metal, with gold and silver"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute"
+   ]
+  },
+  {
+   "id": "metal-composition",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "What are metals made of?",
+   "names": [
+    "de: brennbares Wesen",
+    "de: mercurialisches Wesen",
+    "fr: phlogistique",
+    "fr: terre élémentaire",
+    "en: phlogiston",
+    "en: mercurial earth",
+    "la: terra mercurialis"
+   ],
+   "expected_names": [
+    "la: sulphur et mercurius"
+   ],
+   "answers": [
+    {
+     "code": "sulphur-mercury",
+     "label": "Sulphur and mercury"
+    },
+    {
+     "code": "earth-phlogiston",
+     "label": "An earth joined with phlogiston"
+    },
+    {
+     "code": "earth-phlogiston-mercurial",
+     "label": "An earth, phlogiston, and a third, mercurial earth or principle"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute",
+    "1775-earth:why"
+   ]
+  },
+  {
+   "id": "minerals-forming",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Are stones and metals still being formed in the earth?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes; new minerals continually arise and perish"
+    },
+    {
+     "code": "base-only",
+     "label": "Only the destructible ones; the parts of gold, silver and platina have existed since the creation"
+    },
+    {
+     "code": "no",
+     "label": "No; all were made at the creation"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute",
+    "1775-earth:why"
+   ]
+  },
+  {
+   "id": "metals-origin",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "How are metals and stones produced in the earth?",
+   "names": [
+    "la: succus lapidificus",
+    "de: Schwaden",
+    "fr: juxta-position"
+   ],
+   "expected_names": [
+    "la: exhalatio"
+   ],
+   "answers": [
+    {
+     "code": "petrifying-juice",
+     "label": "Earthy particles bound together by a petrifying juice, or by a change in their arrangement"
+    },
+    {
+     "code": "mineral-vapours",
+     "label": "Mineral vapours mix and bind their constituents and settle them in stones and earths"
+    },
+    {
+     "code": "juxtaposition",
+     "label": "By coagulation and juxtaposition of parts carried by fluids"
+    },
+    {
+     "code": "fire-and-solvents",
+     "label": "Underground fires and solvents part and recombine their principles"
+    },
+    {
+     "code": "exhalations",
+     "label": "From exhalations shut up in the earth"
+    },
+    {
+     "code": "alkaline-salt",
+     "label": "Metals are mineralized in their ores by an alkaline salt (Justi)"
+    },
+    {
+     "code": "seeds",
+     "label": "From seeds of the metals put in the earth by the Creator, generated and matured in mountains as in matrices"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute",
+    "1775-earth:why"
+   ]
+  },
+  {
+   "id": "minerals-grow",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Do stones and metals grow from seed, as plants do?",
+   "names": [
+    "fr: végétation",
+    "de: Saamen"
+   ],
+   "expected_names": [
+    "la: semina metallorum",
+    "la: vegetatio lapidum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No; they are not organized and form without growth from within"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute"
+   ]
+  },
+  {
+   "id": "metal-transmutation",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Can one metal be turned into another?",
+   "names": [
+    "fr: pierre philosophale",
+    "en: alchemy",
+    "en: transmutation"
+   ],
+   "expected_names": [
+    "la: transmutatio metallorum",
+    "la: lapis philosophorum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:dispute"
+   ]
+  },
+  {
+   "id": "divining-rod",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Can a forked rod find metals hidden in the earth?",
+   "names": [
+    "fr: baguette divinatoire"
+   ],
+   "expected_names": [
+    "la: virgula divina",
+    "de: Wünschelruthe"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:open"
+   ]
+  },
+  {
+   "id": "potable-gold",
+   "theme": "earth",
+   "status": "local",
+   "wording": "Does gold taken by mouth have healing virtue?",
+   "names": [
+    "fr: or potable"
+   ],
+   "expected_names": [
+    "la: aurum potabile"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:open"
+   ]
+  },
+  {
+   "id": "borax-origin",
+   "theme": "earth",
+   "status": "local",
+   "wording": "Is borax a natural salt or a made one?",
+   "answers": [
+    {
+     "code": "natural",
+     "label": "Natural"
+    },
+    {
+     "code": "made",
+     "label": "Made by art"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:open"
+   ]
+  },
+  {
+   "id": "chalk-flint",
+   "theme": "earth",
+   "status": "local",
+   "wording": "Does chalk come from flint, or flint from chalk?",
+   "answers": [
+    {
+     "code": "chalk-from-flint",
+     "label": "Chalk from flint, by weathering"
+    },
+    {
+     "code": "flint-from-chalk",
+     "label": "Flint from chalk, with time"
+    }
+   ],
+   "drawn_from": [
+    "1775-earth:open"
+   ]
+  },
+  {
+   "id": "figured-stones",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "What are the stones found in the earth in the shapes of shells, plants and animals?",
+   "answers": [
+    {
+     "code": "remains",
+     "label": "Remains of living things"
+    },
+    {
+     "code": "grown-in-earth",
+     "label": "Stones formed in the earth by a plastic force"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:common"
+   ],
+   "names": [
+    "la: conchilia",
+    "de: versteinerte Seethiere",
+    "fr: coquillages fossiles",
+    "en: petrifaction"
+   ]
+  },
+  {
+   "id": "meteor-matter",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What are the things that appear in the air made of?",
+   "names": [
+    "la: meteora",
+    "la: halitus",
+    "de: Lufterscheinungen",
+    "de: Dünste",
+    "fr: météores",
+    "fr: vapeurs",
+    "fr: exhalaisons",
+    "en: meteor",
+    "en: exhalation"
+   ],
+   "expected_names": [
+    "la: exhalatio sicca",
+    "la: exhalatio humida",
+    "la: impressiones meteorologicae"
+   ],
+   "answers": [
+    {
+     "code": "earth-exhalations",
+     "label": "Vapours and exhalations raised from the earth into the air"
+    },
+    {
+     "code": "heavens-and-elements",
+     "label": "Mixed bodies formed out of the common elements by the action of the heavenly bodies"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common",
+    "1775-meteors:place"
+   ]
+  },
+  {
+   "id": "meteor-classes",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "Into what kinds are the things that appear in the air divided?",
+   "names": [
+    "la: meteora aquea",
+    "la: meteora emphatica",
+    "la: meteora ignea",
+    "fr: météores aqueux",
+    "fr: météores enflammés",
+    "fr: météores lumineux",
+    "en: fiery, airy and watery meteors"
+   ],
+   "answers": [
+    {
+     "code": "watery-luminous-fiery",
+     "label": "Watery, luminous (emphatic) and fiery"
+    },
+    {
+     "code": "fiery-airy-watery",
+     "label": "Fiery, airy and watery"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ]
+  },
+  {
+   "id": "cloud-nature",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What is a cloud?",
+   "names": [
+    "la: nubes",
+    "de: Wolke",
+    "fr: nuée",
+    "en: cloud"
+   ],
+   "answers": [
+    {
+     "code": "raised-fog",
+     "label": "A fog, or gathering of vapours, held higher in the air"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ]
+  },
+  {
+   "id": "rain-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "How does rain come from a cloud?",
+   "names": [
+    "la: pluvia",
+    "de: Regen",
+    "fr: pluie",
+    "en: rain"
+   ],
+   "answers": [
+    {
+     "code": "drops-join",
+     "label": "The vapours of the cloud join into drops too heavy to float"
+    },
+    {
+     "code": "air-too-light",
+     "label": "The air grows too thin and light to bear up the vapours, and they fall"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ]
+  },
+  {
+   "id": "snow-nature",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What is snow?",
+   "names": [
+    "la: nix",
+    "de: Schnee",
+    "fr: neige"
+   ],
+   "answers": [
+    {
+     "code": "frozen-vapour",
+     "label": "Vapour frozen before or as it gathers into drops; the flakes are often six-rayed stars"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ]
+  },
+  {
+   "id": "prodigious-rains",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "Can it rain blood, sulphur, stones or animals?",
+   "names": [
+    "de: Blutregen",
+    "fr: pluie de sang",
+    "la: pluviae prodigiosae"
+   ],
+   "answers": [
+    {
+     "code": "natural",
+     "label": "Such falls are natural: pollen, insects, ash, dust, or animals brought out by the rain"
+    },
+    {
+     "code": "prodigy",
+     "label": "Yes, as prodigies"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ]
+  },
+  {
+   "id": "vapour-rise",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What raises vapours into the air and keeps them there?",
+   "names": [
+    "la: elevatio vaporum",
+    "fr: élévation des vapeurs",
+    "en: vesiculae"
+   ],
+   "answers": [
+    {
+     "code": "heat-and-motion",
+     "label": "Heat or internal motion breaks bodies into particles lighter than the air, which the air drives up"
+    },
+    {
+     "code": "electric-fluid",
+     "label": "The electric fluid carries them up and keeps them apart"
+    },
+    {
+     "code": "fire-matter",
+     "label": "The matter of fire leaving the warmer earth carries them with it"
+    },
+    {
+     "code": "vesicles",
+     "label": "They form hollow vesicles full of air, lighter than the air around them"
+    },
+    {
+     "code": "specific-gravity",
+     "label": "They rise to the height their specific gravity allows, and the weight of the air bears them up"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute"
+   ]
+  },
+  {
+   "id": "dew-falls",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "Does dew fall from the sky?",
+   "names": [
+    "la: ros",
+    "de: Thau",
+    "fr: rosée",
+    "fr: serein",
+    "en: dew"
+   ],
+   "answers": [
+    {
+     "code": "falls",
+     "label": "Yes, it falls from the air"
+    },
+    {
+     "code": "forms-in-place",
+     "label": "No; it gathers where it is found, from the vapours of plants and of the air"
+    },
+    {
+     "code": "several-sources",
+     "label": "There are several kinds: rising from the earth, falling from the air, and exuded by plants"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute"
+   ]
+  },
+  {
+   "id": "hail-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "How is hail made?",
+   "names": [
+    "la: grando",
+    "de: Hagel",
+    "fr: grêle",
+    "en: hail"
+   ],
+   "answers": [
+    {
+     "code": "frozen-drops",
+     "label": "Drops of rain frozen in a cold region of the air"
+    },
+    {
+     "code": "iced-snow",
+     "label": "Snow that grows and turns to ice as it falls"
+    },
+    {
+     "code": "electric",
+     "label": "A sudden condensation of the vapours by the electric fluid"
+    },
+    {
+     "code": "nitre",
+     "label": "Drops frozen by nitrous particles from the earth"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute"
+   ]
+  },
+  {
+   "id": "waterspout-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What makes a waterspout?",
+   "names": [
+    "la: prester",
+    "la: turbo",
+    "de: Wasserhose",
+    "fr: trombe",
+    "en: spout",
+    "en: water-spout"
+   ],
+   "answers": [
+    {
+     "code": "contrary-winds",
+     "label": "A cloud set turning by contrary winds"
+    },
+    {
+     "code": "whirlwind",
+     "label": "A whirlwind presses a cloud into water"
+    },
+    {
+     "code": "electricity",
+     "label": "Electricity: the cloud draws vapours into a canal for its surplus electric fluid"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute",
+    "1775-meteors:why"
+   ]
+  },
+  {
+   "id": "lightning-upward",
+   "theme": "meteors",
+   "status": "local",
+   "parent": "lightning",
+   "wording": "Does lightning come up from the earth as well as down from the clouds?",
+   "answers": [
+    {
+     "code": "both-ways",
+     "label": "Both: from cloud to earth and from earth to cloud"
+    },
+    {
+     "code": "from-earth",
+     "label": "All lightning comes from the ground (Maffei)"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute"
+   ]
+  },
+  {
+   "id": "lightning-protection",
+   "theme": "meteors",
+   "status": "persistent",
+   "note": "Rods can arise only after 1752; bells and guns earlier.",
+   "wording": "Can buildings be protected from lightning, and how?",
+   "names": [
+    "la: perticae ferreae",
+    "de: eiserne Stangen",
+    "en: iron rod",
+    "en: pointed rod"
+   ],
+   "answers": [
+    {
+     "code": "pointed-rods",
+     "label": "Pointed iron rods carried into the ground lead the lightning off"
+    },
+    {
+     "code": "bells-disperse",
+     "label": "Ringing bells or firing guns disperses the storm"
+    },
+    {
+     "code": "bells-draw",
+     "label": "Ringing bells or firing guns draws the storm nearer"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute"
+   ]
+  },
+  {
+   "id": "aurora-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What is the northern light?",
+   "names": [
+    "la: aurora borealis",
+    "de: Nordlicht",
+    "en: aurora borealis"
+   ],
+   "answers": [
+    {
+     "code": "solar-atmosphere",
+     "label": "Matter of the sun’s atmosphere drawn by the earth (Mairan)"
+    },
+    {
+     "code": "electricity",
+     "label": "The electric fluid"
+    },
+    {
+     "code": "fatty-vapours",
+     "label": "Fatty vapours from the earth burning or shining"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:dispute",
+    "1775-meteors:why"
+   ]
+  },
+  {
+   "id": "fiery-meteors",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What are will-o’-the-wisps, falling stars and fiery globes?",
+   "names": [
+    "la: ignes fatui",
+    "la: stellae cadentes",
+    "la: globi ignei",
+    "la: bolides",
+    "de: Irrlichter",
+    "de: Sternschnuppen",
+    "fr: feux follets",
+    "fr: étoiles tombantes"
+   ],
+   "answers": [
+    {
+     "code": "inflammable-exhalations",
+     "label": "Exhalations from the earth that take fire or shine in the air"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ]
+  },
+  {
+   "id": "meteor-slime",
+   "theme": "meteors",
+   "status": "local",
+   "parent": "fiery-meteors",
+   "wording": "Do falling stars and will-o’-the-wisps leave a slimy matter where they come down?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:open"
+   ]
+  },
+  {
+   "id": "halo-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What makes the ring round the sun or moon?",
+   "names": [
+    "la: halo",
+    "la: corona",
+    "de: Hof",
+    "en: halo"
+   ],
+   "answers": [
+    {
+     "code": "refraction-in-drops",
+     "label": "Light refracted in drops or particles of vapour"
+    },
+    {
+     "code": "ice-globules",
+     "label": "Globules of ice with a core of snow (Huygens)"
+    },
+    {
+     "code": "two-refractions",
+     "label": "Light passing through drops with two refractions and no reflection (Newton)"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:open"
+   ]
+  },
+  {
+   "id": "parhelia-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What makes mock suns and mock moons?",
+   "names": [
+    "la: parelium",
+    "la: paraselene",
+    "de: Nebensonnen",
+    "fr: parhélies"
+   ],
+   "answers": [
+    {
+     "code": "ice",
+     "label": "Light refracted and reflected in particles or needles of ice"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:open"
+   ]
+  },
+  {
+   "id": "meteors-electric",
+   "theme": "meteors",
+   "status": "persistent",
+   "note": "Can arise only after c. 1750.",
+   "wording": "Does electricity have a part in the meteors besides lightning?",
+   "answers": [
+    {
+     "code": "widely",
+     "label": "Yes: in raising vapours, in clouds, rain, hail and waterspouts"
+    },
+    {
+     "code": "thunderstorms",
+     "label": "Chiefly in thunderstorms; elsewhere at most perhaps"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:why"
+   ]
+  },
+  {
+   "id": "winds-cause",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "What causes the winds?",
+   "answers": [
+    {
+     "code": "sun-heat",
+     "label": "Air flowing to restore an equilibrium disturbed chiefly by heat and cold, above all the sun’s"
+    },
+    {
+     "code": "fermenting-exhalations",
+     "label": "Exhalations fermenting in the air"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common",
+    "1775-meteors:open"
+   ],
+   "names": [
+    "la: ventus",
+    "de: Wind",
+    "fr: vent",
+    "en: trade-wind"
+   ]
+  },
+  {
+   "id": "rainbow",
+   "theme": "meteors",
+   "status": "persistent",
+   "wording": "How is the rainbow made?",
+   "answers": [
+    {
+     "code": "refraction-reflection-drops",
+     "label": "Sunlight refracted and reflected in falling drops; one reflection for the primary bow, two for the secondary"
+    }
+   ],
+   "drawn_from": [
+    "1775-meteors:common"
+   ],
+   "names": [
+    "la: iris",
+    "de: Regenbogen",
+    "fr: arc-en-ciel",
+    "en: rainbow"
+   ]
+  },
+  {
+   "id": "spontaneous-generation",
+   "theme": "life",
+   "status": "anticipated",
+   "wording": "Can living things arise from lifeless matter?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ]
+  },
+  {
+   "id": "strata-order",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Do the layers of the earth lie in the order of their weight?",
+   "names": [
+    "la: strata",
+    "de: Schichten",
+    "fr: couches",
+    "en: strata"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, the heaviest lowest, as they settled from water"
+    },
+    {
+     "code": "no",
+     "label": "No; heavy matter often lies on light"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:common"
+   ]
+  },
+  {
+   "id": "volcano-cause",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "What makes burning mountains burn?",
+   "names": [
+    "la: montes ignivomi",
+    "la: montes Vulcanii",
+    "de: feuerspeyende Berge",
+    "de: Vulcane",
+    "fr: volcans",
+    "en: vulcano",
+    "en: burning mountain"
+   ],
+   "answers": [
+    {
+     "code": "underground-fermentation",
+     "label": "Inflammable and sulphurous matter, not far below the surface, kindled by fermentation"
+    },
+    {
+     "code": "central-fire",
+     "label": "A fire at the centre of the earth"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:common"
+   ]
+  },
+  {
+   "id": "mountains-origin",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "How did the mountains come to be?",
+   "names": [
+    "la: montes",
+    "de: Berge",
+    "de: Gebürge",
+    "fr: montagnes",
+    "en: mountain"
+   ],
+   "answers": [
+    {
+     "code": "created",
+     "label": "They were made with the earth at the creation"
+    },
+    {
+     "code": "raised-by-fire",
+     "label": "Raised by underground fires, eruptions or earthquakes"
+    },
+    {
+     "code": "water-laid",
+     "label": "Laid down in layers by water, in floods or in the sea"
+    },
+    {
+     "code": "crust-collapse",
+     "label": "The earth's first crust broke and fell in at the Flood (Burnet)"
+    },
+    {
+     "code": "accumulated",
+     "label": "Heaped up later by the Flood, earthquakes, eruptions, hurricanes and floods together"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute"
+   ]
+  },
+  {
+   "id": "shells-on-mountains",
+   "theme": "earth",
+   "status": "persistent",
+   "parent": "figured-stones",
+   "wording": "How did the remains of sea creatures come to lie inside the earth and on high mountains?",
+   "names": [
+    "fr: médailles du déluge"
+   ],
+   "answers": [
+    {
+     "code": "deluge",
+     "label": "Floods, above all the Flood, carried them there"
+    },
+    {
+     "code": "land-was-sea",
+     "label": "The land was long the bottom of the sea"
+    },
+    {
+     "code": "raised-by-fire",
+     "label": "Underground fires or earthquakes raised them from the sea floor"
+    },
+    {
+     "code": "shifting-sea",
+     "label": "The sea shifted and left them dry"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute"
+   ]
+  },
+  {
+   "id": "central-fire",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Is there a fire at the centre of the earth?",
+   "names": [
+    "la: ignis centralis",
+    "de: Centralfeuer",
+    "de: Grundwärme",
+    "fr: feu central"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute",
+    "1775-globe:why"
+   ]
+  },
+  {
+   "id": "sea-salt",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Why is the sea salt?",
+   "names": [
+    "la: salsedo maris",
+    "de: Salzigkeit des Meeres",
+    "fr: salure de la mer",
+    "en: saltness of the sea"
+   ],
+   "answers": [
+    {
+     "code": "created-salt",
+     "label": "Salt was mixed with it from the beginning"
+    },
+    {
+     "code": "salt-beds",
+     "label": "Mines and mountains of salt in its bed dissolve into it"
+    },
+    {
+     "code": "from-rivers",
+     "label": "The rivers bring salt that evaporation leaves behind"
+    },
+    {
+     "code": "made-in-sea",
+     "label": "Salt is generated in the sea"
+    },
+    {
+     "code": "earth-salt-carried",
+     "label": "Salt formed inside the earth is dissolved by underground waters and carried into the sea"
+    },
+    {
+     "code": "burnt-exhalation",
+     "label": "A dry, burnt earthy exhalation mixed with the water (Aristotle)"
+    },
+    {
+     "code": "sun-heat",
+     "label": "The sun's heat burns fresh water into salt"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute",
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "deluge-universal",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Did the Flood cover the whole earth?",
+   "names": [
+    "la: diluvium",
+    "de: Sündfluth",
+    "fr: déluge universel",
+    "en: deluge",
+    "en: Noah's flood"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No; only part of it"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute"
+   ]
+  },
+  {
+   "id": "deluge-natural",
+   "theme": "earth",
+   "status": "persistent",
+   "parent": "deluge-universal",
+   "wording": "Can the Flood be explained by natural causes?",
+   "answers": [
+    {
+     "code": "miracle",
+     "label": "No; it was a miracle"
+    },
+    {
+     "code": "natural",
+     "label": "Yes, by natural causes (a comet, waters shut in the earth)"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute"
+   ]
+  },
+  {
+   "id": "earth-theories",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Are the theories that explain the forming of the earth and its great changes by natural causes (Burnet, Woodward, Whiston, Leibniz, Buffon) to be accepted?",
+   "names": [
+    "la: telluris theoria sacra",
+    "fr: romans de la terre",
+    "de: Theorien"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No; they are fictions"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute"
+   ]
+  },
+  {
+   "id": "earth-age",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "How old is the earth?",
+   "names": [
+    "fr: antiquité de la terre",
+    "en: age of the world"
+   ],
+   "answers": [
+    {
+     "code": "scripture-chronology",
+     "label": "Some six or seven thousand years, by the chronology of the sacred books"
+    },
+    {
+     "code": "far-older",
+     "label": "Far older"
+    },
+    {
+     "code": "eternal",
+     "label": "It has always existed"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:dispute"
+   ]
+  },
+  {
+   "id": "first-forming-physics",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Can natural philosophy explain how the earth was first formed?",
+   "answers": [
+    {
+     "code": "no-creation",
+     "label": "No; its first form is the Creator's work, and only later changes have physical causes"
+    },
+    {
+     "code": "no-knowledge",
+     "label": "Natural philosophers cannot tell"
+    },
+    {
+     "code": "physical",
+     "label": "Yes, by physical causes"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:why"
+   ]
+  },
+  {
+   "id": "earthquake-signs",
+   "theme": "earth",
+   "status": "local",
+   "parent": "earthquakes-cause",
+   "wording": "Can earthquakes be foretold?",
+   "answers": [
+    {
+     "code": "no-certain-signs",
+     "label": "No; there are no certain signs"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:open"
+   ]
+  },
+  {
+   "id": "axis-change",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Has the earth's axis ever changed its position?",
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:open"
+   ]
+  },
+  {
+   "id": "sea-light",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Why does the sea shine at night?",
+   "names": [
+    "la: Noctiluca marina",
+    "de: Leuchten des Meeres",
+    "fr: étincelles"
+   ],
+   "answers": [
+    {
+     "code": "small-animals",
+     "label": "Small animals living in it"
+    },
+    {
+     "code": "salt-sparks",
+     "label": "Particles of salt thrown out of the waves dart into the air and make light"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:open",
+    "1675-water:open"
+   ]
+  },
+  {
+   "id": "earth-hollow",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Is the earth hollow inside?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1775-globe:open"
+   ]
+  },
+  {
+   "id": "light-act-transparent",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "parent": "light-nature",
+   "wording": "Is light the act of a transparent body, in so far as it is transparent?",
+   "names": [
+    "la: actus perspicui quatenus perspicuum",
+    "fr: l'acte du transparent"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes, as Aristotle teaches"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:dispute"
+   ]
+  },
+  {
+   "id": "colours-apparent",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "parent": "colours",
+   "wording": "Are the colours of the rainbow, the prism and the mirror true colours, like the colours of bodies?",
+   "names": [
+    "la: colores apparentes",
+    "la: colores veri",
+    "fr: couleurs vrayes ou réelles",
+    "fr: couleurs fausses ou apparentes",
+    "fr: couleurs fixes et passageres"
+   ],
+   "answers": [
+    {
+     "code": "all-true",
+     "label": "Yes; all colours are equally real, and none is merely apparent"
+    },
+    {
+     "code": "apparent-differ",
+     "label": "No; apparent colours differ from the true colours of bodies"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:dispute"
+   ]
+  },
+  {
+   "id": "cold-light",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Can a body shine without burning or being hot?",
+   "names": [
+    "la: ligna putrida",
+    "fr: pierre de Boulogne",
+    "la: vermes"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: rotting wood, glow-worms, fish scales, and the stone of Bologna"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:common"
+   ]
+  },
+  {
+   "id": "first-day-light",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "What was the light made on the first day, before the sun?",
+   "names": [
+    "la: lux primigenia",
+    "la: lux primogenea"
+   ],
+   "answers": [
+    {
+     "code": "body",
+     "label": "A bright body whose motion made the first days"
+    },
+    {
+     "code": "quality",
+     "label": "A quality"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:open"
+   ]
+  },
+  {
+   "id": "star-light",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Do the stars and planets shine by their own light?",
+   "answers": [
+    {
+     "code": "stars-own-planets-borrowed",
+     "label": "The sun and fixed stars by their own; the planets chiefly by light borrowed from the sun"
+    },
+    {
+     "code": "all-borrowed",
+     "label": "All borrow from the sun"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:open"
+   ]
+  },
+  {
+   "id": "moon-ashen-light",
+   "theme": "heavens",
+   "status": "persistent",
+   "parent": "star-light",
+   "wording": "What is the faint light seen on the dark part of the moon?",
+   "names": [
+    "la: lux secundaria Lunae"
+   ],
+   "answers": [
+    {
+     "code": "from-earth",
+     "label": "Sunlight sent back from the earth"
+    },
+    {
+     "code": "from-venus",
+     "label": "Light from Venus (Tycho)"
+    },
+    {
+     "code": "own",
+     "label": "The moon's own light"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:open"
+   ]
+  },
+  {
+   "id": "sky-blue",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Why do the sky and deep water look blue?",
+   "names": [
+    "la: color caeruleus",
+    "la: cyaneus"
+   ],
+   "answers": [
+    {
+     "code": "deep-transparent",
+     "label": "A great depth of transparent matter, from which little light comes back"
+    }
+   ],
+   "drawn_from": [
+    "1675-light:open"
+   ]
+  },
+  {
+   "id": "tides-follow-moon",
+   "theme": "earth",
+   "status": "persistent",
+   "parent": "tides-cause",
+   "wording": "Do the tides keep time with the moon?",
+   "names": [
+    "fr: marée",
+    "la: aestus maris",
+    "la: fluxus et refluxus"
+   ],
+   "answers": [
+    {
+     "code": "with-moon",
+     "label": "Yes: twice in about twenty-four hours and fifty minutes, as the moon passes the meridian, and highest at new and full moon"
+    }
+   ],
+   "drawn_from": [
+    "1675-water:common"
+   ]
+  },
+  {
+   "id": "springs-rise",
+   "theme": "earth",
+   "status": "persistent",
+   "parent": "springs-origin",
+   "wording": "How does water reach springs that rise higher than the sea?",
+   "answers": [
+    {
+     "code": "vapour-heat",
+     "label": "Heat inside the earth turns it to vapour, which rises and condenses near the surface"
+    },
+    {
+     "code": "earth-suction",
+     "label": "The earth draws it up as a sponge does"
+    },
+    {
+     "code": "veins",
+     "label": "The sea drives it through the veins of the earth, as blood runs through an animal"
+    },
+    {
+     "code": "several",
+     "label": "Several causes together: water swallowed and given back, a motion from the heavens, enclosed spirits, and the earth drawing it up"
+    }
+   ],
+   "drawn_from": [
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "springs-fresh",
+   "theme": "earth",
+   "status": "persistent",
+   "parent": "springs-origin",
+   "wording": "If springs are fed from the sea, why are they fresh?",
+   "answers": [
+    {
+     "code": "salt-stays",
+     "label": "Salt does not rise with the vapour of the water"
+    },
+    {
+     "code": "filtered",
+     "label": "The salt is strained out in the long passages of the earth"
+    }
+   ],
+   "drawn_from": [
+    "1675-water:dispute"
+   ]
+  },
+  {
+   "id": "sea-higher",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Is the sea higher than the land?",
+   "answers": [
+    {
+     "code": "higher",
+     "label": "Yes; it stands above the land and is held back by God or by the shores"
+    },
+    {
+     "code": "not-higher",
+     "label": "No; at its highest it does not stand above its shores"
+    }
+   ],
+   "drawn_from": [
+    "1675-water:open"
+   ]
+  },
+  {
+   "id": "tides-in-springs",
+   "theme": "earth",
+   "status": "persistent",
+   "parent": "tides-cause",
+   "wording": "Why do some springs and wells rise and fall like the sea?",
+   "answers": [
+    {
+     "code": "sea-channels",
+     "label": "They communicate with the sea by channels under the earth"
+    },
+    {
+     "code": "periodic-rarefaction",
+     "label": "They boil up and rarefy at fixed times of their own"
+    },
+    {
+     "code": "stellar-disposition",
+     "label": "They are disposed, like the sea, to receive the impression of the stars"
+    }
+   ],
+   "drawn_from": [
+    "1675-water:open"
+   ]
+  },
+  {
+   "id": "sea-current",
+   "theme": "earth",
+   "status": "persistent",
+   "wording": "Does the sea flow continually in one direction?",
+   "answers": [
+    {
+     "code": "east-to-west",
+     "label": "Yes, from east to west"
+    },
+    {
+     "code": "local-causes",
+     "label": "Its currents come from local causes, such as rivers and winds"
+    }
+   ],
+   "drawn_from": [
+    "1675-water:open"
+   ]
+  }
+ ]
+}

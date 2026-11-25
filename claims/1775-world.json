@@ -1,0 +1,2248 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-world",
+  "snapshot": "1775",
+  "topic": "world",
+  "title": "The system of the world",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#world",
+   "version_encoded": "1795060593-2773"
+  },
+  "published": "2026-11-14",
+  "encoded": {
+   "date": "2026-11-16",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: fixed stars beyond their nature, comets, the moon's irregularities, eclipses, the tides, the figure of the earth (open items only). Not yet read: Biwald on the fixed stars, sun, comets and moon, his proofs from central forces and his answers pp. 434-444; most of Erxleben's twelfth section (the scan lacks pp. 480-481); Nollet's lesson between pp. 8 and 150; Ferguson's lectures on the globes after p. 254 and on eclipses; the Britannica's Astronomy after chapter II (Ferguson's Astronomy reprinted, so its later chapters will likely give the ellipses and the retrogradations). Ferguson's separate Astronomy is a single-topic treatise and fills no slot under R1 clause 2; it was compared with the Britannica (OCR of the 1764 edition, IA bim_eighteenth-century_astronomy-explained-upon_ferguson-james-f-r-s_1764, with pp. 25 and 28-29 read from the images) and is not cited as a text of this entry. Nollet t. 6 p. 2 (leaf 9) is unlinked on the site; its leaf was read from the page image for this file. read_from is 'image' for every Ferguson claim; for the others, 'image' only where the entry quotes the page, otherwise 'unknown'. Short quotations whose originals the entry does not reproduce carry orig null with a note.",
+  "revised": {
+   "date": "2026-11-18",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary. Every Britannica claim in this entry turns out to be Ferguson's wording: those from its Astronomy reprint his separate Astronomy explained upon Sir Isaac Newton's Principles (compared with the 1764 edition), the whirling table in its Mechanics reprints his Lecture II. The regulating hand (F 40) is encoded under the question system-stability, added to the registry 2026-11-18."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-generalis-1769",
+   "parts": "Part III: inhabitants pp. 339-341; system of the world pp. 384-394; physical cause pp. 401-402; vortices pp. 430-434; p. 442"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 12: §568 (p. 465), §§583-585 (pp. 478-479), §618 (p. 506), §634 (p. 520), §§649-651 (pp. 530-533); p. 482"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 6 Lesson XVIII, pp. 1-7, 65, 150-158"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture II, Of central forces: the laws of the planetary motions, pp. 23-26; Kepler's rule and the Cartesian vortices, pp. 35-36; the common centre of gravity, the Almighty hand and the regulating hand, pp. 37-41; the earth's motion demonstrated and its figure, pp. 45-47. Lectures VIII-IX, on the globes: of the heavens and the earth, pp. 247-254"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Astronomy, vol. 1 from p. 434, chapters I-II; Mechanics vol. 3 p. 40",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Every claim here is Ferguson's wording: its Astronomy (vol. 1 pp. 434-445 read) reprints Ferguson's separate Astronomy explained upon Sir Isaac Newton's Principles (32-71% of each page's five-word sequences shared with the 1764 edition's OCR, 0% for control pages), with small cuts; its Mechanics (vol. 3 pp. 40-43) reprints Ferguson's Lecture II, including the earth's motion demonstrated (pp. 42-43) and the regulating hand (pp. 41-42), which the pilot entry did not use."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Third and last part of general physics: the bodies of the universe one by one, ending with the system that arranges them; then the phenomena of their motions and the physical cause",
+   "cites": [
+    {
+     "page": "384",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=406"
+    },
+    {
+     "page": "401",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=423"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Twelfth of thirteen sections, with the earth as a whole; from what an observer sees to the arrangement and orbits, the causes coming late; no calculation or art of observing",
+   "cites": [
+    {
+     "page": "530",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n550/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "One lesson of the experimental course, taught with a planetary machine, placed after the two lessons on light",
+   "cites": [
+    {
+     "page": "7",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n14/mode/1up",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "Inside Lecture II, Of central forces, under marginal headings among the whirling-table experiments: 'The laws of the planetary motions', Kepler's rule, 'The absurdity of the Cartesian vortexes', the motion round a common centre of gravity, and 'The earth's motion demonstrated'. The heavens as they appear open Lectures VIII-IX, on the use of the globes. For the astronomy proper Ferguson refers the reader to his separate treatise",
+   "cites": [
+    {
+     "page": "23",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n40/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "45",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n66/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "247",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n302/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "26",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n45/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "A long treatise, Astronomy, opening with the scale of the universe before the solar system",
+   "cites": [
+    {
+     "vol": "i",
+     "page": "434",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 517
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-world-001",
+   "question": "world-arrangement",
+   "text": "B",
+   "answer": "copernican",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The sun is in the middle; Mercury, Venus, the Earth, Mars, Jupiter and Saturn go round it; the moon goes round the earth, four satellites round Jupiter and five round Saturn: the system of Copernicus.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "384",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=406",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-002",
+   "question": "world-arrangement",
+   "text": "E",
+   "answer": "copernican",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Let the sun be set at the centre and the planets and the earth move round it, in the order of Copernicus, with the moon and the satellites of Jupiter and Saturn.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "479",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n499/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "Let the sun be set at ☉",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-003",
+   "question": "world-arrangement",
+   "text": "N",
+   "answer": "copernican",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nollet follows the doctrine of Copernicus, perfected by Kepler and the astronomers of his day.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    },
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "7",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n14/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "I shall follow the doctrine of Copernicus, perfected by Kepler and by the astronomers of our day.",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-004",
+   "question": "world-arrangement",
+   "text": "EB",
+   "answer": "copernican",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Copernican arrangement, with six primary planets, the moon, four satellites of Jupiter and five of Saturn, is the only true and rational scheme.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "445",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 530
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §§95-98, pp. 28-29), not from the Lectures"
+  },
+  {
+   "id": "1775-world-005",
+   "question": "world-arrangement",
+   "text": "EB",
+   "answer": "ptolemaic",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "The system of Ptolemy was a rude scheme, soon rejected by all true philosophers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Ptolemy",
+     "dates": "c. 100-c. 170",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "445",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 530
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "rude scheme",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §96, p. 28), which goes on 'notwithstanding the opposition and violence of blind and zealous bigots'; the Britannica leaves the clause out (vol. 1 p. 445, both read from the images)"
+  },
+  {
+   "id": "1775-world-006",
+   "question": "world-arrangement",
+   "text": "B",
+   "answer": "ptolemaic",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "The system of Ptolemy was an Augean stable that Copernicus undertook to clean.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Ptolemy",
+     "dates": "c. 100-c. 170",
+     "role": "opposed"
+    },
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=415",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-007",
+   "question": "world-arrangement",
+   "text": "N",
+   "answer": "ptolemaic",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "It is useless to recall hypotheses that have fallen into discredit.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "7",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n14/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-008",
+   "question": "fixed-stars",
+   "text": "B",
+   "answer": "suns",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The fixed stars are suns at immense distances, and perhaps hold the centres of new systems.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "384",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=406",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-009",
+   "question": "fixed-stars",
+   "text": "EB",
+   "answer": "suns",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The fixed stars are suns at immense distances; an observer near any star would take it alone for a real sun.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "i",
+     "page": "434",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 517
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §§4-7, pp. 2-3)"
+  },
+  {
+   "id": "1775-world-010",
+   "question": "fixed-stars",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Erxleben on the fixed stars was not read for this entry."
+  },
+  {
+   "id": "1775-world-011",
+   "question": "fixed-stars",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Nollet's lesson between pp. 8 and 150 was not read."
+  },
+  {
+   "id": "1775-world-012",
+   "question": "orbit-shape",
+   "text": "B",
+   "answer": "ellipses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The orbits are ellipses with the sun in one focus; the planets move fastest nearest the sun, and the squares of the periods are as the cubes of the distances (Kepler).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "402",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=424",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-013",
+   "question": "orbit-shape",
+   "text": "E",
+   "answer": "ellipses",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The orbits are ellipses with the sun in one focus; the squares of the periods are as the cubes of the distances (Kepler).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "532-533",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n552/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-014",
+   "question": "orbit-shape",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the pages of Nollet's lesson read."
+  },
+  {
+   "id": "1775-world-015",
+   "question": "orbit-shape",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages of the Astronomy read.",
+   "note": "The Astronomy is Ferguson's Astronomy reprinted; its later chapters were not read for this entry"
+  },
+  {
+   "id": "1775-world-016",
+   "question": "retrogradation",
+   "text": "B",
+   "answer": "apparent",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The planets' stations and retrogradations are appearances, from the observer being carried round on the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "387",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=409",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-017",
+   "question": "retrogradation",
+   "text": "E",
+   "answer": "apparent",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The planets' halts and backward motions are appearances, from the earth's motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "506",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n526/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-018",
+   "question": "retrogradation",
+   "text": "N",
+   "answer": "apparent",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The planets' stations and retrogradations are appearances, from the earth's motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "65",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n80/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-019",
+   "question": "retrogradation",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages of the Astronomy read.",
+   "note": "The Astronomy is Ferguson's Astronomy reprinted; its later chapters were not read for this entry"
+  },
+  {
+   "id": "1775-world-020",
+   "question": "planet-mover",
+   "text": "B",
+   "answer": "vortex",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "Vortices of subtle matter cannot exist in nature, and would not explain the motions if they did.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "431-432",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=453",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-021",
+   "question": "planet-mover",
+   "text": "E",
+   "answer": "vortex",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "The planets cannot be carried by vortices: vortices would disturb one another, act on the comets, and put all the orbits in one plane.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "mutual disturbance; comets; one plane"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "531",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n551/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-022",
+   "question": "planet-mover",
+   "text": "EB",
+   "answer": "vortex",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "An experiment on the whirling table shows the Cartesian vortices absurd.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the whirling table"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "40",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 53
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 35-36)"
+  },
+  {
+   "id": "1775-world-023",
+   "question": "planet-mover",
+   "text": "N",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Nollet does not mention vortices in this lesson."
+  },
+  {
+   "id": "1775-world-024",
+   "question": "earth-motion",
+   "text": "EB",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Newton has established the system on such a foundation of mathematical and physical demonstration as can never be shaken; it is the only true and rational scheme, restored by Copernicus and demonstrated by Newton.",
+   "confidence": {
+    "level": "certain",
+    "printed": "can never be shaken"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    },
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "445",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 530
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the only true and rational scheme, restored by Copernicus, and demonstrated by Sir Isaac Newton",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §§95 and 97, pp. 28-29), which reads 'such an everlasting foundation' and goes on 'and none who understand him can hesitate about it'; the Britannica drops both (vol. 1 p. 445, both read from the images)"
+  },
+  {
+   "id": "1775-world-025",
+   "question": "earth-motion",
+   "text": "B",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "This disposition of the heavenly bodies is the one that obtains in the very nature of things; since Newton drew universal gravity from the celestial motions, almost no one, looking to astronomical and physical reasons, would dare to doubt it.",
+   "confidence": {
+    "level": "certain",
+    "printed": "hodie fere iam nemo sit, qui […] in dubium illud adducere ausit",
+    "translation": "today there is now almost no one who would dare to call it in doubt"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "astronomers and physicists"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "universal gravity"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "385",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=407",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Postquam vero Newtonus gravitatem universalem, seu mutuam corporum omnium in se invicem actionem ex ipsis corporum coelestium motibus eruisset, systema hoc ita Astronomis, Physicisque omnibus arrisit, ut hodie fere iam nemo sit, qui spectatis astronomicis, physicisque rationibus in dubium illud adducere ausit.",
+    "from_image": true,
+    "tr": "After Newton had drawn universal gravity, or the mutual action of all bodies on one another, out of the motions of the heavenly bodies themselves, this system so pleased all astronomers and physicists that today there is now almost no one who, looking to astronomical and physical reasons, would dare to call it in doubt."
+   }
+  },
+  {
+   "id": "1775-world-026",
+   "question": "earth-motion",
+   "text": "E",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whether the stars move daily or the earth turns cannot well be settled by experiments, but the earth's turning is far more probable; the arrangement round the sun is introduced as a supposition.",
+   "confidence": {
+    "level": "probable",
+    "printed": "weit wahrscheinlicher",
+    "translation": "far more probable"
+   },
+   "cites": [
+    {
+     "page": "465",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n485/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "479",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n499/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Welches von beyden geschieht, läßt sich nicht wohl durch Versuche ausmachen; aber wer die Sache nur etwas überlegt, der wird das letztere weit wahrscheinlicher finden, als daß sich die erstaunende Menge von Sternen um die Erde bewegen sollte.",
+    "from_image": true,
+    "tr": "Which of the two happens cannot well be settled by experiments; but whoever considers the matter only a little will find the latter far more probable than that the astonishing multitude of stars should move round the earth."
+   }
+  },
+  {
+   "id": "1775-world-027",
+   "question": "earth-motion",
+   "text": "N",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nollet stops at the hypothesis that suits his purpose best and is generally received today, the doctrine of Copernicus.",
+   "confidence": {
+    "level": "probable",
+    "note": "called the hypothesis generally received today; French wording not reproduced in the entry"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "generally received today"
+    }
+   ],
+   "cites": [
+    {
+     "page": "7",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n14/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "and which is generally received today",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-028",
+   "question": "scripture-nature",
+   "text": "B",
+   "answer": "accommodated",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The defenders of Copernicus contend that the sun standing still in Joshua is not to be taken literally, since Scripture in natural matters accommodates itself to the understanding of the common people; in his own voice, Joshua could have spoken no otherwise even knowing the earth's motion, as Copernican astronomers still say the sun rises and sets.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "astronomers still speak of sunrise and print it in ephemerides"
+    }
+   ],
+   "cites": [
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=414",
+     "read_from": "image"
+    },
+    {
+     "page": "392-393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=414",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Verum hunc scripturae locum haudquaquam in sensu literali capiendum esse Copernicani systematis defensores contendunt, cum constet scripturam captui vulgi in rebus naturalibus se accommodare.",
+    "from_image": true,
+    "tr": "But the defenders of the Copernican system contend that this passage of Scripture is by no means to be taken in the literal sense, since it is agreed that Scripture, in natural matters, accommodates itself to the understanding of the common people."
+   }
+  },
+  {
+   "id": "1775-world-029",
+   "question": "scripture-nature",
+   "text": "E",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not raised in the passages read."
+  },
+  {
+   "id": "1775-world-030",
+   "question": "scripture-nature",
+   "text": "N",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not raised in the passages read."
+  },
+  {
+   "id": "1775-world-031",
+   "question": "scripture-nature",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not raised in the passages read."
+  },
+  {
+   "id": "1775-world-032",
+   "question": "planet-mover",
+   "text": "B",
+   "answer": "gravity-and-projection",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "All the heavenly bodies, at least of our system, are urged by two forces: a centripetal force by which they strive toward one another in the inverse duplicate ratio of the distances, and a projectile force along the tangents; grant these and every phenomenon of their motions has the plainest explanation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "explanatory-scope",
+     "detail": "every phenomenon of the motions"
+    }
+   ],
+   "cites": [
+    {
+     "page": "401-402",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=423",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-033",
+   "question": "planet-mover",
+   "text": "E",
+   "answer": "gravity-and-projection",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Newton showed for the first time that gravity, which drives a stone toward the earth, also keeps the planets in their motion; for the moon with the greatest probability, for the other planets from the attractive force of matter in general; the centrifugal force God seems to have impressed at the creation.",
+   "confidence": {
+    "level": "probable",
+    "note": "'the greatest probability' (of the moon) and 'as it well appears' (of the planets); German wording not reproduced in the entry"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "531-532",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n551/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "533",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n553/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Die allgemeine Schwere der Materie gegen einander giebt also die Centripetalkraft bey der Bewegung der Planeten in ihren krummen Bahnen ab; die zwote dazu erforderliche Kraft, die Centrifugalkraft scheint Gott den Weltkörpern bey ihrer Schöpfung eingedrückt oder gegeben zu haben.",
+    "from_image": true,
+    "tr": "The universal gravity of matter toward matter thus supplies the centripetal force in the motion of the planets in their curved paths; the second force required for it, the centrifugal force, God seems to have impressed on or given to the bodies of the world at their creation."
+   }
+  },
+  {
+   "id": "1775-world-034",
+   "question": "planet-mover",
+   "text": "N",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nollet reports the two forces; where they come from has long puzzled philosophers and produced only hypotheses, admitted or rejected by prejudice for their authors or nations. Newton went about it wisely, supposing bodies weigh toward one another as their masses and inversely as the square of the distance without deciding whether this comes from a force innate in matter or from an external mechanical cause.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported",
+     "note": "his attraction taken as a hypothesis"
+    }
+   ],
+   "cites": [
+    {
+     "page": "151-152",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n172/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    },
+    {
+     "page": "152-154",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n173/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "in a very wise and very reasonable manner",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-035",
+   "question": "planet-mover",
+   "text": "EB",
+   "answer": "gravity-and-projection",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The system rests on gravity and is demonstrated by Newton.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "445",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 530
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §97, p. 29)"
+  },
+  {
+   "id": "1775-world-036",
+   "question": "action-at-distance",
+   "text": "N",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Many now regard Newton's attraction as a first cause innate in matter, depending only on the Creator's will; the opinion has some likelihood, but the physics of the day, purged of occult qualities, cannot without pain see an abstract virtue brought back into matter, an unknown and unintelligible being that has nothing to do with mechanism.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "156",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n177/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Mais il faut convenir que la Physique de nos jours, qui se glorifie d’être purgée à jamais de ces qualités occultes qui l’avoient rendu si ridicule, ne doit point voir, sans peine, qu’on fasse rentrer dans la matiere une vertu abstraite, un être inconnu, & même inintelligible, & qui ne tient en rien au Méchanisme.",
+    "from_image": true,
+    "tr": "It must be granted that the physics of our day, which prides itself on being purged for ever of those occult qualities that had made it so ridiculous, cannot see without pain an abstract virtue brought back into matter, an unknown and even unintelligible being, which has nothing to do with mechanism."
+   }
+  },
+  {
+   "id": "1775-world-037",
+   "question": "action-at-distance",
+   "text": "N",
+   "answer": "name-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Those who speak of the attraction of the heavenly bodies need not be taken to admit this metaphysical being: the word is a convenient expression for an astronomer and commits him to nothing about the principle.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "157-158",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n178/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-038",
+   "question": "heavens-medium",
+   "text": "N",
+   "answer": "rare-aether",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "To admit in the heavens a matter without resistance is almost to say a matter that is not matter; and attraction properly so called is not so fortunate on the earth as it appears to be in the sky.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "156-157",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n177/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "is almost to say a matter that is not matter",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-039",
+   "question": "planet-inhabitants",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The planets are solid opaque globes with days, seasons and moons, which leaves no room to doubt what they are for; these considerations amount to little less than a positive proof that all the planets are inhabited.",
+   "confidence": {
+    "level": "probable",
+    "printed": "little less than a positive proof"
+   },
+   "cites": [
+    {
+     "vol": "i",
+     "page": "435",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 518
+     },
+     "entry": "Astronomy"
+    },
+    {
+     "vol": "i",
+     "page": "444",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 527
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "These considerations amount to little less than a positive proof, that all the planets are inhabited: For if they are not, why all this care in furnishing them with so many moons, to supply those with light which are at the greater distances from the sun?",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., p. 4 for 'no room to doubt', from the OCR; p. 25 for the positive proof, read from the image)"
+  },
+  {
+   "id": "1775-world-040",
+   "question": "planet-inhabitants",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "It is very probable that the primary planets at least are inhabited by living creatures, some endowed with reason; he has nothing certain and is less ready to people the satellites, which seem meant to serve those who live on the primaries.",
+   "confidence": {
+    "level": "probable",
+    "printed": "admodum probabile",
+    "translation": "very probable"
+   },
+   "cites": [
+    {
+     "page": "339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=361",
+     "read_from": "image"
+    },
+    {
+     "page": "340",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=362",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Censeo igitur admodum probabile esse, planetas saltem primarios a viventibus quibusdam, ac etiam ratione praeditis creaturis incoli.",
+    "from_image": true,
+    "tr": "I judge it, then, very probable that the primary planets at least are inhabited by living creatures of some kind, and creatures endowed with reason."
+   }
+  },
+  {
+   "id": "1775-world-041",
+   "question": "planet-inhabitants",
+   "text": "E",
+   "stance": "declines",
+   "part": "dispute",
+   "statement": "Erxleben mentions the inhabitants of the other planets only to decline inquiring into their size, form or way of thinking, and sends the reader to Huygens's Cosmotheoros.",
+   "persons": [
+    {
+     "name": "Christiaan Huygens",
+     "dates": "1629-1695",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "520",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n540/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "So wenig wie ich die Größe der Einwohner der übrigen Planeten, noch ihre Bildung und Denkungsart untersuchen mag, so wenig kann ich mich hier darauf einlassen, zu untersuchen, wie der Himmel den Einwohnern dieser Planeten erscheint, ob dieses gleich mit größerer Gewißheit geschehen kann als ienes",
+    "from_image": true,
+    "tr": "As little as I care to inquire into the size of the inhabitants of the other planets, or their form and way of thinking, so little can I enter here into how the heavens appear to the inhabitants of these planets, although this can be done with greater certainty than that."
+   }
+  },
+  {
+   "id": "1775-world-042",
+   "question": "planet-inhabitants",
+   "text": "N",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not taken up; Nollet says only, opening the lesson, that a modest man would not dare believe so great a spectacle was made for him and his kind alone (t. 6 p. 2)."
+  },
+  {
+   "id": "1775-world-043",
+   "question": "earth-motion",
+   "text": "B",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Beyond the clean explanation of the phenomena, four further grounds, the third and weightiest the aberration of the stars: certain in its phenomena, it follows at once from the earth's yearly motion and the successive propagation of light, and nothing in a resting-earth system fits it; with Kepler's rules, the flattened earth and the agreement with gravity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the aberration of the stars"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "Kepler's rules, the earth's figure, gravity"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "390",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=412",
+     "read_from": "image"
+    },
+    {
+     "page": "390-391",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=412",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": null,
+    "from_image": true,
+    "tr": "the third and weightiest",
+    "note": "Latin original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-044",
+   "question": "earth-motion",
+   "text": "E",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The improbability of the astonishing multitude of stars circling the earth daily; later the slower pendulum at Cayenne as a further ground.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "the improbability of all the stars circling daily"
+    },
+    {
+     "kind": "observation",
+     "detail": "the pendulum at Cayenne"
+    }
+   ],
+   "cites": [
+    {
+     "page": "465",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n485/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "478",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n498/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-045",
+   "question": "earth-motion",
+   "text": "N",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Ptolemy's epicycles are ingenious but lack the simplicity that marks all that nature does, which requires preferring the hypotheses that depart from it least; on this ground Ptolemy must yield to Copernicus.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "nature's simplicity"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Ptolemy",
+     "dates": "c. 100-c. 170",
+     "role": "opposed"
+    },
+    {
+     "name": "Nicolaus Copernicus",
+     "dates": "1473-1543",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "65",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n80/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "and which requires that we give preference to the hypotheses that depart from it least. On this ground the explanations of Ptolemy must yield to those of Copernicus.",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-046",
+   "question": "earth-motion",
+   "text": "EB",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The Astronomy appeals to Newton's mathematical and physical demonstration and gives none of it at this point.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Newton's demonstration"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "445",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 530
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "True of the Astronomy; but the Britannica's Mechanics (vol. 3 pp. 42-43) reprints Ferguson's 'The Earth's Motion demonstrated' (F 45-46), which the pilot entry did not read"
+  },
+  {
+   "id": "1775-world-047",
+   "question": "earth-motion",
+   "text": "B",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Riccioli's seventy-seven arguments against the moving earth reduce to three heads: physical ones (clouds and birds left behind, bodies not falling straight) answered by the ship in even motion, where a stone from the masthead falls at its foot; astronomical ones (no change in the stars' size, no parallax) answered by the stars' enormous distance; and Scripture.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "Riccioli's arguments"
+    },
+    {
+     "kind": "analogy",
+     "detail": "the ship in even motion"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Giovanni Battista Riccioli SJ",
+     "dates": "1598-1671",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "391-392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=413",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-048",
+   "question": "world-arrangement",
+   "text": "B",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Tycho saw that the Copernican system agreed best with astronomical reasons and devised his own because he judged it contrary to Scripture.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Tycho Brahe",
+     "dates": "1546-1601",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=415",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-049",
+   "question": "world-arrangement",
+   "text": "E",
+   "answer": "tychonic",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Having let the earth rest, Tycho had to assume unnatural screw-paths for the planets.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "unnatural screw-paths"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Tycho Brahe",
+     "dates": "1546-1601",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "506",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n526/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "had to assume unnatural screw-paths",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-world-050",
+   "question": "world-arrangement",
+   "text": "EB",
+   "answer": "tychonic",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Tycho's hypothesis is partly true and partly false.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Tycho Brahe",
+     "dates": "1546-1601",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "445",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 530
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "partly true, and partly false",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §97, p. 29, with the margin 'partly true and partly false')"
+  },
+  {
+   "id": "1775-world-051",
+   "question": "explanation-standard",
+   "text": "N",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The test is whether a cause belongs to mechanism; by it attraction in matter is an occult quality returned and an unresisting heaven hard to accept; experimental physics daily finds that what was ascribed to attraction is explained as well, often better, by impulsion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "experimental physics finds impulsion explains as well"
+    }
+   ],
+   "cites": [
+    {
+     "page": "156",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n177/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    },
+    {
+     "page": "157",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n178/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-052",
+   "question": "planet-mover",
+   "text": "B",
+   "answer": "vortex",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The comets move through the planets' regions in every direction, often against the order of the signs, where a solar vortex would sweep them along; Bertier's revival rests on the analogy of terrestrial fluids, which act only on the surface of a floating body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the comets' motions"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Bertier's analogy of terrestrial fluids"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Joseph-Étienne Bertier",
+     "dates": "1702-1783",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "431",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=453",
+     "read_from": "unknown"
+    },
+    {
+     "page": "434",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=456",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-053",
+   "question": "final-causes",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "An infinitely wise Creator would not leave the other planets bare and destitute of rational creatures, nor furnish their moons to no end; to suppose them made on our account would be charging him impiously with having done much in vain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "the moons of Jupiter and Saturn"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "i",
+     "page": "444",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 527
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "would be charging him impiously with having done much in vain",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., pp. 24-25)"
+  },
+  {
+   "id": "1775-world-054",
+   "question": "planet-inhabitants",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "From likeness: the primary planets are opaque bodies turning on their axes round the sun, with heights and hollows, three with satellites; after Lalande, one who peoples the earth alone is like a man who sees a flock far off and says some sheep have entrails and the rest only stone. The Pythagoreans held it; Mercury's heat and Saturn's cold are no obstacle, as Lapps sleep in the snow; Genovesi's logic wrongly uses 'the planets lack inhabitants' as an improbable proposition.",
+   "confidence": {
+    "level": "probable",
+    "printed": "admodum probabile",
+    "translation": "very probable"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the earth; Lalande's sheep"
+    },
+    {
+     "kind": "authority",
+     "detail": "the Pythagoreans"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jérôme Lalande",
+     "dates": "1732-1807",
+     "role": "followed"
+    },
+    {
+     "name": "Antonio Genovesi",
+     "dates": "1713-1769",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "339",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=361",
+     "read_from": "unknown"
+    },
+    {
+     "page": "340-341",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=362",
+     "read_from": "unknown"
+    },
+    {
+     "page": "341",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=363",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-055",
+   "question": "final-causes",
+   "text": "B",
+   "answer": "no",
+   "stance": "leans",
+   "part": "why",
+   "statement": "As to what such inhabitants exist for, we are mostly ignorant of final causes; it is certain only that the divine power is the more commended if the planets, and those perhaps circling each fixed star, are peopled.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "340-341",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=362",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-056",
+   "question": "stellar-parallax",
+   "text": "B",
+   "answer": "not-observed",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The earth's yearly motion ought to produce a parallax of the fixed stars, and none has yet been observed; after Lalande, were it a single second the star would be 6,771,770 million leagues off, and the nearest are farther.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "distance for a parallax of one second"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jérôme Lalande",
+     "dates": "1732-1807",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=414",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-057",
+   "question": "earth-figure",
+   "text": "B",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "open",
+   "statement": "A globe flattened at the poles suits a turning earth, though the measurements so far do not answer well enough to the effect of that turning.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "390",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=412",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-058",
+   "question": "projectile-origin",
+   "text": "E",
+   "answer": "creation",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The centrifugal force God seems to have impressed on the bodies of the world at their creation.",
+   "confidence": {
+    "level": "probable",
+    "printed": "scheint",
+    "translation": "seems"
+   },
+   "cites": [
+    {
+     "page": "533",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n553/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-059",
+   "question": "projectile-origin",
+   "text": "N",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The origin of both forces has long puzzled philosophers and produced only hypotheses.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "151",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n172/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-060",
+   "question": "planets-same-direction",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "open",
+   "statement": "That all planets go round the same way was urged for a common stream of subtle matter; no prior cause appears, it does not follow that there is none, and we know nothing of how our system connects with others.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "442",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=464",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-061",
+   "question": "planets-same-direction",
+   "text": "B",
+   "answer": "common-stream",
+   "stance": "rejects",
+   "part": "open",
+   "statement": "The common direction does not prove a common stream of subtle matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "442",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=464",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-062",
+   "question": "heavens-medium",
+   "text": "N",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Newton, as Nollet reports him, considered the heavens if not void then filled with a fluid unable to alter the motions by its resistance, which Nollet finds hard to admit.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Isaac Newton",
+     "dates": "1642-1727",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "154",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n175/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-063",
+   "question": "obliquity-change",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "open",
+   "statement": "The obliquity of the ecliptic is 23° 28′; whether it falls regularly by a minute a century, as Louville maintained, is asked and left open.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Louville (Jacques d'Allonville, chevalier de Louville)",
+     "dates": null,
+     "role": "reported",
+     "note": "life dates not given in the entry"
+    }
+   ],
+   "cites": [
+    {
+     "page": "482",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n500/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-064",
+   "question": "venus-satellite",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "leans",
+   "part": "open",
+   "statement": "Venus may have a moon, although it is undiscovered.",
+   "confidence": {
+    "level": "possible"
+   },
+   "cites": [
+    {
+     "vol": "i",
+     "page": "440",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 1, A-B",
+      "leaf": 523
+     },
+     "entry": "Astronomy"
+    }
+   ],
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., §46, p. 13)"
+  },
+  {
+   "id": "1775-world-065",
+   "question": "world-arrangement",
+   "text": "F",
+   "answer": "copernican",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The sun, the earth and the moon are as S, K and L on the whirling table: the moon goes round the earth and both round the sun, all three about their common centre of gravity near the sun; the sun and planets move round the common centre of gravity of the whole system; the earth turns on its axis in 24 hours and goes round the sun once a year in the ecliptic. Ferguson names no system and no author for it in the passages read.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "24",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n41/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "39",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n60/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "254",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n309/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-world-066",
+   "question": "fixed-stars",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Ferguson does not say what the fixed stars are. Opening the lectures on the globes he says only that every astronomer can show the remotest planet to be beyond comparison nearer than any fixed star, and that some stars are highly probably, in a manner, infinitely more distant than others (F 248)."
+  },
+  {
+   "id": "1775-world-067",
+   "question": "orbit-shape",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Lectures do not say what figure the orbits have: the planets are shown moving in circles on the whirling table, and a search of the machine-read text of the whole book finds ellipses only in the tides and the dials. Ferguson gives Kepler's rule that the squares of the periods are as the cubes of the distances, confirmed on the whirling table (F 35), and for a true figure of the moon's path refers the reader to his treatise of astronomy (F 26)."
+  },
+  {
+   "id": "1775-world-068",
+   "question": "retrogradation",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not taken up in the Lectures; a search of the machine-read text of the whole book finds no stations or retrogradations of the planets."
+  },
+  {
+   "id": "1775-world-069",
+   "question": "planet-mover",
+   "text": "F",
+   "answer": "vortex",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "On the whirling table quicksilver flies to the outer end of a tube of water and a cork is driven inward, which demonstrates the absurdity of the Cartesian vortices: a planet denser than its vortex would fly off, a rarer one sink to the sun, and the vortex itself would need a wall round it. While gravity exists there is no occasion for them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "quicksilver and cork in tubes on the whirling table"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n56/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "36",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n57/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "This demonstrates the absurdity of the Cartesian doctrine of the planets moving round the sun in vortexes",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-world-070",
+   "question": "earth-motion",
+   "text": "F",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "From the principles of central forces it is evident that the earth moves round the sun, and not the sun round the earth; the earth turns on its axis once in 24 hours and goes round the sun once a year. Whether the earth turns or the heaven turns round it, the appearance to us is exactly the same.",
+   "confidence": {
+    "level": "certain",
+    "printed": "it is evident"
+   },
+   "cites": [
+    {
+     "page": "45",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n66/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "251",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n306/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "254",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n309/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "From the principles thus established, it is evident that the earth moves round the sun, and not the sun round the earth",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-world-071",
+   "question": "scripture-nature",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not raised; a search of the machine-read text of the whole book finds no mention of Scripture, Joshua or Moses."
+  },
+  {
+   "id": "1775-world-072",
+   "question": "planet-mover",
+   "text": "F",
+   "answer": "gravity-and-projection",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "From the uniform projectile motion of bodies in straight lines and the universal power of gravity or attraction arises the curvilinear motion of all the heavenly bodies. The sun's attraction is inversely as the square of the distance to the remotest part of the system, which the whirling table confirms with Kepler's rule. The sun and planets, connected by their mutual attraction as two balls by a wire, move round the common centre of gravity of the whole system.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the whirling table"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "Kepler's rule of periods and distances"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Johannes Kepler",
+     "dates": "1571-1630",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "23",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n40/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "35",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n56/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "38-39",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n59/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "From the uniform projectile motion of bodies in straight lines, and the universal power of gravity or attraction, arises the curvilineal motion of all the heavenly bodies.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-world-073",
+   "question": "planet-inhabitants",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The Lectures do not raise the inhabitants of the planets (search of the machine-read text of the whole book). Ferguson's separate Astronomy does, and it is from there that the Britannica took its 'positive proof' (Astronomy, 1764 ed., p. 25)."
+  },
+  {
+   "id": "1775-world-074",
+   "question": "earth-motion",
+   "text": "F",
+   "answer": "turns-and-circles-sun",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The centrifugal law will never allow a great body to move round a small one; where a small body moves round a great one, both move round their common centre of gravity. The sun has 227,000 times the earth's quantity of matter, so their common centre lies within the sun, only the 1068⅔ part of his semidiameter from his centre. On the whirling table a ball of one ounce draws a demi-globe of two pounds off the centre, so the sun could not stay in the very centre of the planets' orbits.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the sun's quantity of matter and distance give the common centre"
+    },
+    {
+     "kind": "experiment",
+     "detail": "the ball and demi-globe on the whirling table"
+    }
+   ],
+   "cites": [
+    {
+     "page": "37",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n58/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "45",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n66/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "46",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n67/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the centrifugal law will never allow a great body to move round a small one in any orbit whatever",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-world-075",
+   "question": "projectile-origin",
+   "text": "F",
+   "answer": "creation",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The planets, being as inactive and dead as the balls on the whirling table, could no more have put themselves into motion than the balls can, nor kept in their orbits without being balanced at first with the greatest exactness upon their common centre of gravity by the Almighty hand that made them and put them in motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the balls on the whirling table"
+    }
+   ],
+   "cites": [
+    {
+     "page": "39",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n60/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "by the Almighty hand that made them and put them in motion",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-world-076",
+   "question": "earth-figure",
+   "text": "F",
+   "answer": "flattened-at-poles",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Globes that turn on their axes become oblate spheroids, as two flexible hoops whirled on the machine show; that the earth is of this figure is demonstrable from the measurement of degrees, longer in the frigid zones than in the torrid, which proves the equatorial diameter 36 miles longer than the axis.",
+   "confidence": {
+    "level": "certain",
+    "printed": "is demonstrable from actual measurement"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "flexible hoops whirled on the machine"
+    },
+    {
+     "kind": "observation",
+     "detail": "degrees measured in the frigid and torrid zones"
+    }
+   ],
+   "cites": [
+    {
+     "page": "46",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n67/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "47",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n68/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "That our earth is of this figure, is demonstrable from actual measurement of some degrees on its surface",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-world-077",
+   "question": "system-stability",
+   "text": "F",
+   "answer": "needs-correction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "After all the nice adjustment of the system at first, the Deity cannot withdraw his regulating hand and leave the planets to the laws he impressed on them: when several stand in one quarter of the heavens they disturb one another's motions and draw the sun that way, and the balance, once lost, could never restore itself; the whole would fall together into the sun. The comet that lately passed so near Jupiter had the figure of its orbit and its period changed.",
+   "confidence": {
+    "level": "certain",
+    "printed": "it appears evident"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the comet perturbed by Jupiter"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the planets' mutual attractions disturb the balance"
+    }
+   ],
+   "cites": [
+    {
+     "page": "40",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n61/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "41",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n62/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "But after all this nice adjustment, it appears evident that the Deity cannot withdraw his regulating hand from his works, and leave them to be solely governed by the laws which he has imprest upon them at first.",
+    "from_image": true
+   }
+  }
+ ]
+}

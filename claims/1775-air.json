@@ -1,0 +1,1591 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-air",
+  "snapshot": "1775",
+  "topic": "air",
+  "title": "Air",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#air",
+   "version_encoded": "1795252956-b98b"
+  },
+  "published": "2026-11-13",
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: winds and sound; most of Erxleben's section and Nollet's two lessons on air; Ferguson's air-pump experiments beyond those cited (pp. 179-200 read in the machine-read text, pp. 197 and 199 from the images); Hales, Boyle and Cavendish themselves. The terms table is not encoded. read_from is 'image' for the Ferguson citations marked so and 'ocr' where only the machine-read text was used; for the other texts, 'image' only where the entry quotes the page, otherwise 'unknown'. The site links Nollet's 'N 182–183' to leaf 208, which is p. 183 (charter); the claims follow the site. The common-ground item 'bodies contain air' cites only Biwald, Erxleben and Ferguson in the entry; Nollet and the Britannica are encoded from the dispute paragraphs. Biwald's two answers on the air from bodies (natural air drawn out unchanged; the products of burning not air) are two claims.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images; the Britannica kept as supplementary. Compared by shared five-word sequences in the OCR, the Britannica's Pneumatics is Ferguson's Lecture VI and his air-pump experiments up to no. 26 (vol. 3 leaves 565-566 and 571-575: 18-49% per page), taken from an edition before the fifth (17 grains for a quart of air and 'three following particulars', as in the 1760 and 1770 editions, against 16 and 'four' in 1776; vol. 3 p. 484 read from the image); its pp. 486-489 (leaves 567-570: 0-1%) and its section 'Of winds' (leaf 579) are not Ferguson's; its Chemistry is its own. The Britannica leaves out Ferguson's paragraph on fixed air and Hales's apples (F 199-200; present in the 1760 and 1770 editions). Claim 033 corrected: the pilot read 'cannot be congealed or fixed, as other fluids may' (Ferguson's p. 168 reprinted) as saying that air cannot be fixed in bodies; in Ferguson, who goes on to speak of fixed air, it means that air cannot be made solid. Claim 024 restated, and claim 048 added: the Britannica's Mechanics (vol. 3 p. 34, leaf 45) reprints Ferguson's sentence on the repulsive force of the particles of air (F 8)."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part II, sect. I, nature and properties of air, pp. 68-87"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Section 7, 'Von der Luft', from §220; p. 202"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 3 (1766), Lesson X, pp. 182-183, 298, 321"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture VI, Of pneumatics, pp. 168-178, and the air-pump experiments that follow it, pp. 179-200; Lecture I, the repulsive force of the particles of air, p. 8"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "Pneumatics, vol. 3 pp. 484-490; Mechanics, vol. 3 p. 34; Chemistry, vol. 2 pp. 66-67",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its Pneumatics reprints Ferguson's Lecture VI and his air-pump experiments up to no. 26 from an edition before the fifth (17 grains and 'three following particulars', as in 1760 and 1770, against 16 and 'four' in 1776), and leaves out his paragraph on fixed air (F 199-200); its pp. 486-489 and 'Of winds' are not Ferguson's. Its Chemistry is its own."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "The second part of the particular physics, after water; winds and sound in the same part, as motions raised in air",
+   "cites": [
+    {
+     "page": "68",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=78"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "Seventh section, with winds and sound",
+   "cites": [
+    {
+     "page": "202",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n226/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "t. 3, Lesson X",
+   "cites": [
+    {
+     "page": "183",
+     "vol": "3",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n208/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "Lecture VI, Of pneumatics, 'the nature, weight, pressure, and spring of the air, and the effects arising therefrom', with winds, the vivifying spirit, damps, thunder and earthquakes, then the air-pump and thirty-two experiments; the repulsion of the particles of air comes in Lecture I, among the properties of matter",
+   "cites": [
+    {
+     "page": "168",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n207/mode/1up"
+    },
+    {
+     "page": "8",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n23/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "Two accounts in two places: Pneumatics treats air as a fluid with weight and spring; Chemistry names it, with earth, water and fire, one of the four principles of bodies; Pneumatics is Ferguson's Lecture VI reprinted",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "484",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS"
+    },
+    {
+     "vol": "ii",
+     "page": "66-67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 85
+     }
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-air-001",
+   "question": "air-nature",
+   "text": "B",
+   "answer": "heavy-elastic-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Air is a heavy, elastic fluid surrounding the globe.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "68",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=78",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-002",
+   "question": "air-nature",
+   "text": "EB",
+   "answer": "heavy-elastic-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Pneumatics defines air in nearly the same words as Biwald: a heavy, elastic fluid surrounding the globe.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "484",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 168-169)"
+  },
+  {
+   "id": "1775-air-003",
+   "question": "air-nature",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Erxleben's definition of air was not cited in the entry."
+  },
+  {
+   "id": "1775-air-004",
+   "question": "air-nature",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Nollet's definition of air was not cited in the entry."
+  },
+  {
+   "id": "1775-air-005",
+   "question": "air-weight",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A hollow glass globe weighs less when the air is pumped out of it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "weighing an exhausted glass globe"
+    }
+   ],
+   "cites": [
+    {
+     "page": "71",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=81",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-006",
+   "question": "air-weight",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "In the Torricellian experiment the air holds up about twenty-nine and a half inches of quicksilver, so its pressure equals the weight of that depth of quicksilver over the whole surface of the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the Torricellian tube"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "485",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 566
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 170-171)"
+  },
+  {
+   "id": "1775-air-007",
+   "question": "air-weight",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages of Erxleben's seventh section read."
+  },
+  {
+   "id": "1775-air-008",
+   "question": "air-weight",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson X read."
+  },
+  {
+   "id": "1775-air-009",
+   "question": "air-pressure-volume",
+   "text": "B",
+   "answer": "inversely",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The volumes to which air is reduced are inversely as the compressing weights, from the experiments of Boyle and Mariotte.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Boyle's and Mariotte's compression experiments"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Robert Boyle",
+     "dates": "1627-1691",
+     "role": "credited"
+    },
+    {
+     "name": "Edme Mariotte",
+     "dates": "c. 1620-1684",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "75",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=85",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-010",
+   "question": "air-pressure-volume",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-air-011",
+   "question": "air-pressure-volume",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson X read."
+  },
+  {
+   "id": "1775-air-012",
+   "question": "air-pressure-volume",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the parts of Pneumatics read."
+  },
+  {
+   "id": "1775-air-013",
+   "question": "air-heat",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "At the heat of boiling water the elastic force of enclosed air grows by a third.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "air heated to boiling water"
+    }
+   ],
+   "cites": [
+    {
+     "page": "79",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=89",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-014",
+   "question": "air-heat",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Chemistry says the elasticity of air depends chiefly on its being condensed and dilated by cold and heat.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "note": "The Britannica's own: its Chemistry shares no five-word sequences with Ferguson's Lectures"
+  },
+  {
+   "id": "1775-air-015",
+   "question": "air-heat",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-air-016",
+   "question": "air-heat",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Lesson X read."
+  },
+  {
+   "id": "1775-air-017",
+   "question": "air-breathing",
+   "text": "EB",
+   "answer": "vital-part",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All common air carries a vivifying spirit necessary to animal life; a gallon serves one man for about a minute, and the spirit is destroyed by passing through the lungs, and by fire.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "a gallon serves a man about a minute"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "490",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 571
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "All common air is impregnated with a certain kind of vivifying spirit or quality, which is necessary to continue the lives of animals",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted (F 175-176)"
+  },
+  {
+   "id": "1775-air-018",
+   "question": "air-breathing",
+   "text": "B",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites Biwald only on what makes air fit to breathe (pp. 84-85, coded under the dispute)."
+  },
+  {
+   "id": "1775-air-019",
+   "question": "air-breathing",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-air-020",
+   "question": "air-breathing",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of the lesson read for this entry."
+  },
+  {
+   "id": "1775-air-021",
+   "question": "air-in-bodies",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Air bubbles out of water, beer and wood under the air pump, and is driven out by heat, by freezing, and above all when bodies are broken down by fermentation, putrefaction or distillation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the air pump; fermentation and distillation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "86",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=96",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-022",
+   "question": "air-in-bodies",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "By dissolving bodies into their smaller parts an enormous quantity of air has been discovered in them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "202",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n226/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-023",
+   "question": "air-in-bodies",
+   "text": "N",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "True air enters into the composition of bodies and is held in them in a state of fixity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "298",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n333/mode/1up",
+     "read_from": "unknown",
+     "vol": "3"
+    },
+    {
+     "page": "321",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n356/mode/1up",
+     "read_from": "unknown",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-024",
+   "question": "air-in-bodies",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Chemistry makes air one of the four principles of which bodies are made; the Pneumatics reprints Ferguson's experiments in which air bubbles out of warm beer and out of wood under the air pump.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "66-67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 85
+     },
+     "entry": "Chemistry"
+    },
+    {
+     "vol": "iii",
+     "page": "495",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 578
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "Chemistry: the Britannica's own. Pneumatics: Ferguson's wording, reprinted (F 195-196). Restated 2026-11-21: the earlier statement added that the Pneumatics says air cannot be fixed, a misreading (see 1775-air-033)."
+  },
+  {
+   "id": "1775-air-025",
+   "question": "air-spring",
+   "text": "N",
+   "answer": "springy-particles",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The parts of air are small filaments coiled into flexible, elastic spirals; a mass of air is like a bundle of cotton or carded wool that can be squeezed small and always tries to recover. Offered as what the parts may be, not as what they are.",
+   "confidence": {
+    "level": "doubtful",
+    "printed": "cent contre un à parier",
+    "translation": "the odds are a hundred to one"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "cotton or carded wool"
+    }
+   ],
+   "cites": [
+    {
+     "page": "182-183",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n208/mode/1up",
+     "read_from": "unknown",
+     "vol": "3"
+    },
+    {
+     "page": "183",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n208/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-026",
+   "question": "air-spring",
+   "text": "B",
+   "answer": "repulsion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "From the compression experiments: there is a perpetual effort of the molecules of air to recede from one another, though smaller portions of the same air may attract one another sensibly.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "compression of air"
+    }
+   ],
+   "cites": [
+    {
+     "page": "75",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=85",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Erit igitur inter aereas moleculas perpetuus recedendi nisus, quo tamen haud obstante minores eiusdem aeris portiones sese vi sub sensum cadente attrahere poterunt.",
+    "from_image": true,
+    "tr": "There will therefore be between the molecules of air a perpetual effort to recede from one another, notwithstanding which smaller portions of the same air may attract one another with a force that falls under the senses."
+   }
+  },
+  {
+   "id": "1775-air-027",
+   "question": "air-spring",
+   "text": "EB",
+   "answer": "heat",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The Chemistry says the elasticity of air depends chiefly on its being condensed and dilated by cold and heat; the Pneumatics simply lists springiness among its properties.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 86
+     },
+     "entry": "Chemistry"
+    },
+    {
+     "vol": "iii",
+     "page": "484",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "Chemistry: the Britannica's own. The Pneumatics' list of properties is Ferguson's wording, reprinted (F 168-169); its Mechanics also reprints Ferguson's cause of the spring (see 1775-air-048)."
+  },
+  {
+   "id": "1775-air-028",
+   "question": "air-spring",
+   "text": "E",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "No cause of the spring is given in the passages read."
+  },
+  {
+   "id": "1775-air-029",
+   "question": "air-from-bodies",
+   "text": "E",
+   "answer": "air",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "By dissolving bodies an enormous quantity of air has been discovered in them, which has been called artificial air; Erxleben refers to Cavendish's papers on factitious air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Henry Cavendish",
+     "dates": "1731-1810",
+     "role": "reported"
+    },
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "202",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n226/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": null,
+    "from_image": true,
+    "tr": "an enormous quantity of air has been discovered in them, which has been called artificial air",
+    "note": "German original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-air-030",
+   "question": "air-from-bodies",
+   "text": "N",
+   "answer": "true-air",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The air drawn from bodies is true air which entered into their composition, divided to its elementary particles and so very different from the air that only fills their pores; inside bodies it is, as Hales says, in a state of fixity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "298",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n333/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    },
+    {
+     "page": "321",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n356/mode/1up",
+     "read_from": "unknown",
+     "vol": "3"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": null,
+    "from_image": true,
+    "tr": "very different from that which only fills the voids or pores",
+    "note": "French original not reproduced in the entry"
+   }
+  },
+  {
+   "id": "1775-air-031",
+   "question": "air-from-bodies",
+   "text": "B",
+   "answer": "true-air",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Natural air lodges in bodies and can be drawn out again unchanged.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "82-83",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=92",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-032",
+   "question": "air-from-bodies",
+   "text": "B",
+   "answer": "not-air",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The elastic fluid produced by burning, putrefaction and fermentation is a compound of air with saline, oily, spirituous and watery particles, unwholesome and foul; no one skilled will call that vapour air, though true air lies hidden in it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "82-83",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=92",
+     "read_from": "unknown"
+    },
+    {
+     "page": "87",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=97",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-033",
+   "question": "air-from-bodies",
+   "text": "EB",
+   "answer": "air",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The Pneumatics calls what bubbles out of warm beer and out of wood under the air pump air, without saying more; it does not reprint Ferguson's paragraph on fixed air. Its list of the marks of air says that air 'cannot be congealed or fixed, as other fluids may', which in Ferguson means that it cannot be made solid.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "495",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 578
+     },
+     "entry": "Pneumatics"
+    },
+    {
+     "vol": "iii",
+     "page": "484",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 565
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "It cannot be congealed or fixed, as other fluids may",
+    "from_image": true
+   },
+   "note": "Corrected 2026-11-21 from the images of vol. 3 p. 484 and Ferguson p. 168 and the OCR of vol. 3 leaf 578: the earlier encoding gave the answer cannot-be-fixed ('air cannot be fixed in bodies'). The sentence is Ferguson's p. 168, and Ferguson's lecture goes on to say that most of the air in bodies is fixed (F 199), a paragraph the Britannica leaves out. Ferguson's wording, reprinted (F 168, 195-196)."
+  },
+  {
+   "id": "1775-air-034",
+   "question": "air-breathing",
+   "text": "B",
+   "answer": "right-condition",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Air is fit to breathe with a due degree of heat, a certain density, and freedom from too many or harmful vapours.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "84-85",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=94",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-035",
+   "question": "air-breathing",
+   "text": "E",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not in the passages read."
+  },
+  {
+   "id": "1775-air-036",
+   "question": "air-breathing",
+   "text": "N",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not in the part of the lesson read for this entry."
+  },
+  {
+   "id": "1775-air-037",
+   "question": "air-breathing",
+   "text": "EB",
+   "answer": "vital-part",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A vivifying spirit in the air, destroyed by lungs and by fire, is what keeps animals alive.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "490",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 571
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 175-176)"
+  },
+  {
+   "id": "1775-air-038",
+   "question": "air-spring",
+   "text": "N",
+   "answer": "springy-particles",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The spiral picture is only a very rough sketch; the odds are perhaps a hundred to one that the parts of air do not have that figure, since their flexibility and spring are the only reasons for it and a hundred other figures would serve. He adopts it with most natural philosophers to make the spring easier to grasp.",
+   "confidence": {
+    "level": "doubtful",
+    "printed": "cent contre un à parier",
+    "translation": "the odds are a hundred to one"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "most natural philosophers"
+    },
+    {
+     "kind": "other",
+     "detail": "to make the spring easier to grasp"
+    }
+   ],
+   "cites": [
+    {
+     "page": "183",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n208/mode/1up",
+     "read_from": "image",
+     "vol": "3"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "Cette idée n’est qu’une esquisse bien grossière de la nature de l’air ; & j’avoue qu’il y a peut-être cent contre un à parier, que les parties de cet élément n’ont point la figure que je leur attribue ; parce que pour les supposer telles, je n’ai d’autre raison que leur flexibilité & leur ressort, & qu’elles peuvent être élastiques avec cent figures différentes d’un filet spiral",
+    "from_image": true,
+    "tr": "This idea is only a very rough sketch of the nature of air; and I admit that the odds are perhaps a hundred to one that the parts of this element do not have the figure I give them; because I have no other reason for supposing them so than their flexibility and their spring, and they could be elastic with a hundred figures other than a spiral thread."
+   }
+  },
+  {
+   "id": "1775-air-039",
+   "question": "air-from-bodies",
+   "text": "B",
+   "answer": "true-air",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Boyle and Hales called it factitious air not because they thought the solid parts of bodies are turned into air, but because, released from the bond of bodies, it shows its own marks and properties; the volume released often exceeds many times the volume of the body that held it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Hales's measures of the air released"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Robert Boyle",
+     "dates": "1627-1691",
+     "role": "reported"
+    },
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "87",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=97",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non, quod censerent, partes corporum solidas in aerem converti, sed quod a vinculo corporum solutus suis se notis, ac proprietatibus dignoscendum praebeat, quibus exutus veluti videbatur",
+    "from_image": true,
+    "tr": "Not because they thought that the solid parts of bodies are converted into air, but because, once released from the bond of bodies, it shows itself by its own marks and properties, of which it had seemed to be stripped."
+   }
+  },
+  {
+   "id": "1775-air-040",
+   "question": "air-from-bodies",
+   "text": "N",
+   "answer": "true-air",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Boyle and Hales did not mean that solid matter is turned into air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Robert Boyle",
+     "dates": "1627-1691",
+     "role": "reported"
+    },
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "298",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n333/mode/1up",
+     "read_from": "unknown",
+     "vol": "3"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-041",
+   "question": "air-from-bodies",
+   "text": "B",
+   "answer": "not-air",
+   "stance": "holds",
+   "part": "why",
+   "statement": "For Musschenbroek natural air is known by being wholesome and unmixed, so a fluid that stinks and kills is something else that happens to be elastic.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "air is known by being wholesome and unmixed"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "82-83",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=92",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-042",
+   "question": "air-breathing",
+   "text": "EB",
+   "answer": "vital-part",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Air that has lost the vivifying spirit is what miners call damp.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "490",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 571
+     },
+     "entry": "Pneumatics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 175-176)"
+  },
+  {
+   "id": "1775-air-043",
+   "question": "air-vapours",
+   "text": "B",
+   "stance": "undecided",
+   "between": [
+    "strengthen",
+    "weaken"
+   ],
+   "part": "open",
+   "statement": "Whether vapours strengthen or weaken the spring of air is not easy to pronounce, the philosophers disagreeing widely; Hales showed that sulphureous vapours greatly lessen it and make air less fit for breathing.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Hales on sulphureous vapours"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "79",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=89",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-044",
+   "question": "air-rarefaction",
+   "text": "B",
+   "stance": "reports",
+   "part": "open",
+   "statement": "The figures collected for how far heat can rarefy air run from four thousand times to more than five hundred thousand.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "80",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=90",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-045",
+   "question": "air-weight",
+   "text": "B",
+   "answer": "vapours-only",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Boerhaave suspected that the weight ascribed to air might be due to the watery vapours in it alone.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Herman Boerhaave",
+     "dates": "1668-1738",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "81",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=91",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-046",
+   "question": "water-into-air",
+   "text": "B",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Air is not generated from water turned to vapour, as some ancients held: after rain, thunder and wind the air remains and weighs as before.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the air remains and weighs as before after rain, thunder and wind"
+    }
+   ],
+   "cites": [
+    {
+     "page": "82",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=92",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-047",
+   "question": "four-elements",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "place",
+   "statement": "The Chemistry names air, with earth, water and fire, as one of the four principles of which bodies are made.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "ii",
+     "page": "66-67",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 2, C-L",
+      "leaf": 85
+     },
+     "entry": "Chemistry"
+    }
+   ],
+   "note": "The Britannica's own: its Chemistry shares no five-word sequences with Ferguson's Lectures"
+  },
+  {
+   "id": "1775-air-048",
+   "question": "air-spring",
+   "text": "EB",
+   "answer": "repulsion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The Mechanics, among the properties of matter, says the repulsive force of the particles of air is so great that they can never be brought near enough by condensation to cohere.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "34",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 45
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted (F 8). Added 2026-11-21 from the OCR of vol. 3 leaf 45; the entry had not read this page for air."
+  },
+  {
+   "id": "1775-air-049",
+   "question": "air-nature",
+   "text": "F",
+   "answer": "heavy-elastic-fluid",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Air is the thin transparent fluid in which we live and breathe, encompassing the whole earth to a considerable height. It has every property of a fluid, but differs from all others in four things: it can be compressed, it cannot be congealed or fixed, it grows rarer upward, and it is elastic, the force of its spring being equal to its weight. Being a body, it must have weight.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "168",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n207/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n208/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The air is that thin transparent fluid body in which we live and breathe.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-050",
+   "question": "air-weight",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A bottle holding a wine quart weighs about 16 grains less when emptied of air, so water is 914 times as heavy as air near the earth; in the Torricellian tube the air holds up 29½ inches of quicksilver at a mean rate, and the quicksilver falls when the air round the basin is pumped away.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "weighing an exhausted bottle"
+    },
+    {
+     "kind": "experiment",
+     "detail": "the Torricellian tube under the air pump"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n208/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "170-171",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n209/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "which shews that a quart of air weighs 16 grains",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-051",
+   "question": "air-pressure-volume",
+   "text": "F",
+   "answer": "inversely",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The density of the air is always as the force that compresses it, which is why the air grows rarer the higher it is; with Cotes, if heights are taken in arithmetical proportion, the rarity of the air is in geometrical proportion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Roger Cotes",
+     "dates": "1682-1716",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n208/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "170",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n209/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the density of the air is always as the force that compresseth it",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-052",
+   "question": "air-heat",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Air is rarefied, or made to swell, by heat, and winds follow from it; in a mine where vapours take fire the air swells and explodes, since its elasticity is increased by heat.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "173",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n212/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "178",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n217/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the elasticity of the air is increased by heat",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-053",
+   "question": "air-breathing",
+   "text": "F",
+   "answer": "vital-part",
+   "stance": "holds",
+   "part": "common",
+   "statement": "All common air carries a vivifying spirit necessary to the lives of animals; a gallon serves one man for about a minute. The spirit is destroyed by passing through the lungs and through fire; a candle under a gallon receiver burns a minute, and a bird kept under a close receiver soon dies though no air is pumped out.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "candle and bird under a close receiver"
+    },
+    {
+     "kind": "observation",
+     "detail": "the diving-bell"
+    }
+   ],
+   "cites": [
+    {
+     "page": "175",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n214/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "197",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n238/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "198",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n239/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "All common air is impregnated with a certain kind of vivifying spirit or quality, which is necessary to continue the lives of animals",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-054",
+   "question": "air-in-bodies",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Air rises in bubbles out of warm beer and comes plentifully out of dry wood when the receiver is exhausted; the elastic air in bodies comes out by boiling or the air pump, the fixed air, much the greater quantity, only by distillation, fermentation or putrefaction.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "beer and wood under the air pump"
+    }
+   ],
+   "cites": [
+    {
+     "page": "195-196",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n236/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "199",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n240/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-055",
+   "question": "air-spring",
+   "text": "F",
+   "answer": "repulsion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "In his lecture on the properties of matter: the repulsive force of the particles of air is so great that they can never be brought near enough by condensation to cohere, so a little air relieved of the weight of the atmosphere spreads into an infinitely greater space. The lecture on pneumatics lists the spring as a property and gives no cause.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "8",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n23/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n208/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "The repulsive force of the particles of air is so great, that they can never be brought so near together by condensation as to make them stick or cohere.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-056",
+   "question": "air-from-bodies",
+   "text": "F",
+   "answer": "true-air",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The air in bodies is of two kinds: elastic air, kept in by the weight of the atmosphere and got out by boiling or the air pump, and fixed air, much the greater quantity, got out only by distillation, fermentation or putrefaction; trees would be torn apart if their air changed suddenly from a fixed to an elastic state.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "199",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n240/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "but the fixed air, which is by much the greater quantity, cannot be got out but by distillation, fermentation, or putrefaction",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-air-057",
+   "question": "air-breathing",
+   "text": "F",
+   "answer": "vital-part",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "What keeps animals alive is a vivifying spirit in the air, destroyed by lungs and by fire; air is also vitiated by lying pent up, perhaps by malignant steams, or by corruption of the spirit, and air drawn through a charcoal flame kills a mouse or bird and puts out a candle.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "air passed through a charcoal flame"
+    }
+   ],
+   "cites": [
+    {
+     "page": "175",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n214/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "198",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n239/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-058",
+   "question": "air-from-bodies",
+   "text": "F",
+   "answer": "true-air",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Fixed air must come out of bodies slowly, or it would tear them apart: Hales found the air in apples so condensed that let out it would fill 48 times their bulk, and Slare's mixture of oil of caraway and spirit of nitre released enough air to blow up an exhausted receiver.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Hales's apples; Slare's mixture"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Stephen Hales",
+     "dates": "1677-1761",
+     "role": "credited"
+    },
+    {
+     "name": "Frederick Slare",
+     "dates": "c. 1648-1727",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "199",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n240/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "200",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n241/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1775-air-059",
+   "question": "air-breathing",
+   "text": "F",
+   "answer": "vital-part",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Air that has lost its vivifying spirit is called damp, not only for its moist vapours but because it deadens fire, puts out flame and destroys life; if the spirit putrefies in a country, an epidemic follows.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "175",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n214/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "176",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n215/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  }
+ ]
+}

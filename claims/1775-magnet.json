@@ -1,0 +1,1775 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1775-magnet",
+  "snapshot": "1775",
+  "topic": "magnet",
+  "title": "The magnet",
+  "site": {
+   "artifact": "14c627fb-e753-4737-ab22-723793622c82",
+   "view": "#magnet",
+   "version_encoded": "1795311560-7f89"
+  },
+  "published": null,
+  "encoded": {
+   "date": "2026-11-17",
+   "by": "Claude Opus 5.5",
+   "from": "the published entry; no new reading"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "coverage": "One text per region, with the Britannica as a supplementary text; written before the entry conventions and not yet checked against them. British text: Ferguson's passage 'Magnetism' (Lectures pp. 17-18), with the four kinds of attraction (p. 6), the pores of gold (p. 15), knives magnetized by lightning (p. 177) and the variation of the compass found with the globe (p. 285), all read from the page images; the OCR of the whole book was searched for magnet, loadstone, needle and compass. Martin's Philosophical Grammar (London 1778), 'Wonderful Properties of the Loadstone', pp. 255-257 (ten properties; the cause 'a Secret yet hid from Man'), with Halley's central magnet (p. 238) and iron the only body the loadstone attracts (p. 251), was read from the images the same day and is recorded in texts.json as the second British text for widening; not encoded. Nollet's Lesson XIX only partly read (not his artificial magnets, the law of the force, or what the magnet attracts). Not yet read: Musschenbroek, Euler, Boscovich and Mayer in their own words; Hell's dissertation; Helsham's Lectures. The 'five properties' item is encoded as magnet-poles and magnet-dip (attraction of iron is under magnet-attracts; communication to iron under artificial-magnets). The Britannica's rules for the variation at sea were located from the OCR at vol. 3 pp. 388-389 and are cited read_from 'ocr'. The terms table is not encoded. read_from is 'image' for every Ferguson citation; for the others, 'image' only where the entry quotes the page, otherwise 'unknown'. Biwald's references link to the Munich scans although the reading was done from a Google Books PDF. Erxleben leaf = page + 22 and Nollet t. 6 leaf = page + 29 throughout, as on the site.",
+  "revised": {
+   "date": "2026-11-21",
+   "by": "Claude Opus 5.5",
+   "change": "British text changed from the Britannica (fails R1 clause 2) to Ferguson, Lectures on Select Subjects, 5th ed. 1776, read from the page images: the margin-headed passage 'Magnetism' in Lecture I (pp. 17-18), which under the R1 v4 reading of clause 5 gives him the topic (decided by Bruce 2026-11-21, in place of Martin's Philosophical Grammar, first proposed the same day). The Britannica kept as supplementary. Its Mechanics p. 36 (vol. 3 leaf 47) reprints Ferguson's passage (45% of five-word sequences shared), so EB claims 030, 039, 043 and 051 are Ferguson's wording; its entry Magnet (vol. 3 p. 3, leaf 14) is its own (0%). Corrected from the reprinted pages: EB 003 and 008 (not_found to not_taken_up: the three 'most remarkable' properties are now known), EB 012 (not_found to holds yes: Mechanics p. 35 reprints Ferguson's pores of gold), EB 021 (not_found to holds by-touch: p. 36), EB 039 (undecided to holds between-square-and-cube: the later experiments 'made with the greatest accuracy' are what 'it is found'; Helsham's inverse square is now a separate reports claim, 1775-magnet-065, for Ferguson). Helsham identified as Richard Helsham (1683-1738)."
+  }
+ },
+ "texts": {
+  "B": {
+   "text": "biwald-particularis-1768",
+   "parts": "Part IV, art. III, De magnete, pp. 353-363"
+  },
+  "E": {
+   "text": "erxleben-anfangsgruende-1772",
+   "parts": "Eleventh section, Von der magnetischen Kraft, §§537-562 (pp. 436-457)"
+  },
+  "N": {
+   "text": "nollet-lecons-1759",
+   "parts": "t. 6 (1765), Lesson XIX, pp. 212-222 read"
+  },
+  "F": {
+   "text": "ferguson-lectures-1776",
+   "parts": "Lecture I, the margin-headed passage 'Magnetism', pp. 17-18, with the four kinds of attraction, p. 6, and the pores of gold, p. 15; the lecture on pneumatics, p. 177; the use of the terrestrial globe, p. 285"
+  },
+  "EB": {
+   "text": "britannica-1771",
+   "parts": "entry Magnet, vol. 3 p. 3; Mechanics, vol. 3 pp. 32-36; Navigation, vol. 3 pp. 388-389",
+   "role": "supplementary",
+   "note": "Fails R1 clause 2. Its Mechanics reprints Ferguson's Lectures: p. 33 his four kinds of attraction (Lectures p. 6), p. 35 the pores of gold (p. 15), p. 36 (leaf 47, 45% of five-word sequences shared, read from the image) his passage 'Magnetism' (pp. 17-18), word for word. Its entry Magnet (vol. 3 p. 3, leaf 14) is its own (0% against Ferguson and against Martin's Grammar). The Navigation passage was not compared."
+  }
+ },
+ "placement": [
+  {
+   "text": "B",
+   "where": "Under earth, among the ores: the magnet is simply an ore of iron, since the purest iron can be smelted from it",
+   "cites": [
+    {
+     "page": "353",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363"
+    }
+   ]
+  },
+  {
+   "text": "E",
+   "where": "A section of its own, the eleventh, between electricity and the system of the world",
+   "cites": [
+    {
+     "page": "436",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n458/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "N",
+   "where": "A lesson of its own, Lesson XIX, in t. 6 after astronomy",
+   "cites": [
+    {
+     "page": "212",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n241/mode/1up",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "text": "F",
+   "where": "No lecture on the magnet: a margin-headed passage, 'Magnetism', in Lecture I on the properties of matter, between the expansion of metals by heat and electricity; magnetism is the third of four kinds of attraction",
+   "cites": [
+    {
+     "page": "17",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n32/mode/1up"
+    },
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up"
+    }
+   ]
+  },
+  {
+   "text": "EB",
+   "where": "Natural history: a dozen-line entry calling it a very rich iron ore; and Mechanics, where magnetism is one of four kinds of attraction with cohesion, gravitation and electricity. Electricity, by contrast, has a treatise of its own",
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "3",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 14
+     },
+     "entry": "Magnet"
+    },
+    {
+     "vol": "iii",
+     "page": "32",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     },
+     "entry": "Mechanics"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1775-magnet-001",
+   "question": "magnet-poles",
+   "text": "B",
+   "answer": "like-repel-unlike-attract",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Of the magnet's five properties: it attracts or repels another magnet according to how the two are turned.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "353",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-002",
+   "question": "magnet-poles",
+   "text": "E",
+   "answer": "like-repel-unlike-attract",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Poles that attract one another are friendly, those that repel hostile: like-named poles are hostile, unlike-named friendly.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "439",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n461/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-003",
+   "question": "magnet-poles",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The Britannica's three 'most remarkable' properties (Mechanics p. 36) are that the loadstone attracts iron and steel only, turns one side north and another south, and communicates its properties to steel; nothing on poles acting on one another.",
+   "note": "Corrected 2026-11-21 from not_found, from the image of vol. 3 p. 36 (leaf 47). Ferguson's wording, reprinted: the Britannica's Mechanics p. 36 (leaf 47) is Ferguson's Lectures pp. 17-18 (45% of five-word sequences shared with the 1776 edition; read from the image of p. 36, 2026-11-21)"
+  },
+  {
+   "id": "1775-magnet-004",
+   "question": "magnet-poles",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites no page of Nollet for the properties."
+  },
+  {
+   "id": "1775-magnet-005",
+   "question": "magnet-dip",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The pole that looks north also dips toward the earth; reports in the memoirs of the Paris Academy for 1754 make the dip grow toward the north, and some infer it vanishes at the equator and reverses in the south, which if established by sure observations would throw some light on the unknown cause.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Paris Academy memoirs for 1754"
+    }
+   ],
+   "cites": [
+    {
+     "page": "353",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
+     "read_from": "unknown"
+    },
+    {
+     "page": "359-360",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=369",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-006",
+   "question": "magnet-dip",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "The entry cites no page of Erxleben on the dip."
+  },
+  {
+   "id": "1775-magnet-007",
+   "question": "magnet-dip",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Nollet's lesson read."
+  },
+  {
+   "id": "1775-magnet-008",
+   "question": "magnet-dip",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The dip is not among the Britannica's three 'most remarkable' properties (Mechanics p. 36), nor elsewhere in the passages read.",
+   "note": "Corrected 2026-11-21 from not_found, from the image of vol. 3 p. 36 (leaf 47). Ferguson's wording, reprinted: the Britannica's Mechanics p. 36 (leaf 47) is Ferguson's Lectures pp. 17-18 (45% of five-word sequences shared with the 1776 edition; read from the image of p. 36, 2026-11-21)"
+  },
+  {
+   "id": "1775-magnet-009",
+   "question": "magnet-through-bodies",
+   "text": "B",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Whatever its cause, the magnet's force acts across every kind of body placed between, solid or fluid, if the distance is not too great; Musschenbroek's innumerable experiments put this beyond doubt.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Musschenbroek's innumerable experiments"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "355",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=365",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-010",
+   "question": "magnet-through-bodies",
+   "text": "E",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The force acts through interposed bodies and persists in a space emptied of air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "in an exhausted receiver"
+    }
+   ],
+   "cites": [
+    {
+     "page": "438-439",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n460/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-011",
+   "question": "magnet-through-bodies",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Nollet's lesson read."
+  },
+  {
+   "id": "1775-magnet-012",
+   "question": "magnet-through-bodies",
+   "text": "EB",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The particles of heat and magnetism find an easy passage through the pores of gold.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "35",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 46
+     },
+     "entry": "Mechanics",
+     "note": "The body entry read this page from the image on 2026-11-18; the sentence located here in the OCR"
+    }
+   ],
+   "note": "Corrected 2026-11-21 from not_found. Ferguson's wording, reprinted: Lectures p. 15, at the Britannica's Mechanics p. 35"
+  },
+  {
+   "id": "1775-magnet-013",
+   "question": "magnet-variation",
+   "text": "B",
+   "answer": "varies",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The needle deviates from north by some degrees, differently in different places and over time in one place; the English Transactions for 1759 show a daily movement too. Halley's chart of the declination over the seas cannot be of much use, since the declination keeps changing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "Philosophical Transactions for 1759"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Edmond Halley",
+     "dates": "1656-1742",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "359",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=369",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-014",
+   "question": "magnet-variation",
+   "text": "E",
+   "answer": "varies",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The needle's declination differs by place, changes over time, and has a small daily movement.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "441-442",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n463/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-015",
+   "question": "magnet-variation",
+   "text": "N",
+   "answer": "varies",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The needle does not point to the true north, by an amount that changes with time and place.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "216-219",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n245/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-016",
+   "question": "magnet-variation",
+   "text": "EB",
+   "answer": "varies",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The variation of the compass must be known at sea to correct the ship's course; the Britannica gives rules for finding and allowing for it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "388-389",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "ocr",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 447
+     },
+     "entry": "Navigation",
+     "note": "The site's table states this without a page; located in the OCR, treatise name taken from the OCR"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-017",
+   "question": "artificial-magnets",
+   "text": "B",
+   "answer": "by-touch",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Artificial magnets are among the chief inventions of the century: a steel bar stroked with a magnet becomes one, and bundles of such bars outdo natural magnets. Musschenbroek and Nollet worked on them first, but the English first gave iron and steel magnetic force without any magnet: in 1746 Knight showed the Royal Society bars that reversed a loadstone's poles in a quarter of an hour. In Vienna Father Hell has them made, in no way inferior to other nations', and has printed a dissertation on them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Knight's bars before the Royal Society"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "credited"
+    },
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "credited"
+    },
+    {
+     "name": "Gowin Knight",
+     "dates": "1713-1772",
+     "role": "credited"
+    },
+    {
+     "name": "Maximilian Hell SJ",
+     "dates": "1720-1792",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "356-358",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=366",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-018",
+   "question": "artificial-magnets",
+   "text": "B",
+   "answer": "without-magnet",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The English first gave iron and steel magnetic force without any magnet at all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Gowin Knight",
+     "dates": "1713-1772",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "356-358",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=366",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-019",
+   "question": "artificial-magnets",
+   "text": "E",
+   "answer": "without-magnet",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Iron and steel can be made magnetic by art; the real inventor was apparently Savery. Iron also becomes magnetic of itself, and lightning and strong electricity do the same.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Servington Savery",
+     "dates": "c. 1670-c. 1744",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "452",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n474/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "451-454",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n473/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-020",
+   "question": "artificial-magnets",
+   "text": "N",
+   "answer": "of-itself",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A bar of iron held upright at once acts on a needle as a magnet with two poles; iron crosses long standing on towers have been found magnetic; lightning and strong electricity sometimes do the same.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "upright bar and the needle"
+    },
+    {
+     "kind": "observation",
+     "detail": "crosses on towers"
+    }
+   ],
+   "cites": [
+    {
+     "page": "221-222",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n250/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-021",
+   "question": "artificial-magnets",
+   "text": "EB",
+   "answer": "by-touch",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The loadstone communicates all its properties to a piece of steel rubbed upon it, without losing any itself.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "36",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 47
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "communicates all its properties to a piece of steel when rubbed upon it, without losing any itself",
+    "from_image": true
+   },
+   "note": "Corrected 2026-11-21 from not_found. Ferguson's wording, reprinted: the Britannica's Mechanics p. 36 (leaf 47) is Ferguson's Lectures pp. 17-18 (45% of five-word sequences shared with the 1776 edition; read from the image of p. 36, 2026-11-21)"
+  },
+  {
+   "id": "1775-magnet-022",
+   "question": "magnet-uses",
+   "text": "B",
+   "answer": "weapon-salve",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "Powdered magnet has no poles and no longer draws iron, so the opinion of those who make a weapon-salve of it to draw iron fragments out of wounds is wholly vain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "powdered magnet draws no iron"
+    }
+   ],
+   "cites": [
+    {
+     "page": "355",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=365",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-023",
+   "question": "magnet-uses",
+   "text": "E",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not cited for Erxleben."
+  },
+  {
+   "id": "1775-magnet-024",
+   "question": "magnet-uses",
+   "text": "N",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the part of Nollet's lesson read."
+  },
+  {
+   "id": "1775-magnet-025",
+   "question": "magnet-uses",
+   "text": "EB",
+   "stance": "not_found",
+   "part": "common",
+   "statement": "Not in the Britannica passages read."
+  },
+  {
+   "id": "1775-magnet-026",
+   "question": "magnet-cause",
+   "text": "N",
+   "answer": "circulating-matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Hardly any natural philosopher does not admit around every magnet a subtle invisible fluid circulating from pole to pole, called magnetic matter; iron filings sifted on a card over a magnet, arranging themselves in curves from pole to pole, make the supposition hard to refuse.",
+   "confidence": {
+    "level": "probable",
+    "printed": "tout-à-fait vraisemblable",
+    "translation": "altogether probable"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "iron filings on a card"
+    },
+    {
+     "kind": "consensus",
+     "detail": "hardly one natural philosopher denies it"
+    }
+   ],
+   "cites": [
+    {
+     "page": "212",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n241/mode/1up",
+     "read_from": "image",
+     "vol": "6"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "il n'en est presque point parmi eux qui n'admette autour de chaque aimant naturel ou artificiel, un fluide subtil & invisible, qui circule d'un pole à l'autre, & auquel on a donné le nom de matière magnétique. Cette supposition est tout-à-fait vraisemblable, & l'on ne peut guères s'y refuser quand on voit l'expérience qui suit.",
+    "from_image": true,
+    "tr": "There is hardly one among them who does not admit, around every natural or artificial magnet, a subtle and invisible fluid that circulates from one pole to the other, and to which the name magnetic matter has been given. This supposition is altogether probable, and one can hardly refuse it on seeing the following experiment."
+   }
+  },
+  {
+   "id": "1775-magnet-027",
+   "question": "magnet-cause",
+   "text": "E",
+   "answer": "circulating-matter",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Erxleben reports the circulating matter in its two best-known forms, Descartes's screw-shaped particles and matching passages and Euler's straight passages lined with valve-like fibres (less contrived), with Gilbert's great magnet in the earth; then doubts it as too contrived and as leaving plain questions unanswered.",
+   "confidence": {
+    "level": "probable",
+    "translation": "somewhat incomprehensible",
+    "note": "German wording of the verdict quoted under 'why'"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "reported"
+    },
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "reported"
+    },
+    {
+     "name": "William Gilbert",
+     "dates": "1544-1603",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "443-447",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n465/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "456",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n478/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-028",
+   "question": "magnet-cause",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The cause is unknown: every system proposed is entangled in insoluble difficulties.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=370",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "insolubilibus difficultatibus involuta",
+    "from_image": true,
+    "tr": "entangled in insoluble difficulties"
+   }
+  },
+  {
+   "id": "1775-magnet-029",
+   "question": "magnet-cause",
+   "text": "B",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "Boscovich brings the magnet under his general law of forces: the particles of iron and magnet attract and repel along particular axes; where many lie aligned there is a good magnet, and a magnet magnetizes iron by turning its particles' axes into line.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "361-362",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=371",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-030",
+   "question": "magnet-cause",
+   "text": "EB",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Magnetism is one of four kinds of attraction, with cohesion, gravitation and electricity; no cause is offered.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "32-36",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 43
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted: the four kinds of attraction are Lectures p. 6 at the Britannica's Mechanics p. 33, and the loadstone passage Lectures pp. 17-18 at p. 36"
+  },
+  {
+   "id": "1775-magnet-031",
+   "question": "magnet-direction",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The needle's direction is explained neither by the magnetic fluid nor by Boscovich's buried iron; its cause is unknown.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "361-363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=371",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-032",
+   "question": "magnet-direction",
+   "text": "B",
+   "answer": "magnetic-rocks",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Boscovich's great masses of iron and magnets under the earth's surface, more plentiful toward the poles, do not steer the needle.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "361-363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=371",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-033",
+   "question": "magnet-direction",
+   "text": "E",
+   "answer": "earth-a-magnet",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A magnet within the earth steers the needle: Halley gave it four poles, Euler showed two suffice, Mayer puts a small magnet off the centre and lets it shift.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Edmond Halley",
+     "dates": "1656-1742",
+     "role": "reported"
+    },
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "reported"
+    },
+    {
+     "name": "Tobias Mayer",
+     "dates": "1723-1762",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "448-449",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n470/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-034",
+   "question": "magnet-direction",
+   "text": "N",
+   "answer": "magnetic-current",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A current of magnetic matter between the earth's poles steers the needle, but its wandering can be saved only by adding suppositions.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "215-219",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n244/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-035",
+   "question": "magnet-direction",
+   "text": "EB",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The Britannica states the variation and gives rules for allowing for it at sea, but offers no cause."
+  },
+  {
+   "id": "1775-magnet-036",
+   "question": "magnet-law",
+   "text": "B",
+   "answer": "none-found",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No law of the force has been found: Musschenbroek's innumerable experiments yielded nothing certain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "354",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=364",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-037",
+   "question": "magnet-law",
+   "text": "E",
+   "stance": "undecided",
+   "between": [
+    "none-found",
+    "inverse-square"
+   ],
+   "part": "dispute",
+   "statement": "It is not yet decided whether there is a general law; Mayer, in a paper read to the Göttingen Society of Sciences in 1760 and unprinted, took each particle's action as its distance from the middle of its own magnet and inversely as the square of the distance between particles, and found his calculation in complete agreement with experiment.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "Mayer's computation"
+    },
+    {
+     "kind": "experiment",
+     "detail": "agreement with Mayer's trials"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Tobias Mayer",
+     "dates": "1723-1762",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "438",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n460/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "456-457",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n478/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "457",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n479/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-038",
+   "question": "magnet-law",
+   "text": "N",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not in the part of Nollet's lesson read."
+  },
+  {
+   "id": "1775-magnet-039",
+   "question": "magnet-law",
+   "text": "EB",
+   "answer": "between-square-and-cube",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "By later experiments, made with the greatest accuracy, the force decreases in a ratio between the inverse square and the inverse cube of the distance, approaching one or the other as the sizes of the bodies vary; Helsham's earlier experiments had given the inverse square.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "Helsham's and later trials"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Richard Helsham",
+     "dates": "1683-1738",
+     "role": "reported",
+     "note": "professor of natural philosophy, Trinity College Dublin"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "36",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 47
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "between the reciprocal of the square and the reciprocal of the cube of the distance; approaching to the one or the other, as the magnitudes of the attracting bodies are varied",
+    "from_image": true
+   },
+   "note": "Recoded 2026-11-21 from undecided between inverse-square and between-square-and-cube: the later result is stated as what 'it is found', Helsham's as what preceded it. Ferguson's wording, reprinted: the Britannica's Mechanics p. 36 (leaf 47) is Ferguson's Lectures pp. 17-18 (45% of five-word sequences shared with the 1776 edition; read from the image of p. 36, 2026-11-21)"
+  },
+  {
+   "id": "1775-magnet-040",
+   "question": "magnet-attracts",
+   "text": "B",
+   "answer": "many-bodies",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The magnet attracts many bodies besides iron, among them the ashes of all plants and, once burnt, the blood of animals and men.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "353-354",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-041",
+   "question": "magnet-attracts",
+   "text": "E",
+   "answer": "iron-and-ferrous",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Iron, and bodies that contain iron.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "436",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n458/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-042",
+   "question": "magnet-attracts",
+   "text": "N",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not in the part of Nollet's lesson read."
+  },
+  {
+   "id": "1775-magnet-043",
+   "question": "magnet-attracts",
+   "text": "EB",
+   "answer": "iron-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The magnet attracts iron and steel only.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "36",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "image",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 47
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "Iron and steel only.",
+    "from_image": true
+   },
+   "note": "Ferguson's wording, reprinted: the Britannica's Mechanics p. 36 (leaf 47) is Ferguson's Lectures pp. 17-18 (45% of five-word sequences shared with the 1776 edition; read from the image of p. 36, 2026-11-21)"
+  },
+  {
+   "id": "1775-magnet-044",
+   "question": "magnet-cause",
+   "text": "B",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Those who explain the magnet by a fluid leaving its poles hold that the filings display its direction and path, all but showing it to the eye; Nollet asserts confidently that no one doubts the magnetic fluid exists. Biwald grants that several phenomena argue for some very subtle fluid; his objection is to what follows.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the filings"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Jean-Antoine Nollet",
+     "dates": "1700-1770",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "356",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=366",
+     "read_from": "unknown"
+    },
+    {
+     "page": "360-361",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=370",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-045",
+   "question": "magnet-direction",
+   "text": "N",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Nollet lays out the trouble with the stream: a needle set squarely across it should stay there and never does; a stream that steers iron should also steer copper or silver, as wind turns a weathercock; and the needle misses true north by a changing amount. Halley's great magnet inside the earth with its own slow rotation is an ingenious thought that lacks proof.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "difficulties of the magnetic stream"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Edmond Halley",
+     "dates": "1656-1742",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "216-219",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n245/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-046",
+   "question": "magnet-cause",
+   "text": "E",
+   "answer": "circulating-matter",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "The explanation may be more contrived than nature's way; it is incomprehensible that the magnetic matter acts on so few bodies and passes the rest unhindered, that the earth's magnetic vortex does not sweep away an iron wire or a magnet on a thread, and that hostile poles often cling together when brought close.",
+   "confidence": {
+    "level": "probable",
+    "printed": "in etwas unbegreiflich",
+    "translation": "somewhat incomprehensible"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "unanswered plain questions"
+    },
+    {
+     "kind": "simplicity",
+     "detail": "more contrived than nature's way"
+    }
+   ],
+   "cites": [
+    {
+     "page": "456",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n478/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "de",
+    "orig": "Ich geschweige, daß die ganze Erklärung gekünstelter herauskommen möchte, als die Natur zu handeln pflegt: es bleibt mir wenigstens außerdem auch noch immer in etwas unbegreiflich, wie es zugeht, daß diese magnetische Materie auf so viele Körper gar nicht wirkt, und so ganz ungehindert durch sie durchgehen kann. […] Und warum wird denn ein Eisendrat oder ein Magnet an einem Faden nicht von dem magnetischen Erdwirbel fortgerissen […]? Warum hangen öfters auch die feindlichen Pole zweener Magnete untereinander zusammen, wenn sie dicht an einander gebracht werden?",
+    "from_image": true,
+    "tr": "I pass over the fact that the whole explanation may come out more contrived than nature's way of acting: it remains to me, besides, still somewhat incomprehensible how it happens that this magnetic matter does not act at all on so many bodies and can pass through them so wholly unhindered. […] And why then is an iron wire or a magnet on a thread not swept along by the earth's magnetic vortex? […] Why do even the hostile poles of two magnets often cling together when they are brought close to one another?"
+   }
+  },
+  {
+   "id": "1775-magnet-047",
+   "question": "magnet-direction",
+   "text": "B",
+   "answer": "magnetic-rocks",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Following Boscovich in physics generally and accepting his forces for attraction, repulsion and the poles, Biwald rejects his account of the needle: iron mines more abundant at the poles are a hypothesis resting on no observation, and the magnet is attracted by very few iron ores, as the needle used by the mine surveyors in the great iron mines of his own province, Styria, shows; nor could such mines act at immense distances.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the needle in the Styrian iron mines"
+    },
+    {
+     "kind": "refutation",
+     "detail": "no observation of more iron at the poles; action at immense distances"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Roger Joseph Boscovich SJ",
+     "dates": "1711-1787",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=373",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "nam primo illae ferri fodinae ad polos maiori copia existentes hypothesis sunt nulli observationi nixa; deinde aliud quoque est, quod hanc explicationem funditus evertit, nimirum, magnetem a paucissimis ferri mineris attrahi. Experimenta huius rei non alibi pronius est capere, quam in ea ipsa Provincia, quam haec scribens incolo: in ea enim ferri fodinae amplissimae occurrunt, ad quas delata acus magnetica situm priorem haud mutatum servat, horasque indicat, quarum ope Geometrae subterranei de cuniculorum directione, situ, angulisque iudicium ferunt, mensurasque capiunt.",
+    "from_image": true,
+    "tr": "For first, those iron mines existing in greater abundance at the poles are a hypothesis resting on no observation; and then there is something else that overturns this explanation from the ground up, namely that the magnet is attracted by very few iron ores. Nowhere is it easier to try this than in the very province where I live as I write: for here there are very extensive iron mines, and a magnetic needle carried to them keeps its former position unchanged and shows the hours by which the underground surveyors judge the direction, position and angles of the galleries and take their measurements."
+   }
+  },
+  {
+   "id": "1775-magnet-048",
+   "question": "magnet-cause",
+   "text": "B",
+   "answer": "unknown",
+   "stance": "holds",
+   "part": "why",
+   "statement": "With Musschenbroek, the cause of magnetic properties is still wholly unknown to natural philosophers; not a few systems have been forged, but examined without prejudice they are entangled in insoluble difficulties. Better to suspend judgment until clear and certain signs show the cause.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Musschenbroek"
+    },
+    {
+     "kind": "refutation",
+     "detail": "every system entangled in difficulties"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Pieter van Musschenbroek",
+     "dates": "1692-1761",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "360",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=370",
+     "read_from": "image"
+    },
+    {
+     "page": "361",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=371",
+     "read_from": "unknown"
+    },
+    {
+     "page": "363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=373",
+     "read_from": "unknown"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Verum fatendum hic est, eam Physicos omnes adhucdum latere, quamvis systemata non pauca procusa fuerint, quae si animo a praeiudiciis libero ad examen vocentur, insolubilibus difficultatibus involuta esse facile apparebit.",
+    "from_image": true,
+    "tr": "It must be admitted here that it still lies hidden from all natural philosophers, although not a few systems have been forged; examined with a mind free of prejudice, these will easily be seen to be entangled in insoluble difficulties."
+   }
+  },
+  {
+   "id": "1775-magnet-049",
+   "question": "explanation-standard",
+   "text": "N",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Nollet wants a mechanism and keeps the magnetic fluid in spite of the difficulties he himself lists.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "212",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n241/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    },
+    {
+     "page": "216-219",
+     "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n245/mode/1up",
+     "read_from": "unknown",
+     "vol": "6"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-050",
+   "question": "explanation-standard",
+   "text": "E",
+   "stance": "reports",
+   "part": "why",
+   "statement": "Mayer left aside why a magnet is a magnet and sought only the law of its force.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Tobias Mayer",
+     "dates": "1723-1762",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "456-457",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n478/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-051",
+   "question": "explanation-standard",
+   "text": "EB",
+   "answer": "law-from-phenomena",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The Britannica asks only for the rule the force obeys: magnetism is a kind of attraction, with no cause offered.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "iii",
+     "page": "36",
+     "url": "https://archive.org/details/1771EncyclopediaBritannicaNLS",
+     "read_from": "unknown",
+     "scan": {
+      "file": "Volume 3, M-Z",
+      "leaf": 47
+     },
+     "entry": "Mechanics"
+    }
+   ],
+   "note": "Ferguson's wording, reprinted: the Britannica's Mechanics p. 36 (leaf 47) is Ferguson's Lectures pp. 17-18 (45% of five-word sequences shared with the 1776 edition; read from the image of p. 36, 2026-11-21)"
+  },
+  {
+   "id": "1775-magnet-052",
+   "question": "magnet-entry-pole",
+   "text": "E",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Euler leaves undecided which pole the magnetic matter enters; du Fay made it the north pole. Erxleben asks why this should be so hard to settle if the matter exists.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Leonhard Euler",
+     "dates": "1707-1783",
+     "role": "reported"
+    },
+    {
+     "name": "Charles François de Cisternay du Fay",
+     "dates": "1698-1739",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "447",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n469/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "456",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n478/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-053",
+   "question": "iron-in-ashes",
+   "text": "B",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "open",
+   "statement": "Because the magnet draws particles from the ashes of plants and animals and from burnt blood, some suspect all these bodies contain iron; this is by no means proved.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "353-354",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=363",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-054",
+   "question": "electric-magnetic-kin",
+   "text": "E",
+   "stance": "reports",
+   "part": "open",
+   "statement": "Lightning and strong electricity magnetize iron and reverse the poles of magnets; Erxleben reports it and draws no conclusion.",
+   "confidence": {
+    "level": "none"
+   },
+   "cites": [
+    {
+     "page": "452",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n474/mode/1up",
+     "read_from": "unknown"
+    },
+    {
+     "page": "454",
+     "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n476/mode/1up",
+     "read_from": "unknown"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-055",
+   "question": "magnet-poles",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Of the loadstone's properties Ferguson gives the three 'most remarkable': it attracts iron and steel only, turns one side to the north and another to the south, and communicates its properties to steel (p. 18); nothing on poles acting on one another."
+  },
+  {
+   "id": "1775-magnet-056",
+   "question": "magnet-dip",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "No dip of the needle (search of the machine-read text of the whole book)."
+  },
+  {
+   "id": "1775-magnet-057",
+   "question": "magnet-through-bodies",
+   "text": "F",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The particles of heat and magnetism find an easy passage through the pores of gold, which shows that bodies are much more porous than is generally imagined.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "magnetism acts through gold"
+    }
+   ],
+   "cites": [
+    {
+     "page": "15",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n30/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the particles of heat and magnetism find an easy passage through the pores of gold",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-058",
+   "question": "magnet-variation",
+   "text": "F",
+   "answer": "varies",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The compass varies: at sea, compare the sun's azimuth found with the globe with its azimuth shown by the compass; if they agree, the compass has no variation in that place, if they differ, the variation is the difference.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the sun's azimuth against the compass"
+    }
+   ],
+   "cites": [
+    {
+     "page": "285",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n340/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "if they differ, the compass does vary",
+    "from_image": true
+   },
+   "note": "Coded varies for an error that differs by place; Ferguson does not say that it changes with time."
+  },
+  {
+   "id": "1775-magnet-059",
+   "question": "artificial-magnets",
+   "text": "F",
+   "answer": "by-touch",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The loadstone communicates all its properties to a piece of steel rubbed upon it, without losing any itself.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "It communicates all its properties to a piece of steel when rubbed upon it, without losing any itself.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-060",
+   "question": "artificial-magnets",
+   "text": "F",
+   "answer": "of-itself",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Knives and forks struck with lightning have a very strong magnetical virtue for several years after; and he has heard that lightning striking a mariner's compass sometimes turns it round, and often makes it stand the contrary way, with the north pole toward the south.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "knives and forks struck by lightning"
+    }
+   ],
+   "cites": [
+    {
+     "page": "177",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n216/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "knives and forks which have been struck with lightning have a very strong magnetical virtue for several years after",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-061",
+   "question": "magnet-uses",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "No weapon-salve or other use of the stone itself; the compass appears only as an instrument, in the problems of the globes (p. 285) and in dialing (search of the machine-read text of the whole book)."
+  },
+  {
+   "id": "1775-magnet-062",
+   "question": "magnet-cause",
+   "text": "F",
+   "answer": "attraction",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Magnetism is the third of four kinds of attraction, which seems rather infused than inherent in matter; the loadstone is one of the bodies that have properties 'peculiar to themselves'. No cause is offered.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "17",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n32/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "properties peculiar to themselves",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-063",
+   "question": "magnet-direction",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "States that a loadstone hung by a thread that does not twist constantly turns one side north and another south (p. 18), and uses the compass's variation (p. 285); offers no cause for either."
+  },
+  {
+   "id": "1775-magnet-064",
+   "question": "magnet-law",
+   "text": "F",
+   "answer": "between-square-and-cube",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "By later experiments, made with the greatest accuracy, the force of magnetism decreases in a ratio between the reciprocal of the square and of the cube of the distance, approaching one or the other as the sizes of the bodies vary.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "later experiments 'made with the greatest accuracy'"
+    }
+   ],
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "the force of magnetism decreases in a ratio between the reciprocal of the square and the reciprocal of the cube of the distance; approaching to the one or the other, as the magnitudes of the attracting bodies are varied",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-065",
+   "question": "magnet-law",
+   "text": "F",
+   "answer": "inverse-square",
+   "stance": "reports",
+   "part": "dispute",
+   "statement": "By Helsham's experiments the attraction of the loadstone decreases as the square of the distance increases: a loadstone hung from a balance over iron needs four times the counterweight when the iron is brought twice as near.",
+   "confidence": {
+    "level": "none"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the loadstone at the balance"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Richard Helsham",
+     "dates": "1683-1738",
+     "role": "reported",
+     "note": "professor of natural philosophy, Trinity College Dublin"
+    }
+   ],
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1775-magnet-066",
+   "question": "magnet-attracts",
+   "text": "F",
+   "answer": "iron-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The loadstone attracts iron and steel only.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "It attracts iron and steel only.",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-067",
+   "question": "explanation-standard",
+   "text": "F",
+   "answer": "law-from-phenomena",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Gives the loadstone's properties and the rule its force obeys, with no cause: magnetism is a kind of attraction, which 'seems rather to be infused than inherent'.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "6",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n21/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "18",
+     "url": "https://archive.org/details/bim_eighteenth-century_lectures-on-select-subje_ferguson-james_1776/page/n33/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "en",
+    "orig": "seems rather to be infused than inherent",
+    "from_image": true
+   }
+  },
+  {
+   "id": "1775-magnet-068",
+   "question": "electric-magnetic-kin",
+   "text": "F",
+   "stance": "not_taken_up",
+   "part": "open",
+   "statement": "Sets magnetism and electricity side by side as kinds of attraction (p. 6, pp. 17-19), and reports that lightning magnetizes knives and reverses compasses (p. 177); since he does not make lightning electrical, he draws no connexion between electricity and the magnet."
+  }
+ ]
+}
