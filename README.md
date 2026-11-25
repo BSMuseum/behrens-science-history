@@ -2,7 +2,7 @@
 
 What European students were taught about nature, snapshot by snapshot from 1275 to 1900, in the period's own terms, from the most-printed teaching texts of each region, with every claim cited to a page scan.
 
-**Site:** https://bsmuseum.github.io/behrens-science-history/
+**Site:** https://history.bsmuseum.org/
 
 A project of the [Behrens Science Museum](https://bsmuseum.org/), compiled by Bruce Behrens with Anthropic's Claude. Corrections are welcome through the museum's [contact page](https://bsmuseum.org/contact-us/) or as an issue here.
 
@@ -53,7 +53,7 @@ To contribute an entry, see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Licence and citation
 
-Text and data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use them for anything, including commercially, as long as you credit the project: *Behrens Science History, Behrens Science Museum, https://bsmuseum.github.io/behrens-science-history/*. GitHub's "Cite this repository" button gives the same in standard formats (from [`CITATION.cff`](CITATION.cff)). The code in `tools/` is MIT-licensed. Details in [`LICENSE`](LICENSE).
+Text and data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use them for anything, including commercially, as long as you credit the project: *Behrens Science History, Behrens Science Museum, https://history.bsmuseum.org/*. GitHub's "Cite this repository" button gives the same in standard formats (from [`CITATION.cff`](CITATION.cff)). The code in `tools/` is MIT-licensed. Details in [`LICENSE`](LICENSE).
 
 ## Scans
 

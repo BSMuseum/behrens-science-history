@@ -1,6 +1,6 @@
 # Plan: move the project to a GitHub repository and serve the site with GitHub Pages (2026-11-23)
 
-**Done 2026-11-24.** Steps 1-8 are built: repository public, site live on GitHub Pages, cut-over made the same day (licence CC BY 4.0 for text and data, MIT for tools). Open: the custom domain (step 4 of Bruce's steps).
+**Done 2026-11-24.** Steps 1-8 are built: repository public, site live on GitHub Pages, cut-over made the same day (licence CC BY 4.0 for text and data, MIT for tools). Custom domain history.bsmuseum.org live the same evening (CNAME at WordPress.com to bsmuseum.github.io).
 
 Written at the end of a cost-and-usage discussion with Bruce on 2026-11-23. Nothing here has been built yet. The next tab implements it.
 

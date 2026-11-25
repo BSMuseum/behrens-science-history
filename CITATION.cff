@@ -8,6 +8,6 @@ authors:
   - name: "Behrens Science Museum"
     website: "https://bsmuseum.org/"
 license: CC-BY-4.0
-url: "https://bsmuseum.github.io/behrens-science-history/"
+url: "https://history.bsmuseum.org/"
 repository-code: "https://github.com/BSMuseum/behrens-science-history"
 type: dataset
