@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: fixed stars beyond their nature, comets, the moon's irregularities, eclipses, the tides, the figure of the earth (open items only). Not yet read: Biwald on the fixed stars, sun, comets and moon, his proofs from central forces and his answers pp. 434-444; most of Erxleben's twelfth section (the scan lacks pp. 480-481); Nollet's lesson between pp. 8 and 150; Ferguson's lectures on the globes after p. 254 and on eclipses; the Britannica's Astronomy after chapter II (Ferguson's Astronomy reprinted, so its later chapters will likely give the ellipses and the retrogradations). Ferguson's separate Astronomy is a single-topic treatise and fills no slot under R1 clause 2; it was compared with the Britannica (OCR of the 1764 edition, IA bim_eighteenth-century_astronomy-explained-upon_ferguson-james-f-r-s_1764, with pp. 25 and 28-29 read from the images) and is not cited as a text of this entry. Nollet t. 6 p. 2 (leaf 9) is unlinked on the site; its leaf was read from the page image for this file. read_from is 'image' for every Ferguson claim; for the others, 'image' only where the entry quotes the page, otherwise 'unknown'. Short quotations whose originals the entry does not reproduce carry orig null with a note.",
   "revised": {
    "date": "2026-11-18",
@@ -498,6 +502,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=409",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-025",
+     "kind": "instance",
+     "detail": "stations and retrogradations from the observer being carried round on the earth",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -516,6 +528,14 @@
      "page": "506",
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n526/mode/1up",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-026",
+     "kind": "instance",
+     "detail": "halts and backward motions from the earth's motion",
+     "basis": "entry"
     }
    ]
   },
@@ -536,6 +556,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_06/page/n80/mode/1up",
      "read_from": "unknown",
      "vol": "6"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-027",
+     "kind": "instance",
+     "detail": "stations and retrogradations from the earth's motion",
+     "basis": "entry"
     }
    ]
   },
@@ -890,6 +918,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=423",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-032",
+     "kind": "same-agent",
+     "detail": "the centripetal force of the heavenly bodies is the universal gravity that makes terrestrial weight",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -928,7 +964,15 @@
     "orig": "Die allgemeine Schwere der Materie gegen einander giebt also die Centripetalkraft bey der Bewegung der Planeten in ihren krummen Bahnen ab; die zwote dazu erforderliche Kraft, die Centrifugalkraft scheint Gott den Weltkörpern bey ihrer Schöpfung eingedrückt oder gegeben zu haben.",
     "from_image": true,
     "tr": "The universal gravity of matter toward matter thus supplies the centripetal force in the motion of the planets in their curved paths; the second force required for it, the centrifugal force, God seems to have impressed on or given to the bodies of the world at their creation."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-031",
+     "kind": "same-agent",
+     "detail": "the gravity that drives a stone to the earth keeps the planets in their paths",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-034",
@@ -969,7 +1013,21 @@
     "from_image": true,
     "tr": "in a very wise and very reasonable manner",
     "note": "French original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-036",
+     "kind": "premise",
+     "detail": "attraction as a virtue in matter is unintelligible",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-world-038",
+     "kind": "premise",
+     "detail": "a matter without resistance in the heavens is hard to admit",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-035",
@@ -1035,7 +1093,21 @@
     "orig": "Mais il faut convenir que la Physique de nos jours, qui se glorifie d’être purgée à jamais de ces qualités occultes qui l’avoient rendu si ridicule, ne doit point voir, sans peine, qu’on fasse rentrer dans la matiere une vertu abstraite, un être inconnu, & même inintelligible, & qui ne tient en rien au Méchanisme.",
     "from_image": true,
     "tr": "It must be granted that the physics of our day, which prides itself on being purged for ever of those occult qualities that had made it so ridiculous, cannot see without pain an abstract virtue brought back into matter, an unknown and even unintelligible being, which has nothing to do with mechanism."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-051",
+     "kind": "premise",
+     "detail": "attraction has nothing to do with mechanism",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-gravity-027",
+     "kind": "premise",
+     "detail": "refers the reader back to his treatment of attraction in the lesson on weight",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-037",
@@ -1082,7 +1154,15 @@
     "from_image": true,
     "tr": "is almost to say a matter that is not matter",
     "note": "French original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-051",
+     "kind": "premise",
+     "detail": "an unresisting heaven fails the test of mechanism",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-039",
@@ -1125,7 +1205,15 @@
     "orig": "These considerations amount to little less than a positive proof, that all the planets are inhabited: For if they are not, why all this care in furnishing them with so many moons, to supply those with light which are at the greater distances from the sun?",
     "from_image": true
    },
-   "note": "Ferguson's wording, from his Astronomy (1764 ed., p. 4 for 'no room to doubt', from the OCR; p. 25 for the positive proof, read from the image)"
+   "note": "Ferguson's wording, from his Astronomy (1764 ed., p. 4 for 'no room to doubt', from the OCR; p. 25 for the positive proof, read from the image)",
+   "rests_on": [
+    {
+     "claim": "1775-world-053",
+     "kind": "premise",
+     "detail": "an infinitely wise Creator would not furnish planets and moons to no end",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-040",
@@ -1241,7 +1329,34 @@
     "from_image": true,
     "tr": "the third and weightiest",
     "note": "Latin original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-012",
+     "kind": "premise",
+     "detail": "Kepler's rules among the further grounds",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-world-057",
+     "kind": "premise",
+     "detail": "the flattened earth among the further grounds",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-world-032",
+     "kind": "premise",
+     "detail": "the agreement with gravity among the further grounds",
+     "basis": "entry"
+    },
+    {
+     "question": "light-time",
+     "answer": "yes",
+     "kind": "premise",
+     "detail": "aberration follows from the yearly motion and the successive propagation of light (Physica particularis, light-006)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-044",
@@ -1274,6 +1389,14 @@
      "page": "478",
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n498/mode/1up",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-040",
+     "kind": "premise",
+     "detail": "the slower pendulum at Cayenne as a further ground",
+     "basis": "entry"
     }
    ]
   },
@@ -1394,6 +1517,20 @@
      "page": "391-392",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=413",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-008",
+     "kind": "premise",
+     "detail": "the astronomical objections answered by the enormous distance of the stars",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-world-028",
+     "kind": "premise",
+     "detail": "the objection from Joshua answered: Scripture accommodates itself to common understanding",
+     "basis": "entry"
     }
    ]
   },
@@ -1570,6 +1707,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=456",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-055",
+     "kind": "premise",
+     "detail": "Bertier's vortices rest on terrestrial fluids, which act only on the surface; Bertier put off from gravity to the heavens",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1659,6 +1804,14 @@
      "page": "341",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=363",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-001",
+     "kind": "premise",
+     "detail": "the earth is one of the primary planets turning round the sun, so likeness extends to the others",
+     "basis": "entry"
     }
    ]
   },
@@ -2021,7 +2174,15 @@
     "lang": "en",
     "orig": "From the principles thus established, it is evident that the earth moves round the sun, and not the sun round the earth",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-072",
+     "kind": "premise",
+     "detail": "evident from the principles of central forces",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-071",
@@ -2080,7 +2241,15 @@
     "lang": "en",
     "orig": "From the uniform projectile motion of bodies in straight lines, and the universal power of gravity or attraction, arises the curvilineal motion of all the heavenly bodies.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-073",
+     "kind": "same-agent",
+     "detail": "the universal power of gravity or attraction moves the heavenly bodies and makes bodies fall",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-073",
@@ -2162,7 +2331,15 @@
     "lang": "en",
     "orig": "by the Almighty hand that made them and put them in motion",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-081",
+     "kind": "premise",
+     "detail": "the planets, as inactive and dead as the balls, could not set themselves moving",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-076",
@@ -2202,7 +2379,15 @@
     "lang": "en",
     "orig": "That our earth is of this figure, is demonstrable from actual measurement of some degrees on its surface",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-070",
+     "kind": "premise",
+     "detail": "the turning earth's equatorial parts have the greatest centrifugal force",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-world-077",
@@ -2242,7 +2427,15 @@
     "lang": "en",
     "orig": "But after all this nice adjustment, it appears evident that the Deity cannot withdraw his regulating hand from his works, and leave them to be solely governed by the laws which he has imprest upon them at first.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-072",
+     "kind": "premise",
+     "detail": "the planets' mutual attraction disturbs their motions",
+     "basis": "entry"
+    }
+   ]
   }
  ]
 }

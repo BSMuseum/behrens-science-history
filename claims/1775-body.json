@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, on body in general, with the Britannica as a supplementary text. Not covered: figure, hardness, elasticity, compressibility. Not yet read: Biwald pp. 177-224 and his articles on hard, soft, elastic and fluid bodies; Erxleben's fifth section on cohesion; most of Nollet's Lessons I-II; the Britannica's Chemistry on the elements. Ferguson's Lecture I read whole from the page images. read_from is 'image' only where the page image was read (for every Ferguson claim) or the entry quotes the page; other citations are 'unknown'. Short quotations whose originals the entry does not reproduce carry orig null with a note.",
   "revised": {
    "date": "2026-11-18",
@@ -263,6 +267,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n201/mode/1up",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-body-011",
+     "kind": "premise",
+     "detail": "apparent penetration is entry into the pores",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -287,6 +299,14 @@
      "page": "85",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=107",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-body-009",
+     "kind": "premise",
+     "detail": "quicksilver enters gold and silver by their pores",
+     "basis": "entry"
     }
    ]
   },
@@ -428,7 +448,15 @@
     "orig": "All bodies are full of pores, or spaces void of matter",
     "from_image": true
    },
-   "note": "Corrected 2026-11-18 from the page image (was not_taken_up: the passage is on p. 35, beyond the pages the entry first read); Ferguson's wording, reprinted (F 15)"
+   "note": "Corrected 2026-11-18 from the page image (was not_taken_up: the passage is on p. 35, beyond the pages the entry first read); Ferguson's wording, reprinted (F 15)",
+   "rests_on": [
+    {
+     "claim": "1775-magnet-012",
+     "kind": "premise",
+     "detail": "the particles of magnetism pass easily through gold (Mechanics, reprinting Ferguson)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-013",
@@ -866,7 +894,15 @@
     "orig": "Primorum quidem materiae elementorum in hac sententia divisibilitas nulla est, cum ea simplicia, & inextensa sint; at vero massae quaelibet, quae nobis aliud non sunt, quam dictorum punctorum congeries, dividi in partes possunt, non tamen plures, quam sit ipse punctorum massam constituentium numerus.",
     "from_image": true,
     "tr": "On this view the first elements of matter have no divisibility at all, since they are simple and unextended; but any masses, which for us are nothing other than collections of the said points, can be divided into parts, though not into more than the number of the points that make up the mass."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "the first elements are simple and unextended, so masses divide only into their points",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-028",
@@ -1082,7 +1118,15 @@
     "orig": "Principia corporum sunt substantiae simplices vi motrice praeditae.",
     "from_image": true,
     "tr": "The principles of bodies are simple substances endowed with motive force."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-059",
+     "kind": "premise",
+     "detail": "activity cannot belong to a composite, so it belongs to the simple things that compose it",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-034",
@@ -1324,7 +1368,15 @@
     "from_image": true,
     "tr": "mathematical extension, or extension strictly so called, we have already removed from nature",
     "note": "Latin original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "extension strictly so called removed from nature: bodies are points at distances",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-042",
@@ -1376,7 +1428,15 @@
     "from_image": true,
     "tr": "it is the subtle air that fixes the parts of a matter, when its pressure from outside exceeds the reaction it makes within",
     "note": "French original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-water-046",
+     "kind": "same-agent",
+     "detail": "solidity and fluidity depend on one cause, the subtle air",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-044",
@@ -1538,7 +1598,15 @@
     "orig": "Cohaesio corporum oritur ex collocatione punctorum materiae in limitibus cohaesionis, vel etiam extra eosdem limites, in iis tamen distantiis, in quibus vires utrinque aequales, & oppositae se elidunt.",
     "from_image": true,
     "tr": "The cohesion of bodies arises from the placing of the points of matter at the limits of cohesion, or even outside those limits, yet at those distances at which forces equal and opposite on either side cancel one another."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "instance",
+     "detail": "cohesion placed in the curve of forces of the points",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-049",
@@ -1800,7 +1868,15 @@
     "orig": "Corpora videntur se habere ad substantias illas simplices, ex quibus coalescunt, eo modo, quo se habet exercitus ad milites singulos, ex quibus componitur.",
     "from_image": true,
     "tr": "Bodies seem to stand to those simple substances of which they are composed as an army stands to the single soldiers of which it is made up."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "a body is an aggregate of the simple substances, as an army of soldiers",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-059",
@@ -1938,6 +2014,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=259",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-body-009",
+     "kind": "premise",
+     "detail": "a fluid passing freely through the pores of every body would press as much from within as from without",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1962,6 +2046,14 @@
      "page": "239",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=261",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-motion-033",
+     "kind": "premise",
+     "detail": "there is no contact strictly so called, so no attraction in contact",
+     "basis": "entry"
     }
    ]
   },
@@ -2048,7 +2140,15 @@
     "from_image": true,
     "tr": "very vague and indeterminate",
     "note": "Latin original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "mass defined as the number of points under a given volume",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-067",
@@ -2258,7 +2358,15 @@
     "lang": "en",
     "orig": "in gold, which is the heaviest of all known bodies, there is perhaps a greater quantity of space than of matter.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-magnet-057",
+     "kind": "premise",
+     "detail": "the particles of magnetism pass easily through gold, so gold is porous",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-body-074",

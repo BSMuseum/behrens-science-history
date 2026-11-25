@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: pendulum, inclined plane, projectiles, centre of gravity; the planets are in 1775-world. Not yet read: Biwald's proofs for the moon and his answers after p. 320; Erxleben on the pendulum and his twelfth section; most of Nollet's Lesson VI; the Britannica's Astronomy and Pneumatics; Ferguson's lectures on the globes and eclipses. read_from is 'image' for every Ferguson claim; for the others, 'image' only where the entry quotes the page. Biwald's printed p. 319 is misnumbered 819 in the Munich copy.",
   "revised": {
    "date": "2026-11-18",
@@ -708,7 +712,15 @@
     "orig": "tout bien considéré, il semble que ceux qui voudront n'entendre, sur la cause physique de la pesanteur, que des explications qui soient en même tems satisfaisantes & intelligibles, ne doivent point les chercher dans aucun ouvrage, qui soit connu jusqu'à présent. Tenons-nous-en donc aux phénoménes",
     "from_image": true,
     "tr": "All things considered, it seems that those who wish to hear, on the physical cause of weight, only explanations that are at once satisfying and intelligible should not look for them in any work known up to the present. Let us keep, then, to the phenomena."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-050",
+     "kind": "premise",
+     "detail": "no explanation yet both satisfying and intelligible, so keep to the phenomena",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-gravity-026",
@@ -781,7 +793,15 @@
     "from_image": true,
     "tr": "is to abandon the cause and attach oneself to the effect",
     "note": "French original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-050",
+     "kind": "premise",
+     "detail": "attraction abandons the cause for the effect",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-gravity-028",
@@ -909,7 +929,15 @@
     "orig": "Ich scheue mich nicht, dieser Hypothese, daß die Materie eine anziehende Kraft gegen einander besitzt, einige Wahrscheinlichkeit beyzulegen, ob es gleich Leute giebt, welche dieienigen gerade zu für unvernünftig erklären, welche so thun.",
     "from_image": true,
     "tr": "I am not afraid to grant some probability to this hypothesis, that matter possesses an attractive force toward other matter, although there are people who declare flatly unreasonable those who do so."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-052",
+     "kind": "premise",
+     "detail": "attraction explains as much as impact or inertia do",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-gravity-032",
@@ -953,7 +981,21 @@
     "from_image": true,
     "tr": "that affection of all the bodies making up this universe, or at least our planetary system, by which, placed at greater distances from one another, they perpetually strive to approach one another",
     "note": "Latin original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "instance",
+     "detail": "gravity is the last asymptotic arm of the curve of forces of the points",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-body-048",
+     "kind": "same-agent",
+     "detail": "cohesion and gravity from the one curve of forces",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-gravity-033",
@@ -1177,6 +1219,14 @@
      "read_from": "unknown",
      "vol": "2"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-027",
+     "kind": "premise",
+     "detail": "the daily rotation gives the parts of the globe centrifugal forces greatest at the equator",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1216,7 +1266,15 @@
     "from_image": true,
     "tr": "a new proof that the earth does in fact turn on its axis",
     "note": "German original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-026",
+     "kind": "premise",
+     "detail": "Richer's pendulum explained by the earth's turning on its axis",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-gravity-041",
@@ -1258,6 +1316,14 @@
      "page": "303-305",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=325",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-057",
+     "kind": "premise",
+     "detail": "the flattened figure of the earth is the likeliest cause",
+     "basis": "entry"
     }
    ]
   },
@@ -1680,6 +1746,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=339",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-006",
+     "kind": "premise",
+     "detail": "a fluid acts by volume or surface, weight goes by mass",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1711,6 +1785,14 @@
      "page": "83",
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n109/mode/1up",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-007",
+     "kind": "premise",
+     "detail": "a fluid acts by surface, weight goes by mass",
+     "basis": "entry"
     }
    ]
   },
@@ -1809,7 +1891,15 @@
     "orig": "must, and ever will, elude our researches",
     "from_image": true
    },
-   "note": "The Britannica's own entry"
+   "note": "The Britannica's own entry",
+   "rests_on": [
+    {
+     "claim": "1775-gravity-053",
+     "kind": "premise",
+     "detail": "since Bacon all knowledge comes from experiment; seeking the cause of gravity is conjecture (entry Aether)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-gravity-060",
