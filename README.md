@@ -51,6 +51,10 @@ GitHub runs the first and third on every pull request, checks the scan URLs week
 
 To contribute an entry, see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+## Licence and citation
+
+Text and data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use them for anything, including commercially, as long as you credit the project: *Behrens Science History, Behrens Science Museum, https://bsmuseum.github.io/behrens-science-history/*. GitHub's "Cite this repository" button gives the same in standard formats (from [`CITATION.cff`](CITATION.cff)). The code in `tools/` is MIT-licensed. Details in [`LICENSE`](LICENSE).
+
 ## Scans
 
 Title pages, frontispieces and every cited page come from public scans at the Internet Archive and the Bayerische Staatsbibliothek, Munich (digitale-sammlungen.de). Each image and citation links to its scan.

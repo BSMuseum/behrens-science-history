@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these texts or data, please cite them as below."
+title: "Behrens Science History"
+abstract: "Snapshots of what the most widely used European teaching texts taught about nature, 1275-1900, in the period's own terms, with every claim cited to a page scan and recorded in machine-readable claims files."
+authors:
+  - family-names: Behrens
+    given-names: Bruce
+  - name: "Behrens Science Museum"
+    website: "https://bsmuseum.org/"
+license: CC-BY-4.0
+url: "https://bsmuseum.github.io/behrens-science-history/"
+repository-code: "https://github.com/BSMuseum/behrens-science-history"
+type: dataset

@@ -1,5 +1,7 @@
 # Behrens Science History snapshots: charter, method, and pilot status
 
+**Source of truth since 2026-11-24: the GitHub repository BSMuseum/behrens-science-history** (site: https://bsmuseum.github.io/behrens-science-history/). The claude.ai project's docs and the two year-page artifacts are frozen as of that date and are no longer updated. Where this charter mentions `claude/claims/...` paths, the artifact as the site, or publishing with the artifact tools, read: the repository's `data/`, `claims/`, `entries/` and `site/`, and a pull request (see `CONTRIBUTING.md`). Registries are in `data/`; the checker runs from the repository root as `python3 -I tools/check_claims.py`.
+
 Last updated 2026-11-17 (project renamed from "History of Science" to "Behrens Science History"; doc paths, such as this file's, keep their old names so links from other tabs still work. Earth and the bodies drawn from it published; meteors published the same day; the terraqueous globe published the same evening, so all thirteen 1775 entries are published). Working record for future sessions; decisions are Bruce's unless marked "proposed".
 
 ## Scope decisions
@@ -50,6 +52,8 @@ Rule kept so far: anything inside quotation marks has been read from the page im
 Reachable from the cloud workspace: archive.org, e-rara.ch, digitale-sammlungen.de, gdz.sub.uni-goettingen.de, wellcomecollection.org, api.europeana.eu. Not reachable: gallica.bnf.fr, babel.hathitrust.org, digital.onb.ac.at; Google Books refuses automated text requests.
 
 ## The site
+
+Since 2026-11-24 the site is built from the repository by `tools/build_site.py` and served by GitHub Pages at https://bsmuseum.github.io/behrens-science-history/ (front page, `c-1775/`, `c-1675/`), rebuilt on every push to `main`. Each entry is a fragment `entries/<snapshot>/<topic>.html`; the page shell, style and router are in `site/templates/`; `site/pages.json` gives each year page's entry order and tab titles. The markup conventions below still hold; the artifact instructions describe how the pages were made before the move and are kept for the record.
 
 Artifact "Natural Philosophy c. 1775", https://claude.ai/artifact/3ZnZZeJVGKYPy582ehrreu (slug 14c627fb-e753-4737-ab22-723793622c82), in the Artifacts folder "Behrens Science History" since 2026-11-17 (before that, "History of Science"). One index.html with views routed on the hash: home (topic list with status), #electricity, #magnet, #light, #fire, #air, #water, #gravity, #world, #motion, #body, #earth, #meteors, #globe. The home eyebrow and every entry footer name the project as "Behrens Science History". The artifact is the source of truth; workspace copies are temporary. To add an entry: add an `<article class="view" id="v-NAME">`, add NAME to the `views` and `titles` objects in the script, switch its row in the home table to a "Read the entry" pill, and update the count in the home status line. Section ids are prefixed per entry (h- electricity, m- magnet, l- light, f- fire, a- air, w- water, g- gravity, s- system of the world, o- motion, b- body, r- earth, m- meteors, k- terraqueous globe, t- home).
 

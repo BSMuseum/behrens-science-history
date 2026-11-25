@@ -1,5 +1,7 @@
 # Claims data: format, persistent questions, and the rule for choosing texts
 
+**Since 2026-11-24 these files live in the GitHub repository BSMuseum/behrens-science-history**: the registries (`questions.json`, `texts.json`, `snapshots.json`) in `data/`, the claims files and this README in `claims/`, `cites.py` and `check_claims.py` in `tools/`, the test reports in `docs/tests/`. Run the checker from the repository root as `python3 -I tools/check_claims.py [--urls]`. Entry branches propose registry changes in `proposals/` rather than editing `data/` (see `CONTRIBUTING.md`). The copies in the claude.ai project are frozen as of that date.
+
 Format and questions proposed 2026-11-16; selection rule R1 v3 approved by Bruce 2026-11-16, R1 v4 (the reading of clause 5) on 2026-11-18, R1 v5 (clause 12) on 2026-11-21, and R1 v6 (clause 13, one text, one slot) set by Bruce on 2026-11-22. The c. 1675 plan (`1675-plan.md`) was folded into this file, `snapshots.json` and `texts.json` on 2026-11-22, after the first 1675 entry was published. Files live in the project under `claude/claims/`.
 
 ## Files
