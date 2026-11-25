@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text, on the globe as a whole: its figure, the tides, springs, mountains, the sea, the inside of the earth, volcanoes and earthquakes, the Flood, the theories of the earth and its age. The weather and climates (Erxleben §§737-747), rivers and lakes in detail, and the measurement of mountains are not covered; the bodies dug from the earth are in 1775-earth, the winds in 1775-meteors. For Paris the text is Para du Phanjas, as in the earth entry: Nollet has no lesson on the globe (he treats springs in his lesson on water, t. 4 pp. 9-18, the figure of the earth in his lesson on gravity, t. 2 pp. 148-156, and volcanoes in a paragraph, t. 4 pp. 95-97); those passages are not encoded. Para's fourth treatise, on water (springs, §§667-679, and the sea's saltness, §610), is cited where the first section of his third treatise is silent. Biwald's figure of the earth and tides are in his general physics (cited with work). For Britain the text is Ferguson's Lectures (5th ed., 1776) from 2026-11-21. The Lectures have no lecture on the globe, but the tides (margin heading 'Of the tides', p. 41, and running head 'Of the Tides', p. 42), earthquakes (margin heading 'Earthquakes', p. 178), intermitting springs (margin heading, p. 117) and reciprocating springs (Supplement, Hydrostatics, p. 20) have headed passages; volcanoes close the earthquake passage without a heading (p. 179), and the figure of the earth follows the tides in Lecture II (pp. 46-47). The machine-read text of the whole of Ferguson was searched for shells, fossils, petrifactions, strata, mountains, the Flood, deluge, Noah, creation, central fire, salt and the sea; the disputes on those are not taken up, except that his tables count the years of the world from 4008 before Christ (p. 393). read_from is image where the page image was read, ocr where only the machine-read text was used; every quotation is from an image. Erxleben /page/n = page + 20 for pp. 476-647 (checked from the page images at 477, 580, 593, 606, 613-615, 629-630, 636-637, 641, 644); Para t. 2 /page/n = page + 9 for pp. 5-369 (checked at 5, 8, 9, 18, 22, 23, 24, 32, 33, 43, 44, 62, 72, 73, 356, 369). Ferguson leaf = page + 21 for pp. 41-47, + 35 for p. 117, + 39 for pp. 159-178, + 41 for p. 179, + 55 for p. 247, + 63 for pp. 377 and 393 (read from the images); Supplement p. 20 = leaf 491.",
   "revised": {
    "date": "2026-11-21",
@@ -273,6 +277,22 @@
      "read_from": "ocr",
      "work": "Physica generalis (1769)"
     }
+   ],
+   "rests_on": [
+    {
+     "question": "fall-cause",
+     "answer": "attraction",
+     "kind": "premise",
+     "detail": "Newton derived the figure from mutual attraction and the daily rotation (Physica generalis, gravity-032)",
+     "basis": "entry"
+    },
+    {
+     "question": "earth-motion",
+     "answer": "turns-and-circles-sun",
+     "kind": "premise",
+     "detail": "Newton derived the figure from mutual attraction and the daily rotation (Physica generalis, world-025)",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -399,7 +419,15 @@
      "entry": "Astronomy"
     }
    ],
-   "note": "Ferguson's wording, reprinted. The Mechanics passage is Ferguson's Lecture II, pp. 46-47 (48% of the five-word sequences on vol. 3 leaf 58 are shared with the Lectures, OCR); the Astronomy passage is his Astronomy (1764 ed., p. 14; 38% on vol. 1 leaf 523, OCR)."
+   "note": "Ferguson's wording, reprinted. The Mechanics passage is Ferguson's Lecture II, pp. 46-47 (48% of the five-word sequences on vol. 3 leaf 58 are shared with the Lectures, OCR); the Astronomy passage is his Astronomy (1764 ed., p. 14; 38% on vol. 1 leaf 523, OCR).",
+   "rests_on": [
+    {
+     "claim": "1775-world-024",
+     "kind": "premise",
+     "detail": "globes that turn on their axes are oblate (Mechanics, reprinting Ferguson)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-005",
@@ -448,6 +476,15 @@
      "read_from": "ocr",
      "work": "Physica generalis (1769)"
     }
+   ],
+   "rests_on": [
+    {
+     "question": "fall-cause",
+     "answer": "attraction",
+     "kind": "instance",
+     "detail": "the tides a corollary of the moon's motions and a confirmation of universal gravity (Physica generalis, gravity-032)",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -486,6 +523,14 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n627/mode/1up",
      "read_from": "ocr",
      "section": "§727"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-026",
+     "kind": "premise",
+     "detail": "the earth's turning carries the swelling westward",
+     "basis": "entry"
     }
    ]
   },
@@ -992,6 +1037,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=412",
      "read_from": "image"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-018",
+     "kind": "same-agent",
+     "detail": "earthquakes have nearly the same causes as volcanoes",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1017,6 +1070,15 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n657/mode/1up",
      "read_from": "ocr",
      "section": "§756"
+    }
+   ],
+   "rests_on": [
+    {
+     "question": "air-heat",
+     "answer": "yes",
+     "kind": "premise",
+     "detail": "the heat of underground fires expands the air shut in caverns",
+     "basis": "entry"
     }
    ]
   },
@@ -1134,6 +1196,14 @@
      "page": "393",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-044",
+     "kind": "premise",
+     "detail": "the electric fluid may carry vapours to the ridges",
+     "basis": "entry"
     }
    ]
   },
@@ -1375,6 +1445,14 @@
      "read_from": "ocr",
      "section": "§669"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-053",
+     "kind": "premise",
+     "detail": "Descartes's distillation needs a chimerical central fire",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1477,6 +1555,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=403",
      "read_from": "ocr"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-095",
+     "kind": "premise",
+     "detail": "Burnet's theory disagrees with Moses, the most ancient historian",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1508,6 +1594,14 @@
      "page": "394",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=404",
      "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-014",
+     "kind": "premise",
+     "detail": "Woodward's settling by weight does not fit the strata, out of the order of weight",
+     "basis": "entry"
     }
    ]
   },
@@ -1551,7 +1645,27 @@
     "orig": "Haec porro omnia subterraneorum ignium eruptioni rectius tribui videntur, quam diluviis, aut inundationibus.",
     "from_image": true,
     "tr": "All this, moreover, seems more rightly ascribed to the eruption of underground fires than to deluges or floods."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-014",
+     "kind": "premise",
+     "detail": "jumbled strata point to fire rather than floods",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-009",
+     "kind": "premise",
+     "detail": "some mountains raised from the shell-filled sea floor",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-018",
+     "kind": "same-agent",
+     "detail": "the underground fires of volcanoes raised the mountains, all once volcanic",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-038",
@@ -1611,6 +1725,14 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n663/mode/1up",
      "read_from": "ocr",
      "section": "§759"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-010",
+     "kind": "premise",
+     "detail": "layers with petrified sea animals show that water washed the later mountains together",
+     "basis": "entry"
     }
    ]
   },
@@ -1690,7 +1812,15 @@
     "orig": "Il faut donc nécessairement reconnoître que ces montagnes anté-diluviennes doivent purement & simplement leur origine à l’action créatrice du Tout-puissant",
     "from_image": true,
     "tr": "We must therefore necessarily acknowledge that these antediluvian mountains owe their origin purely and simply to the creative action of the Almighty"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-091",
+     "kind": "instance",
+     "detail": "the primitive chains belong to the globe's first form, made before physical laws were imposed",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-042",
@@ -1716,6 +1846,20 @@
      "url": "https://archive.org/details/b30539584_0002/page/n31/mode/1up",
      "read_from": "image",
      "section": "§499"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-091",
+     "kind": "premise",
+     "detail": "only what came after the first forming calls for physical causes",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-075",
+     "kind": "premise",
+     "detail": "the Flood first among the agents that heaped up the lower mountains",
+     "basis": "entry"
     }
    ]
   },
@@ -1768,6 +1912,20 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=406",
      "read_from": "image"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-037",
+     "kind": "premise",
+     "detail": "shells carried up with the sea floor raised by eruptions",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-014",
+     "kind": "premise",
+     "detail": "settled from subsiding water they would lie by specific weight",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1796,7 +1954,15 @@
     "orig": "macht es insbesondere wahrscheinlich, daß das Land, das wir ietzt bewohnen, vor diesem der Boden des Meeres gewesen sey",
     "from_image": true,
     "tr": "makes it particularly probable that the land we now inhabit was formerly the bottom of the sea"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-010",
+     "kind": "premise",
+     "detail": "the orderly layers of petrified sea animals make it probable the land was sea floor",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-046",
@@ -1822,6 +1988,14 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n661/mode/1up",
      "read_from": "image",
      "section": "§758"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-010",
+     "kind": "premise",
+     "detail": "their orderly position rules out floods",
+     "basis": "entry"
     }
    ]
   },
@@ -1884,6 +2058,26 @@
      "read_from": "ocr",
      "section": "§517"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-011",
+     "kind": "premise",
+     "detail": "the shells and fishes are sea creatures",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-041",
+     "kind": "premise",
+     "detail": "the Flood's currents, turned by the primitive mountains, laid down the layers",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-075",
+     "kind": "premise",
+     "detail": "the universal Flood explains the shells everywhere",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1906,6 +2100,14 @@
      "url": "https://archive.org/details/b30539584_0002/page/n78/mode/1up",
      "read_from": "ocr",
      "section": "§517"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-071",
+     "kind": "premise",
+     "detail": "the sea displaced by changes in the earth's centre of gravity",
+     "basis": "entry"
     }
    ]
   },
@@ -2096,7 +2298,21 @@
     "orig": "Haecque opinio verissima videtur, si, quod superius diximus, electricitatis quoque ratio habeatur.",
     "from_image": true,
     "tr": "And this opinion seems truest if, as we said above, account is also taken of electricity."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-electricity-009",
+     "kind": "premise",
+     "detail": "sulphur, bitumen and other fatty bodies are electrics",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-electricity-034",
+     "kind": "premise",
+     "detail": "electric vapour rushes into negatively electric bodies underground",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-056",
@@ -2476,7 +2692,15 @@
     "orig": "Die Frage scheint wohl noch nicht entschieden werden zu können",
     "from_image": true,
     "tr": "The question seems not yet able to be decided"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-water-059",
+     "kind": "premise",
+     "detail": "the turning of water into earth remains doubtful",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-071",
@@ -2616,7 +2840,21 @@
     "orig": "Prétention diamétralement opposée & à l’histoire sainte & à l’histoire naturelle!",
     "from_image": true,
     "tr": "A claim diametrically opposed both to sacred history and to natural history!"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-048",
+     "kind": "premise",
+     "detail": "natural history finds the Flood's monuments on every continent",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-globe-096",
+     "kind": "premise",
+     "detail": "sacred history raises the waters fifteen cubits above the highest mountains",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-076",
@@ -2743,7 +2981,15 @@
     "orig": "Ce déluge universel est évidemment impossible dans l’ordre naturel des choses, & selon les loix générales qui animent la nature",
     "from_image": true,
     "tr": "This universal flood is plainly impossible in the natural order of things and according to the general laws that animate nature"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-075",
+     "kind": "premise",
+     "detail": "a flood over the highest mountains is impossible by natural causes",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-080",
@@ -3044,7 +3290,15 @@
     "orig": "l’existence de la terre ne remonte au-delà de l’année présente 1771, qu’à environ 5808, ou 7572 ans",
     "from_image": true,
     "tr": "the existence of the earth goes back beyond the present year 1771 only about 5808, or 7572, years"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-096",
+     "kind": "premise",
+     "detail": "the sacred books are the oldest and most authentic historical monuments",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-088",
@@ -3088,7 +3342,15 @@
     "orig": "L’opinion qui donne à la terre plus d’antiquité que ne lui en donne l’Ecriture sainte, n’est fondée sur aucune preuve solide, tirée de la physique, de l’histoire, de l’astronomie.",
     "from_image": true,
     "tr": "The opinion that gives the earth more antiquity than Holy Scripture gives it is founded on no solid proof drawn from physics, history or astronomy."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-075",
+     "kind": "premise",
+     "detail": "what is seen on and in the earth comes from its first constitution, the Flood and a few thousand years",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-089",
@@ -3342,6 +3604,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=408",
      "read_from": "ocr"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-fire-001",
+     "kind": "premise",
+     "detail": "heat continually generated near the surface by friction, fermentation and effervescence",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -3368,6 +3638,15 @@
      "url": "https://archive.org/details/b30539584_0002/page/n41/mode/1up",
      "read_from": "ocr",
      "section": "§501"
+    }
+   ],
+   "rests_on": [
+    {
+     "question": "fire-nature",
+     "answer": "matter-of-fire",
+     "kind": "premise",
+     "detail": "the free elementary fire lodged evenly in all bodies (his theory of fire, not yet encoded)",
+     "basis": "entry"
     }
    ]
   },
@@ -3672,6 +3951,14 @@
      "read_from": "ocr",
      "section": "§§507-509"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-globe-075",
+     "kind": "premise",
+     "detail": "the masses heaped by the Flood in one hemisphere tipped the axis",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -3745,6 +4032,14 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n633/mode/1up",
      "read_from": "image",
      "section": "§734"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-gravity-058",
+     "kind": "premise",
+     "detail": "a hollow earth would make the attraction of dense mountains greater than it is found",
+     "basis": "entry"
     }
    ]
   },
@@ -3844,7 +4139,15 @@
     "lang": "en",
     "orig": "That our earth is of this figure, is demonstrable from actual measurement of some degrees on its surface, which are found to be longer in the frigid zones than in the torrid",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-world-070",
+     "kind": "premise",
+     "detail": "the turning earth's equatorial parts have the greatest centrifugal force",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-117",
@@ -3897,7 +4200,21 @@
     "lang": "en",
     "orig": "The cause of their rising on the side next the moon every one understands to be owing to the moon's attraction",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-073",
+     "kind": "instance",
+     "detail": "the tide on the near side owing to the moon's attraction",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-world-072",
+     "kind": "premise",
+     "detail": "the earth goes monthly round the common centre of gravity of earth and moon",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-118",
@@ -3950,7 +4267,15 @@
     "lang": "en",
     "orig": "From this experiment we have a very natural account of the fires of mount Ætna, Vesuvius, and other volcanos",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-121",
+     "kind": "same-agent",
+     "detail": "the artificial earthquake gives a very natural account of the volcanoes",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-121",
@@ -3989,7 +4314,15 @@
     "lang": "en",
     "orig": "When such combustible matter, as is above-mentioned, kindles in the bowels of the earth, where there is little or no vent, it produces earthquakes",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-110",
+     "kind": "same-agent",
+     "detail": "'such combustible matter, as is above-mentioned': the fermenting effluvia of thunder and lightning",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-globe-122",

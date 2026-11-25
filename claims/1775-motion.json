@@ -22,6 +22,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, on the principles of motion. Not yet read: pendulum, inclined plane, projectiles, central forces, the machines; Biwald pp. 95-162 in detail; Erxleben §§49-78; Nollet on collision and the machines; the rest of Ferguson's Lectures II and III.",
   "revised": {
    "date": "2026-11-18",
@@ -280,7 +284,15 @@
      "read_from": "image"
     }
    ],
-   "note": "Ferguson's wording, reprinted (F 2, 47-48)"
+   "note": "Ferguson's wording, reprinted (F 2, 47-48)",
+   "rests_on": [
+    {
+     "claim": "1775-motion-003",
+     "kind": "premise",
+     "detail": "on the principle of momentum depends the whole of mechanics (Mechanics, reprinting Ferguson)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-motion-007",
@@ -357,6 +369,14 @@
      "page": "272",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=294",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "deduced from the mutual action of the points of matter",
+     "basis": "entry"
     }
    ]
   },
@@ -789,7 +809,21 @@
     "orig": "Datur enim in corporibus vis motrix, quae, veluti metaphysici docent, consistit in continuo nisu, sive conatu mutandi locum. Quod si vero corpora mutationi status positive resisterent, daretur in iis quoque nisus, sive conatus conservandi loci; qui conatus tanquam sibi omnino oppositi eidem substantiae inesse non possunt.",
     "tr": "For there is in bodies a motive force, which, as the metaphysicians teach, consists in a continual striving or endeavour to change place. But if bodies positively resisted a change of state, there would also be in them a striving or endeavour to keep their place; and these endeavours, being wholly opposed to each other, cannot be in the same substance.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-059",
+     "kind": "premise",
+     "detail": "bodies have a motive force, a continual striving to change place",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "the points of matter endowed with motive force cannot also strive to keep place",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-motion-025",
@@ -827,7 +861,15 @@
     "orig": "Illud enim illico adverti, Authores hos, cum Boscovichii theoriam exponendam sibi sumpsissent, ita in Authoris huius verba iurasse, ut ne latum quidem unguem ab eo recedendum esse existimarent. […] Neque de verbo ea lis versatur, sed eam, quam de corporis essentia tenemus, sententiam plane ingreditur.",
     "tr": "For I noticed at once that these authors, having undertaken to expound Boscovich's theory, had so sworn by the words of this author that they thought they should not depart from him by a nail's breadth. […] Nor is this a quarrel about a word; it goes straight to the heart of the opinion we hold about the essence of body.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-058",
+     "kind": "premise",
+     "detail": "the quarrel goes to the heart of his opinion on the essence of body",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-motion-026",
@@ -937,6 +979,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=297",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-motion-041",
+     "kind": "premise",
+     "detail": "nothing in nature is ever absolutely at rest, so the first law cannot be shown from the phenomena",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -968,6 +1018,14 @@
      "page": "275-277",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=297",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-body-054",
+     "kind": "premise",
+     "detail": "we do not know the inner natures of things",
+     "basis": "entry"
     }
    ]
   },
@@ -1029,7 +1087,15 @@
     "orig": "Aber wie eigentlich diese Mittheilung der Bewegung (communicatio motus) geschieht, das bleibt wohl im Grunde für uns, die wir die Körper ihrer innern Beschaffenheit nach nicht kennen, ein unerforschliches Geheimniß; denn was geht bey der Mittheilung der Bewegung aus dem bewegten Körper in den durch ihn in Bewegung gesetzten über?",
     "tr": "But how this communication of motion properly comes about remains at bottom, for us who do not know bodies in their inner constitution, an unsearchable mystery; for what passes, in the communication of motion, out of the moving body into the one set in motion by it?",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-057",
+     "kind": "premise",
+     "detail": "we do not know bodies in their inner constitution",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-motion-033",
@@ -1103,6 +1169,14 @@
      "page": "196-197",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=218",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-motion-033",
+     "kind": "premise",
+     "detail": "since bodies never touch, all their action is by forces across small distances",
+     "basis": "entry"
     }
    ]
   },
@@ -1268,6 +1342,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n339/mode/1up",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-027",
+     "kind": "premise",
+     "detail": "if the earth turns and goes round the sun, as is very probable, nothing on it is at rest",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1291,6 +1373,14 @@
      "page": "277-278",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130800?page=299",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-body-033",
+     "kind": "premise",
+     "detail": "forces depending on distance keep every part of every body moving",
+     "basis": "entry"
     }
    ]
   },
@@ -1434,7 +1524,15 @@
     "lang": "en",
     "orig": "Upon this easy principle depends the whole of mechanics",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-motion-047",
+     "kind": "premise",
+     "detail": "on the principle of momentum as matter times velocity depends the whole of mechanics",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-motion-049",
@@ -1538,7 +1636,15 @@
     "lang": "en",
     "orig": "for, of itself, it could never swerve from a right line, nor stop its course.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-081",
+     "kind": "instance",
+     "detail": "persistence in motion is the inactivity of matter",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-motion-054",
