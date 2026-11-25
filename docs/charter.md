@@ -6,6 +6,8 @@ Last updated 2026-11-17 (project renamed from "History of Science" to "Behrens S
 
 ## Scope decisions
 
+TEST LINE: delete me.
+
 - Product: a browsable public site, navigable by period and by topic. A book with a thesis may come later, drawn from the site. For now the site artifact stays private (read: owner): Bruce does not want it shared, and wants it where his agents can update it (2026-11-16).
 - Minimum viable product (2026-11-16), meant to attract support: natural philosophy at three snapshots, c. 1575, c. 1675 and c. 1775, with a machine-readable claims file for every entry and one or two cross-snapshot visuals (below). The long-term aim stays comprehensive (medicine, chemistry and alchemy, natural history and so on), because fields move between disciplines over time; the MVP is limited to natural philosophy. A public site where volunteers contribute their own Claude time may come later; "Don't do that yet."
 - Span: first snapshot c. 1275, last no later than 1900. Stop earlier if the method stops working.
