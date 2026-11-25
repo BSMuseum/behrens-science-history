@@ -37,10 +37,32 @@ One claim = one text's position on one question, in one sentence. A text that ho
 - `persons`: people the text names, with `role` (followed, opposed, reported, credited). This is the raw material for the borrowing network.
 - `cites`: page (and section), scan URL, and `read_from` (image, ocr, unknown).
 - `quote` (optional): original, translation, `from_image: true`. A quotation requires a citation read from the image.
+- `rests_on` (since 2026-11-25): the text's own positions on other questions that this position depends on. See "Dependencies between claims" below.
 
 Coverage rule: for every common-ground question and every row of the "where each text stood" table, each of the entry's regional texts has a claim, if only `not_found` or `not_taken_up`. The checker enforces this for common ground. Supplementary texts are exempt.
 
-The entry block also carries `placement` (where each text puts the topic), which feeds the boundaries diagram, and `verification` (status, by, date), filled by the independent checking pass.
+The entry block also carries `placement` (where each text puts the topic), which feeds the boundaries diagram, `verification` (status, by, date), filled by the independent checking pass, and `rests_on` (date, by), which says the file's dependencies have been coded (below).
+
+## Dependencies between claims
+
+Added 2026-11-25 for the project's research question: as taught knowledge grew more interconnected, did it narrow the range of explanations schools could defend, and when ideas fell, did they fall one at a time or as a structure? Two of its three measures need these data: how densely each text's positions rest on one another, snapshot by snapshot, and whether positions that rest on a position disappear with it in the next snapshot. (The third, how many distinct answers the regions give to each question, comes from the existing fields.)
+
+A claim's `rests_on` lists the other positions of the **same text** that the text itself uses as grounds for this one, in this topic or any other. Each item:
+
+- `claim`: the id of the claim recording the supporting position, in any claims file of the same snapshot, where the same text (same `texts.json` id, not merely the same siglum) is the claim's text. Use this whenever such a claim exists.
+- or, where no claim yet records the supporting position (another topic not yet written, or one written from another text of the region): `question` and `answer`, a code of that question, the position as the text holds it. When the other entry is written, its tab replaces these with `claim`.
+- `kind`:
+  - `premise`: the text argues from the other position to this one ("since the heavens are incorruptible, the comets are below the moon").
+  - `same-agent`: the text explains both by the same matter, fluid, force or cause, and says so (Nollet's light and fire as one subtle matter; Biwald's fall of a stone and the planets' orbits as one attraction).
+  - `instance`: the text treats this as a case or consequence of the other (the rise of water in a pump as a case of the weight of the air).
+- `detail` (optional): a short phrase saying how the text joins them.
+- `basis`: `page` if the join is read on the cited page of either claim, `entry` if it is drawn from the published entry and claims (backfill, not yet seen on the page; the verification pass checks these and changes them to `page`).
+
+The join must be the text's, not ours. Two positions that a modern reader would connect, or that another text connects, are not a dependency unless this text makes the connection, in its argument or its explanation. Reasons of other kinds (experiment, authority, Scripture) stay in `reasons`; `rests_on` is only for the text's own doctrine leaning on its own doctrine. A claim with no dependency has no `rests_on` field. No claim rests on itself; two claims may rest on each other where the text argues both ways.
+
+Between snapshots nothing is stored: whether a position survived is read from the next snapshot's claims on the same question, which is why question ids are never renamed or reused.
+
+The entry block's `rests_on` (`{"date": ..., "by": ...}`) records that every claim in the file has been considered; without it, a file's lack of links means "not yet coded", not "none". The checker lists files without it, and will treat a missing block as an error once the backfill of the existing files is done.
 
 ## Rule R1 for choosing texts
 
@@ -128,6 +150,8 @@ R1 v3 (clauses 1-10) approved by Bruce on 2026-11-16, including Britain c. 1575 
 2026-11-21: Ferguson, not Nicholson, is the British text for the terraqueous globe. Clause 12 approved (R1 v5): a course must have been first printed by the snapshot's centre year, while later editions still count and may be the edition read. Nicholson drops out of 1775. Martin's Philosophical Grammar (London 1778) is the British text for fire, electricity, the magnet, the earth and meteors, with Rowning (1772) as the second British text for meteors on widening. Later the same day: Ferguson for electricity and the magnet (margin-headed passages in Lecture I), Martin second on widening; Martin for fire, the earth and meteors, each after a check of Ferguson's margin headings.
 
 2026-11-22: clause 13 (one text, one slot; R1 v6). The 1675 topic list: 25 topics from the four courses' own divisions, no merging. A test of method (`1675-plan.md`): light and colours written by Claude alone (arm A, done), water, the sea and springs by Claude with free OpenRouter models (arm B), each tab reporting its tool calls, the page images it viewed and what its quotation check found; Bruce records the usage bar before and after each.
+
+2026-11-25: claims format: the `rests_on` field and the entry block's `rests_on` marker, for the research question on interconnection (Bruce). Every new entry codes its dependencies; the existing fifteen files are backfilled from their entries, with `basis: entry`.
 
 ## Backfill status (1775)
 

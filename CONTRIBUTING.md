@@ -32,6 +32,10 @@ The builder shows an entry not yet listed in `site/pages.json` after the listed 
 
 The pull request description says what was read, which judgment calls a reviewer should look at, and anything the merge pass must do by hand.
 
+## Dependencies
+
+Every entry codes, for each claim, the positions of the same text that the text itself uses as grounds for it (`rests_on`, defined in `claims/README.md`), in this topic or any topic already written, and sets the entry block's `rests_on` marker. Where the supporting position belongs to a topic not yet written, give its question and answer code; the tab that writes that topic later replaces them with the claim id, in the earlier file as well as its own (the one exception to "writes only these files", and only for `rests_on`).
+
 ## The proposals file
 
 ```json

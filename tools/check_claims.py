@@ -23,6 +23,10 @@ LEVELS = {"certain", "probable", "possible", "doubtful", "asserted", "none"}
 READ_FROM = {"image", "ocr", "unknown"}
 PARTS = {"common", "dispute", "open", "why", "place"}
 ROLES = {None, "supplementary"}
+DEP_KINDS = {"premise", "same-agent", "instance"}
+DEP_BASIS = {"page", "entry"}
+# Set to True once the rests_on backfill of the existing files is finished (claims/README.md).
+REQUIRE_RESTS_ON = False
 
 def main(d, check_urls):
     errs = []
@@ -63,11 +67,23 @@ def main(d, check_urls):
     ts = {t["id"]: t for t in T}
     if len(ts) != len(T): E("text id repeated")
     urls = set()
+    files = {}
     for fn in sorted(os.listdir(cd)):
-        if not re.fullmatch(r"\d{4}-[a-z0-9-]+\.json", fn): continue
-        C = json.load(open(os.path.join(cd, fn)))
+        if re.fullmatch(r"\d{4}-[a-z0-9-]+\.json", fn):
+            files[fn] = json.load(open(os.path.join(cd, fn)))
+    # every claim by id, with its snapshot and the texts.json id of its text, for rests_on
+    allc = {}
+    for fn, C in files.items():
+        for c in C["claims"]:
+            tid = C["texts"].get(c.get("text"), {}).get("text")
+            allc[c.get("id")] = (C["entry"].get("snapshot"), tid)
+    uncoded = []
+    for fn, C in files.items():
         ent = C["entry"]
         if fn != ent["id"] + ".json": E(f"{fn}: entry id {ent['id']} does not match file name")
+        ro = ent.get("rests_on")
+        if ro is None: uncoded.append(fn)
+        elif not (isinstance(ro, dict) and ro.get("date") and ro.get("by")): E(f"{fn}: entry rests_on needs date and by")
         sig = C["texts"]
         for s, v in sig.items():
             if v["text"] not in ts: E(f"{fn}: siglum {s} -> unknown text {v['text']}")
@@ -104,11 +120,28 @@ def main(d, check_urls):
                 if not any(ci.get("read_from") == "image" for ci in c.get("cites", [])): E(f"{where}: quotation but no citation read from the image")
                 if qu.get("orig") is None and qu.get("lang") != "en" and not qu.get("note"): E(f"{where}: original missing without a note")
             if not c.get("statement"): E(f"{where}: no statement")
+            mine = allc.get(cid)
+            for k, dep in enumerate(c.get("rests_on", [])):
+                w = f"{where} rests_on[{k}]"
+                if dep.get("kind") not in DEP_KINDS: E(f"{w}: bad kind {dep.get('kind')}")
+                if dep.get("basis") not in DEP_BASIS: E(f"{w}: bad basis {dep.get('basis')}")
+                if "claim" in dep:
+                    if "question" in dep or "answer" in dep: E(f"{w}: give claim, or question and answer, not both")
+                    if dep["claim"] == cid: E(f"{w}: a claim cannot rest on itself")
+                    elif dep["claim"] not in allc: E(f"{w}: unknown claim {dep['claim']}")
+                    elif allc[dep["claim"]] != mine: E(f"{w}: {dep['claim']} is not by the same text in the same snapshot")
+                else:
+                    if dep.get("question") not in qs: E(f"{w}: unknown question {dep.get('question')}")
+                    elif dep.get("answer") not in qs[dep["question"]]: E(f"{w}: answer {dep.get('answer')} not among {dep['question']}'s answers")
             cover.setdefault((c["question"], c.get("part")), set()).add(c["text"])
         # every common-ground question must say something for every regional (non-supplementary) text
         for (q, part), have in cover.items():
             if part in ("common",) and not required <= have:
                 E(f"{fn}: common-ground question {q} lacks a claim (or not_found) for {sorted(required - have)}")
+    if uncoded:
+        msg = f"{len(uncoded)} claims files without the entry block's rests_on (dependencies not yet coded): " + ", ".join(uncoded)
+        if REQUIRE_RESTS_ON: E(msg)
+        else: print("NOTICE", msg)
     if check_urls:
         for u in sorted(urls):
             code = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-L", "-m", "40", u],
