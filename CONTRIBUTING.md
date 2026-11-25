@@ -62,11 +62,17 @@ About once a week, or after a batch of entries:
 1. Merge the entry pull requests into a branch `merge/<date>`, resolving any clash of new question ids or answer codes between them (two branches may propose the same question under different ids; keep one and recode the other entry's claims).
 2. `python3 -I tools/fold_proposals.py` folds the registry changes into `data/` and deletes the proposals files; it prints the parts to apply by hand.
 3. Apply those: `data/snapshots.json`, the topic's row and the status line in `entries/<snapshot>/home.html`, the entry's place and title in `site/pages.json`, new helpers into `tools/cites.py`, and the status lines in `claims/README.md` and `docs/charter.md`.
-4. Run the checker and the builder, open a pull request, and merge it. The site updates on its own.
+4. Run the checker and the builder and open a pull request. Bruce merges it; the site updates on its own.
 
 ## The verification pass
 
 Done by a different session from the one that wrote the entry. It checks every quotation and a stated sample of other claims against the page images, corrects the claims file and the entry, and fills the claims file's `verification` block (status, by, date) by its own pull request.
+
+## Who merges
+
+`main` accepts changes only through pull requests, and only Bruce merges them. Sessions open pull requests; they never merge one, their own or anyone else's, and never add or remove labels.
+
+A pull request that changes the research plan fails the **plan-files** check until Bruce reviews it and adds the label `approved-plan-change`. The plan is the charter's scope and method, the rules and format in `claims/README.md` (questions, claims, dependencies, rule R1, decisions), the existing questions and answer codes in `data/questions.json`, the grid, regions and chosen texts in `data/snapshots.json`, this file, the checker, the fold script and everything under `.github/`. The full list is in `.github/scripts/plan_files.py`. An entry, verification or merge pull request should not touch any of it; if one needs to, it says so in its description and leaves the decision to Bruce.
 
 ## Rules that hold everywhere
 

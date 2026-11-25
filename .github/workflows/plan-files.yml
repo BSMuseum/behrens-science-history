@@ -1,0 +1,30 @@
+name: plan-files
+# Fails when a pull request changes the research plan (see .github/scripts/plan_files.py)
+# unless Bruce has added the label "approved-plan-change". Runs the script from main,
+# never from the pull request, so a pull request cannot change the check that judges it.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+permissions:
+  contents: read
+jobs:
+  plan-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Fetch the pull request's commits (data only; nothing from them is run)
+        run: git fetch --no-tags origin "+refs/pull/${{ github.event.pull_request.number }}/head:refs/pr/head"
+      - name: Compare
+        env:
+          APPROVED: ${{ contains(github.event.pull_request.labels.*.name, 'approved-plan-change') }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if python3 -I .github/scripts/plan_files.py "$BASE" "$HEAD"; then exit 0; fi
+          if [ "$APPROVED" = "true" ]; then echo "Approved by the label approved-plan-change."; exit 0; fi
+          echo "::error::This pull request changes the research plan. Bruce must review it and add the label approved-plan-change."
+          exit 1
