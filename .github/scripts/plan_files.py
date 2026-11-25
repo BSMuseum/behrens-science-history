@@ -86,4 +86,8 @@ def main(base, head):
     return 0
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1], sys.argv[2]))
+    try:
+        sys.exit(main(sys.argv[1], sys.argv[2]))
+    except Exception as e:  # a broken check must not look like a plan change (exit 1)
+        print(f"plan_files.py could not run: {e!r}")
+        sys.exit(2)
