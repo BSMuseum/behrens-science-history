@@ -1,0 +1,17 @@
+name: checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check claims files against the registries
+        run: python3 -I tools/check_claims.py
+      - name: Build the site
+        run: python3 -I tools/build_site.py

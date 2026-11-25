@@ -1,0 +1,18 @@
+name: citation links
+# Checks every scan URL cited in the claims files. Slow (several minutes) and some
+# viewers (MDZ) time out from automated environments, so it runs weekly or by hand,
+# not on every pull request.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -I tools/check_claims.py --urls
