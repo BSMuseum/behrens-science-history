@@ -4,6 +4,8 @@ Usage: python3 -I tools/check_claims.py [<dir>] [--urls]
 <dir> is the repository root (default: the parent of tools/), with the registries
 (questions.json, texts.json) in data/ and the <snapshot>-<topic>.json files in claims/.
 A flat folder holding all of them together also works, as in the old project layout.
+Proposals in proposals/*.json (new questions, answers and texts from entry branches,
+see CONTRIBUTING.md) are added to the registries for the check.
 Exit status 1 if any error is found.
 
 A siglum whose entry in a claims file's "texts" has "role": "supplementary" (a text read
@@ -29,6 +31,26 @@ def main(d, check_urls):
     cd = os.path.join(d, "claims") if os.path.isdir(os.path.join(d, "claims")) else d
     Q = json.load(open(os.path.join(dd, "questions.json")))["questions"]
     T = json.load(open(os.path.join(dd, "texts.json")))["texts"]
+    # Proposals from entry branches not yet folded into the registries (CONTRIBUTING.md)
+    pd = os.path.join(d, "proposals")
+    if os.path.isdir(pd):
+        known_q = {q["id"]: q for q in Q}
+        known_t = {t["id"] for t in T}
+        for fn in sorted(f for f in os.listdir(pd) if f.endswith(".json")):
+            P = json.load(open(os.path.join(pd, fn)))
+            for q in P.get("questions", []):
+                if q["id"] in known_q: E(f"proposals/{fn}: new question {q['id']} already exists")
+                else: known_q[q["id"]] = q; Q.append(q)
+            for qid, ans in P.get("answers", {}).items():
+                if qid not in known_q: E(f"proposals/{fn}: answers for unknown question {qid}"); continue
+                have = {a["code"] for a in known_q[qid].get("answers", [])}
+                for a in ans:
+                    if a["code"] in have: E(f"proposals/{fn}: answer {qid}/{a['code']} already exists")
+                known_q[qid] = dict(known_q[qid], answers=known_q[qid].get("answers", []) + ans)
+            Q = list(known_q.values())
+            for t in P.get("texts", []):
+                if t["id"] in known_t: E(f"proposals/{fn}: new text {t['id']} already exists")
+                else: known_t.add(t["id"]); T.append(t)
     qs = {}
     for q in Q:
         if q["id"] in qs: E(f"question id repeated: {q['id']}")

@@ -12,6 +12,7 @@ Usage: python3 -I tools/build_site.py [<out>]
 
 site/pages.json lists, per snapshot, the page title, the order of the entries and each entry's
 browser-tab title. An entry fragment is an <article class="view" id="v-<topic>"> block.
+A fragment not yet listed in pages.json is built after the listed ones, titled from its <h1>.
 """
 import json, os, re, shutil, sys
 
@@ -52,7 +53,15 @@ def build(out):
                 problems.append(f"site/pages.json: no title for {snap} {t}")
         on_disk = {f[:-5] for f in os.listdir(os.path.join(ROOT, "entries", snap)) if f.endswith(".html")} - {"home"}
         for t in sorted(on_disk - set(P["order"])):
-            problems.append(f"entries/{snap}/{t}.html is not listed in site/pages.json")
+            # a new entry from an entry branch: shown after the listed ones until the merge
+            # tab adds it to site/pages.json and to the home view
+            frag = read("entries", snap, f"{t}.html")
+            if not frag.startswith(f'<article class="view" id="v-{t}">'):
+                problems.append(f"entries/{snap}/{t}.html does not open with its article tag")
+            h1 = re.search(r"<h1>(.*?)</h1>", frag, re.S)
+            P["titles"][t] = (re.sub(r"<[^>]+>", "", h1.group(1)).strip() if h1 else t) + f" c. {snap}"
+            parts.append(frag)
+            print(f"note: entries/{snap}/{t}.html is not in site/pages.json; built with the tab title '{P['titles'][t]}'")
         views = {"home": "v-home", **{t: f"v-{t}" for t in P["titles"]}}
         titles = {"home": P["page_title"], **P["titles"]}
         script = router.replace("__VIEWS__", js_obj(views)).replace("__TITLES__", js_obj(titles))
