@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, on the nature of light, its speed, and colours. read_from records what was read: 'image' where the page image was read, 'ocr' where only the machine-read text was used. Every quotation is from an image and was checked against it a second time before publication (see claude/tests/1675-light-claude.md). Not covered: Rohault on reflection, refraction and glasses (I.27 arts. XXXI-LII, pp. 305-321) beyond the machine-read text; Goudin on light and colour as sensible qualities (physics part 4, and t. 2); Le Grand's article on the sun and flame (V a. 13) and on vision; Sperling's chapter on qualities (II.3).",
   "built_with": "Claude only (arm A of the Claude-vs-OpenRouter test, 2026-11-22)",
   "quote_check": {
@@ -124,7 +128,15 @@
     "orig": "la tendance qu'a cette matiere à s'éloigner en ligne droite du centre du corps lumineux",
     "from_image": true,
     "tr": "the tendency that this matter has to go away in a straight line from the centre of the luminous body"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-009",
+     "kind": "instance",
+     "detail": "the straight line is part of the definition of secondary light",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-002",
@@ -177,6 +189,14 @@
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n341/mode/1up",
      "read_from": "image",
      "section": "V a. 14"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-014",
+     "kind": "instance",
+     "detail": "the straight lines are part of the definition of light",
+     "basis": "entry"
     }
    ]
   },
@@ -282,7 +302,15 @@
     "orig": "Ainsi, la lumiere primitive consistera dans un certain mouvement des parties du corps lumineux, qui les rend capables de pousser à la ronde la matiere subtile qui remplit les pores des corps transparent ; & l'inclination à se mouvoir, ou la tendance qu'a cette matiere à s'éloigner en ligne droite du centre du corps lumineux, constituëra l'essence de la lumiere seconde, ou dérivée.",
     "from_image": true,
     "tr": "Thus primitive light will consist in a certain motion of the parts of the luminous body, which makes them able to push on every side the subtle matter that fills the pores of transparent bodies; and the inclination to move, or the tendency that this matter has to go away in a straight line from the centre of the luminous body, will constitute the essence of secondary, or derived, light."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-019",
+     "kind": "premise",
+     "detail": "light a motion of the little balls of the second element (p. 322)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-010",
@@ -446,7 +474,15 @@
     "orig": "Nec refert quod Sol calefaciat; ad id enim sufficit illum esse præditum qualitate quadam sublimiori, in qua eminenter contineatur calor, nempe luce.",
     "from_image": true,
     "tr": "Nor does it matter that the sun heats; for that it suffices that it be endowed with a certain higher quality in which heat is eminently contained, namely light."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-036",
+     "kind": "premise",
+     "detail": "the incorruptible heavens cannot have heat, so the sun heats by light",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-014",
@@ -491,7 +527,15 @@
     "orig": "Dico, Lucem nihil aliud esse, quam motum quendam, vel actionem, qua corpora luminosa, materiam subtilem quaquaversum, secundum lineas rectas, à se propellunt.",
     "from_image": true,
     "tr": "I say that light is nothing other than a certain motion, or action, by which luminous bodies push subtle matter away from themselves in every direction along straight lines."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-020",
+     "kind": "premise",
+     "detail": "the first element in the sun presses the globules of the second",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-015",
@@ -515,6 +559,21 @@
      "page": "283",
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-008",
+     "kind": "premise",
+     "detail": "many things give light without heat",
+     "basis": "entry"
+    },
+    {
+     "question": "penetration",
+     "answer": "never",
+     "kind": "premise",
+     "detail": "light as fire would put two bodies in one place",
+     "basis": "entry"
     }
    ]
   },
@@ -665,7 +724,22 @@
     "orig": "il suit delà necessairement que le corps lumineux, pour éloigné qu'il soit, doit transmettre son action & se faire sentir en un instant ; à cause que cette matiere qu'il pousse est continuëment étenduë ; & que semblable en cela à un baston qui seroit fort long, le corps lumineux ne sçauroit pousser la plus proche, que celle qui est la plus éloignée ne se trouve en mesme-temps disposée à se mouvoir, & à avancer.",
     "from_image": true,
     "tr": "it follows necessarily that the luminous body, however far off it is, must transmit its action and make itself felt in an instant, because the matter it pushes is continuously extended; and that, like a very long stick in this, the luminous body cannot push the nearest part without the farthest being at the same time disposed to move and to advance."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-009",
+     "kind": "premise",
+     "detail": "secondary light is a tendency, not an actual motion",
+     "basis": "entry"
+    },
+    {
+     "question": "void",
+     "answer": "none",
+     "kind": "premise",
+     "detail": "the matter pushed is continuously extended, like a very long stick",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-021",
@@ -792,7 +866,15 @@
     "orig": "Ita ut minimo temporis momento, Lux ad quamcunque distantiam diffundatur.",
     "from_image": true,
     "tr": "So that light is spread to any distance in the least moment of time."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-014",
+     "kind": "premise",
+     "detail": "light is a sudden action or pressure, not the duration of a motion",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-025",
@@ -833,6 +915,14 @@
      "read_from": "ocr",
      "section": "art. LXV"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-009",
+     "kind": "premise",
+     "detail": "since light is a motion of the balls of the second element, colours are its modifications",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -871,7 +961,15 @@
     "orig": "Lucem colorem non esse, monstrat Sensus, dictitat Ratio.",
     "from_image": true,
     "tr": "That light is not colour, sense shows and reason declares."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-011",
+     "kind": "premise",
+     "detail": "light is the quality that makes a body luminous; colour makes it coloured",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-027",
@@ -948,7 +1046,15 @@
     "orig": "Mais je n'estime pas qu'il y ait aucun fondement en cette division, puis qu'il n'y a ny plus ny moins de realité aux unes qu'aux autres ; Car si le sentiment de couleur qu'on experimente en regardant une tapisserie est réel, celuy que l'on a en regardant au trauers d'un prisme ne l'est pas moins ; le prisme n'est pas moins réel que la tapisserie ; Et enfin, c'est la mesme lumiere qui intervient, pour nous faire sentir les couleurs du prisme, que pour nous faire sentir les autres.",
     "from_image": true,
     "tr": "But I do not think there is any foundation for this division, since there is neither more nor less reality in the one than in the others. For if the sensation of colour one has in looking at a tapestry is real, the one had in looking through a prism is no less so; the prism is no less real than the tapestry; and finally, it is the same light that comes in to make us sense the colours of the prism as to make us sense the others."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-025",
+     "kind": "premise",
+     "detail": "the same light makes the colours of the prism and of the tapestry",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-030",
@@ -1010,7 +1116,15 @@
     "from_image": true,
     "tr": "In the stars light seems to be present in place of colour, either their own or reflected; so this diversity of colour is nothing but a different modification of light",
     "note": "'Vnde' and the spacing of the colon as printed."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-036",
+     "kind": "premise",
+     "detail": "the incorruptible, perfectly transparent heavens can have no true colour",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-032",
@@ -1316,6 +1430,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=121",
      "read_from": "ocr"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-013",
+     "kind": "premise",
+     "detail": "light the property most akin to the heavenly bodies",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1394,7 +1516,15 @@
     "from_image": true,
     "tr": "That blue colour is therefore not inherent in them, but caused by the excessive depth of the transparent, in which light, above all the sun's, which never sets in the heavens, is absorbed and degenerates into a colour of this kind",
     "note": "The scan's 'Cæruleus' has a damaged initial; the 'C' is not legible."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-031",
+     "kind": "instance",
+     "detail": "the blue of the sky is light modified in the deep transparent, not a colour of the heavens",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-light-046",
@@ -1412,6 +1542,14 @@
      "page": "512",
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n572/mode/1up",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-028",
+     "kind": "instance",
+     "detail": "blue, nearest black, belongs to what sends back few rays",
+     "basis": "entry"
     }
    ]
   },
@@ -1432,6 +1570,21 @@
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n342/mode/1up",
      "read_from": "image"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-008",
+     "kind": "premise",
+     "detail": "many things shine without heat",
+     "basis": "entry"
+    },
+    {
+     "question": "penetration",
+     "answer": "never",
+     "kind": "premise",
+     "detail": "light as fire would put two bodies in one place",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1450,6 +1603,20 @@
      "page": "96",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=116",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-light-036",
+     "kind": "premise",
+     "detail": "the heavens lack heat, an elementary quality",
+     "basis": "entry"
+    },
+    {
+     "claim": "1675-light-013",
+     "kind": "premise",
+     "detail": "the sun heats by light, a higher quality containing heat eminently",
+     "basis": "entry"
     }
    ]
   }
