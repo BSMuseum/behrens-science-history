@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: winds and sound; most of Erxleben's section and Nollet's two lessons on air; Ferguson's air-pump experiments beyond those cited (pp. 179-200 read in the machine-read text, pp. 197 and 199 from the images); Hales, Boyle and Cavendish themselves. The terms table is not encoded. read_from is 'image' for the Ferguson citations marked so and 'ocr' where only the machine-read text was used; for the other texts, 'image' only where the entry quotes the page, otherwise 'unknown'. The site links Nollet's 'N 182–183' to leaf 208, which is p. 183 (charter); the claims follow the site. The common-ground item 'bodies contain air' cites only Biwald, Erxleben and Ferguson in the entry; Nollet and the Britannica are encoded from the dispute paragraphs. Biwald's two answers on the air from bodies (natural air drawn out unchanged; the products of burning not air) are two claims.",
   "revised": {
    "date": "2026-11-21",
@@ -551,7 +555,15 @@
      "entry": "Pneumatics"
     }
    ],
-   "note": "Chemistry: the Britannica's own. Pneumatics: Ferguson's wording, reprinted (F 195-196). Restated 2026-11-21: the earlier statement added that the Pneumatics says air cannot be fixed, a misreading (see 1775-air-033)."
+   "note": "Chemistry: the Britannica's own. Pneumatics: Ferguson's wording, reprinted (F 195-196). Restated 2026-11-21: the earlier statement added that the Pneumatics says air cannot be fixed, a misreading (see 1775-air-033).",
+   "rests_on": [
+    {
+     "claim": "1775-air-047",
+     "kind": "premise",
+     "detail": "air is one of the four principles of which bodies are made",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-air-025",
@@ -1251,7 +1263,15 @@
     "lang": "en",
     "orig": "The air is that thin transparent fluid body in which we live and breathe.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-gravity-067",
+     "kind": "premise",
+     "detail": "being a body, air must have weight",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-air-050",

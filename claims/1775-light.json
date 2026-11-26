@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text, on the nature of light; colours touched on. Not covered: vision, instruments, the chapters on colours beyond the prism, Biwald's replies to objections and his account of emission, refraction and reflection. read_from is 'image' for the Ferguson citations marked so and 'ocr' where only the machine-read text was used; for the other texts, 'image' only where the entry quotes the page, otherwise 'unknown'. The references to the Britannica's entry 'Light' and to Biwald's conspectus carry no page. Ferguson's lecture on optics is headed 'LECT. VIII.' on p. 201 (image); where his Lecture VII begins was not checked.",
   "revised": {
    "date": "2026-11-21",
@@ -478,7 +482,27 @@
     "from_image": true,
     "tr": "a substantial effluvium of luminous bodies",
     "note": "Latin original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-light-001",
+     "kind": "premise",
+     "detail": "light keeps to straight lines, which no motion in a fluid does",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-light-006",
+     "kind": "premise",
+     "detail": "light comes at the same speed from the sun and the stars",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-light-010",
+     "kind": "premise",
+     "detail": "light is made of unlike kinds of rays",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-light-019",
@@ -695,6 +719,14 @@
      "read_from": "unknown",
      "vol": "5"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-light-030",
+     "kind": "premise",
+     "detail": "emission would have to empty the heavens",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -813,7 +845,15 @@
     "orig": "quod si ergo observationes nos doceant, lumen propagari linea ad sensum recta, motus vero omnes, in fluidis excitatos, ad latera diffluere, uti patet in circulis, quae in superficie aquae oriuntur, & per angustam quamlibet aperturam propagantur, item in sono per rimas quaslibet, aut foramella subeunte, dicendum erit, lumen in pressu medii cuiusvis reponi non posse, nullam adeo esse eam, quam Eulerus adstruit, naturae analogiam.",
     "from_image": true,
     "tr": "If then observations teach us that light is propagated in a line that is straight to the senses, while all motions excited in fluids flow off to the sides, as is plain in the circles that arise on the surface of water and spread through any narrow opening, and likewise in sound entering through any chinks or little holes, it will have to be said that light cannot be placed in the pressure of any medium, and that the analogy of nature which Euler builds upon is therefore no analogy at all."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-light-001",
+     "kind": "premise",
+     "detail": "light goes in a line straight to the senses",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-light-028",
@@ -930,6 +970,14 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n270/mode/1up",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-light-021",
+     "kind": "premise",
+     "detail": "the aether of light is spread everywhere, the heavens included",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -958,6 +1006,14 @@
      "page": "220",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=230",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-light-006",
+     "kind": "premise",
+     "detail": "light arrives at the same speed from the sun and the stars",
+     "basis": "entry"
     }
    ]
   },

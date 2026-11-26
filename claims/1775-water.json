@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, with the Britannica as a supplementary text. Not covered: efflux, waves, ice and vapour; springs and the sea belong to the terraqueous globe. Not yet read: Biwald pp. 31-48 and his specific gravities; Erxleben §§158-219 apart from the capillary tubes; Nollet's hydrostatic lessons proper, most of his capillary appendix, and Lesson XII on vapour and ice; Ferguson's Lecture V beyond pp. 101-102, 111 and the table of specific gravities (p. 159), and his hydraulic machines; the Britannica's Hydrostatics beyond its opening. Ferguson was searched in the machine-read text of the whole book for elements, ice and freezing, the qualities and purity of water, its turning into earth, and the internal motion of fluids; none is treated. Siglum B covers both Biwald volumes: citations to Physica generalis carry work 'biwald-generalis-1769' and link bsb10130800; the rest are Physica particularis (bsb10130796). read_from is 'image' for every Ferguson citation; for the others, 'image' only where the entry quotes the page, otherwise 'unknown'. Short quotations whose originals the entry does not reproduce carry orig null with a note. The site's link for Nollet t. 2 pp. 411-412 opened p. 410 (leaf 455); the claims cite leaf 456, read from the page image, and the site link was corrected in version 1794882361-1000.",
   "revised": {
    "date": "2026-11-20",
@@ -562,7 +566,15 @@
     "orig": "À parler exactement, l’état naturel de l’eau, celui qu’elle auroit, si rien ne se mêloit à sa matière propre, seroit d’être un corps solide, comme l’ont fort bien remarqué MM. Mariotte, de Mairan, & Boerhaave. Oui, l’eau, comme la graisse, la cire, & toutes les autres matières que nous ne voyons couler, que quand on les chauffe à un certain degré, seroit continuellement glace, si la matière du feu qui la pénètre pour l’ordinaire en suffisante quantité dans les climats tempérés, n’entretenoit la mobilité respective de ses parties, pour la rendre fluide",
     "from_image": true,
     "tr": "Speaking exactly, the natural state of water, the one it would have if nothing were mixed with its own matter, would be to be a solid body, as Messrs Mariotte, de Mairan and Boerhaave have very well remarked. Yes, water, like fat, wax, and all the other matters that we see flow only when they are heated to a certain degree, would be ice continually, if the matter of fire, which commonly penetrates it in sufficient quantity in temperate climates, did not keep up the mobility of its parts relative to one another, to make it fluid."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-water-022",
+     "kind": "premise",
+     "detail": "water would be ice if the matter of fire did not keep its parts mobile",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-019",
@@ -647,7 +659,16 @@
     "orig": "Cl. vero Musschenbroek […] existimat fluiditatem aquae haud soli ignis actioni tribuendam esse […] Quod si ad principia in generali Physica […] stabilita animum advertamus, facile intelligimus, praeter actionem ignis alia insuper requiri, ut fluida esse aqua possit.",
     "from_image": true,
     "tr": "But the celebrated Musschenbroek judges that the fluidity of water is not to be attributed to the action of fire alone. […] If we turn our minds to the principles established in the general physics, we readily understand that besides the action of fire something more is required for water to be able to be fluid."
-   }
+   },
+   "rests_on": [
+    {
+     "question": "fluidity",
+     "answer": "shape-and-forces",
+     "kind": "premise",
+     "detail": "by the principles of the general physics something besides fire makes water fluid",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-021",
@@ -674,6 +695,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_04/page/n10/mode/1up",
      "read_from": "image",
      "vol": "4"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-fire-018",
+     "kind": "premise",
+     "detail": "the matter of fire penetrating water keeps its parts mobile",
+     "basis": "entry"
     }
    ]
   },
@@ -714,7 +743,16 @@
     "orig": "Fluiditas in tertio praecipue fluidorum genere inde enascitur, quod constent particulis ad figuram sphaericam proxime accedentibus, sive eiusmodi, quarum puncta ita in superficies sphaericas concentricas disponuntur, ut in aequalibus a centro distantiis aequaliter, numeroque pari distributa sint.",
     "from_image": true,
     "tr": "Fluidity, chiefly in the third kind of fluids, arises from their consisting of particles that come close to a spherical figure, or of such particles as have their points so arranged on concentric spherical surfaces that they are distributed equally and in equal number at equal distances from the centre."
-   }
+   },
+   "rests_on": [
+    {
+     "question": "matter-principles",
+     "answer": "points-with-forces",
+     "kind": "premise",
+     "detail": "particles whose points lie on concentric spheres, attractions and repulsions balanced",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-024",
@@ -746,7 +784,21 @@
     "from_image": true,
     "tr": "not so much in the nature of the parts themselves as in the manner of their composition",
     "note": "German original not reproduced in the entry"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-fire-006",
+     "kind": "premise",
+     "detail": "heat expands a body until its particles no longer hang together",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-body-051",
+     "kind": "premise",
+     "detail": "the particles hold together by a force of their own, which heat overcomes",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-025",
@@ -1149,7 +1201,15 @@
     "orig": "the attraction of a ring of particles of the glass all around in the tube, immediately above those to which the water at any instant rises",
     "from_image": true
    },
-   "note": "Ferguson's wording, reprinted (F 6), where the 1776 edition reads 'all round' for 'all around'"
+   "note": "Ferguson's wording, reprinted (F 6), where the 1776 edition reads 'all round' for 'all around'",
+   "rests_on": [
+    {
+     "claim": "1775-body-052",
+     "kind": "instance",
+     "detail": "capillary rise the first instance of the attraction of cohesion (Mechanics)",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-040",
@@ -1175,7 +1235,15 @@
     "orig": "De tout ceci il résulte que ces phénomènes, ou ne sont point encore bien expliqués, ou que les explications qu’on donne, tiennent à des hypothèses qui ne sont pas généralement reçues. Peut-être cela vient-il de ce qu’on s’est obstiné à ne leur donner qu’une seule & unique cause […] La pression inégale de quelque fluide est probablement le point fondamental de l’explication; mais l’adhérence ou la viscosité naturelle des liqueurs, la grandeur & la figure de leurs parties, & peut-être un certain mouvement qui leur est propre, &c. sont autant de moyens que la nature peut employer pour ces sortes d’effets",
     "from_image": true,
     "tr": "From all this it follows that these phenomena either are not yet well explained, or that the explanations given depend on hypotheses that are not generally received. Perhaps this comes from people having insisted on giving them one sole and single cause. […] The unequal pressure of some fluid is probably the fundamental point of the explanation; but the adherence or natural viscosity of liquids, the size and shape of their parts, and perhaps a certain motion proper to them, &c., are so many means that nature may employ for effects of this kind."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-water-042",
+     "kind": "premise",
+     "detail": "attraction with no proof but the fact would be an occult quality",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-041",
@@ -1196,6 +1264,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_02/page/n478/mode/1up",
      "read_from": "image",
      "vol": "2"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-water-042",
+     "kind": "premise",
+     "detail": "a mechanical cause, the pressure of a fluid, is sought in place of attraction",
+     "basis": "entry"
     }
    ]
   },
@@ -1251,6 +1327,14 @@
      "read_from": "unknown",
      "vol": "2"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-water-042",
+     "kind": "premise",
+     "detail": "attraction awaits its mechanical cause",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1288,6 +1372,14 @@
      "page": "145",
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n171/mode/1up",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-water-035",
+     "kind": "premise",
+     "detail": "capillary rise is a powerful proof of the attractive force of matter",
+     "basis": "entry"
     }
    ]
   },
@@ -2014,7 +2106,15 @@
     "orig": "since they are so easily moved among one another",
     "from_image": true
    },
-   "note": "Ferguson's wording, reprinted (F 101), where the 1776 edition reads 'seeming' for 'since'"
+   "note": "Ferguson's wording, reprinted (F 101), where the 1776 edition reads 'seeming' for 'since'",
+   "rests_on": [
+    {
+     "claim": "1775-water-031",
+     "kind": "premise",
+     "detail": "the particles are hard, since no fluid but air or steam can be compressed",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-068",
@@ -2054,6 +2154,14 @@
      "page": "123",
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n149/mode/1up",
      "read_from": "unknown"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-water-024",
+     "kind": "instance",
+     "detail": "heat and cold move the particles apart or together",
+     "basis": "entry"
     }
    ]
   },
@@ -2202,7 +2310,15 @@
     "lang": "en",
     "orig": "the attraction of a ring of particles of the glass all round in the tube, immediately above those to which the water at any instant rises",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-body-079",
+     "kind": "instance",
+     "detail": "the first instance of the attraction of cohesion",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-077",
@@ -2295,7 +2411,15 @@
     "lang": "en",
     "orig": "round and smooth, seeming they are so easily moved among one another",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-water-078",
+     "kind": "premise",
+     "detail": "hard, since no fluid but air or steam can be compressed",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-water-080",

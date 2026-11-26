@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, on the nature of fire and heat. Not covered: cold and ice, flame, thermometers and the measurement of heat; Biwald's replies to objections; the rest of Nollet's two lessons on fire; Boerhaave's treatise. The terms table is not encoded. read_from is 'image' only where the entry quotes the page; other citations are 'unknown'. The entry was written before the conventions review and has not been checked against it. The Britannica's Chemistry is cited by page; the scan leaf is given for pp. 66-67 only (from the charter); p. 68 and the entries Fire and Heat have none. The common-ground item 'The nature of fire is not settled' rests on Nollet alone in the entry; it is encoded under the local question fire-nature-known, with Erxleben's open question coded 'no' and Biwald's conclusion coded 'yes', from the entry's own summary that he teaches it as demonstrated. British text from 2026-11-21: Martin's Grammar, 'Of Heat, Cold, &c.' (pp. 114-116) with pp. 35, 111, 113 and the note on p. 197, all read from the page images except p. 36 and p. 57 (OCR); the OCR of the whole 1778 book was searched for phlogiston, pabulum, calx, weight, inflammable and food of fire. The passage already stands in the 1762 printing (OCR). The Britannica is supplementary; its claims are unchanged.",
   "revised": {
    "date": "2026-11-21",
@@ -418,6 +422,14 @@
      "read_from": "unknown",
      "vol": "4"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-light-023",
+     "kind": "same-agent",
+     "detail": "the same matter burns and gives light",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -486,7 +498,22 @@
     "orig": "Ignis itaque in sua origine consideratus consistit in vehementissima quadam fermentatione partium internarum, qua maiores moleculae attenuantur, atque ad areas repulsivas delatae a massa totali eiiciuntur. Calor vero est moderatior partium intestinarum motus, quo minor effluviorum copia ex corporibus expellitur.",
     "from_image": true,
     "tr": "Fire, then, considered in its origin, consists in a most vehement fermentation of the internal parts, by which the larger molecules are made finer and, carried into the ranges of repulsion, are thrown out from the whole mass. Heat is a more moderate motion of the internal parts, by which a smaller quantity of effluvia is driven out of bodies."
-   }
+   },
+   "rests_on": [
+    {
+     "question": "matter-principles",
+     "answer": "points-with-forces",
+     "kind": "premise",
+     "detail": "the finer molecules are carried into the ranges of repulsion",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-fire-009",
+     "kind": "premise",
+     "detail": "every burning body throws off its own parts as smoke and flame",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-021",
@@ -550,7 +577,15 @@
     "orig": "Calor vero est moderatior partium intestinarum motus, quo minor effluviorum copia ex corporibus expellitur.",
     "from_image": true,
     "tr": "Heat is a more moderate motion of the internal parts, by which a smaller quantity of effluvia is driven out of bodies."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-fire-020",
+     "kind": "same-agent",
+     "detail": "heat the milder degree of the same internal motion",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-023",
@@ -749,6 +784,14 @@
      "read_from": "unknown",
      "entry": "Chemistry"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-fire-019",
+     "kind": "premise",
+     "detail": "phlogiston is the matter of fire fixed in a body",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -816,7 +859,16 @@
     "orig": "Quaeres, cur motus in corpore accenso excitatus, haud extinguatur, quamdiu corpus alterum ad similem motum concipiendum idoneum praesto est; cum tamen constet, motus omnes alios languescere, cum massa maiori communicantur. Respondeo, causam esse, quod motus hi intestini, internis corporum viribus peragantur, ad quod aliud haud requiritur, quam, ut internarum virium aequilibrium turbetur",
     "from_image": true,
     "tr": "You will ask why the motion excited in a kindled body is not extinguished so long as another body fit to take up a like motion is at hand, when it is agreed that all other motions grow faint as they are communicated to a greater mass. I answer that the cause is that these internal motions are carried on by the internal forces of bodies, for which nothing more is required than that the equilibrium of the internal forces be disturbed."
-   }
+   },
+   "rests_on": [
+    {
+     "question": "matter-principles",
+     "answer": "points-with-forces",
+     "kind": "premise",
+     "detail": "the internal motions are carried on by the internal forces of bodies",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-034",
@@ -867,6 +919,15 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=150",
      "read_from": "unknown"
     }
+   ],
+   "rests_on": [
+    {
+     "question": "matter-principles",
+     "answer": "points-with-forces",
+     "kind": "premise",
+     "detail": "forces depending on distance between particles leave no need for a matter of fire",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -893,7 +954,15 @@
     "lang": "en",
     "orig": "when united to a body, it communicates to it neither heat nor light",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-fire-019",
+     "kind": "premise",
+     "detail": "fixed fire is the free fire of the sun united to a body",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-037",
@@ -1107,7 +1176,15 @@
     "lang": "en",
     "orig": "air itself might become solid, if it could be entirely deprived of the fire it contains",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-fire-019",
+     "kind": "instance",
+     "detail": "fire, the one body fluid of itself, makes other bodies fluid",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-044",
@@ -1298,7 +1375,21 @@
     "lang": "en",
     "orig": "a fluid Body, or Substance, as Water, Fire, &c.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-fire-052",
+     "kind": "premise",
+     "detail": "the particles of fire are those of light",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-fire-057",
+     "kind": "instance",
+     "detail": "fire one of the fluids made of small, round, smooth, like particles",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-051",
@@ -1430,7 +1521,15 @@
     "orig": "That Heat is Fire, and that the Particles of Fire are in a constant and violent Agitation and State of Motion among themselves",
     "from_image": true
    },
-   "note": "Bears on the meteors entry (vapour-rise) too."
+   "note": "Bears on the meteors entry (vapour-rise) too.",
+   "rests_on": [
+    {
+     "claim": "1775-fire-050",
+     "kind": "premise",
+     "detail": "heat is fire, its particles in violent agitation",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-fire-055",

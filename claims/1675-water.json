@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "built_with": "Arm B of the 1675 test: page transcriptions and translations by particle-ai/particle-1:free; claim drafts by nvidia/nemotron-3-ultra-550b-a55b:free and baidu/ernie-5.5-flash-preview:free; disagreements resolved and claims written by Claude (report claude/tests/1675-water-openrouter.md).",
   "quote_check": {
    "date": "2026-11-22",
@@ -173,7 +177,15 @@
     "orig": "c'est la Mer qui fournit d'eau à toutes les fontaines",
     "from_image": true,
     "tr": "it is the sea that supplies water to all the springs"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-064",
+     "kind": "premise",
+     "detail": "the rivers run into the sea without swelling it",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-002",
@@ -221,7 +233,15 @@
     "orig": "Mare autem origo, caput, & hospitium fluminum, rivorum, ac fontium est.",
     "from_image": true,
     "tr": "But the sea is the origin, head and lodging of rivers, streams and springs."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-066",
+     "kind": "premise",
+     "detail": "all rivers enter the sea, and the sea does not overflow",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-003",
@@ -312,7 +332,15 @@
     "from_image": true,
     "tr": "It must therefore be held that the water, in the hollows and caverns into which it has been driven by its weight and fluidity, is resolved into vapours by the force of subterranean heat, and rises through the passages it finds everywhere.",
     "note": "The sentence runs over the page: p. 341 ends at vi, with caloris as catchword."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-065",
+     "kind": "premise",
+     "detail": "the rivers run into the sea without swelling it",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-005",
@@ -822,7 +850,15 @@
     "orig": "Humiditas aquæ itidem Absoluta est, adeò ut aqua primum & frigiditatis & humiditatis subiectum sit.",
     "from_image": true,
     "tr": "The moisture of water is likewise absolute, so that water is the first subject both of coldness and of moisture."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-017",
+     "kind": "premise",
+     "detail": "as an element water is the coldest and moistest",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-024",
@@ -875,6 +911,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10131889?page=177",
      "read_from": "ocr",
      "section": "III.3 art. X"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-water-019",
+     "kind": "premise",
+     "detail": "pliant parts glide over the tongue without shaking it",
+     "basis": "entry"
     }
    ]
   },
@@ -939,6 +983,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=612",
      "read_from": "ocr"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-water-023",
+     "kind": "premise",
+     "detail": "liquidity follows moisture, of which water is the first subject",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -966,7 +1018,15 @@
     "orig": "il est certain qu'elle doit estre liquide",
     "from_image": true,
     "tr": "it is certain that it must be liquid"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-019",
+     "kind": "premise",
+     "detail": "a heap of little cords, moved by the second element, must be liquid",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-030",
@@ -992,7 +1052,15 @@
     "orig": "Adeo ut mirum non sit, si aquam liquidam efficiat, cum singulas ejus particulas seorsim moveat, atque unam in alteram inflectat.",
     "from_image": true,
     "tr": "So that it is no wonder if it makes water liquid, since it moves each of its particles separately and bends one into another."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-020",
+     "kind": "premise",
+     "detail": "smooth, slippery particles that the subtle matter parts and moves",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-031",
@@ -1045,7 +1113,21 @@
     "orig": "toute la matiere qui se meut autour de la terre, la doit plus presser à l'endroit qui correspond sous la Lune",
     "from_image": true,
     "tr": "all the matter that moves about the earth must press it more at the place that lies under the moon"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-091",
+     "kind": "premise",
+     "detail": "the fluid matter whirling about the earth presses hardest under the moon",
+     "basis": "entry"
+    },
+    {
+     "claim": "1675-water-087",
+     "kind": "premise",
+     "detail": "the earth's turning brings each part of the ocean under the moon",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-033",
@@ -1084,7 +1166,21 @@
     "from_image": true,
     "tr": "the celestial matter that whirls about the earth [flowing] faster through those straits",
     "note": "Opening of a longer sentence; the full period runs to 'fluxumque Maris procreat'."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-092",
+     "kind": "premise",
+     "detail": "the celestial matter whirling round the earth flows faster where the moon narrows it",
+     "basis": "entry"
+    },
+    {
+     "claim": "1675-water-088",
+     "kind": "premise",
+     "detail": "the earth turns on its centre, so the moon's place over the sea changes",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-034",
@@ -1120,7 +1216,15 @@
     "orig": "Quod enim occultum est, latet ; & tamdiu effectus aliquis ignorari dicitur, quamdiu per propriam causam non demonstratur.",
     "from_image": true,
     "tr": "For what is occult lies hidden; and an effect is said to be unknown for as long as it is not demonstrated through its proper cause."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-076",
+     "kind": "premise",
+     "detail": "an occult quality is a confession of ignorance",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-035",
@@ -1369,7 +1473,15 @@
     "orig": "elle est reduite en vapeurs par la chaleur qui se rencontre dans les entrailles de la Terre",
     "from_image": true,
     "tr": "it is reduced to vapours by the heat that is found in the bowels of the earth"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-001",
+     "kind": "premise",
+     "detail": "the sea water that feeds the springs cannot rise above the sea by its weight",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-041",
@@ -1428,6 +1540,14 @@
      "page": "342",
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n402/mode/1up",
      "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-water-004",
+     "kind": "premise",
+     "detail": "the sea water driven into the caverns is raised as vapour",
+     "basis": "entry"
     }
    ]
   },
@@ -1677,7 +1797,15 @@
     "orig": "le sel ne s'éleve point en vapeurs avec les parties de l'eau douce, il est aisé à juger que les eaux des fontaines & des puys doivent estre douces",
     "from_image": true,
     "tr": "salt does not rise in vapours with the parts of fresh water, it is easy to judge that the waters of springs and wells must be fresh"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-040",
+     "kind": "premise",
+     "detail": "the water reaches the springs as vapour, and salt does not rise in vapour",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-052",
@@ -1707,7 +1835,21 @@
     "orig": "Salsæ enim rigidæ sunt, & inflexiles, quæ in vapores mutari nequeunt",
     "from_image": true,
     "tr": "For the salt ones are rigid and inflexible, and cannot be changed into vapours"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-020",
+     "kind": "premise",
+     "detail": "salt particles are rigid and inflexible",
+     "basis": "entry"
+    },
+    {
+     "claim": "1675-water-042",
+     "kind": "premise",
+     "detail": "only what rises as vapour reaches the springs",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-053",
@@ -1725,6 +1867,14 @@
      "page": "343",
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n403/mode/1up",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-water-020",
+     "kind": "premise",
+     "detail": "percolation strips the rigid salt particles",
+     "basis": "entry"
     }
    ]
   },
@@ -1744,6 +1894,20 @@
      "page": "277",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb11110404?page=303",
      "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-water-003",
+     "kind": "premise",
+     "detail": "the springs rise from the sea by long winding passages",
+     "basis": "entry"
+    },
+    {
+     "claim": "1675-water-061",
+     "kind": "premise",
+     "detail": "burnt earthy matter is what makes saltness",
+     "basis": "entry"
     }
    ]
   },
@@ -1786,7 +1950,15 @@
     "orig": "Au reste, c'est dans la Mer que le Sel se doit principalement rencontrer",
     "from_image": true,
     "tr": "Moreover, it is in the sea that salt must chiefly be found"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-019",
+     "kind": "premise",
+     "detail": "salt is congealed in the straight pores of the inner earth",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-057",
@@ -1863,7 +2035,15 @@
     "orig": "Efficiens causa salsedinis maris DEVS est. Hic in prima creatione mare creavit salsum.",
     "from_image": true,
     "tr": "The efficient cause of the saltness of the sea is God. He made the sea salt in the first creation."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-079",
+     "kind": "premise",
+     "detail": "God made the sea salt for fish and for sailing",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-059",
@@ -1894,7 +2074,15 @@
     "orig": "Solis ardor salsedinem mari non infert.",
     "from_image": true,
     "tr": "The heat of the sun does not bring saltness to the sea."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-077",
+     "kind": "premise",
+     "detail": "no accident generates the substance of salt",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-060",
@@ -1935,7 +2123,15 @@
     "orig": "Duplex hujus saporis causa assignari potest, una remotior, altera proxima.",
     "from_image": true,
     "tr": "A twofold cause of this taste can be assigned, one more remote, the other nearest."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-080",
+     "kind": "premise",
+     "detail": "the saltness given at creation for fish and ships",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-061",
@@ -2177,7 +2373,15 @@
     "orig": "Causa talis æstus in Fontibus, non in aliud, quam in ipsum maris fluxum refundi potest",
     "from_image": true,
     "tr": "The cause of such a tide in springs can be referred to nothing other than the flood of the sea itself"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-water-004",
+     "kind": "premise",
+     "detail": "the sea's flood forces itself into the channels under the earth",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-070",
@@ -2291,7 +2495,21 @@
     "orig": "ses vagues produisent la nuit une infinité d'étincelles dans l'air",
     "from_image": true,
     "tr": "its waves produce at night an infinity of sparks in the air"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1675-light-009",
+     "kind": "instance",
+     "detail": "the darting salt pushes the second element, which makes light",
+     "basis": "entry"
+    },
+    {
+     "claim": "1675-water-019",
+     "kind": "premise",
+     "detail": "salt parts, long and straight, dart out point first carried by the first element",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1675-water-074",
