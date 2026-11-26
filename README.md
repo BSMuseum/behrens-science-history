@@ -6,6 +6,10 @@ What European students were taught about nature, snapshot by snapshot from 1500 
 
 A project of the [Behrens Science Museum](https://bsmuseum.org/), compiled by Bruce Behrens with Anthropic's Claude. Corrections are welcome through the museum's [contact page](https://bsmuseum.org/contact/) or as an issue here.
 
+## Supporting the project
+
+What limits the pace of the work is compute time. You can help by reporting errors (an issue here, or the [contact page](https://bsmuseum.org/contact/)), by contributing Claude time to write or check an entry (see [`CONTRIBUTING.md`](CONTRIBUTING.md)), or by funding compute time. A crowdfunding campaign is being set up; until it opens, use the contact page. The museum is not a nonprofit, so contributions are not tax-deductible. Details on the [site](https://history.bsmuseum.org/#support).
+
 ## Scope and plan
 
 Sixteen snapshot dates from 1500 to 1900 (1500, then every twenty-five years from 1550), four regions (France, the Protestant and Catholic German lands, the British Isles), in seven phases:

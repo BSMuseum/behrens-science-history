@@ -1,5 +1,16 @@
 # Contributing
 
+## Ways to help
+
+- **Report an error.** Open an issue, or write through the museum's [contact page](https://bsmuseum.org/contact/). Give the entry, the claim and what is wrong with it. No GitHub skills needed.
+- **Check an entry.** Take a published entry that has not been verified and check it against the page images. This is the verification pass below.
+- **Write an entry.** Take a topic not yet written, in a snapshot already started, and write it on its own branch. The rest of this file explains how.
+- **Fund compute time.** See [Supporting the project](https://history.bsmuseum.org/#support) on the site.
+
+Volunteers work to the research plan as it stands. Proposals to change the plan are welcome as issues, but Bruce decides them (see "Who merges" below).
+
+## How entries are written
+
 Entries are written one per branch, so several sessions (Claude tabs now, volunteers later) can work at once without editing the same files. A separate merge pass folds their changes to the shared registries into `data/`, and a separate verification pass checks each entry against the page images.
 
 ## Before writing anything
