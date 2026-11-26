@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Behrens Science History: what Europe was taught about nature, 1275–1900</title>
-<meta name="description" content="Snapshots of what the most widely used European textbooks taught about nature, from 1275 to 1900, in the period's own terms, with every claim cited to a page scan.">
+<title>Behrens Science History Project: what Europe was taught about nature, 1500–1900</title>
+<meta name="description" content="What the most widely used European textbooks taught about nature, at intervals from 1500 to 1900, with every claim cited to a page scan.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -64,16 +64,14 @@ figcaption i{color:var(--ink)}
 
 /* plan */
 .plan{padding:3.5rem 0 3.5rem;border-top:1px solid var(--rule)}
-.phases{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:2rem 0 1.6rem;padding:0;list-style:none;border-top:2px solid var(--ink)}
-.phases>li{padding:1.3rem 1.5rem 1.4rem 0;border-right:1px solid var(--rule);display:flex;flex-direction:column}
-.phases>li+li{padding-left:1.5rem}
-.phases>li:last-child{border-right:0}
+.phases{margin:2rem 0 1.6rem;padding:0;list-style:none;border-top:2px solid var(--ink)}
+.phases>li{display:grid;grid-template-columns:minmax(0,14rem) minmax(0,1fr) minmax(0,13rem);gap:.6rem 2.5rem;padding:1.3rem 0 1.4rem;border-bottom:1px solid var(--rule)}
 .phase-n{font-family:var(--display);font-size:1rem;font-style:italic;color:var(--muted);margin:0 0 .2rem}
 .phases .now .phase-n{color:var(--rubric)}
-.phases h3{margin-bottom:.6rem}
+.phases h3{margin-bottom:0}
 .phases p{font-size:1rem;line-height:1.5}
-.phases .status{margin:.2rem 0 .8rem}
-.phase-links{margin:auto 0 0;padding:.8rem 0 0;list-style:none;font-size:.95rem;line-height:1.5;border-top:1px solid var(--rule)}
+.phases .status{margin:0 0 .5rem}
+.phase-links{margin:0;padding:0;list-style:none;font-size:.95rem;line-height:1.5}
 .phase-links li{padding:.1rem 0}
 .phase-links .slot{color:var(--muted);font-style:italic}
 .beyond{max-width:var(--measure);font-size:1rem}
@@ -128,6 +126,11 @@ figcaption i{color:var(--ink)}
 .texts figcaption{margin-top:.7rem;font-size:.9rem;line-height:1.4;color:var(--ink)}
 .texts figcaption b{display:block;font-weight:600;font-size:.82rem;color:var(--muted);margin-bottom:.15rem}
 .year-body p{max-width:var(--measure)}
+.faces{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.6rem 0 0;padding:0;list-style:none;max-width:15rem}
+.faces li:only-child{grid-column:span 2;max-width:9rem}
+.faces img{width:100%;height:auto;border:1px solid var(--rule)}
+.faces figure{margin:0}
+.faces figcaption{font-size:.78rem;line-height:1.35;margin-top:.35rem}
 .topics{columns:2;column-gap:2.5rem;margin:1.6rem 0 0;padding:0;list-style:none;font-size:1rem;max-width:44rem}
 .topics li{break-inside:avoid;padding:.18rem 0}
 .topics-1575{font-size:1rem;color:var(--muted)}
@@ -158,9 +161,7 @@ footer p{max-width:52rem}
 
 /* narrower screens */
 @media (max-width:900px){
-  .phases{grid-template-columns:1fr}
-  .phases>li,.phases>li+li{padding:1.2rem 0;border-right:0;border-top:1px solid var(--rule)}
-  .phases>li:first-child{border-top:0}
+  .phases>li{grid-template-columns:1fr;gap:.4rem}
   .hero .wrap,.series-head,.about .wrap{grid-template-columns:1fr;gap:2rem}
   .hero{padding-top:2.2rem}
   .plate{max-width:26rem}
@@ -170,6 +171,8 @@ footer p{max-width:52rem}
   .answers div:nth-child(3){padding-left:0}
   .answers div:nth-child(n+3){border-top:1px solid var(--rule)}
   .about figure{max-width:15rem}
+  .faces{max-width:22rem;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .faces li:only-child{grid-column:auto}
 }
 @media (max-width:760px){
   /* the timeline becomes a list of years */
@@ -198,7 +201,7 @@ footer p{max-width:52rem}
 <header class="mast">
   <div class="wrap">
     <a class="name" href="https://bsmuseum.org/">Behrens Science Museum</a>
-    <span>Science History</span>
+    <span>Behrens Science History Project</span>
   </div>
 </header>
 
@@ -207,9 +210,9 @@ footer p{max-width:52rem}
 <section class="hero">
   <div class="wrap">
     <div>
-      <h1>What Europe was taught about nature<span>Snapshots from the textbooks, 1275–1900</span></h1>
-      <p class="lede">Behrens Science History reconstructs what students were taught about the natural world at intervals across six centuries. Each snapshot reads the courses most often printed in its day, takes its topics from their tables of contents, and reports their doctrine in their own terms, with the evidence they gave for it.</p>
-      <p class="prose">Where schools disagreed, each side is set out with the reasons it gave. Every claim cites the page, and every page links to a public scan.</p>
+      <h1>What Europe was taught about nature<span>Snapshots from textbooks, 1500–1900</span></h1>
+      <p class="lede">The Behrens Science History Project documents what European students were taught about the natural world, at intervals from 1500 to 1900. Each snapshot uses the textbooks most often printed at the time, takes its topics from their tables of contents, and reports what they taught and the evidence they gave for it.</p>
+      <p class="prose">When schools disagreed, we give each side and its reasons. Every claim is cited to a page, with a link to a public scan of that page.</p>
       <div class="actions">
         <a class="btn" href="c-1775/" data-year-link="1775">Read the c. 1775 snapshot</a>
         <a href="#plan">Scope and plan</a>
@@ -226,77 +229,102 @@ footer p{max-width:52rem}
 <section class="plan" id="plan" aria-labelledby="plan-h">
   <div class="wrap">
     <h2 id="plan-h">Scope and plan</h2>
-    <p class="prose">The project covers what the period itself counted as knowledge of nature, at eighteen dates from 1275 to 1900, in four regions. It is built in three phases. Each phase reads the same dates and regions and puts the same questions to every period, so that a question can be followed from one century to the next and from one subject to another.</p>
+    <p class="prose">The project covers what the period itself counted as knowledge of nature. It is organized in seven phases. Each phase uses the same dates and regions and asks the same questions of every period, so a question can be followed across centuries and across subjects. The first six phases run from 1500 to 1900. The last goes back before printing.</p>
 
     <ol class="phases">
       <li class="now">
-        <p class="phase-n">Phase 1</p>
-        <h3>Natural philosophy and natural history</h3>
-        <p class="status"><span class="dot pub"></span><b>Under way.</b> The first series is being written.</p>
-        <p>What body, motion and gravity, the heavens, the elements, light and fire, the weather and the earth were taught to be. Before about 1700 natural philosophy also takes in the soul, plants and animals; after that, they are followed into natural history.</p>
-        <ul class="phase-links">
-          <li><a href="c-1775/" data-year-link="1775">c. 1775</a>, published</li>
-          <li><a href="c-1675/" data-year-link="1675">c. 1675</a>, in progress</li>
-          <li><a href="#c1575">c. 1575</a>, texts chosen</li>
-          <li class="slot">Fifteen further snapshots to come</li>
-        </ul>
+        <div><p class="phase-n">Phase 1</p><h3>Natural philosophy and natural history</h3></div>
+        <p>Body, motion and gravity, the heavens, the elements, light and fire, the weather and the earth. Before about 1700 natural philosophy also included the soul, plants and animals. After that we follow them into natural history.</p>
+        <div>
+          <p class="status"><span class="dot pub"></span><b>Under way.</b></p>
+          <ul class="phase-links">
+            <li><a href="c-1775/" data-year-link="1775">c. 1775</a>, published</li>
+            <li><a href="c-1675/" data-year-link="1675">c. 1675</a>, in progress</li>
+            <li><a href="#c1575">c. 1575</a>, texts chosen</li>
+          </ul>
+        </div>
       </li>
       <li>
-        <p class="phase-n">Phase 2</p>
-        <h3>Scientific method and its assumptions</h3>
-        <p class="status"><span class="dot cho"></span><b>Planned.</b> To run alongside Phase 1.</p>
-        <p>How the same courses said nature could be known: demonstration and induction, hypotheses, certainty and probability, experiment, the weight of authority and of Scripture, and the kinds of cause. Most courses carried their own logic or introductory volume, and Phase 1’s claims already record the kind of reason each text gave.</p>
-        <ul class="phase-links">
-          <!-- link slot: replace with the Phase 2 page when it exists -->
-          <li class="slot" data-phase-link="2">Pages to come</li>
-        </ul>
+        <div><p class="phase-n">Phase 2</p><h3>Scientific method and its assumptions</h3></div>
+        <p>How the textbooks said nature could be known: demonstration and induction, hypotheses, certainty and probability, experiment, the authority of the ancients and of Scripture, and the kinds of cause. Most courses had their own logic or introductory volume. The Phase 1 claims files already record what kind of reason each text gave.</p>
+        <div>
+          <p class="status"><span class="dot cho"></span><b>Planned,</b> to run alongside Phase 1.</p>
+          <ul class="phase-links"><!-- link slot: replace with the Phase 2 page when it exists --><li class="slot" data-phase-link="2">Pages to come</li></ul>
+        </div>
       </li>
       <li>
-        <p class="phase-n">Phase 3</p>
-        <h3>Medicine</h3>
-        <p class="status"><span class="dot cho"></span><b>Planned.</b></p>
-        <p>What the medical faculties taught: the institutes of medicine, pathology and the signs of disease, hygiene, therapeutics, materia medica and anatomy. Before 1700 it meets Phase 1 on the body and the soul.</p>
-        <ul class="phase-links">
-          <!-- link slot: replace with the Phase 3 page when it exists -->
-          <li class="slot" data-phase-link="3">Pages to come</li>
-        </ul>
+        <div><p class="phase-n">Phase 3</p><h3>Medicine</h3></div>
+        <p>What the medical faculties taught: the institutes of medicine, pathology and the signs of disease, hygiene, therapeutics, materia medica and anatomy. Before 1700 this overlaps Phase 1 on the body and the soul.</p>
+        <div>
+          <p class="status"><span class="dot cho"></span><b>Planned.</b></p>
+          <ul class="phase-links"><!-- link slot: replace with the Phase 3 page when it exists --><li class="slot" data-phase-link="3">Pages to come</li></ul>
+        </div>
+      </li>
+      <li>
+        <div><p class="phase-n">Phase 4</p><h3>Chemistry and alchemy</h3></div>
+        <p>Chemistry was taught mostly by the medical faculties. This phase covers transmutation, the principles of bodies, and later phlogiston and the different kinds of air. Alchemy stays in for as long as the textbooks kept it.</p>
+        <div>
+          <p class="status"><span class="dot cho"></span><b>Planned.</b></p>
+          <ul class="phase-links"><!-- link slot: replace with the Phase 4 page when it exists --><li class="slot" data-phase-link="4">Pages to come</li></ul>
+        </div>
+      </li>
+      <li>
+        <div><p class="phase-n">Phase 5</p><h3>Mixed mathematics</h3></div>
+        <p>Astronomy, optics, mechanics, navigation, geography and dialling, which the period classed as mathematics applied to physical things. Much of it overlaps natural philosophy.</p>
+        <div>
+          <p class="status"><span class="dot cho"></span><b>Planned.</b></p>
+          <ul class="phase-links"><!-- link slot: replace with the Phase 5 page when it exists --><li class="slot" data-phase-link="5">Pages to come</li></ul>
+        </div>
+      </li>
+      <li>
+        <div><p class="phase-n">Phase 6</p><h3>Sacred chronology and prophecy</h3></div>
+        <p>The age of the world, the dates of the Creation and the Flood, and the reading of prophecy. Isaac Newton (1643–1727) and William Whiston (1667–1752) both worked on these questions.</p>
+        <div>
+          <p class="status"><span class="dot cho"></span><b>Planned.</b></p>
+          <ul class="phase-links"><!-- link slot: replace with the Phase 6 page when it exists --><li class="slot" data-phase-link="6">Pages to come</li></ul>
+        </div>
+      </li>
+      <li>
+        <div><p class="phase-n">Phase 7</p><h3>Before printing</h3></div>
+        <p>Snapshots at 1250, 1300, 1350, 1400 and 1450 on the same subjects, from the university curricula and the commentaries used to teach them. These texts are much harder to work with. Few have usable transcriptions, the abbreviations are heavy, and many survive only in manuscript or in later printed editions. That is why this phase comes last.</p>
+        <div>
+          <p class="status"><span class="dot cho"></span><b>Planned,</b> after Phases 1–6.</p>
+          <ul class="phase-links"><!-- link slot: replace with the Phase 7 page when it exists --><li class="slot" data-phase-link="7">Pages to come</li></ul>
+        </div>
       </li>
     </ol>
 
-    <p class="beyond">Under consideration for later: chemistry and alchemy; sacred chronology, where the dates of the Creation and the Flood and the reading of prophecy were worked out; and the mixed mathematics of astronomy, optics and navigation.</p>
     <p class="beyond">The first milestone is the first series of Phase 1: natural philosophy at c. 1575, c. 1675 and c. 1775, with a machine-readable claims file for every entry.</p>
   </div>
 </section>
 
 <section class="grid-sec" aria-labelledby="grid-h">
   <div class="wrap">
-    <h2 id="grid-h">Eighteen snapshots</h2>
-    <p class="prose">One every fifty years from 1275 to 1625, then one every twenty-five years to 1900. The first series, in red, covers natural philosophy at c. 1575, c. 1675 and c. 1775.</p>
+    <h2 id="grid-h">Sixteen snapshots</h2>
+    <p class="prose">One at 1500, then one every twenty-five years from 1550 to 1900. The first series, in red, is natural philosophy at c. 1575, c. 1675 and c. 1775. Phase 7 adds five more dates before 1500.</p>
 
     <div class="tl">
     <ol class="timeline">
-      <li class="planned up"    style="--x:3.85%"><span class="mark"></span><span class="yr">1275</span></li>
-      <li class="planned down"  style="--x:11.54%"><span class="mark"></span><span class="yr">1325</span></li>
-      <li class="planned up"    style="--x:19.23%"><span class="mark"></span><span class="yr">1375</span></li>
-      <li class="planned down"  style="--x:26.92%"><span class="mark"></span><span class="yr">1425</span></li>
-      <li class="planned up"    style="--x:34.62%"><span class="mark"></span><span class="yr">1475</span></li>
-      <li class="planned down"  style="--x:42.31%"><span class="mark"></span><span class="yr">1525</span></li>
-      <li class="chosen first up" style="--x:50%"><span class="mark"></span><a class="yr" href="#c1575">1575<small>Texts chosen</small></a></li>
-      <li class="planned down"  style="--x:57.69%"><span class="mark"></span><span class="yr">1625</span></li>
-      <li class="chosen first up" style="--x:65.38%"><span class="mark"></span><a class="yr" href="c-1675/" data-year-link="1675">1675<small>2 topics published</small></a></li>
-      <li class="planned down"  style="--x:69.23%"><span class="mark"></span><span class="yr">1700</span></li>
-      <li class="planned up"    style="--x:73.08%"><span class="mark"></span><span class="yr">1725</span></li>
-      <li class="planned down"  style="--x:76.92%"><span class="mark"></span><span class="yr">1750</span></li>
-      <li class="published first up" style="--x:80.77%"><span class="mark"></span><a class="yr" href="c-1775/" data-year-link="1775">1775<small>13 topics published</small></a></li>
-      <li class="planned down"  style="--x:84.62%"><span class="mark"></span><span class="yr">1800</span></li>
-      <li class="planned up"    style="--x:88.46%"><span class="mark"></span><span class="yr">1825</span></li>
-      <li class="planned down"  style="--x:92.31%"><span class="mark"></span><span class="yr">1850</span></li>
-      <li class="planned up"    style="--x:96.15%"><span class="mark"></span><span class="yr">1875</span></li>
-      <li class="planned down"  style="--x:100%"><span class="mark"></span><span class="yr">1900</span></li>
+      <li class="planned up" style="--x:3.00%"><span class="mark"></span><span class="yr">1500</span></li>
+      <li class="planned down" style="--x:15.12%"><span class="mark"></span><span class="yr">1550</span></li>
+      <li class="chosen first up" style="--x:21.19%"><span class="mark"></span><a class="yr" href="#c1575">1575<small>Texts chosen</small></a></li>
+      <li class="planned down" style="--x:27.25%"><span class="mark"></span><span class="yr">1600</span></li>
+      <li class="planned up" style="--x:33.31%"><span class="mark"></span><span class="yr">1625</span></li>
+      <li class="planned down" style="--x:39.38%"><span class="mark"></span><span class="yr">1650</span></li>
+      <li class="chosen first up" style="--x:45.44%"><span class="mark"></span><a class="yr" href="c-1675/" data-year-link="1675">1675<small>2 topics published</small></a></li>
+      <li class="planned down" style="--x:51.50%"><span class="mark"></span><span class="yr">1700</span></li>
+      <li class="planned up" style="--x:57.56%"><span class="mark"></span><span class="yr">1725</span></li>
+      <li class="planned down" style="--x:63.62%"><span class="mark"></span><span class="yr">1750</span></li>
+      <li class="published first up" style="--x:69.69%"><span class="mark"></span><a class="yr" href="c-1775/" data-year-link="1775">1775<small>13 topics published</small></a></li>
+      <li class="planned down" style="--x:75.75%"><span class="mark"></span><span class="yr">1800</span></li>
+      <li class="planned up" style="--x:81.81%"><span class="mark"></span><span class="yr">1825</span></li>
+      <li class="planned down" style="--x:87.88%"><span class="mark"></span><span class="yr">1850</span></li>
+      <li class="planned up" style="--x:93.94%"><span class="mark"></span><span class="yr">1875</span></li>
+      <li class="planned down" style="--x:100.00%"><span class="mark"></span><span class="yr">1900</span></li>
     </ol>
     <div class="steps" aria-hidden="true">
-      <span style="--a:3.85%;--b:57.69%">every fifty years</span>
-      <span style="--a:65.38%;--b:100%">every twenty-five years</span>
+      <span style="--a:3%;--b:15.12%">fifty years</span>
+      <span style="--a:15.12%;--b:100%">every twenty-five years</span>
     </div>
     </div>
 
@@ -314,8 +342,8 @@ footer p{max-width:52rem}
     <div class="series-head">
       <h2 id="series-h">The first series: natural philosophy</h2>
       <div>
-        <p>Natural philosophy changed shape across these two centuries. In 1575 it still took in the soul, plants and animals, the weather, and the heavens as a fifth element. By 1775 it was the physics of inanimate nature, and minerals had gone to natural history or chemistry.</p>
-        <p>So each snapshot takes its topics from its own textbooks, not from a modern list, and the same subject can turn up under different headings, or under none.</p>
+        <p>Natural philosophy changed a great deal between 1575 and 1775. In 1575 it included the soul, plants and animals, the weather, and the heavens, which were made of a fifth element. By 1775 it was the physics of inanimate nature, and minerals belonged to natural history or chemistry.</p>
+        <p>Each snapshot therefore takes its topics from its own textbooks. A subject may appear under a different heading in each snapshot, or not at all.</p>
       </div>
     </div>
 
@@ -325,9 +353,12 @@ footer p{max-width:52rem}
         <p class="year-num"><em>c.</em>1575</p>
         <p class="small">Courses printed 1560–1590</p>
         <p class="status"><span class="dot cho"></span><b>Texts chosen.</b> Reading has not begun.</p>
+        <ul class="faces">
+          <li><figure><img src="img/melanchthon-portrait.jpg" alt="Painted portrait of Philipp Melanchthon in a black gown against a green background" loading="lazy"><figcaption>Philipp Melanchthon, by Lucas Cranach the Elder, 1532</figcaption></figure></li>
+        </ul>
       </div>
       <div class="year-body">
-        <p>Natural philosophy is still Aristotle’s, taught as commentary and compendium. The topics will come from the books themselves; François Titelmans’s twelve books run from principles, causes and motion through generation, meteors and the heavens to the soul, the senses, the intellect and the will.</p>
+        <p>Natural philosophy is still Aristotle’s, taught through commentaries and compendia. The topics will come from the books themselves. François Titelmans’s twelve books, for example, go from principles, causes and motion through generation, meteors and the heavens, to the soul, the senses, the intellect and the will.</p>
         <ul class="texts">
           <li><figure>
             <a class="scan" href="https://archive.org/details/bub_gb_zXe9TG_l4iIC/page/n0/mode/1up"><img src="img/titelmans.jpg" alt="Title page of Titelmans, Compendium philosophiae naturalis, Lyon 1574" loading="lazy"></a>
@@ -358,7 +389,7 @@ footer p{max-width:52rem}
         <a class="btn" href="c-1675/" data-year-link="1675">Read c. 1675</a>
       </div>
       <div class="year-body">
-        <p>Descartes’s physics against the schools. Two of the four most-printed courses are Cartesian, one in Paris and one, by a Franciscan, printed in London for use at Cambridge; the others are a Lutheran course from Wittenberg and a Dominican course that follows Thomas Aquinas.</p>
+        <p>The main dispute is between Descartes’s physics and the schools. Two of the four most-printed courses are Cartesian: Rohault’s in Paris, and Le Grand’s, by a Franciscan, printed in London for use at Cambridge. The other two are a Lutheran course from Wittenberg and a Dominican course that follows Thomas Aquinas.</p>
         <ul class="texts">
           <li><figure>
             <a class="scan" href="https://www.digitale-sammlungen.de/en/view/bsb10131888?page=7"><img src="img/rohault.jpg" alt="Title page of Rohault, Traité de physique, Paris 1675" loading="lazy"></a>
@@ -385,11 +416,16 @@ footer p{max-width:52rem}
       <div>
         <p class="year-num"><em>c.</em>1775</p>
         <p class="small">Courses printed 1760–1790</p>
-        <p class="status"><span class="dot pub"></span><b>Published.</b> All thirteen topics, each on one text per region.</p>
+        <p class="status"><span class="dot pub"></span><b>Published.</b> All thirteen topics, each from one text per region.</p>
         <a class="btn" href="c-1775/" data-year-link="1775">Read c. 1775</a>
+        <ul class="faces">
+          <li><figure><img src="img/nollet-portrait.jpg" alt="Painting of a cleric in a library with books, a globe and instruments" loading="lazy"><figcaption>Probably Jean-Antoine Nollet, by Jacques de Lajoüe, 1740</figcaption></figure></li>
+          <li><figure><img src="img/erxleben-portrait.jpg" alt="Black-and-white photograph of a painted portrait of a man in a wig and lace cravat" loading="lazy"><figcaption>Johann Christian Polykarp Erxleben, unknown painter</figcaption></figure></li>
+          <li><figure><img src="img/ferguson-portrait.jpg" alt="Mezzotint of a man in a soft cap in an oval frame" loading="lazy"><figcaption>James Ferguson, mezzotint after James Northcote, 1776</figcaption></figure></li>
+        </ul>
       </div>
       <div class="year-body">
-        <p>Newton everywhere, on different terms. A Jesuit in Graz teaches attraction without reserve; the Paris lecturer keeps a subtle matter and calls attraction a name for an unexplained fact; the Göttingen professor weighs the systems and often declines to choose.</p>
+        <p>All four texts are Newtonian, but they differ on what that means. Biwald, a Jesuit in Graz, teaches attraction without reservation. Nollet in Paris keeps a subtle matter and treats attraction as a name for a fact nobody has explained. Erxleben in Göttingen sets out the competing systems and often does not choose between them.</p>
         <ul class="texts">
           <li><figure>
             <a class="scan" href="https://archive.org/details/CHEPFL_LIPR_AXA5_01/page/n6/mode/1up"><img src="img/nollet.jpg" alt="Title page of Nollet, Leçons de physique expérimentale, volume 1, Paris 1759" loading="lazy"></a>
@@ -430,8 +466,8 @@ footer p{max-width:52rem}
 
 <section class="question" aria-labelledby="q-h">
   <div class="wrap">
-    <h2 id="q-h">One question, four answers</h2>
-    <p class="prose">What is light? In 1775 the answer depended on where you studied.</p>
+    <h2 id="q-h">The nature of light in 1775</h2>
+    <p class="prose">The four 1775 texts give three different accounts of what light is.</p>
     <div class="answers">
       <div>
         <h3>Graz</h3>
@@ -439,22 +475,22 @@ footer p{max-width:52rem}
         <p>Particles thrown off by shining bodies, as Newton taught.</p>
       </div>
       <div>
-        <h3>Edinburgh</h3>
-        <p class="who">Encyclopaedia Britannica</p>
-        <p>The same: Newton’s emission of particles.</p>
+        <h3>London</h3>
+        <p class="who">Ferguson, public lectures</p>
+        <p>Also particles, as in Newton. Ferguson mentions no other view.</p>
       </div>
       <div>
         <h3>Göttingen</h3>
         <p class="who">Erxleben, Lutheran university</p>
-        <p>Vibrations of an aether, after Leonhard Euler.</p>
+        <p>Vibrations of an aether, following Leonhard Euler.</p>
       </div>
       <div>
         <h3>Paris</h3>
         <p class="who">Nollet, public lectures</p>
-        <p>Motion in a subtle matter filling space, in the manner of Descartes; the same matter as fire.</p>
+        <p>Motion in a subtle matter that fills space, as Descartes had it. Nollet says it is the same matter as fire.</p>
       </div>
     </div>
-    <p class="prose">The same question will be put to the texts of 1675 and 1575. It is one of 183 questions so far, each worded so that it can be asked of any period without a later period’s concepts: what light is, why heavy bodies fall, whether the earth moves, whether water can become earth.</p>
+    <p class="prose">We will ask the 1675 and 1575 texts the same question. It is one of 197 questions so far. Each is worded so it can be asked of any period without later concepts: what light is, why heavy bodies fall, whether the earth moves, whether water can become earth.</p>
   </div>
 </section>
 
@@ -463,20 +499,20 @@ footer p{max-width:52rem}
     <h2 id="m-h">How the snapshots are made</h2>
     <div class="method-grid">
       <div>
-        <h3>Textbooks, not discoveries</h3>
-        <p>The subject is what was taught, which is often decades behind what was discovered. Journals are used only to date when an idea entered or left the textbooks.</p>
+        <h3>What was taught</h3>
+        <p>The subject is what was taught, which often lagged decades behind what was discovered. We use journals only to date when an idea entered or left the textbooks.</p>
       </div>
       <div>
-        <h3>The most-printed courses</h3>
-        <p>For each region the snapshot reads the course printed most often in the decades around its year, chosen by a written rule applied the same way every time, so that later comparisons mean something. The regions are France, the Protestant and Catholic German lands, and the British Isles.</p>
+        <h3>Which textbooks</h3>
+        <p>For each region, a snapshot uses the course printed most often in the decades around its date. A written rule picks the course, and the rule is applied the same way every time so the snapshots can be compared. The regions are France, the Protestant and Catholic German lands, and the British Isles.</p>
       </div>
       <div>
         <h3>The period’s own terms</h3>
-        <p>Entries give the period’s ideas and the evidence offered for them, without modern verdicts. Modern terms appear only in a short glossary at the end of each entry, so that a reader can tell that dephlogisticated air is oxygen.</p>
+        <p>Entries give the period’s ideas and the evidence offered for them, without modern verdicts. Modern terms appear only in a short glossary at the end of each entry, so a reader can tell, for example, that dephlogisticated air is oxygen.</p>
       </div>
       <div>
-        <h3>Every claim to the page</h3>
-        <p>Each claim cites edition, section and page, linked to a public scan. Quotations are read and translated from the page images. Every claim is also recorded in a machine-readable file, with the question it answers, the reasons the text gave and the confidence it was stated with.</p>
+        <h3>Citations</h3>
+        <p>Each claim cites edition, section and page, with a link to a public scan. Quotations are read and translated from the page images. Each claim is also recorded in a machine-readable file with the question it answers, the reasons the text gave, and how confidently the text stated it.</p>
       </div>
     </div>
   </div>
@@ -486,8 +522,8 @@ footer p{max-width:52rem}
   <div class="wrap">
     <div class="prose">
       <h2 id="a-h">About the project</h2>
-      <p>Behrens Science History is a project of the <a href="https://bsmuseum.org/">Behrens Science Museum</a>, compiled by its founder, <a href="https://bsmuseum.org/about-us/">Bruce Behrens</a>.</p>
-      <p>The readings and translations are prepared with Anthropic’s Claude and checked against the page images. Every quotation links to its scan, so any reader can check it too. Corrections are welcome through the museum’s <a href="https://bsmuseum.org/contact/">contact page</a>.</p>
+      <p>The Behrens Science History Project is run by the <a href="https://bsmuseum.org/">Behrens Science Museum</a> and compiled by the museum’s founder, <a href="https://bsmuseum.org/about-us/">Bruce Behrens</a>.</p>
+      <p>The readings and translations are done with Anthropic’s Claude and checked against the page images. Every quotation links to its scan, so readers can check it themselves. Please send corrections through the museum’s <a href="https://bsmuseum.org/contact/">contact page</a>.</p>
     </div>
     <figure>
       <a href="https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n4/mode/1up"><img src="img/legrand-front.jpg" width="560" height="903" alt="Engraved frontispiece: a robed figure holding a book titled Institutio philosophiae, under a radiant sun." loading="lazy"></a>
@@ -500,7 +536,7 @@ footer p{max-width:52rem}
 
 <footer>
   <div class="wrap">
-    <p>Title pages and frontispieces are reproduced from public scans at the Internet Archive and at the Bayerische Staatsbibliothek, Munich (digitale-sammlungen.de). Each image links to its scan. Text and data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; please cite Behrens Science History, Behrens Science Museum. <a href="https://github.com/BSMuseum/behrens-science-history">Source and claims data on GitHub</a>.</p>
+    <p>Title pages and frontispieces are reproduced from public scans at the Internet Archive and at the Bayerische Staatsbibliothek, Munich (digitale-sammlungen.de). Each image links to its scan. Portraits are public-domain images from Wikimedia Commons: Melanchthon (Gemäldegalerie Alte Meister, Dresden), Nollet (Musée Carnavalet, Paris), Erxleben, and Ferguson (Royal Museums Greenwich). Text and data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; please cite the Behrens Science History Project, Behrens Science Museum. <a href="https://github.com/BSMuseum/behrens-science-history">Source and claims data on GitHub</a>.</p>
   </div>
 </footer>
 

@@ -1,6 +1,6 @@
-# Behrens Science History
+# Behrens Science History Project
 
-What European students were taught about nature, snapshot by snapshot from 1275 to 1900, in the period's own terms, from the most-printed teaching texts of each region, with every claim cited to a page scan.
+What European students were taught about nature, snapshot by snapshot from 1500 to 1900, in the period's own terms, from the most-printed teaching texts of each region, with every claim cited to a page scan.
 
 **Site:** https://history.bsmuseum.org/
 
@@ -8,13 +8,15 @@ A project of the [Behrens Science Museum](https://bsmuseum.org/), compiled by Br
 
 ## Scope and plan
 
-Eighteen snapshot dates from 1275 to 1900 (every fifty years to 1625, then every twenty-five), four regions (France, the Protestant and Catholic German lands, the British Isles), in three phases:
+Sixteen snapshot dates from 1500 to 1900 (1500, then every twenty-five years from 1550), four regions (France, the Protestant and Catholic German lands, the British Isles), in seven phases:
 
 1. **Natural philosophy and natural history.** Under way. The first series, and the first milestone, is natural philosophy at c. 1575, c. 1675 and c. 1775.
 2. **Scientific method and its assumptions.** Planned, to run alongside Phase 1.
 3. **Medicine.** Planned.
-
-Under consideration for later: chemistry and alchemy, sacred chronology, mixed mathematics.
+4. **Chemistry and alchemy.** Planned.
+5. **Mixed mathematics.** Planned.
+6. **Sacred chronology and prophecy.** Planned.
+7. **Before printing.** Snapshots at 1250, 1300, 1350, 1400 and 1450 on the same subjects. Planned, last.
 
 ## What a snapshot is
 
