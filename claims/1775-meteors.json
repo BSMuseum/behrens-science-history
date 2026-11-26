@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region. Watery, luminous and fiery meteors, the winds, and lightning in so far as the meteor texts treat it; lightning as electricity is also in 1775-electricity. Nollet has no lesson on meteors; his applications in Lessons XI, XIII, XVII and XX are the Paris text (R1 clause 5 read as satisfied by passages of their own). Springs, the sea and earthquakes are left to the terraqueous globe. read_from is image where the page image was read, ocr where only the machine-read text was used. Nollet t. 3 /page/n = page + 37 for pp. 369-403 and page + 43 for pp. 490-496; t. 4 page + 15 for pp. 296-316; t. 5 page + 45 near p. 410; t. 6 page + 31 near p. 234. Erxleben n = page + 20 for pp. 545-580. British text from 2026-11-22: Ferguson's Lectures (1776), read from the page images of pp. 168, 173, 174, 176, 177, 189, 245-247; p. 199 from the OCR; the OCR of the whole book searched for meteor, dew, hail, snow, cloud, aurora, northern, halo, spout, whirlwind, frost. Ferguson n = leaf: p. 168 = 207, 173 = 212, 174 = 213, 176 = 215, 177 = 216, 189 = 230, 199 = 240, 246 = 301, 247 = 302. The Britannica is supplementary.",
   "revised": {
    "date": "2026-11-22",
@@ -348,6 +352,14 @@
      "read_from": "image",
      "vol": "3"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-003",
+     "kind": "premise",
+     "detail": "meteors divided by what they are made of, vapours or exhalations",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -505,6 +517,14 @@
      "page": "370-371",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=380",
      "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-079",
+     "kind": "instance",
+     "detail": "the electric fluid passing from cloud to cloud among the causes of rain",
+     "basis": "entry"
     }
    ]
   },
@@ -823,6 +843,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=387",
      "read_from": "ocr"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-light-010",
+     "kind": "instance",
+     "detail": "the colours of the bow from the different refrangibility of the rays",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -848,6 +876,14 @@
      "url": "https://archive.org/details/anfangsgrndeder00lautgoog/page/n584/mode/1up",
      "read_from": "ocr",
      "section": "§§683-687"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-light-009",
+     "kind": "instance",
+     "detail": "light refracted in the drop is split into its colours",
+     "basis": "entry"
     }
    ]
   },
@@ -891,6 +927,15 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_05/page/n454/mode/1up",
      "read_from": "ocr",
      "vol": "5"
+    }
+   ],
+   "rests_on": [
+    {
+     "question": "colours",
+     "answer": "parts-of-light",
+     "kind": "instance",
+     "detail": "the bow completed by Newton's decomposition of light (Nollet's chapters on colours not yet read)",
+     "basis": "entry"
     }
    ]
   },
@@ -1233,6 +1278,14 @@
      "read_from": "ocr",
      "section": "§§667-669"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-026",
+     "kind": "premise",
+     "detail": "the sun heats the earth as it turns, giving the constant east wind of the hot zone",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1258,6 +1311,21 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n537/mode/1up",
      "read_from": "image",
      "vol": "3"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-027",
+     "kind": "premise",
+     "detail": "the east winds of the torrid zone from the earth's daily turning, each part rarefied in turn by the sun",
+     "basis": "entry"
+    },
+    {
+     "question": "air-heat",
+     "answer": "yes",
+     "kind": "premise",
+     "detail": "heat and cold change the density of the air (air-016 not yet read)",
+     "basis": "entry"
     }
    ]
   },
@@ -1319,6 +1387,14 @@
      },
      "entry": "Pneumatics"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-world-024",
+     "kind": "premise",
+     "detail": "the sun's heat with the earth's daily motion produces the trade winds",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1337,6 +1413,14 @@
      "page": "366",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=376",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-fire-020",
+     "kind": "instance",
+     "detail": "the internal motions of fire and heat break bodies into particles finer than the air",
+     "basis": "entry"
     }
    ]
   },
@@ -1373,7 +1457,21 @@
     "orig": "Secundo, copiam vaporum augere, eosque ad maiorem altitudinem evehere quoque potest fluidum electricum, quod maiore copia iisdem circumfunditur.",
     "from_image": true,
     "tr": "Secondly, the electric fluid, which is poured round them in greater quantity, can also increase the quantity of vapours and carry them to a greater height."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-electricity-034",
+     "kind": "premise",
+     "detail": "the particles made positively or negatively electric recede from one another and from the earth",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-meteors-079",
+     "kind": "instance",
+     "detail": "the electric fluid raises the vapours and shapes the clouds",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-045",
@@ -1418,6 +1516,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n419/mode/1up",
      "read_from": "ocr",
      "vol": "3"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-fire-018",
+     "kind": "premise",
+     "detail": "the matter of fire leaving the warmer earth carries the subtlest parts with it",
+     "basis": "entry"
     }
    ]
   },
@@ -1633,7 +1739,15 @@
     "orig": "Il ne faut pas confondre cependant cette rosée qui tombe de l’air, avec celle qu’on remarque le matin sur les plantes.",
     "from_image": true,
     "tr": "One must not, however, confuse this dew that falls from the air with that which is seen in the morning on plants."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-046",
+     "kind": "premise",
+     "detail": "the vapours that rose in the night with the fire fall back at sunrise",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-053",
@@ -1688,6 +1802,14 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=386",
      "read_from": "image"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-018",
+     "kind": "premise",
+     "detail": "hail begins as snow, frozen vapour",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1726,7 +1848,21 @@
     "orig": "Grandinem vero fluidi electrici repentinae diffusioni tribuendam esse vel inde patet, quod hyeme perquam raro, vere autem exeunte, aestate, autumnoque inchoante frequenter grandinet, quibus anni tempestatibus fluidi electrici maior copia atmosphaerae inest.",
     "from_image": true,
     "tr": "That hail must be ascribed to the sudden diffusion of the electric fluid appears from this, that it hails very rarely in winter, but often at the end of spring, in summer and at the start of autumn, the seasons in which the atmosphere holds a greater quantity of electric fluid."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-079",
+     "kind": "instance",
+     "detail": "hail from the sudden diffusion of the electric fluid",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-electricity-017",
+     "kind": "premise",
+     "detail": "the atmosphere is electric, and holds more fluid in the warm seasons",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-056",
@@ -1758,7 +1894,15 @@
     "orig": "Im Winter hagelt es nicht leicht, weil der Lustkreis zu kalt ist, als daß das Wasser in der Luft sollte in Tropfen zusammenfliessen können.",
     "from_image": true,
     "tr": "In winter it does not easily hail, because the atmosphere is too cold for the water in the air to be able to run together into drops."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-015",
+     "kind": "premise",
+     "detail": "hail is raindrops frozen; in winter the water cannot run into drops",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-057",
@@ -1777,6 +1921,14 @@
      "url": "https://archive.org/details/CHEPFL_LIPR_AXA5_03/page/n421/mode/1up",
      "read_from": "image",
      "vol": "3"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-016",
+     "kind": "premise",
+     "detail": "vapours seized by the cold after they have joined into drops fall as hail",
+     "basis": "entry"
     }
    ]
   },
@@ -1848,6 +2000,20 @@
      "page": "372-373",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=382",
      "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-electricity-029",
+     "kind": "premise",
+     "detail": "explained from Franklin's theory: a cloud with too much or too little fluid",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-meteors-079",
+     "kind": "instance",
+     "detail": "the waterspout among the meteors moved by the electric fluid",
+     "basis": "entry"
     }
    ]
   },
@@ -1993,7 +2159,21 @@
     "orig": "patet, fulmina non modo e nubibus in tellurem delabi posse, verum etiam ex ipsa tellure in nubes excuti, id, quod a compluribus, praecipue a Marchione Maffeio in Italia observatum, literisque proditum est",
     "from_image": true,
     "tr": "it is plain that thunderbolts can not only fall from the clouds to the earth, but also be struck out of the earth itself into the clouds, which has been observed and put in writing by several, chiefly by the Marchese Maffei in Italy"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-030",
+     "kind": "premise",
+     "detail": "lightning is electric matter",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-electricity-034",
+     "kind": "premise",
+     "detail": "the fluid rushes from a positive cloud into a negative earth, or from the earth into the cloud",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-065",
@@ -2032,7 +2212,15 @@
     "orig": "Aber man darf deswegen nicht mit Maffei glauben, daß alle Blitze auf diese Weise entstehen.",
     "from_image": true,
     "tr": "But one may not on that account believe with Maffei that all lightning arises in this way."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-031",
+     "kind": "premise",
+     "detail": "lightning is a great electric spark between clouds, or between clouds and the earth",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-066",
@@ -2097,6 +2285,20 @@
      },
      "entry": "Electricity"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-033",
+     "kind": "premise",
+     "detail": "lightning is electric matter",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-electricity-037",
+     "kind": "premise",
+     "detail": "the clouds carry the fluid from places with too much to places with too little",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -2147,7 +2349,15 @@
     "orig": "Quamobrem dubitandum vix est, perticis eiusmodi ferreis fulmen in loca innoxia derivari posse.",
     "from_image": true,
     "tr": "Wherefore it can hardly be doubted that by such iron rods the thunderbolt can be led off into harmless places."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-030",
+     "kind": "premise",
+     "detail": "rods lead off lightning because it is electric fluid",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-069",
@@ -2236,7 +2446,15 @@
     "lang": "en",
     "orig": "An iron rod being placed on the outside of a building, from the highest part continued down into the moist earth, in any direction strait or crooked, following the form of the roof or other parts of the building, will receive the lightning at its upper end, attracting it so as to prevent its striking any other part",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-033",
+     "kind": "premise",
+     "detail": "the pointed rod draws the electric fluid silently from the clouds",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-073",
@@ -2263,6 +2481,14 @@
      "page": "389",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=399",
      "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-030",
+     "kind": "same-agent",
+     "detail": "the electric fluid of thunder, too little condensed in the rare upper air to thunder",
+     "basis": "entry"
     }
    ]
   },
@@ -2899,6 +3125,14 @@
      "read_from": "ocr",
      "vol": "4"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-036",
+     "kind": "premise",
+     "detail": "will-o'-the-wisps are fires of exhalations; with a slime they would be phosphori",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -2980,6 +3214,14 @@
      "page": "338-339",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10130796?page=348",
      "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-meteors-043",
+     "kind": "premise",
+     "detail": "vapours raised by the summer heat carry the fluid up from the earth",
+     "basis": "entry"
     }
    ]
   },
@@ -3114,7 +3356,21 @@
     "lang": "en",
     "orig": "in the former case, the air is too thin and light to bear up the vapours",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-meteors-118",
+     "kind": "premise",
+     "detail": "the weight of the air bears the vapours up until it grows too light",
+     "basis": "entry"
+    },
+    {
+     "claim": "1775-air-050",
+     "kind": "premise",
+     "detail": "the barometer shows the air grown too thin and light to bear them",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-107",
@@ -3177,7 +3433,15 @@
     "lang": "en",
     "orig": "in the form of a fine arch in the heavens, which is called the rain-bow",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-light-039",
+     "kind": "instance",
+     "detail": "the rays separated into their colours in the drops as by a prism",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-110",
@@ -3222,7 +3486,15 @@
     "orig": "Whoever considers the effects of fermentation, cannot be at a loss to account for the dreadful effects of thunder and lightning",
     "from_image": true
    },
-   "note": "Same claim as 1775-electricity-065. The passage stands in the 1760 edition (OCR); Ferguson's separate Introduction to Electricity (1770) describes Lind's apparatus for testing Franklin's lightning rods (OCR only; not a slot text)."
+   "note": "Same claim as 1775-electricity-065. The passage stands in the 1760 edition (OCR); Ferguson's separate Introduction to Electricity (1770) describes Lind's apparatus for testing Franklin's lightning rods (OCR only; not a slot text).",
+   "rests_on": [
+    {
+     "claim": "1775-meteors-103",
+     "kind": "premise",
+     "detail": "the atmosphere the receptacle of the sulphureous and nitrous effluvia that ferment and take fire",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-111",
@@ -3278,7 +3550,15 @@
     "lang": "en",
     "orig": "and of this property, wind is a necessary consequence",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-air-052",
+     "kind": "instance",
+     "detail": "the air swells with heat, 'and of this property, wind is a necessary consequence'",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-meteors-113",

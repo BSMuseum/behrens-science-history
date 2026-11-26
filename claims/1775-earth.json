@@ -21,6 +21,10 @@
    "by": null,
    "date": null
   },
+  "rests_on": {
+   "date": "2026-11-25",
+   "by": "Claude Opus 5.5"
+  },
   "coverage": "One text per region, on earths, stones, salts, inflammables, metals and semimetals. For Paris and Göttingen the texts differ from the other entries under R1 clause 5: Nollet has no lesson on these bodies, so the Paris text is Para du Phanjas; Erxleben's Naturlehre leaves them to his Anfangsgründe der Naturgeschichte, read here. Petrifactions, mountains, strata, earthquakes, volcanoes and the history of the earth are left to the entry on the terraqueous globe; the magnet has its own entry. Not covered: salts and inflammables in detail, each metal in detail, gems, ores and assaying. read_from is 'image' where the page image was read, 'ocr' where only the machine-read text was used. British text from 2026-11-21: Martin's Grammar, Part IV ch. II (pp. 236-258), read from the page images of pp. 236, 239-242, 245-248, 251-253 and 257 and the OCR of pp. 249-250; the OCR of the whole 1778 book searched for phlogiston, platina, transmutation, reduce and revive. The chapter already stands in the 1762 printing (OCR). Martin's strata, interior of the globe and extraneous bodies (pp. 236-239, 257-258) are left to the terraqueous globe entry, and the loadstone (pp. 255-257) to the magnet. The Britannica is supplementary; its claims are unchanged.",
   "revised": {
    "date": "2026-11-21",
@@ -453,6 +457,14 @@
      "read_from": "image",
      "section": "§128"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-earth-036",
+     "kind": "premise",
+     "detail": "the imperfect metals are mixts of phlogiston and earth that fire takes apart",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -483,7 +495,15 @@
     "lang": "en",
     "orig": "The perfect metals are those which suffer no damage or change whatever by the most violent and most lasting action of fire.",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-038",
+     "kind": "premise",
+     "detail": "fire takes the phlogiston from the imperfect metals, and with it their metalline form",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-013",
@@ -529,6 +549,14 @@
      "work": "Anfangsgründe der Naturgeschichte (1773)",
      "section": "§682"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-earth-035",
+     "kind": "premise",
+     "detail": "malleability from the phlogiston, one of a metal's parts",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -549,6 +577,14 @@
      "url": "https://archive.org/details/b30539584_0002/page/n241/mode/1up",
      "read_from": "image",
      "section": "§599"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-earth-036",
+     "kind": "premise",
+     "detail": "metallic properties go with the phlogiston, a constituent part",
+     "basis": "entry"
     }
    ]
   },
@@ -580,7 +616,15 @@
     "lang": "en",
     "orig": "recovers all its metalline properties by being fused in immediate contact with an inflammable substance, capable of restoring the phlogiston of which calcination had deprived it",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-038",
+     "kind": "premise",
+     "detail": "the calx revived by restoring the phlogiston, a principle of metals",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-017",
@@ -784,6 +828,14 @@
      "read_from": "ocr",
      "section": "§590"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-earth-007",
+     "kind": "premise",
+     "detail": "stones differ from earths only in hardness, so as many kinds of stone as of earth",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -817,7 +869,15 @@
     "lang": "en",
     "orig": "or else, if those earths be pure, we must allow them to be essentially different, seeing they have different properties",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-057",
+     "kind": "premise",
+     "detail": "analysis stops at substances it cannot change, so it cannot tell whether differing earths differ in kind",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-026",
@@ -1147,7 +1207,15 @@
     "orig": "Il n'est pas improbable que les métaux parfaits aient aussi principalement pour parties constituantes, le phlogistique & la terre élémentaire, que l'action des fourneaux les plus ardens ne peut désunir & décomposer.",
     "from_image": true,
     "tr": "It is not improbable that the perfect metals too have chiefly for constituent parts phlogiston and elementary earth, which the action of the hottest furnaces cannot disunite and decompose."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-036",
+     "kind": "premise",
+     "detail": "the perfect metals likely of the same parts as the imperfect, though no furnace separates them",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-038",
@@ -1391,6 +1459,14 @@
      "read_from": "image",
      "section": "§598"
     }
+   ],
+   "rests_on": [
+    {
+     "claim": "1775-earth-047",
+     "kind": "premise",
+     "detail": "no new integrant parts of gold, silver or platina, so new masses only by heaping old ones",
+     "basis": "entry"
+    }
    ]
   },
   {
@@ -1433,7 +1509,15 @@
     "orig": "Donc il est vraisemblable que toutes les parties de ces minéraux, qui existent aujourd'hui, ont existé dès le commencement des tems.",
     "from_image": true,
     "tr": "Therefore it is likely that all the parts of these minerals that exist today have existed since the beginning of time."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-011",
+     "kind": "premise",
+     "detail": "the most violent fire never decomposes the perfect metals, and underground fires are no stronger",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-048",
@@ -1462,7 +1546,15 @@
     "orig": "Il est vraisemblable que parmi les minéraux destructibles & altérables, tels que les métaux imparfaits, les demi-métaux, les pierres de toute espece, les divers fossiles bitumineux & inflammables, il se forme dans la nature, de nouvelles combinaisons, qui détruisent & renouvellent sans cesse une partie de ces substances minérales dans leurs parties intégrantes & constituantes.",
     "from_image": true,
     "tr": "It is likely that among the destructible and alterable minerals, such as the imperfect metals, the semimetals, stones of every kind, and the various bituminous and inflammable fossils, new combinations form in nature, which continually destroy and renew a part of these mineral substances in their integrant and constituent parts."
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-036",
+     "kind": "premise",
+     "detail": "the imperfect metals and semimetals are mixts that fire decomposes",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-049",
@@ -1676,7 +1768,15 @@
     "lang": "en",
     "orig": "a compound cannot be made with the phlogiston and sand that shall have the least resemblance of a metal",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-earth-016",
+     "kind": "premise",
+     "detail": "phlogiston revives only earths that were once part of a metal",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-059",
@@ -1785,7 +1885,15 @@
     "orig": "C'est, ce me semble, abuser de la physique, laquelle ne doit pas plus chercher de méchanisme dans la formation primitive du globe terrestre, que dans la formation primitive de l'air, de l'eau, de la lumiere, des globes célestes",
     "from_image": true,
     "tr": "That is, it seems to me, to abuse physics, which ought no more to seek a mechanism in the first forming of the terrestrial globe than in the first forming of air, water, light, or the heavenly globes"
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-globe-091",
+     "kind": "premise",
+     "detail": "the globe had all its kinds of minerals from its first forming, the Creator's work, which physics does not explain",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-062",
@@ -2222,7 +2330,15 @@
     "lang": "en",
     "orig": "The Elementary or Component Principles of Metals are reckoned two, viz. Mercury and Sulphur",
     "from_image": true
-   }
+   },
+   "rests_on": [
+    {
+     "claim": "1775-fire-050",
+     "kind": "same-agent",
+     "detail": "the sulphur that binds the metals is the matter of light or fire",
+     "basis": "entry"
+    }
+   ]
   },
   {
    "id": "1775-earth-077",
