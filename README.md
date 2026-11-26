@@ -8,7 +8,7 @@ A project of the [Behrens Science Museum](https://bsmuseum.org/), compiled by Br
 
 ## Scope and plan
 
-Sixteen snapshot dates from 1500 to 1900 (1500, then every twenty-five years from 1550), four regions (France, the Protestant and Catholic German lands, the British Isles), in seven phases:
+Seventeen snapshot dates, every twenty-five years from 1500 to 1900, four regions (France, the Protestant and Catholic German lands, the British Isles), in seven phases:
 
 1. **Natural philosophy and natural history.** Under way. The first series, and the first milestone, is natural philosophy at c. 1575, c. 1675 and c. 1775.
 2. **Scientific method and its assumptions.** Planned, to run alongside Phase 1.
