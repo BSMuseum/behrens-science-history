@@ -19,6 +19,17 @@ Read [`docs/charter.md`](docs/charter.md) (scope, method, entry sections and ent
 
 Start every session from a fresh clone of `main`. Nothing from an earlier session's workspace is needed.
 
+## Claiming a topic
+
+A session told to work on the project takes the next topic as follows, so that two sessions never write the same one.
+
+1. The snapshot in progress is 1675, then 1575. Within it, go down the `topics` list in `data/snapshots.json` in order.
+2. Take the first topic whose status is "planned", which has no file `entries/<snapshot>/<topic>.html` on `main`, and which has no branch `entry/<snapshot>-<topic>` on GitHub (`git ls-remote --heads origin 'entry/*'`).
+3. Claim it before reading anything: create the branch from `main`, commit nothing but an empty commit (`git commit --allow-empty -m "Claim <snapshot>-<topic>"`) and push it. Git will not create a branch that already exists, so if the push is rejected, another session has the topic: go back to step 2 and take the next one.
+4. The pushed branch is the claim. It stays claimed until its pull request is merged or closed. A session that abandons a topic deletes its branch and says so.
+
+A session asked for a particular topic still checks step 2 first and stops if the topic is taken.
+
 ## An entry branch
 
 Name it `entry/<snapshot>-<topic>`, for example `entry/1675-air`. It writes only these files:
