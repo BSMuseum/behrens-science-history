@@ -44,7 +44,7 @@ Name it `entry/<snapshot>-<topic>`, for example `entry/1675-air`. It writes only
 
 It does **not** edit `data/`, `site/pages.json`, `entries/<snapshot>/home.html`, `tools/cites.py`, the README or the charter. Those are shared, and every parallel branch would conflict on them.
 
-Before opening the pull request:
+Before marking the pull request ready for review:
 
 ```
 python3 -I tools/check_claims.py --urls   # 0 errors; reads proposals/ as if folded in
