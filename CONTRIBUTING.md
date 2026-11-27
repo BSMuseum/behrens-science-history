@@ -19,6 +19,18 @@ Read [`docs/charter.md`](docs/charter.md) (scope, method, entry sections and ent
 
 Start every session from a fresh clone of `main`. Nothing from an earlier session's workspace is needed.
 
+## Claiming a topic
+
+A session told to work on the project takes the next topic as follows, so that two sessions, Bruce's tabs or volunteers', never write the same one. The claim is an open pull request, because a pull request shows on this repository whether its branch is here or in a fork.
+
+1. The snapshot in progress is 1675, then 1575. Within it, go down the `topics` list in `data/snapshots.json` in order.
+2. Take the first topic whose status is "planned", which has no file `entries/<snapshot>/<topic>.html` on `main`, and which has no open pull request from a branch named `entry/<snapshot>-<topic>` (`gh api 'repos/BSMuseum/behrens-science-history/pulls?state=open&per_page=100' --jq '.[].head.ref'`).
+3. Claim it before reading anything: create the branch from `main` (in this repository if you can push to it, otherwise in your fork), commit nothing but an empty commit (`git commit --allow-empty -m "Claim <snapshot>-<topic>"`), push it, and open a **draft** pull request to `main` titled `Claim <snapshot>-<topic>`.
+4. Then list the open pull requests again. If another open pull request with a lower number has a branch of the same name, that one holds the topic: close yours, delete its branch, and go back to step 2.
+5. The open pull request is the claim. Do the work on the same branch and mark the pull request ready for review when the entry is done. A session that abandons a topic closes its pull request and says so in it.
+
+A session asked for a particular topic still checks step 2 first and stops if the topic is taken.
+
 ## An entry branch
 
 Name it `entry/<snapshot>-<topic>`, for example `entry/1675-air`. It writes only these files:
@@ -32,7 +44,7 @@ Name it `entry/<snapshot>-<topic>`, for example `entry/1675-air`. It writes only
 
 It does **not** edit `data/`, `site/pages.json`, `entries/<snapshot>/home.html`, `tools/cites.py`, the README or the charter. Those are shared, and every parallel branch would conflict on them.
 
-Before opening the pull request:
+Before marking the pull request ready for review:
 
 ```
 python3 -I tools/check_claims.py --urls   # 0 errors; reads proposals/ as if folded in
