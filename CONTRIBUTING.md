@@ -31,12 +31,39 @@ A session told to work on the project takes the next topic as follows, so that t
 
 A session asked for a particular topic still checks step 2 first and stops if the topic is taken.
 
+## Predictions before reading
+
+Right after the claim, and before opening any page, scan or OCR of the entry's texts, the session writes down what it expects the texts to say, commits `predictions/<snapshot>-<topic>.json` by itself as the branch's second commit, and pushes it. The point is to measure what the reading adds to what a well-read person (or model) already expects: where predictions come out right, the entry mostly adds citations and specifics; where they come out wrong, it adds knowledge. It should take a few minutes, not a reading of its own.
+
+- Allowed before predicting: this file, the charter, `claims/README.md`, the files in `data/` (the questions, the texts and their sections in `snapshots.json`), and the claims files and entries of other topics. Record in `read_before` what was consulted. Not allowed: the entry's texts in any form, and secondary sources looked up for the purpose.
+- Predict, for each regional text (by its siglum), the position on each existing question the topic is likely to raise, including `not_taken_up` where the text is expected to be silent. Aim for 15 to 40 predictions. Give each a probability `p` (0.5 to 0.99) that it will be borne out, and a short reason.
+- Expectations that have no question id yet (the common ground, the main dispute, new questions the topic will need) go in `expected` as sentences, each with a `p`.
+- The file is never changed after that commit. If it was made wrongly (for example after reading), say so in the pull request description rather than editing it.
+
+```json
+{
+  "entry": "1675-air",
+  "made": { "date": "2026-11-28", "by": "Claude Opus 5.5" },
+  "read_before": ["data/questions.json", "data/snapshots.json", "claims/1775-air.json"],
+  "predictions": [
+    { "question": "air-weight", "text": "R", "stance": "holds", "answer": "yes", "p": 0.95, "why": "Cartesian, writes after Pascal and the Torricellian experiment" },
+    { "question": "air-spring", "text": "G", "stance": "not_taken_up", "p": 0.6, "why": "Thomist course; the spring is a post-1660 question" }
+  ],
+  "expected": [
+    { "text": "All four deny that nature abhors a void as the cause of the barometer", "p": 0.5 }
+  ]
+}
+```
+
+`stance` is one of holds, rejects, reports, undecided, declines, not_taken_up; `answer` is an existing code, required for holds and rejects. When the claims file is done, run `python3 -I tools/score_predictions.py <snapshot>-<topic>` and put its summary in the pull request description, with the `expected` items marked right or wrong by hand.
+
 ## An entry branch
 
 Name it `entry/<snapshot>-<topic>`, for example `entry/1675-air`. It writes only these files:
 
 | File | What |
 |---|---|
+| `predictions/<snapshot>-<topic>.json` | the predictions, committed before reading (above) |
 | `claims/<snapshot>-<topic>.json` | the claims file |
 | `entries/<snapshot>/<topic>.html` | the entry, one `<article class="view" id="v-<topic>">` block, in the year page's markup |
 | `proposals/<snapshot>-<topic>.json` | every change the entry needs in the shared files (below) |
@@ -53,7 +80,7 @@ python3 -I tools/build_site.py            # 0 problems; open _site/c-<snapshot>/
 
 The builder shows an entry not yet listed in `site/pages.json` after the listed ones, titled from its `<h1>`, so the entry can be seen in the built page before it is merged. GitHub runs both checks on the pull request and will not show it green with errors.
 
-The pull request description says what was read, which judgment calls a reviewer should look at, and anything the merge pass must do by hand.
+The pull request description says what was read, the predictions score, which judgment calls a reviewer should look at, and anything the merge pass must do by hand. The merge pass leaves `predictions/` in place.
 
 ## Dependencies
 
