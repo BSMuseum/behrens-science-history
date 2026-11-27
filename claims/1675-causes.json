@@ -1,0 +1,2570 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1675-causes",
+  "snapshot": "1675",
+  "topic": "causes",
+  "title": "Causes, nature, chance and fate (with monsters)",
+  "site": {
+   "page": "c-1675",
+   "view": "#causes"
+  },
+  "published": null,
+  "encoded": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5",
+   "from": "new reading, with the entry"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "rests_on": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5"
+  },
+  "coverage": "Three regional texts. France is blank under R1 clause 13: Rohault has no section on causes (his Part I ch. VI gives only the principles of natural beings, read for the matter and form entry), and the next French courses in the count do not qualify (snapshots.json, blank_cells). Read: Sperling's Book I ch. IV-X, nature, the efficient cause, the end, fortune, chance, monsters and fate (precepts and the questions most relevant to the persistent questions, from the page images; the long explanations of ch. V and IX in the OCR only); Goudin's disputation II whole, located in a fresh OCR of the page images (tesseract), with every cited conclusion read on the image unless read_from says ocr; Le Grand's Part IV a. 15 on causes, his Part IV a. 18 on the moving force, and, under the R1 v4 reading of clause 5 (a headed passage is a section of its own), his Part II a. 4 'De Fato', in the natural theology. Not covered: Sperling ch. V's long questions on concurrence and the causes of the mule and leopard, ch. VI q. II-III on how creatures without knowledge reach their ends and on animal prudence, ch. IX's catalogue of monsters (tritons and nereids, pygmies, giants, blind puppies, ducklings hatched by hens, plant monsters) and ch. X q. III-IV; Goudin q. II a. II, q. III (the material and formal causes, the idea as exemplar cause), q. IV a. III-V (powers, the instrument), q. V a. I-III (the end as cause, good as end, love as the end's causality) and q. VI (comparison of causes), beyond the OCR; Le Grand's Part II a. 15 on providence. read_from: 'image' where Claude read the page image, 'ocr' where only machine-read text was used. Every quotation is from an image.",
+  "built_with": "Claude only",
+  "quote_check": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5 (same session; not independent)",
+   "result": "Every quotation was transcribed from the page image in the first reading; none rests on OCR."
+  }
+ },
+ "texts": {
+  "S": {
+   "text": "sperling-institutiones-1664",
+   "parts": "Book I, on the causes of the natural body: ch. I, 'De causis in genere', p. 27; ch. IV, 'De Natura', pp. 128-146; ch. V, 'De Efficiente', pp. 147-176; ch. VI, 'De Fine', pp. 177-195; ch. VII, 'De Fortuna', pp. 196-202; ch. VIII, 'De Casu', pp. 203-206; ch. IX, 'De Monstris', pp. 207-247; ch. X, 'De Fato', pp. 247-260 (MDZ canvas = page + 18, read from the images at pp. 27, 128, 137-138, 140, 142, 147-148, 167, 177-178, 183-184, 196-197, 200-201, 203, 207, 239, 244, 246-248 and 256-257; p. 196 is misnumbered 69)"
+  },
+  "G": {
+   "text": "goudin-philosophia-1681",
+   "parts": "t. 2, Bologna 1686 (in place of the Cologne 1681 t. 2, not found; R1 clause 6), physics part 1, disputation II, 'De Natura, & causis Entis mobilis', pp. 133-259, in seven questions: q. I nature, violence and art, pp. 134-157; q. II causes in common, pp. 158-170; q. III the material and formal causes, pp. 171-179; q. IV the efficient cause, pp. 180-217; q. V the final cause, pp. 218-241; q. VI the comparison of causes, pp. 242-251; q. VII fortune, chance and fate, pp. 252-259 (IA bub_gb_D2e2JGtx1rwC, /page/n = page + 17 throughout, read from the images)"
+  },
+  "L": {
+   "text": "legrand-institutio-1675",
+   "parts": "Part IV ('Physica generalis'), a. XV, 'De rerum causis, & quod nullus sit causae finalis usus in Physicis', pp. 201-202, and a. XVIII, 'Corpus nec se, nec aliud corpus movere potest', pp. 208-209 (/page/n = page + 59); Part II ('Theologia naturalis'), a. IV, 'De Fato, & quod nullam vim voluntati inferat', pp. 90-92 (/page/n = page + 55); all read from the images"
+  }
+ },
+ "placement": [
+  {
+   "text": "S",
+   "where": "The first book of the physics, on the causes of the natural body: causes in general (ch. I), matter and form as the internal causes (II-III), nature as the internal cause taken whole (IV), the external causes, efficient and end (V-VI), the causes by accident, fortune and chance (VII-VIII), monsters as nature's errors (IX) and fate (X), before the second book on the affections of the natural body",
+   "cites": [
+    {
+     "page": "27",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=45",
+     "read_from": "image"
+    },
+    {
+     "page": "128",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=146",
+     "read_from": "image"
+    },
+    {
+     "page": "247",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=265",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "G",
+   "where": "Physics part 1, on mobile being in general: disputation II, on the nature and causes of mobile being, between the principles (disp. I) and motion (disp. III); fortune, chance and fate close it as things that 'seem to have the character of a cause'",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "133",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n150/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "L",
+   "where": "Divided: the causes, and the refusal of final causes, in one article of the general physics (Part IV a. XV), between the void and motion; fate in the natural theology (Part II a. IV), among the articles on God, after his existence and before his attributes. Nothing on nature, fortune, chance or monsters",
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n260/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "90",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n145/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1675-causes-001",
+   "question": "cause-definition",
+   "text": "S",
+   "answer": "influx-of-being",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The causes of the natural body are the principles that flow into its being; they are divided into internal causes, which enter the body's essence (matter and form), and external causes, which do not enter it but make it from outside (the efficient cause and the end).",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "27",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=45",
+     "read_from": "image",
+     "section": "I.1 precepts I-IV"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-002",
+   "question": "cause-definition",
+   "text": "G",
+   "answer": "influx-of-being",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A cause is rightly defined, with Aquinas, as that upon which the being of another follows, or from whose being another follows; the following is not the logical one of a consequent on its antecedent but a physical one, by a real influx. Hence a third definition: a cause is a principle flowing being into another, which requires an influx on the cause's side and a real distinction and dependence on the effect's.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "159",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n176/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. II a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Causa rectè definitur, ad quam sequitur esse alterius",
+    "from_image": true,
+    "tr": "A cause is rightly defined as that upon which the being of another follows"
+   }
+  },
+  {
+   "id": "1675-causes-003",
+   "question": "cause-definition",
+   "text": "L",
+   "answer": "influx-of-being",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since everything in the universe except God depends in various ways on other things, there must be something that works that diversity, and this is called a cause or principle, defined as that upon whose being something follows, as light follows upon the being of the sun.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n260/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15 §1"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Id ad cujus esse aliquid sequitur",
+    "from_image": true,
+    "tr": "That upon whose being something follows"
+   }
+  },
+  {
+   "id": "1675-causes-004",
+   "question": "causes-number",
+   "text": "S",
+   "answer": "four",
+   "stance": "holds",
+   "part": "common",
+   "statement": "There are four causes of the natural body: matter and form within it, the efficient cause and the end outside it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "27",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=45",
+     "read_from": "image",
+     "section": "I.1 precepts II-IV"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-005",
+   "question": "causes-number",
+   "text": "G",
+   "answer": "four",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The physicist, unlike the mathematician, who uses only the formal cause in his demonstrations, argues from every cause, since motions and moving things depend on all four causes and are known through them; the disputation treats the material and formal, the efficient and the final cause in turn.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "133",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n150/mode/1up",
+     "read_from": "image",
+     "section": "disp. II, preface"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "sicut pendent ab omnibus quatuor causis, ita quoque per eas innotescunt",
+    "from_image": true,
+    "tr": "as they depend on all four causes, so they are also known through them"
+   }
+  },
+  {
+   "id": "1675-causes-006",
+   "question": "causes-number",
+   "text": "L",
+   "answer": "four",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Causes are commonly counted four, efficient, material, formal and final, and the number can be shown from the four ways of asking about a thing: for what it is made, by what, out of what, and through what. But he will not dwell on them, since in physics he admits no matter but body extended in length, breadth and depth, and no substantial form but the rational soul.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n260/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15 §1"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quadruplex recenseri communiter solet",
+    "from_image": true,
+    "tr": "They are commonly counted as four"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "no matter in physics but extended body"
+    },
+    {
+     "claim": "1675-matter-form-032",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "no substantial form but the rational soul"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-007",
+   "question": "nature-ends",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nature acts for an end. The affirmative is now so firmly established that whoever thinks nature does anything rashly is laughed at by the Aristotelians, hissed off by the Platonists and beaten on the Galenists' orders. Whatever always acts in the same way acts for an end, and nature always acts in the same way, as crops grow, metals form and plants are begotten; what is done by chance keeps no constant way, and where there is much wisdom there is little chance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "crops, metals and plants always come to be in the same way; the structure of the human body"
+    },
+    {
+     "kind": "consensus",
+     "detail": "Aristotelians, Platonists and Galenists agree"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Lactantius",
+     "dates": "c. 250-c. 325",
+     "role": "credited",
+     "note": "against Epicurus, on the uniform build of human bodies"
+    }
+   ],
+   "cites": [
+    {
+     "page": "183",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=201",
+     "read_from": "image",
+     "section": "I.6 q. I"
+    },
+    {
+     "page": "184",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=202",
+     "read_from": "image",
+     "section": "I.6 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Natura semper eodem modo agit. Ergò Natura propter finem agit.",
+    "from_image": true,
+    "tr": "Nature always acts in the same way. Therefore nature acts for an end."
+   }
+  },
+  {
+   "id": "1675-causes-008",
+   "question": "nature-ends",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Every nature acts for an end, at least executively, in that natural agents put forth actions tending to an end even when, like an arrow, they do not know it. This is against certain ancients, Leucippus, Democritus and Epicurus, who ascribed all the works of nature to chance and the rash concourse of atoms, and it is most certain also by faith, by which we hold that nature is ruled by God, who orders everything to its ends. The order of the seasons, the parts of plants and the bodies of animals show it; what is done rashly rarely happens twice the same way, while nature's works keep fixed laws.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "roots, branches, bark and leaves fitted to fruit; bones, sinews and veins fitted to life (Hippocrates)"
+    },
+    {
+     "kind": "observation",
+     "detail": "nature's works happen in the same way and by fixed laws, as chance works do not"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aquinas; held also by faith"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Leucippus",
+     "dates": "5th century BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Democritus",
+     "dates": "c. 460-c. 370 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Hippocrates",
+     "dates": "c. 460-c. 370 BC",
+     "role": "credited"
+    },
+    {
+     "name": "Marcus Tullius Cicero",
+     "dates": "106-43 BC",
+     "role": "credited"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "234",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n251/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    },
+    {
+     "vol": "2",
+     "page": "235",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n252/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    },
+    {
+     "vol": "2",
+     "page": "236",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n253/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Omnis natura agit propter finem saltem executiuè",
+    "from_image": true,
+    "tr": "Every nature acts for an end, at least executively"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-020",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "it is certain by faith that God rules nature and orders all things to their ends by his providence"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-009",
+   "question": "nature-ends",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Le Grand does not ask whether nature acts for an end. His article on causes asks only whether God's ends may be sought in physics (below).",
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n260/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-010",
+   "question": "god-against-nature",
+   "text": "S",
+   "answer": "above-not-against",
+   "stance": "holds",
+   "part": "common",
+   "statement": "God does not act against nature, for nature is from God himself, so that acting against it he would act against himself, which is impious and blasphemous. The virgin birth, the sun standing still and the iron that floated, which some bring from Scripture, confuse what is above nature with what is against it: what is against nature comes about with a struggle of natural things, what is above it without any, and since nature does not resist God's command but obeys, these works are above nature, not against it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "nature is from God; acting against it he would act against himself"
+    },
+    {
+     "kind": "scripture",
+     "detail": "the miracles of Scripture read as above nature"
+    }
+   ],
+   "cites": [
+    {
+     "page": "142",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=160",
+     "read_from": "image",
+     "section": "I.4 q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "opera ista non contra, sed supra naturam sunt",
+    "from_image": true,
+    "tr": "these works are not against nature but above it"
+   }
+  },
+  {
+   "id": "1675-causes-011",
+   "question": "god-against-nature",
+   "text": "G",
+   "answer": "above-not-against",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Motion impressed by God on any nature is not violent to it but most natural, since the chief and inmost inclination of a creature is to obey its creator; with Augustine, God, creator and founder of all natures, does nothing against nature. So the sun's halt at Joshua's word, the Red Sea standing as a wall and the Jordan turned back were not violent, as it is not against the nature of a work of art that the artist works in it after giving it its first form, the whole of nature being as it were a work of God's art.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Augustine, Contra Faustum; Aquinas; Wisdom 16"
+    },
+    {
+     "kind": "analogy",
+     "detail": "the artist working on his finished work; the arm obeying the will"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Augustine of Hippo",
+     "dates": "354-430",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "144",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n161/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. II"
+    },
+    {
+     "vol": "2",
+     "page": "145",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n162/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. II"
+    },
+    {
+     "vol": "2",
+     "page": "146",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n163/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "tota enim natura est veluti artefactum Diuinæ Sapientiæ",
+    "from_image": true,
+    "tr": "for the whole of nature is as it were a work of the Divine Wisdom's art"
+   }
+  },
+  {
+   "id": "1675-causes-012",
+   "question": "god-against-nature",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-013",
+   "question": "fortune-chance",
+   "text": "S",
+   "answer": "accidental-causes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fortune is a cause by accident in the actions men undertake by a set purpose, where some other outcome than the one intended sometimes falls out, as when a farmer digs to make his crops thrive and finds a treasure. Chance is a cause by accident in the actions of natural things undertaken for an end, as when a tile falls from a roof and wounds a passer-by. Both are referred to the efficient cause, not by itself but by accident.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "196",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=214",
+     "read_from": "image",
+     "section": "I.7 precept I (the page is misnumbered 69)"
+    },
+    {
+     "page": "197",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=215",
+     "read_from": "image",
+     "section": "I.7 precepts I-IV"
+    },
+    {
+     "page": "201",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=219",
+     "read_from": "image",
+     "section": "I.7 q. V"
+    },
+    {
+     "page": "203",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=221",
+     "read_from": "image",
+     "section": "I.8 precepts I-IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Fortuna est causa per accidens, in actionibus hominum certo consilio susceptis",
+    "from_image": true,
+    "tr": "Fortune is a cause by accident in the actions of men undertaken by a set purpose"
+   }
+  },
+  {
+   "id": "1675-causes-014",
+   "question": "fortune-chance",
+   "text": "G",
+   "answer": "accidental-causes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Philosophy, far from the heathen error that made Fortune a blind goddess, takes fortune and chance for causes by accident concurring, from which an unlooked-for effect arises, as the recent fire that almost burned down London or the good fortune of the Spaniards who, sailing west under Columbus, fell upon the rich regions of America. Fortune properly belongs to free causes, chance to natural causes: a sea breaking the dykes of the Low Countries happens by chance, since the end of its swelling is the cleansing of the waters, not the drowning of men.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Horace",
+     "dates": "65-8 BC",
+     "role": "reported"
+    },
+    {
+     "name": "Christopher Columbus",
+     "dates": "1451-1506",
+     "role": "reported"
+    },
+    {
+     "name": "Plutarch",
+     "dates": "c. 46-c. 120",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "252",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n269/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. VII a. I"
+    },
+    {
+     "vol": "2",
+     "page": "253",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n270/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. I"
+    },
+    {
+     "vol": "2",
+     "page": "254",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n271/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. VII a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Fortuna, & casus propriè sumpta definiuntur causæ per accidens efficientes, ex quibus effectus præter intentionem sequitur.",
+    "from_image": true,
+    "tr": "Fortune and chance, properly taken, are defined as efficient causes by accident, from which an effect follows beyond the intention."
+   }
+  },
+  {
+   "id": "1675-causes-015",
+   "question": "fortune-chance",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Le Grand gives no account of fortune or chance; the words occur only in passing in his article on fate (p. 91).",
+   "cites": [
+    {
+     "page": "91",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n146/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-016",
+   "question": "fortune-god",
+   "text": "S",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Nothing can be fortuitous to God, who is supremely wise, since fortune has place only where there is some want of wisdom and foresight. God's providence does not take away philosophical fortune: though God foreknows, and even intends, the fortuitous effect, it stays fortuitous because it does not proceed from the intention of the particular cause; one man may be killed by another by chance and yet have been given by God into the slayer's hands. Our fortune is to be subjected to providence, not set against it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "God is supremely wise; fortune goes with want of wisdom"
+    }
+   ],
+   "cites": [
+    {
+     "page": "200",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=218",
+     "read_from": "image",
+     "section": "I.7 q. III-IV"
+    },
+    {
+     "page": "201",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=219",
+     "read_from": "image",
+     "section": "I.7 q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "DEO nihil potest esse fortuitum",
+    "from_image": true,
+    "tr": "To God nothing can be fortuitous"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-019",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "God's providence rules and governs everything in the whole world"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-017",
+   "question": "fortune-god",
+   "text": "G",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fortune and chance have place also with respect to angels and the heavens, as when a guardian angel's good prompting leads a man to meet and kill his enemy, or a thunderbolt drawn up by the heavens burns a forest; but not with respect to God, since nothing happens that God has not foreseen and either permitted or preordained. Augustine's retraction of the words chance and fortune concerns them only as the heathen used them, for a deity presiding over chance events.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aquinas on Physics II; Augustine, Retractations"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Augustine of Hippo",
+     "dates": "354-430",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "255",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n272/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. I"
+    },
+    {
+     "vol": "2",
+     "page": "256",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n273/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "fortuna, & casus locum habent etiam respectu Angelorum, & Cœlorum, non tamen respectu Dei",
+    "from_image": true,
+    "tr": "fortune and chance have place also with respect to the angels and the heavens, but not with respect to God"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-020",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "nothing happens that God has not foreseen and permitted or preordained"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-018",
+   "question": "fortune-god",
+   "text": "L",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fate, better defined with the theologians, is a higher cause from which some effects come that are fortuitous and contingent with respect to us; in this sense the disposition of divine providence has the character of fate.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "91",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n146/mode/1up",
+     "read_from": "image",
+     "section": "II a. 4 §2"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "qui respectu nostri fortuiti sunt, & contingentes",
+    "from_image": true,
+    "tr": "which are fortuitous and contingent with respect to us"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-021",
+     "kind": "same-agent",
+     "basis": "page",
+     "detail": "the higher cause, fate or providence, is the source of the effects fortuitous to us"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-019",
+   "question": "fate-exists",
+   "text": "S",
+   "answer": "divine-ordering",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fate is the order in natural causes that bring about their effects infallibly and inevitably, foreknown, foreordained and appointed by God. It is theological (God's eternal decree, by which men are rich or poor, handsome or ugly, wise or foolish), astrological (the stars' influence ruling bodies below), physical (the order of all natural causes bringing about necessary effects, subject to God, by which come cold, heat, winds and rain) or Stoic. The name of fate does not stand here for God himself, since it implies a series of many causes, though authors, Seneca among them, often use fate, deity, nature and God without distinction.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Lucius Annaeus Seneca",
+     "dates": "c. 4 BC-AD 65",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "247",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=265",
+     "read_from": "image",
+     "section": "I.10 precept I"
+    },
+    {
+     "page": "248",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=266",
+     "read_from": "image",
+     "section": "I.10 precepts II-VI"
+    },
+    {
+     "page": "256",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=274",
+     "read_from": "image",
+     "section": "I.10 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Fatum est ordo in Causis naturalibus effectus suos infallibiliter & inevitabiliter inferentibus à Deo glorioso præcognitus, præordinatus & præstitutus.",
+    "from_image": true,
+    "tr": "Fate is the order in natural causes that bring about their effects infallibly and inevitably, foreknown, foreordained and appointed by God the glorious."
+   }
+  },
+  {
+   "id": "1675-causes-020",
+   "question": "fate-exists",
+   "text": "G",
+   "answer": "divine-ordering",
+   "stance": "holds",
+   "part": "common",
+   "statement": "There is a fate, rightly explained, and this is certain: God foreordained and foreknew everything from eternity. Fate properly is nothing but the divine preordination, or a disposition impressed on contingent things, by which God carries out the decrees of his providence; with Boethius, the unmoving disposition of moving things, by which providence binds everything in its order, or more briefly, with Aquinas, the ordering of second causes to effects intended by God. With Augustine, whoever calls God's will fate should keep his opinion and correct his tongue; the Fathers avoided the word lest they seem to agree with the heathen.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Boethius, Aquinas, Augustine"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Boethius",
+     "dates": "c. 477-524",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Augustine of Hippo",
+     "dates": "354-430",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "257",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n274/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. II"
+    },
+    {
+     "vol": "2",
+     "page": "258",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n275/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Datur fatum legitimo sensu explicatum.",
+    "from_image": true,
+    "tr": "There is a fate, rightly explained."
+   }
+  },
+  {
+   "id": "1675-causes-021",
+   "question": "fate-exists",
+   "text": "L",
+   "answer": "divine-ordering",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Fate is nothing but what God has spoken of each of us: the eternal decree of his providence, by which he sees, knows and governs all things; or better, with the theologians, a higher cause from which effects come that are fortuitous with respect to us. Fate is unmoving but inheres in moving things, moving them gently and without compulsion, necessary things necessarily, free things freely.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "91",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n146/mode/1up",
+     "read_from": "image",
+     "section": "II a. 4 §2, §4"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "sive esse decretum æternum ipsius providentiæ, qua omnia videt, cognoscit, & gubernat",
+    "from_image": true,
+    "tr": "or that it is the eternal decree of his providence, by which he sees, knows and governs all things"
+   }
+  },
+  {
+   "id": "1675-causes-022",
+   "question": "fate-necessity",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Astrological fate is most true within its limits, but to drag it over to our will is to take free choice from man and to blame God, ruler and creator of the stars. Stoic fate, an absolute necessity of all things arising from the stars' influence and the linking of created causes and binding even God, is stupid and brutish, impious and blasphemous.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Philipp Melanchthon, quoted against referring all events to the stars"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Philipp Melanchthon",
+     "dates": "1497-1560",
+     "role": "followed"
+    },
+    {
+     "name": "the Stoics",
+     "dates": null,
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "248",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=266",
+     "read_from": "image",
+     "section": "I.10 precept VI"
+    },
+    {
+     "page": "257",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=275",
+     "read_from": "image",
+     "section": "I.10 q. II"
+    },
+    {
+     "page": "259",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=277",
+     "read_from": "ocr",
+     "section": "I.10 q. V"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "est homini liberum arbitrium detrahere",
+    "from_image": true,
+    "tr": "is to take free choice away from man"
+   }
+  },
+  {
+   "id": "1675-causes-023",
+   "question": "fate-necessity",
+   "text": "G",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The Stoics placed fate in a series and linking of causes and inferred that everything happens of necessity; Aquinas rejects them, chiefly because it is not necessary that when a cause is posited its effect follows, since a stronger cause, not itself necessary but contingent, may hinder it. The fate that rules even the gods, which Thetis and Jupiter could not turn from Achilles, is false and fabulous, and those who made the stars necessarily govern men's wills will be answered under the influence of the heavens.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "a cause posited need not produce its effect, being hindered by a stronger contingent cause"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aquinas; the Fathers"
+    }
+   ],
+   "persons": [
+    {
+     "name": "the Stoics",
+     "dates": null,
+     "role": "opposed"
+    },
+    {
+     "name": "Homer",
+     "dates": "8th century BC",
+     "role": "reported"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "256",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n273/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. II"
+    },
+    {
+     "vol": "2",
+     "page": "257",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n274/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "non est necesse posita causa poni effectum",
+    "from_image": true,
+    "tr": "it is not necessary that when the cause is posited the effect is posited"
+   }
+  },
+  {
+   "id": "1675-causes-024",
+   "question": "fate-necessity",
+   "text": "L",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Such a disposition of providence lays no necessity on human actions, as experience shows: it is in our power to assent and dissent, to weigh both sides and choose, and men change their minds at their friends' persuasion; otherwise all prudence would be taken away and man would act by mere fortune and chance. God's foreknowledge brings only the necessity that follows a thing, not the necessity that goes before and causes it, since the foreknowledge follows the future, not the future the foreknowledge.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "we find in ourselves that we can assent, dissent and choose"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "consequent and antecedent necessity distinguished"
+    }
+   ],
+   "cites": [
+    {
+     "page": "91",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n146/mode/1up",
+     "read_from": "image",
+     "section": "II a. 4 §3, §5"
+    },
+    {
+     "page": "92",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n147/mode/1up",
+     "read_from": "image",
+     "section": "II a. 4 §6-7"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "nullam necessitatem actionibus humanis imponat",
+    "from_image": true,
+    "tr": "lays no necessity on human actions"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-021",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "the disposition of providence moves free things freely"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-025",
+   "question": "stars-sublunar",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The heavenly bodies are second universal efficient causes, which flow into the generations and corruptions of natural bodies while remaining under God's dominion. By the astrological fate, true within its limits, come the seasons, day and night with the twilight wisely put between them, the waxing and waning of the humours in plants and animals, and the eclipses.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "148",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=166",
+     "read_from": "image",
+     "section": "I.5 precept VI"
+    },
+    {
+     "page": "257",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=275",
+     "read_from": "image",
+     "section": "I.10 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Talia sunt corpora cœlestia, quæ in corporum naturalium generationes & corruptiones influunt",
+    "from_image": true,
+    "tr": "Such are the heavenly bodies, which flow into the generations and corruptions of natural bodies"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-019",
+     "kind": "instance",
+     "basis": "page",
+     "detail": "the astrological fate is one of the kinds of fate"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-026",
+   "question": "stars-sublunar",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since things below the moon are subject to the influx of the stars, each thing at its first production receives from the heaven a disposition by which it is conserved and on whose dissipation it perishes, so that the life and duration of sublunary things depends on it and is measured by it. This disposition may in some way be called fate, but not properly, since fate signifies something unmoving, and the ruin and death of sublunary things is often hastened by chance and fortune or put off by art and remedies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "258",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n275/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quælibet res in prima productione quamdam à cœlo dispositionem recipit, per quam conseruatur",
+    "from_image": true,
+    "tr": "each thing at its first production receives a certain disposition from the heaven, by which it is conserved"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-020",
+     "kind": "instance",
+     "basis": "page",
+     "detail": "the heavenly disposition may in some way be called fate"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-027",
+   "question": "stars-sublunar",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-028",
+   "question": "stars-will",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The stars' fate has its limits, beyond which it becomes harmful and damnable: it does not reach our will. The art of the stars is true in what is subject to it, but its practitioners often deceive and are deceived.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Philipp Melanchthon",
+     "dates": "1497-1560",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "257",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=275",
+     "read_from": "image",
+     "section": "I.10 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Limites enim suos habet, quos ultra cum tendit, noxium & damnabile evadit.",
+    "from_image": true,
+    "tr": "For it has its limits, and when it reaches beyond them it becomes harmful and damnable."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-022",
+     "kind": "same-agent",
+     "basis": "page",
+     "detail": "astral fate dragged over the will would take away free choice"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-029",
+   "question": "stars-will",
+   "text": "G",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Some ancients reduced fate to the heavenly bodies, an inevitable impression of the stars to which they subjected everything, human affairs too, thinking that the heaven necessarily rules men's wills; that view will be refuted under the heavens' influence.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "256",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n273/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. VII a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "putabant enim cœlum necessariò præsidere voluntati hominum",
+    "from_image": true,
+    "tr": "for they thought that the heaven necessarily rules men's wills"
+   }
+  },
+  {
+   "id": "1675-causes-030",
+   "question": "stars-will",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-031",
+   "question": "monster-nature",
+   "text": "S",
+   "answer": "natures-error",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A monster is a natural effect produced with notable deformity by a cause that fails and errs, as a two-headed or one-eyed man. Strictly it is not nature's work but a by-work, a defect and sin; nature intends it not by its primary intention, which aims only at the perfect, but by a secondary one, intending the effect in an imperfect being when it cannot reach a perfect one. Monsters belong to physics indirectly, as bad syllogisms to the logician.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "207",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=225",
+     "read_from": "image",
+     "section": "I.9 precept I"
+    },
+    {
+     "page": "143",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=161",
+     "read_from": "ocr",
+     "section": "I.4 q. V"
+    },
+    {
+     "page": "224",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=242",
+     "read_from": "ocr",
+     "section": "I.9 q. I"
+    },
+    {
+     "page": "244",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=262",
+     "read_from": "image",
+     "section": "I.9 q. XIV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Monstrum non intendit intentione Primariâ, sed Secundariâ.",
+    "from_image": true,
+    "tr": "[Nature] intends a monster not by its primary intention but by its secondary one."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-007",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "nature intends the perfect by its primary intention; the monster by its secondary"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-032",
+   "question": "monster-nature",
+   "text": "G",
+   "answer": "natures-error",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Even nature's sins and monsters, with Aquinas, show that nature acts for an end: a sin or monster is a straying from the end, and nothing falls short of an end unless it is ordered to it; the work was for an end, but by accident and the failure of some cause it could not reach it, as a skilled archer's arrow is turned aside by the wind. The causes are too much matter (twins grown into one), too little (a child born without hands), unfit matter (from the mixing of two kinds) and disturbance of the matter; monsters are rarer in brutes, which follow nature's instinct more exactly, and more frequent in men, who disturb nature's order, God also punishing men's sins with such disgraces.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aquinas; Aristotle, Generation of Animals"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "238",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n255/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    },
+    {
+     "vol": "2",
+     "page": "239",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n256/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Peccatum enim, & monstrum est deuiatio à fine",
+    "from_image": true,
+    "tr": "For a sin and a monster is a straying from the end"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-008",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "a monster is a straying from the end, which presupposes being ordered to it"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-033",
+   "question": "monster-nature",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-034",
+   "question": "hybrids-monsters",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The mule falls far short: it agrees with the horse neither in body nor in ways, and is as unlike the she-ass, like both and like neither; so it is held a monster abominable to God and nature, and whatever beauty it seems to have is not true beauty, which comes only from the first and true beauty.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Leviticus 19:19, against mixing kinds"
+    }
+   ],
+   "cites": [
+    {
+     "page": "239",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=257",
+     "read_from": "image",
+     "section": "I.9 q. X"
+    },
+    {
+     "page": "240",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=258",
+     "read_from": "ocr",
+     "section": "I.9 q. X"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hinc omninò eum pro monstro Deo & Naturæ abominabili habemus.",
+    "from_image": true,
+    "tr": "Hence we hold it wholly for a monster abominable to God and to nature."
+   }
+  },
+  {
+   "id": "1675-causes-035",
+   "question": "hybrids-monsters",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Unfit matter causes monsters above all in things begotten from the mixing of two kinds, as of the lioness and the pard, or the mare and the ass; in Africa, for want of males or of water, animals of various kinds meet and mix, whence the leopard and the proverb that Africa always brings something new.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "239",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n256/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Incongruitas materiæ monstra causat, in his præcipuè, quæ generantur ex commixtione duplicis speciei",
+    "from_image": true,
+    "tr": "Unfit matter causes monsters, above all in those begotten from the mixing of two kinds"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-032",
+     "kind": "instance",
+     "basis": "page",
+     "detail": "unfit matter, one of the causes of monsters"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-036",
+   "question": "hybrids-monsters",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-037",
+   "question": "nature-definition",
+   "text": "S",
+   "answer": "internal-cause",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nature is the internal cause by which any natural body has its essence, properties, actions and passions. It differs from matter and form not in fact but in reason, being matter and form taken together: one nature of man, one of the horse, one of the dog.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "128",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=146",
+     "read_from": "image",
+     "section": "I.4 precept"
+    },
+    {
+     "page": "130",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=148",
+     "read_from": "ocr",
+     "section": "I.4"
+    },
+    {
+     "page": "140",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=158",
+     "read_from": "image",
+     "section": "I.4 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Natura est causa interna, qua quodvis corpus naturale suam habet essentiam, affectiones, actiones & passiones.",
+    "from_image": true,
+    "tr": "Nature is the internal cause by which any natural body has its essence, properties, actions and passions."
+   }
+  },
+  {
+   "id": "1675-causes-038",
+   "question": "nature-definition",
+   "text": "S",
+   "answer": "principle-of-motion",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The definition of nature the schools give, a principle and cause of motion and rest in that in which it is first, by itself and not by accident, sins against nearly every condition of a good definition: it is ambiguous in almost every word (principle, cause, motion, rest), says both too little and too much (some natural things lack motion, some rest, and it leaves out quantity, figure and quality, the chief properties), and repeats itself ('by itself' and 'not by accident' are one). Aristotle left no definitions; those who sell collected words of his for them start quarrels they can never settle, and on this definition hangs all natural science.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the conditions of a good definition"
+    },
+    {
+     "kind": "authority",
+     "detail": "Francesco Piccolomini on the care due to definitions; Benito Pereira on forced interpretations"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    },
+    {
+     "name": "Francesco Piccolomini",
+     "dates": "1520-1604",
+     "role": "credited"
+    },
+    {
+     "name": "Benito Pereira",
+     "dates": "1536-1610",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "132",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=150",
+     "read_from": "ocr",
+     "section": "I.4 q. I"
+    },
+    {
+     "page": "137",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=155",
+     "read_from": "image",
+     "section": "I.4 q. II"
+    },
+    {
+     "page": "138",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=156",
+     "read_from": "image",
+     "section": "I.4 q. II"
+    },
+    {
+     "page": "139",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=157",
+     "read_from": "ocr",
+     "section": "I.4 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Naturæ definitio ab iisdem proposita vitiosa est.",
+    "from_image": true,
+    "tr": "The definition of nature they propose is faulty."
+   }
+  },
+  {
+   "id": "1675-causes-039",
+   "question": "nature-definition",
+   "text": "G",
+   "answer": "principle-of-motion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nature, in the sense in which physics takes it (not birth, nor the essence of a thing, nor matter and form as partial natures), is the intrinsic root from which the sensible motions of natural things first flow, as when a stone falls, air rises, the heart beats, water cools and fire heats; and it is rightly defined, with Aristotle, as the principle and cause of motion and rest of that in which it is, first and by itself and not by accident. Neither God nor the angels are nature in the physicist's sense, being above all change; God is called 'natura naturans' only by a kind of excellence, as author, preserver and governor of nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "134",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n151/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. I"
+    },
+    {
+     "vol": "2",
+     "page": "135",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n152/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. I"
+    },
+    {
+     "vol": "2",
+     "page": "140",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n157/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Natura rectè definitur: principium, & causa motus, & quietis eius in quo est, primò, & per se, & non secundùm accidens.",
+    "from_image": true,
+    "tr": "Nature is rightly defined: the principle and cause of motion and rest of that in which it is, first and by itself and not by accident."
+   }
+  },
+  {
+   "id": "1675-causes-040",
+   "question": "nature-definition",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Le Grand gives no definition of nature in the articles read."
+  },
+  {
+   "id": "1675-causes-041",
+   "question": "final-causes",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The end is the external cause for whose sake the natural body is produced: natural bodies are produced, preserved and operate for an end. The universal end, absolutely, is the glory of God, for whose sake the whole system of the world was created and is preserved; the particular end is the good each thing tends to in its kind by nature's prescription, as man's to be wise and the sun's to shine. The physicist takes the end only in relation to the natural body, leaving its full breadth to the metaphysician.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "177",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=195",
+     "read_from": "image",
+     "section": "I.6 precepts I-IV"
+    },
+    {
+     "page": "178",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=196",
+     "read_from": "image",
+     "section": "I.6 precept VI and explanation"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Propter finem corpora naturalia producuntur, conservantur, operantur.",
+    "from_image": true,
+    "tr": "For the end natural bodies are produced, preserved and operate."
+   }
+  },
+  {
+   "id": "1675-causes-042",
+   "question": "final-causes",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Descartes sinned gravely against philosophy when he ordered it to abstain wholly from seeking final causes (Principles, part I, no. 28). The philosopher's care is to seek the causes of natural things, and since all natural things are ordered to fixed ends and the end is the first of all causes, it is his chief care to contemplate and admire the wise order and fitting disposition of means to ends that God's wisdom devised, which most of all convinces that nature was made by a most wise maker and is directed by a most provident governor; so Galen, from the fit disposition of the parts of the human body, was stirred to praise God. Those who would play the Epicurean and give nature's works to the collisions of corpuscles do well to keep silent about final causes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "the ends of natural things can be read off their disposition: the liver in the belly, the lung in the chest, the eye in the head"
+    },
+    {
+     "kind": "authority",
+     "detail": "Galen"
+    },
+    {
+     "kind": "refutation",
+     "detail": "against Descartes"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    },
+    {
+     "name": "Galen",
+     "dates": "129-c. 216",
+     "role": "credited"
+    },
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "236",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n253/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    },
+    {
+     "vol": "2",
+     "page": "237",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n254/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Renatum Descartes grauitèr contra Philosophiam peccasse",
+    "from_image": true,
+    "tr": "René Descartes sinned gravely against philosophy"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-008",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "since all natural things are ordered to fixed ends, the philosopher must study ends"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-043",
+   "question": "final-causes",
+   "text": "G",
+   "answer": "no",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Descartes's reason does not press, that it is presumption to search out God's counsels, which are incomprehensible. It proves nothing: to pry into the counsels God keeps secret, neither revealing them nor showing them in his works, is the boldest rashness; but to seek out, contemplate and admire those made known in Scripture for our salvation, or shining forth in creatures to the Creator's praise, is the work of Christian and philosophical wisdom.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "God's hidden counsels distinguished from the ends shown in his works and in Scripture"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "237",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n254/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nec planè vrget ratio Renati in oppositum",
+    "from_image": true,
+    "tr": "Nor does René's reason to the contrary press at all"
+   }
+  },
+  {
+   "id": "1675-causes-044",
+   "question": "final-causes",
+   "text": "L",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There is no use of the final cause in physics. Even if we may ask by what principle natural things are produced, of what matter and by what form, we must abstain from too much curiosity about the reasons that led God to create the world and the ends he set himself in making the earth, the stars and men from nothing: it is rash to try to sound so deep an abyss and share his counsels, we being weak and of limited capacity and God immense, of infinite power and incomprehensible. In morals, where conjectures count, it may help piety to draw out an end God set himself in creating or governing the world; in physics, where nothing is admitted but what rests on the firmest arguments, it is rash to rise above the stars and pry into divine secrets.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "God is immense, of infinite power and incomprehensible; our capacity is limited"
+    },
+    {
+     "kind": "other",
+     "detail": "physics admits nothing but what rests on the firmest arguments; ends are only conjectures"
+    }
+   ],
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n260/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15 §2-3"
+    },
+    {
+     "page": "202",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n261/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15 §3-4"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Temerarium est tantum abyssum velle penetrare",
+    "from_image": true,
+    "tr": "It is rash to try to sound so great an abyss"
+   }
+  },
+  {
+   "id": "1675-causes-045",
+   "question": "world-for-man",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The universal end, taken relatively, is that whose use the whole world with all its parts serves: such is man, the epitome of the world and nature's darling.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "177",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=195",
+     "read_from": "image",
+     "section": "I.6 precept V"
+    },
+    {
+     "page": "178",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=196",
+     "read_from": "image",
+     "section": "I.6 precept V"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "cuius usui totus Mundus cum omnibus suis partibus inservit",
+    "from_image": true,
+    "tr": "whose use the whole world with all its parts serves"
+   }
+  },
+  {
+   "id": "1675-causes-046",
+   "question": "world-for-man",
+   "text": "G",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the articles read. Goudin says only, after Aquinas, that we are the end of all artificial things (p. 151, read in the OCR).",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "151",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n168/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. III"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-047",
+   "question": "world-for-man",
+   "text": "L",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Some will say that the sun was made to light us and our mind to consider it, indeed that the whole universe was founded for man's sake, since everything in it is referred to him in a special way, so that God's ends can be known like other causes. They can fix nothing about God's end except by conjecture: it is absurd to imagine the sun was created for nothing but to light us and the stars set in the firmament for our sake, when we are the least part of the earth and the sun many times exceeds the whole earth, and many things exist and have existed that man never saw or came to know.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "man is the least part of the earth and the sun far larger than the earth; many things no man has seen"
+    }
+   ],
+   "cites": [
+    {
+     "page": "202",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n261/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15 §4"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "insulsum est imaginari, ad nihil aliud Solem quam ad nos illuminandos fuisse creatum",
+    "from_image": true,
+    "tr": "it is absurd to imagine that the sun was created for nothing else than to light us"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-044",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "only conjecture can fix anything about God's ends"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-048",
+   "question": "second-causes",
+   "text": "S",
+   "answer": "creatures-act",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "God is the first universal efficient cause, by whose influx all natural bodies are produced; the heavenly bodies are second universal causes under him; and particular causes produce one kind of body each, as a man begets only a man, not a stone, a tree, a horse or a lion. A remote cause produces mediately, through others, as the sun is a remote cause of a man or a horse; a proximate cause immediately, as man of man. Since remote causes do not give knowledge, which is knowing a thing by its proximate cause, whoever wants to know must go from the remote to the proximate cause.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "147",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=165",
+     "read_from": "image",
+     "section": "I.5 precepts I-V"
+    },
+    {
+     "page": "148",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=166",
+     "read_from": "image",
+     "section": "I.5 precepts VI-IX"
+    },
+    {
+     "page": "167",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=185",
+     "read_from": "image",
+     "section": "I.5 q. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Sic homo est causa proxima hominis, equus equi",
+    "from_image": true,
+    "tr": "So man is the proximate cause of a man, a horse of a horse"
+   }
+  },
+  {
+   "id": "1675-causes-049",
+   "question": "second-causes",
+   "text": "G",
+   "answer": "creatures-act",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "It is certain that the whole substance, the composite, is the principle that acts, since acting belongs to what has being: we do not say that music sings or charity loves, but that the man sings and loves. An accidental form, as heat, can be the chief power producing another like it, as experience shows heat producing heat in water or iron; and only the substantial form is the chief principle producing another substantial form, as all commonly hold against a few who think substantial forms wholly idle and make the accidents do everything.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "heat in water or iron produces other heat"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aquinas, Summa contra Gentiles; Aristotle, On the Soul"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "184",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n201/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. IV a. II"
+    },
+    {
+     "vol": "2",
+     "page": "185",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n202/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. IV a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Certum est totum substantiale esse principium quod effectiuum; eius enim est operari, cuius est esse.",
+    "from_image": true,
+    "tr": "It is certain that the whole substance is the principle which acts; for acting belongs to that to which being belongs."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-031",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "the substantial form, principle of being, is the principle of acting"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-050",
+   "question": "second-causes",
+   "text": "L",
+   "answer": "god-alone",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Under the name of efficient cause comes God alone, the best and greatest, who is the principle of all things and on whom alone all the rest depend. No body can move itself, since the force that moves it is distinct from it, nor move another, since one body moves another only by losing as much motion as it gives, and how can it give motion it does not have? If all creatures had lain mixed together at the beginning with nothing but extension, none would have power to move itself or the others; so God is the principle of all the motion there is in the world.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "body is extension only, and motion is no effect of extension; no one gives what he does not have"
+    }
+   ],
+   "cites": [
+    {
+     "page": "201",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n260/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 15 §1"
+    },
+    {
+     "page": "208",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n267/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 18 §3"
+    },
+    {
+     "page": "209",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n268/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 18 §4-5"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Causæ autem efficientis nomine, solus Deus optimus maximus venit",
+    "from_image": true,
+    "tr": "Under the name of efficient cause comes God alone, the best and greatest"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-008",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "body is merely passive, bare extension, and motion is no effect of extension"
+    },
+    {
+     "claim": "1675-causes-066",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "real qualities cannot be conceived to act, so another cause of motion must be sought"
+    },
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "creatures at the beginning had nothing but extension"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-051",
+   "question": "god-against-nature",
+   "text": "S",
+   "answer": "can-do-violence",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "God never acts against nature; to say he does would make him act against himself, which is impious and blasphemous.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "142",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=160",
+     "read_from": "image",
+     "section": "I.4 q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "si contra eam Deus ageret, contra seipsum ageret, quod impium & blasphemum",
+    "from_image": true,
+    "tr": "if God acted against it, he would act against himself, which is impious and blasphemous"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-010",
+     "kind": "same-agent",
+     "basis": "page",
+     "detail": "nature is from God, so acting against it would be acting against himself"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-052",
+   "question": "god-against-nature",
+   "text": "G",
+   "answer": "can-do-violence",
+   "stance": "leans",
+   "part": "dispute",
+   "statement": "It seems probable that God, if he wills, can do violence to creatures by acting as a particular agent rather than as the universal governor of nature: as if he produced heat in water while keeping water's natural enmity to heat and concurring with it to expel the heat. So Aquinas says that not everything God does in creatures is natural to them, but only what he wills to be; and God does violence to the demons, binding them, as Peter says, with chains of fire.",
+   "confidence": {
+    "level": "probable",
+    "printed": "Probabile tamen videtur",
+    "translation": "Yet it seems probable"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aquinas; 2 Peter 2:4"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "God is above both particular and universal agents and can act as either"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "146",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n163/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. II"
+    },
+    {
+     "vol": "2",
+     "page": "147",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n164/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "potest tamen secundo modo motum violentum inferre",
+    "from_image": true,
+    "tr": "yet in the second way he can bring about a violent motion"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-011",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "God can move creatures as universal governor, without violence, or as a particular agent"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-053",
+   "question": "god-against-nature",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-054",
+   "question": "art-nature",
+   "text": "S",
+   "answer": "accidents-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Taken apart, nature is stronger than art, as the saying goes: art is powerful, nature more powerful, God most powerful; for art makes mere accidents, while nature besides accidents produces substances, and God creates where nature begets and art arranges. Taken together, art excels, since in many things nature is the beginning and art the completion, as many are by nature inclined to poetry but are perfected by art.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "140",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=158",
+     "read_from": "image",
+     "section": "I.4 q. III"
+    },
+    {
+     "page": "141",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=159",
+     "read_from": "ocr",
+     "section": "I.4 q. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ars enim mera facit accidentia. Natura præter accidentia etiam substantias producit.",
+    "from_image": true,
+    "tr": "For art makes mere accidents. Nature produces substances besides accidents."
+   }
+  },
+  {
+   "id": "1675-causes-055",
+   "question": "art-nature",
+   "text": "G",
+   "answer": "by-natural-powers",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Art imitates nature and can bring about natural effects, not by its artificial forms, which are barren and can cause no motion, but by applying natural active powers to fit passive ones: so the physician heals with natural remedies, ointments and colours are made by mixing natural things, and the demons, who know exactly the powers of animals, herbs, stones, metals and minerals, made the serpents and frogs of the magicians in Egypt by such natural powers. But there are many natural things whose producing powers are not subject to human art, and these art cannot make.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the physician's remedies; ointments, perfumes and colours"
+    },
+    {
+     "kind": "scripture",
+     "detail": "the magicians' serpents and frogs in Egypt"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "153",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n170/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. III"
+    },
+    {
+     "vol": "2",
+     "page": "154",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n171/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Plura tamen naturalia sunt, quorum virtutes effectrices non subiacent arti humanæ",
+    "from_image": true,
+    "tr": "Yet there are many natural things whose producing powers are not subject to human art"
+   }
+  },
+  {
+   "id": "1675-causes-056",
+   "question": "art-nature",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-057",
+   "question": "metal-transmutation",
+   "text": "G",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Chief among the things art cannot make is gold, though something like gold may perhaps be made by mixing metals. The power that produces gold is the sun's heat in a fit place where the mineral power thrives, the mine being as it were the mother and the sun the father, and we cannot dispose of the sun's power or make a place bear gold; the sun spends almost whole ages forming gold, so it is ridiculous for a man to attempt it in a short time. The fire's heat cannot stand in for the sun's, which works as the sun's instrument together with other unseen influences of the star; gold has no seed; and the experiments alleged are all false, yielding only adulterate gold, which the Church forbids selling as true. Albertus Magnus, who seems to favour the chemists, admits that their gold lacks the properties of the natural metal, and Aquinas calls it sophisticated gold.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "the sun's heat and influences, which art cannot supply, produce gold"
+    },
+    {
+     "kind": "refutation",
+     "detail": "the chemists' experiments are false"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aquinas"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Anaxagoras",
+     "dates": "c. 500-c. 428 BC",
+     "role": "credited"
+    },
+    {
+     "name": "Albertus Magnus",
+     "dates": "c. 1200-1280",
+     "role": "reported"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "154",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n171/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. III"
+    },
+    {
+     "vol": "2",
+     "page": "155",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n172/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. I a. III"
+    },
+    {
+     "vol": "2",
+     "page": "156",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n173/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. III"
+    },
+    {
+     "vol": "2",
+     "page": "157",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n174/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "nemo diues hac arte effectus est, sed qui fictitium istud aurum quæsiuere, verum aurum in fumos conuerterunt",
+    "from_image": true,
+    "tr": "no one was ever made rich by this art, but those who sought that counterfeit gold turned their true gold into smoke"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-026",
+     "kind": "instance",
+     "basis": "page",
+     "detail": "gold is formed by the sun's heat and its other influences, which art cannot supply"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-058",
+   "question": "metal-transmutation",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the chapters read; metals are left to the topic on minerals."
+  },
+  {
+   "id": "1675-causes-059",
+   "question": "metal-transmutation",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-060",
+   "question": "monster-usual",
+   "text": "S",
+   "answer": "right-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A monster is judged against the right and perfect effects of its kind, not against what is usual. The common definition, an effect degenerating from the right and usual disposition according to its kind, takes 'usual' as an excuse to remove from the monsters those that adorn the order most: giants, where they are more frequent in some province, and pygmies, small in certain places for certain causes. But a multitude of errors gives no patronage to error, and what is wrong at Wittenberg cannot be right and true at Rome.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "246",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=264",
+     "read_from": "image",
+     "section": "I.9 q. XVII"
+    },
+    {
+     "page": "247",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=265",
+     "read_from": "image",
+     "section": "I.9 q. XVII"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quòd Witebergæ erratum est, Romæ rectum verumque esse nequit",
+    "from_image": true,
+    "tr": "what is an error at Wittenberg cannot be right and true at Rome"
+   }
+  },
+  {
+   "id": "1675-causes-061",
+   "question": "monster-usual",
+   "text": "S",
+   "answer": "right-and-usual",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "He rejects the common definition, 'an effect degenerating from the right and usual disposition according to its kind', and the labour its defenders spend on what 'right', 'usual', 'disposition' and 'degeneration' mean.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "246",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=264",
+     "read_from": "image",
+     "section": "I.9 q. XVII"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Monstrum est effectus naturalis à rectâ & solitâ dispositione secundum speciem degenerans",
+    "from_image": true,
+    "tr": "A monster is a natural effect degenerating from the right and usual disposition according to its kind"
+   }
+  },
+  {
+   "id": "1675-causes-062",
+   "question": "monster-usual",
+   "text": "G",
+   "answer": "right-and-usual",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A monster is properly defined as an effect degenerating from the right and usual disposition: a man born without hands, or with one eye in the forehead as the poets tell of the Cyclopes, or with six fingers as Scripture tells of a giant, or with goat's feet and horned head as is said of the satyrs, or with a half-horse body as of the centaurs.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "238",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n255/mode/1up",
+     "read_from": "image",
+     "section": "disp. II q. V a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "definiri effectum à recta, & solita dispositione degenerantem",
+    "from_image": true,
+    "tr": "it is defined as an effect degenerating from the right and usual disposition"
+   }
+  },
+  {
+   "id": "1675-causes-063",
+   "question": "monster-usual",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Not in the articles read."
+  },
+  {
+   "id": "1675-causes-064",
+   "question": "spontaneous-generation",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Flies, mice, worms and frogs, being determinate effects, are not made by a universal and indeterminate cause such as the sun and stars; so those who rest in the sun and stars when frogs, mice, worms and metals are generated rest wrongly. Their seeds, even if not always seen, are not on that account to be denied.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "no determinate effect comes from a universal and indeterminate cause"
+    }
+   ],
+   "cites": [
+    {
+     "page": "167",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=185",
+     "read_from": "image",
+     "section": "I.5 q. II-III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Et licet sub conspectum non semper cadant semina, non tamen propterea neganda sunt.",
+    "from_image": true,
+    "tr": "And though the seeds do not always come into view, they are not on that account to be denied."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-causes-048",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "a determinate effect needs a determinate, proximate cause"
+    }
+   ]
+  },
+  {
+   "id": "1675-causes-065",
+   "question": "human-beast-offspring",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "A true man cannot be begotten from the union of a man and a beast. The Coimbra commentators waver, first denying it, then saying experience does not wholly confirm the denial; but one partial cause cannot produce the effect alone.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "the Coimbra commentators",
+     "dates": null,
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "244",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=262",
+     "read_from": "image",
+     "section": "I.9 q. XV"
+    },
+    {
+     "page": "245",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=263",
+     "read_from": "ocr",
+     "section": "I.9 q. XV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nos quæstionem negandam censemus.",
+    "from_image": true,
+    "tr": "We hold that the question must be answered no."
+   }
+  },
+  {
+   "id": "1675-causes-066",
+   "question": "explanation-standard",
+   "text": "L",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Those who appeal to real qualities, gravity, levity or an impressed quality, as the immediate principles of physical actions call in things they cannot explain: it is rash in physics, which deals with bodies, to say a thing happens in a way that does not fall under our imagination, and one should rather say such qualities can do nothing, since we cannot conceive how they would. So another cause of motion must be sought.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "208",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n267/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 18 §1-2"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Temerarium enim est in Physica, ubi de rebus corporeis agitur, dicere quod res hoc, aut illo modo fiat, & modus iste sub imaginationem nostram non cadat.",
+    "from_image": true,
+    "tr": "For it is rash in physics, where bodily things are treated, to say that a thing happens in this or that way when that way does not fall under our imagination."
+   }
+  }
+ ]
+}
