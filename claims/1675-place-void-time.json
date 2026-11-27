@@ -1,0 +1,2965 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1675-place-void-time",
+  "snapshot": "1675",
+  "topic": "place-void-time",
+  "title": "Divisibility, place, void and time",
+  "site": {
+   "page": "c-1675",
+   "view": "#place-void-time"
+  },
+  "published": null,
+  "encoded": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5",
+   "from": "new reading, with the entry"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "rests_on": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5"
+  },
+  "coverage": "One text per region, on the divisibility of matter and the infinite, penetration, place, the void (in nature, by God's power, in the pores, and the suction pump), motion in a full world, and time and duration. read_from records what was read: 'image' where Claude read the page image, 'ocr' where only the library's machine-read text (MDZ page OCR, IA djvu text or hOCR) was used. Every quotation is from an image. Not covered: rarefaction beyond Rohault's corollary (Le Grand IV a. XI not read); Rohault's chapter XII after art. XI (the weight of the air, left to the air topic); Le Grand IV a. XVI-XX on motion and the motions ascribed to the flight of the void; Goudin q. II a. II-V (the infinite by God's power) and q. III a. III beyond the OCR; Sperling II.2 on figure; Rohault on time (no chapter found).",
+  "built_with": "Claude only",
+  "quote_check": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5 (same session; not independent)",
+   "result": "Every quotation was transcribed from the page image in the first reading; none rests on OCR."
+  }
+ },
+ "texts": {
+  "R": {
+   "text": "rohault-traite-1675",
+   "parts": "Part I, ch. VIII, 'Quelques corollaires de la doctrine precedente', pp. 45-50; ch. IX, 'De la divisibilité de la matiere', pp. 50-60; ch. XI art. XIII-XIV, p. 76, and ch. XII, on the motions ascribed to the fear of the void, pp. 77-82 (vol. 1, MDZ canvas = page + 40; read from the images at pp. 45-46, 51 and 56, the rest in the MDZ OCR)"
+  },
+  "S": {
+   "text": "sperling-institutiones-1664",
+   "parts": "Book II, ch. I q. V, p. 277; ch. II, 'De Quantitate', pp. 278-288; ch. V, 'De Loco', pp. 340-360; ch. VI, 'De Tempore', pp. 361-369 (MDZ canvas = page + 18; read from the images at pp. 277, 283, 355-356, 358, 361, 366 and 368, the rest in the MDZ OCR; the running head of pp. 277-355 misprints 'Liber Primus')"
+  },
+  "G": {
+   "text": "goudin-philosophia-1681",
+   "parts": "t. 2, Bologna 1686 (in place of the Cologne 1681 t. 2, not found; R1 clause 6), physics part 1, disputation III: q. II 'De Infinito', a. I, pp. 288-290; q. III 'De Tempore', a. I-II, pp. 311-316; q. IV 'De Loco, & Vacuo', a. I-III, pp. 328-349; q. V 'De Continuo', a. I, pp. 351-352, and a. II, p. 363 (OCR) (IA bub_gb_D2e2JGtx1rwC; /page/n = page + 26 at pp. 288-290, page + 25 at pp. 311-352, read from the images)"
+  },
+  "L": {
+   "text": "legrand-institutio-1675",
+   "parts": "Part IV ('Physica generalis'), a. IV, 'De Substantiae extensae proprietatibus, Divisibilitate, & Impenetrabilitate', pp. 168-172; a. XIII, 'De Loco', pp. 195-198; a. XIV, 'Dari in Natura Vacuum repugnat', pp. 198-200; a. XXVI, 'De Duratione, & ejus speciebus', pp. 232-234 (IA /page/n = page + 59, read from the images at pp. 169-170, 195-196, 199-200 and 232-233)"
+  }
+ },
+ "placement": [
+  {
+   "text": "R",
+   "where": "General physics (Part I): the void, place, rarefaction and the indefinite world as corollaries of the essence of matter (ch. VIII), then divisibility as matter's first property (ch. IX), before motion (ch. X); the suction pump in ch. XII, after motion, as the example of true against false reasoning",
+   "cites": [
+    {
+     "page": "45",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=85",
+     "read_from": "image"
+    },
+    {
+     "page": "51",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=91",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "S",
+   "where": "Book II, on the affections of the natural body: quantity (ch. II), place (ch. V) and time (ch. VI), between magic and motion; the infinite and the void are struck from the affections as non-beings (ch. I q. V)",
+   "cites": [
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=295",
+     "read_from": "image"
+    },
+    {
+     "page": "361",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=379",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "G",
+   "where": "Physics part 1, disputation III, on motion and the conditions of motion, after Aristotle's last books of the Physics: the infinite (q. II), time, the measure of motion (q. III), place, in which motion is exercised, with the void (q. IV), and the continuum (q. V)",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "328",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n353/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "L",
+   "where": "Part IV, general physics: divisibility and impenetrability right after the nature of matter (a. IV); place and the void after rarefaction and weight (a. XIII-XIV); duration near the end of the general physics (a. XXVI)",
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n228/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "195",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n254/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "232",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n291/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1675-place-void-time-001",
+   "question": "void",
+   "text": "R",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The void of the philosophers, a space without matter, is impossible: space or extension and matter are one and the same thing, so to ask for a space without matter is to ask for matter without matter, a manifest contradiction. Taking away all the qualities of a space removes only accidents of a subject whose true essence is supposed.",
+   "confidence": {
+    "level": "certain",
+    "printed": "impossible",
+    "translation": "impossible"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "space and matter are the same thing; a contradiction"
+    }
+   ],
+   "cites": [
+    {
+     "page": "45",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=85",
+     "read_from": "image",
+     "section": "I.8 art. I"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "le vuide des Philosophes est impossible",
+    "from_image": true,
+    "tr": "the void of the philosophers is impossible"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "detail": "the essence of matter is extension, so space and matter are the same",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-002",
+   "question": "void",
+   "text": "S",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "No space is left without body: nature, a lover of unity, labours everywhere to fill the void, since a void not filled with body would take away the unity of the world and of nature; the infinite and the void are non-beings and no affections of the natural body, and to feign a void is the mark of an empty brain.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "nature loves unity; a void would destroy the unity of the world"
+    },
+    {
+     "kind": "observation",
+     "detail": "casks, pipes, bellows, cupping glasses, hats laid flat, vessels burst by frost"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=295",
+     "read_from": "image",
+     "section": "II.1 q. V"
+    },
+    {
+     "page": "358",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=376",
+     "read_from": "image",
+     "section": "II.5 q. IV"
+    },
+    {
+     "page": "359",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=377",
+     "read_from": "ocr",
+     "section": "II.5 q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "fingere vacuum cerebri est vacui, & ingenii inanis",
+    "from_image": true,
+    "tr": "to feign a void is the mark of an empty brain and a hollow wit"
+   }
+  },
+  {
+   "id": "1675-place-void-time-003",
+   "question": "void",
+   "text": "G",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A void, a place not filled by any body, cannot be given naturally, as all the Peripatetics hold against some who trust in empty experiments: natural agents abhor the void as a pernicious schism that hinders the union and communication of things, in which the good of the universe lies, and bodies give up their own inclination to prevent it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "the good of the universe lies in the union of things"
+    },
+    {
+     "kind": "observation",
+     "detail": "water rising in pipes, flesh swelling in cupping glasses, vessels breaking"
+    },
+    {
+     "kind": "consensus",
+     "detail": "all the Peripatetics"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "345",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n370/mode/1up",
+     "read_from": "image",
+     "section": "q. IV a. III"
+    },
+    {
+     "vol": "2",
+     "page": "346",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n371/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Naturalitèr dari non potest vacuum.",
+    "from_image": true,
+    "tr": "Naturally there can be no void."
+   }
+  },
+  {
+   "id": "1675-place-void-time-004",
+   "question": "void",
+   "text": "G",
+   "answer": "scattered",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "There is no void even within the pores of bodies: the least particles love their mutual union as the larger bodies do, and press together to prevent any emptiness in the pores, which are filled with a subtler substance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the least particles behave as the larger bodies"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "348",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n373/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non datur vacuum intrà poros.",
+    "from_image": true,
+    "tr": "There is no void within the pores."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-003",
+     "kind": "instance",
+     "detail": "the same abhorrence of the void in the least parts",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-005",
+   "question": "void",
+   "text": "L",
+   "answer": "none",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The learned call nothing void but what is wholly without body, and such a thing in the universe implies a contradiction: every space involves extension in its concept, and extension belongs to body, since nothing can have no extension; one can no more conceive a space without matter than a mountain without a valley.",
+   "confidence": {
+    "level": "certain",
+    "printed": "implicare",
+    "translation": "implies a contradiction"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "every space involves extension, and extension is proper to body"
+    },
+    {
+     "kind": "analogy",
+     "detail": "a mountain without a valley"
+    }
+   ],
+   "cites": [
+    {
+     "page": "199",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n258/mode/1up",
+     "read_from": "image",
+     "section": "IV a. XIV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ac proinde tale in Universo inveniri implicare.",
+    "from_image": true,
+    "tr": "And so for such a thing to be found in the universe implies a contradiction."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "detail": "body is extended substance and nothing else, so wherever there is extension there is body",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-006",
+   "question": "penetration",
+   "text": "R",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Impulse, the only way we clearly conceive one body moving another, follows easily from the impenetrability of matter, which everyone grants.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "de laquelle tout le monde convient"
+    }
+   ],
+   "cites": [
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=116",
+     "read_from": "ocr",
+     "section": "I.11 art. XIV"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-007",
+   "question": "penetration",
+   "text": "S",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Bodies cannot penetrate one another, for they have length, breadth and depth and their dimensions exclude each other: Peter cannot go through a wall. Things without body and quantity pass freely, as light, sound and the soul; apparent penetration, as water poured into a vessel full of ash or ink into paper, is the subtle giving way to the gross.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "dimensions exclude one another"
+    },
+    {
+     "kind": "observation",
+     "detail": "ash and water, ink and blotting paper"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "285",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=303",
+     "read_from": "ocr",
+     "section": "II.2 q. II"
+    },
+    {
+     "page": "287",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=305",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-008",
+   "question": "penetration",
+   "text": "G",
+   "answer": "not-naturally",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Two bodies cannot naturally penetrate each other and be in the same place, though they can by God's power, as all hold against Durandus: bodies drive each other out, and a place filled by one body cannot take another. A vessel full of ashes still takes water because the water drives out the air held in the gaps; red-hot iron has pores that the subtle fire enters.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a full place cannot be filled further"
+    },
+    {
+     "kind": "consensus",
+     "detail": "communiter omnes"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Durandus of Saint-Pourcain",
+     "dates": "c. 1275-1334",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "335",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n360/mode/1up",
+     "read_from": "image",
+     "section": "q. IV a. II"
+    },
+    {
+     "vol": "2",
+     "page": "336",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n361/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Duo corpora non possunt naturalitèr se penetrare, & esse in eodem loco; possunt tamen divinitùs.",
+    "from_image": true,
+    "tr": "Two bodies cannot naturally penetrate each other and be in the same place; they can, however, by divine power."
+   }
+  },
+  {
+   "id": "1675-place-void-time-009",
+   "question": "penetration",
+   "text": "L",
+   "answer": "never",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Impenetrability belongs to body as much as divisibility: to be extended is to have parts outside parts, so one part cannot occupy the place of another without part of the extension being annihilated; a foot added to a foot makes two feet, and to squeeze them into one is to destroy the supposition.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "extension is parts outside parts"
+    }
+   ],
+   "cites": [
+    {
+     "page": "171",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n230/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. IV"
+    },
+    {
+     "page": "172",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n231/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "detail": "impenetrability follows from extension, the essence of body",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-010",
+   "question": "pores-filled",
+   "text": "R",
+   "answer": "subtler-matter",
+   "stance": "holds",
+   "part": "common",
+   "statement": "When a body grows larger with no matter seen to enter it (rarefaction), a very subtle matter has entered and spread its parts; when it shrinks, an imperceptible matter has left its pores. This matter is foreign to the body, as the air in the eyes of bread is no part of the bread.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "dough rising into bread, crumb squeezed in the hand, a chestnut bursting on the fire"
+    }
+   ],
+   "cites": [
+    {
+     "page": "47",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=87",
+     "read_from": "ocr",
+     "section": "I.8 art. V-VI"
+    },
+    {
+     "page": "48",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=88",
+     "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-001",
+     "kind": "premise",
+     "detail": "since extension and matter are the same, a body cannot grow without more matter",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-011",
+   "question": "pores-filled",
+   "text": "S",
+   "answer": "subtler-matter",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A vessel full of ash or flour takes nearly as much water as if it were empty, not by penetration but because the subtle gives way to the gross and is pressed out or breathes away; ink seems to penetrate blotting paper, but the liquid only fills spaces that air filled before.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "ash, flour and water; ink and paper"
+    }
+   ],
+   "cites": [
+    {
+     "page": "287",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=305",
+     "read_from": "ocr",
+     "section": "II.2 q. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-012",
+   "question": "pores-filled",
+   "text": "G",
+   "answer": "subtler-matter",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The pores of bodies are filled with a subtler substance: in mixed bodies the grosser parts make the pores and the subtler fill them, as flowers shrink when their subtle moisture breathes out; the gaps in a vessel of ashes hold air.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "withering flowers; a vessel of ashes pressed hard"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "336",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n361/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "348",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n373/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-013",
+   "question": "pores-filled",
+   "text": "L",
+   "answer": "subtler-matter",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The space that some imagine void in a stoppered vessel of hot water, when the water shrinks, is taken by a subtle matter passing through the pores of the vessel: it is a popular error to think empty what is not seen to be filled with bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "200",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n259/mode/1up",
+     "read_from": "image",
+     "section": "IV a. XIV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Vulgi error est, vacua credere, quæ corporibus repleri non videntur.",
+    "from_image": true,
+    "tr": "It is a popular error to believe empty what is not seen to be filled with bodies."
+   }
+  },
+  {
+   "id": "1675-place-void-time-014",
+   "question": "place-nature",
+   "text": "R",
+   "answer": "own-extension",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The internal place, the space each body occupies, is not different from the body; when a body is said to change place, this must be understood of its external place, the surface of the surrounding bodies to whose different parts it can be applied.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "46",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=86",
+     "read_from": "image",
+     "section": "I.8 art. IV"
+    },
+    {
+     "page": "47",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=87",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "le lieu interieur, ou l'espace que chaque corps occupe, n'est point different de ce corps",
+    "from_image": true,
+    "tr": "the internal place, or the space each body occupies, is not different from that body"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "detail": "a corollary of extension as the essence of matter",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-015",
+   "question": "place-nature",
+   "text": "S",
+   "answer": "space",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Place is an affection of the natural body by which it occupies its space, long, broad and deep; its ground is the space God created together with the world, equal to it, which receives different bodies in its parts. The space has all the true conditions of place: it is equal to what it holds, immovable, does not perish with what is in it, and is no part of the thing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the surface fails the conditions of equality, immobility and lasting"
+    },
+    {
+     "kind": "authority",
+     "detail": "Galen, Philoponus, Patrizi, Scaliger, Bodin, Basso, Sennert reject the surface"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    },
+    {
+     "name": "Daniel Sennert",
+     "dates": "1572-1637",
+     "role": "followed"
+    },
+    {
+     "name": "Jean Bodin",
+     "dates": "c. 1530-1596",
+     "role": "followed"
+    },
+    {
+     "name": "Francesco Patrizi",
+     "dates": "1529-1597",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "340",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=358",
+     "read_from": "ocr",
+     "section": "II.5 precepts"
+    },
+    {
+     "page": "342",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=360",
+     "read_from": "ocr"
+    },
+    {
+     "page": "355",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=373",
+     "read_from": "image",
+     "section": "II.5 q. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Spatio omnes veræ Loci conditiones competunt.",
+    "from_image": true,
+    "tr": "All the true conditions of place belong to space."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-032",
+     "kind": "premise",
+     "detail": "motion alone fights for the reality of space",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-016",
+   "question": "place-nature",
+   "text": "S",
+   "answer": "surrounding-surface",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Aristotle's place, the surface of the containing body, is not place: a surface has two dimensions and the body three, so they are not equal; the surface moves with the wind round a tower that stands still; and it perishes when the air flows away. The commentators' answers (Toledo, Pereira, Rubio, the Coimbra and Alcalá courses) are evasions, and Masius keeps the surface only because Aristotle and Thomas said it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "equality, immobility, lasting"
+    },
+    {
+     "kind": "experiment",
+     "detail": "two vessels of equal surface, one with a stone hung inside, take different amounts of water"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Francisco de Toledo",
+     "dates": "1532-1596",
+     "role": "opposed"
+    },
+    {
+     "name": "Benedict Pereira",
+     "dates": "1535-1610",
+     "role": "opposed"
+    },
+    {
+     "name": "Antonio Rubio",
+     "dates": "1548-1615",
+     "role": "opposed"
+    },
+    {
+     "name": "Diego Mas",
+     "dates": "c. 1553-1608",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "344",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=362",
+     "read_from": "ocr",
+     "section": "II.5 q. II"
+    },
+    {
+     "page": "345",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=363",
+     "read_from": "ocr"
+    },
+    {
+     "page": "347",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=365",
+     "read_from": "ocr"
+    },
+    {
+     "page": "348",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=366",
+     "read_from": "ocr"
+    },
+    {
+     "page": "355",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=373",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hoc scilicet est pro veritate disputare.",
+    "from_image": true,
+    "tr": "This, no doubt, is disputing for the truth."
+   }
+  },
+  {
+   "id": "1675-place-void-time-017",
+   "question": "place-nature",
+   "text": "G",
+   "answer": "surrounding-surface",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Place is the concave surface of the surrounding body, as Aristotle defines it; immobility is not of the essence of place but a kind of property. The surrounding surface does all that place does: it contains the located body, is filled by it, and, if it is the surface of a friendly body, preserves it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aristotle"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "330",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n355/mode/1up",
+     "read_from": "image",
+     "section": "q. IV a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Dico: Locus est superficies concava corporis ambientis.",
+    "from_image": true,
+    "tr": "I say: place is the concave surface of the surrounding body."
+   }
+  },
+  {
+   "id": "1675-place-void-time-018",
+   "question": "place-nature",
+   "text": "G",
+   "answer": "space",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Some said place is the space filled by the located body and took it for something real, a substance, as Epicurus and Democritus made all things of the full and the void; Descartes, persuaded by the same reason, made such space, however empty it is feigned, a true body. But we measure a lack of quantity as the eye sees shadows, which are only a lack of light.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "shadows are a privation of light, yet seen"
+    },
+    {
+     "kind": "refutation"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Democritus",
+     "dates": "c. 460-c. 370 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Rene Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "328",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n353/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "329",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n354/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-019",
+   "question": "place-nature",
+   "text": "L",
+   "answer": "own-extension",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Place, properly speaking, is only a relation of the body's situation among other bodies from which it is near or far. Place or space is extension in length, breadth and depth, confounded with the matter and distinguished from it only by our way of conceiving: the internal place is the matter itself, the external place the surface that bounds it, which is a mode, not a body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a space distinct from the body would have to penetrate it"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Augustine",
+     "dates": "354-430",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "195",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n254/mode/1up",
+     "read_from": "image",
+     "section": "IV a. XIII"
+    },
+    {
+     "page": "196",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n255/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "197",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n256/mode/1up",
+     "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "detail": "whatever is extended in three dimensions is real body",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-020",
+   "question": "place-nature",
+   "text": "L",
+   "answer": "space",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The common people distinguish place from body and think it a space existing before the body comes and remaining after it goes; this arose from the popular error that empty extended spaces were given before there were bodies in nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "195",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n254/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "illud ex populari errore natum esse constat",
+    "from_image": true,
+    "tr": "it is plain that this was born of a popular error"
+   }
+  },
+  {
+   "id": "1675-place-void-time-021",
+   "question": "beyond-world",
+   "text": "R",
+   "answer": "matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The world is indefinite: wherever we set its bounds we cannot help imagining extension beyond them, and extension and matter are the same thing; for the same reason there cannot be several worlds.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics"
+    }
+   ],
+   "cites": [
+    {
+     "page": "49",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=89",
+     "read_from": "ocr",
+     "section": "I.8 art. VIII-IX"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-022",
+   "question": "beyond-world",
+   "text": "S",
+   "answer": "nothing",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "When God created the world he created with it the space equal to the world, which receives different bodies in its different parts; God himself is wholly everywhere, in the world and outside it, free of all body and quantity.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "342",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=360",
+     "read_from": "ocr",
+     "section": "II.5"
+    },
+    {
+     "page": "287",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=305",
+     "read_from": "ocr",
+     "section": "II.2 q. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-023",
+   "question": "beyond-world",
+   "text": "G",
+   "answer": "privation-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Though we measure the empty spaces said to be beyond the heavens and apprehend some extension beyond the bounds of the universe, it does not follow that they are anything real, only a lack of bodily quantity that God could create there; it is called imaginary because the imagination apprehends negations as if they were beings, as death, shadows and night. So too we imagine time flowing before the creation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "shadows, death, night; time before the creation"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "329",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n354/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "330",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n355/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "non sequitur hanc extensionem, & illa spatia esse quid reale, sed solùm quamdam carentiam quantitatis corporeæ",
+    "from_image": true,
+    "tr": "it does not follow that this extension and those spaces are anything real, but only a certain lack of bodily quantity"
+   }
+  },
+  {
+   "id": "1675-place-void-time-024",
+   "question": "beyond-world",
+   "text": "L",
+   "answer": "matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Some philosophers hold that after the creation there is a space beyond the bounds of the world, which they call imaginary because it has only expanse and holds no body. They speak most improperly: whatever is extended in length, breadth and depth, with parts at distances, must be called a true and real body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "195",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n254/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "196",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n255/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "non imaginarium, sed verum & reale corpus dici debeat",
+    "from_image": true,
+    "tr": "must be called not an imaginary but a true and real body"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-025",
+   "question": "void-divine",
+   "text": "R",
+   "stance": "declines",
+   "part": "dispute",
+   "statement": "Rohault will not answer whether God by his omnipotence could make a void by annihilating all the air of a room and letting no other enter, since it is not for us to settle how far God's power reaches.",
+   "cites": [
+    {
+     "page": "45",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=85",
+     "read_from": "image",
+     "section": "I.8 art. II"
+    },
+    {
+     "page": "46",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=86",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-026",
+   "question": "void-divine",
+   "text": "R",
+   "answer": "walls-touch",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Asked instead what we conceive would happen if God annihilated the air of a room and let no other in, he answers that the walls would come together so that no space remained between them: the walls exist independently of what they hold, but their arrangement into a room depends on some extension or matter between them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "46",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=86",
+     "read_from": "image",
+     "section": "I.8 art. II-III"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "nous dirions que les murailles s'approcheroient, en sorte qu'il ne resteroit plus entre-elles aucun espace",
+    "from_image": true,
+    "tr": "we should say that the walls would come together, so that no space would remain between them"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-001",
+     "kind": "premise",
+     "detail": "space and matter are the same",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-027",
+   "question": "void-divine",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Sperling's chapter on place does not ask what God could do about a void."
+  },
+  {
+   "id": "1675-place-void-time-028",
+   "question": "void-divine",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No angel can make a void, since nature's inclination to prevent it, founded on the common good of the universe, is stronger than its readiness to obey an angel; but God can, for he can do whatever implies no contradiction and is not bound by the laws he has set, and a void implies none but is only forbidden by a law of providence for the good of the whole. God could destroy the whole universe and keep a single man, and there would be a distance between his feet with no body between.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "God can do what implies no contradiction"
+    },
+    {
+     "kind": "refutation",
+     "detail": "against Descartes"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Rene Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "348",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n373/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "349",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n374/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "divinitùs dari potest vacuum",
+    "from_image": true,
+    "tr": "a void can be given by divine power"
+   }
+  },
+  {
+   "id": "1675-place-void-time-029",
+   "question": "void-divine",
+   "text": "G",
+   "answer": "walls-touch",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Against Descartes (Principles II, art. 18), who says the sides of the surrounding bodies would necessarily come together because it is impossible for things to be apart with no body between: God could at least destroy the universe and keep one man, and there would be a distance between his hands with no body in it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Rene Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "349",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n374/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-030",
+   "question": "void-divine",
+   "text": "L",
+   "answer": "walls-touch",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "If God took away all the substance between the walls of a room and kept every other body out, the walls would by that very fact be contiguous, for distance is a mode of extension and cannot be or be conceived without a substance. Le Grand dares not deny anything to God's omnipotence; he asserts only that his mind was so made by God that he cannot conceive a mountain without a valley, or one and five not making six.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "199",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n258/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "200",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n259/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Absit ut Omnipotentiæ Divinæ aliquid denegare audeam",
+    "from_image": true,
+    "tr": "far be it from me to dare deny anything to the divine omnipotence"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-005",
+     "kind": "premise",
+     "detail": "a space without matter implies a contradiction",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-031",
+   "question": "motion-in-plenum",
+   "text": "R",
+   "answer": "give-way",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since the world is full, a body moving in a straight line pushes another and that one another, but not to infinity: some of those pushed turn aside to take the place of the first, the only place free to them, so that whenever a body moves a quantity of matter moves in a ring. For want of seeing this, philosophers brought in attraction, sympathy and the fear of the void.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=116",
+     "read_from": "ocr",
+     "section": "I.11 art. XIII-XIV"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-001",
+     "kind": "premise",
+     "detail": "because the world is full",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-032",
+   "question": "motion-in-plenum",
+   "text": "S",
+   "answer": "needs-space",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whoever grants motion must grant a void, that is a space: otherwise body would pass into body; a falling stone descends through space, not through the air, or there would be penetration of dimensions. With Scaliger: void and place are the same, differing only in name, the space in which a body is, whose nature is to be filled as body gives way to body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "no penetration of dimensions"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    },
+    {
+     "name": "Democritus",
+     "dates": "c. 460-c. 370 BC",
+     "role": "reported"
+    },
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "356",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=374",
+     "read_from": "image",
+     "section": "II.5 q. III"
+    },
+    {
+     "page": "357",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=375",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Idemq; esse vacuum & locum: neq; differre nisi nomine.",
+    "from_image": true,
+    "tr": "And that the void and place are the same, and differ only in name (Scaliger)."
+   }
+  },
+  {
+   "id": "1675-place-void-time-033",
+   "question": "motion-in-plenum",
+   "text": "G",
+   "answer": "give-way",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "To the objection that without a void there could be no motion, since all is full: with Aristotle, some bodies are fluid, as air, and give place to the more solid when they move, the parts in front taking the place left behind.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "348",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n373/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-034",
+   "question": "motion-in-plenum",
+   "text": "L",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Le Grand's articles on motion (Part IV, a. XVI-XX) were not read."
+  },
+  {
+   "id": "1675-place-void-time-035",
+   "question": "suction-cause",
+   "text": "R",
+   "answer": "prevent-void",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The ancients said water follows a drawn piston so that there may be no void, then from fear of the void, then from nature's horror of it, as if nature could feel horror. Taken at its best this gives a final cause instead of the efficient cause asked for, like saying wood comes to Paris from fear of the cold; and it does not even agree with the fact, since suction pumps raise water only thirty-one and a half feet.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "pumps stop at 31 1/2 feet"
+    },
+    {
+     "kind": "refutation",
+     "detail": "a final cause given for an efficient"
+    }
+   ],
+   "cites": [
+    {
+     "page": "78",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=118",
+     "read_from": "ocr",
+     "section": "I.12 art. I-IV"
+    },
+    {
+     "page": "79",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=119",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-036",
+   "question": "suction-cause",
+   "text": "R",
+   "answer": "air-weight",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "From suppositions about a syringe held in the air, with or without pores in its body and piston, Rohault concludes that the gross air is heavy and that impulse by the surrounding air, not fear of the void, moves what follows the piston.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "the syringe; the piston springs back when let go"
+    }
+   ],
+   "cites": [
+    {
+     "page": "80",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=120",
+     "read_from": "ocr",
+     "section": "I.12 art. V-XI"
+    },
+    {
+     "page": "82",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=122",
+     "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-001",
+     "kind": "premise",
+     "detail": "the world is full, so the pushed air must circle into the place the piston leaves",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-037",
+   "question": "suction-cause",
+   "text": "S",
+   "answer": "prevent-void",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nature, which loves unity, always fills the void with body and foresees it from afar: nothing runs from a full cask holed below unless a hole is made above; beer rises through a pipe as the air in it is drawn out, though it is heavy; bellows stopped up cannot be opened; cupping glasses raise the flesh; vessels burst when water freezes in them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "casks, pipes, bellows, cupping glasses, frozen vessels"
+    }
+   ],
+   "cites": [
+    {
+     "page": "358",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=376",
+     "read_from": "image",
+     "section": "II.5 q. IV"
+    },
+    {
+     "page": "359",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=377",
+     "read_from": "ocr"
+    },
+    {
+     "page": "360",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=378",
+     "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-002",
+     "kind": "instance",
+     "detail": "nature always fills the void",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-038",
+   "question": "suction-cause",
+   "text": "G",
+   "answer": "prevent-void",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "All bodies renounce their own inclination to prevent a void: water rises in pipes when the air is drawn from the other end, flesh swells in cupping glasses, vessels break to let in air. Nature has three ways to fill a place left: by motion, by breaking, and by rarefying bodies into vapour; these answer all the experiments.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "pipes, cupping glasses"
+    },
+    {
+     "kind": "experiment",
+     "detail": "the mercury tube, seen by the author"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "346",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n371/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "347",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n372/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-003",
+     "kind": "instance",
+     "detail": "natural agents abhor the void",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-039",
+   "question": "suction-cause",
+   "text": "G",
+   "answer": "air-weight",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Some moderns put these effects down to the weight of the air pressing on the water. But even if the whole mass of air were heavy, its parts would not weigh on the parts of water, which bear each other up, as divers at the bottom of the sea feel no weight; and the air's weight cannot make flesh swell in a cupping glass. In the tube of mercury the mercury does not fall all at once, as is said in Greek faith, but as each particle drops into the water below, water rises to take its place, as the author saw with his own eyes.",
+   "confidence": {
+    "level": "certain",
+    "printed": "evidentèr",
+    "translation": "evidently"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    },
+    {
+     "kind": "experiment",
+     "detail": "seen with his own eyes"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "346",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n371/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "347",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n372/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "sicuti proprijs oculis exploravimus",
+    "from_image": true,
+    "tr": "as we have examined with our own eyes"
+   }
+  },
+  {
+   "id": "1675-place-void-time-040",
+   "question": "suction-cause",
+   "text": "L",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Le Grand's article on the motions referred to the flight of the void (Part IV, a. XIX, p. 209) was not read."
+  },
+  {
+   "id": "1675-place-void-time-041",
+   "question": "divisibility",
+   "text": "R",
+   "answer": "without-end",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Any portion of matter is separable from those it is joined to, and matter, being nothing but substance extended in length, breadth and depth, is perfectly homogeneous; so it is divisible at every point the mind can assign, and the number of points that can be assigned in any quantity is indefinite, as geometry shows by parallel lines and by the side and diagonal of a square: matter is divisible to the indefinite. The conclusion was drawn by Aristotle and approved by almost all the Aristotelians.",
+   "confidence": {
+    "level": "certain",
+    "printed": "tenir pour certain",
+    "translation": "hold for certain"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "parallels; incommensurable side and diagonal"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aristotle and almost all Aristotelians"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "credited"
+    }
+   ],
+   "cites": [
+    {
+     "page": "51",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=91",
+     "read_from": "image",
+     "section": "I.9 art. I-III"
+    },
+    {
+     "page": "52",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=92",
+     "read_from": "ocr",
+     "section": "art. IV"
+    },
+    {
+     "page": "53",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=93",
+     "read_from": "ocr"
+    },
+    {
+     "page": "54",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=94",
+     "read_from": "ocr",
+     "section": "art. V-VI"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "nous devons tenir pour certain que toute la matiere de ce monde est divisible",
+    "from_image": true,
+    "tr": "we must hold it for certain that all the matter of this world is divisible"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "detail": "matter is only extended substance, so homogeneous and divisible everywhere",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-042",
+   "question": "divisibility",
+   "text": "R",
+   "answer": "ends-in-atoms",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "God could make some parts of matter such that no agent in the universe could divide them, and they would not differ from Epicurus's atoms; but that property would be arbitrary, resting on no natural principle, and would not change their true nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "51",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=91",
+     "read_from": "image",
+     "section": "I.9 art. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-043",
+   "question": "divisibility",
+   "text": "S",
+   "answer": "ends-in-minima",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whether a quantity can be divided to infinity is the most vexed question of the schools, but it is to be denied: what is finite cannot be divided to infinity. Break a stone a hundred or a thousand times and ask of each particle whether it is least; if not, divide again, and at last nature will call a halt. The physicist cares for real division, not mental; nature has its maximum and its minimum (Weinrich's atoms), and each species its least size.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "breaking a stone"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "no passage from the finite to the infinite"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Martin Weinrich",
+     "dates": "1548-1609",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "280",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=298",
+     "read_from": "ocr",
+     "section": "II.2"
+    },
+    {
+     "page": "282",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=300",
+     "read_from": "ocr",
+     "section": "II.2 q. I"
+    },
+    {
+     "page": "283",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=301",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "tandem quiescere jubebit Natura",
+    "from_image": true,
+    "tr": "at last nature will bid it stop"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-078",
+     "kind": "premise",
+     "detail": "the mathematicians' infinite division is not admitted in physics",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-044",
+   "question": "divisibility",
+   "text": "G",
+   "answer": "without-end",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A philosophical mystery, in which reason proves more than it can understand. With Aristotle, all the Peripatetics and commonly the mathematicians, and against Zeno and some moderns who leave Aristotle: the continuum is not made of indivisibles alone but of parts always divisible, since an indivisible, lacking all extension, added to another makes nothing larger.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "indivisibles added make nothing larger"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aristotle, the Peripatetics, the mathematicians"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Zeno of Elea",
+     "dates": "c. 490-c. 430 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "351",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n376/mode/1up",
+     "read_from": "image",
+     "section": "q. V a. I"
+    },
+    {
+     "vol": "2",
+     "page": "352",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n377/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Continuum non constat solis indivisibilibus, sed partibus semper divisibilibus.",
+    "from_image": true,
+    "tr": "The continuum is not made of indivisibles alone, but of parts always divisible."
+   }
+  },
+  {
+   "id": "1675-place-void-time-045",
+   "question": "divisibility",
+   "text": "G",
+   "answer": "ends-in-unextended",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Zeno, followed by some moderns who leave Aristotle, says continuous quantity is made of indivisibles alone heaped together.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Zeno of Elea",
+     "dates": "c. 490-c. 430 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "351",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n376/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-046",
+   "question": "divisibility",
+   "text": "L",
+   "answer": "without-end",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Matter or body is not made of indivisibles: it belongs to the essence of body that after any division it is still divisible, for one cannot understand a thing to be extended and indivisible. Its parts are not infinite but indefinite; the same is shown from the incommensurable side and diagonal of a square, which could be divided by thought for a hundred years without the diagonal holding a fixed number of parts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "extended and indivisible contradict"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "side and diagonal of a square"
+    },
+    {
+     "kind": "consensus",
+     "detail": "the opinion of almost all philosophers"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n228/mode/1up",
+     "read_from": "image",
+     "section": "IV a. IV"
+    },
+    {
+     "page": "170",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n229/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "materiam, sive Corpus, non componi ex indivisibilibus",
+    "from_image": true,
+    "tr": "matter, or body, is not composed of indivisibles"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "detail": "extension is the essence of body",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-047",
+   "question": "divisibility",
+   "text": "L",
+   "answer": "ends-in-atoms",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Particles so fine that no creature can divide them, such as atoms, may well exist, but parts both bodily and indivisible are impossible: though God may have willed that some atoms cannot be divided by us, we must not say he has deprived himself of the power to divide them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Democritus",
+     "dates": "c. 460-c. 370 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n228/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-048",
+   "question": "indivisibles-real",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There are really indivisibles in the continuum, both bounding and joining its parts, though they do not compose it; in time, as in every continuum, there are parts and indivisibles, called instants in time as points in a line.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "363",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n388/mode/1up",
+     "read_from": "ocr",
+     "section": "q. V a. II"
+    },
+    {
+     "vol": "2",
+     "page": "316",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n341/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-049",
+   "question": "indivisibles-real",
+   "text": "L",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No need forces us to indivisibles, and beings are not to be multiplied without need: an extended thing is sufficiently bounded by the denial of further extension, and the parts of matter are united of themselves without a third thing to join them.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "beings not to be multiplied without need"
+    }
+   ],
+   "cites": [
+    {
+     "page": "169",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n228/mode/1up",
+     "read_from": "image",
+     "section": "IV a. IV"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-050",
+   "question": "indivisibles-real",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Rohault's chapter on divisibility argues from points the mind can assign but does not ask whether real points bound or join the parts."
+  },
+  {
+   "id": "1675-place-void-time-051",
+   "question": "indivisibles-real",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Sperling dismisses the schools' noise about points, solids, surfaces and lines as not physics.",
+   "cites": [
+    {
+     "page": "282",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=300",
+     "read_from": "ocr"
+    },
+    {
+     "page": "283",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=301",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-052",
+   "question": "actual-infinite",
+   "text": "R",
+   "answer": "indefinite",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Matter is divisible to the indefinite and the world is indefinite; equality and inequality are properties of finite things the mind can embrace, not of indefinite magnitudes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "49",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=89",
+     "read_from": "ocr"
+    },
+    {
+     "page": "53",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=93",
+     "read_from": "ocr"
+    },
+    {
+     "page": "55",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=95",
+     "read_from": "ocr",
+     "section": "I.9 art. VII"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-053",
+   "question": "actual-infinite",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The infinite is that whose quantity knows no bounds; since every natural body, great or small, has its bounds, the infinite in physics is a pure non-being.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "277",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=295",
+     "read_from": "image",
+     "section": "II.1 q. V"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "infinitum in Physicis purum putum non ens est",
+    "from_image": true,
+    "tr": "the infinite in physics is a pure and simple non-being"
+   }
+  },
+  {
+   "id": "1675-place-void-time-054",
+   "question": "actual-infinite",
+   "text": "G",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Only God is actually infinite in essence; no creature is actually and categorematically infinite, for Scripture says God made all things in number, weight and measure, and every creature is limited by genus and difference and mixed with potency. There is, though, an infinite in potency in magnitude and multitude, since God can always add more, but it can be brought to act only successively, never to an actual infinite.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Wisdom: number, weight and measure"
+    },
+    {
+     "kind": "authority",
+     "detail": "Thomas Aquinas"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "288",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n314/mode/1up",
+     "read_from": "image",
+     "section": "q. II a. I"
+    },
+    {
+     "vol": "2",
+     "page": "289",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n315/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "290",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n316/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nulla Creatura actualitèr est infinita actu, & categorematicè.",
+    "from_image": true,
+    "tr": "No creature is actually infinite in act, and categorematically."
+   }
+  },
+  {
+   "id": "1675-place-void-time-055",
+   "question": "actual-infinite",
+   "text": "L",
+   "answer": "indefinite",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The parts of matter are not infinite, as some imagine, but indefinite: that is infinite in which no limits are found on any side, and only God is so; what has no end only in some respect, as extended substance which after any division is still divisible, is rather called indefinite.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "170",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n229/mode/1up",
+     "read_from": "image",
+     "section": "IV a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "solus Deus est infinitus",
+    "from_image": true,
+    "tr": "God alone is infinite"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-046",
+     "kind": "instance",
+     "detail": "matter's divisibility is the example of the indefinite",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-056",
+   "question": "time-nature",
+   "text": "R",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "No chapter or article on time was found in the parts of Rohault's Part I read for this entry."
+  },
+  {
+   "id": "1675-place-void-time-057",
+   "question": "time-nature",
+   "text": "S",
+   "answer": "distinguished-duration",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Time is an extrinsic affection of the natural body by which its duration, undivided in itself, is divided according to the motion of the heavenly bodies, as Peter's life into years, months, days and hours by the sun and moon. It is a real being, though successive: its parts exist one after another, as do those of motion and rivers.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "God made the lights to make seasons, days and years"
+    }
+   ],
+   "cites": [
+    {
+     "page": "361",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=379",
+     "read_from": "image",
+     "section": "II.6 precepts"
+    },
+    {
+     "page": "363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=381",
+     "read_from": "ocr"
+    },
+    {
+     "page": "365",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=383",
+     "read_from": "ocr",
+     "section": "II.6 q. I"
+    },
+    {
+     "page": "366",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=384",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Tempus est affectio extinseca corporis naturalis, quâ duratio illius in se indistincta distinguitur juxta motum corporum cœlestium",
+    "from_image": true,
+    "tr": "Time is an extrinsic affection of the natural body by which its duration, undivided in itself, is divided according to the motion of the heavenly bodies"
+   }
+  },
+  {
+   "id": "1675-place-void-time-058",
+   "question": "time-nature",
+   "text": "S",
+   "answer": "number-of-motion",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The common definition from Aristotle, the number of motion according to before and after, gives words, not the thing: whoever hears it does not know what time is. Plotinus, Pico and Bodin rejected it, and Bodin would rather confess ignorance, with Galen, than define foolishly. Time is an affection of the body, and must be defined by its order to the body, not to motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Jean Bodin",
+     "dates": "c. 1530-1596",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "367",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=385",
+     "read_from": "ocr",
+     "section": "II.6 q. III"
+    },
+    {
+     "page": "368",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=386",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ast verba audimus, rem nondum habemus.",
+    "from_image": true,
+    "tr": "But we hear words; we do not yet have the thing."
+   }
+  },
+  {
+   "id": "1675-place-void-time-059",
+   "question": "time-nature",
+   "text": "G",
+   "answer": "number-of-motion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Time is rightly defined, with Aristotle, as the number or measure of motion according to before and after: the length or shortness of a motion is measured by time, and Aristotle said number because we measure motion by counting time; before and after because motion consists in a flow of parts. Duration is the permanence of a thing in being.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aristotle"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Augustine",
+     "dates": "354-430",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "311",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n336/mode/1up",
+     "read_from": "image",
+     "section": "q. III a. I"
+    },
+    {
+     "vol": "2",
+     "page": "313",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n338/mode/1up",
+     "read_from": "image",
+     "section": "q. III a. II"
+    },
+    {
+     "vol": "2",
+     "page": "314",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n339/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Tempus rectè definitur: numerus, seu mensura motus secundùm prius, & posterius.",
+    "from_image": true,
+    "tr": "Time is rightly defined: the number, or measure, of motion according to before and after."
+   }
+  },
+  {
+   "id": "1675-place-void-time-060",
+   "question": "time-nature",
+   "text": "L",
+   "answer": "duration-as-thought",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Duration is the attribute under which the existence of created things is conceived as it continues, and is not really distinct from existence. Time is nothing but the duration of a created thing, in whatever state; it follows that time is not a property of created things but a mere mode of thinking, an extrinsic denomination, a being of reason, as Lucretius said and Gassendi explained of Epicurus.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Lucretius",
+     "dates": "c. 99-c. 55 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Pierre Gassendi",
+     "dates": "1592-1655",
+     "role": "followed"
+    },
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "232",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n291/mode/1up",
+     "read_from": "image",
+     "section": "IV a. XXVI"
+    },
+    {
+     "page": "233",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n292/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Tempus non esse rerum creatarum affectionem, sed merum cogitandi modum",
+    "from_image": true,
+    "tr": "time is not a property of created things but a mere mode of thinking"
+   }
+  },
+  {
+   "id": "1675-place-void-time-061",
+   "question": "time-nature",
+   "text": "L",
+   "answer": "number-of-motion",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Aristotle's definition, the number of motion according to before and after, is defective, for time is the measure of all things and measures rest no less than motion: a dog running three miles in half an hour and a tortoise one pace in the same half hour have the same measure of time, though more motion is in the dog.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "the dog and the tortoise"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "232",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n291/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quam manca sit definitio qua Aristoteles Tempus describit",
+    "from_image": true,
+    "tr": "how defective is the definition by which Aristotle describes time"
+   }
+  },
+  {
+   "id": "1675-place-void-time-062",
+   "question": "time-present",
+   "text": "R",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts read."
+  },
+  {
+   "id": "1675-place-void-time-063",
+   "question": "time-present",
+   "text": "S",
+   "answer": "has-extent",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The schools commonly deny that the present time is true time, but without sense: motion happens in time, not in the past, where nothing happens, nor in the future, but in the present; so the present time is true time and has its breadth, for what happens in a moment does not happen in time.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "366",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=384",
+     "read_from": "image",
+     "section": "II.6 q. II"
+    },
+    {
+     "page": "367",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=385",
+     "read_from": "ocr"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ergò præsens tempus verum tempus est",
+    "from_image": true,
+    "tr": "Therefore the present time is true time"
+   }
+  },
+  {
+   "id": "1675-place-void-time-064",
+   "question": "time-present",
+   "text": "G",
+   "answer": "instant",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Time is present and existing not by reason of a part but only by reason of the instant, as Thomas and Aristotle say expressly; the same holds of other successive things. Durandus and some moderns say time is present by reason of its parts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Durandus of Saint-Pourcain",
+     "dates": "c. 1275-1334",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "316",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n341/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Tempus non est præsens, & existens ratione partis, sed solùm ratione instantis",
+    "from_image": true,
+    "tr": "Time is not present and existing by reason of a part, but only by reason of the instant"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-048",
+     "kind": "instance",
+     "detail": "instants are the indivisibles of time, as points of a line",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-065",
+   "question": "time-present",
+   "text": "L",
+   "answer": "has-extent",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Some wrongly take the present time as an indivisible moment: no moment can be grasped that has no parts and is not divisible into infinitely many other moments, so, as a particle of extended matter can be divided into infinitely many others, the present time is made of parts and is indefinitely divisible.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "233",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n292/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Ita præsens tempus, ex partibus componitur",
+    "from_image": true,
+    "tr": "so the present time is made of parts"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-046",
+     "kind": "instance",
+     "detail": "as a particle of matter, so the present time",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-066",
+   "question": "time-standard",
+   "text": "R",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "Not found in the parts read."
+  },
+  {
+   "id": "1675-place-void-time-067",
+   "question": "time-standard",
+   "text": "S",
+   "answer": "heavenly-bodies",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The heavenly bodies divide duration, for God made the two great lights to make times, days and years; clocks and water-clocks stand in secondarily, a clock being an artifice that represents the motion of the sun.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "Genesis: the lights for seasons, days and years"
+    }
+   ],
+   "cites": [
+    {
+     "page": "361",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=379",
+     "read_from": "image"
+    },
+    {
+     "page": "363",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=381",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-068",
+   "question": "time-standard",
+   "text": "S",
+   "answer": "first-mobile",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The commentators say the motion meant in the definition is chiefly that of the first movable; but this first movable is a figment, and so can have no affection.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "368",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=386",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Figmentum hoc primum mobile est",
+    "from_image": true,
+    "tr": "This first movable is a figment"
+   }
+  },
+  {
+   "id": "1675-place-void-time-069",
+   "question": "time-standard",
+   "text": "G",
+   "answer": "first-mobile",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There are many particular and intrinsic times, since each motion has its own numerable duration, but one universal and extrinsic time by which every motion is measured: the time of the revolution of the first movable, completed in twenty-four hours.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "314",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n339/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "vnicum est tempus vniuersale, & extrinsecum à quo motus omnis mensuratur, scilicèt tempus circulationis primi mobilis",
+    "from_image": true,
+    "tr": "there is one universal and extrinsic time by which all motion is measured, namely the time of the revolution of the first movable"
+   }
+  },
+  {
+   "id": "1675-place-void-time-070",
+   "question": "time-standard",
+   "text": "L",
+   "answer": "any-succession",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Succession is found in every created thing, and we can measure it by motion properly so called, or at least by the thoughts of our mind, which do not exist together and so bring in succession according to before and after.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "232",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n291/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-071",
+   "question": "duration-kinds",
+   "text": "S",
+   "answer": "eternity-aevum-time",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Duration is the extension of a thing's existence: wholly without bounds in God, called eternity; bounded at the start but not the end in created spirits, called aevum; bounded at both ends in natural bodies, properly called time.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "362",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=380",
+     "read_from": "ocr",
+     "section": "II.6"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-072",
+   "question": "duration-kinds",
+   "text": "G",
+   "answer": "eternity-aevum-time",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Duration is threefold, after Thomas: eternity, wholly invariable being, as God's; time, the duration of things perpetually changing, as motion and corruptible substances; and aevum, of things that suffer no change in their being but change in their operations. In angels the succession of their operations makes a spiritual time, not continuous but discrete.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "311",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n336/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "316",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n341/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Duratio est triplex, scilicèt æternitas, æuum, & tempus.",
+    "from_image": true,
+    "tr": "Duration is threefold, namely eternity, aevum and time."
+   }
+  },
+  {
+   "id": "1675-place-void-time-073",
+   "question": "duration-kinds",
+   "text": "L",
+   "answer": "god-and-creatures",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Succession can be admitted in no divine thought, God being wholly simple; but the duration of an angel and of the human mind cannot be called all at once, like God's, since we clearly understand succession in their thoughts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "232",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n291/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "233",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n292/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-074",
+   "question": "motion-in-void",
+   "text": "G",
+   "answer": "yes-in-time",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Motion could happen in a void, though not in an instant: a body in a void has no extrinsic place, properly speaking, yet keeps its intrinsic place and its distance from other bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "349",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n374/mode/1up",
+     "read_from": "image"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "In vacuo fieri potest motus, non tamen in instanti.",
+    "from_image": true,
+    "tr": "Motion can happen in a void, though not in an instant."
+   }
+  },
+  {
+   "id": "1675-place-void-time-075",
+   "question": "division-reach",
+   "text": "R",
+   "answer": "beyond-senses",
+   "stance": "holds",
+   "part": "open",
+   "statement": "To call a thing absurd because the imagination cannot grasp it is a gross error unworthy of a philosopher. The goldbeaters make 2,730 leaves from an ounce of gold, so a cube of gold an ounce in weight, five and a seventh lines high, is cut into at least 159,092 slices; the gold on drawn silver thread is thinner still, the height of that cube divided into 651,590 equal parts, and nature has agents far subtler than men's crude tools.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "weighing drawn wire in good scales"
+    },
+    {
+     "kind": "observation",
+     "detail": "goldbeaters and wire-drawers in Paris"
+    }
+   ],
+   "cites": [
+    {
+     "page": "56",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=96",
+     "read_from": "image",
+     "section": "I.9 art. IX-X"
+    },
+    {
+     "page": "57",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=97",
+     "read_from": "ocr"
+    },
+    {
+     "page": "58",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=98",
+     "read_from": "ocr",
+     "section": "art. XI"
+    },
+    {
+     "page": "59",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=99",
+     "read_from": "ocr",
+     "section": "art. XII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "une erreur fort grossiere & indigne d'un Philosophe",
+    "from_image": true,
+    "tr": "a very gross error, and unworthy of a philosopher"
+   }
+  },
+  {
+   "id": "1675-place-void-time-076",
+   "question": "quantity-efficacy",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Natural bodies do not act by their quantity but by their qualities: quantity is the offspring of matter, action comes from form; fire heats by its virtue, not its bulk, and the magnet draws iron by a peculiar quality, not by its length or breadth. A great fire burns more than a small one because more qualities are heaped in it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "fire, the magnet, bees and ants"
+    }
+   ],
+   "cites": [
+    {
+     "page": "287",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=305",
+     "read_from": "ocr",
+     "section": "II.2 q. III"
+    },
+    {
+     "page": "288",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=306",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-077",
+   "question": "math-in-physics",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Geometry supplies several demonstrations that the number of points assignable in a determinate quantity of matter is indefinite, and from them it follows that matter is divisible to the indefinite.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "52",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=92",
+     "read_from": "ocr",
+     "section": "I.9 art. IV"
+    },
+    {
+     "page": "53",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=93",
+     "read_from": "ocr"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "detail": "matter is extension, the object of geometry",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-078",
+   "question": "math-in-physics",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "why",
+   "statement": "If Aristotle's magnitude divisible to infinity means mathematical magnitude, those are foreign principles, against the Aristotelian rule: conclusions about natural things may not be drawn from mathematical principles, nor may one pass from one genus to another; time, motion, the heavens and the world are natural beings.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    },
+    {
+     "name": "Francesco Patrizi",
+     "dates": "1529-1597",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "284",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=302",
+     "read_from": "ocr",
+     "section": "II.2 q. I"
+    },
+    {
+     "page": "285",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=303",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-079",
+   "question": "math-in-physics",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The indefinite divisibility of matter appears more clearly from an argument taken from geometry, the incommensurable side and diagonal of the square.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "170",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n229/mode/1up",
+     "read_from": "image",
+     "section": "IV a. IV"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-place-void-time-080",
+   "question": "math-in-physics",
+   "text": "G",
+   "stance": "not_found",
+   "part": "why",
+   "statement": "Not found in the pages read; Goudin's proofs on the continuum are from the nature of the indivisible, not from geometry."
+  }
+ ]
+}
