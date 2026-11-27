@@ -12,7 +12,7 @@ What limits the pace of the work is compute time. You can help by reporting erro
 
 ## Scope and plan
 
-Seventeen snapshot dates, every twenty-five years from 1500 to 1900, four regions (France, the Protestant and Catholic German lands, the British Isles), in seven phases:
+Seventeen snapshot dates, every twenty-five years from 1500 to 1900, in nine phases. The phases are in order of priority: we work down the list as far as funding and the method allow, and the later phases may change. Phases 1-6 use four regions (France, the Protestant and Catholic German lands, the British Isles); Phases 7 and 8 add the other three.
 
 1. **Natural philosophy and natural history.** Under way. The first series, and the first milestone, is natural philosophy at c. 1575, c. 1675 and c. 1775.
 2. **Scientific method and its assumptions.** Planned, to run alongside Phase 1.
@@ -20,7 +20,9 @@ Seventeen snapshot dates, every twenty-five years from 1500 to 1900, four region
 4. **Chemistry and alchemy.** Planned.
 5. **Mixed mathematics.** Planned.
 6. **Sacred chronology and prophecy.** Planned.
-7. **Before printing.** Snapshots at 1250, 1300, 1350, 1400 and 1450 on the same subjects. Planned, last.
+7. **The Low Countries.** The subjects done by then, for the Low Countries. Planned.
+8. **Italy and Iberia.** The same, for these two regions. Planned.
+9. **Before printing.** Snapshots at 1250, 1300, 1350, 1400 and 1450 on the same subjects. Planned, last.
 
 ## What a snapshot is
 
