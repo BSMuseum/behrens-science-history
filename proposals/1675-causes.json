@@ -1,0 +1,450 @@
+{
+ "questions": [
+  {
+   "id": "cause-definition",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What is a cause?",
+   "names": [
+    "la: causa",
+    "la: principium influens esse in aliud",
+    "la: id ad cujus esse aliquid sequitur"
+   ],
+   "answers": [
+    {
+     "code": "influx-of-being",
+     "label": "That upon whose being the being of another follows: a principle that flows being into another"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "causes-number",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "cause-definition",
+   "wording": "How many kinds of cause are there?",
+   "names": [
+    "la: causa materialis",
+    "la: causa formalis",
+    "la: causa efficiens",
+    "la: causa finalis",
+    "la: causae internae et externae"
+   ],
+   "answers": [
+    {
+     "code": "four",
+     "label": "Four: matter, form, the efficient cause and the end"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "nature-definition",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What is the nature of a natural thing, in the sense natural philosophy uses?",
+   "names": [
+    "la: natura",
+    "la: natura naturans",
+    "la: natura naturata"
+   ],
+   "answers": [
+    {
+     "code": "principle-of-motion",
+     "label": "The principle and cause of motion and rest in that in which it is, first and by itself (Aristotle's definition)"
+    },
+    {
+     "code": "internal-cause",
+     "label": "The internal cause by which a natural body has its essence, properties, actions and passions"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "nature-ends",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Does nature act for an end?",
+   "names": [
+    "la: natura agit propter finem",
+    "la: opus naturae opus intelligentiae"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No: nature's works come about by chance or by the necessity of matter"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "world-for-man",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "final-causes",
+   "wording": "Was the world made for man's sake?",
+   "names": [
+    "la: homo mundi epitome",
+    "la: totum universum hominis causa conditum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: the whole world with its parts serves man's use"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "second-causes",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Do created things truly act and produce effects, or is God the only efficient cause?",
+   "names": [
+    "la: causa prima",
+    "la: causae secundae",
+    "la: causa efficiens"
+   ],
+   "answers": [
+    {
+     "code": "creatures-act",
+     "label": "Created things truly act, as second causes under God"
+    },
+    {
+     "code": "god-alone",
+     "label": "God alone is properly the efficient cause; bodies cannot move themselves or one another"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "god-against-nature",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "When God works wonders in nature, does he act against nature?",
+   "names": [
+    "la: supra naturam",
+    "la: contra naturam",
+    "la: violentia"
+   ],
+   "answers": [
+    {
+     "code": "above-not-against",
+     "label": "No: miracles are above nature, not against it, since creatures obey their creator"
+    },
+    {
+     "code": "can-do-violence",
+     "label": "God can act against a thing's natural inclination and do it violence"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common",
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "art-nature",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Can art make the things that nature makes?",
+   "names": [
+    "la: ars",
+    "la: ars simia naturae",
+    "la: artificiale"
+   ],
+   "answers": [
+    {
+     "code": "accidents-only",
+     "label": "No: art makes only accidents; nature makes substances"
+    },
+    {
+     "code": "by-natural-powers",
+     "label": "Some, by applying natural active powers to fit matter, but not those whose producing powers are beyond art"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "fortune-chance",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What are fortune and chance?",
+   "names": [
+    "la: fortuna",
+    "la: casus",
+    "la: causa per accidens"
+   ],
+   "answers": [
+    {
+     "code": "accidental-causes",
+     "label": "Causes by accident, from which an effect follows beyond the agent's intention: fortune in agents acting by choice, chance in natural agents"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "fortune-god",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "fortune-chance",
+   "wording": "Does anything happen by fortune or chance with respect to God?",
+   "names": [
+    "la: providentia"
+   ],
+   "answers": [
+    {
+     "code": "none",
+     "label": "No: nothing is fortuitous to God, who foresees and orders everything"
+    },
+    {
+     "code": "some",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "fate-exists",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Is there a fate, and what is it?",
+   "names": [
+    "la: fatum",
+    "la: fatum theologicum",
+    "la: fatum astrologicum",
+    "la: fatum physicum",
+    "la: fatum stoicum",
+    "la: providentia"
+   ],
+   "answers": [
+    {
+     "code": "divine-ordering",
+     "label": "Yes, rightly understood: an order of events and causes foreknown and preordained by God"
+    },
+    {
+     "code": "stoic-necessity",
+     "label": "An absolute necessity of all things from the linking of causes, binding even God"
+    },
+    {
+     "code": "astral",
+     "label": "An inevitable impression of the stars to which everything is subject"
+    },
+    {
+     "code": "none",
+     "label": "No: the world is not ruled by any providence, and everything happens by chance"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "fate-necessity",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "fate-exists",
+   "wording": "Does fate, or God's foreknowledge, lay necessity on the human will?",
+   "names": [
+    "la: liberum arbitrium",
+    "la: necessitas antecedens",
+    "la: necessitas consequens"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "stars-sublunar",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Do the heavens govern the coming to be, passing away and lasting of things below the moon?",
+   "names": [
+    "la: influxus coelestis",
+    "la: fatum astrologicum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: the heavenly bodies flow into the generation, corruption and duration of things below"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "stars-will",
+   "theme": "heavens",
+   "status": "persistent",
+   "parent": "stars-sublunar",
+   "wording": "Do the stars govern the human will?",
+   "names": [
+    "la: fatum astrologicum",
+    "la: liberum arbitrium"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "monster-nature",
+   "theme": "life",
+   "status": "persistent",
+   "wording": "What is a monster?",
+   "names": [
+    "la: monstrum",
+    "la: peccatum naturae",
+    "la: parergon"
+   ],
+   "answers": [
+    {
+     "code": "natures-error",
+     "label": "An error or defect of nature, which fails of the end it aims at through some fault in a cause"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "monster-usual",
+   "theme": "life",
+   "status": "persistent",
+   "parent": "monster-nature",
+   "wording": "Is a monster judged against the right form of its kind alone, or against what is right and usual?",
+   "names": [
+    "la: a recta et solita dispositione degenerans"
+   ],
+   "answers": [
+    {
+     "code": "right-only",
+     "label": "Against the right form alone: what is a monster in one place is a monster everywhere"
+    },
+    {
+     "code": "right-and-usual",
+     "label": "Against the right and usual disposition of the kind"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "hybrids-monsters",
+   "theme": "life",
+   "status": "persistent",
+   "parent": "monster-nature",
+   "wording": "Are the offspring of two different kinds, such as the mule, monsters?",
+   "names": [
+    "la: mulus",
+    "la: commixtio duplicis speciei"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "human-beast-offspring",
+   "theme": "life",
+   "status": "persistent",
+   "parent": "monster-nature",
+   "wording": "Can a true human being be begotten of a human and a beast?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:open"
+   ]
+  }
+ ],
+ "answers": {},
+ "drawn_from": {
+  "final-causes": [
+   "1675-causes:dispute"
+  ],
+  "metal-transmutation": [
+   "1675-causes:dispute"
+  ],
+  "spontaneous-generation": [
+   "1675-causes:open"
+  ],
+  "explanation-standard": [
+   "1675-causes:why"
+  ]
+ },
+ "texts": [],
+ "texts_notes": "goudin-philosophia-1681: in the Bologna 1686 t. 2 (IA bub_gb_D2e2JGtx1rwC), /page/n = page + 17 throughout pp. 133-259 (disputation II), read from the images at pp. 133-135, 140, 145, 147, 149, 154-155, 158-160, 180, 184, 218, 221, 233-239, 253 and 255-258, and from the running heads of a fresh OCR of every page. Disputation II: q. I nature, violence and art, p. 134 (a. II violence p. 140, a. III art p. 148); q. II causes in common, p. 158; q. III material and formal causes, p. 171; q. IV efficient cause, p. 180 (a. II p. 184, a. III p. 188, a. IV p. 203, a. V p. 206); q. V final cause, p. 218 (a. II p. 221, a. III p. 229, a. IV p. 233); q. VI comparison of causes, p. 243; q. VII fortune, chance and fate, p. 252 (a. II fate p. 256); disputation III, motion, from p. 259. The IA's own OCR of this item is nearly unreadable; tesseract on the page images (1000 px) reads it well. legrand-institutio-1675: in Part II (natural theology) /page/n = page + 55 (pp. 90-92, images); a. IV 'De Fato' is pp. 90-92 and a. XV on providence about p. 117 (index). /page/n = page + 59 holds at pp. 201-202 and 208-209 (images). sperling-institutiones-1664: canvas = page + 18 holds for pp. 27-259 (images at pp. 27, 128, 137-148, 167, 177-184, 196-207, 239-257); p. 196 is misnumbered 69. Book I chapters: IV nature p. 128, V efficient p. 147, VI end p. 177, VII fortune p. 196, VIII chance p. 203, IX monsters p. 207, X fate p. 247; Book II from p. 261.",
+ "snapshot": "1675 status line: one more topic published (causes, nature, chance and fate). topic causes: sections confirmed on the images: Sperling I.1 (p. 27) and I.4-10 (pp. 128-260); Goudin t. 2 disp. II (Bologna 1686 printing; pp. 133-259); Le Grand IV a. 15 (pp. 201-202) with IV a. 18 (pp. 208-209) and, by the R1 v4 reading of clause 5, II a. 4 'De Fato' (pp. 90-92); France blank (Rohault). Change the British Isles section from 'IV a. 15 (no final causes in physics)' to 'IV a. 15; II a. 4 (fate)'. Add a boundary note: 'Causes, nature, chance and fate: general physics in Sperling and Goudin, who put nature, the four causes, fortune, chance and fate together after matter and form (Sperling adds monsters as nature's errors; Goudin treats them under the final cause). Le Grand divides the subject: the causes in one short article of the general physics, which refuses final causes, fate in the natural theology, among the articles on God. Rohault has no section.'",
+ "home": "In entries/1675/home.html: the 'Causes, nature, chance and fate (with monsters)' row gets the 'Read the entry' pill linking #causes; the status line counts one more topic published.",
+ "page_title": "Causes, Nature, Chance and Fate c. 1675",
+ "cites": "Goudin t. 2: extend GT in tools/cites-goudin2.py (pending from the matter and form entry) with n = page + 17 for pp. 133-259. Le Grand Part II: a helper with /page/n = page + 55 (pp. 90-92), or extend LG in tools/cites.py with that range.",
+ "notes": "Eighteen new questions, worded to be askable in 1575 and 1775. The method theme takes the questions on causes, nature, fortune and fate (cause-definition, causes-number, nature-definition, nature-ends, world-for-man under final-causes, second-causes, god-against-nature, art-nature, fortune-chance, fortune-god, fate-exists, fate-necessity); stars-sublunar and stars-will go under the heavens for the astrology topic to reuse; the four on monsters go under life. spontaneous-generation (anticipated) now has a claim (Sperling, open) and should become persistent. stars-will and stars-sublunar overlap the planned astrology topic, which should reuse them rather than propose new ones. The France cell is blank (clause 13), so the claims file has three texts."
+}
