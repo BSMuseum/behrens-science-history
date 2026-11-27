@@ -1,0 +1,2814 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1675-matter-form",
+  "snapshot": "1675",
+  "topic": "matter-form",
+  "title": "Matter and form",
+  "site": {
+   "page": "c-1675",
+   "view": "#matter-form"
+  },
+  "published": null,
+  "encoded": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5",
+   "from": "new reading, with the entry"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "rests_on": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5"
+  },
+  "coverage": "One text per region, on the principles of natural things: matter, form, privation, the origin and end of forms, real accidents, and whether the principles of nature must be clear. read_from records what was read: 'image' where Claude read the page image, 'ocr' where only the library's machine-read text (MDZ page OCR, IA djvu text or hOCR) was used. Every quotation is from an image. Not covered: Rohault ch. VIII (the void, place, rarefaction and the indefinite world, left to the topics on place and the world); Sperling's chapter on the efficient and final causes; Goudin q. I a. I-II and § I of a. III (the definition of principle, the ancients and the atomists) and q. IV (the composite) beyond the OCR; Le Grand a. IV-VII (divisibility and the three elements, left to other topics).",
+  "built_with": "Claude only",
+  "quote_check": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5 (same session; not independent)",
+   "result": "Every quotation was transcribed from the page image in the first reading; none rests on OCR."
+  }
+ },
+ "texts": {
+  "R": {
+   "text": "rohault-traite-1675",
+   "parts": "Part I, ch. VI, 'Des principes des Estres naturels', pp. 35-38; ch. VII, 'De la Matiere', pp. 38-44; ch. VIII, corollaries, pp. 45-49 (read in the OCR, not cited); ch. XVIII, 'Des Formes', pp. 141-146 (vol. 1, MDZ canvas = page + 40, read from the images at pp. 36-44 and 141-144)"
+  },
+  "S": {
+   "text": "sperling-institutiones-1664",
+   "parts": "Book I, ch. I, 'De causis in genere', p. 27 (the precepts); ch. II, 'De Materia', pp. 47-61; ch. III, 'De Forma', pp. 62-127 (MDZ canvas = page + 18, read from the images at pp. 47, 49, 55, 58-60, 63, 75, 82, 89, 94 and 105)"
+  },
+  "G": {
+   "text": "goudin-philosophia-1681",
+   "parts": "t. 2, Bologna 1686 (in place of the Cologne 1681 t. 2, not found; R1 clause 6), physics part 1, disputation I: q. I, principles in common, a. III, with § II against Descartes and § III the true view, pp. 21-42; q. II, prime matter, a. I-V, pp. 42-86; q. III, substantial form, a. I-III, pp. 87-112; q. IV, the natural composite, skimmed in the OCR only (IA bub_gb_D2e2JGtx1rwC; the /page/n index drifts and leaves n29-n38 repeat pp. 20-29, so every link is to a leaf read from the image)"
+  },
+  "L": {
+   "text": "legrand-institutio-1675",
+   "parts": "Part IV ('Physica generalis'), a. III, 'De natura materiae, seu Corporis', pp. 165-168; a. VIII, 'Nullae dantur formae materiales, seu substantiales in Corpore', pp. 180-182; a. IX, 'An dentur Qualitates, aut Accidentia Realia', pp. 182-185; a. X, 'Quae demum rebus Naturalibus formae intelligibiles sunt tribuendae', pp. 185-187 (IA /page/n = page + 59, read from the images at pp. 165-166 and 180-186)"
+  }
+ },
+ "placement": [
+  {
+   "text": "R",
+   "where": "General physics (Part I), right after five chapters on knowledge and method: the principles of natural beings (ch. VI), matter (VII) and its corollaries (VIII), then motion and the rest; forms open the account of particular bodies (ch. XVIII), followed by the elements",
+   "cites": [
+    {
+     "page": "36",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=76",
+     "read_from": "image"
+    },
+    {
+     "page": "141",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=181",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "S",
+   "where": "The first book, on the causes of the natural body: causes in general (ch. I), matter (II), form (III), before the efficient and final causes",
+   "cites": [
+    {
+     "page": "27",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=45",
+     "read_from": "ocr"
+    },
+    {
+     "page": "47",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=65",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "G",
+   "where": "Physics part 1, on mobile being in general: the first disputation, on the principles of natural being, in four questions (principles in common, with Descartes refuted; prime matter; substantial form; the natural composite)",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "9",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n8/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "L",
+   "where": "Part IV, general physics, after the existence of material things is proved: the nature of matter (a. III), its properties and the elements, then the rejection of substantial forms and real qualities and the intelligible forms that replace them (a. VIII-X)",
+   "cites": [
+    {
+     "page": "165",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n224/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "page": "180",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n239/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1675-matter-form-001",
+   "question": "form-needed",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since wood turned into fire is not wholly annihilated nor the fire made from nothing, something common to both remains, the matter; and there must be something else which, joined to the matter, makes it wood rather than fire: the form, which does not give being to the matter absolutely but gives it such a being. The form of a being is what makes it in particular what it is and different from everything else.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "wood converted into fire, taken as a pattern for the other productions of nature"
+    }
+   ],
+   "cites": [
+    {
+     "page": "36",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=76",
+     "read_from": "image",
+     "section": "I.6 art. I-II"
+    },
+    {
+     "page": "141",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=181",
+     "read_from": "image",
+     "section": "I.18 art. I"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "qui ne donne pas absolument l'Estre à la matiere, mais qui luy donne un tel Estre",
+    "from_image": true,
+    "tr": "which does not give being to the matter absolutely, but gives it such a being"
+   }
+  },
+  {
+   "id": "1675-matter-form-002",
+   "question": "form-needed",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Neither matter alone nor form alone makes a man, nor a form with any matter whatever, but with a certain matter worked up according to the laws of nature; the specific form gives the thing its being, its distinction from other kinds and its own operations.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "each kind has its own operations: the dog barks, the horse neighs, the pig grunts, man laughs"
+    }
+   ],
+   "cites": [
+    {
+     "page": "48",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=66",
+     "read_from": "ocr",
+     "section": "I.2, ad praec. II"
+    },
+    {
+     "page": "49",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=67",
+     "read_from": "image",
+     "section": "I.2, ad praec. II"
+    },
+    {
+     "page": "75",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=93",
+     "read_from": "image",
+     "section": "I.3, ad praec. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Forma dat esse rei.",
+    "from_image": true,
+    "tr": "Form gives the thing its being."
+   }
+  },
+  {
+   "id": "1675-matter-form-003",
+   "question": "form-needed",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since matter is of itself indifferent to every kind of thing, as wax to every figure, there must be besides matter another principle that determines it to a certain species of natural being, to be a man, fire or a tree: the form, whose variety makes the differences among natural things.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "analogy",
+     "detail": "wax indifferent to every figure"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "39",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n48/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "dari debet prætèr materiam aliquod aliud principium determinans ipsam ad certam speciem entis naturalis",
+    "from_image": true,
+    "tr": "there must be, besides matter, some other principle determining it to a certain species of natural being"
+   }
+  },
+  {
+   "id": "1675-matter-form-004",
+   "question": "form-needed",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Having stripped matter of substantial forms and real accidents and left it inert, he must clothe it with some forms from which it takes its variety and distinction: since body is a merely passive principle, it must be given principles by which it acts and produces its effects.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "185",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n244/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 10"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "curandum tandem, ut formis aliquibus vestiatur, à quibus varietatem, distinctionemque suam desumat",
+    "from_image": true,
+    "tr": "we must finally see that it is clothed with some forms, from which it may take its variety and distinction"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-008",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "since body is a merely passive principle, it must be given principles by which it acts"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-005",
+   "question": "matter-activity",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "The chapters read do not say whether matter is of itself active or passive."
+  },
+  {
+   "id": "1675-matter-form-006",
+   "question": "matter-activity",
+   "text": "S",
+   "answer": "passive",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Matter stands to form passively, not actively, and even if it acted it could not produce an effect nobler than itself; it concurs passively in constituting a body, since the nature of matter is to receive, and to receive is to suffer.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "61",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=79",
+     "read_from": "ocr",
+     "section": "I.2 q. III"
+    },
+    {
+     "page": "82",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=100",
+     "read_from": "image",
+     "section": "I.3 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nam materia in ordine ad formam activè se non habet, sed passivè.",
+    "from_image": true,
+    "tr": "For matter does not stand actively towards form, but passively."
+   }
+  },
+  {
+   "id": "1675-matter-form-007",
+   "question": "matter-activity",
+   "text": "G",
+   "answer": "passive",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Matter in its own entity includes no act of essence; it is pure potency in the genus of being, of itself indifferent to every mode of being, as wax holds no figure of its own but can be made into all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aristotle: matter is not what, nor of what kind; Thomas: matter is not a being in act but potency only"
+    },
+    {
+     "kind": "analogy",
+     "detail": "wax"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "49",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n58/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. II a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Materia in sua entitate nullum includit actum essentiæ; sed est pura potentia in genere entis",
+    "from_image": true,
+    "tr": "Matter in its own entity includes no act of essence, but is pure potency in the genus of being"
+   }
+  },
+  {
+   "id": "1675-matter-form-008",
+   "question": "matter-activity",
+   "text": "L",
+   "answer": "passive",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Body is only a passive principle, almost without any action; it must be given principles by which it acts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "185",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n244/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 10"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Corpus passivum duntaxat sit principium, & omnis propemodum actionis expers",
+    "from_image": true,
+    "tr": "body is merely a passive principle, and almost without any action"
+   }
+  },
+  {
+   "id": "1675-matter-form-009",
+   "question": "soul-separable",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "We know that the rational soul is a substance really distinct from the body to which it is united, which does not depend on it at all for its being; but it is of another order than the ordinary forms of bodies and proves nothing about the forms of purely material beings.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "142",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=182",
+     "read_from": "image",
+     "section": "I.18 art. II"
+    },
+    {
+     "page": "143",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=183",
+     "read_from": "image",
+     "section": "I.18 art. V"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "c'est une substance réellement distincte du corps auquel elle est unie",
+    "from_image": true,
+    "tr": "it is a substance really distinct from the body to which it is united"
+   }
+  },
+  {
+   "id": "1675-matter-form-010",
+   "question": "soul-separable",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Forms cannot survive their separation from the body, the rational soul alone excepted, which is a spirit; the human soul is immaterial, without extension or division.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "117",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=135",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    },
+    {
+     "page": "126",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=144",
+     "read_from": "ocr",
+     "section": "I.3 q. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-011",
+   "question": "soul-separable",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The rational soul is not educed from the potency of matter but created and infused by God; that men's souls are immortal was the constant view not only of the more famous philosophers but of nearly the whole world, and the conclusion has passed among the dogmas of the Church.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "consensus",
+     "detail": "the constant view of nearly the whole world"
+    },
+    {
+     "kind": "authority",
+     "detail": "the dogmas of the Church"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "99",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n112/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. II"
+    },
+    {
+     "vol": "2",
+     "page": "100",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n113/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "totius ferè orbis constans sententia fuit, animas hominum immortales esse",
+    "from_image": true,
+    "tr": "it was the constant opinion of nearly the whole world that the souls of men are immortal"
+   }
+  },
+  {
+   "id": "1675-matter-form-012",
+   "question": "soul-separable",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The rational soul is created immediately by God, as a substance; human souls are the only substantial forms, those of beasts being only the motion of the animal spirits and the arrangement of the parts.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "182",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n241/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Animarum nostrarum dignitatem extollimus, dicendo, illas solas esse formas substantiales",
+    "from_image": true,
+    "tr": "we raise the dignity of our souls by saying that they alone are substantial forms"
+   }
+  },
+  {
+   "id": "1675-matter-form-013",
+   "question": "body-nature",
+   "text": "R",
+   "answer": "extension-alone",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Hardness, heat, weight, colour and the like are accidents of matter, since there are material things without each of them; extension, divisibility, figure and impenetrability are inseparable from it, and because extension is conceived before the other three and they presuppose it, the essence of matter consists in extension.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "extension is conceived first; the other essential properties presuppose it"
+    }
+   ],
+   "cites": [
+    {
+     "page": "38",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=78",
+     "read_from": "ocr",
+     "section": "I.7 art. II"
+    },
+    {
+     "page": "39",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=79",
+     "read_from": "ocr",
+     "section": "I.7 art. III"
+    },
+    {
+     "page": "40",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=80",
+     "read_from": "ocr",
+     "section": "I.7 art. VII"
+    },
+    {
+     "page": "41",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=81",
+     "read_from": "image",
+     "section": "I.7 art. VIII-IX"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "l'essence de la matiere consiste dans l'estenduë",
+    "from_image": true,
+    "tr": "the essence of matter consists in extension"
+   }
+  },
+  {
+   "id": "1675-matter-form-014",
+   "question": "body-nature",
+   "text": "S",
+   "answer": "matter-and-form",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Matter and form are the internal causes of a natural body, which enter its essence: matter is that from which it is constituted, form that through which it is constituted.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "27",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=45",
+     "read_from": "ocr",
+     "section": "I.1 praec. III"
+    },
+    {
+     "page": "47",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=65",
+     "read_from": "image",
+     "section": "I.2 praec. I"
+    },
+    {
+     "page": "62",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=80",
+     "read_from": "ocr",
+     "section": "I.3 praec. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Materia est causa interna, ex qua corpus naturale constituitur.",
+    "from_image": true,
+    "tr": "Matter is the internal cause from which a natural body is constituted."
+   }
+  },
+  {
+   "id": "1675-matter-form-015",
+   "question": "body-nature",
+   "text": "G",
+   "answer": "matter-and-form",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The principles of the generated being, the principles of the thing once made, are two only, matter and form, for these alone remain when the generation is over.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "41",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n50/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    },
+    {
+     "vol": "2",
+     "page": "42",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n51/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Principia entis geniti constitutiua, principia in facto esse sunt solùm duo, materia scilicet, & forma.",
+    "from_image": true,
+    "tr": "The constitutive principles of the generated being, the principles of the thing once made, are two only, namely matter and form."
+   }
+  },
+  {
+   "id": "1675-matter-form-016",
+   "question": "body-nature",
+   "text": "G",
+   "answer": "extension-alone",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Against Descartes, quantity or extension is not what constitutes material substance: in the Eucharist the quantity of the bread remains, with the other accidents, after the substance of the bread has passed into the body of Christ, and what is separated from a substance does not constitute it; and the substantial principles of different things must differ, while quantity is of the same kind in all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "the doctrine of the Eucharist, as the Church teaches"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "different things need different substantial principles"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "30",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n39/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    },
+    {
+     "vol": "2",
+     "page": "31",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n40/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quantitas non est constitutiuum substantiæ, sed solùm accidens ab ea separabile",
+    "from_image": true,
+    "tr": "quantity is not constitutive of substance, but only an accident separable from it"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-050",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "what is separable from a substance, as the quantity of the bread in the Eucharist, does not constitute it"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-017",
+   "question": "body-nature",
+   "text": "L",
+   "answer": "extension-alone",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Physical matter, which is the same as natural body, is a substance extended in length, breadth and depth, and nothing else; extension alone makes its nature, since it belongs to every body, to body alone and always, while hardness, weight and colour can be taken away and the body remains.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "extension belongs to every body, to body alone and always"
+    },
+    {
+     "kind": "experiment",
+     "detail": "thought experiment: bodies that drew back as fast as the hand came would show no hardness and still be bodies"
+    }
+   ],
+   "cites": [
+    {
+     "page": "166",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n225/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 3"
+    },
+    {
+     "page": "167",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n226/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 3"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Materia igitur Physica, seu quod idem est, corpus naturale, est substantia in longum, latum & profundum extensa.",
+    "from_image": true,
+    "tr": "Physical matter, then, or what is the same, natural body, is a substance extended in length, breadth and depth."
+   }
+  },
+  {
+   "id": "1675-matter-form-018",
+   "question": "prime-matter",
+   "text": "R",
+   "answer": "extended-substance",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whatever it may be that subsists in wood and then in fire is what we call matter, the common subject of all beings; it is an extended substance, and the idea of extension is so independent of every created being that it is no mode or accident but a true substance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "36",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=76",
+     "read_from": "image",
+     "section": "I.6 art. I"
+    },
+    {
+     "page": "41",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=81",
+     "read_from": "image",
+     "section": "I.7 art. X"
+    },
+    {
+     "page": "42",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=82",
+     "read_from": "image",
+     "section": "I.7 art. X"
+    },
+    {
+     "page": "43",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=83",
+     "read_from": "image",
+     "section": "I.7 art. XIII"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "matter, the common subject, is extension, which is a true substance"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-019",
+   "question": "prime-matter",
+   "text": "S",
+   "answer": "none",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The first matter is found only in books and men's little brains: no generation was ever made in it, for the generations of men, beasts, plants, metals and all mixtures have a second matter for their subject, seeds or bodies answering to them; the transmutation of the elements, the schoolmen's surest refuge, proves nothing, since the elements never change into one another; the arguments from generation, pure act, composition, contrariety and subordination prove a matter, not a first matter; it is a fiction, not yet proved, still less explained.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the schoolmen's six proofs answered one by one"
+    },
+    {
+     "kind": "observation",
+     "detail": "all generation is from seeds"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Coimbra commentators",
+     "dates": null,
+     "role": "opposed"
+    },
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "followed"
+    },
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "55",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=73",
+     "read_from": "image",
+     "section": "I.2 q. II"
+    },
+    {
+     "page": "56",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=74",
+     "read_from": "ocr",
+     "section": "I.2 q. II"
+    },
+    {
+     "page": "57",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=75",
+     "read_from": "ocr",
+     "section": "I.2 q. II"
+    },
+    {
+     "page": "58",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=76",
+     "read_from": "image",
+     "section": "I.2 q. II"
+    },
+    {
+     "page": "59",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=77",
+     "read_from": "image",
+     "section": "I.2 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Primam illam materiam non nisi in libris & hominum cerebellis deprehendi",
+    "from_image": true,
+    "tr": "that first matter is found only in books and in men's little brains"
+   },
+   "rests_on": [
+    {
+     "question": "element-change",
+     "answer": "no",
+     "kind": "premise",
+     "detail": "the elements never change into one another (proved in Book IV), so their transmutation proves no first matter",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-matter-form-034",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "every generation has a second matter, seeds, for its subject"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-020",
+   "question": "prime-matter",
+   "text": "S",
+   "answer": "pure-potency",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The schoolmen's first matter, a pure potency without any form, the receptacle of all forms, which neither comes to be nor perishes but is the subject of all generation, is a fiction.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "50",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=68",
+     "read_from": "ocr",
+     "section": "I.2 q. I"
+    },
+    {
+     "page": "51",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=69",
+     "read_from": "ocr",
+     "section": "I.2 q. I"
+    },
+    {
+     "page": "59",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=77",
+     "read_from": "image",
+     "section": "I.2 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Figmentum ergò est illa Materia Prima, nondum probatum, nedum satis explicatum.",
+    "from_image": true,
+    "tr": "That first matter, then, is a fiction, not yet proved, still less sufficiently explained."
+   }
+  },
+  {
+   "id": "1675-matter-form-021",
+   "question": "prime-matter",
+   "text": "S",
+   "answer": "abstraction-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Some keep the division into first and second matter, but take the first as the most general substance, abstracted by the intellect from all individuals and natural species, concurring passively in the most general natural body: certainly not badly said, since in general physics one seeks not the matter of this dog or that horse but the matter of all natural bodies at once.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "59",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=77",
+     "read_from": "image",
+     "section": "I.2 q. III"
+    },
+    {
+     "page": "60",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=78",
+     "read_from": "image",
+     "section": "I.2 q. III"
+    },
+    {
+     "page": "61",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=79",
+     "read_from": "ocr",
+     "section": "I.2 q. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Certè non malè & non absque acumine.",
+    "from_image": true,
+    "tr": "Certainly not badly, and not without acumen."
+   }
+  },
+  {
+   "id": "1675-matter-form-022",
+   "question": "prime-matter",
+   "text": "G",
+   "answer": "pure-potency",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There is a first matter, a thing that can be turned into every kind of substance as wax can be given every figure: the first subject of each thing, from which, being in it, all natural things come to be. It is proved from substantial change, as in the death of an animal or the burning of wood, where all the properties of a thing perish suddenly and beyond repair.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "death and burning: all the properties of the thing fail at once"
+    },
+    {
+     "kind": "authority",
+     "detail": "Aristotle and Thomas"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "44",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n53/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. II a. I"
+    },
+    {
+     "vol": "2",
+     "page": "45",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n54/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. II a. I"
+    },
+    {
+     "vol": "2",
+     "page": "49",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n58/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. II a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Datur materia prima, seu quædam res in omnium substantiarum genera versatilis, sicut cera in omnes figuras variari potest.",
+    "from_image": true,
+    "tr": "There is a first matter, or a certain thing that can be turned into every kind of substance, as wax can be varied into every figure."
+   }
+  },
+  {
+   "id": "1675-matter-form-023",
+   "question": "prime-matter",
+   "text": "L",
+   "answer": "pure-potency",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The first matter of the schools, which according to Aristotle is neither what, nor how much, nor of what kind, stripped of all quantity and qualities, is a mere fiction that can neither be imagined nor conceived, and useless for explaining any work of nature; nor need it be presupposed in substantial change, since corruption is only the change of some parts, some lost and others taking their place.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "nothing in the heavens, earth, sea or fire was ever explained by it"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "165",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n224/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 3"
+    },
+    {
+     "page": "166",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n225/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 3"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Dicendum igitur talem materiam, qualem Aristotelici fingunt, non posse ullo modo admitti",
+    "from_image": true,
+    "tr": "We must say, then, that such a matter as the Aristotelians feign can in no way be admitted"
+   }
+  },
+  {
+   "id": "1675-matter-form-024",
+   "question": "prime-matter",
+   "text": "L",
+   "answer": "extended-substance",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The matter of all bodies is extended substance: physical matter is the same as natural body, a substance extended in length, breadth and depth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "166",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n225/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 3"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "same-agent",
+     "basis": "page",
+     "detail": "physical matter is the same as natural body, extended substance"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-025",
+   "question": "matter-existence",
+   "text": "R",
+   "answer": "own",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Most Aristotelians take Aristotle's saying that matter is nothing one can answer to the questions of essence, quantity and quality to mean that matter is not extended and has no existence at all; Aristotle more likely spoke of matter taken in a very general way; and if he did not, one should depart from him, for reason, not authority, judges of the truth: what does not exist differs in no way from nothing and can have no property.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    },
+    {
+     "kind": "other",
+     "detail": "reason, not authority, judges of the truth"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "42",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=82",
+     "read_from": "image",
+     "section": "I.7 art. XI-XII"
+    },
+    {
+     "page": "43",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=83",
+     "read_from": "image",
+     "section": "I.7 art. XIII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "ce qui n'existe point ne differe en aucune façon du neant",
+    "from_image": true,
+    "tr": "what does not exist differs in no way from nothing"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "extension is a substance, not a mode, and so exists of itself"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-026",
+   "question": "matter-existence",
+   "text": "S",
+   "answer": "own",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Simple matter is pure matter, whose essence no form enters: the matter of the heaven, of fire and of all simple bodies; the heaven's matter is bare and pure, without any mixture or concretion. He reports the schoolmen's quarrel whether first matter has any act or existence of its own (the Coimbra commentators and Zabarella against; Toledo, Pereira and Hurtado de Mendoza for) without taking a side in it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Coimbra commentators",
+     "dates": null,
+     "role": "reported"
+    },
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "reported"
+    },
+    {
+     "name": "Francisco de Toledo",
+     "dates": "1532-1596",
+     "role": "reported"
+    },
+    {
+     "name": "Benito Pereira",
+     "dates": "1536-1610",
+     "role": "reported"
+    },
+    {
+     "name": "Pedro Hurtado de Mendoza",
+     "dates": "1578-1641",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "47",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=65",
+     "read_from": "image",
+     "section": "I.2 praec. III"
+    },
+    {
+     "page": "49",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=67",
+     "read_from": "image",
+     "section": "I.2 ad praec. III"
+    },
+    {
+     "page": "52",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=70",
+     "read_from": "ocr",
+     "section": "I.2 q. I"
+    },
+    {
+     "page": "53",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=71",
+     "read_from": "ocr",
+     "section": "I.2 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Sic cœli materia nuda puraque est, omni carens mistione, omni concretione.",
+    "from_image": true,
+    "tr": "So the matter of the heaven is bare and pure, lacking all mixture, all concretion."
+   }
+  },
+  {
+   "id": "1675-matter-form-027",
+   "question": "matter-existence",
+   "text": "G",
+   "answer": "through-form",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "First matter has no existence of its own but exists only by the existence of the whole composite, which it receives through the form, as the body lives by the life of the whole animal; and not even God's absolute power can make matter exist without form, for it would then exist and not exist at once, existence being the formal effect of the form.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Thomas, De potentia q. 4 a. 1 and Quodlibet 3"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "a formal effect cannot be had without its form"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "63",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n72/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. II a. III"
+    },
+    {
+     "vol": "2",
+     "page": "78",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n89/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. II a. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Fieri non potest etiam de potentia Dei absoluta, vt materia existat sine forma.",
+    "from_image": true,
+    "tr": "It cannot be done, even by the absolute power of God, that matter should exist without form."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-022",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "matter, pure potency, exists only by the existence it receives through the form"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-028",
+   "question": "matter-existence",
+   "text": "L",
+   "answer": "through-form",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "If first matter came before the substantial form, it could not receive from the form its existence, mobility, impenetrability and other properties, since the form comes after it and is, as they say, educed from its potency; no effect goes before its cause in nobility, and it implies a contradiction for an effect to give its cause existence.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "an effect cannot give its cause existence"
+    }
+   ],
+   "cites": [
+    {
+     "page": "165",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n224/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 3"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nullus effectus causam suam nobilitate antecedit",
+    "from_image": true,
+    "tr": "No effect goes before its cause in nobility"
+   }
+  },
+  {
+   "id": "1675-matter-form-029",
+   "question": "substantial-forms",
+   "text": "R",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "rational-soul-only"
+   ],
+   "part": "dispute",
+   "statement": "Whether there are substantial forms, forms that are true substances with an existence distinct from that of matter, can be settled only by knowing each thing in particular. The rational soul proves nothing for purely material beings, and it would be rash to assert substantial forms in them on its example; one may say boldly that some forms are essential (liquidity to water) and others accidental (cold to water), and Aristotle's Greek word may as well mean essential as substantial forms.",
+   "confidence": {
+    "level": "none"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "141",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=181",
+     "read_from": "image",
+     "section": "I.18 art. II"
+    },
+    {
+     "page": "142",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=182",
+     "read_from": "image",
+     "section": "I.18 art. II"
+    },
+    {
+     "page": "143",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=183",
+     "read_from": "image",
+     "section": "I.18 art. V"
+    },
+    {
+     "page": "144",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=184",
+     "read_from": "image",
+     "section": "I.18 art. V-VI"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "j'ose asseurer que la solution de cette difficulté dépend de la connoissance particuliere de chaque chose",
+    "from_image": true,
+    "tr": "I dare affirm that the solution of this difficulty depends on the particular knowledge of each thing"
+   }
+  },
+  {
+   "id": "1675-matter-form-030",
+   "question": "substantial-forms",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Every species has its own specific form, the most perfect and noble of forms, which never takes the place of matter; there are as many specific forms as species of bodies, differing in their faculties and powers, as Aldrovandi says the souls of animals differ in species.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "each kind has its own operations"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Ulisse Aldrovandi",
+     "dates": "1522-1605",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "63",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=81",
+     "read_from": "image",
+     "section": "I.3 praec. IV"
+    },
+    {
+     "page": "75",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=93",
+     "read_from": "image",
+     "section": "I.3 ad praec. IV"
+    },
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=94",
+     "read_from": "ocr",
+     "section": "I.3 ad praec. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hinc canis latrat, equus hinnit, sus grunnit, homo ridet.",
+    "from_image": true,
+    "tr": "Hence the dog barks, the horse neighs, the pig grunts, man laughs."
+   }
+  },
+  {
+   "id": "1675-matter-form-031",
+   "question": "substantial-forms",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There must be in nature a substantial form which with matter constitutes natural beings: matter, being pure potency, cannot alone constitute a natural substance; and properties that follow a thing's essence return of themselves when interrupted, as water grows cold again once the fire is removed and an animal recovers motion after apoplexy, so there must be a substantial root of them besides matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "water's coldness returns; motion returns after apoplexy"
+    },
+    {
+     "kind": "consensus",
+     "detail": "all philosophers now, the ancients' opinions exploded"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "89",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n102/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Necesse est dari in rerum natura formam substantialem, quæ cum materia constituat entia naturalia.",
+    "from_image": true,
+    "tr": "There must be in nature a substantial form, which with matter constitutes natural beings."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-022",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "pure potency cannot alone constitute a natural substance"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-032",
+   "question": "substantial-forms",
+   "text": "L",
+   "answer": "rational-soul-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "There are no material or substantial forms in bodies. No substance can begin to exist without being created by God, yet the schools hold that substantial forms begin daily and are not created; the forms were invented to give the causes of all actions, but by their defenders' own admission they are occult, so nothing certain follows from them; and nothing should be admitted in philosophy that is not clearly and distinctly known. Animals differ in species as two clocks or automata differ, by the different arrangement and motion of the parts of matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "whatever begins to exist as a substance is created"
+    },
+    {
+     "kind": "explanatory-scope",
+     "detail": "effects are better explained without them"
+    },
+    {
+     "kind": "analogy",
+     "detail": "clocks and automata"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "180",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n239/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "182",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n241/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "substantiales formas esse penitus è Philosophico Thesauro deturbandas",
+    "from_image": true,
+    "tr": "substantial forms are to be thrown out of the treasury of philosophy altogether"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-055",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "nothing is to be admitted in philosophy that is not clearly and distinctly known"
+    },
+    {
+     "claim": "1675-matter-form-059",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "substantial forms are useless for explaining effects"
+    },
+    {
+     "claim": "1675-matter-form-038",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "forms that begin without being created are not substances"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-033",
+   "question": "forms-origin",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The chapters read do not ask where the forms of generated things come from."
+  },
+  {
+   "id": "1675-matter-form-034",
+   "question": "forms-origin",
+   "text": "S",
+   "answer": "from-begetter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "God created the forms of the first bodies with them, and after the six days gave animals, plants and the other corruptible bodies the power to multiply themselves, so that like begets like; the forms of animals are communicated by their parents in the act of generation, through the seed, each form new in number but the same in species. He calls this traduction, the word being carried over from the propagation of trees by grafting to every multiplication of forms in which the begetter communicates its form to the begotten.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "scripture",
+     "detail": "the creation of the first bodies and the rest of the seventh day"
+    },
+    {
+     "kind": "observation",
+     "detail": "the growth of the embryo; grafting"
+    }
+   ],
+   "cites": [
+    {
+     "page": "104",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=122",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    },
+    {
+     "page": "105",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=123",
+     "read_from": "image",
+     "section": "I.3 q. II"
+    },
+    {
+     "page": "114",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=132",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    },
+    {
+     "page": "116",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=134",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non à materia, non ex materia, sed in materia: neque etiam ex forma, sed à forma.",
+    "from_image": true,
+    "tr": "Not from matter, not out of matter, but in matter; nor yet out of the form, but from the form."
+   }
+  },
+  {
+   "id": "1675-matter-form-035",
+   "question": "forms-origin",
+   "text": "S",
+   "answer": "educed",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The eduction of forms from the potency of matter can be neither explained, proved by firm reasons, reconciled with accepted rules nor freed from absurdities: its defenders cannot say whether the form comes from the substance of matter, from its accidents or from nothing; matter is passive and cannot produce an effect nobler than itself; and eduction leaves no proximate principal cause of the form. Forms therefore come wholly from nothing, though this is not creation, which is the making of a whole thing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "the arguments for eduction answered one by one"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Francisco de Toledo",
+     "dates": "1532-1596",
+     "role": "opposed"
+    },
+    {
+     "name": "Coimbra commentators",
+     "dates": null,
+     "role": "opposed"
+    },
+    {
+     "name": "Daniel Sennert",
+     "dates": "1572-1637",
+     "role": "followed"
+    },
+    {
+     "name": "Sebastian Basso",
+     "dates": null,
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=94",
+     "read_from": "ocr",
+     "section": "I.3 q. I"
+    },
+    {
+     "page": "77",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=95",
+     "read_from": "ocr",
+     "section": "I.3 q. I"
+    },
+    {
+     "page": "80",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=98",
+     "read_from": "ocr",
+     "section": "I.3 q. I"
+    },
+    {
+     "page": "82",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=100",
+     "read_from": "image",
+     "section": "I.3 q. I"
+    },
+    {
+     "page": "89",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=107",
+     "read_from": "image",
+     "section": "I.3 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Formæ omninò ex nihilo fiunt.",
+    "from_image": true,
+    "tr": "Forms come to be wholly from nothing."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-006",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "matter stands to form passively and cannot produce an effect nobler than itself"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-036",
+   "question": "forms-origin",
+   "text": "S",
+   "answer": "from-heavens",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "Jean Fernel's view, that forms are brought into prepared matter by the heavens and stars, also fails: the heavens act on everything under the moon with a universal and indifferent influx, are themselves without soul and cannot give souls, and an effect cannot be nobler than its cause; the sun in spring only helps the seeds that lie in the earth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Jean Fernel",
+     "dates": "1497-1558",
+     "role": "opposed"
+    },
+    {
+     "name": "Daniel Sennert",
+     "dates": "1572-1637",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "94",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=112",
+     "read_from": "image",
+     "section": "I.3 q. I"
+    },
+    {
+     "page": "98",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=116",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    },
+    {
+     "page": "100",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=118",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    },
+    {
+     "page": "102",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=120",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    },
+    {
+     "page": "103",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=121",
+     "read_from": "ocr",
+     "section": "I.3 q. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-037",
+   "question": "forms-origin",
+   "text": "G",
+   "answer": "educed",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The corruptible forms of generated things come to be by eduction from matter: before they come to be they are contained in the matter not in act, as Anaxagoras thought, but in potency, as every figure is in wax; to be educed is to be made out of matter by its transmutation, emerging from its potentiality. So they are made not from nothing but from something, their potency. The forms of the heavens and the elements, in the first creation, were not educed but created together with their matter.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Thomas, Summa I q. 45 a. 8 and q. 65 a. 4"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Anaxagoras",
+     "dates": "c. 500-c. 428 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "97",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n110/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. II"
+    },
+    {
+     "vol": "2",
+     "page": "99",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n112/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. II"
+    },
+    {
+     "vol": "2",
+     "page": "103",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n116/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Formæ corruptibiles rerum generatarum fiunt per eductionem à materia, seu educuntur de potentia materiæ.",
+    "from_image": true,
+    "tr": "The corruptible forms of generated things come to be by eduction from matter, or are educed from the potency of matter."
+   }
+  },
+  {
+   "id": "1675-matter-form-038",
+   "question": "forms-origin",
+   "text": "L",
+   "answer": "educed",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "No substance can begin to exist in nature without being created by God, on whom everything depends for its existence as well as its essence; the schools say the substantial forms that appear daily are educed from the potency of matter, as material accidents are, and not created, so by their own account they do not deserve the name of substance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "whatever begins to exist as a substance is created by God"
+    }
+   ],
+   "cites": [
+    {
+     "page": "180",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n239/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "dari non potest aliqua substantia, quæ esse incipiat in natura rerum, & à Deo non creetur.",
+    "from_image": true,
+    "tr": "there cannot be any substance that begins to exist in the nature of things and is not created by God."
+   }
+  },
+  {
+   "id": "1675-matter-form-039",
+   "question": "forms-origin",
+   "text": "L",
+   "answer": "rearrangement",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No substance is ever shown to perish wholly; it is only changed into something else and takes a new figure. Size, figure, situation, motion and rest are the intelligible forms of all bodies, on which their origin, nature, properties and end depend.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "186",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n245/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 10"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Mens, mensura, quies, motus, positura, figura, Sunt cum materia, cunctarum exordia rerum.",
+    "from_image": true,
+    "tr": "Mind, measure, rest, motion, position, figure are, with matter, the beginnings of all things."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-032",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "with substantial forms expelled, bodies differ by the arrangement and motion of their parts"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-040",
+   "question": "forms-perish",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The chapters read do not ask what becomes of a form when its thing perishes."
+  },
+  {
+   "id": "1675-matter-form-041",
+   "question": "forms-perish",
+   "text": "S",
+   "answer": "annihilated",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "When forms perish they are annihilated, the rational soul excepted: they do not go back into privation, which would be to say that the horse dies and does not die, nor into a proximate or remote potency of matter; but when this annihilation happens is a deeper question, full of nature's mysteries, since uprooted plants do not die at once, and frogs lie as if dead in winter and revive in spring.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    },
+    {
+     "kind": "observation",
+     "detail": "uprooted plants; frogs in winter"
+    }
+   ],
+   "cites": [
+    {
+     "page": "117",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=135",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    },
+    {
+     "page": "118",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=136",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    },
+    {
+     "page": "119",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=137",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    },
+    {
+     "page": "121",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=139",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    },
+    {
+     "page": "122",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=140",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-035",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "forms did not come from privation or from the potency of matter, so they cannot return there"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-042",
+   "question": "forms-perish",
+   "text": "G",
+   "answer": "back-into-potency",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "When a form ceases it is not annihilated, for it always leaves something of itself, its potency, the matter; just as forms made out of matter are not made from nothing but from something, their real potency.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "c. 1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "99",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n112/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Similitèr quando forma desinit, non annihilatur, quia semper relinquit aliquid sui, idest, potentiam suam, seu materiam.",
+    "from_image": true,
+    "tr": "Likewise, when a form ceases, it is not annihilated, because it always leaves something of itself, that is, its potency, or the matter."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-037",
+     "kind": "same-agent",
+     "basis": "page",
+     "detail": "forms come out of the potency of matter and leave it behind when they cease"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-043",
+   "question": "forms-perish",
+   "text": "L",
+   "answer": "annihilated",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "If substantial forms perish when separated from matter, as all admit, by what force are they annihilated? Annihilation, like creation, belongs to God alone; a simple thing stays as it is unless changed from outside, and it would be against the Creator's goodness to make simple things with a principle of their own destruction; nor is there any example in nature of a substance perishing wholly.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "annihilation belongs to God alone"
+    }
+   ],
+   "cites": [
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-044",
+   "question": "privation-principle",
+   "text": "R",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Aristotle makes privation, the not-being of a thing that must immediately precede its generation, a third principle of natural beings; but to call it a principle makes the word equivocal, since privation is not in things and does not enter their composition, and it explains nothing, so there are only two principles, matter and form.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "37",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=77",
+     "read_from": "image",
+     "section": "I.6 art. III-V"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "la privation n'est pas dans les choses, & qu'elle ne concourt point à leur composition",
+    "from_image": true,
+    "tr": "privation is not in things, and does not concur in their composition"
+   }
+  },
+  {
+   "id": "1675-matter-form-045",
+   "question": "privation-principle",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The argument for first matter from contrary principles fails, for the contrariety turns into privative opposition, and since privation is not given it proves nothing; that forms came from privation is a great postulate and a begging of the question.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "58",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=76",
+     "read_from": "image",
+     "section": "I.2 q. II"
+    },
+    {
+     "page": "118",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=136",
+     "read_from": "ocr",
+     "section": "I.3 q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quæ privatio cum non detur, nihil probat.",
+    "from_image": true,
+    "tr": "And since this privation is not given, it proves nothing."
+   }
+  },
+  {
+   "id": "1675-matter-form-046",
+   "question": "privation-principle",
+   "text": "G",
+   "answer": "of-generation",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The principles of the generation of natural things are matter, form and privation, as Aristotle teaches and all philosophers have since agreed: generation is a passage from not-being to being, and privation, the want of a form joined with the aptitude to have it, is intrinsic to generation on the side of the subject; once the thing is made the privation is excluded, so the principles of the constituted thing are matter and form alone.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "Aristotle"
+    },
+    {
+     "kind": "consensus",
+     "detail": "all philosophers since"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "38",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n47/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    },
+    {
+     "vol": "2",
+     "page": "39",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n48/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    },
+    {
+     "vol": "2",
+     "page": "41",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n50/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    },
+    {
+     "vol": "2",
+     "page": "42",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n51/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Principia generationis rerum naturalium sunt materia, forma, & priuatio.",
+    "from_image": true,
+    "tr": "The principles of the generation of natural things are matter, form and privation."
+   }
+  },
+  {
+   "id": "1675-matter-form-047",
+   "question": "privation-principle",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The articles read do not treat privation as a principle."
+  },
+  {
+   "id": "1675-matter-form-048",
+   "question": "real-accidents",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The chapters read call hardness, heat, weight and colour accidents of matter but do not ask whether they are real beings distinct from it."
+  },
+  {
+   "id": "1675-matter-form-049",
+   "question": "real-accidents",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Heat is an accident, and so exists and acts by the work of a substance: it is an instrument, directed by the principal agent.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "94",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=112",
+     "read_from": "image",
+     "section": "I.3 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hic enim accidens est: ergò substantiæ opera & est, & operatur.",
+    "from_image": true,
+    "tr": "For it is an accident: therefore it both is and operates by the work of a substance."
+   }
+  },
+  {
+   "id": "1675-matter-form-050",
+   "question": "real-accidents",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "In the Eucharist the quantity of the bread remains, with the other accidents, after the substance of the bread has passed into the body of Christ; quantity is therefore an accident separable from substance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "the doctrine of the Eucharist, as the Church teaches"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "31",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n40/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "remanet adhuc quantitas panis cum cæteris accidentibus",
+    "from_image": true,
+    "tr": "the quantity of the bread still remains, with the other accidents"
+   }
+  },
+  {
+   "id": "1675-matter-form-051",
+   "question": "real-accidents",
+   "text": "L",
+   "answer": "modes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Those who make accidents and qualities real beings, distinct from their subjects and able to exist apart from them, confuse the notion of accident with that of substance: whatever can exist apart from a subject, even only by God's infinite power, deserves the name of substance. The senses perceive only surfaces, which are modes of substance; heat is the substance of fire itself, the flow of its particles; figure, hunger, health and beauty are modes, dispositions or arrangements of the parts, and he believes Aristotle meant no more.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "what can exist apart is a substance"
+    },
+    {
+     "kind": "refutation"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "182",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n241/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 9"
+    },
+    {
+     "page": "183",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n242/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 9"
+    },
+    {
+     "page": "184",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n243/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 9"
+    },
+    {
+     "page": "185",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n244/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 9"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Quicquid etiam per infinitam Dei potentiam, absque subjecto esse potest, Substantiæ nomen meretur.",
+    "from_image": true,
+    "tr": "Whatever can exist without a subject, even by the infinite power of God, deserves the name of substance."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-055",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "whatever is clearly and distinctly known is true: an accident that can exist apart is clearly a substance"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-052",
+   "question": "principles-clear",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Those who deny that extension is the essence of matter cannot say distinctly what they mean by matter, and set up as a principle an obscure thing from which no consequence can be drawn that brings light to the mind; no wonder their physics is so sterile.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation"
+    }
+   ],
+   "cites": [
+    {
+     "page": "44",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=84",
+     "read_from": "image",
+     "section": "I.7 art. XV"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "ils establissent pour principe une chose obscure",
+    "from_image": true,
+    "tr": "they set up as a principle an obscure thing"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "instance",
+     "basis": "page",
+     "detail": "those who deny that extension is the essence of matter set up an obscure principle"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-053",
+   "question": "principles-clear",
+   "text": "S",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Here we deal with the bark and cannot reach the kernel; our knowledge creeps on the ground, and the mind is ignorant of almost every form; the knowledge of forms is crude and confused, as Scaliger says, but rare things are dear, and where distinct knowledge is not granted us we should be content with confused.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "63",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=81",
+     "read_from": "image",
+     "section": "I.3 ad praec. in genere"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Et ubi non concessa nobis cognitio Distincta, contenti simus Confusâ.",
+    "from_image": true,
+    "tr": "And where distinct knowledge is not granted us, let us be content with confused."
+   }
+  },
+  {
+   "id": "1675-matter-form-054",
+   "question": "principles-clear",
+   "text": "G",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Descartes argues that extension, figure and local motion are clearer and more evident principles than the obscure matter and form of the Peripatetics. But principles of reasoning, the propositions from which we proceed to hidden truths, must be clear and certain, while the principles of the constitution of things are not clear to us but hidden and obscure, known only by great labour and by few; so a way of philosophizing that offers for principles of things what all know and find easiest is suspect for that very reason.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "36",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n45/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "hæc planè non sunt nobis clara, sed occulta, & obscura",
+    "from_image": true,
+    "tr": "these are plainly not clear to us, but hidden and obscure"
+   }
+  },
+  {
+   "id": "1675-matter-form-055",
+   "question": "principles-clear",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nothing is to be admitted in philosophy that is not clearly and distinctly known; the forms of body must be known to all, and their nature as clearly defined as that of the matter they affect, for principles must be so clear and evident that the mind, attending to them, cannot doubt their truth.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "186",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n245/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 10"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Nam ea debet esse principiorum natura, ut tam clara ac evidentia sint, ut dum Mens humana ea attente considerat, de eorum veritate ambigere non possit.",
+    "from_image": true,
+    "tr": "For such must be the nature of principles, that they are so clear and evident that the human mind, attending to them, cannot doubt their truth."
+   }
+  },
+  {
+   "id": "1675-matter-form-056",
+   "question": "explanation-standard",
+   "text": "R",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "A physics built on an obscure principle cannot explain the least of nature's effects; the essence of matter must be one from which consequences can be drawn.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "44",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=84",
+     "read_from": "image",
+     "section": "I.7 art. XV"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-052",
+     "kind": "premise",
+     "basis": "page",
+     "detail": "an obscure principle yields no consequences, hence a sterile physics"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-057",
+   "question": "explanation-standard",
+   "text": "S",
+   "answer": "forms-and-qualities",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The specific form gives a thing its own operations: through it the thing is not idle but busy, and as its being is, so is its operation.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "75",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=93",
+     "read_from": "image",
+     "section": "I.3 ad praec. IV"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-058",
+   "question": "explanation-standard",
+   "text": "G",
+   "answer": "forms-and-qualities",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The substantial form is the root of the properties that follow a thing's essence and the reason why they return when interrupted.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "89",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n102/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. III a. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-059",
+   "question": "explanation-standard",
+   "text": "L",
+   "answer": "mechanism",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Substantial forms are useless for explaining any effect, being occult by their defenders' own admission, and natural effects are explained best without them, by size, figure, situation, motion and rest.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "180",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n239/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "181",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n240/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    },
+    {
+     "page": "182",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n241/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 8"
+    }
+   ]
+  },
+  {
+   "id": "1675-matter-form-060",
+   "question": "matter-principles",
+   "text": "G",
+   "answer": "cartesian-elements",
+   "stance": "rejects",
+   "part": "why",
+   "statement": "Particles of quantity varied by division, figure and local motion cannot be the principles of natural things: Descartes's principles differ from the Epicureans' only in words, and the Epicurean doctrine was rejected by the Catholic doctors with one voice; they are not substantial; and life, sensation, appetite and the passions of beasts cannot arise from particles of quantity variously shaped and moved.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "authority",
+     "detail": "the Fathers and doctors of the Church"
+    },
+    {
+     "kind": "observation",
+     "detail": "beasts live, sense, imagine and remember"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "opposed"
+    },
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Augustine of Hippo",
+     "dates": "354-430",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "29",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n28/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    },
+    {
+     "vol": "2",
+     "page": "30",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n39/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    },
+    {
+     "vol": "2",
+     "page": "33",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n42/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "particulæ quantitatis secundùm diuisionem, figuram, & localem motum variatæ non possunt esse rerum naturalium principia",
+    "from_image": true,
+    "tr": "particles of quantity varied by division, figure and local motion cannot be the principles of natural things"
+   }
+  },
+  {
+   "id": "1675-matter-form-061",
+   "question": "faith-test",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Mysteries of faith are most true, and whatever follows legitimately from them about natural things must be true; there is no surer rule for testing natural knowledge than to examine it against the truths of faith as against a touchstone, as sailors correct their courses by the stars. The Cartesians' answer, that philosophical matters are not to be proved from mysteries reason cannot grasp, is ridiculous.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pythagoras",
+     "dates": "c. 570-c. 495 BC",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "31",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n40/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    },
+    {
+     "vol": "2",
+     "page": "32",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n41/mode/1up",
+     "read_from": "image",
+     "section": "disp. I q. I a. III § II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "ad nullam certiorem regulam possumus naturales cognitiones probare quam eas ad fidei veritates, tanquàm ad lydium lapidem examinando",
+    "from_image": true,
+    "tr": "by no surer rule can we test our natural knowledge than by examining it against the truths of faith, as against a touchstone"
+   }
+  },
+  {
+   "id": "1675-matter-form-062",
+   "question": "scripture-nature",
+   "text": "S",
+   "answer": "authority",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The physicist admits nature and Scripture and thinks little of the rest: neither Scripture nor nature says anything of first matter; the appeal to the consensus of the Fathers and schoolmen is vain, and still vainer the attempt to demonstrate first matter from the body of Christ in the three days of his death or from the relics of the saints.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Pedro Hurtado de Mendoza",
+     "dates": "1578-1641",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "57",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=75",
+     "read_from": "ocr",
+     "section": "I.2 q. II"
+    },
+    {
+     "page": "59",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=77",
+     "read_from": "image",
+     "section": "I.2 q. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Physicus enim naturam & Scripturam admittit, cætera parvi æstimat.",
+    "from_image": true,
+    "tr": "For the physicist admits nature and Scripture, and thinks little of the rest."
+   }
+  },
+  {
+   "id": "1675-matter-form-063",
+   "question": "forms-plurality",
+   "text": "S",
+   "answer": "several",
+   "stance": "holds",
+   "part": "open",
+   "statement": "A composite matter includes now one form, now several, as it is more or less compounded: man's matter includes many forms, being a body with its own matters and forms, which all serve the rational soul and take on the nature of matter; the form of earth in man follows the lead of the rational soul.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "49",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=67",
+     "read_from": "image",
+     "section": "I.2 ad praec. IV"
+    },
+    {
+     "page": "50",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=68",
+     "read_from": "ocr",
+     "section": "I.2 ad praec. IV"
+    },
+    {
+     "page": "66",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=84",
+     "read_from": "ocr",
+     "section": "I.3 ad praec. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Sic hominis materia quot quæso includit formas?",
+    "from_image": true,
+    "tr": "So how many forms, I ask, does the matter of man include?"
+   }
+  },
+  {
+   "id": "1675-matter-form-064",
+   "question": "forms-plurality",
+   "text": "R",
+   "answer": "several",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The soul is truly the form of the human body as human, but not, properly speaking, of the body as a body, nor of each of its parts: each part has its own form so attached to the matter that it remains while the part lasts, even after the soul has left, for flesh is still flesh and bone still bone; the error comes from taking the body's properties for the soul's.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "142",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=182",
+     "read_from": "image",
+     "section": "I.18 art. III"
+    },
+    {
+     "page": "143",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=183",
+     "read_from": "image",
+     "section": "I.18 art. III-IV"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "chacune doit avoir sa forme particuliere tellement attachée à la matiere, qu'elle y demeure toûjours tandis que la partie subsiste",
+    "from_image": true,
+    "tr": "each must have its own particular form so attached to the matter that it always remains there while the part subsists"
+   }
+  },
+  {
+   "id": "1675-matter-form-065",
+   "question": "form-divisible",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Material forms are extended with their matter and divided with it, whole in the whole but not whole in every part, as worms and wasps cut in two live on in both halves, grafts take and a nose can be restored from the flesh of the arm; the rational soul alone, a spirit, has no extension or division.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "cut worms and wasps; grafting; the Sicilian surgeon's nose"
+    }
+   ],
+   "cites": [
+    {
+     "page": "123",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=141",
+     "read_from": "ocr",
+     "section": "I.3 q. V"
+    },
+    {
+     "page": "124",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=142",
+     "read_from": "ocr",
+     "section": "I.3 q. V"
+    },
+    {
+     "page": "125",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=143",
+     "read_from": "ocr",
+     "section": "I.3 q. V"
+    },
+    {
+     "page": "126",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=144",
+     "read_from": "ocr",
+     "section": "I.3 q. V"
+    },
+    {
+     "page": "127",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=145",
+     "read_from": "ocr",
+     "section": "I.3 q. V"
+    }
+   ]
+  }
+ ]
+}

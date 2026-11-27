@@ -1,0 +1,361 @@
+{
+ "questions": [
+  {
+   "id": "form-needed",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Does a body need, besides its matter, something that makes it the kind of body it is?",
+   "names": [
+    "la: forma",
+    "fr: forme",
+    "la: formae intelligibiles"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: matter alone does not make a thing what it is"
+    },
+    {
+     "code": "no",
+     "label": "No: matter alone suffices"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:common"
+   ]
+  },
+  {
+   "id": "prime-matter",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "body-nature",
+   "wording": "Is there a first matter, common to all bodies and remaining through their changes, and what is it?",
+   "names": [
+    "la: materia prima",
+    "la: materia secunda",
+    "fr: matiere"
+   ],
+   "answers": [
+    {
+     "code": "pure-potency",
+     "label": "Yes: a first matter, of itself pure potency without any form or act"
+    },
+    {
+     "code": "extended-substance",
+     "label": "Yes: the matter common to all bodies, which is extended substance"
+    },
+    {
+     "code": "none",
+     "label": "No: there is no such first matter, only the particular matters of each kind"
+    },
+    {
+     "code": "abstraction-only",
+     "label": "Only as the most general idea of matter, abstracted by the intellect"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "matter-existence",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "prime-matter",
+   "wording": "Does matter exist of itself, or only through the form joined to it?",
+   "names": [
+    "la: actus entitativus",
+    "la: existentia materiae"
+   ],
+   "answers": [
+    {
+     "code": "own",
+     "label": "Of itself: it has an existence of its own"
+    },
+    {
+     "code": "through-form",
+     "label": "Only through the form; it cannot exist without one, even by God's power"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "substantial-forms",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Besides its matter, and the size, shape, arrangement and motion of its parts, does a body have a substantial form?",
+   "names": [
+    "la: forma substantialis",
+    "la: forma specifica",
+    "fr: formes substancielles",
+    "fr: formes essencielles"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: every kind of body has its own substantial form"
+    },
+    {
+     "code": "rational-soul-only",
+     "label": "No: the rational soul is the only substantial form; other bodies differ by the arrangement and motion of their parts"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "forms-origin",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "Where does the form of a newly generated thing come from?",
+   "names": [
+    "la: eductio formarum",
+    "la: inductio formarum",
+    "la: traductio",
+    "la: multiplicatio formarum"
+   ],
+   "answers": [
+    {
+     "code": "educed",
+     "label": "It is educed from the potency of the matter"
+    },
+    {
+     "code": "from-heavens",
+     "label": "It is brought into prepared matter by the heavens and stars"
+    },
+    {
+     "code": "from-begetter",
+     "label": "It is communicated by the begetter through the seed (the forms having been created at the beginning)"
+    },
+    {
+     "code": "created",
+     "label": "It is created by God"
+    },
+    {
+     "code": "rearrangement",
+     "label": "Nothing new comes to be but a new arrangement and motion of the parts"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "forms-perish",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "What becomes of the form of a thing when the thing perishes?",
+   "names": [
+    "la: interitus formarum",
+    "la: annihilatio"
+   ],
+   "answers": [
+    {
+     "code": "annihilated",
+     "label": "It is annihilated"
+    },
+    {
+     "code": "back-into-potency",
+     "label": "It is not annihilated but goes back into the potency of the matter"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "forms-plurality",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "Can one body have more than one form at once?",
+   "names": [
+    "la: formae subordinatae",
+    "fr: forme particuliere"
+   ],
+   "answers": [
+    {
+     "code": "one",
+     "label": "No: one form to a body"
+    },
+    {
+     "code": "several",
+     "label": "Yes: subordinate forms of the parts under the form of the whole"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:open"
+   ]
+  },
+  {
+   "id": "form-divisible",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "When a body is divided, is its form divided with it?",
+   "names": [
+    "la: tota in toto, non tota in qualibet parte"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: material forms are extended and divided with their matter"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:open"
+   ]
+  },
+  {
+   "id": "privation-principle",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Is privation a principle of natural things?",
+   "names": [
+    "la: privatio",
+    "fr: privation"
+   ],
+   "answers": [
+    {
+     "code": "of-generation",
+     "label": "A principle of generation, not of the thing once made"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "real-accidents",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Are the qualities of bodies real beings, distinct from the substance they are in?",
+   "names": [
+    "la: accidentia realia",
+    "la: qualitates reales",
+    "la: modi"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: real accidents, separable at least by God's power"
+    },
+    {
+     "code": "modes",
+     "label": "No: they are only modes or arrangements of the substance"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "principles-clear",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Must the principles of natural things be clearly and distinctly known?",
+   "names": [
+    "la: clare et distincte",
+    "la: cognitio confusa",
+    "fr: une chose obscure"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: nothing obscure may be admitted as a principle"
+    },
+    {
+     "code": "no",
+     "label": "No: the principles of things may be hidden and obscure to us"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "faith-test",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "May the doctrines of the faith be used to test positions in natural philosophy?",
+   "names": [
+    "la: mysteria fidei",
+    "la: lydius lapis"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:why"
+   ]
+  },
+  {
+   "id": "soul-separable",
+   "theme": "life",
+   "status": "persistent",
+   "wording": "Is the rational soul of man a substance that can exist apart from the body?",
+   "names": [
+    "la: anima rationalis",
+    "fr: l'Ame raisonnable"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:common"
+   ]
+  }
+ ],
+ "answers": {},
+ "drawn_from": {
+  "body-nature": [
+   "1675-matter-form:dispute"
+  ],
+  "matter-activity": [
+   "1675-matter-form:common"
+  ],
+  "explanation-standard": [
+   "1675-matter-form:why"
+  ],
+  "scripture-nature": [
+   "1675-matter-form:why"
+  ],
+  "matter-principles": [
+   "1675-matter-form:why"
+  ]
+ },
+ "texts": [],
+ "texts_notes": "goudin-philosophia-1681: the IA scan bub_gb_D2e2JGtx1rwC (Bologna 1686 t. 2) was read for the first time. Its /page/n index drifts and leaves n29-n38 repeat pp. 20-29. Read from the images on 2026-11-27: p. 9 = n8; n = page - 1 for pp. 21-29; n = page + 9 for pp. 30-63 (checked at 30-33, 36, 38, 39, 41-45, 49, 63); p. 78 = n89; n = page + 13 for pp. 85-103 (checked at 85, 89, 97, 99, 100, 103). Physics part 1, disputation I: q. I principles in common, a. I from p. 9, a. III § II against Descartes pp. 22-37, § III pp. 38-42; q. II prime matter pp. 42-86; q. III substantial form pp. 87-112 (a. II eduction p. 97, a. III the forms of the heavens and elements p. 103); q. IV the natural composite from p. 113. rohault-traite-1675: vol. 1 canvas = page + 40 also holds at pp. 36-44 and 141-144 (images). sperling-institutiones-1664: canvas = page + 18 also holds for pp. 47-105 (images at 47, 49, 55, 58-60, 63, 75, 82, 89, 94, 105). legrand-institutio-1675: /page/n = page + 59 also holds for pp. 165-166 and 180-186 (images); Part IV contents: a. III nature of matter p. 165, a. IV divisibility and impenetrability p. 168, a. VII the three elements p. 176, a. VIII no substantial forms p. 180, a. IX real qualities p. 182, a. X intelligible forms p. 185, a. XV causes p. 201.",
+ "snapshot": "1675 status line: 3 of 25 topics published (light and colours, water, matter and form). topic matter-form: sections confirmed on the images: Rohault I.6-7 and I.18 (I.8, corollaries, is the void, place, rarefaction and the world, left to those topics); Sperling I.2-3, with the precepts of I.1; Goudin t. 2 disp. I (Bologna 1686 printing); Le Grand IV a. 3 and a. 8-10. Add a boundary note: 'Matter and form: general physics in all four. Rohault and Le Grand put matter (extension) and the forms that vary it at the head of the physics, after method; Sperling's first book is on the causes of the natural body; Goudin's first disputation on the principles of mobile being opens with a refutation of Descartes.'",
+ "home": "In entries/1675/home.html: the 'Matter and form' row gets the 'Read the entry' pill linking #matter-form; the status line counts 3 of 25 topics.",
+ "page_title": "Matter and Form c. 1675",
+ "cites": "tools/cites-goudin2.py: GT(page) for Goudin t. 2 (Bologna 1686), with the leaf table read from the images. Move into tools/cites.py.",
+ "notes": "Thirteen new questions. The new questions on forms (substantial-forms and its children forms-origin, forms-perish, forms-plurality, form-divisible) and on matter (prime-matter, matter-existence) are worded to be askable in 1575 and 1775. soul-separable is placed under the theme 'life' for the rational-soul topic to reuse. Goudin's t. 2 is the Bologna 1686 printing (R1 clause 6), as already recorded in texts.json; the entry's source card says so."
+}
