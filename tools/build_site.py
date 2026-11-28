@@ -23,8 +23,9 @@ def read(*p):
         return f.read()
 
 def js_obj(d):
-    # single-quoted object literal, as the hand-written pages had it
-    return "{ " + ", ".join(f"{k}: '{v}'" for k, v in d.items()) + " }"
+    # single-quoted object literal; keys are quoted too, since topic slugs such as
+    # matter-form contain hyphens and are not valid bare JavaScript identifiers
+    return "{ " + ", ".join(f"'{k}': '{v}'" for k, v in d.items()) + " }"
 
 def build(out):
     if os.path.isdir(out):
