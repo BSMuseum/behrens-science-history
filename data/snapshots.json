@@ -520,13 +520,208 @@
     "British Isles": null,
     "Iberia (fallback, clause 8)": "soto-physicorum-1582"
    },
-   "topic_source": "to be taken from the tables of contents of the four texts (Titelmans's twelve books, from the 1574 table of contents, read from OCR: principles; causes; motion; the infinite, place, void and time; generation and corruption; meteors; heavens and world; soul in general and the vegetative powers; the outer senses; the inner senses, sleep and waking; the intellect; sensitive appetite and will. A Paris epitome of 1577 adds a booklet on minerals, plants and animals.)",
-   "topics": [],
+   "topic_source": "Proposed 2026-11-28 (not yet approved). Divisions of the two whole-course texts: Titelmans's twelve books, read from the running heads and chapter heads of the Venice 1572 OCR (IA bub_gb_xANNK0YDhNkC), and Melanchthon's three books, read from the running heads of the Wittenberg 1575 OCR (MDZ bsb11273497; canvas = page + 16 at pp. 245, 287, 353, 387, OCR page numbers, not yet checked on the images). Toledo and Soto comment on Aristotle's Physics only. No topic merged across texts beyond what both texts already join.",
+   "topics": [
+    {
+     "id": "god-providence",
+     "title": "God and providence",
+     "sections": {
+      "France": "blank",
+      "Protestant German lands": "I, De Deo, De providentia (pp. 31-44)",
+      "Catholic German lands": "Phys. VIII (first mover only)",
+      "Iberia (fallback, clause 8)": "Phys. VIII (first mover only)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "matter-form",
+     "title": "Principles: matter, form and privation",
+     "sections": {
+      "France": "I",
+      "Protestant German lands": "II, De principiis (pp. 193-207)",
+      "Catholic German lands": "Phys. I",
+      "Iberia (fallback, clause 8)": "Phys. I"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "causes",
+     "title": "Nature, causes, chance, fortune and fate (with monsters)",
+     "sections": {
+      "France": "II",
+      "Protestant German lands": "I, De contingentia (pp. 45-57); II, De re naturali to De monstris (pp. 208-243, 253-296)",
+      "Catholic German lands": "Phys. II",
+      "Iberia (fallback, clause 8)": "Phys. II"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "motion",
+     "title": "Motion",
+     "sections": {
+      "France": "III",
+      "Protestant German lands": "II, De motu (pp. 297-312, 325-340)",
+      "Catholic German lands": "Phys. III, V-VIII",
+      "Iberia (fallback, clause 8)": "Phys. III, V-VIII"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "place-void-time",
+     "title": "The infinite, place, void and time",
+     "sections": {
+      "France": "IV",
+      "Protestant German lands": "II, De loco, De vacuo, De tempore (pp. 313-324)",
+      "Catholic German lands": "Phys. III-IV",
+      "Iberia (fallback, clause 8)": "Phys. III-IV"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "world",
+     "title": "The world as a whole",
+     "sections": {
+      "France": "VII",
+      "Protestant German lands": "I, De mundo (pp. 58-74)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "heavens",
+     "title": "The heavens: their matter, motion and movers",
+     "sections": {
+      "France": "VII (incl. ch. XI, whether the heavens are animate)",
+      "Protestant German lands": "I, De coelo (pp. 75-85)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "sun-moon-planets",
+     "title": "Sun, moon, planets and eclipses",
+     "sections": {
+      "France": "VII (ch. XX, order of the planets; ch. XXVI, circles)",
+      "Protestant German lands": "I, De sole to De planetis (pp. 86-191)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "influence-stars",
+     "title": "The influence of the stars, temperaments and astrology",
+     "sections": {
+      "France": "to be checked (VII)",
+      "Protestant German lands": "II, De temperamentis, De stellis, De fato (pp. 244-280)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "elements-qualities",
+     "title": "The elements and the first qualities",
+     "sections": {
+      "France": "V (ch. X)",
+      "Protestant German lands": "III, De elementis, De qualitatibus (pp. 341-360)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "generation-mixture",
+     "title": "Generation, corruption, mixture, growth, concoction and putrefaction",
+     "sections": {
+      "France": "V (ch. II, XIIII-XVI)",
+      "Protestant German lands": "III, De mixtione to De putrefactione (pp. 361-393)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "meteors",
+     "title": "Meteors (comets, the Milky Way, winds, rain, thunder, rainbow, earthquakes, springs)",
+     "sections": {
+      "France": "VI",
+      "Protestant German lands": "blank",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "soul-vegetative",
+     "title": "The soul in general and the vegetative powers",
+     "sections": {
+      "France": "VIII",
+      "Protestant German lands": "blank (Liber de anima is a separate work)",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "outer-senses",
+     "title": "The outer senses, with light and colour",
+     "sections": {
+      "France": "IX (ch. I-II, sight, light and colour)",
+      "Protestant German lands": "blank",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "inner-senses",
+     "title": "The inner senses, memory, sleep and waking",
+     "sections": {
+      "France": "X",
+      "Protestant German lands": "blank",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "intellect",
+     "title": "The intellect",
+     "sections": {
+      "France": "XI",
+      "Protestant German lands": "blank",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    },
+    {
+     "id": "appetite-will",
+     "title": "Sensitive appetite and the will",
+     "sections": {
+      "France": "XII",
+      "Protestant German lands": "blank",
+      "Catholic German lands": "blank (separate commentary; see note)",
+      "Iberia (fallback, clause 8)": "blank (separate commentary; see note)"
+     },
+     "status": "proposed"
+    }
+   ],
    "empty_regions": {
     "British Isles": "no natural philosophy course printed there twice in 1560-1590 (R1 v3 clause 7)"
    },
    "supplementary": [
     "daneau-woorkmanship-1578"
+   ],
+   "notes_1575_topics": [
+    "The Lyon 1574 Titelmans scan (IA bub_gb_zXe9TG_l4iIC, 223 images) holds Books I-VII only; its front matter lists all twelve, which is what texts.json recorded as 'all twelve books'. Books VIII-XII need another scan: Venice 1572 (bub_gb_xANNK0YDhNkC, complete, running heads for all twelve books) or Lyon 1571 (bub_gb_NwJYoKaQrOQC, 529 images, not checked). Clause 6 decides which edition is read.",
+    "Titelmans's Book VI is headed 'De mistis et imperfecte mistis' (running head, 1572): meteors as imperfectly mixed bodies. Metals and stones get only passing mention (OCR keyword count), so minerals is not proposed as a topic; the Paris 1577 epitome's booklet on minerals, plants and animals is a different work.",
+    "Melanchthon opens physics with God and providence and gives astronomy (pp. 86-191) more room than any other subject; he has no meteors and no soul (his Liber de anima is a separate work). Under clause 5 those topics pass to the next Protestant German course in the count that treats them: Liebler, Epitome philosophiae naturalis (7), contents not yet checked.",
+    "Toledo (Catholic German lands) and Soto (Iberian fallback) cover the Physics only. Their commentaries on De caelo, De generatione and De anima are separate works. Toledo's runner-up has no more than 1 edition, so under clause 13 the Catholic German slot is blank on every topic outside the Physics unless the separate commentaries are counted as parts of one course (as Erxleben's two Anfangsgründe were for 1775). Decision needed.",
+    "No plants or animals as separate topics: neither whole course has a book on them (Titelmans treats the vegetative powers in VIII and animals through the senses and appetite)."
    ]
   }
  ]
