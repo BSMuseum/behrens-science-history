@@ -35,12 +35,20 @@
   "1675": {
     "page_title": "Natural Philosophy c. 1675",
     "order": [
-      "water",
-      "light"
+      "matter-form",
+      "causes",
+      "place-void-time",
+      "motion",
+      "light",
+      "water"
     ],
     "titles": {
       "light": "Light and Colours c. 1675",
-      "water": "Water, the Sea and Springs c. 1675"
+      "water": "Water, the Sea and Springs c. 1675",
+      "matter-form": "Matter and Form c. 1675",
+      "causes": "Causes, Nature, Chance and Fate c. 1675",
+      "place-void-time": "Divisibility, Place, Void and Time c. 1675",
+      "motion": "Motion and Its Communication c. 1675"
     }
   }
 }

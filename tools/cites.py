@@ -112,9 +112,10 @@ def GO(page, rf="unknown", section=None):  # Goudin, Philosophia, Cologne 1681, 
     if section: c["section"] = section
     return c
 
-def LG(page, rf="unknown", section=None):  # Le Grand, Institutio philosophiae, London 1675 (IA bub_gb_hXF3IYaUJc4C); /page/n = page + 59 (pp. 281-285), + 60 (pp. 510-512)
+def LG(page, rf="unknown", section=None):  # Le Grand, Institutio philosophiae, London 1675 (IA bub_gb_hXF3IYaUJc4C); /page/n = page + 55 (Part II, pp. 90-92), + 59 (pp. 165-285), + 60 (pp. 510-512)
     p = _first(page)
-    c = {"page": str(page), "url": f"{IA}bub_gb_hXF3IYaUJc4C/page/n{p + (59 if p < 500 else 60)}/mode/1up", "read_from": rf}
+    off = 55 if 90 <= p <= 92 else 59 if p < 500 else 60
+    c = {"page": str(page), "url": f"{IA}bub_gb_hXF3IYaUJc4C/page/n{p + off}/mode/1up", "read_from": rf}
     if section: c["section"] = section
     return c
 
@@ -134,5 +135,25 @@ def GO2(page, rf="unknown", section=None):  # Goudin t. 3, later pages: canvas =
 def LG2(page, rf="unknown", section=None):  # Le Grand, Part VI: /page/n = page + 60 (pp. 340-365, read from the images)
     p = _first(page)
     c = {"page": str(page), "url": f"{IA}bub_gb_hXF3IYaUJc4C/page/n{p + 60}/mode/1up", "read_from": rf}
+    if section: c["section"] = section
+    return c
+
+# Goudin t. 2 (physics part 1), Bologna 1686 (Longi), IA bub_gb_D2e2JGtx1rwC, read under R1 clause 6 in place of
+# the Cologne 1681 t. 2 (not found). Added with the 1675 matter-form, causes, place-void-time and motion entries
+# (2026-11-27; merged 2026-11-28). The /page/n index drifts and some leaves repeat (n29-n38 repeat pp. 20-29;
+# others between pp. 275 and 282), so pages outside the checked ranges raise rather than guess.
+# Checked on the images: n = page - 1 (pp. 21-29), + 9 (pp. 30-63), + 13 (pp. 85-103), + 17 (pp. 133-277),
+# + 26 (pp. 282-290), + 25 (pp. 311-378).
+GOUDIN2_LEAF = {9: 8, 21: 20, 22: 21, 23: 22, 24: 23, 25: 24, 26: 25, 27: 26, 28: 27, 29: 28, 78: 89}
+GOUDIN2_RANGES = [(30, 63, 9), (85, 103, 13), (133, 277, 17), (282, 290, 26), (311, 378, 25)]
+
+def GT(page, rf="unknown", section=None):  # Goudin t. 2, Bologna 1686
+    p = _first(page)
+    n = GOUDIN2_LEAF.get(p)
+    if n is None:
+        n = next((p + off for lo, hi, off in GOUDIN2_RANGES if lo <= p <= hi), None)
+    if n is None:
+        raise ValueError(f"Goudin t. 2: no leaf recorded for p. {p}")
+    c = {"vol": "2", "page": str(page), "url": f"{IA}bub_gb_D2e2JGtx1rwC/page/n{n}/mode/1up", "read_from": rf}
     if section: c["section"] = section
     return c

@@ -646,7 +646,7 @@
      "vol": "1",
      "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888",
      "link": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page={canvas}",
-     "offset": "canvas = page + 40 (pp. 291-342, read from the images 2026-11-22; pp. 285-345 from the OCR running heads)"
+     "offset": "canvas = page + 40 (pp. 291-342, read from the images 2026-11-22; pp. 285-345 from the OCR running heads); also on the images at pp. 36-46, 51, 56, 60-132 and 141-144 (2026-11-27)"
     },
     {
      "repo": "MDZ",
@@ -696,7 +696,7 @@
      "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836",
      "note": "1226 canvases",
      "link": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page={canvas}",
-     "offset": "canvas = page + 18 (pp. 495-526, read from the images 2026-11-22; pp. 588-604 and 596-684 from the OCR running heads). p. 518 is misprinted 418."
+     "offset": "canvas = page + 18 (pp. 495-526, read from the images 2026-11-22; pp. 588-604 and 596-684 from the OCR running heads). p. 518 is misprinted 418. Also on the images (2026-11-27) for pp. 27-259, 261-398 at the pages checked (27, 47-105, 128-148, 167, 177-207, 239-257, 277, 283, 355-368, 370-395). p. 196 is misnumbered 69. Book I: I.1 p. 27; I.2-3 pp. 47-105; IV nature p. 128; V efficient cause p. 147; VI end p. 177; VII fortune p. 196; VIII chance p. 203; IX monsters p. 207; X fate p. 247; Book II from p. 261."
     }
    ],
    "siglum": "S",
@@ -745,7 +745,10 @@
      "id": "bub_gb_D2e2JGtx1rwC",
      "vol": "2 (physics part 1, 'de ente mobili in communi')",
      "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC",
-     "note": "Bologna 1686 (Longi), t. 2: the scan for physics part 1 under clause 6, the nearest printing with a public scan (none printed in the region). Other scans on the IA: Paris 1674 t. 3 (Couterot, bub_gb_OwifXrlirScC), Milan 1674 t. 1 (Vigoni, logic), Bologna 1686 t. 3 and t. 4, Venice 1689 t. 2 and t. 4."
+     "note": "Bologna 1686 (Longi), t. 2: the scan for physics part 1 under clause 6, the nearest printing with a public scan (none printed in the region). Other scans on the IA: Paris 1674 t. 3 (Couterot, bub_gb_OwifXrlirScC), Milan 1674 t. 1 (Vigoni, logic), Bologna 1686 t. 3 and t. 4, Venice 1689 t. 2 and t. 4.",
+     "link": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n{leaf}/mode/1up",
+     "offset": "Read from the images 2026-11-27/28 (tools/cites.py GT): p. 9 = n8; n = page - 1 (pp. 21-29); page + 9 (pp. 30-63); p. 78 = n89; page + 13 (pp. 85-103); page + 17 (pp. 133-277); page + 26 (pp. 282-290); page + 25 (pp. 311-378; p. 363 from the OCR running head only). Leaves n29-n38 repeat pp. 20-29, and further leaves repeat between pp. 275 and 282 (n300 shows p. 273). The djvu.xml object index equals /page/n. The IA OCR of this item is nearly unreadable; tesseract on the 1000 px page images reads it well.",
+     "contents": "Physics part 1. Disp. I (principles): q. I principles in common, from p. 9 (a. III § II against Descartes, pp. 22-37); q. II prime matter, pp. 42-86; q. III substantial form, pp. 87-112; q. IV the natural composite, from p. 113. Disp. II (nature and causes), pp. 133-259: q. I nature, violence and art, p. 134; q. II causes in common, p. 158; q. III material and formal causes, p. 171; q. IV efficient cause, p. 180; q. V final cause, p. 218; q. VI comparison of causes, p. 243; q. VII fortune, chance and fate, p. 252. Disp. III (motion and its conditions), from p. 259: q. I motion; q. II the infinite, from p. 288; q. III time, from p. 310; q. IV place and void, pp. 328-349; q. V the continuum, from p. 351; q. VI the conditions of motion, from p. 366."
     },
     {
      "repo": "IA",
@@ -793,7 +796,7 @@
      "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C",
      "note": "774 images",
      "link": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n{leaf}/mode/1up",
-     "offset": "/page/n = page + 59 in Part V (pp. 281-285) and page + 60 in Part VIII (pp. 510-512), read from the images 2026-11-22; the IA page_numbers.json gives + 59 throughout. The djvu.txt has no page breaks: use the hOCR page index with the search text, whose position equals /page/n."
+     "offset": "/page/n = page + 59 in Part V (pp. 281-285) and page + 60 in Part VIII (pp. 510-512), read from the images 2026-11-22; the IA page_numbers.json gives + 59 throughout. The djvu.txt has no page breaks: use the hOCR page index with the search text, whose position equals /page/n. Further checks on the images (2026-11-27): page + 55 in Part II (natural theology, pp. 90-92, a. IV 'De Fato'; a. XV on providence about p. 117 by the index); page + 59 holds for pp. 165-258 in Part IV (a. III matter p. 165, a. IV divisibility p. 168, a. VII the three elements p. 176, a. VIII no substantial forms p. 180, a. IX real qualities p. 182, a. X intelligible forms p. 185, a. XV causes p. 201) and Part V a. 5-6."
     }
    ],
    "siglum": "L",

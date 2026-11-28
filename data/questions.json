@@ -47,7 +47,8 @@
    ],
    "drawn_from": [
     "1775-body:common",
-    "1775-body:why"
+    "1775-body:why",
+    "1675-matter-form:dispute"
    ]
   },
   {
@@ -76,7 +77,8 @@
     }
    ],
    "drawn_from": [
-    "1775-body:common"
+    "1775-body:common",
+    "1675-place-void-time:common"
    ]
   },
   {
@@ -170,7 +172,8 @@
    ],
    "drawn_from": [
     "1775-body:dispute",
-    "1775-body:common"
+    "1775-body:common",
+    "1675-place-void-time:dispute"
    ]
   },
   {
@@ -186,7 +189,8 @@
     }
    ],
    "drawn_from": [
-    "1775-body:common"
+    "1775-body:common",
+    "1675-place-void-time:open"
    ]
   },
   {
@@ -232,7 +236,8 @@
    ],
    "drawn_from": [
     "1775-body:dispute",
-    "1675-water:dispute"
+    "1675-water:dispute",
+    "1675-matter-form:why"
    ]
   },
   {
@@ -259,7 +264,8 @@
     }
    ],
    "drawn_from": [
-    "1775-body:why"
+    "1775-body:why",
+    "1675-matter-form:common"
    ]
   },
   {
@@ -409,7 +415,8 @@
     }
    ],
    "drawn_from": [
-    "1775-body:dispute"
+    "1775-body:dispute",
+    "1675-place-void-time:common"
    ]
   },
   {
@@ -487,7 +494,8 @@
     }
    ],
    "drawn_from": [
-    "1775-motion:common"
+    "1775-motion:common",
+    "1675-motion:common"
    ]
   },
   {
@@ -591,10 +599,15 @@
     {
      "code": "cartesian-rules",
      "label": "Descartes's seven rules"
+    },
+    {
+     "code": "move-together",
+     "label": "A moving body that pushes another loses as much motion as it gives, so that the two go on together at one speed as one mass; a body it cannot shake it reflects at its own speed"
     }
    ],
    "drawn_from": [
-    "1775-motion:common"
+    "1775-motion:common",
+    "1675-motion:dispute"
    ]
   },
   {
@@ -644,10 +657,15 @@
     {
      "code": "repulsion-without-contact",
      "label": "By repulsive forces; bodies never touch"
+    },
+    {
+     "code": "god-applies",
+     "label": "No body moves another; when bodies meet, God, the universal cause, applies his moving force to the other body"
     }
    ],
    "drawn_from": [
-    "1775-motion:dispute"
+    "1775-motion:dispute",
+    "1675-motion:dispute"
    ]
   },
   {
@@ -679,7 +697,8 @@
     }
    ],
    "drawn_from": [
-    "1775-motion:dispute"
+    "1775-motion:dispute",
+    "1675-motion:dispute"
    ]
   },
   {
@@ -714,7 +733,8 @@
    ],
    "drawn_from": [
     "1775-motion:dispute",
-    "1775-motion:why"
+    "1775-motion:why",
+    "1675-motion:why"
    ]
   },
   {
@@ -738,10 +758,15 @@
     {
      "code": "cannot-be-proved",
      "label": "It can be proved neither a priori nor from the phenomena"
+    },
+    {
+     "code": "no-self-destruction",
+     "label": "Nothing tends of itself to its own destruction, and rest is contrary to motion"
     }
    ],
    "drawn_from": [
-    "1775-motion:why"
+    "1775-motion:why",
+    "1675-motion:why"
    ]
   },
   {
@@ -764,7 +789,8 @@
     }
    ],
    "drawn_from": [
-    "1775-motion:open"
+    "1775-motion:open",
+    "1675-motion:open"
    ]
   },
   {
@@ -845,11 +871,16 @@
     {
      "code": "effluvia",
      "label": "Effluvia or hooked particles from the earth draw bodies down, as a magnet draws iron"
+    },
+    {
+     "code": "from-generator",
+     "label": "The heavy body has its downward motion from what generated it, as a property following its nature"
     }
    ],
    "drawn_from": [
     "1775-gravity:dispute",
-    "1775-gravity:why"
+    "1775-gravity:why",
+    "1675-motion:dispute"
    ]
   },
   {
@@ -972,10 +1003,15 @@
     {
      "code": "nearing-its-place",
      "label": "Faster as it nears its natural place"
+    },
+    {
+     "code": "medium-helps",
+     "label": "The air resists at the start and then, set moving by the falling body, helps it on"
     }
    ],
    "drawn_from": [
-    "1775-gravity:common"
+    "1775-gravity:common",
+    "1675-motion:dispute"
    ]
   },
   {
@@ -1131,7 +1167,8 @@
     "1775-world:dispute",
     "1775-globe:why",
     "1675-light:why",
-    "1675-water:why"
+    "1675-water:why",
+    "1675-matter-form:why"
    ]
   },
   {
@@ -3159,7 +3196,9 @@
     "1775-body:dispute",
     "1775-magnet:dispute",
     "1775-motion:dispute",
-    "1775-electricity:why"
+    "1775-electricity:why",
+    "1675-motion:common",
+    "1675-motion:open"
    ]
   },
   {
@@ -3187,7 +3226,9 @@
     "1775-water:why",
     "1775-world:why",
     "1675-light:why",
-    "1675-water:why"
+    "1675-water:why",
+    "1675-causes:why",
+    "1675-matter-form:why"
    ]
   },
   {
@@ -3231,7 +3272,8 @@
    "drawn_from": [
     "1775-world:why",
     "1775-globe:why",
-    "1675-water:why"
+    "1675-water:why",
+    "1675-causes:dispute"
    ]
   },
   {
@@ -3733,7 +3775,8 @@
     }
    ],
    "drawn_from": [
-    "1775-earth:dispute"
+    "1775-earth:dispute",
+    "1675-causes:dispute"
    ]
   },
   {
@@ -4379,7 +4422,7 @@
   {
    "id": "spontaneous-generation",
    "theme": "life",
-   "status": "anticipated",
+   "status": "persistent",
    "wording": "Can living things arise from lifeless matter?",
    "answers": [
     {
@@ -4390,6 +4433,9 @@
      "code": "no",
      "label": "No"
     }
+   ],
+   "drawn_from": [
+    "1675-causes:open"
    ]
   },
   {
@@ -5081,6 +5127,1440 @@
    ],
    "drawn_from": [
     "1675-water:open"
+   ]
+  },
+  {
+   "id": "cause-definition",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What is a cause?",
+   "names": [
+    "la: causa",
+    "la: principium influens esse in aliud",
+    "la: id ad cujus esse aliquid sequitur"
+   ],
+   "answers": [
+    {
+     "code": "influx-of-being",
+     "label": "That upon whose being the being of another follows: a principle that flows being into another"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "causes-number",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "cause-definition",
+   "wording": "How many kinds of cause are there?",
+   "names": [
+    "la: causa materialis",
+    "la: causa formalis",
+    "la: causa efficiens",
+    "la: causa finalis",
+    "la: causae internae et externae"
+   ],
+   "answers": [
+    {
+     "code": "four",
+     "label": "Four: matter, form, the efficient cause and the end"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "nature-definition",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What is the nature of a natural thing, in the sense natural philosophy uses?",
+   "names": [
+    "la: natura",
+    "la: natura naturans",
+    "la: natura naturata"
+   ],
+   "answers": [
+    {
+     "code": "principle-of-motion",
+     "label": "The principle and cause of motion and rest in that in which it is, first and by itself (Aristotle's definition)"
+    },
+    {
+     "code": "internal-cause",
+     "label": "The internal cause by which a natural body has its essence, properties, actions and passions"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "nature-ends",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Does nature act for an end?",
+   "names": [
+    "la: natura agit propter finem",
+    "la: opus naturae opus intelligentiae"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No: nature's works come about by chance or by the necessity of matter"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "world-for-man",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "final-causes",
+   "wording": "Was the world made for man's sake?",
+   "names": [
+    "la: homo mundi epitome",
+    "la: totum universum hominis causa conditum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: the whole world with its parts serves man's use"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "second-causes",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Do created things truly act and produce effects, or is God the only efficient cause?",
+   "names": [
+    "la: causa prima",
+    "la: causae secundae",
+    "la: causa efficiens"
+   ],
+   "answers": [
+    {
+     "code": "creatures-act",
+     "label": "Created things truly act, as second causes under God"
+    },
+    {
+     "code": "god-alone",
+     "label": "God alone is properly the efficient cause; bodies cannot move themselves or one another"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "god-against-nature",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "When God works wonders in nature, does he act against nature?",
+   "names": [
+    "la: supra naturam",
+    "la: contra naturam",
+    "la: violentia"
+   ],
+   "answers": [
+    {
+     "code": "above-not-against",
+     "label": "No: miracles are above nature, not against it, since creatures obey their creator"
+    },
+    {
+     "code": "can-do-violence",
+     "label": "God can act against a thing's natural inclination and do it violence"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common",
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "art-nature",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Can art make the things that nature makes?",
+   "names": [
+    "la: ars",
+    "la: ars simia naturae",
+    "la: artificiale"
+   ],
+   "answers": [
+    {
+     "code": "accidents-only",
+     "label": "No: art makes only accidents; nature makes substances"
+    },
+    {
+     "code": "by-natural-powers",
+     "label": "Some, by applying natural active powers to fit matter, but not those whose producing powers are beyond art"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "fortune-chance",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "What are fortune and chance?",
+   "names": [
+    "la: fortuna",
+    "la: casus",
+    "la: causa per accidens"
+   ],
+   "answers": [
+    {
+     "code": "accidental-causes",
+     "label": "Causes by accident, from which an effect follows beyond the agent's intention: fortune in agents acting by choice, chance in natural agents"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "fortune-god",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "fortune-chance",
+   "wording": "Does anything happen by fortune or chance with respect to God?",
+   "names": [
+    "la: providentia"
+   ],
+   "answers": [
+    {
+     "code": "none",
+     "label": "No: nothing is fortuitous to God, who foresees and orders everything"
+    },
+    {
+     "code": "some",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "fate-exists",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Is there a fate, and what is it?",
+   "names": [
+    "la: fatum",
+    "la: fatum theologicum",
+    "la: fatum astrologicum",
+    "la: fatum physicum",
+    "la: fatum stoicum",
+    "la: providentia"
+   ],
+   "answers": [
+    {
+     "code": "divine-ordering",
+     "label": "Yes, rightly understood: an order of events and causes foreknown and preordained by God"
+    },
+    {
+     "code": "stoic-necessity",
+     "label": "An absolute necessity of all things from the linking of causes, binding even God"
+    },
+    {
+     "code": "astral",
+     "label": "An inevitable impression of the stars to which everything is subject"
+    },
+    {
+     "code": "none",
+     "label": "No: the world is not ruled by any providence, and everything happens by chance"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "fate-necessity",
+   "theme": "method",
+   "status": "persistent",
+   "parent": "fate-exists",
+   "wording": "Does fate, or God's foreknowledge, lay necessity on the human will?",
+   "names": [
+    "la: liberum arbitrium",
+    "la: necessitas antecedens",
+    "la: necessitas consequens"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "stars-sublunar",
+   "theme": "heavens",
+   "status": "persistent",
+   "wording": "Do the heavens govern the coming to be, passing away and lasting of things below the moon?",
+   "names": [
+    "la: influxus coelestis",
+    "la: fatum astrologicum"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: the heavenly bodies flow into the generation, corruption and duration of things below"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "stars-will",
+   "theme": "heavens",
+   "status": "persistent",
+   "parent": "stars-sublunar",
+   "wording": "Do the stars govern the human will?",
+   "names": [
+    "la: fatum astrologicum",
+    "la: liberum arbitrium"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "monster-nature",
+   "theme": "life",
+   "status": "persistent",
+   "wording": "What is a monster?",
+   "names": [
+    "la: monstrum",
+    "la: peccatum naturae",
+    "la: parergon"
+   ],
+   "answers": [
+    {
+     "code": "natures-error",
+     "label": "An error or defect of nature, which fails of the end it aims at through some fault in a cause"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "monster-usual",
+   "theme": "life",
+   "status": "persistent",
+   "parent": "monster-nature",
+   "wording": "Is a monster judged against the right form of its kind alone, or against what is right and usual?",
+   "names": [
+    "la: a recta et solita dispositione degenerans"
+   ],
+   "answers": [
+    {
+     "code": "right-only",
+     "label": "Against the right form alone: what is a monster in one place is a monster everywhere"
+    },
+    {
+     "code": "right-and-usual",
+     "label": "Against the right and usual disposition of the kind"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:dispute"
+   ]
+  },
+  {
+   "id": "hybrids-monsters",
+   "theme": "life",
+   "status": "persistent",
+   "parent": "monster-nature",
+   "wording": "Are the offspring of two different kinds, such as the mule, monsters?",
+   "names": [
+    "la: mulus",
+    "la: commixtio duplicis speciei"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:common"
+   ]
+  },
+  {
+   "id": "human-beast-offspring",
+   "theme": "life",
+   "status": "persistent",
+   "parent": "monster-nature",
+   "wording": "Can a true human being be begotten of a human and a beast?",
+   "answers": [
+    {
+     "code": "no",
+     "label": "No"
+    },
+    {
+     "code": "yes",
+     "label": "Yes"
+    }
+   ],
+   "drawn_from": [
+    "1675-causes:open"
+   ]
+  },
+  {
+   "id": "form-needed",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Does a body need, besides its matter, something that makes it the kind of body it is?",
+   "names": [
+    "la: forma",
+    "fr: forme",
+    "la: formae intelligibiles"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: matter alone does not make a thing what it is"
+    },
+    {
+     "code": "no",
+     "label": "No: matter alone suffices"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:common"
+   ]
+  },
+  {
+   "id": "prime-matter",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "body-nature",
+   "wording": "Is there a first matter, common to all bodies and remaining through their changes, and what is it?",
+   "names": [
+    "la: materia prima",
+    "la: materia secunda",
+    "fr: matiere"
+   ],
+   "answers": [
+    {
+     "code": "pure-potency",
+     "label": "Yes: a first matter, of itself pure potency without any form or act"
+    },
+    {
+     "code": "extended-substance",
+     "label": "Yes: the matter common to all bodies, which is extended substance"
+    },
+    {
+     "code": "none",
+     "label": "No: there is no such first matter, only the particular matters of each kind"
+    },
+    {
+     "code": "abstraction-only",
+     "label": "Only as the most general idea of matter, abstracted by the intellect"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "matter-existence",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "prime-matter",
+   "wording": "Does matter exist of itself, or only through the form joined to it?",
+   "names": [
+    "la: actus entitativus",
+    "la: existentia materiae"
+   ],
+   "answers": [
+    {
+     "code": "own",
+     "label": "Of itself: it has an existence of its own"
+    },
+    {
+     "code": "through-form",
+     "label": "Only through the form; it cannot exist without one, even by God's power"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "substantial-forms",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Besides its matter, and the size, shape, arrangement and motion of its parts, does a body have a substantial form?",
+   "names": [
+    "la: forma substantialis",
+    "la: forma specifica",
+    "fr: formes substancielles",
+    "fr: formes essencielles"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: every kind of body has its own substantial form"
+    },
+    {
+     "code": "rational-soul-only",
+     "label": "No: the rational soul is the only substantial form; other bodies differ by the arrangement and motion of their parts"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "forms-origin",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "Where does the form of a newly generated thing come from?",
+   "names": [
+    "la: eductio formarum",
+    "la: inductio formarum",
+    "la: traductio",
+    "la: multiplicatio formarum"
+   ],
+   "answers": [
+    {
+     "code": "educed",
+     "label": "It is educed from the potency of the matter"
+    },
+    {
+     "code": "from-heavens",
+     "label": "It is brought into prepared matter by the heavens and stars"
+    },
+    {
+     "code": "from-begetter",
+     "label": "It is communicated by the begetter through the seed (the forms having been created at the beginning)"
+    },
+    {
+     "code": "created",
+     "label": "It is created by God"
+    },
+    {
+     "code": "rearrangement",
+     "label": "Nothing new comes to be but a new arrangement and motion of the parts"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "forms-perish",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "What becomes of the form of a thing when the thing perishes?",
+   "names": [
+    "la: interitus formarum",
+    "la: annihilatio"
+   ],
+   "answers": [
+    {
+     "code": "annihilated",
+     "label": "It is annihilated"
+    },
+    {
+     "code": "back-into-potency",
+     "label": "It is not annihilated but goes back into the potency of the matter"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "forms-plurality",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "Can one body have more than one form at once?",
+   "names": [
+    "la: formae subordinatae",
+    "fr: forme particuliere"
+   ],
+   "answers": [
+    {
+     "code": "one",
+     "label": "No: one form to a body"
+    },
+    {
+     "code": "several",
+     "label": "Yes: subordinate forms of the parts under the form of the whole"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:open"
+   ]
+  },
+  {
+   "id": "form-divisible",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "substantial-forms",
+   "wording": "When a body is divided, is its form divided with it?",
+   "names": [
+    "la: tota in toto, non tota in qualibet parte"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: material forms are extended and divided with their matter"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:open"
+   ]
+  },
+  {
+   "id": "privation-principle",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Is privation a principle of natural things?",
+   "names": [
+    "la: privatio",
+    "fr: privation"
+   ],
+   "answers": [
+    {
+     "code": "of-generation",
+     "label": "A principle of generation, not of the thing once made"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "real-accidents",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Are the qualities of bodies real beings, distinct from the substance they are in?",
+   "names": [
+    "la: accidentia realia",
+    "la: qualitates reales",
+    "la: modi"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: real accidents, separable at least by God's power"
+    },
+    {
+     "code": "modes",
+     "label": "No: they are only modes or arrangements of the substance"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "principles-clear",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Must the principles of natural things be clearly and distinctly known?",
+   "names": [
+    "la: clare et distincte",
+    "la: cognitio confusa",
+    "fr: une chose obscure"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: nothing obscure may be admitted as a principle"
+    },
+    {
+     "code": "no",
+     "label": "No: the principles of things may be hidden and obscure to us"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:dispute"
+   ]
+  },
+  {
+   "id": "faith-test",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "May the doctrines of the faith be used to test positions in natural philosophy?",
+   "names": [
+    "la: mysteria fidei",
+    "la: lydius lapis"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:why"
+   ]
+  },
+  {
+   "id": "soul-separable",
+   "theme": "life",
+   "status": "persistent",
+   "wording": "Is the rational soul of man a substance that can exist apart from the body?",
+   "names": [
+    "la: anima rationalis",
+    "fr: l'Ame raisonnable"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-matter-form:common"
+   ]
+  },
+  {
+   "id": "place-nature",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "What is the place of a body?",
+   "names": [
+    "la: locus",
+    "fr: lieu",
+    "la: superficies corporis ambientis",
+    "la: spatium",
+    "la: locus internus",
+    "la: locus externus"
+   ],
+   "answers": [
+    {
+     "code": "surrounding-surface",
+     "label": "The inner surface of the body that surrounds it"
+    },
+    {
+     "code": "space",
+     "label": "A space, extended in three dimensions, distinct from the body and remaining when the body leaves"
+    },
+    {
+     "code": "own-extension",
+     "label": "The body's own extension (its internal place); its external place is the surface around it or its situation among other bodies"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "beyond-world",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "void",
+   "wording": "Is there anything, or any space, beyond the world?",
+   "names": [
+    "la: spatia imaginaria",
+    "fr: monde indefiny"
+   ],
+   "answers": [
+    {
+     "code": "privation-only",
+     "label": "Only imaginary space: a lack of bodily quantity that the imagination measures as if it were something"
+    },
+    {
+     "code": "matter",
+     "label": "Extension, and so matter: the world has no bound we can assign"
+    },
+    {
+     "code": "nothing",
+     "label": "Nothing: the space of place was created with the world and is equal to it"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "void-divine",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "void",
+   "wording": "Could God make an empty space, by taking away the body in it and letting no other in?",
+   "names": [
+    "la: vacuum divinitus",
+    "fr: si Dieu aneantissoit tout l'air d'une chambre"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: it implies no contradiction, and God is not bound by the laws he set"
+    },
+    {
+     "code": "walls-touch",
+     "label": "No space would remain: with nothing between them the surrounding bodies would touch, distance being a mode of extension"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "motion-in-plenum",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "How can a body move if every place is full?",
+   "names": [
+    "fr: mouvement en anneau",
+    "la: plenum"
+   ],
+   "answers": [
+    {
+     "code": "give-way",
+     "label": "The bodies in its way give place and fill the place it leaves, so that matter moves in a ring"
+    },
+    {
+     "code": "needs-space",
+     "label": "Motion requires a space, distinct from the bodies, through which they pass"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute",
+    "1675-motion:common"
+   ]
+  },
+  {
+   "id": "suction-cause",
+   "theme": "air and water",
+   "status": "persistent",
+   "wording": "Why does water follow a piston drawn up a pipe, and why does it stop where it does?",
+   "names": [
+    "la: fuga vacui",
+    "la: horror vacui",
+    "fr: crainte du vuide",
+    "fr: horreur du vuide"
+   ],
+   "answers": [
+    {
+     "code": "prevent-void",
+     "label": "Nature's flight from the void: bodies move against their own inclination so that no void may be"
+    },
+    {
+     "code": "air-weight",
+     "label": "The weight of the outside air presses the water up"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ],
+   "note": "Askable of every snapshot; the pump that stops near 32 feet is reported from c. 1640."
+  },
+  {
+   "id": "indivisibles-real",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "divisibility",
+   "wording": "Are there real indivisibles in a continuous quantity, such as points that bound and join its parts?",
+   "names": [
+    "la: indivisibilia",
+    "la: puncta",
+    "la: instantia"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: indivisibles that bound and join the parts, though they do not compose it"
+    },
+    {
+     "code": "no",
+     "label": "No: a magnitude is bounded by the absence of further extension, and its parts are joined of themselves"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "actual-infinite",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Is anything created without limit?",
+   "names": [
+    "la: infinitum actu",
+    "la: infinitum categorematicum",
+    "la: infinitum syncategorematicum",
+    "la: indefinitum",
+    "fr: indefiny"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "No: only God is actually infinite; a creature is infinite only in potency, without end in succession"
+    },
+    {
+     "code": "indefinite",
+     "label": "Not infinite but indefinite: without limits in some respect only, as matter in its divisibility and the world in its extent"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "time-nature",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "What is time?",
+   "names": [
+    "la: tempus",
+    "fr: temps",
+    "la: numerus motus secundum prius et posterius",
+    "la: duratio"
+   ],
+   "answers": [
+    {
+     "code": "number-of-motion",
+     "label": "The number or measure of motion according to before and after"
+    },
+    {
+     "code": "distinguished-duration",
+     "label": "An affection of the natural body by which its duration is divided according to the motions of the heavens"
+    },
+    {
+     "code": "duration-as-thought",
+     "label": "The duration of a created thing as the mind measures it: a mode of thinking, not a property of things"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "time-present",
+   "theme": "motion",
+   "status": "persistent",
+   "parent": "time-nature",
+   "wording": "Is the present time only an instant, or has it some extent?",
+   "names": [
+    "la: tempus praesens",
+    "la: instans",
+    "la: momentum"
+   ],
+   "answers": [
+    {
+     "code": "instant",
+     "label": "Only an instant: time exists in the present by its instant, not by a part"
+    },
+    {
+     "code": "has-extent",
+     "label": "It has parts, or some breadth"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "time-standard",
+   "theme": "motion",
+   "status": "persistent",
+   "parent": "time-nature",
+   "wording": "By what motion is time measured?",
+   "names": [
+    "la: primum mobile",
+    "la: horologium"
+   ],
+   "answers": [
+    {
+     "code": "first-mobile",
+     "label": "The daily revolution of the first movable, the one universal time"
+    },
+    {
+     "code": "heavenly-bodies",
+     "label": "The motions of the heavenly bodies, chiefly the sun and moon"
+    },
+    {
+     "code": "any-succession",
+     "label": "Any succession, of motions or of thoughts"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:dispute"
+   ]
+  },
+  {
+   "id": "duration-kinds",
+   "theme": "motion",
+   "status": "persistent",
+   "parent": "time-nature",
+   "wording": "What kinds of duration are there?",
+   "names": [
+    "la: aeternitas",
+    "la: aevum",
+    "la: tempus"
+   ],
+   "answers": [
+    {
+     "code": "eternity-aevum-time",
+     "label": "Three: eternity (God), aevum (created spirits), time (bodies)"
+    },
+    {
+     "code": "god-and-creatures",
+     "label": "God's duration alone is without succession; every created duration, angels' included, has succession"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:open"
+   ]
+  },
+  {
+   "id": "motion-in-void",
+   "theme": "motion",
+   "status": "persistent",
+   "parent": "void",
+   "wording": "Could a body move through an empty space, and would it take time?",
+   "names": [
+    "la: motus in vacuo"
+   ],
+   "answers": [
+    {
+     "code": "yes-in-time",
+     "label": "Yes, and not in an instant"
+    },
+    {
+     "code": "instantaneous",
+     "label": "Only in an instant"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:open"
+   ]
+  },
+  {
+   "id": "pores-filled",
+   "theme": "matter",
+   "status": "persistent",
+   "parent": "pores",
+   "wording": "What fills the pores of bodies and the spaces that seem empty?",
+   "names": [
+    "la: pori",
+    "fr: matiere subtile",
+    "la: materia subtilis"
+   ],
+   "answers": [
+    {
+     "code": "subtler-matter",
+     "label": "A subtler body: air, a subtle matter, or the subtler parts of the body"
+    },
+    {
+     "code": "nothing",
+     "label": "Nothing: they are empty"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:common"
+   ]
+  },
+  {
+   "id": "quantity-efficacy",
+   "theme": "matter",
+   "status": "persistent",
+   "wording": "Do bodies act by their size, or by something else?",
+   "names": [
+    "la: efficacia quantitatis"
+   ],
+   "answers": [
+    {
+     "code": "no",
+     "label": "Not by their quantity but by their qualities"
+    },
+    {
+     "code": "yes",
+     "label": "By size, figure and motion of their parts"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:open"
+   ]
+  },
+  {
+   "id": "math-in-physics",
+   "theme": "method",
+   "status": "persistent",
+   "wording": "Can a demonstration in geometry settle a question about natural bodies?",
+   "names": [
+    "la: principia mathematica",
+    "la: metabasis eis allo genos"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: what geometry shows of extension holds of bodies"
+    },
+    {
+     "code": "no",
+     "label": "No: mathematical principles are foreign to physics and cannot conclude about natural things"
+    }
+   ],
+   "drawn_from": [
+    "1675-place-void-time:why"
+   ]
+  },
+  {
+   "id": "motion-definition",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "What is motion?",
+   "names": [
+    "la: motus",
+    "fr: mouvement",
+    "la: actus entis in potentia",
+    "la: translatio",
+    "fr: application successive"
+   ],
+   "answers": [
+    {
+     "code": "act-of-potency",
+     "label": "The act of a being in potency insofar as it is in potency: the gradual acquiring of a form"
+    },
+    {
+     "code": "place-after-place",
+     "label": "An affection of the natural body by which it acquires one place after another"
+    },
+    {
+     "code": "transfer-from-neighbours",
+     "label": "The transfer of a body from the neighbourhood of the bodies that immediately touch it into the neighbourhood of others"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:dispute"
+   ]
+  },
+  {
+   "id": "motion-kinds",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Which changes are motions in the proper sense?",
+   "names": [
+    "la: species motus",
+    "la: latio",
+    "la: alteratio",
+    "la: augmentatio",
+    "la: generatio"
+   ],
+   "answers": [
+    {
+     "code": "three-categories",
+     "label": "Change in quantity, quality and place; coming to be and passing away are instantaneous and not motions"
+    },
+    {
+     "code": "local-only",
+     "label": "Only change of place; the other changes are not motion, or belong elsewhere"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:dispute"
+   ],
+   "parent": "motion-definition"
+  },
+  {
+   "id": "mover-other",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Is whatever is moved moved by something other than itself?",
+   "names": [
+    "la: omne quod movetur ab alio movetur",
+    "la: movens",
+    "la: mobile"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: nothing moves itself as a whole; animals move one part by another, heavy bodies have their motion from what generated them"
+    },
+    {
+     "code": "natural-self-moved",
+     "label": "No: a body moved naturally, from an internal principle, moves itself; only violent motion is from another"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:dispute"
+   ]
+  },
+  {
+   "id": "first-mover",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "What is the first cause of motion in the world?",
+   "names": [
+    "la: primus motor",
+    "fr: premier moteur",
+    "la: causa universalis motus"
+   ],
+   "answers": [
+    {
+     "code": "god",
+     "label": "God, the first mover"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:common"
+   ]
+  },
+  {
+   "id": "motion-conserved",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Does the same quantity of motion remain in the world?",
+   "names": [
+    "fr: égale quantité de mouvement",
+    "la: eadem motus mensura"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: God conserves the quantity he gave at the creation; what one body loses another gains"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:common"
+   ],
+   "parent": "first-mover"
+  },
+  {
+   "id": "violent-motion",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Are some motions in nature violent, that is, against the inclination of the body moved?",
+   "names": [
+    "la: motus violentus",
+    "la: motus naturalis",
+    "la: violentia"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: violent motion has an outside principle the body does not cooperate with, as a stone thrown upward"
+    },
+    {
+     "code": "no",
+     "label": "No: every motion is as natural to bodies as rest; violence refers only to a will"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:dispute"
+   ]
+  },
+  {
+   "id": "motion-contrary",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "What is contrary to a motion?",
+   "names": [
+    "la: contrarietas motuum",
+    "la: quies motui contraria"
+   ],
+   "answers": [
+    {
+     "code": "rest-only",
+     "label": "Rest alone; one motion is not contrary to another, though one direction may be contrary to another"
+    },
+    {
+     "code": "opposite-motion",
+     "label": "A motion between opposite terms, as between contrary qualities or opposite places"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:dispute"
+   ]
+  },
+  {
+   "id": "motion-line",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Along what line does a moving body tend to go of itself?",
+   "names": [
+    "la: motus rectus",
+    "la: motus circularis",
+    "fr: ligne droite",
+    "la: motus mixtus"
+   ],
+   "answers": [
+    {
+     "code": "straight-only",
+     "label": "A straight line only; a body moves in a curve only when other bodies force it, and so tends away from the centre"
+    },
+    {
+     "code": "straight-or-circular",
+     "label": "Straight, to or from the centre of the world, for the elements; circular for the stars"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:dispute"
+   ]
+  },
+  {
+   "id": "determination",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Is the direction in which a body moves something distinct from its motion?",
+   "names": [
+    "fr: détermination du mouvement",
+    "la: determinatio motus",
+    "fr: détermination composée"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes: the determination can change or be taken away while the quantity of motion stays the same"
+    },
+    {
+     "code": "no",
+     "label": "No"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:common"
+   ]
+  },
+  {
+   "id": "reflection-rest",
+   "theme": "motion",
+   "status": "persistent",
+   "wording": "Does a body come to rest for a moment at the point where it rebounds?",
+   "names": [
+    "fr: moment de repos au point de reflexion",
+    "la: quies in puncto reflexionis"
+   ],
+   "answers": [
+    {
+     "code": "yes",
+     "label": "Yes"
+    },
+    {
+     "code": "no",
+     "label": "No: the reflected motion is the continuation of the direct one"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:common"
+   ]
+  },
+  {
+   "id": "reflection-angle",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Is the angle of reflection equal to the angle of incidence?",
+   "names": [
+    "fr: angle de reflexion",
+    "fr: angle d'incidence",
+    "la: angulus reflexionis",
+    "la: angulus incidentiae"
+   ],
+   "answers": [
+    {
+     "code": "equal",
+     "label": "Equal"
+    },
+    {
+     "code": "equal-if-speed-kept",
+     "label": "Equal when the body keeps its speed; smaller or greater when the striking changes its speed"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:common"
+   ]
+  },
+  {
+   "id": "refraction-cause",
+   "theme": "light-and-fire",
+   "status": "persistent",
+   "wording": "Why does a body or a ray change its path when it passes obliquely from one medium into another?",
+   "names": [
+    "fr: refraction",
+    "la: refractio",
+    "fr: milieu",
+    "la: medium"
+   ],
+   "answers": [
+    {
+     "code": "unequal-resistance",
+     "label": "The new medium resists more or less, which changes the part of the determination across the surface and not the part along it"
+    }
+   ],
+   "drawn_from": [
+    "1675-motion:common"
    ]
   }
  ]
