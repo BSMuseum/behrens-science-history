@@ -1,0 +1,3400 @@
+{
+ "schema": "hos-claims/1",
+ "entry": {
+  "id": "1675-motion",
+  "snapshot": "1675",
+  "topic": "motion",
+  "title": "Motion and its communication (with reflection and refraction)",
+  "site": {
+   "page": "c-1675",
+   "view": "#motion"
+  },
+  "published": null,
+  "encoded": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5",
+   "from": "new reading, with the entry"
+  },
+  "verification": {
+   "status": "unverified",
+   "by": null,
+   "date": null
+  },
+  "rests_on": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5"
+  },
+  "coverage": "One text per region, on what motion is and which changes count as motion, the mover (whether whatever is moved is moved by another, God as first mover, natural and violent motion), why a thrown body keeps moving, falling bodies, the quantity and conservation of motion, collisions and the passing of motion between bodies, contrariety, the straight line, determination, reflection and refraction, and action at a distance. read_from records what was read: 'image' where Claude read the page image, 'ocr' where only the library's machine-read text (MDZ page OCR, IA djvu text) was used. Every quotation is from an image. Not covered: Rohault ch. XII (the motions ascribed to the fear of the void, coded in place-void-time and left to the air topic) and ch. XVI (hard bodies in liquids); Le Grand IV a. 19 (the flight of the void, left to air) and a. 23-25 (hard and fluid, rare and dense, pores); Goudin disp. III q. I a. II-IV beyond the OCR (the subject of action, the unity of motions) and q. II-V (in place-void-time); Sperling II.7 q. VI (why climbing tires a man) summarised only in the entry.",
+  "built_with": "Claude only",
+  "quote_check": {
+   "date": "2026-11-27",
+   "by": "Claude Opus 5.5 (same session; not independent)",
+   "result": "Every quotation was transcribed from the page image in the first reading; none rests on OCR."
+  }
+ },
+ "texts": {
+  "R": {
+   "text": "rohault-traite-1675",
+   "parts": "Part I, ch. X 'Du mouvement, & du repos', pp. 60-69; ch. XI 'De la continuation & de la cessation du mouvement', pp. 69-77; ch. XIII 'De la détermination du mouvement', pp. 110-115; ch. XIV 'De la composition du mouvement, & de celle de sa détermination', pp. 115-121; ch. XV 'De la Reflexion, & de la Refraction', pp. 121-132 (vol. 1, MDZ canvas = page + 40; read from the images at pp. 62, 64, 68, 70, 72, 76, 114 and 126, the rest in the MDZ OCR)"
+  },
+  "S": {
+   "text": "sperling-institutiones-1664",
+   "parts": "Book II, ch. VII 'De Motu et Quiete', pp. 370-398: precepts, explanations and questions I-VI (MDZ canvas = page + 18; read from the images at pp. 370, 378, 386, 390, 393 and 395, the rest in the MDZ OCR)"
+  },
+  "G": {
+   "text": "goudin-philosophia-1681",
+   "parts": "t. 2, Bologna 1686 (in place of the Cologne 1681 t. 2, not found; R1 clause 6), physics part 1, disputation III: q. I 'De Motu, & Actione ac Passione', a. I-V, pp. 260-297; q. VI 'De Conditionibus Motus', a. I-II, pp. 366-378; with the definition of violence, disp. II q. I a. II, p. 141 (IA bub_gb_D2e2JGtx1rwC; /page/n = page + 17 in q. I, page + 25 in q. VI, read from the images at pp. 261, 367, 371 and 372; page numbers checked on the images at pp. 260, 268, 274 and 377)"
+  },
+  "L": {
+   "text": "legrand-institutio-1675",
+   "parts": "Part IV ('Physica generalis'), a. XVI 'De Motu', pp. 202-204; a. XVII 'De Motus localis principiis', pp. 204-208; a. XVIII 'Corpus nec se, nec aliud corpus movere potest', pp. 208-209; a. XX 'De Motus Determinatione simplici, & composita', pp. 213-216; a. XXI 'De Reflexione, & Refractione', pp. 216-221; a. XXII 'De Vi Agendi, & Resistendi', pp. 221-224; Part V, a. V, God the cause of motion, pp. 248-252, and a. VI 'De Corporum actione, & motuum communicatione', pp. 252-258 (IA /page/n = page + 59, read from the images at pp. 203-205, 218, 254 and 255)"
+  }
+ },
+ "placement": [
+  {
+   "text": "R",
+   "where": "General physics (Part I), straight after divisibility and before the motions ascribed to the fear of the void: motion and rest (ch. X), the continuation of motion and collisions (ch. XI), then, after the void chapter, determination, composition, and reflection and refraction as applications of the doctrine (ch. XIII-XV); light and the senses come later in the same part",
+   "cites": [
+    {
+     "page": "60",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=100",
+     "read_from": "ocr"
+    },
+    {
+     "page": "121",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=161",
+     "read_from": "ocr"
+    }
+   ]
+  },
+  {
+   "text": "S",
+   "where": "Book II, the affections of the natural body, last after quantity, quality, magic, place and time: motion and rest as a disjunct affection; reflection and refraction are not in the chapter",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "G",
+   "where": "Physics part 1, disputation III, on the property of the mobile being, after Aristotle's last books of the Physics: motion, action and passion first (q. I), then the infinite, time, place and the continuum as conditions (q. II-V, in the place-void-time entry), and the conditions of the mover last (q. VI); violence is with nature and art in disputation II",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "260",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n277/mode/1up",
+     "read_from": "image"
+    },
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image"
+    }
+   ]
+  },
+  {
+   "text": "L",
+   "where": "General physics (Part IV), after causes and before the flight of the void: motion, its principles and laws (a. XVI-XVIII), determination, reflection and refraction, and the force of acting and resisting (a. XX-XXII); the conservation of motion and the rules of impact in the cosmology (Part V, a. V-VI), before the systems of the world",
+   "cites": [
+    {
+     "page": "202",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n261/mode/1up",
+     "read_from": "ocr"
+    },
+    {
+     "page": "252",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n311/mode/1up",
+     "read_from": "ocr"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "1675-motion-001",
+   "question": "motion-definition",
+   "text": "R",
+   "answer": "transfer-from-neighbours",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Motion is better known by experience than by definition; taking a man walking along an avenue and setting aside his desire to walk (a thought) and his effort (at most the efficient cause of motion), what is left is motion: the successive application of a body to the different parts of the bodies that immediately surround it. Rest is the continued application to the same parts. Motion is not an absolute being but a manner of being of the body moved, accidental to matter as figure is.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "other",
+     "detail": "elimination: of the three things new in a walking man, only the change of neighbours is motion itself"
+    },
+    {
+     "kind": "refutation",
+     "detail": "bodies without thought move, and bodies that strive do not always move"
+    }
+   ],
+   "cites": [
+    {
+     "page": "61",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=101",
+     "read_from": "ocr",
+     "section": "I.10 art. I-II"
+    },
+    {
+     "page": "62",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=102",
+     "read_from": "image",
+     "section": "I.10 art. II"
+    },
+    {
+     "page": "64",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=104",
+     "read_from": "image",
+     "section": "I.10 art. VI"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "le mouvement consiste dans cette application successive d'un corps, aux diverses parties de ceux qui l'avoisinent immediatement",
+    "from_image": true,
+    "tr": "motion consists in this successive application of a body to the different parts of those that immediately surround it"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-001",
+     "kind": "premise",
+     "detail": "no void, so motion cannot be application to parts of an empty space",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-002",
+   "question": "motion-definition",
+   "text": "S",
+   "answer": "place-after-place",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Motion is a disjunct affection of the natural body by which it acquires one place after another, as Peter moves when he goes from place to place; its proper nature lies in tending, succession and progress. Rest is the affection by which a body keeps its place, as the earth and the heaven rest.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7 precept I"
+    },
+    {
+     "page": "373",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=391",
+     "read_from": "ocr",
+     "section": "II.7 on precept I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Motus est affectio disjuncta corporis naturalis, qua illud alium atque alium acquirit locum.",
+    "from_image": true,
+    "tr": "Motion is a disjunct affection of the natural body, by which it acquires one place after another."
+   }
+  },
+  {
+   "id": "1675-motion-003",
+   "question": "motion-definition",
+   "text": "S",
+   "answer": "act-of-potency",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The schools' definition, the act of what is in potency insofar as it is in potency, and their division of motion into three, four or six kinds are partly obscure, partly false and partly beside the point: no word of the definition can be understood without a long explanation, and no motion exists in which part of a form is present and part absent, since substantial forms admit no degrees and the accidental ones (heat in water, the growth of a child) do not behave so either.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "substantial forms are indivisible; heat and growth are not had in part"
+    },
+    {
+     "kind": "authority",
+     "detail": "Bodin: the definition is more obscure than motion itself"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    },
+    {
+     "name": "Jean Bodin",
+     "dates": "1530-1596",
+     "role": "followed",
+     "note": "Universae naturae theatrum, book I"
+    }
+   ],
+   "cites": [
+    {
+     "page": "376",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=394",
+     "read_from": "ocr",
+     "section": "II.7 q. I"
+    },
+    {
+     "page": "378",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=396",
+     "read_from": "image",
+     "section": "II.7 q. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "partim obscura, partim falsa, partim aliena sunt",
+    "from_image": true,
+    "tr": "they are partly obscure, partly false, partly beside the point"
+   }
+  },
+  {
+   "id": "1675-motion-004",
+   "question": "motion-definition",
+   "text": "G",
+   "answer": "act-of-potency",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Taken properly, for the change found in sensible things, motion is the act of a being in potency insofar as it is in potency. The definition looks a little obscure at first sight but is made clear by Thomas: a subject has two potencies, to the form and to the becoming of the form; the becoming, the gradual acquiring of the form, is motion, an act because it actualises the first potency, of a being in potency because while it lasts the subject is still in potency to the form. More easily: motion is the actual tending of the mobile to its term. Motion, action and passion are one entity, distinguished only modally.",
+   "confidence": {
+    "level": "certain",
+    "printed": "licèt prima fronte paulò obscurior videatur, attamen explicatur clarissimè",
+    "translation": "although at first sight it may seem somewhat obscure, it is explained most clearly"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "261",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n278/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. I a. I"
+    },
+    {
+     "vol": "2",
+     "page": "262",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n279/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. I"
+    },
+    {
+     "vol": "2",
+     "page": "263",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n280/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Motus est actus entis in potentia prout in potentia",
+    "from_image": true,
+    "tr": "Motion is the act of a being in potency, as in potency"
+   }
+  },
+  {
+   "id": "1675-motion-005",
+   "question": "motion-definition",
+   "text": "L",
+   "answer": "transfer-from-neighbours",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Motion, as the more careful philosophers place it in the mobile and not in the mover, is the transfer of one part of matter from the neighbourhood of the bodies that immediately touch it, and are regarded as at rest, into the neighbourhood of others. Motion and rest are two modes of the body, not things subsisting of themselves, or they would be substances; motion is not a real quality, as the Aristotelians hold, but a mode not distinct from the body.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed",
+     "note": "the definition of Principia II art. 25, unnamed here"
+    }
+   ],
+   "cites": [
+    {
+     "page": "203",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n262/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 16"
+    },
+    {
+     "page": "204",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n263/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 16"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Motus est translatio unius partis corporis ex vicinia eorum corporum, quæ illud immediate contingunt",
+    "from_image": true,
+    "tr": "Motion is the transfer of one part of body from the neighbourhood of the bodies that immediately touch it"
+   }
+  },
+  {
+   "id": "1675-motion-006",
+   "question": "motion-definition",
+   "text": "L",
+   "answer": "act-of-potency",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "To say that motion is the act of a being in potency insofar as it is in potency is to say that it is the act of a being not in act, insofar as it is not in act; this breeds great obscurity, if not a contradiction, and no other definition of motion than the transfer seems intelligible.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "a thing cannot be in act and in potency at once in the same respect"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "204",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n263/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 16"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quod certe magnam obscuritatem parit, si non implicantiam",
+    "from_image": true,
+    "tr": "which surely breeds great obscurity, if not a contradiction"
+   }
+  },
+  {
+   "id": "1675-motion-007",
+   "question": "motion-kinds",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Rohault treats only local motion and does not ask whether other changes are motions.",
+   "cites": [
+    {
+     "page": "60",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=100",
+     "read_from": "ocr",
+     "section": "I.10"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-008",
+   "question": "motion-kinds",
+   "text": "S",
+   "answer": "local-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Natural philosophy has to do here with local motion only, which with rest exhausts the natural body's whole range: every body either moves or rests. Growth, alteration, generation and corruption concern a few kinds of body and belong to the special physics, not the general; when the earth is said to stand still and the planets to move, it is local motion that is meant.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "simplicity",
+     "detail": "local motion with rest suffices to exhaust the natural body"
+    }
+   ],
+   "cites": [
+    {
+     "page": "372",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=390",
+     "read_from": "ocr",
+     "section": "II.7 on the precepts"
+    },
+    {
+     "page": "379",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=397",
+     "read_from": "ocr",
+     "section": "II.7 q. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-009",
+   "question": "motion-kinds",
+   "text": "G",
+   "answer": "three-categories",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Motion in the proper sense is successive and runs between two positive, in some way contrary terms with a range between them, as a ship sails from France to America. So there is no motion to substance: substantial forms have no such range between them, generation passes at once from not-being to being, and prime matter, which is not a being in act, cannot be the subject of motion. Nutrition is successive only through the alteration and growth that go with it; the change of food into the living substance happens in an instant. Of Aristotle's categories only quantity, quality and place can be terms of motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "274",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n291/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. III"
+    },
+    {
+     "vol": "2",
+     "page": "275",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n292/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. III"
+    },
+    {
+     "vol": "2",
+     "page": "277",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n294/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. III"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-004",
+     "kind": "premise",
+     "detail": "motion is a successive tending between terms",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-010",
+   "question": "motion-kinds",
+   "text": "L",
+   "answer": "local-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Physics acknowledges one motion only, local motion: since quantity is not distinct from extended matter, which is substance, there can be no motion to quantity any more than to substance, and the real qualities to which alteration was referred have already been rejected.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "202",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n261/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 16"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-017",
+     "kind": "premise",
+     "detail": "quantity is not distinct from extended matter",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-011",
+   "question": "mover-other",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Nothing at rest will ever begin to move unless something moves it, as a square body stays square of itself; a body that moves another by impulse loses as much motion as it gives.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "things remain in their state unless an outside cause changes them"
+    }
+   ],
+   "cites": [
+    {
+     "page": "70",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=110",
+     "read_from": "image",
+     "section": "I.11 art. I"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "ce qui est en repos, ne commencera jamais à se mouvoir, si quelque chose ne le meut",
+    "from_image": true,
+    "tr": "what is at rest will never begin to move if something does not move it"
+   }
+  },
+  {
+   "id": "1675-motion-012",
+   "question": "mover-other",
+   "text": "S",
+   "answer": "natural-self-moved",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The schools' canon that whatever is moved is moved by another holds for violent motion only. In natural motion whatever moves moves itself, since its principle is internal: rising fire and air, descending water and stones and a horse walking move themselves. The objections fail: a thing does act on itself when the action perfects it, as Toledo grants, and a thing can be in act as to its being and in potency as to the motion it attempts. The interpreters hold the canon because Aristotle taught it, not because it is demonstrated, as Toledo admits in calling it only most probable; Zabarella's soul that passes to new flesh without motion is an evasion, as Basson says.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "fire rises, stones fall, a horse walks"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Toledo's and Zabarella's defences of the canon"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Francisco de Toledo SJ",
+     "dates": "1532-1596",
+     "role": "opposed"
+    },
+    {
+     "name": "Jacopo Zabarella",
+     "dates": "1533-1589",
+     "role": "opposed"
+    },
+    {
+     "name": "Sébastien Basson",
+     "dates": "c. 1573-after 1625",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "380",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=398",
+     "read_from": "ocr",
+     "section": "II.7 q. III"
+    },
+    {
+     "page": "383",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=401",
+     "read_from": "ocr",
+     "section": "II.7 q. III"
+    },
+    {
+     "page": "386",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=404",
+     "read_from": "image",
+     "section": "II.7 q. III"
+    },
+    {
+     "page": "387",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=405",
+     "read_from": "ocr",
+     "section": "II.7 q. III"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Motu naturali, quicquid movetur, à se ipso movetur.",
+    "from_image": true,
+    "tr": "In natural motion, whatever is moved is moved by itself."
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-016",
+     "kind": "premise",
+     "detail": "natural motion is from an internal cause, violent from an external",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-013",
+   "question": "mover-other",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Whatever is moved is moved by another, as Thomas, Aristotle and all antiquity hold, the Epicureans excepted, who made their atoms move themselves. Nothing can be in potency and in act at once in the same respect, and to be moved is to receive, to move is to give. Animals move themselves only part by part (the heart the limbs, appetite the faculty of motion); the heart's motion and the fall of heavy bodies come from what generated them. The axiom is the ladder by which Aristotle rose to one God, and those who deny God's premotion usually deny it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "nothing is in act and potency at once in the same respect"
+    },
+    {
+     "kind": "authority",
+     "detail": "Thomas, Aristotle and all antiquity"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Epicurus",
+     "dates": "341-270 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    },
+    {
+     "vol": "2",
+     "page": "368",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n393/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. I"
+    },
+    {
+     "vol": "2",
+     "page": "371",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n396/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Omne quod mouetur, ab alio mouetur. Ita D. Tho. & Aristoteles, immò tota antiquitas",
+    "from_image": true,
+    "tr": "Whatever is moved is moved by another. So say St Thomas and Aristotle, indeed all antiquity"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-004",
+     "kind": "premise",
+     "detail": "to be moved is to be in potency, to move is to be in act",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-014",
+   "question": "mover-other",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No body can move itself, nor another body: the mover, the force that carries a body from one neighbourhood to another, is distinct from the mobile, and a body has no force of moving that can be conceived. The movers are God, who keeps the same quantity of transfer in matter, or a created substance to which God has given the power to move bodies, such as the human mind.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "the force that moves is distinct from the body moved"
+    }
+   ],
+   "cites": [
+    {
+     "page": "207",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n266/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "208",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n267/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 18"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-015",
+   "question": "violent-motion",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Rohault does not divide motion into natural and violent in these chapters.",
+   "cites": [
+    {
+     "page": "60",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=100",
+     "read_from": "ocr",
+     "section": "I.10"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-016",
+   "question": "violent-motion",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "By its mover, motion is natural or violent. Natural motion arises from an internal cause, as the elements tend to their natural places and horses, dogs and men go where they will; violent motion comes from an external cause, as arrows, bullets and stones go up. The chief kinds of violent motion are pushing (thrusting and throwing), pulling, carrying and whirling.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7 precepts III-V"
+    },
+    {
+     "page": "373",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=391",
+     "read_from": "ocr",
+     "section": "II.7 on precept III"
+    },
+    {
+     "page": "374",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=392",
+     "read_from": "ocr",
+     "section": "II.7 on precept V"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-017",
+   "question": "violent-motion",
+   "text": "G",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Violence is a principle from outside, the patient contributing no force or inclination to it but resisting, actively as a stone thrown upward resists by its weight, or passively; the motion an intelligence gives a heavenly body is therefore not violent.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "vol": "2",
+     "page": "141",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n158/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. II q. I a. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-018",
+   "question": "violent-motion",
+   "text": "L",
+   "answer": "no",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "No motion in nature is violent, since it is as natural to bodies to push and dash against one another when that happens as to rest within fixed bounds. The word violent refers only to our will, which is said to suffer force when something befalls it that it struggles against.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "204",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n263/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 16"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "nullum motum in Natura esse violentum",
+    "from_image": true,
+    "tr": "no motion in nature is violent"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-005",
+     "kind": "premise",
+     "detail": "motion is a mode of the body, as natural to it as rest",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-019",
+   "question": "motion-persistence",
+   "text": "R",
+   "answer": "persists-of-itself",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Since nothing tends of itself to its own destruction and things stay in their state unless an outside cause changes them, what has once begun to move cannot of itself stop moving until it meets something that slows or stops it; that is the true reason a stone keeps moving after it leaves the hand. Aristotle's saying that whatever moves tends to rest is an error: the heavens have shown no stopping of motion in thousands of years, and nobody thinks a cannon ball wants to rest after piercing three or four feet of masonry. Bodies stop because the bodies they meet, the air among them, resist and take their motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "nothing tends to its own destruction; a law of nature"
+    },
+    {
+     "kind": "observation",
+     "detail": "the heavens never cease; the cannon ball; the fan in the air"
+    },
+    {
+     "kind": "refutation",
+     "detail": "Aristotle's motion that tends to rest"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "69",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=109",
+     "read_from": "ocr",
+     "section": "I.11 art. I"
+    },
+    {
+     "page": "70",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=110",
+     "read_from": "image",
+     "section": "I.11 art. I-III"
+    },
+    {
+     "page": "71",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=111",
+     "read_from": "ocr",
+     "section": "I.11 art. IV"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "voilà la veritable raison pourquoy une pierre continuë de se mouvoir",
+    "from_image": true,
+    "tr": "that is the true reason why a stone keeps moving"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-049",
+     "kind": "premise",
+     "detail": "the law that things stay in their state",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-020",
+   "question": "motion-persistence",
+   "text": "S",
+   "answer": "pushed-by-medium",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A thrown body is not moved by an impressed virtue nor by the air giving way, but by the air pushing: the first impetus comes from the thrower, the stone splits the air, the parts of the air rush together again with great force to restore their union and push the stone on, and so again and again, more weakly each time, until the stone turns to its natural motion. This is why violent motion is fastest at the start and slowest at the end. A feather is not carried farther than a stone, because the air pushes only bodies that split it, and an arrow flies straight because the air split along its line is what closes behind it.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "impressed virtue and the yielding air both fail"
+    },
+    {
+     "kind": "design",
+     "detail": "nature loves union and resists whatever divides it"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Sébastien Basson",
+     "dates": "c. 1573-after 1625",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "392",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=410",
+     "read_from": "ocr",
+     "section": "II.7 q. V"
+    },
+    {
+     "page": "394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=412",
+     "read_from": "ocr",
+     "section": "II.7 q. V"
+    },
+    {
+     "page": "395",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=413",
+     "read_from": "image",
+     "section": "II.7 q. V"
+    },
+    {
+     "page": "396",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=414",
+     "read_from": "ocr",
+     "section": "II.7 q. V"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Prius qui asserunt, soli rem tetigisse videntur acu",
+    "from_image": true,
+    "tr": "those who assert the former alone seem to have hit the nail on the head"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-038",
+     "kind": "premise",
+     "detail": "mover and moved must be joined",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-021",
+   "question": "motion-persistence",
+   "text": "S",
+   "answer": "impressed-impetus",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The mover cannot be the cause once the stone has left the hand, since mover and moved must be joined; and those who appeal to an impressed virtue cannot say what it is or how it is impressed. Scaliger, who as a boy answered Cardano that the force of the bowstring stays in the arrow, admits that these are words; his later view, that motion is a form impressed in the moved, still leaves no contact between agent and patient.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "no contact between mover and moved; the virtue is not explained"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Julius Caesar Scaliger",
+     "dates": "1484-1558",
+     "role": "opposed"
+    },
+    {
+     "name": "Girolamo Cardano",
+     "dates": "1501-1576",
+     "role": "reported"
+    }
+   ],
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=411",
+     "read_from": "image",
+     "section": "II.7 q. V"
+    },
+    {
+     "page": "394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=412",
+     "read_from": "ocr",
+     "section": "II.7 q. V"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "nec quid ea virtus sit, nec quomodo imprimatur, constat",
+    "from_image": true,
+    "tr": "it is clear neither what that virtue is nor how it is impressed"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-038",
+     "kind": "premise",
+     "detail": "mover and moved must be joined",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-022",
+   "question": "motion-persistence",
+   "text": "S",
+   "answer": "pushed-by-medium",
+   "stance": "rejects",
+   "part": "dispute",
+   "statement": "The view that the air withdraws from the stone, and the stone follows to fill the place lest there be a void, is ridiculous: other air could fill the place far more easily, and no necessity drives a very heavy thing through the air against its own nature.",
+   "confidence": {
+    "level": "asserted",
+    "note": "rejects the yielding-air form of the medium view, not the pushing air he holds"
+   },
+   "cites": [
+    {
+     "page": "394",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=412",
+     "read_from": "ocr",
+     "section": "II.7 q. V"
+    },
+    {
+     "page": "395",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=413",
+     "read_from": "image",
+     "section": "II.7 q. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-023",
+   "question": "motion-persistence",
+   "text": "G",
+   "stance": "not_found",
+   "part": "dispute",
+   "statement": "The thrown body is not treated in disputation III; Goudin's physics part 1 has no question on projectiles in the parts read.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-024",
+   "question": "motion-persistence",
+   "text": "L",
+   "answer": "persists-of-itself",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The first law of nature: whatever is simple and undivided affects to stay always in the same state and admits no change except from outside. So whatever moves always moves and whatever rests always rests; on this depends the stone's going on after it leaves the thrower's hand, and a ball struck by the racket does not stick to the wall it rebounds from. A stone thrown up falls back not because it stops of itself but because the air and the fluid matter in it resist, and the subtle matter around the earth thrusts bodies down; otherwise a man who jumped would go on rising.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a simple thing stays in its state; rest is contrary to motion"
+    }
+   ],
+   "cites": [
+    {
+     "page": "205",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n264/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "206",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n265/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "omne illud quod movetur semper moveri, & illud quod quiescit, semper quiescere",
+    "from_image": true,
+    "tr": "whatever moves always moves, and whatever rests always rests"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-050",
+     "kind": "premise",
+     "detail": "rest is contrary to motion and nothing tends to its destruction",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-motion-051",
+     "kind": "premise",
+     "detail": "the laws are demonstrated from God's immutability",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-025",
+   "question": "fall-cause",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "The cause of heaviness is not taken up in these chapters; Rohault says only that the fall of heavy bodies is slower at the start than later, as experience teaches, when he compounds a cannon ball's path.",
+   "cites": [
+    {
+     "page": "119",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=159",
+     "read_from": "ocr",
+     "section": "I.14 art. VI"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-026",
+   "question": "fall-cause",
+   "text": "S",
+   "answer": "natural-place",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A falling stone moves naturally, from an internal cause, as the elements tend to their natural places; heaviness is why it tends downward, the centre of the world, which is the earth, being where straight natural motions go to and from.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7 precept IV"
+    },
+    {
+     "page": "375",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=393",
+     "read_from": "ocr",
+     "section": "II.7 on precept IX"
+    },
+    {
+     "page": "390",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=408",
+     "read_from": "image",
+     "section": "II.7 q. IV"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-012",
+     "kind": "instance",
+     "detail": "the falling stone as a natural motion moved by itself",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-027",
+   "question": "fall-cause",
+   "text": "G",
+   "answer": "from-generator",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Heavy bodies do not move themselves when they fall, nor light ones when they rise: as with the beating of the heart, the motion is given by what generated them, being a property that follows their essence as heat follows fire. A stone has this from its generator, which gave it the property as an appendage of its nature.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "371",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n396/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "ita lapis non mouet se ipsum, dum cadit, sed hoc habet à generante",
+    "from_image": true,
+    "tr": "so a stone does not move itself when it falls, but has this from what generated it"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-013",
+     "kind": "instance",
+     "detail": "the falling stone as a case of the axiom of the mover",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-028",
+   "question": "fall-cause",
+   "text": "L",
+   "answer": "subtle-matter",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Heaviness and an impressed quality explain nothing unless one says what they are and how they act on a body. A stone thrown upward comes down because the subtle matter around the earth thrusts bodies downward.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "gravity as a quality is not conceivable"
+    }
+   ],
+   "cites": [
+    {
+     "page": "206",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n265/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "208",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n267/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 18"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-029",
+   "question": "fall-acceleration",
+   "text": "R",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Rohault says only that heavy bodies fall more slowly at first than later, as experience shows; he gives no rule or cause here.",
+   "cites": [
+    {
+     "page": "119",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=159",
+     "read_from": "ocr",
+     "section": "I.14 art. VI"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-030",
+   "question": "fall-acceleration",
+   "text": "S",
+   "answer": "medium-helps",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Some deny that natural motion is slower at the start, asking how the same weight could fall faster at one time than another; but the senses show the fact (a stone from the roof hurts the hand more than one from the table; water from a roof runs together at first and breaks apart at the end). Heaviness explains why the stone tends down, not why it goes faster: the cause is the medium, as Pereira says, the air at rest resisting at the start and then, set moving by the stone, helping it on. In the circular motion of the stars there is neither slowness nor speed, the medium there being uniform.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "experiment",
+     "detail": "stones dropped from a table and a roof onto the hand"
+    },
+    {
+     "kind": "observation",
+     "detail": "water from a roof breaks apart as it falls"
+    },
+    {
+     "kind": "authority",
+     "detail": "Pereira"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Benito Pereira SJ",
+     "dates": "1535-1610",
+     "role": "followed"
+    },
+    {
+     "name": "Simplicius",
+     "dates": "c. 490-c. 560",
+     "role": "opposed"
+    },
+    {
+     "name": "John Philoponus",
+     "dates": "c. 490-c. 570",
+     "role": "opposed"
+    },
+    {
+     "name": "Martin Weinrich",
+     "dates": "1548-1609",
+     "role": "opposed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "388",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=406",
+     "read_from": "ocr",
+     "section": "II.7 q. IV"
+    },
+    {
+     "page": "389",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=407",
+     "read_from": "ocr",
+     "section": "II.7 q. IV"
+    },
+    {
+     "page": "390",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=408",
+     "read_from": "image",
+     "section": "II.7 q. IV"
+    },
+    {
+     "page": "391",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=409",
+     "read_from": "ocr",
+     "section": "II.7 q. IV"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Hanc cum Pererio & aliis dicimus esse diversitatem medii",
+    "from_image": true,
+    "tr": "with Pereira and others we say that this is the difference of the medium"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-020",
+     "kind": "same-agent",
+     "detail": "the air, set moving by the body, drives the thrown stone and helps the falling one",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-031",
+   "question": "fall-acceleration",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Goudin does not ask how a falling body speeds up in disputation III.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "371",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n396/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-032",
+   "question": "fall-acceleration",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Le Grand says only that daily use teaches that heavy bodies fall more slowly at the start than as they go on.",
+   "cites": [
+    {
+     "page": "216",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n275/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-033",
+   "question": "collision",
+   "text": "R",
+   "answer": "move-together",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A moving body that strikes a body at rest and pushes it before it must lose as much of its motion as it gives, so that the two go on together at one speed, as if they were one mass: a body three times the other loses a quarter of its motion. Striking a body already moving, it gives only the degrees needed to bring both to one speed. A body that cannot shake the body it meets at all keeps its speed and reflects.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the worked degrees of motion: 12 degrees shared as 8 and 4, or 10 and 5"
+    },
+    {
+     "kind": "metaphysics",
+     "detail": "God conserves the same quantity of motion"
+    }
+   ],
+   "cites": [
+    {
+     "page": "71",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=111",
+     "read_from": "ocr",
+     "section": "I.11 art. V"
+    },
+    {
+     "page": "72",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=112",
+     "read_from": "image",
+     "section": "I.11 art. V-VI"
+    },
+    {
+     "page": "73",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=113",
+     "read_from": "ocr",
+     "section": "I.11 art. VI-VII"
+    },
+    {
+     "page": "114",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=154",
+     "read_from": "image",
+     "section": "I.13 art. VIII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "de mesme que si ces deux corps ne composoient plus qu'une seule masse",
+    "from_image": true,
+    "tr": "just as if these two bodies made up no more than a single mass"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-056",
+     "kind": "premise",
+     "detail": "God conserves the quantity of motion, so a body loses what it gives",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-034",
+   "question": "collision",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Sperling gives no rules of impact.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-035",
+   "question": "collision",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Goudin gives no rules of impact.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-036",
+   "question": "collision",
+   "text": "L",
+   "answer": "cartesian-rules",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "For perfectly hard bodies, cut off from all others and moving in an empty or unresisting space, seven rules follow from the law that a simple thing stays in its state: two equal bodies meeting at equal speeds both rebound with their speeds; a slightly larger one carries a smaller with it; a resting body slightly larger than the one that strikes it is never moved by it, whatever the speed, and the striker rebounds with all its motion, since a resting body resists great speed more than small; a resting body smaller than the striker is carried along, the striker giving it the share that brings both to one speed (a third if twice as large), as Johannes de Raey sets out in whole numbers; a resting body exactly equal takes a quarter of the motion and sends the striker back with three quarters; and a faster body overtaking a larger slower one carries it on or rebounds, by whether its excess of speed is greater than the other's excess of size.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "each thing stays in its state; the stronger gets its effect"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Johannes de Raey",
+     "dates": "1622-1702",
+     "role": "followed",
+     "note": "Clavis philosophiae naturalis"
+    },
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed",
+     "note": "the rules of Principia II art. 46-52, unnamed"
+    }
+   ],
+   "cites": [
+    {
+     "page": "252",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n311/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 6"
+    },
+    {
+     "page": "253",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n312/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 6"
+    },
+    {
+     "page": "254",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n313/mode/1up",
+     "read_from": "image",
+     "section": "V a. 6"
+    },
+    {
+     "page": "255",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n314/mode/1up",
+     "read_from": "image",
+     "section": "V a. 6"
+    },
+    {
+     "page": "256",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n315/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 6"
+    },
+    {
+     "page": "257",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n316/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 6"
+    },
+    {
+     "page": "258",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n317/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 6"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "quacumque velocitate E moveatur versus A, nunquam ipsum A movebit",
+    "from_image": true,
+    "tr": "with whatever speed E moves towards A, it will never move A"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-024",
+     "kind": "premise",
+     "detail": "each thing stays in its state unless changed from outside",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-motion-088",
+     "kind": "premise",
+     "detail": "the force of acting and resisting decides which body gets its effect",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-037",
+   "question": "motion-transfer",
+   "text": "R",
+   "answer": "by-contact",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Impulsion is the only way we clearly conceive by which one body moves another, and it follows readily from the impenetrability of matter; the striking body gives the other part of its own motion and loses as much.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "71",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=111",
+     "read_from": "ocr",
+     "section": "I.11 art. V"
+    },
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=116",
+     "read_from": "image",
+     "section": "I.11 art. XIV"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "la seule impulsion, qui est la seule voye que nous concevions clairement",
+    "from_image": true,
+    "tr": "impulsion alone, which is the only way we clearly conceive"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-006",
+     "kind": "premise",
+     "detail": "impulsion follows from the impenetrability of matter",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-038",
+   "question": "motion-transfer",
+   "text": "S",
+   "answer": "by-contact",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Union between agent and patient, between mover and moved, is necessary; that is why the hand cannot be the cause of a stone's motion once the stone has left it, and the air that touches the stone is.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=411",
+     "read_from": "image",
+     "section": "II.7 q. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-039",
+   "question": "motion-transfer",
+   "text": "G",
+   "answer": "by-contact",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The mover must be joined to the moved, by its own substance or by its virtue spread through the space between, as the sun is present to the bowels of the earth by its heat, light and influence. Motion and action are one entity, and action is received in the patient, not in the agent.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "268",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n285/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. II"
+    },
+    {
+     "vol": "2",
+     "page": "372",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n397/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. II"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-066",
+     "kind": "premise",
+     "detail": "no action at a distance",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-040",
+   "question": "motion-transfer",
+   "text": "L",
+   "answer": "god-applies",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Motion, being a mode, cannot pass from one subject to another. When a body is said to move another, it gives it no real quality: it determines the universal cause, God, who keeps the same force of transfer in matter, to apply his power to the other body, which he would not have done otherwise. Motion is thus as it were created anew by God at every moment.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a mode cannot leave its subject"
+    }
+   ],
+   "cites": [
+    {
+     "page": "207",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n266/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "250",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n309/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 5"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-005",
+     "kind": "premise",
+     "detail": "motion is a mode and cannot leave its subject",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-motion-055",
+     "kind": "same-agent",
+     "detail": "God the universal cause of motion",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-041",
+   "question": "motion-contrary",
+   "text": "R",
+   "answer": "rest-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A reflected motion is only the continuation of the direct one, with no contrariety between them, although the second determination may be contrary to the first; a single moment of rest would change the body's way of being into its contrary.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "114",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=154",
+     "read_from": "image",
+     "section": "I.13 art. IX-X"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-042",
+   "question": "motion-contrary",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Sperling opposes rest to motion (rest consists in permanence as motion in tending) but does not ask whether motions are contrary to one another.",
+   "cites": [
+    {
+     "page": "376",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=394",
+     "read_from": "ocr",
+     "section": "II.7 on precept XII"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-043",
+   "question": "motion-contrary",
+   "text": "G",
+   "answer": "opposite-motion",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The contrariety of motions is taken from their opposed terms: motions from one contrary to the other, and local motions between opposite places, are contrary, and the same mobile cannot be moved by contrary motions at once.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "294",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n311/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. V"
+    },
+    {
+     "vol": "2",
+     "page": "295",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n312/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. I a. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-044",
+   "question": "motion-contrary",
+   "text": "L",
+   "answer": "rest-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "Motion is not contrary to motion: two bodies of the same size and speed that meet lose none of their motion but rebound and go on moving. Rest alone is contrary to motion; a slow motion can be called opposed to a quick one only insofar as slowness shares in the nature of rest. The determination of a motion, on the other hand, is contrary to another determination.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "204",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n263/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 16"
+    },
+    {
+     "page": "214",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n273/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-024",
+     "kind": "premise",
+     "detail": "motions do not destroy each other; rest alone is contrary",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-045",
+   "question": "motion-line",
+   "text": "R",
+   "answer": "straight-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "A body that has begun to move with a determination keeps it, and the only determination natural to a moving body is the straight line: bodies that turn aside are forced to by others, and a body moving in a circle is forced at every moment, by the bodies it meets or by what holds it, as a sling; set free, it goes off along the tangent, so that bodies moving round tend always to go away from the centre, the more strongly the faster they go.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "an infinity of experiments; the sling"
+    }
+   ],
+   "cites": [
+    {
+     "page": "111",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=151",
+     "read_from": "ocr",
+     "section": "I.13 art. IV-V"
+    },
+    {
+     "page": "112",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=152",
+     "read_from": "ocr",
+     "section": "I.13 art. VI"
+    },
+    {
+     "page": "113",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=153",
+     "read_from": "ocr",
+     "section": "I.13 art. VII"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-019",
+     "kind": "premise",
+     "detail": "each thing persists in its manner of being",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-046",
+   "question": "motion-line",
+   "text": "S",
+   "answer": "straight-or-circular",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "By its centre, motion is simple or mixed. Simple motion is straight, along a line drawn from the centre of the world (fire rising from it, a stone falling to it), or circular, keeping its distance from the centre, as the stars move; mixed or wandering motion, of winds, clouds, dogs and men, combines the two.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7 precept VI"
+    },
+    {
+     "page": "371",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=389",
+     "read_from": "ocr",
+     "section": "II.7 precepts VII-XI"
+    },
+    {
+     "page": "375",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=393",
+     "read_from": "ocr",
+     "section": "II.7 on precepts IX-X"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-047",
+   "question": "motion-line",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "dispute",
+   "statement": "Goudin does not ask along what line bodies tend to move in disputation III.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-048",
+   "question": "motion-line",
+   "text": "L",
+   "answer": "straight-only",
+   "stance": "holds",
+   "part": "dispute",
+   "statement": "The second law of nature: every moving body tends of itself to go on in a straight line, not a curve, though many are forced aside by meeting others; a stone whirled in a sling, once released, goes straight, as Descartes shows. The law follows from the definition of motion, which says nothing of curves, and is demonstrated, like the first, from the immutability and simplicity of God's working, who conserves motion as it is at each instant.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "God conserves motion as it is at each instant"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "credited",
+     "note": "Principia II art. 39, the sling"
+    }
+   ],
+   "cites": [
+    {
+     "page": "206",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n265/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "207",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n266/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-005",
+     "kind": "premise",
+     "detail": "the rule is gathered from the definition of motion",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-motion-051",
+     "kind": "premise",
+     "detail": "demonstrated from God's immutability",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-049",
+   "question": "first-law-grounds",
+   "text": "R",
+   "answer": "no-self-destruction",
+   "stance": "holds",
+   "part": "why",
+   "statement": "It is a law of nature that things remain always in the same state unless some outside cause changes them, because nothing tends of itself to its own destruction: what exists is determined to exist always, and what is square stays square.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "69",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=109",
+     "read_from": "ocr",
+     "section": "I.11 art. I"
+    },
+    {
+     "page": "70",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=110",
+     "read_from": "image",
+     "section": "I.11 art. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-050",
+   "question": "first-law-grounds",
+   "text": "L",
+   "answer": "no-self-destruction",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The chief reason a moving body would go on unless hindered is that rest is contrary to motion and nothing tends by a natural propensity to its contrary, that is, to its own destruction.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "206",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n265/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-051",
+   "question": "first-law-grounds",
+   "text": "L",
+   "answer": "divine-constancy",
+   "stance": "holds",
+   "part": "why",
+   "statement": "The laws of motion are demonstrated from the divine perfection, from the immutability and simplicity of the operation by which God conserves motion in the universe: it belongs to God to work constantly and unchangeably and to conserve what he first created.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "205",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n264/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "206",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n265/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 17"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-052",
+   "question": "first-mover",
+   "text": "R",
+   "answer": "god",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since motion is not an essential property of matter, it is useless to seek how it was first produced in bodies; as God is the creator of matter, so he is its first mover. Because it would not be philosophy to make him work miracles at every moment, Rohault supposes only that in creating the matter of this world God impressed a certain quantity of motion on its parts, and since then lends his ordinary concourse; what remains is to study the second, or natural, causes.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "motion is not deducible from the essence of matter"
+    }
+   ],
+   "cites": [
+    {
+     "page": "68",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=108",
+     "read_from": "image",
+     "section": "I.10 art. XII-XIII"
+    },
+    {
+     "page": "69",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=109",
+     "read_from": "ocr",
+     "section": "I.10 art. XIII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "ce ne seroit pas philosopher que de luy faire faire à tous momens des miracles",
+    "from_image": true,
+    "tr": "it would not be philosophising to make him work miracles at every moment"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-matter-form-013",
+     "kind": "premise",
+     "detail": "motion is no essential property of matter, whose essence is extension",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-053",
+   "question": "first-mover",
+   "text": "S",
+   "answer": "god",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Of the five things to weigh in every motion, the first is the mover, on which the motion depends: the first mover is God, the second is nature; when a man moves, God and the man's soul concur.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "379",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=397",
+     "read_from": "ocr",
+     "section": "II.7 q. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-054",
+   "question": "first-mover",
+   "text": "G",
+   "answer": "god",
+   "stance": "holds",
+   "part": "common",
+   "statement": "There must be one first unmoved mover that moves all the rest, God, who as pure act is in no potency to be moved; in nature lower bodies are moved by higher, the higher by the intelligences, the intelligences by God.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "persons": [
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "366",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n391/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. I"
+    },
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    },
+    {
+     "vol": "2",
+     "page": "371",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n396/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-013",
+     "kind": "premise",
+     "detail": "the chain of movers must end in an unmoved mover",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-055",
+   "question": "first-mover",
+   "text": "L",
+   "answer": "god",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Motion has two principles: a general one, on which all the motions in the world depend, and a particular one. The general one can be nothing but God, who at the creation gave matter a certain portion of motion and rest and keeps the same by his omnipotence; the particular causes are the laws of nature. Such regular effects as the turning of the stars, the tides and the earth's resting in the air cannot be made and kept up by chance.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "design",
+     "detail": "so many regular effects need a most powerful being"
+    }
+   ],
+   "cites": [
+    {
+     "page": "204",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n263/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "205",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n264/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "249",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n308/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 5"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-056",
+   "question": "motion-conserved",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "God, having created a certain quantity of motion, conserves by his ordinary concourse neither more nor less motion in matter than he put there at the creation; so a body loses as much motion as it gives.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "69",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=109",
+     "read_from": "ocr",
+     "section": "I.10 art. XIII"
+    },
+    {
+     "page": "71",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=111",
+     "read_from": "ocr",
+     "section": "I.11 art. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-057",
+   "question": "motion-conserved",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling does not ask whether the quantity of motion in the world stays the same.",
+   "cites": [
+    {
+     "page": "379",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=397",
+     "read_from": "ocr",
+     "section": "II.7 q. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-058",
+   "question": "motion-conserved",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin does not ask whether the quantity of motion in the world stays the same.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "367",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n392/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-059",
+   "question": "motion-conserved",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "God keeps the same measure of motion in the whole of things, as of matter: if one part's motion decreases, another's increases equally, as a kingdom keeps the same sum of money though it passes between nobles, merchants and the people. To hold otherwise would make God inconstant. The new motions of men, birds and cannon are not new: the spirits lose what the limbs gain, and the cannon's roar grows weaker as it spreads.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "God works constantly and immutably"
+    },
+    {
+     "kind": "analogy",
+     "detail": "the sum of money in a kingdom"
+    }
+   ],
+   "cites": [
+    {
+     "page": "205",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n264/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 17"
+    },
+    {
+     "page": "249",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n308/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 5"
+    },
+    {
+     "page": "250",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n309/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 5"
+    },
+    {
+     "page": "251",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n310/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 5"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-055",
+     "kind": "premise",
+     "detail": "God the general cause works constantly",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-060",
+   "question": "motion-quantity",
+   "text": "R",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The quantity of motion is reckoned on one side by the length of the line the mobile runs through and on the other by the amount of matter moved at once; so two unequal bodies have equal motions when the lines they run are in inverse ratio to their masses, which is the reason of the balance and the lever, the foundation of mechanics, and of liquids at the same height in the two branches of a siphon.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the lever and the inverted siphon"
+    }
+   ],
+   "cites": [
+    {
+     "page": "64",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=104",
+     "read_from": "image",
+     "section": "I.10 art. VII"
+    },
+    {
+     "page": "65",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=105",
+     "read_from": "ocr",
+     "section": "I.10 art. VIII-X"
+    },
+    {
+     "page": "66",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=106",
+     "read_from": "ocr",
+     "section": "I.10 art. X-XI"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-061",
+   "question": "motion-quantity",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling does not reckon a quantity of motion.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-062",
+   "question": "motion-quantity",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin does not reckon a quantity of motion.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "261",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n278/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-063",
+   "question": "motion-quantity",
+   "text": "L",
+   "answer": "mass-times-velocity",
+   "stance": "holds",
+   "part": "common",
+   "statement": "If A moves twice as fast as B and B is twice as large as A, there is as much motion in the one as in the other, since the extension of a moving body is equivalent to the intensity of its motion.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "223",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n282/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 22"
+    },
+    {
+     "page": "250",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n309/mode/1up",
+     "read_from": "ocr",
+     "section": "V a. 5"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-064",
+   "question": "action-at-distance",
+   "text": "R",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "Attraction, sympathy, antipathy and the fear of the void, brought in by philosophers who thought impulsion could not explain all the motions in nature, are chimeras to be excluded for their obscurity: to say the magnet has an attractive virtue or a sympathy with iron explains nothing.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "refutation",
+     "detail": "obscurity: names, not explanations"
+    }
+   ],
+   "cites": [
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=116",
+     "read_from": "image",
+     "section": "I.11 art. XIV"
+    },
+    {
+     "page": "77",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=117",
+     "read_from": "ocr",
+     "section": "I.11 art. XV"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "mais qui au fonds ne sont que des chymeres",
+    "from_image": true,
+    "tr": "but which at bottom are nothing but chimeras"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-037",
+     "kind": "premise",
+     "detail": "impulsion is the only clearly conceived way of moving a body",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-065",
+   "question": "action-at-distance",
+   "text": "S",
+   "answer": "yes",
+   "stance": "rejects",
+   "part": "common",
+   "statement": "A mover that no longer touches what it moves cannot be the cause of its motion, since union between mover and moved is necessary.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "393",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=411",
+     "read_from": "image",
+     "section": "II.7 q. V"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-066",
+   "question": "action-at-distance",
+   "text": "G",
+   "answer": "only-through-medium",
+   "stance": "holds",
+   "part": "common",
+   "statement": "There is no action at a distance: the mover must be joined to the moved by itself or by its virtue spread through the medium, against some and in a way against Scotus. Action follows being; nothing works where it is not, in itself or in its virtue; and the virtue of every bodily agent grows weaker the farther it spreads, until it fails. Hence nature uses local motion to join agents to patients, and abhors a void, which would prevent the contact.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "action follows being"
+    },
+    {
+     "kind": "observation",
+     "detail": "heat, light, smells and sounds weaken with distance"
+    },
+    {
+     "kind": "scripture",
+     "detail": "Paul at Athens: in him we live and move"
+    }
+   ],
+   "persons": [
+    {
+     "name": "John Duns Scotus",
+     "dates": "c. 1266-1308",
+     "role": "opposed"
+    },
+    {
+     "name": "Thomas Aquinas",
+     "dates": "1225-1274",
+     "role": "followed"
+    },
+    {
+     "name": "Aristotle",
+     "dates": "384-322 BC",
+     "role": "followed"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "372",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n397/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. II"
+    },
+    {
+     "vol": "2",
+     "page": "373",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n398/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. II"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non datur actio indistans",
+    "from_image": true,
+    "tr": "There is no action at a distance"
+   }
+  },
+  {
+   "id": "1675-motion-067",
+   "question": "action-at-distance",
+   "text": "L",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Le Grand does not take up action at a distance in these articles; he rejects heaviness and impressed qualities as causes of motion because no one can say how they act.",
+   "cites": [
+    {
+     "page": "208",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n267/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 18"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-068",
+   "question": "determination",
+   "text": "R",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The determination of a motion, the body's disposition to go one way rather than another, is a manner of being distinct from the motion: its quantity can stay the same while the motion grows, as a stone thrown sideways reaches the ground in the same time as one dropped, and it depends on another cause, as a racket's force gives the ball's motion and its slant the ball's direction. Motions and determinations can be compounded, as the cannon ball's curved path is compounded of its slowing level motion and its quickening fall.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the stone thrown sideways; the racket"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the composition of two motions"
+    }
+   ],
+   "cites": [
+    {
+     "page": "110",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=150",
+     "read_from": "ocr",
+     "section": "I.13 art. I-III"
+    },
+    {
+     "page": "111",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=151",
+     "read_from": "ocr",
+     "section": "I.13 art. III"
+    },
+    {
+     "page": "115",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=155",
+     "read_from": "ocr",
+     "section": "I.14 art. I-II"
+    },
+    {
+     "page": "119",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=159",
+     "read_from": "ocr",
+     "section": "I.14 art. VI-VII"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-069",
+   "question": "determination",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling has no determination of motion distinct from motion.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-070",
+   "question": "determination",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin has no determination of motion distinct from motion.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "261",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n278/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-071",
+   "question": "determination",
+   "text": "L",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The determination, by which a mobile is directed from its starting point to a certain term, differs from the motion itself: it can be taken away while the motion stays whole, as when a body stopped by another goes back with all its motion; motions do not destroy each other, but determinations do; and the determination depends on the situation of the racket and the surrounding bodies, not on the mover's force. A cannon ball's path is curved because two causes concur.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "what can be taken away while a thing stays whole is not its nature"
+    }
+   ],
+   "cites": [
+    {
+     "page": "213",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n272/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    },
+    {
+     "page": "214",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n273/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    },
+    {
+     "page": "215",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n274/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    },
+    {
+     "page": "216",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n275/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-072",
+   "question": "reflection-rest",
+   "text": "R",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "There is no moment of rest at the point of reflection, as some philosophers imagine: the reflected motion is only the continuation of the direct one, and a body at rest for a single moment would have as much reason to stay at rest as if it had rested a century.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a thing keeps whatever state it has at each moment"
+    }
+   ],
+   "cites": [
+    {
+     "page": "114",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=154",
+     "read_from": "image",
+     "section": "I.13 art. IX-X"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "il n'y a point de moment de repos au point de reflexion, comme quelques Philosophes se l'imaginent",
+    "from_image": true,
+    "tr": "there is no moment of rest at the point of reflection, as some philosophers imagine"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-049",
+     "kind": "premise",
+     "detail": "a thing keeps the state it has at each moment",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-073",
+   "question": "reflection-rest",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling does not treat reflection in his chapter on motion.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-074",
+   "question": "reflection-rest",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin does not treat reflection in disputation III.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "261",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n278/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-075",
+   "question": "reflection-rest",
+   "text": "L",
+   "answer": "no",
+   "stance": "holds",
+   "part": "common",
+   "statement": "No moment of rest is given at the point of reflection, since direct and reflected motion are one notion and the second is only the continuation of the first; were the motion interrupted, no cause would remain to start it again, and a body that had rested a moment would stay at rest as if it had rested for ages.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "215",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n274/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 20"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-024",
+     "kind": "premise",
+     "detail": "each thing stays in its state",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-076",
+   "question": "reflection-angle",
+   "text": "R",
+   "answer": "equal",
+   "stance": "holds",
+   "part": "common",
+   "statement": "A body that strikes a hard, unshakeable surface obliquely keeps the part of its determination along the surface and loses only the part towards it; supposing equal speed and no resistance of the air, it rebounds so that the angle of reflection equals the angle of incidence. A body falling perpendicularly rebounds along the same line.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the circle and the parallel lines of the construction"
+    }
+   ],
+   "cites": [
+    {
+     "page": "115",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=155",
+     "read_from": "ocr",
+     "section": "I.13 art. XI"
+    },
+    {
+     "page": "122",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=162",
+     "read_from": "ocr",
+     "section": "I.15 art. II"
+    },
+    {
+     "page": "123",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=163",
+     "read_from": "ocr",
+     "section": "I.15 art. III"
+    },
+    {
+     "page": "125",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=165",
+     "read_from": "ocr",
+     "section": "I.15 art. III"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-068",
+     "kind": "premise",
+     "detail": "the oblique determination is compounded of two",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-077",
+   "question": "reflection-angle",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling does not treat reflection in his chapter on motion.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-078",
+   "question": "reflection-angle",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin does not treat reflection in disputation III.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "261",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n278/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-079",
+   "question": "reflection-angle",
+   "text": "L",
+   "answer": "equal-if-speed-kept",
+   "stance": "holds",
+   "part": "common",
+   "statement": "With Descartes' construction in chapter 2 of the Dioptrique, a ball that keeps its speed rebounds always at an angle equal to the angle of incidence, as a ray does from a plane mirror. But the angles need not always be equal: if the ball loses half its speed at the point of contact, the angle of reflection is smaller ('reflection from the perpendicular'); if it gains, larger ('reflection to the perpendicular').",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "mathematics",
+     "detail": "the construction of Descartes' Dioptrique, ch. 2"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "followed",
+     "note": "Dioptrique ch. 2"
+    }
+   ],
+   "cites": [
+    {
+     "page": "217",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n276/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 21"
+    },
+    {
+     "page": "218",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n277/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 21"
+    }
+   ],
+   "quote": {
+    "lang": "la",
+    "orig": "Non tamen necessum est, ut Angulus reflexionis semper sit æqualis angulo incidentiæ",
+    "from_image": true,
+    "tr": "Yet it is not necessary that the angle of reflection always be equal to the angle of incidence"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-071",
+     "kind": "premise",
+     "detail": "the oblique determination is compounded of two",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-080",
+   "question": "refraction-cause",
+   "text": "R",
+   "answer": "unequal-resistance",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Refraction, which the ancients confused with reflection, is the change of determination of a body passing into a medium that receives it more or less easily. Its cause was unknown to antiquity and was discovered by one of the first men of this century: since a thing persists in its state as far as it can, a body that leaves the straight line must meet more resistance on the side it bends away from. Water resisting a ball more than air, the ball bends away from the perpendicular; passing into an easier medium it bends towards it. Only the part of the determination across the surface is changed, so the amount of refraction follows from how much more one medium resists; a ball striking very obliquely does not enter but skips, like cannon balls at sea and children's stones on water.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "a thing persists in its state"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the construction with the circle"
+    },
+    {
+     "kind": "observation",
+     "detail": "cannon balls skipping on the sea in sea fights; ducks and drakes"
+    }
+   ],
+   "persons": [
+    {
+     "name": "René Descartes",
+     "dates": "1596-1650",
+     "role": "credited",
+     "note": "unnamed: 'l'un des premiers hommes de ce siecle'"
+    }
+   ],
+   "cites": [
+    {
+     "page": "121",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=161",
+     "read_from": "ocr",
+     "section": "I.15 art. I"
+    },
+    {
+     "page": "126",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=166",
+     "read_from": "image",
+     "section": "I.15 art. VI"
+    },
+    {
+     "page": "127",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=167",
+     "read_from": "ocr",
+     "section": "I.15 art. VII"
+    },
+    {
+     "page": "128",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=168",
+     "read_from": "ocr",
+     "section": "I.15 art. VIII-X"
+    },
+    {
+     "page": "132",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=172",
+     "read_from": "ocr",
+     "section": "I.15 art. XIII"
+    }
+   ],
+   "quote": {
+    "lang": "fr",
+    "orig": "une des choses que l'Antiquité a ignorées, & dont la découverte est deuë à l'un des premiers hommes de ce siecle",
+    "from_image": true,
+    "tr": "one of the things antiquity did not know, whose discovery is owed to one of the foremost men of this century"
+   },
+   "rests_on": [
+    {
+     "claim": "1675-motion-019",
+     "kind": "premise",
+     "detail": "each thing persists in its state, so a bend needs an obstacle",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-motion-068",
+     "kind": "premise",
+     "detail": "only one part of the compounded determination is changed",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-081",
+   "question": "refraction-cause",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling does not treat refraction in his chapter on motion.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-082",
+   "question": "refraction-cause",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin does not treat refraction in disputation III.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "261",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n278/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. I"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-083",
+   "question": "refraction-cause",
+   "text": "L",
+   "answer": "unequal-resistance",
+   "stance": "holds",
+   "part": "common",
+   "statement": "The cause of refraction can only be an obstacle: since each thing stays in its state as far as it can, a body that bends from its straight way must meet more resistance on the side it leaves. So a ball passing from air into water, which resists it more, bends away from the perpendicular, and into a medium that resists less, towards it, as a general maxim for all bodies and media. With water resisting twice as much as air, the ball's speed is halved at the surface and its path is found by the same construction as for reflection; struck too obliquely it does not enter but rebounds, as boys' stones and cannon balls in sea fights.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "metaphysics",
+     "detail": "each thing stays in its state"
+    },
+    {
+     "kind": "mathematics",
+     "detail": "the construction with the circle"
+    },
+    {
+     "kind": "observation",
+     "detail": "stones skipped on water; cannon balls in sea fights"
+    }
+   ],
+   "cites": [
+    {
+     "page": "216",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n275/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 21"
+    },
+    {
+     "page": "219",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n278/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 21"
+    },
+    {
+     "page": "220",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n279/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 21"
+    },
+    {
+     "page": "221",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n280/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 21"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-024",
+     "kind": "premise",
+     "detail": "each thing stays in its state, so a bend needs an obstacle",
+     "basis": "page"
+    },
+    {
+     "claim": "1675-motion-071",
+     "kind": "premise",
+     "detail": "only one part of the compounded determination is changed",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-084",
+   "question": "motion-in-plenum",
+   "text": "R",
+   "answer": "give-way",
+   "stance": "holds",
+   "part": "common",
+   "statement": "Since the world is full, a body moving in a straight line pushes another and that one a third, but not to infinity: some of those pushed turn aside to take the place the first has left, so that whenever a body moves a certain quantity of matter moves in a ring, or something equivalent. The philosophers, not seeing this, brought in attraction and the fear of the void.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "76",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=116",
+     "read_from": "image",
+     "section": "I.11 art. XIII-XIV"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-001",
+     "kind": "premise",
+     "detail": "the world is full",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-085",
+   "question": "motion-in-plenum",
+   "text": "S",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Sperling does not ask in his chapter on motion how bodies move in a full world.",
+   "cites": [
+    {
+     "page": "370",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=388",
+     "read_from": "image",
+     "section": "II.7"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-086",
+   "question": "motion-in-plenum",
+   "text": "G",
+   "stance": "not_taken_up",
+   "part": "common",
+   "statement": "Goudin does not ask in disputation III q. I or VI how bodies move in a full world.",
+   "cites": [
+    {
+     "vol": "2",
+     "page": "372",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n397/mode/1up",
+     "read_from": "image",
+     "section": "disp. III q. VI a. II"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-087",
+   "question": "motion-in-plenum",
+   "text": "L",
+   "answer": "give-way",
+   "stance": "holds",
+   "part": "common",
+   "statement": "With no void in nature, a body moves only in a circle: as it moves, it drives another out of the space it enters, and that another, to the last, which enters the place the first left at the same moment; so motion happens without penetration of bodies.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "203",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n262/mode/1up",
+     "read_from": "image",
+     "section": "IV a. 16"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-place-void-time-005",
+     "kind": "premise",
+     "detail": "no void in nature",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-088",
+   "question": "inertia-force",
+   "text": "L",
+   "answer": "real-resistance",
+   "stance": "holds",
+   "part": "why",
+   "statement": "Every force a body has to act on another or to resist another's action consists in this one thing, the law that each body stays as far as it can in its state, of rest or of motion: bodies joined at rest resist being separated, and moving bodies have a force to continue at the same speed towards the same part. The force is measured by the body's size, by its surface (the more matter under less surface, the more it resists, as metals against wood), by its speed, and by the manner in which bodies meet.",
+   "confidence": {
+    "level": "asserted",
+    "note": "a force of resisting grounded in the first law; coded real-resistance as for Descartes' force of rest"
+   },
+   "cites": [
+    {
+     "page": "221",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n280/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 22"
+    },
+    {
+     "page": "222",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n281/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 22"
+    },
+    {
+     "page": "223",
+     "url": "https://archive.org/details/bub_gb_hXF3IYaUJc4C/page/n282/mode/1up",
+     "read_from": "ocr",
+     "section": "IV a. 22"
+    }
+   ],
+   "rests_on": [
+    {
+     "claim": "1675-motion-024",
+     "kind": "premise",
+     "detail": "the force consists in the law of persistence",
+     "basis": "page"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-089",
+   "question": "absolute-rest",
+   "text": "R",
+   "stance": "undecided",
+   "between": [
+    "yes",
+    "no"
+   ],
+   "part": "open",
+   "statement": "Whether a body moves is judged by the bodies that touch it, not by points imagined fixed beyond the heaven, where it is very uncertain that any parts of matter are more immobile than those near us; a log carried down a river between two waters is at rest, a fish holding its place against the current moves.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "63",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=103",
+     "read_from": "ocr",
+     "section": "I.10 art. III-IV"
+    },
+    {
+     "page": "64",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb10131888?page=104",
+     "read_from": "image",
+     "section": "I.10 art. IV"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-090",
+   "question": "absolute-rest",
+   "text": "S",
+   "answer": "yes",
+   "stance": "holds",
+   "part": "open",
+   "statement": "Besides the rest that precedes motion and the rest that follows it as its completion, there is a rest that no motion ever preceded or will ever follow: the rest of the earth and of the heaven.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "cites": [
+    {
+     "page": "376",
+     "url": "https://www.digitale-sammlungen.de/en/view/bsb11273836?page=394",
+     "read_from": "ocr",
+     "section": "II.7 on precept XII"
+    }
+   ]
+  },
+  {
+   "id": "1675-motion-091",
+   "question": "action-at-distance",
+   "text": "G",
+   "answer": "only-through-medium",
+   "stance": "holds",
+   "part": "open",
+   "statement": "The seeming actions at a distance are all by virtue spread through the medium: the torpedo numbs the fisherman's hand through the net and the line; fascinating eyes harm tender bodies with their quality; the magnet acts on iron through a board only after a delay, while its subtle virtue works into the pores; one lute string sets another trembling by a tremor of the air; yawning spreads by species. Of the sympathetic powder that cures the wounded at a distance, the experiments are not certain, and if it works, it works by the subtle spirits of the vitriol and the blood carried to the wound, as Digby notes; the bleeding of a murdered body before its murderer may be explained the same way. Very likely the powder has no force at all.",
+   "confidence": {
+    "level": "asserted"
+   },
+   "reasons": [
+    {
+     "kind": "observation",
+     "detail": "the torpedo, the magnet through a board, the lute strings"
+    },
+    {
+     "kind": "authority",
+     "detail": "Digby on the sympathetic powder"
+    }
+   ],
+   "persons": [
+    {
+     "name": "Kenelm Digby",
+     "dates": "1603-1665",
+     "role": "reported",
+     "note": "Discourse on the sympathetic powder"
+    }
+   ],
+   "cites": [
+    {
+     "vol": "2",
+     "page": "374",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n399/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. II"
+    },
+    {
+     "vol": "2",
+     "page": "375",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n400/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. II"
+    },
+    {
+     "vol": "2",
+     "page": "376",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n401/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. II"
+    },
+    {
+     "vol": "2",
+     "page": "377",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n402/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. II"
+    },
+    {
+     "vol": "2",
+     "page": "378",
+     "url": "https://archive.org/details/bub_gb_D2e2JGtx1rwC/page/n403/mode/1up",
+     "read_from": "ocr",
+     "section": "disp. III q. VI a. II"
+    }
+   ]
+  }
+ ]
+}
