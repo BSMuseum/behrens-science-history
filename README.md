@@ -33,7 +33,7 @@ Every entry has two forms: a page on the site, and a claims file that records ea
 ## Status
 
 - **c. 1775**, natural philosophy: all 13 topics published, one text per region (Biwald, Graz; Erxleben, Göttingen; Nollet, Paris; Ferguson or Martin, London). Claims not yet independently verified.
-- **c. 1675**, natural philosophy: 2 of 25 topics published (light and colours; water, the sea and springs).
+- **c. 1675**, natural philosophy: 6 of 25 topics published (matter and form; causes, nature, chance and fate; divisibility, place, void and time; motion and its communication; light and colours; water, the sea and springs).
 - **c. 1575**: texts proposed under rule R1; reading not begun.
 
 The plan and its decisions are in [`docs/charter.md`](docs/charter.md); the minimum viable product (three snapshots of natural philosophy) in [`docs/mvp-plan.md`](docs/mvp-plan.md).

@@ -1,6 +1,6 @@
 {
  "schema": "hos-snapshots/1",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "grid": [
   "1250",
   "1300",
@@ -199,7 +199,7 @@
   {
    "id": "1675",
    "window": "1660-1690",
-   "status": "texts chosen under R1; 2 of 25 topics published (light and colours, water, 2026-11-22)",
+   "status": "texts chosen under R1; 6 of 25 topics published (light and colours, water, 2026-11-22; matter and form, causes, place, void and time, motion, 2026-11-28)",
    "texts": {
     "France": "rohault-traite-1675",
     "Protestant German lands": "sperling-institutiones-1664",
@@ -212,12 +212,12 @@
      "id": "matter-form",
      "title": "Matter and form",
      "sections": {
-      "France": "I.6-8, I.18",
-      "Protestant German lands": "I.2-3",
+      "France": "I.6-7, I.18",
+      "Protestant German lands": "I.2-3 (with the precepts of I.1)",
       "Catholic German lands": "t. 2 disp. I",
-      "British Isles": "IV"
+      "British Isles": "IV a. 3, 8-10"
      },
-     "status": "planned"
+     "status": "published 2026-11-28 (site c. 1675, #matter-form)"
     },
     {
      "id": "causes",
@@ -226,31 +226,31 @@
       "France": "blank",
       "Protestant German lands": "I.1, 4-10",
       "Catholic German lands": "t. 2 disp. II",
-      "British Isles": "IV a. 15 (no final causes in physics)"
+      "British Isles": "IV a. 15, 18; II a. 4 (fate)"
      },
-     "status": "planned"
+     "status": "published 2026-11-28 (site c. 1675, #causes)"
     },
     {
      "id": "place-void-time",
      "title": "Divisibility, place, void and time",
      "sections": {
-      "France": "I.9, I.12",
-      "Protestant German lands": "II.2, 5, 6",
-      "Catholic German lands": "t. 2 disp. III",
-      "British Isles": "IV"
+      "France": "I.8-9, I.12",
+      "Protestant German lands": "II.1 q. V, II.2, 5, 6",
+      "Catholic German lands": "t. 2 disp. III q. II-V",
+      "British Isles": "IV a. 4, 13-14, 26"
      },
-     "status": "planned"
+     "status": "published 2026-11-28 (site c. 1675, #place-void-time)"
     },
     {
      "id": "motion",
      "title": "Motion and its communication (with reflection and refraction)",
      "sections": {
-      "France": "I.10-15",
+      "France": "I.10-11, I.13-15",
       "Protestant German lands": "II.7",
-      "Catholic German lands": "t. 2 disp. III",
-      "British Isles": "IV a. 16 ff., V a. 6"
+      "Catholic German lands": "t. 2 disp. III q. I, VI",
+      "British Isles": "IV a. 16-18, 20-22; V a. 5-6"
      },
-     "status": "planned"
+     "status": "published 2026-11-28 (site c. 1675, #motion)"
     },
     {
      "id": "world",
@@ -502,7 +502,11 @@
     "Protestant German lands": "none found"
    },
    "boundary_notes": [
-    "Light: among the sensible qualities in Rohault's general physics (after sound, before vision); with the heavens in Sperling (Book III, after the heavens and stars) and Goudin (the chief property of the heavenly bodies, physics part 2); divided in Le Grand, the nature of light with the world and the sun (Part V), colours with man, as the object of sight (Part VIII)."
+    "Light: among the sensible qualities in Rohault's general physics (after sound, before vision); with the heavens in Sperling (Book III, after the heavens and stars) and Goudin (the chief property of the heavenly bodies, physics part 2); divided in Le Grand, the nature of light with the world and the sun (Part V), colours with man, as the object of sight (Part VIII).",
+    "Matter and form: general physics in all four. Rohault and Le Grand put matter (extension) and the forms that vary it at the head of the physics, after method; Sperling's first book is on the causes of the natural body; Goudin's first disputation on the principles of mobile being opens with a refutation of Descartes.",
+    "Causes, nature, chance and fate: general physics in Sperling and Goudin, who put nature, the four causes, fortune, chance and fate together after matter and form (Sperling adds monsters as nature's errors; Goudin treats them under the final cause). Le Grand divides the subject: the causes in one short article of the general physics, which refuses final causes, fate in the natural theology, among the articles on God. Rohault has no section.",
+    "Divisibility, place, void and time: general physics in all four. The two Cartesians draw the void and place as corollaries of extension, right after matter; Sperling puts place and time among the affections of the natural body and strikes the infinite and the void off the list as non-beings; Goudin follows Aristotle's last books of the Physics, treating the infinite, time, place and the continuum as conditions of motion. Time has no section in Rohault.",
+    "Motion: general physics in all four. Reflection and refraction sit with motion only in the two Cartesians, who treat them as applications of the laws of motion (Rohault I.15, Le Grand IV a. 21), before and apart from light; Sperling and Goudin have no reflection or refraction here. Le Grand puts the conservation of motion and the rules of impact in his cosmology (Part V), Rohault in his general physics."
    ]
   },
   {
